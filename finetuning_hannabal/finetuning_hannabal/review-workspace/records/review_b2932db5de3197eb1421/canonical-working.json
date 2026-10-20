@@ -1,0 +1,975 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_375a2a24aa5d4ec53ca3",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "completed_contract",
+    "initial_document_kind": "completed_contract",
+    "languages": [
+      {
+        "basis": "script_detection",
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_d82f40ebdf024625d56b",
+            "normalized_end": 1,
+            "normalized_start": 0,
+            "raw_end": 1,
+            "raw_start": 0,
+            "source_id": "src_913cdef8d9e57fb09db9",
+            "text_sha256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a"
+          }
+        ],
+        "tag": "ar"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "completed",
+    "title": "\u0001",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 1,
+        "normalized_start": 0,
+        "raw_end": 1,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "completed_contract_heuristic_requires_review",
+        "message": "Contract-like filename without detected square-bracket placeholders was initially classified completed and requires human confirmation.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      },
+      {
+        "code": "no_sections_confirmed",
+        "message": "No section boundaries were confirmed; meaningful text remains in unparsed_source_content.",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "required",
+    "structure_review_status": "pending",
+    "training_eligibility": "review_required"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [],
+  "source_files": [
+    {
+      "extracted_text_sha256": "87d3769f0c164e5503887241980f7f701bbca9d61ada767eb4bb5c3ae379fb17",
+      "extraction_method": "microsoft_word_com_read_only",
+      "extraction_status": "success",
+      "extraction_warnings": [
+        "word_paragraphs_may_include_table_text"
+      ],
+      "media_type": "application/msword",
+      "page_count": 4,
+      "relative_path": "templates/algérie/نموذج-عقد-بيع.doc",
+      "sha256": "32d00b8411a089b1511521dc9eb22524292900c3d9c31abbb884a2e126d6f99a",
+      "size_bytes": 86016,
+      "source_id": "src_913cdef8d9e57fb09db9"
+    }
+  ],
+  "template_id": "tpl_1394e474b463a42c92f5",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_6b41331ffeeb43f6ee0f",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 1,
+        "normalized_start": 0,
+        "raw_end": 1,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "4bf5122f344554c53bde2ebb8cd2b7e3d1600ad631c385a5d7cce23c7785459a"
+      },
+      "text": "\u0001"
+    },
+    {
+      "content_id": "unparsed_e0add0478afc2abe08c3",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 39,
+        "normalized_start": 0,
+        "raw_end": 39,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "74e6f0d24a9dcc0770cd81fadf06395732a9481a1e2fe1eb28444fcba6a8215e"
+      },
+      "text": "الجمهورية الجزائرية الديمقراطية الشعبية"
+    },
+    {
+      "content_id": "unparsed_7550f0af470a55a0c759",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 20,
+        "normalized_start": 0,
+        "raw_end": 20,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "b14d1883916aa56ca09545b897bdbb464ff7058bf6eaee1db44fd78e5a6dd6cf"
+      },
+      "text": "مكتب عمـومي للتوثيـق"
+    },
+    {
+      "content_id": "unparsed_ed5e468c434c4d7934d4",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 14,
+        "normalized_start": 0,
+        "raw_end": 14,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "e3ddcb10673017608377c9a876ac9e19d473eeda34e5a35ff3bb319eafed23e7"
+      },
+      "text": "رقــــم: /2018"
+    },
+    {
+      "content_id": "unparsed_8421f3060091cc876f32",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 20,
+        "normalized_start": 0,
+        "raw_end": 20,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "186f7c0b4c5613acf70b46b05b43b4bbbb82930dbb9b3216693253273fbf7212"
+      },
+      "text": "فـي: 24 أفـريـل 2018"
+    },
+    {
+      "content_id": "unparsed_3b3ede03264899303690",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 2,
+        "normalized_start": 0,
+        "raw_end": 2,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "764c8a3561c7cf261771b4e1969b84c210836f3c034baebac5e49a394a6ee0a9"
+      },
+      "text": "\u0001\u0015"
+    },
+    {
+      "content_id": "unparsed_a0cd6498a223dcdd36d8",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000007",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 322,
+        "normalized_start": 0,
+        "raw_end": 322,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "fbfee422945b8c2577e1e691c0ca0f92edbcbb014985a41d20b0c67041cd3737"
+      },
+      "text": "البائع السيد: .............. بن ......... المولود في ...... من شهر ..... سنة ألف وتسعمائة ...........(.../..../.......) ب ......... شهادة ميلاده رقم ...... والساكن ............. مهنته عامل نسخة من بطاقة تعريفه الوطنية رقم  ........ الصادرة عن دائرة بتاريخ .../.../.......، وهو متمتع بكامل أهليته المدنية ومن جنسية جزائرية."
+    },
+    {
+      "content_id": "unparsed_13f62a5662866564b0d6",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 142,
+        "normalized_start": 0,
+        "raw_end": 142,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "c89aa9ddc6270ffb72de5d66cee44867cdbe451527081e9413209fb223a6e71f"
+      },
+      "text": "الذي صرح أنه بـاع ملتزما بكافة الضمانات الفعلية والقانونية الجارية في مثل هذا الشأن طبقا للمادة 351 وما بعدها من القانون المدني إلــــى:/ـــــ"
+    },
+    {
+      "content_id": "unparsed_2ae63b2994fbae4e5379",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 323,
+        "normalized_start": 0,
+        "raw_end": 323,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "bba2cebf8dbb541f455e22e42a318da5bb735dc6161e6fb6ab25fd80e13491db"
+      },
+      "text": "المشتري السيد: .............. بن ......... المولود في ...... من شهر ..... سنة ألف وتسعمائة ...........(.../..../.......) ب ......... شهادة ميلاده رقم ...... والساكن ............. مهنته عامل نسخة من بطاقة تعريفه الوطنية رقم  ........ الصادرة عن دائرة بتاريخ .../.../.......، وهو متمتع بكامل أهليته المدنية ومن جنسية جزائرية."
+    },
+    {
+      "content_id": "unparsed_f47d820b81a9a3ab9cbc",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 120,
+        "normalized_start": 0,
+        "raw_end": 120,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "372c0004af849cadb4fb691f18a257f0241ee85a5b9a394962be5811dbf54b5b"
+      },
+      "text": "الحاضر والقابل بنفسـه العقار الذي ذكـر بأنه رآه وعاينه لأجـل هذا العقـد والآتـي بيانـه:/ــــــــــــــــــــــــــــــــ"
+    },
+    {
+      "content_id": "unparsed_99e695d71dadf1384d96",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 2,
+        "normalized_start": 0,
+        "raw_end": 2,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "764c8a3561c7cf261771b4e1969b84c210836f3c034baebac5e49a394a6ee0a9"
+      },
+      "text": "\u0001\u0015"
+    },
+    {
+      "content_id": "unparsed_2f8836e22b79b2367082",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000012",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 191,
+        "normalized_start": 0,
+        "raw_end": 191,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "3725b9ef76ce621e5a8b06d424fb9f1ab14413189bd1c468d09e613f151203e4"
+      },
+      "text": "العقار عبارة عن قطعة أرض صالحة للبناء تحمل رقم: ..... تقع ................................... تبلغ مساحتها الإجمالية ................ متر مربع (.....م²)، حدودها من الجهات الأربعة كالآتي:/ــــ"
+    },
+    {
+      "content_id": "unparsed_38a92c7b250f686791da",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000013",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 68,
+        "normalized_start": 0,
+        "raw_end": 68,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "cd52bcbba86809a8f73b997cbc676069224ca38b06cf05789eaf775dcd5714e2"
+      },
+      "text": "* شمـالا: ..................../ــــ * جنوبـا: ................./ــــ"
+    },
+    {
+      "content_id": "unparsed_0dda92c12c2c97cd5109",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000014",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 65,
+        "normalized_start": 0,
+        "raw_end": 65,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "4cea2170bbdf695c279084bee5eaf0abe7e880bd141ae357793be54be7c026b8"
+      },
+      "text": "* شرقـا: ................../ـــــ * غـربـا: ............../ــــــ"
+    },
+    {
+      "content_id": "unparsed_38e4dd40e6a2c397f9ac",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 2,
+        "normalized_start": 0,
+        "raw_end": 2,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "764c8a3561c7cf261771b4e1969b84c210836f3c034baebac5e49a394a6ee0a9"
+      },
+      "text": "\u0001\u0015"
+    },
+    {
+      "content_id": "unparsed_7be841d73cba1978e10c",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000016",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 341,
+        "normalized_start": 0,
+        "raw_end": 341,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "2e8a3ac82d1fd50062c1b6aad041e62046b402485ae496d77dfa83497bb871ba"
+      },
+      "text": "تملك البائع هذا العقار بموجب عقد بيع قطعة أرض المحرر بمكتب الأستاذ ................. الموثق ب ........ بتاريخ .../.../....... تحت رقم ...../2011 والمسجل بمفتشية التسجيل والطابع بورقلة بتاريخ: .../.../....... تحت رقم 13599 والمشهر بالمحافظة العقارية بورقلة بتاريخ .../.../...... إيداع رقم .../...... جـزء ..... رقـم ...../ــــــــــــــــــــ"
+    },
+    {
+      "content_id": "unparsed_92c627ca73a7acd94fd8",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000017",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 57,
+        "normalized_start": 0,
+        "raw_end": 57,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "c7932f7baba36ef7929c765ed7c4445439be4183dea21ab039657ddb6663c529"
+      },
+      "text": "حيـث كانـت قيمتـه السـابقـة: (300.000.00دج)./ــــــــــــ"
+    },
+    {
+      "content_id": "unparsed_d24c27094c020f66282c",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000018",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 2,
+        "normalized_start": 0,
+        "raw_end": 2,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "764c8a3561c7cf261771b4e1969b84c210836f3c034baebac5e49a394a6ee0a9"
+      },
+      "text": "\u0001\u0015"
+    },
+    {
+      "content_id": "unparsed_320fffdbc6c9bbb180b6",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000019",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 576,
+        "normalized_start": 0,
+        "raw_end": 576,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "f9720e64e39208ba21a8166178631062b7a00a1ff34616147d97143e420f1004"
+      },
+      "text": "بعد الإيجاب والقبول من الطرفين تم تقييـم العقار بمبلغ قدره: ................... دينـار جزائري (................دج) والثمن دفعه المشتري نقدا للبائع الذي اعترف بذلك وأبرأت ذمة المشتري منه وذلك بالأوراق النقدية المتداولة قانونا وتمت بذلك المخالصة نهائيا ووفقا للأحكام القانونية المعمول بها في هذا الشأن, أودع المشتري نصف الثمن المصرح به في حساب الزبائن للموثق الممضي أسفله والمقدر .............. دينار جزائري (.................دج) بوصل خزينة رقـم ......../18 بتاريـخ .../.../....... ليتسلمه البائع بعد إتمام الإجراءات الخاصة بالمحافظة على فوائـد الخزينـة./ـــــــــــــــــــــــ"
+    },
+    {
+      "content_id": "unparsed_2eb4525af0cdece2c0d1",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000020",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 2,
+        "normalized_start": 0,
+        "raw_end": 2,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "764c8a3561c7cf261771b4e1969b84c210836f3c034baebac5e49a394a6ee0a9"
+      },
+      "text": "\u0001\u0015"
+    },
+    {
+      "content_id": "unparsed_feb8a5c67e6a95f4b1f3",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000021",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 136,
+        "normalized_start": 0,
+        "raw_end": 136,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "f52d7870c525917c8127fb4164e016151d0c9c30b6ed5f1576810579272ca406"
+      },
+      "text": "بموجب هذا العقد وابتداء من تاريخه يصبح المشتري حائزا للعقار المباع لـه وينتفـع بالحيازة الحقيقية والعينية كذلك من تاريخـه./ـــــــــــــ"
+    },
+    {
+      "content_id": "unparsed_7350de6d03e0ccb7c781",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000022",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 273,
+        "normalized_start": 0,
+        "raw_end": 273,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "fbcb8840f429d20a4ec7810f1f72d880ca5203bd9499b3030dca2cd909f847df"
+      },
+      "text": "- أما الملكية التامة فتنتقل إليه باستيفاء إجراء الإشهار العقاري طبقا لنص المادة 793 من القانون المدني وللأحكام المنصوص عليها في المرسوم رقـم 76/63 المؤرخ في 25مارس1976 المتضمن تأسيس السجل العقـاري المعدل والمتمم بالمرسوم التنفيـذي رقم123/93 المـؤرخ في19 ماي 1993./ـــــــــ"
+    },
+    {
+      "content_id": "unparsed_d84ac2fcf1c0922a4344",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000023",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 2,
+        "normalized_start": 0,
+        "raw_end": 2,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "764c8a3561c7cf261771b4e1969b84c210836f3c034baebac5e49a394a6ee0a9"
+      },
+      "text": "\u0001\u0015"
+    },
+    {
+      "content_id": "unparsed_5b7034e613b6c7b677eb",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000024",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 213,
+        "normalized_start": 0,
+        "raw_end": 213,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "cd64d58fe27b9c5f9892549f2ee1a0a41470e8bcc7bc2ffd48db1e3da3c0af95"
+      },
+      "text": "تم هذا البيع وقبل به الطرفان وفق التكاليف والشروط العادية والقانونية الجارية في مثل هذا الشأن والمنصوص عليها في القانون المدني لاسيما التالية التي التزم المشتري بتنفيذها وأدائها وهــي:/----------------------------"
+    },
+    {
+      "content_id": "unparsed_2cf852ca51b5d89bcef3",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000025",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 189,
+        "normalized_start": 0,
+        "raw_end": 189,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "2eb4d62bdf95aadc08b21e119e16d2cb8a79cd428ce7e32d2e17e4fbde14019d"
+      },
+      "text": "- يلتزم المشتـري بتسلـم العقار المبـاع على حالته الراهنة من غير أن يكون له حـق الرجوع على البائع في جميع الحالات إلا مـا ورد فـي نص صريح من القانون المدني./ـــــــــــــــــــــــــــــــــ"
+    },
+    {
+      "content_id": "unparsed_b43877abcaf041dd486a",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000026",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 429,
+        "normalized_start": 0,
+        "raw_end": 429,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "ef94132c9544b681ed193d2bd8a939b984272eeb9b475403f9026d485efa09b7"
+      },
+      "text": "- يتحمل المشتري جميع حقوق الارتفاق المترتبة على العقار المباع حاليا مهما كـان نوعها الظاهرة منها أو الباطنـة الجاريـة أو المتوقفة ما لم يعارض فيها وينتفع بالمقابل بتلك الإيجابية والنافعة إن وجدت كل ذلك تحت مسؤوليته من غير رجوع على البائع لأي سبب كان ومن دون أن يمنح هذا الشرط لأي كان حقوقا أكثر مما يستحق بموجب وثائق رسمية لم تسقط بالتقادم أو بحكـم القانون ومن غير أن يضر هذا الشرط بالحقوق الناتجة للمشتري بموجب هذا العقـد./ـــــ"
+    },
+    {
+      "content_id": "unparsed_a49dc25310f1731b4595",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000027",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 152,
+        "normalized_start": 0,
+        "raw_end": 152,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "c0289a6c392a86e0a78631776e0f68ec771ba6689c0480e1f11a37bffb2536d9"
+      },
+      "text": "- يتحمل المشتري سائر المصاريف والحقوق والأتعاب التوثيقية المترتبة على هذا العقد وتوابعه القانونية والعادية، ماعدا التي هي على البائع بمقتضى القانون./ـــ"
+    },
+    {
+      "content_id": "unparsed_6ec12ee1dff097f84390",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000028",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 2,
+        "normalized_start": 0,
+        "raw_end": 2,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "764c8a3561c7cf261771b4e1969b84c210836f3c034baebac5e49a394a6ee0a9"
+      },
+      "text": "\u0001\u0015"
+    },
+    {
+      "content_id": "unparsed_13b1f4d13bc821c3ab4d",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000029",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 125,
+        "normalized_start": 0,
+        "raw_end": 125,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "24b145f7a88f1a5bb3f128aab1ed4da6fad5b5497a97bd6f9ba7aa6e71370285"
+      },
+      "text": "ستشهر نسخة من هذا العقد بالمحافظة العقارية بورقلة بسعي من الموثـق الموقع أسفله وعلى نفقة المشتري ./ــــــــــــــــــــــــــ"
+    },
+    {
+      "content_id": "unparsed_7b7ee4e17dc276d1fe2e",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000030",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 289,
+        "normalized_start": 0,
+        "raw_end": 289,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "39238b4acb6f47cabc52f417e7e1e30009c44c5dbe4bbeba63fb48efd775d3ed"
+      },
+      "text": "وإن ظهر عند إتمام هذا الإجراء أو بعده أن العقار المباع ترتبت عليه ديون أو أعباء أو قيود تجعله مرهونا فيها ضمانا لتسديدها أو تنفيذها, فيجب على البائع إحضار عقود فك الرهون وشهادات محوها على نفقته  خلال الشهر الذي يلي إشعارها بتلك الديون أو القيود أو الأعباء في موطنها المختار فيما بعد./ـــــ"
+    },
+    {
+      "content_id": "unparsed_1633bf15ded8dd011552",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000031",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 2,
+        "normalized_start": 0,
+        "raw_end": 2,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "764c8a3561c7cf261771b4e1969b84c210836f3c034baebac5e49a394a6ee0a9"
+      },
+      "text": "\u0001\u0015"
+    },
+    {
+      "content_id": "unparsed_827ac5957944becdf623",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000032",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 66,
+        "normalized_start": 1,
+        "raw_end": 66,
+        "raw_start": 1,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "26dc396ee1493cef108db672d1d53f4ec1a17a5afee7cc458358cd760bf29234"
+      },
+      "text": "فوض الأطراف الموثق بالقيام بالتصحيحات اللازمة في العقد./ـــــــــ"
+    },
+    {
+      "content_id": "unparsed_2aa809bf29330d967811",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000033",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 2,
+        "normalized_start": 0,
+        "raw_end": 2,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "764c8a3561c7cf261771b4e1969b84c210836f3c034baebac5e49a394a6ee0a9"
+      },
+      "text": "\u0001\u0015"
+    },
+    {
+      "content_id": "unparsed_802ea81dba81b5c28eca",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000034",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 215,
+        "normalized_start": 0,
+        "raw_end": 215,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "9fd47527e4a1a248f09a57cd353fcb2136fe1520204cb03d8d57777392cfd8b4"
+      },
+      "text": "صرح البائع وتحت مسؤوليته أنه من جنسية جزائرية وأنه كامل الحقوق المدنية التي تخول له القيام بالتصرفات القانونية وأنه لم يتعرض لأية عقوبة أو تدابير أمن تحد من حريته وصرح بأن العقار بيع وهو صاف من كل ديـن وتبعية./ـــــ"
+    },
+    {
+      "content_id": "unparsed_d891dab10b1e9edd7b18",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000035",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 2,
+        "normalized_start": 0,
+        "raw_end": 2,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "764c8a3561c7cf261771b4e1969b84c210836f3c034baebac5e49a394a6ee0a9"
+      },
+      "text": "\u0001\u0015"
+    },
+    {
+      "content_id": "unparsed_7167e80623f4ae442b88",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000036",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 135,
+        "normalized_start": 0,
+        "raw_end": 135,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "dba7d3702f89a45124ee04ffa13c0496472d67d99f5507ef35a23f2b7e1f15c7"
+      },
+      "text": "في الحين سلـم البائع للمشتري المعترف بذالك نسخة من سنـد الملكية المحلل أعلاه وجميع توابعه وأبرئت بذالك ذمة البائـع منـه./ــــــــــــــ"
+    },
+    {
+      "content_id": "unparsed_c602be703c286088a5b3",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000037",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 2,
+        "normalized_start": 0,
+        "raw_end": 2,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "764c8a3561c7cf261771b4e1969b84c210836f3c034baebac5e49a394a6ee0a9"
+      },
+      "text": "\u0001\u0015"
+    },
+    {
+      "content_id": "unparsed_56cd0fe4cab5592a2d75",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000038",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 365,
+        "normalized_start": 0,
+        "raw_end": 365,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "815fe22813152014970ae1e43da66ccbc7615f5eaa9934634385b5e8e46ad579"
+      },
+      "text": "وقبل إتمام هذا العقد تـلا الموثـق على الطرفين نص المواد {113 و114 و118 و119 و133 و134} من قانون التسجيل وبعد استفسارهما من طرف الموثق الموقع أدناه أكد الطرفان تحت طائلة العقوبات المنصوص عليها في المادة 134 من قانون التسجيل وأن هذا العقـد يتضمن القيمة الحقيقية للعقار المباع وأن الموثق لا يعلم بأن هذا العقد وقع فيه تعديل بسند مضاد يتضمن زيادة في الثمن./ــــــــــــ"
+    },
+    {
+      "content_id": "unparsed_c3f14503632e2c42e9d2",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000039",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 288,
+        "normalized_start": 0,
+        "raw_end": 288,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "d7320ebfa4af9bbe5244f46df7b9ef0c1605053f8e2a1efbe24d6d530a98311d"
+      },
+      "text": "*- وتلا عليهما محتويات المواد:57 ومن:123 إلى: 127 والمادة:303 من قانون الضرائب المباشرة والرسوم المماثلة المعدلة بالمادة: 28 من القانون رقم 02-11 المؤرخ في: 24ديسمبر2002 المتضمن قانون المالية لسنة 2003 وبالمادة 13 من قانون رقم11-16 المؤرخ في28ديسمبر2011 والمتضمن قانون المالية لسنة2012./ـ"
+    },
+    {
+      "content_id": "unparsed_3e0bbcb14b67761bd6d1",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000040",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 590,
+        "normalized_start": 0,
+        "raw_end": 590,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "4da650c48240463c821cf92767d1a9a7d23c81bf2fdf83157d0bb81c3f118e34"
+      },
+      "text": "وعليه شهـد وأكـد الطرفان المتعاقدان تحت طائلة العقوبات المنصوص عليها في المادة 119 و134 من قانون التسجيل بأن هذا العقـد يعبر عن كامل الثمن المتفق عليه والمصرح به أعلاه وأنه لا يوجد أي انتقاص أو تخفيض فيه وأشهد الموثق الممضي أسفله من جهته بأنه ليس في علمه بأن هذا العقـد وقع فيه التعديل بمستند مضاد يتضمن الزيادة في الثمن المصرح به أعلاه وأخيرا ألفت الموثق الممضي أسفله انتباه الطرفين المتعاقدين كما هما قائمان وتلا عليهما محتويات المواد 91، 107، 112 من قانون التسجيل الخاصة بتضامن من الطرفين المتعاقدين بينهما في اداء حقوق التسجيل والعقوبات في حالة وجود نقص في الثمن المصرح أعلاه./ـــــــــ"
+    },
+    {
+      "content_id": "unparsed_a4287090a499a70e4114",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000041",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 2,
+        "normalized_start": 0,
+        "raw_end": 2,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "764c8a3561c7cf261771b4e1969b84c210836f3c034baebac5e49a394a6ee0a9"
+      },
+      "text": "\u0001\u0015"
+    },
+    {
+      "content_id": "unparsed_39632ce89649cbe44b2d",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000042",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 54,
+        "normalized_start": 0,
+        "raw_end": 54,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "4427069f282577a26818143be1d07b2e5c931a53539ea615259b04dfd4394f24"
+      },
+      "text": "أبـرم هـذا العقـد بحضـور الشاهديـــن:/ــــــــــــــــ"
+    },
+    {
+      "content_id": "unparsed_adce69e3c998d27f264b",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000043",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 272,
+        "normalized_start": 0,
+        "raw_end": 272,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "29666f95f05a645da6bbe29fc70b11f634704befdbef945af56f88a75b81b6ac"
+      },
+      "text": "أولا/السيـد: .............. بن ......... المولود في ...... من شهر ..... سنة ألف وتسعمائة ...........(.../..../.......) ب ......... والساكن ............. مهنته عامل نسخة من بطاقة تعريفه الوطنية رقم  ........ الصادرة عن دائرة بتاريخ 08/02/2010 وهو من جنسية جـزائرية./ـــــــ"
+    },
+    {
+      "content_id": "unparsed_f0cf8d0ed37fba0c9c1d",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000044",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 273,
+        "normalized_start": 0,
+        "raw_end": 273,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "cfa1488d801cf182ea9a571335f00c6cdecdae249dc17b3e1138ae2732b7a79f"
+      },
+      "text": "ثانيا/السيـد: .............. بن ......... المولود في ...... من شهر ..... سنة ألف وتسعمائة ...........(.../..../.......) ب ......... والساكن ............. مهنته عامل نسخة من بطاقة تعريفه الوطنية رقم  ........ الصادرة عن دائرة بتاريخ 08/02/2010 وهو من جنسية جـزائرية./ـــــــ"
+    },
+    {
+      "content_id": "unparsed_ff700c47ec59be5582de",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000045",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 214,
+        "normalized_start": 0,
+        "raw_end": 214,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "f61acca489a286ca0859c6d0e78e5b3f48e4f79f7df50c3b7b938b891b1d7192"
+      },
+      "text": "شاهدا التعريف اللذان حضرا بموجب هذا العقـد صرحا وأكدا للموثق الممضي أسفله بأنهما يعرفان أتم المعرفة البائع والمشتري اسما ولقبـا وحالة ومسكنا وأكـدا حالتهما المدنية هذا بعد إنذارهما من قبل الموثق المذكور بالمسؤوليات"
+    },
+    {
+      "content_id": "unparsed_f121a0d75ed9a2a2e8b0",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000046",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 127,
+        "normalized_start": 0,
+        "raw_end": 127,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "258a8d1cb95fdadc0cb74ba1c1325101334a222d0d20404bbba7ff64cf52499e"
+      },
+      "text": "المدنية والجنائية والتي من الممكن أن تقع عليهما إن كان إشهادهما غير صادق أو كان مبنيا على عمل تدليسي./ـــــــــــــــــــــــــ"
+    },
+    {
+      "content_id": "unparsed_8872b585b7737c09cb60",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000047",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 2,
+        "normalized_start": 0,
+        "raw_end": 2,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "764c8a3561c7cf261771b4e1969b84c210836f3c034baebac5e49a394a6ee0a9"
+      },
+      "text": "\u0001\u0015"
+    },
+    {
+      "content_id": "unparsed_46f7da1c79638e4e302c",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000048",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 120,
+        "normalized_start": 0,
+        "raw_end": 120,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "eb7c8d911ef1a91ea2f1490169ede76ee8281b18ef96bb1f6ac95ea65011a35f"
+      },
+      "text": "لأجل تنفيـذ هذا العقـد وجميع توابعه اختار كل طرف موطنه القانوني مسكنه ومقـره المذكـور أعـلاه./ــــــــــــــــــــــــــ"
+    },
+    {
+      "content_id": "unparsed_0a8a22b164e2472d6812",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000049",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 2,
+        "normalized_start": 0,
+        "raw_end": 2,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "764c8a3561c7cf261771b4e1969b84c210836f3c034baebac5e49a394a6ee0a9"
+      },
+      "text": "\u0001\u0015"
+    },
+    {
+      "content_id": "unparsed_095c18533976f43bd2a7",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000050",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 58,
+        "normalized_start": 0,
+        "raw_end": 58,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "9dd69f3ac59afa515ef8ba14399d86dc5023f6199709e210127ef67011c053f2"
+      },
+      "text": "حـرر وانـعقد بمكتـب الموثـق الموقـع أدنـاه./ــــــــــــــ"
+    },
+    {
+      "content_id": "unparsed_36a3a31c250ef20e3e1b",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000051",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 63,
+        "normalized_start": 0,
+        "raw_end": 63,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "e8ca4224cdd813b24d1b4f76d7be6592a1b6940471edc976b1ba7171c2cc1624"
+      },
+      "text": "فـي ................... مـن شهــر ................../ــــــــــ"
+    },
+    {
+      "content_id": "unparsed_4a3ab7a91b3aecaaafbe",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000052",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 55,
+        "normalized_start": 0,
+        "raw_end": 55,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "84fcaa41d0bf138f7eee081238b739bad3511036396bf3bee66de718853d98ac"
+      },
+      "text": "عــام ألفيــن .............. عشــر./ـــــــــــــــــــ"
+    },
+    {
+      "content_id": "unparsed_536cd96ae7567586f33a",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000053",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 69,
+        "normalized_start": 0,
+        "raw_end": 69,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "ef5417b72b462c0f0d7f033c396f9a182d546baa080618299108cb197e07b982"
+      },
+      "text": "وبعـد التلاوة أبصم البائـع والمشتـري والشاهـدان ووقعـا مـع المـوثـق./"
+    },
+    {
+      "content_id": "unparsed_6df1725db6d1c14f1d95",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000054",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 13,
+        "normalized_start": 0,
+        "raw_end": 13,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "5f0256448bcb2eb6292b65a0b291b6813926440e0428cea96a856b5c3dc1d327"
+      },
+      "text": "المصــــادقـة"
+    },
+    {
+      "content_id": "unparsed_900dfcc2f31f23eb38a8",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000055",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 490,
+        "normalized_start": 0,
+        "raw_end": 490,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "c0dfa8952d3e51776175995507a0ae5f977ffff1ef8658a3755d14d5fcbb3902"
+      },
+      "text": "الموقع أدناه الأستاذ بلحاج محمد نبيل الموثق بورقلة يشهـد بأن النسخة المعـدة للإشهار قـد وقعت مراجعتها وأن جميع وثائقها مطابقة للأصل المحتفظ به على مستوى المكتب كما يشهد بصحة هوية الأطراف السيد: ............... والسيد: ................... كما يصادق على الأهلية المدنية للأطراف بأنهم من جنسية جزائرية وكاملي الأهلية المدنية طبقا للمادة 65 من المرسـوم 76/63 المؤرخ في 25/03/1976 ويشهد بأن هذا العقد قد تم تحريره في أربع صفحات بدون إحالة على الهامش أو شطب أو إضافة./ــــــــــــــــــــــــــــ"
+    },
+    {
+      "content_id": "unparsed_a61d7f8a1258d423a889",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000056",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 32,
+        "normalized_start": 0,
+        "raw_end": 32,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "e7cda34a768516642da83bc69f68342760c2b1e8d42ad5f523e1cff6be2c71f5"
+      },
+      "text": "حرر بـ: ........................"
+    },
+    {
+      "content_id": "unparsed_0a154d21196daeea8ee5",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000057",
+        "extraction_id": "ext_d82f40ebdf024625d56b",
+        "normalized_end": 12,
+        "normalized_start": 0,
+        "raw_end": 12,
+        "raw_start": 0,
+        "source_id": "src_913cdef8d9e57fb09db9",
+        "text_sha256": "a0476357546d8e9e5a2a9d50736e42b8c45c8f552ed4fe9de0d13f5e9cb9266b"
+      },
+      "text": "المــوثــــق"
+    }
+  ],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

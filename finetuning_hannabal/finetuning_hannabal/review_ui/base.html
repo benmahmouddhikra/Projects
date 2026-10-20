@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Hannibal review{% endblock %}</title>
+  <style>
+    :root { color-scheme: light; --ink:#17202a; --muted:#64748b; --line:#d9e0e8; --blue:#174ea6; --bad:#9f1239; --good:#166534; --bg:#f6f8fb; }
+    * { box-sizing:border-box } body { margin:0; color:var(--ink); background:var(--bg); font:15px/1.45 system-ui,"Segoe UI",Arial,sans-serif }
+    header { display:flex; justify-content:space-between; gap:1rem; align-items:center; padding:.9rem 1.4rem; color:white; background:#12233f }
+    header a { color:white } main { max-width:1500px; margin:auto; padding:1.25rem } a { color:var(--blue) }
+    .card { background:white; border:1px solid var(--line); border-radius:10px; padding:1rem; margin-bottom:1rem }
+    .grid { display:grid; gap:1rem; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)) }
+    .split { display:grid; grid-template-columns:minmax(0,1.15fr) minmax(360px,.85fr); gap:1rem; align-items:start }
+    @media(max-width:950px){.split{grid-template-columns:1fr}}
+    table { width:100%; border-collapse:collapse; background:white } th,td { padding:.65rem; border-bottom:1px solid var(--line); text-align:left; vertical-align:top }
+    th { position:sticky; top:0; background:#edf2f7 } input,select,textarea,button { max-width:100%; padding:.5rem; border:1px solid #aab6c5; border-radius:5px; font:inherit }
+    textarea { width:100%; min-height:80px } button { cursor:pointer; background:#174ea6; color:white; border:0 } button.danger { background:var(--bad) } button.neutral { background:#8a5800 }
+    label { display:block; margin:.4rem 0; font-weight:600 } .inline { display:flex; flex-wrap:wrap; gap:.65rem; align-items:end } .inline > * { flex:1 1 145px }
+    .muted { color:var(--muted) } .tag { display:inline-block; margin:.1rem; padding:.15rem .45rem; border-radius:99px; background:#e8eef8; font-size:.82rem }
+    .success,.error { padding:.7rem 1rem; border-radius:6px; margin-bottom:1rem }.success{background:#dcfce7;color:var(--good)}.error{background:#ffe4e6;color:var(--bad)}
+    pre.evidence { white-space:pre-wrap; overflow-wrap:anywhere; max-height:24rem; overflow:auto; background:#f8fafc; border:1px solid var(--line); padding:.75rem; unicode-bidi:plaintext }
+    details { margin:.5rem 0 } summary { cursor:pointer; font-weight:650 } code { overflow-wrap:anywhere } .status-approved{color:var(--good)} .status-rejected,.status-changes_required{color:var(--bad)}
+  </style>
+</head>
+<body>
+<header><a href="{{ url_for('queue') }}">Hannibal local review</a><span>Reviewer: {{ session.get('reviewer','not started') }}</span></header>
+<main>
+  {% for category,message in get_flashed_messages(with_categories=true) %}<div class="{{ category }}">{{ message }}</div>{% endfor %}
+  {% block content %}{% endblock %}
+</main>
+</body>
+</html>
+

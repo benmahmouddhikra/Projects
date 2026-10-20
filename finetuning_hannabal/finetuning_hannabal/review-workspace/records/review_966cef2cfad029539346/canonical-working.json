@@ -1,0 +1,608 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_6d80aa328439a0d28871",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "completed_contract",
+    "initial_document_kind": "completed_contract",
+    "languages": [
+      {
+        "basis": "script_detection",
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+            "normalized_end": 31,
+            "normalized_start": 0,
+            "raw_end": 31,
+            "raw_start": 0,
+            "source_id": "src_798db0230149fdd1d704",
+            "text_sha256": "96f80a84e635564d028cf5856d451115b20ac3cf8d1bbea4cf82579ee0435ae2"
+          }
+        ],
+        "tag": "ar"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "completed",
+    "title": "عقد بيع ابتدائي ( لفيلا خالية )",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 31,
+        "normalized_start": 0,
+        "raw_end": 31,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "96f80a84e635564d028cf5856d451115b20ac3cf8d1bbea4cf82579ee0435ae2"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "completed_contract_heuristic_requires_review",
+        "message": "Contract-like filename without detected square-bracket placeholders was initially classified completed and requires human confirmation.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "required",
+    "structure_review_status": "pending",
+    "training_eligibility": "review_required"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_44ecda2f1fef18536471",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1- السيد/ \t\t\t\tمصري الجنسية مقيم برقم",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+            "normalized_end": 36,
+            "normalized_start": 0,
+            "raw_end": 36,
+            "raw_start": 0,
+            "source_id": "src_798db0230149fdd1d704",
+            "text_sha256": "f0bff30f81201e83d358bf2fa8959bc7c467a1a112410f30cad73cea7a50c045"
+          },
+          "text": "1- السيد/ \t\t\t\tمصري الجنسية مقيم برقم",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1- السيد/ \t\t\t\tمصري الجنسية مقيم برقم",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 37,
+        "normalized_start": 0,
+        "raw_end": 37,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "08b82db1eee6f09bb1ed52bffb32317beae0cf7658dcb0ab31876077223c9e26"
+      },
+      "kind": "unclassified",
+      "order": 1,
+      "requirement_status": "unspecified",
+      "section_id": "sec_48d2b1d80e5311f7efa0",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 36,
+        "normalized_start": 0,
+        "raw_end": 36,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "f0bff30f81201e83d358bf2fa8959bc7c467a1a112410f30cad73cea7a50c045"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_053c82ff3279b6e3bf6d",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2- السيد/ \t\t\t\tمصري الجنسية مقيم برقم",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000009",
+            "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+            "normalized_end": 36,
+            "normalized_start": 0,
+            "raw_end": 36,
+            "raw_start": 0,
+            "source_id": "src_798db0230149fdd1d704",
+            "text_sha256": "eaea2dce61807bb6dc5e91ce5ab2af921c033470288c0c1394f9b566589c892c"
+          },
+          "text": "2- السيد/ \t\t\t\tمصري الجنسية مقيم برقم",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2- السيد/ \t\t\t\tمصري الجنسية مقيم برقم",
+      "heading_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 37,
+        "normalized_start": 0,
+        "raw_end": 37,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "954569b50c5ef00d7e5d9c3b056de893b48239b51ee5bb9c2aad02426703fd91"
+      },
+      "kind": "unclassified",
+      "order": 2,
+      "requirement_status": "unspecified",
+      "section_id": "sec_8f0e61af494a68323645",
+      "source_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 36,
+        "normalized_start": 0,
+        "raw_end": 36,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "eaea2dce61807bb6dc5e91ce5ab2af921c033470288c0c1394f9b566589c892c"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "extracted_text_sha256": "33975ce40a22ee2aa41da297cac2d8b244d9a12b733a02f697858bfdd5d1904c",
+      "extraction_method": "microsoft_word_com_read_only",
+      "extraction_status": "success",
+      "extraction_warnings": [
+        "word_paragraphs_may_include_table_text"
+      ],
+      "media_type": "application/msword",
+      "page_count": 3,
+      "relative_path": "templates/Arabic_example/عقد بيع ابتدائي ( لفيلا خالية ).doc",
+      "sha256": "bacfd17ad637cdc2490df68363fac33a0e40736b12df2158f7fee67649104cc5",
+      "size_bytes": 29696,
+      "source_id": "src_798db0230149fdd1d704"
+    }
+  ],
+  "template_id": "tpl_57ae6e93a10df7db5397",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_35d09654b4df21bbb1b9",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 31,
+        "normalized_start": 0,
+        "raw_end": 31,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "96f80a84e635564d028cf5856d451115b20ac3cf8d1bbea4cf82579ee0435ae2"
+      },
+      "text": "عقد بيع ابتدائي ( لفيلا خالية )"
+    },
+    {
+      "content_id": "unparsed_93a138685b3c59796f4d",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 31,
+        "normalized_start": 0,
+        "raw_end": 31,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "d124ca913df42608c48a1932474dbebce5345a1c8aa73e7a42bb0b17b82fd163"
+      },
+      "text": "أنه في يوم \t\tالموافق     /    /"
+    },
+    {
+      "content_id": "unparsed_fc59107f9a99e2eac74a",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 30,
+        "normalized_start": 0,
+        "raw_end": 30,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "d5bf31ebe0a4a6e48488bd131da6ac0f0648d6d225fc612d8b0073b9bff2f362"
+      },
+      "text": "تم تحرير هذا العقد بين كل من :"
+    },
+    {
+      "content_id": "unparsed_3cd52e2da369e456ada3",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 17,
+        "normalized_start": 5,
+        "raw_end": 17,
+        "raw_start": 5,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "22f54d31b247048452afccecc4910c97718400476f3f238dbf4b09ca1e6a1d91"
+      },
+      "text": "قسم \t\tمحافظة"
+    },
+    {
+      "content_id": "unparsed_59176d54577bfe37cb01",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 26,
+        "normalized_start": 5,
+        "raw_end": 26,
+        "raw_start": 5,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "30cb035bd96ab2c63ee48a17f1fa16f114283a3f46608367801e46ade0a155c2"
+      },
+      "text": "يحمل بطاقة عائلية رقم"
+    },
+    {
+      "content_id": "unparsed_bddc0783bea239ce2383",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000007",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 13,
+        "normalized_start": 5,
+        "raw_end": 13,
+        "raw_start": 5,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "767a132ebf69adc5b877aa15ca72dbc55d4c3e06018d70630a559f9af1f7c121"
+      },
+      "text": "سجل مدني"
+    },
+    {
+      "content_id": "unparsed_2f3e4c10217648e2b3a8",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 19,
+        "normalized_start": 8,
+        "raw_end": 19,
+        "raw_start": 8,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "10c00df18b8c2b6ca08daca5fb5993e7959a54b5168112b4a1bc5d86f1d46097"
+      },
+      "text": "( طرف أول )"
+    },
+    {
+      "content_id": "unparsed_8afc65e1e84ccc58fdde",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 17,
+        "normalized_start": 5,
+        "raw_end": 17,
+        "raw_start": 5,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "22f54d31b247048452afccecc4910c97718400476f3f238dbf4b09ca1e6a1d91"
+      },
+      "text": "قسم \t\tمحافظة"
+    },
+    {
+      "content_id": "unparsed_26561e6c0c11d9ee4e64",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 26,
+        "normalized_start": 5,
+        "raw_end": 26,
+        "raw_start": 5,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "30cb035bd96ab2c63ee48a17f1fa16f114283a3f46608367801e46ade0a155c2"
+      },
+      "text": "يحمل بطاقة عائلية رقم"
+    },
+    {
+      "content_id": "unparsed_daae78507d3892574f70",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000012",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 13,
+        "normalized_start": 5,
+        "raw_end": 13,
+        "raw_start": 5,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "5c0513e015347c51d04945ce9faaab00cf1785fb9b24a60a29d3069f437e7352"
+      },
+      "text": "سجل مدنى"
+    },
+    {
+      "content_id": "unparsed_647046fed7173731342c",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000013",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 19,
+        "normalized_start": 8,
+        "raw_end": 19,
+        "raw_start": 8,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "5bc0a7cfeb346691b58652de9418b67182f4cf17f9a8a0bc582b4e2cc63a3f10"
+      },
+      "text": "( طرف ثان )"
+    },
+    {
+      "content_id": "unparsed_9b2fb1743b0b30d4f711",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000014",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 52,
+        "normalized_start": 0,
+        "raw_end": 52,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "005195c3cef0c673937997dd11a99c88fd48e6529e49060934392d7670d6703f"
+      },
+      "text": "يقر الطرفان بأهليتهما للتعاقد واتفاقهما على ما يلي :"
+    },
+    {
+      "content_id": "unparsed_e1842f5030d106a3706c",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 87,
+        "normalized_start": 1,
+        "raw_end": 87,
+        "raw_start": 1,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "7338010d45c7366c166e64853a888b3ec2b5f1c78ae33b0566110a61e5edd9ad"
+      },
+      "text": "(البند الأول) باع الطرف الأول للطرف الثاني عقارا مبنيا عبارة عن \" فيلا من طابقين\" برقم"
+    },
+    {
+      "content_id": "unparsed_523ba0372805fdd7ea0b",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000016",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 246,
+        "normalized_start": 0,
+        "raw_end": 246,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "777584f20b250e6ad540fc94b06f98c662d808d5c66403639778cd8afa092d19"
+      },
+      "text": "تنظيم ، شارع           مدينة          محافظة           ويحيط بها حديقة مسورة يشملها أيضا هذا العقد ، وتبلغ جملة المساحة        مترا مربعا ، يحدها من الناحية البحرية           ومن الناحية القبلية      ومن الناحية الشرقية      ومن الناحية الغربية ."
+    },
+    {
+      "content_id": "unparsed_0edab131eed429b0397b",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000017",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 450,
+        "normalized_start": 0,
+        "raw_end": 450,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "2d6d4474ee4e3be407a4337f31956b8930d114196d8edb49869728117dd57ba9"
+      },
+      "text": "(البند الثاني)  يقر الطرف الأول أن العقار المبيع فى حيازته باعتباره مالكا له ويلتزم بإخلائه وتسليمه خلال مدة أقصاها نهاية شهر    سنة     وفى حالة تأخره في تنفيذ هذا الالتزام يكون للطرف الثاني الحق في اللجوء لقاضى الأمور المستعجلة ليأمر الطرف الأول ، كما يلتزم هذا الطرف بأن يدفع للطرف الثاني           مبلغ        عن كل يوم تأخير وقد روعي فى هذا التقدير ما سوف يتكبده الطرف الثاني من مصاريف تعتبر بالنسبة له خسائر أن لم يتم التسليم فى الموعد المقرر ."
+    },
+    {
+      "content_id": "unparsed_698d82c30161ead4720e",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000018",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 204,
+        "normalized_start": 0,
+        "raw_end": 204,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "decefb73783f28b1360946c46ae3fc483a678e0cff1ce6f43ad743d93c2e952e"
+      },
+      "text": "(البند الثالث) ليس للطرف الأول أن ينتزع اى شئ مما خصص للمبيع ( من أشجار أو نافورات أو تماثيل أو رخام او صنابير أو أرضيات أو غير ذلك ) وإلا كان مسئولا عن رده وتعويض الطرف الثاني بما ترتب على النزع من ضرر ."
+    },
+    {
+      "content_id": "unparsed_fcfb9001fb76f3d2e517",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000019",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 206,
+        "normalized_start": 0,
+        "raw_end": 206,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "225abec08e291a60f88520897224751e3318ff280af913e20ad701b3d9955316"
+      },
+      "text": "(البند الرابع) يقر الطرف الأول بأنه لم يسبق له التصرف في المبيع بأي تصرف سواء كان بيعا أو إيجارا أو خلافهما ويخلو المبيع من الحقوق العينية الأصلية أو التبعية وفقا لما هو معرفة به في القانون وإلا كان ضامنا ."
+    },
+    {
+      "content_id": "unparsed_5b50bd8676ec5f6a06f4",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000020",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 125,
+        "normalized_start": 0,
+        "raw_end": 125,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "f4b74d5ee708e86f9c9989b8b24e5c1eb40b42ea8ca8d201a72fc792401baf43"
+      },
+      "text": "(البند الخامس) يضمن الطرف الأول التعرضات القانونية التي تواجه الطرف الثاني على ان يلتزم الأخير بإخطاره بها فى الوقت المناسب ."
+    },
+    {
+      "content_id": "unparsed_ea77778e039e59a50133",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000021",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 229,
+        "normalized_start": 0,
+        "raw_end": 229,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "8ce251d1fca1ce86df44dde1aeb84680536c2c35362011fadf5dcf7fbdb14446"
+      },
+      "text": "(البند السادس) تم هذا البيع لقاء ثمن قدره        فقط      دفع الطرف الثاني منه وقت التوقيع على هذا العقد مبلغ           فقط           بالشيك رقم      مسحوب على بنك     ( أو نقدا) على أن يدفع الباقي عند التوقيع على العقد النهائي ."
+    },
+    {
+      "content_id": "unparsed_8d0bc3dafb759a487386",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000022",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 197,
+        "normalized_start": 0,
+        "raw_end": 197,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "a574dc709856127845bafe9668dc246165739445023d1bc94080e48ebfb47b32"
+      },
+      "text": "(البند السابع) يلتزم الطرف الأول بتقديم كافة المستندات اللازمة للتسجيل للطرف الثاني لإنهاء إجراءات العقد النهائي خلال أجل أقصاه يوم     /    /     وإلا كان للطرف الثاني استصدار حكم بصحة ونفاذ العقد"
+    },
+    {
+      "content_id": "unparsed_03380a0eb6b28818ffec",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000023",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 136,
+        "normalized_start": 0,
+        "raw_end": 136,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "198ab6f0ae8021fc591ba595820fe281f066f8a11a796db7239e8d9c02b9d49e"
+      },
+      "text": "(البند الثامن) يقر الطرف الثاني أنه عاين المبيع المعاينة التامة النافية للجهالة وقبل التعامل فيه على الوضع الذي وجده عليه وقت المعاينة ."
+    },
+    {
+      "content_id": "unparsed_b1fa62094dc0b4585d8e",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000024",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 156,
+        "normalized_start": 0,
+        "raw_end": 156,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "8d390164b53de046741ec17cf7dc0d65038808ebc9debead770d206583000955"
+      },
+      "text": "(البند التاسع) انتقلت الملكية للطرف الأول بطريق (الميراث الشرعي عن والده أو والدته المرحومة       ) (أو بطريق العقد المسجل برقم        بتاريخ        توثيق ."
+    },
+    {
+      "content_id": "unparsed_ffbed451b0ee5b4b16a2",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000025",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 62,
+        "normalized_start": 0,
+        "raw_end": 62,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "bc5c58b758a88302d5d092b4a59e52377cafb8490430abff8efad2a91583335e"
+      },
+      "text": "(البند العاشر) يتحمل الطرف الثاني مصاريف العقد حتى تمام شهره ."
+    },
+    {
+      "content_id": "unparsed_e9c73e78481586a54534",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000026",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 387,
+        "normalized_start": 0,
+        "raw_end": 387,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "86e650379441ca8bef0f3be07901863804c88def418838d906bba7d7b40e5e84"
+      },
+      "text": "(البند الحادي عشر ) تختص محاكم          بنظر ما قد ينشب من منازعات بصدد هذا العقد على أن يكون محل إقامة كل من المتعاقدين سالف البيان هو المعتد به بالنسبة لكافة الإعلانات والمخاطبات ما لم يتم تغييره وإخطار الطرف الأخر بذلك كتابة (إذا كان البائع يقيم بالفيلا عند التعاقد ، فيجب أن يحدد بالعقد محلا مختارا له يكون المعول عليه بعد التسليم على أن يكون العنوان السابق هو المعول عليه قبل ذلك )."
+    },
+    {
+      "content_id": "unparsed_2176ac541cbdf10df454",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000027",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 61,
+        "normalized_start": 0,
+        "raw_end": 61,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "5925029f738cc3b3e59ddae57fe4cfcd62f7889bca52c822160ee272e7e9d7be"
+      },
+      "text": "(البند الثاني عشر) حرر ها العقد من نسختين سلمت نسخة لكل طرف ."
+    },
+    {
+      "content_id": "unparsed_af3d079d0f454090dd49",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000028",
+        "extraction_id": "ext_aa24b5ecfb05cb8c5c37",
+        "normalized_end": 30,
+        "normalized_start": 0,
+        "raw_end": 30,
+        "raw_start": 0,
+        "source_id": "src_798db0230149fdd1d704",
+        "text_sha256": "6978ba48db6867f74cfcb1c0fd3d85a83f5cf6d6958f232e84500e06a7f07f09"
+      },
+      "text": "(الطرف الأول) \t\t(الطرف الثاني)"
+    }
+  ],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

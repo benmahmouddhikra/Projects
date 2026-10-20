@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:hannibal:schema:agent2-generation-facts-v1",
+  "title": "Sanitized Agent 2 generation facts",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "record_status", "template_id", "document", "parties", "variable_bindings", "unmapped_facts", "warnings"],
+  "properties": {
+    "schema_version": {"const": "agent2-generation-facts-v1"},
+    "record_status": {"enum": ["demo_unreviewed", "eligible"]},
+    "template_id": {"type": "string", "pattern": "^tpl_[a-f0-9]{20}$"},
+    "document": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["contract_type", "contract_subtype", "country", "jurisdiction", "language"],
+      "properties": {
+        "contract_type": {"type": "string"},
+        "contract_subtype": {"type": "string"},
+        "country": {"type": "string"},
+        "jurisdiction": {"type": "string"},
+        "language": {"type": "string"}
+      }
+    },
+    "parties": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["party_key", "name", "entity_type", "role", "contact_information"],
+        "properties": {
+          "party_key": {"type": "string", "pattern": "^agent1_party_[0-9]{3}$"},
+          "name": {"type": "string"},
+          "entity_type": {"type": "string"},
+          "role": {"type": "string"},
+          "contact_information": {"type": "object"}
+        }
+      }
+    },
+    "variable_bindings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["variable_id", "canonical_token", "value", "status", "agent1_source_path"],
+        "properties": {
+          "variable_id": {"type": "string"},
+          "canonical_token": {"type": "string", "pattern": "^\\[[A-Z][A-Z0-9_]*\\]$"},
+          "value": {},
+          "status": {"enum": ["provided", "missing", "ambiguous"]},
+          "agent1_source_path": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "unmapped_facts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["agent1_source_path", "value"],
+        "properties": {
+          "agent1_source_path": {"type": "string"},
+          "value": {}
+        }
+      }
+    },
+    "warnings": {"type": "array", "items": {"type": "string"}}
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:hannibal:schema:retrieved-contract-evidence-v1",
+  "title": "Retrieved documentary evidence for Agent 2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "retrieval_status", "template", "clauses"],
+  "properties": {
+    "schema_version": {"const": "retrieved-contract-evidence-v1"},
+    "retrieval_status": {"enum": ["demo_runtime_evidence", "production_rag_evidence"]},
+    "template": {"type": "object"},
+    "clauses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["clause_id", "text", "source_ids", "jurisdictions", "legal_references"],
+        "properties": {
+          "clause_id": {"type": "string"},
+          "text": {"type": "string"},
+          "source_ids": {"type": "array", "items": {"type": "string"}},
+          "jurisdictions": {"type": "array", "items": {"type": "string"}},
+          "legal_references": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    }
+  }
+}

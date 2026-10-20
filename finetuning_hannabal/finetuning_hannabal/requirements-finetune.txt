@@ -1,0 +1,10 @@
+# Install a CUDA-enabled PyTorch build appropriate for the training host first.
+# PyTorch is intentionally not pinned here because its wheel must match CUDA.
+transformers==5.14.1
+trl==1.9.0
+peft==0.19.1
+accelerate==1.14.0
+datasets==5.0.0
+bitsandbytes==0.50.0
+safetensors>=0.6,<1
+jsonschema>=4.20,<5

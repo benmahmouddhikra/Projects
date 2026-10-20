@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:hannibal:schema:contract-template-runtime-v1",
+  "title": "Hannibal compact contract template runtime record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "runtime_status", "template_id", "canonical_ref", "document", "jurisdictions", "parties", "variables", "sections", "unparsed_content"],
+  "properties": {
+    "schema_version": {"const": "contract-template-runtime-v1"},
+    "runtime_status": {"enum": ["eligible", "demo_unreviewed"]},
+    "template_id": {"type": "string", "pattern": "^tpl_[a-f0-9]{20}$"},
+    "canonical_ref": {
+      "type": "object", "additionalProperties": false,
+      "required": ["schema_version", "template_id", "source_ids"],
+      "properties": {
+        "schema_version": {"const": "contract-template-v1"},
+        "template_id": {"type": "string", "pattern": "^tpl_[a-f0-9]{20}$"},
+        "source_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+      }
+    },
+    "document": {
+      "type": "object", "additionalProperties": false,
+      "required": ["document_kind", "template_state", "title", "contract_family", "contract_type", "languages"],
+      "properties": {
+        "document_kind": {"enum": ["contract_template", "completed_contract"]},
+        "template_state": {"enum": ["blank", "completed", "mixed", "unknown"]},
+        "title": {"type": ["string", "null"]},
+        "contract_family": {"type": "string"},
+        "contract_type": {"type": ["string", "null"]},
+        "languages": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+      }
+    },
+    "jurisdictions": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["country_code", "governing_law_text", "legal_references"],
+        "properties": {
+          "country_code": {"type": ["string", "null"]},
+          "governing_law_text": {"type": ["string", "null"]},
+          "legal_references": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "parties": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["party_id", "role", "original_role_label", "entity_type", "variable_ids"],
+        "properties": {
+          "party_id": {"type": "string"}, "role": {"type": "string"},
+          "original_role_label": {"type": ["string", "null"]}, "entity_type": {"type": "string"},
+          "variable_ids": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "variables": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["variable_id", "canonical_token", "value_type", "party_id", "requirement_status", "allowed_choices"],
+        "properties": {
+          "variable_id": {"type": "string"}, "canonical_token": {"type": "string"},
+          "value_type": {"type": "string"}, "party_id": {"type": ["string", "null"]},
+          "requirement_status": {"type": "string"},
+          "allowed_choices": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["section_id", "order", "kind", "heading", "requirement_status", "condition", "clauses"],
+        "properties": {
+          "section_id": {"type": "string"}, "order": {"type": "integer", "minimum": 1},
+          "kind": {"type": "string"}, "heading": {"type": ["string", "null"]},
+          "requirement_status": {"type": "string"}, "condition": {"type": ["string", "null"]},
+          "clauses": {
+            "type": "array",
+            "items": {
+              "type": "object", "additionalProperties": false,
+              "required": ["clause_id", "order", "clause_type", "heading", "text", "variable_ids", "legal_references", "requirement_status", "condition"],
+              "properties": {
+                "clause_id": {"type": "string"}, "order": {"type": "integer", "minimum": 1},
+                "clause_type": {"type": "string"}, "heading": {"type": ["string", "null"]},
+                "text": {"type": "string", "minLength": 1},
+                "variable_ids": {"type": "array", "items": {"type": "string"}},
+                "legal_references": {"type": "array", "items": {"type": "string"}},
+                "requirement_status": {"type": "string"}, "condition": {"type": ["string", "null"]}
+              }
+            }
+          }
+        }
+      }
+    },
+    "unparsed_content": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["content_id", "text", "reason"],
+        "properties": {
+          "content_id": {"type": "string"}, "text": {"type": "string", "minLength": 1}, "reason": {"type": "string"}
+        }
+      }
+    }
+  }
+}

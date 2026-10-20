@@ -1,0 +1,776 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_798410d4c5b2ce81aa58",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "completed_contract",
+    "initial_document_kind": "completed_contract",
+    "languages": [
+      {
+        "basis": "deterministic_text_heuristic",
+        "confidence": 0.1034,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_28f76b95bf86923c9abf",
+            "normalized_end": 2925,
+            "normalized_start": 0,
+            "raw_end": 2925,
+            "raw_start": 0,
+            "source_id": "src_40b305c971edc2fc7489",
+            "text_sha256": "d15807cce5e7215a0c88b8e7ad305c24f702106e141987bff38f89c6982257a4"
+          }
+        ],
+        "tag": "fr"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "completed",
+    "title": "REPUBLIQUE TUNISIENNE",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 21,
+        "normalized_start": 0,
+        "raw_end": 21,
+        "raw_start": 0,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "aac6c3d43476ae6f0de6528e93d6a28f99e98ce1be0d678ea8d92e68e22fc43e"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "completed_contract_heuristic_requires_review",
+        "message": "Contract-like filename without detected square-bracket placeholders was initially classified completed and requires human confirmation.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "required",
+    "structure_review_status": "pending",
+    "training_eligibility": "review_required"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_01b5777238fa82bef795",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "REPUBLIQUE TUNISIENNE",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_28f76b95bf86923c9abf",
+            "normalized_end": 21,
+            "normalized_start": 0,
+            "raw_end": 21,
+            "raw_start": 0,
+            "source_id": "src_40b305c971edc2fc7489",
+            "text_sha256": "aac6c3d43476ae6f0de6528e93d6a28f99e98ce1be0d678ea8d92e68e22fc43e"
+          },
+          "text": "REPUBLIQUE TUNISIENNE",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "REPUBLIQUE TUNISIENNE",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 23,
+        "normalized_start": 0,
+        "raw_end": 23,
+        "raw_start": 0,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "a05f608e071a0609f4fc2ea1220140c9d1226e147687f9e77fe2bb708eb9c494"
+      },
+      "kind": "unclassified",
+      "order": 1,
+      "requirement_status": "unspecified",
+      "section_id": "sec_4df593df8d58707838ae",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 21,
+        "normalized_start": 0,
+        "raw_end": 21,
+        "raw_start": 0,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "aac6c3d43476ae6f0de6528e93d6a28f99e98ce1be0d678ea8d92e68e22fc43e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_33bf3e5f4ca7a5cf0e55",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "MINISTERE DE L’EMPLOI ET DE LA FORMATION",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_28f76b95bf86923c9abf",
+            "normalized_end": 64,
+            "normalized_start": 24,
+            "raw_end": 64,
+            "raw_start": 24,
+            "source_id": "src_40b305c971edc2fc7489",
+            "text_sha256": "b9784b860b1cc9fc87d8fe5a81b4524e455b7593848a74775ae6db42bde380ca"
+          },
+          "text": "MINISTERE DE L’EMPLOI ET DE LA FORMATION",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "MINISTERE DE L’EMPLOI ET DE LA FORMATION",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 66,
+        "normalized_start": 24,
+        "raw_end": 66,
+        "raw_start": 24,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "3d3acea866be6271e739b896b56d5ebedfa4e4c2273b244b0eb8dcc1a25af52c"
+      },
+      "kind": "unclassified",
+      "order": 2,
+      "requirement_status": "unspecified",
+      "section_id": "sec_2b3578f2277bbe41464f",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 64,
+        "normalized_start": 24,
+        "raw_end": 64,
+        "raw_start": 24,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "b9784b860b1cc9fc87d8fe5a81b4524e455b7593848a74775ae6db42bde380ca"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_174d1c47228d7045e7ee",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "PROFESSIONNELLE",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_28f76b95bf86923c9abf",
+            "normalized_end": 162,
+            "normalized_start": 85,
+            "raw_end": 162,
+            "raw_start": 85,
+            "source_id": "src_40b305c971edc2fc7489",
+            "text_sha256": "692302dd31422d6717f4ae64f7d56183b8cd8185373c51037cb16503337c3267"
+          },
+          "text": "Direction Générale du Placement à l’Etranger et \nde la Main d'Œuvre Etrangère",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "PROFESSIONNELLE",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 84,
+        "normalized_start": 67,
+        "raw_end": 84,
+        "raw_start": 67,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "feffcda27a629f4f8f051b6a225f16d088411ca1efc36a0dfbf7822105078209"
+      },
+      "kind": "unclassified",
+      "order": 3,
+      "requirement_status": "unspecified",
+      "section_id": "sec_65c3ca88dec44d8793ad",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 162,
+        "normalized_start": 67,
+        "raw_end": 162,
+        "raw_start": 67,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "af7ba306fc135aa1976ff92942755cade8324765d4849d49c0bd450b63e8f471"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_ddd87521644091be2079",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "CONTRAT DE TRAVAIL POUR TRAVAILLEUR ETRANGER",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_28f76b95bf86923c9abf",
+            "normalized_end": 209,
+            "normalized_start": 165,
+            "raw_end": 209,
+            "raw_start": 165,
+            "source_id": "src_40b305c971edc2fc7489",
+            "text_sha256": "d91dc0ee7d2b0bf3affbb6062c5898f3f8eb3b233a3644e3598240bed462f026"
+          },
+          "text": "CONTRAT DE TRAVAIL POUR TRAVAILLEUR ETRANGER",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "CONTRAT DE TRAVAIL POUR TRAVAILLEUR ETRANGER",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 211,
+        "normalized_start": 165,
+        "raw_end": 211,
+        "raw_start": 165,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "4ae37f87602b6a25f662483302e044d5bf0f45854f83550583cdcdb72c90f208"
+      },
+      "kind": "unclassified",
+      "order": 4,
+      "requirement_status": "unspecified",
+      "section_id": "sec_9e24a2403282aa46ca4a",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 209,
+        "normalized_start": 165,
+        "raw_end": 209,
+        "raw_start": 165,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "d91dc0ee7d2b0bf3affbb6062c5898f3f8eb3b233a3644e3598240bed462f026"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e0198933e744515d23c4",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ETABLISSEMENT  RENOUVELLEMENT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_28f76b95bf86923c9abf",
+            "normalized_end": 709,
+            "normalized_start": 248,
+            "raw_end": 709,
+            "raw_start": 248,
+            "source_id": "src_40b305c971edc2fc7489",
+            "text_sha256": "a68656acd83c2309e6d2382a1ecdb077021176a61d8273e9e242ed24f03c629b"
+          },
+          "text": "L’exécution du présent contrat est subordonnée au visa préalable du Ministère de l’Emploi et de la Formation \nProfessionnelle . \nLe présent contrat ne peut être résilié qu' à l'amiable ou par voie judiciaire, et ce conformément aux dispositions de \nl'article 262 du code du travail.  \nL'employeur doit informer le Ministère de de l’Emploi et de la Formation Professionnelle  de la résiliation dans un délai \nmaximum de dix (10) jours.  \n \nEntre les soussignés :",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ETABLISSEMENT  RENOUVELLEMENT",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 245,
+        "normalized_start": 214,
+        "raw_end": 245,
+        "raw_start": 214,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "436ddccbfd5d9e51f6d9e37c45c1b47e1e2a914ff3ea9e4dfe183b13fd74a8da"
+      },
+      "kind": "unclassified",
+      "order": 5,
+      "requirement_status": "unspecified",
+      "section_id": "sec_98740704b35de7db36c4",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 709,
+        "normalized_start": 214,
+        "raw_end": 709,
+        "raw_start": 214,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "1be239eddf3247b46b7ffb4a23880914bad894dd26f5404fe931d743f74cf444"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_8cdf0a9c6230beae7a75",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1- L’employeur  :",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_28f76b95bf86923c9abf",
+            "normalized_end": 1252,
+            "normalized_start": 731,
+            "raw_end": 1252,
+            "raw_start": 731,
+            "source_id": "src_40b305c971edc2fc7489",
+            "text_sha256": "72b9538b189c5aa8939bac9db1042c00558c456bd1eafc1108cedecc5771afa3"
+          },
+          "text": "Raison sociale de l’entreprise  :………………………………...  \nSiège social  :…………………………………………………...  \nGouvernorat  :…...……………………………………………...  \nTel :..…………………………… Fax  :……………………….  \nMatricule  fiscal  ................................ .. Numéro d’affiliation à  la \nsécurité  sociale.:...……………………………......……………  \nSecteur d’activité  :……………………………………………..  \nEffectif total  :.………………….  dont .......................  étrangers.  \nChef de l'entreprise (nom et prénom) :……………………….  \nNationalité :…………………..Qualité  :………………………  \nD’une  part,",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1- L’employeur  :",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 730,
+        "normalized_start": 712,
+        "raw_end": 730,
+        "raw_start": 712,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "1a475480597fe83a4aac54fe711fa51a469e36d101b330b20cf37d1f0ce6603f"
+      },
+      "kind": "unclassified",
+      "order": 6,
+      "requirement_status": "unspecified",
+      "section_id": "sec_f2caacdd9bbbb23b039e",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 1252,
+        "normalized_start": 712,
+        "raw_end": 1252,
+        "raw_start": 712,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "3afe1fe80327323485136a85c6b988375dddaeb64a8cfafd37aa370ace0464c1"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_c88c759be710006cb101",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1- Le travailleur  :",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_28f76b95bf86923c9abf",
+            "normalized_end": 1831,
+            "normalized_start": 1277,
+            "raw_end": 1831,
+            "raw_start": 1277,
+            "source_id": "src_40b305c971edc2fc7489",
+            "text_sha256": "2793b52ab3cc5c31c57ae1ca66334b04040ede2ca2858e884ae5951324139c64"
+          },
+          "text": "Nom  :……………………………… ………………………….  \nPrénom  :……………………………………………………….  \nDate et lieu de naissance  :……………………………………..  \nNationalité  :……………………………………………………  \nNuméro du passeport  :…………………………………………  \nSpécialité et  diplômes:…………………………………………  \n………………………………………………………………… \nNuméro d’immatriculation à la sécurité sociale en Tunisie :  \n……………………………………………………………….. \nCarte de séjour obtenue :   Oui    Non  \nD’autre part , \nIl a été convenu ce qui suit :  \nArticle premier :  \nAux termes du présent contrat, l’employeur engage le \ntravailleur en qualité de…………………………………",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1- Le travailleur  :",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 1276,
+        "normalized_start": 1255,
+        "raw_end": 1276,
+        "raw_start": 1255,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "f0ab21e392a2ec9572e696b4d24603d2885e3908216cb8645f7b8051aa059efe"
+      },
+      "kind": "unclassified",
+      "order": 7,
+      "requirement_status": "unspecified",
+      "section_id": "sec_02103b41fef72434ff4a",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 1831,
+        "normalized_start": 1255,
+        "raw_end": 1831,
+        "raw_start": 1255,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "31fbb7fb97b7e5dfb0b44fb1dd7e81bb47786c3713d8c991687639918d7c5543"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_796a7ded3d99fff113a9",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 2 :",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_28f76b95bf86923c9abf",
+            "normalized_end": 2187,
+            "normalized_start": 1849,
+            "raw_end": 2187,
+            "raw_start": 1849,
+            "source_id": "src_40b305c971edc2fc7489",
+            "text_sha256": "63b22b1e7d9f5bd93a7eb9501cf54d2ee3ac99854f405db88032f7c606baf412"
+          },
+          "text": "La durée du travail objet du présent contrat est de  \n………………………….Allant du………………………  \nau:………………………………………………………..  \nCette durée est d’une année au maximum.  \n(En cas de renouvelleme nt la demande doit être adressée \nau Ministère de de l ’Emploi et de la Formation \nProfessionnelle  un mois au moins avant l’expiration du \nprésent contrat.)",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 2 :",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 1848,
+        "normalized_start": 1835,
+        "raw_end": 1848,
+        "raw_start": 1835,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "cba7f96c477017e0da81e2703f175e9257aefda4a83e3ac66d02ee0b1de13b55"
+      },
+      "kind": "unclassified",
+      "order": 8,
+      "requirement_status": "unspecified",
+      "section_id": "sec_8dfc12a3c4edb42ef368",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 2187,
+        "normalized_start": 1835,
+        "raw_end": 2187,
+        "raw_start": 1835,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "669beb774acb4d7b832e96345afdabcfa14c52e3cc4fffbe79a8b1a93f0ec5ec"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_10412949d38375525dfa",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 3 :",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_28f76b95bf86923c9abf",
+            "normalized_end": 2346,
+            "normalized_start": 2204,
+            "raw_end": 2346,
+            "raw_start": 2204,
+            "source_id": "src_40b305c971edc2fc7489",
+            "text_sha256": "5b53713bde20b1396a2c9858b635b3c654b450f86482682ebad4ffcae205b962"
+          },
+          "text": "Le travailleur perçoit, au cours de la période prévue à \nl’article 2 ci -dessus,  une rémunération servie par \nl’employeur, ainsi qu’il suit :",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 3 :",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 2203,
+        "normalized_start": 2190,
+        "raw_end": 2203,
+        "raw_start": 2190,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "588f53ad10e0eb118dbec6b1f442e1009c3f48805355dbc12fd6a23591f84ebb"
+      },
+      "kind": "unclassified",
+      "order": 9,
+      "requirement_status": "unspecified",
+      "section_id": "sec_4c983c887865776ccd75",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 2346,
+        "normalized_start": 2190,
+        "raw_end": 2346,
+        "raw_start": 2190,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "d80da4dd900bed2f94a6d4c7fa34e67b2abb69d8047f07690d3cb37e5239ddeb"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_a408ff56ea04b81ca616",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1) Salaire mensuel en Dinar : (en chiffres)  …………….…",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_28f76b95bf86923c9abf",
+            "normalized_end": 2467,
+            "normalized_start": 2404,
+            "raw_end": 2467,
+            "raw_start": 2404,
+            "source_id": "src_40b305c971edc2fc7489",
+            "text_sha256": "eac1bca398763ef56cccc8d9a2f2fb8841737855e057389fd783ee910182ac71"
+          },
+          "text": "(en  toutes  lettres)…………………………………………  \n……………………………………………………………",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1) Salaire mensuel en Dinar : (en chiffres)  …………….…",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 2403,
+        "normalized_start": 2349,
+        "raw_end": 2403,
+        "raw_start": 2349,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "fa8b36c011fc487ca4ef21ec7b299bd48480b0725aaef7d352abf68b9ccea410"
+      },
+      "kind": "unclassified",
+      "order": 10,
+      "requirement_status": "unspecified",
+      "section_id": "sec_dcee37fe94e57455bcc2",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 2467,
+        "normalized_start": 2349,
+        "raw_end": 2467,
+        "raw_start": 2349,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "f633b4e98dde01482760fc4f17a06a401c32d8f7627001700b564ca92851281d"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_6087c67a80a273f652bc",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2) Avantages en nature  :…………………………………",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_28f76b95bf86923c9abf",
+            "normalized_end": 2508,
+            "normalized_start": 2470,
+            "raw_end": 2508,
+            "raw_start": 2470,
+            "source_id": "src_40b305c971edc2fc7489",
+            "text_sha256": "ecf95dad90857daf91a7fbacfcfd4bec46cadc7ea62f0231bc95450c4985fd72"
+          },
+          "text": "2) Avantages en nature  :…………………………………",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2) Avantages en nature  :…………………………………",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 2510,
+        "normalized_start": 2470,
+        "raw_end": 2510,
+        "raw_start": 2470,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "507c6721bf98365c4a0e7c926bfb80b7cda1ab38c6fe45565ab6e34a203c8838"
+      },
+      "kind": "unclassified",
+      "order": 11,
+      "requirement_status": "unspecified",
+      "section_id": "sec_736d8e7e98fdd4d4f2e3",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 2508,
+        "normalized_start": 2470,
+        "raw_end": 2508,
+        "raw_start": 2470,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "ecf95dad90857daf91a7fbacfcfd4bec46cadc7ea62f0231bc95450c4985fd72"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_710d85e16f67964d8f55",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3) Autres avantages :…………………………………….",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_28f76b95bf86923c9abf",
+            "normalized_end": 2680,
+            "normalized_start": 2550,
+            "raw_end": 2680,
+            "raw_start": 2550,
+            "source_id": "src_40b305c971edc2fc7489",
+            "text_sha256": "f184c6d8750eecf66a688b9355aab907e976495f9819a26a21e7c36747aac957"
+          },
+          "text": "Le salaire servi au travailleur ne peut en aucun cas être \ninférieur à celui octroyé à un travailleur tunisien de même \ncatégorie.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3) Autres avantages :…………………………………….",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 2549,
+        "normalized_start": 2511,
+        "raw_end": 2549,
+        "raw_start": 2511,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "6f06b4f7694b8cd488e0ed46d0c87b3e6254b82b0b48b7d2377edaa82988d643"
+      },
+      "kind": "unclassified",
+      "order": 12,
+      "requirement_status": "unspecified",
+      "section_id": "sec_e67bea81ac091d3b6230",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 2680,
+        "normalized_start": 2511,
+        "raw_end": 2680,
+        "raw_start": 2511,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "87309898cb8c8a6d570268d0a71e2f34c0fbc81ee76c77a1be4f4887706cc112"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_6f9a85b41dbaabffb681",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 4 :",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_28f76b95bf86923c9abf",
+            "normalized_end": 2925,
+            "normalized_start": 2697,
+            "raw_end": 2925,
+            "raw_start": 2697,
+            "source_id": "src_40b305c971edc2fc7489",
+            "text_sha256": "8982b322dae61908a4a7d12e14023036cad50ee43b904d4ca12aa2de4b7153a3"
+          },
+          "text": "Le travailleur bénéficie des congés prévus par la \nlégislation et la réglementation appliquées dans  \nl'entreprise.  \nFait    à……………………le:…………….………..  \n \n \nSignature de l'employé  Signature de l'employeur  \n(Cachet obligatoire )",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 4 :",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 2696,
+        "normalized_start": 2683,
+        "raw_end": 2696,
+        "raw_start": 2683,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "c15c867a3b8edd36a45bc2d1eed53ba89da2d1b5c3e2f38ddcbfb69e1244cae4"
+      },
+      "kind": "unclassified",
+      "order": 13,
+      "requirement_status": "unspecified",
+      "section_id": "sec_6330c282eb3f47d835a9",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_28f76b95bf86923c9abf",
+        "normalized_end": 2925,
+        "normalized_start": 2683,
+        "raw_end": 2925,
+        "raw_start": 2683,
+        "source_id": "src_40b305c971edc2fc7489",
+        "text_sha256": "4883bcce4d72ea0426512c47dd0419b06519abda1cb275434861c6b55f67c3c0"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "extracted_text_sha256": "57e267bc574d301a09e4ee35c935042280065efb62452ba07415f2f21d47cd0a",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 1,
+      "relative_path": "templates/Tunisie/contratdetravail.pdf",
+      "sha256": "dddb9617bb7be53be8bacd62164dfd6b0b85571aa460a7963b0d0a8909479e14",
+      "size_bytes": 127080,
+      "source_id": "src_40b305c971edc2fc7489"
+    }
+  ],
+  "template_id": "tpl_b214b77860a5364677a8",
+  "unparsed_source_content": [],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

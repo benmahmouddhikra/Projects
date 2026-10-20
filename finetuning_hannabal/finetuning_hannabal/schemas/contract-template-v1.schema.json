@@ -1,0 +1,237 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:hannibal:schema:contract-template-v1",
+  "title": "Hannibal provider-neutral canonical contract template",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "template_id", "source_files", "document", "jurisdictions",
+    "parties", "variables", "sections", "unparsed_source_content", "quality",
+    "sanitization_history", "audit_history", "model_assistance", "versions"
+  ],
+  "properties": {
+    "schema_version": {"const": "contract-template-v1"},
+    "template_id": {"type": "string", "pattern": "^tpl_[a-f0-9]{20}$"},
+    "source_files": {
+      "type": "array", "minItems": 1,
+      "items": {"$ref": "#/$defs/sourceFile"}
+    },
+    "document": {"$ref": "#/$defs/document"},
+    "jurisdictions": {"type": "array", "items": {"$ref": "#/$defs/jurisdiction"}},
+    "parties": {"type": "array", "items": {"$ref": "#/$defs/party"}},
+    "variables": {"type": "array", "items": {"$ref": "#/$defs/variable"}},
+    "sections": {"type": "array", "items": {"$ref": "#/$defs/section"}},
+    "unparsed_source_content": {"type": "array", "items": {"$ref": "#/$defs/unparsed"}},
+    "quality": {"$ref": "#/$defs/quality"},
+    "sanitization_history": {"type": "array", "items": {"$ref": "#/$defs/auditAction"}},
+    "audit_history": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/auditAction"}},
+    "model_assistance": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "provider", "model_tag", "reason"],
+      "properties": {
+        "status": {"enum": ["used", "unavailable", "failed", "not_requested"]},
+        "provider": {"enum": ["ollama", "none"]},
+        "model_tag": {"type": ["string", "null"]},
+        "reason": {"type": ["string", "null"]}
+      }
+    },
+    "versions": {"$ref": "#/$defs/versions"}
+  },
+  "$defs": {
+    "sourceSpan": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_id", "extraction_id", "block_id", "raw_start", "raw_end", "normalized_start", "normalized_end", "text_sha256"],
+      "properties": {
+        "source_id": {"type": "string"},
+        "extraction_id": {"type": "string"},
+        "block_id": {"type": "string", "pattern": "^block_[0-9]{6}$"},
+        "raw_start": {"type": "integer", "minimum": 0},
+        "raw_end": {"type": "integer", "minimum": 0},
+        "normalized_start": {"type": "integer", "minimum": 0},
+        "normalized_end": {"type": "integer", "minimum": 0},
+        "text_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    },
+    "sourceFile": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_id", "relative_path", "sha256", "media_type", "size_bytes", "page_count", "extraction_method", "extraction_status", "extraction_warnings", "extracted_text_sha256"],
+      "properties": {
+        "source_id": {"type": "string"},
+        "relative_path": {"type": "string", "pattern": "^templates/"},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "media_type": {"enum": ["application/pdf", "application/msword", "application/vnd.openxmlformats-officedocument.wordprocessingml.document"]},
+        "size_bytes": {"type": "integer", "minimum": 0},
+        "page_count": {"type": ["integer", "null"], "minimum": 0},
+        "extraction_method": {"type": "string"},
+        "extraction_status": {"enum": ["success", "partial", "encrypted", "unreadable", "empty", "malformed", "likely_ocr_required"]},
+        "extraction_warnings": {"type": "array", "items": {"type": "string"}},
+        "extracted_text_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    },
+    "document": {
+      "type": "object", "additionalProperties": false,
+      "required": ["title", "title_evidence", "initial_document_kind", "document_kind", "reclassification_history", "template_state", "contract_family", "contract_type", "languages"],
+      "properties": {
+        "title": {"type": ["string", "null"]},
+        "title_evidence": {"type": "array", "items": {"$ref": "#/$defs/sourceSpan"}},
+        "initial_document_kind": {"$ref": "#/$defs/documentKind"},
+        "document_kind": {"$ref": "#/$defs/documentKind"},
+        "reclassification_history": {"type": "array", "items": {"$ref": "#/$defs/reclassification"}},
+        "template_state": {"enum": ["blank", "completed", "mixed", "unknown"]},
+        "contract_family": {"enum": ["employment", "commercial", "saas", "nda", "investment", "real_estate", "procurement", "unknown"]},
+        "contract_type": {"type": ["string", "null"]},
+        "languages": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/language"}}
+      }
+    },
+    "documentKind": {"enum": ["contract_template", "completed_contract", "policy", "form", "letter", "resolution", "court_filing", "guidance", "other", "unknown"]},
+    "language": {
+      "type": "object", "additionalProperties": false,
+      "required": ["tag", "basis", "confidence", "evidence"],
+      "properties": {
+        "tag": {"type": "string", "pattern": "^(und|[a-z]{2,3})(-[A-Za-z0-9]{2,8})*$"},
+        "basis": {"enum": ["document_text", "script_detection", "deterministic_text_heuristic", "model_label", "unknown"]},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/sourceSpan"}}
+      }
+    },
+    "jurisdiction": {
+      "type": "object", "additionalProperties": false,
+      "required": ["country_code", "basis", "governing_law_text", "legal_citations", "evidence", "review_status"],
+      "properties": {
+        "country_code": {"type": ["string", "null"], "pattern": "^[A-Z]{2}$"},
+        "basis": {"enum": ["document_text", "folder_hint", "unknown"]},
+        "governing_law_text": {"type": ["string", "null"]},
+        "legal_citations": {"type": "array", "items": {"$ref": "#/$defs/legalReference"}},
+        "evidence": {"type": "array", "items": {"$ref": "#/$defs/sourceSpan"}},
+        "review_status": {"$ref": "#/$defs/reviewStatus"}
+      }
+    },
+    "party": {
+      "type": "object", "additionalProperties": false,
+      "required": ["party_id", "role", "original_role_label", "entity_type", "variable_ids", "occurrences"],
+      "properties": {
+        "party_id": {"type": "string", "pattern": "^party_[a-f0-9]{20}$"},
+        "role": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+        "original_role_label": {"type": ["string", "null"]},
+        "entity_type": {"enum": ["individual", "company", "unknown"]},
+        "variable_ids": {"type": "array", "items": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"}},
+        "occurrences": {"type": "array", "items": {"$ref": "#/$defs/sourceSpan"}}
+      }
+    },
+    "variable": {
+      "type": "object", "additionalProperties": false,
+      "required": ["variable_id", "canonical_token", "original_tokens", "value_type", "party_id", "requirement_status", "allowed_choices", "occurrences"],
+      "properties": {
+        "variable_id": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+        "canonical_token": {"type": "string", "pattern": "^\\[[A-Z][A-Z0-9_]*\\]$"},
+        "original_tokens": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+        "value_type": {"enum": ["text", "date", "number", "money", "duration", "address", "identifier", "signature", "choice", "unknown"]},
+        "party_id": {"type": ["string", "null"]},
+        "requirement_status": {"$ref": "#/$defs/requirementStatus"},
+        "allowed_choices": {"type": "array", "items": {"type": "string"}},
+        "occurrences": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/sourceSpan"}}
+      }
+    },
+    "section": {
+      "type": "object", "additionalProperties": false,
+      "required": ["section_id", "order", "kind", "heading", "heading_span", "source_span", "requirement_status", "condition", "clauses"],
+      "properties": {
+        "section_id": {"type": "string", "pattern": "^sec_[a-f0-9]{20}$"},
+        "order": {"type": "integer", "minimum": 1},
+        "kind": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+        "heading": {"type": ["string", "null"]},
+        "heading_span": {"anyOf": [{"$ref": "#/$defs/sourceSpan"}, {"type": "null"}]},
+        "source_span": {"$ref": "#/$defs/sourceSpan"},
+        "requirement_status": {"$ref": "#/$defs/requirementStatus"},
+        "condition": {"type": ["string", "null"]},
+        "clauses": {"type": "array", "items": {"$ref": "#/$defs/clause"}}
+      }
+    },
+    "clause": {
+      "type": "object", "additionalProperties": false,
+      "required": ["clause_id", "order", "clause_type", "heading", "text", "variable_ids", "legal_references", "source_span", "requirement_status", "condition"],
+      "properties": {
+        "clause_id": {"type": "string", "pattern": "^clause_[a-f0-9]{20}$"},
+        "order": {"type": "integer", "minimum": 1},
+        "clause_type": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+        "heading": {"type": ["string", "null"]},
+        "text": {"type": "string", "minLength": 1},
+        "variable_ids": {"type": "array", "items": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"}},
+        "legal_references": {"type": "array", "items": {"$ref": "#/$defs/legalReference"}},
+        "source_span": {"$ref": "#/$defs/sourceSpan"},
+        "requirement_status": {"$ref": "#/$defs/requirementStatus"},
+        "condition": {"type": ["string", "null"]}
+      }
+    },
+    "legalReference": {
+      "type": "object", "additionalProperties": false,
+      "required": ["text", "source_span"],
+      "properties": {"text": {"type": "string", "minLength": 1}, "source_span": {"$ref": "#/$defs/sourceSpan"}}
+    },
+    "unparsed": {
+      "type": "object", "additionalProperties": false,
+      "required": ["content_id", "text", "reason", "source_span"],
+      "properties": {
+        "content_id": {"type": "string", "pattern": "^unparsed_[a-f0-9]{20}$"},
+        "text": {"type": "string", "minLength": 1},
+        "reason": {"type": "string"},
+        "source_span": {"$ref": "#/$defs/sourceSpan"}
+      }
+    },
+    "quality": {
+      "type": "object", "additionalProperties": false,
+      "required": ["extraction_status", "structure_review_status", "legal_review_status", "privacy_review_status", "training_eligibility", "sanitization_status", "issues"],
+      "properties": {
+        "extraction_status": {"enum": ["success", "partial", "encrypted", "unreadable", "empty", "malformed", "likely_ocr_required"]},
+        "structure_review_status": {"$ref": "#/$defs/reviewStatus"},
+        "legal_review_status": {"$ref": "#/$defs/reviewStatus"},
+        "privacy_review_status": {"$ref": "#/$defs/reviewStatus"},
+        "training_eligibility": {"enum": ["eligible", "review_required", "excluded"]},
+        "sanitization_status": {"enum": ["not_required", "required", "completed", "failed", "unknown"]},
+        "issues": {"type": "array", "items": {"$ref": "#/$defs/issue"}}
+      }
+    },
+    "issue": {
+      "type": "object", "additionalProperties": false,
+      "required": ["code", "severity", "message"],
+      "properties": {
+        "code": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+        "severity": {"enum": ["info", "warning", "error"]},
+        "message": {"type": "string"}
+      }
+    },
+    "reclassification": {
+      "type": "object", "additionalProperties": false,
+      "required": ["from_kind", "to_kind", "actor", "review_record_id", "reason", "sanitization_status"],
+      "properties": {
+        "from_kind": {"$ref": "#/$defs/documentKind"},
+        "to_kind": {"$ref": "#/$defs/documentKind"},
+        "actor": {"type": "string", "minLength": 1},
+        "review_record_id": {"type": "string", "minLength": 1},
+        "reason": {"type": "string", "minLength": 1},
+        "sanitization_status": {"const": "completed"}
+      }
+    },
+    "auditAction": {
+      "type": "object", "additionalProperties": false,
+      "required": ["action_id", "action", "actor_type", "actor", "details"],
+      "properties": {
+        "action_id": {"type": "string"},
+        "action": {"type": "string"},
+        "actor_type": {"enum": ["pipeline", "model", "human"]},
+        "actor": {"type": "string"},
+        "details": {"type": "string"}
+      }
+    },
+    "reviewStatus": {"enum": ["pending", "approved", "rejected", "not_applicable"]},
+    "requirementStatus": {"enum": ["explicit_required", "explicit_conditional", "explicit_optional", "unspecified"]},
+    "versions": {
+      "type": "object", "additionalProperties": false,
+      "required": ["pipeline", "schema", "taxonomy", "normalizer", "prompt", "model"],
+      "properties": {
+        "pipeline": {"type": "string"}, "schema": {"type": "string"}, "taxonomy": {"type": "string"},
+        "normalizer": {"type": "string"}, "prompt": {"type": ["string", "null"]}, "model": {"type": ["string", "null"]}
+      }
+    }
+  }
+}

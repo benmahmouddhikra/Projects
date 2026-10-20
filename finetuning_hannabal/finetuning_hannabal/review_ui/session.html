@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Start review session{% endblock %}
+{% block content %}
+<div class="card" style="max-width:520px;margin:4rem auto">
+  <h1>Start a review session</h1>
+  <p class="muted">V1 is local and single-user. Your name is written into each accepted revision.</p>
+  <form method="post">
+    <input type="hidden" name="next" value="{{ next }}">
+    <label>Reviewer name <input name="reviewer" required maxlength="200" autofocus></label>
+    <button>Continue</button>
+  </form>
+</div>
+{% endblock %}
+

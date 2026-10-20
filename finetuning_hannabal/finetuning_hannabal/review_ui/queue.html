@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Review queue{% endblock %}
+{% block content %}
+<h1>Review queue</h1>
+<div class="grid">
+  <div class="card"><strong>{{ summary.groups }}</strong><br><span class="muted">pilot content groups</span></div>
+  <div class="card"><strong>{{ summary.completed }} / {{ summary.required }}</strong><br><span class="muted">required category reviews approved</span></div>
+  <div class="card"><strong>{{ summary.approved_templates }}</strong><br><span class="muted">approved eligible templates</span></div>
+  <div class="card"><strong>{{ summary.visible }}</strong><br><span class="muted">groups in current filter</span></div>
+</div>
+<form class="card inline" method="get">
+  <label>Path search<input name="q" value="{{ request.args.get('q','') }}"></label>
+  <label>Kind<select name="kind"><option value="">All</option>{% for v in all_rows|map(attribute='document_kind')|unique %}<option value="{{ v or 'none' }}" {% if request.args.get('kind')==(v or 'none') %}selected{% endif %}>{{ v or 'none' }}</option>{% endfor %}</select></label>
+  <label>Extraction<select name="extraction"><option value="">All</option>{% for v in all_rows|map(attribute='extraction_status')|unique %}<option {% if request.args.get('extraction')==v %}selected{% endif %}>{{ v }}</option>{% endfor %}</select></label>
+  <label>Coverage<select name="coverage"><option value="">All</option>{% for v in ['full','classification_only','sampled_audit','automated_triage'] %}<option {% if request.args.get('coverage')==v %}selected{% endif %}>{{ v }}</option>{% endfor %}</select></label>
+  <label>Disposition<select name="disposition"><option value="">All</option>{% for v in ['pending','approved','rejected','changes_required','excluded'] %}<option {% if request.args.get('disposition')==v %}selected{% endif %}>{{ v }}</option>{% endfor %}</select></label>
+  <button>Filter</button>
+</form>
+<div class="card" style="overflow:auto;padding:0">
+<table><thead><tr><th>Source / group</th><th>Extraction</th><th>Classification</th><th>Coverage</th><th>Progress</th><th>Disposition</th></tr></thead><tbody>
+{% for row in rows %}<tr>
+  <td><a href="{{ url_for('review',review_id=row.review_record_id) }}"><code>{{ row.review_record_id }}</code></a><br>{% for p in row.source_paths %}<span dir="auto">{{ p }}</span><br>{% endfor %}{% if row.duplicate_count>1 %}<span class="tag">{{ row.duplicate_count }} exact duplicates</span>{% endif %}</td>
+  <td>{{ row.extraction_status }}<br><small>{{ 'valid' if row.validation_valid else 'validation errors' }}</small></td>
+  <td>{{ row.document_kind or 'none' }}</td><td>{{ row.review_coverage }}</td>
+  <td>{{ row.completed_reviews }}/{{ row.required_reviews|length }}<br>{% for x in row.required_reviews %}<span class="tag">{{ x }}</span>{% endfor %}</td>
+  <td class="status-{{ row.final_disposition }}">{{ row.final_disposition }}<br><small>revision {{ row.revision }}</small></td>
+</tr>{% endfor %}</tbody></table>
+</div>
+{% endblock %}
+

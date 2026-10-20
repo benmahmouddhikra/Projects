@@ -1,0 +1,77 @@
+{
+  "artifact_key": "src_0ee802580e76ac3db4a6",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_0ee802580e76ac3db4a6/canonical.json",
+    "extraction": "artifacts/pilot/src_0ee802580e76ac3db4a6/extraction.json",
+    "review": "artifacts/review-queue/review_3373b30393adda9c9e28.json",
+    "validation": "artifacts/pilot/src_0ee802580e76ac3db4a6/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.422995Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "contract_template",
+  "required_reviews": [
+    "classification",
+    "extraction",
+    "legal",
+    "structure"
+  ],
+  "review_coverage": "full",
+  "review_record_id": "review_3373b30393adda9c9e28",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/Saudi arabia/نموذج عقد إنشاءات عامة.pdf",
+      "sha256": "b3456109b9264717082d638d82fee0bf0f8719c9d7ef23db90cbd40c27b31335",
+      "source_id": "src_0ee802580e76ac3db4a6"
+    }
+  ],
+  "template_id": "tpl_ed944db32ddac4868124",
+  "training_eligibility": "review_required",
+  "updated_at": "2026-08-12T14:00:38.422995Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:00:38.422995Z",
+    "errors": [],
+    "valid": true
+  }
+}

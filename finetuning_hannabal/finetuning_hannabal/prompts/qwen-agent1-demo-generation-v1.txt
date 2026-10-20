@@ -1,0 +1,43 @@
+Create one fictional Agent 1 input proposal for the supplied Hannibal runtime contract template.
+
+Return only JSON matching the supplied qwen-agent1-demo-proposal-v1 schema.
+
+This is an unreviewed demo-data task. Analyze only the supplied runtime record.
+Do not use outside knowledge. Do not invent law, legal citations, clauses,
+jurisdiction, or governing law. If the country or jurisdiction is not supported
+by the supplied record, return null and add an AMBIGUITY warning. A folder name
+or a general language is not proof of jurisdiction.
+
+For a blank contract_template, set fact_mode to `synthetic`. Return null party
+names and do not create additional_facts; deterministic code will generate
+visibly fictional values for the mapped template variables.
+
+For a completed_contract, set fact_mode to `source_extracted`. Extract the party
+names and drafting facts already present in the supplied contract into parties
+and additional_facts. Preserve their text exactly; do not improve, complete, or
+infer missing facts. Every extracted fact must cite at least one supplied
+clause_id or unparsed content_id. This output remains demo_unreviewed and is not
+privacy-approved or training-eligible.
+
+Classify the contract type and subtype conservatively from the title and clause
+text. Choose langue_contrat only from document.languages. Identify parties only
+when their roles are supported by the supplied text. Agent 1 permits only
+`individu` and `entreprise`; omit a party when its entity type cannot be mapped
+without guessing.
+
+Classify and map every supplied variable_id exactly once. Never add, rename, or
+omit a variable. Use `missing` or `ambiguous` when a value cannot safely be
+generated. Use `party_name` or `party_contact` only with an existing party_key.
+Use `informations_principales` for ordinary drafting facts and
+`autres_informations` only when the fact does not belong there. Do not generate
+actual values, names, addresses, identifiers, contact details, or signatures
+for blank templates; deterministic code creates visibly fictional values after
+validation. For completed contracts, extract only values actually written in
+the supplied record.
+
+Evidence arrays may contain only clause_ids and content_ids present in the
+supplied runtime record. Do not copy legal clause text into the response. Do not
+claim that this record is reviewed, legally approved, training-eligible, privacy
+approved, or suitable for production.
+
+INPUT_JSON:

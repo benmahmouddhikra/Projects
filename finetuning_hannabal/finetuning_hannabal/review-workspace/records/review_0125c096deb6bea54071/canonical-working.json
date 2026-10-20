@@ -1,0 +1,1043 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_4292997e2b8c582f4f6d",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "unknown",
+    "initial_document_kind": "unknown",
+    "languages": [
+      {
+        "basis": "script_detection",
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_e464eda2f3a1830ee75c",
+            "normalized_end": 15,
+            "normalized_start": 0,
+            "raw_end": 15,
+            "raw_start": 0,
+            "source_id": "src_24f37422f127dcc2dbba",
+            "text_sha256": "7e80f49b8b2d568881cd2ac6aba31d3ef9d8e46181845500682f9d12b62fd0a9"
+          }
+        ],
+        "tag": "ar"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "unknown",
+    "title": "عقد ايجار منقول",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 15,
+        "normalized_start": 0,
+        "raw_end": 15,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "7e80f49b8b2d568881cd2ac6aba31d3ef9d8e46181845500682f9d12b62fd0a9"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "document_kind_unresolved",
+        "message": "Deterministic filename rules did not resolve document kind.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      },
+      {
+        "code": "ambiguity_023_non_contract_destination",
+        "message": "AMBIGUITY-023: the non-contract knowledge-base/training destination is unresolved.",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "not_required",
+    "structure_review_status": "pending",
+    "training_eligibility": "excluded"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_527e791a99b44735152f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "البند الأول",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000011",
+            "extraction_id": "ext_e464eda2f3a1830ee75c",
+            "normalized_end": 11,
+            "normalized_start": 0,
+            "raw_end": 11,
+            "raw_start": 0,
+            "source_id": "src_24f37422f127dcc2dbba",
+            "text_sha256": "72e077503465b9ecb5e9ab7878ea74c140860329bfe8a0c68eec523091d1b7c3"
+          },
+          "text": "البند الأول",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "البند الأول",
+      "heading_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 11,
+        "normalized_start": 0,
+        "raw_end": 11,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "72e077503465b9ecb5e9ab7878ea74c140860329bfe8a0c68eec523091d1b7c3"
+      },
+      "kind": "unclassified",
+      "order": 1,
+      "requirement_status": "unspecified",
+      "section_id": "sec_1d4f5803a9b394840cb9",
+      "source_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 11,
+        "normalized_start": 0,
+        "raw_end": 11,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "72e077503465b9ecb5e9ab7878ea74c140860329bfe8a0c68eec523091d1b7c3"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e9aa35d1e0ea0ad5491b",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "البند الثاني",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000013",
+            "extraction_id": "ext_e464eda2f3a1830ee75c",
+            "normalized_end": 12,
+            "normalized_start": 0,
+            "raw_end": 12,
+            "raw_start": 0,
+            "source_id": "src_24f37422f127dcc2dbba",
+            "text_sha256": "89d646600653fc8cf597f3830bcda51e8d7d91a4af42c5bff063f6ee955327cd"
+          },
+          "text": "البند الثاني",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "البند الثاني",
+      "heading_span": {
+        "block_id": "block_000013",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 12,
+        "normalized_start": 0,
+        "raw_end": 12,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "89d646600653fc8cf597f3830bcda51e8d7d91a4af42c5bff063f6ee955327cd"
+      },
+      "kind": "unclassified",
+      "order": 2,
+      "requirement_status": "unspecified",
+      "section_id": "sec_b73d5f06ac3dd87b6a3d",
+      "source_span": {
+        "block_id": "block_000013",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 12,
+        "normalized_start": 0,
+        "raw_end": 12,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "89d646600653fc8cf597f3830bcda51e8d7d91a4af42c5bff063f6ee955327cd"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_6936b68341328da446e1",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "البند الثالث",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000016",
+            "extraction_id": "ext_e464eda2f3a1830ee75c",
+            "normalized_end": 12,
+            "normalized_start": 0,
+            "raw_end": 12,
+            "raw_start": 0,
+            "source_id": "src_24f37422f127dcc2dbba",
+            "text_sha256": "317697c1d54d097447d43e9a710926ee328e897dcf669148de647143ad0c69a2"
+          },
+          "text": "البند الثالث",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "البند الثالث",
+      "heading_span": {
+        "block_id": "block_000016",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 12,
+        "normalized_start": 0,
+        "raw_end": 12,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "317697c1d54d097447d43e9a710926ee328e897dcf669148de647143ad0c69a2"
+      },
+      "kind": "unclassified",
+      "order": 3,
+      "requirement_status": "unspecified",
+      "section_id": "sec_db0a22588428c01a9f34",
+      "source_span": {
+        "block_id": "block_000016",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 12,
+        "normalized_start": 0,
+        "raw_end": 12,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "317697c1d54d097447d43e9a710926ee328e897dcf669148de647143ad0c69a2"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_bf3861f245199c85421c",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "البند الرابع",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000020",
+            "extraction_id": "ext_e464eda2f3a1830ee75c",
+            "normalized_end": 12,
+            "normalized_start": 0,
+            "raw_end": 12,
+            "raw_start": 0,
+            "source_id": "src_24f37422f127dcc2dbba",
+            "text_sha256": "306135fb8322896593e867e1f3dde6ecba69355af7b07b4065eda446998850fb"
+          },
+          "text": "البند الرابع",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "البند الرابع",
+      "heading_span": {
+        "block_id": "block_000020",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 12,
+        "normalized_start": 0,
+        "raw_end": 12,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "306135fb8322896593e867e1f3dde6ecba69355af7b07b4065eda446998850fb"
+      },
+      "kind": "unclassified",
+      "order": 4,
+      "requirement_status": "unspecified",
+      "section_id": "sec_50eaf68937e88aa5457d",
+      "source_span": {
+        "block_id": "block_000020",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 12,
+        "normalized_start": 0,
+        "raw_end": 12,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "306135fb8322896593e867e1f3dde6ecba69355af7b07b4065eda446998850fb"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e9dc605d616d8be83c1b",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "البند الخامس",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000023",
+            "extraction_id": "ext_e464eda2f3a1830ee75c",
+            "normalized_end": 12,
+            "normalized_start": 0,
+            "raw_end": 12,
+            "raw_start": 0,
+            "source_id": "src_24f37422f127dcc2dbba",
+            "text_sha256": "2c616448344c4309c70a14a4ecf0b7054e9827c279b12ff8a42ac37786b55565"
+          },
+          "text": "البند الخامس",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "البند الخامس",
+      "heading_span": {
+        "block_id": "block_000023",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 12,
+        "normalized_start": 0,
+        "raw_end": 12,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "2c616448344c4309c70a14a4ecf0b7054e9827c279b12ff8a42ac37786b55565"
+      },
+      "kind": "unclassified",
+      "order": 5,
+      "requirement_status": "unspecified",
+      "section_id": "sec_c50f40bd8199ed342982",
+      "source_span": {
+        "block_id": "block_000023",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 12,
+        "normalized_start": 0,
+        "raw_end": 12,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "2c616448344c4309c70a14a4ecf0b7054e9827c279b12ff8a42ac37786b55565"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_2e611369cffbfc558902",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "البند السادس",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000026",
+            "extraction_id": "ext_e464eda2f3a1830ee75c",
+            "normalized_end": 12,
+            "normalized_start": 0,
+            "raw_end": 12,
+            "raw_start": 0,
+            "source_id": "src_24f37422f127dcc2dbba",
+            "text_sha256": "1852cef161298bffd86e90940414eecb9da52f3429231093a431949a2c40f854"
+          },
+          "text": "البند السادس",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "البند السادس",
+      "heading_span": {
+        "block_id": "block_000026",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 12,
+        "normalized_start": 0,
+        "raw_end": 12,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "1852cef161298bffd86e90940414eecb9da52f3429231093a431949a2c40f854"
+      },
+      "kind": "unclassified",
+      "order": 6,
+      "requirement_status": "unspecified",
+      "section_id": "sec_c485e5567d82d0ef9e2f",
+      "source_span": {
+        "block_id": "block_000026",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 12,
+        "normalized_start": 0,
+        "raw_end": 12,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "1852cef161298bffd86e90940414eecb9da52f3429231093a431949a2c40f854"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_d33fee0ec0daccddffee",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "البند السابع",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000029",
+            "extraction_id": "ext_e464eda2f3a1830ee75c",
+            "normalized_end": 12,
+            "normalized_start": 0,
+            "raw_end": 12,
+            "raw_start": 0,
+            "source_id": "src_24f37422f127dcc2dbba",
+            "text_sha256": "093f4a5e5d66d27ed44cca1fe46172e2b94c0abe2616f579c5d2743aa980517b"
+          },
+          "text": "البند السابع",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "البند السابع",
+      "heading_span": {
+        "block_id": "block_000029",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 12,
+        "normalized_start": 0,
+        "raw_end": 12,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "093f4a5e5d66d27ed44cca1fe46172e2b94c0abe2616f579c5d2743aa980517b"
+      },
+      "kind": "unclassified",
+      "order": 7,
+      "requirement_status": "unspecified",
+      "section_id": "sec_cea4a3840b59c40527a6",
+      "source_span": {
+        "block_id": "block_000029",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 12,
+        "normalized_start": 0,
+        "raw_end": 12,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "093f4a5e5d66d27ed44cca1fe46172e2b94c0abe2616f579c5d2743aa980517b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_eeb4b21e2bff8d21058e",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "البند الثامن",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000032",
+            "extraction_id": "ext_e464eda2f3a1830ee75c",
+            "normalized_end": 12,
+            "normalized_start": 0,
+            "raw_end": 12,
+            "raw_start": 0,
+            "source_id": "src_24f37422f127dcc2dbba",
+            "text_sha256": "adc0672a3104178919dfcddf1ff5797f6051af02c5d352d66d1271b34600669d"
+          },
+          "text": "البند الثامن",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "البند الثامن",
+      "heading_span": {
+        "block_id": "block_000032",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 12,
+        "normalized_start": 0,
+        "raw_end": 12,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "adc0672a3104178919dfcddf1ff5797f6051af02c5d352d66d1271b34600669d"
+      },
+      "kind": "unclassified",
+      "order": 8,
+      "requirement_status": "unspecified",
+      "section_id": "sec_0f24765e1ca7fc2acdbf",
+      "source_span": {
+        "block_id": "block_000032",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 12,
+        "normalized_start": 0,
+        "raw_end": 12,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "adc0672a3104178919dfcddf1ff5797f6051af02c5d352d66d1271b34600669d"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_0b559c4fcd72fab4f727",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "البند التاسع",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000035",
+            "extraction_id": "ext_e464eda2f3a1830ee75c",
+            "normalized_end": 12,
+            "normalized_start": 0,
+            "raw_end": 12,
+            "raw_start": 0,
+            "source_id": "src_24f37422f127dcc2dbba",
+            "text_sha256": "938e0cf92acff7aa6c003a622b9340c11cbd1516b45b6bb37e6d8f026c583299"
+          },
+          "text": "البند التاسع",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "البند التاسع",
+      "heading_span": {
+        "block_id": "block_000035",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 12,
+        "normalized_start": 0,
+        "raw_end": 12,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "938e0cf92acff7aa6c003a622b9340c11cbd1516b45b6bb37e6d8f026c583299"
+      },
+      "kind": "unclassified",
+      "order": 9,
+      "requirement_status": "unspecified",
+      "section_id": "sec_b408a3a141209b83e35b",
+      "source_span": {
+        "block_id": "block_000035",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 12,
+        "normalized_start": 0,
+        "raw_end": 12,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "938e0cf92acff7aa6c003a622b9340c11cbd1516b45b6bb37e6d8f026c583299"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "extracted_text_sha256": "6518914a4d9e517c128ee23c14666d3d9c9134303821a3d38795f07180248bd2",
+      "extraction_method": "docx_ooxml_xml",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "page_count": null,
+      "relative_path": "templates/Eygpte/66941485-a17f-4472-9f60-0275cf7f929d.docx",
+      "sha256": "eebb439eca9ec23805883ec5dba69a302a8cadd1d396eb25278e11a12f98f2ff",
+      "size_bytes": 129863,
+      "source_id": "src_24f37422f127dcc2dbba"
+    }
+  ],
+  "template_id": "tpl_1fd905a1ae07665c70c4",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_29c91d828038a7babc6c",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 15,
+        "normalized_start": 0,
+        "raw_end": 15,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "7e80f49b8b2d568881cd2ac6aba31d3ef9d8e46181845500682f9d12b62fd0a9"
+      },
+      "text": "عقد ايجار منقول"
+    },
+    {
+      "content_id": "unparsed_e745994888069a0fbbef",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 64,
+        "normalized_start": 0,
+        "raw_end": 64,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "90b694e781806d26792cc277707b3b544d01e31b4374a0355e22aa7e44c3661c"
+      },
+      "text": "إنه في يوم ……. الموافق ... / ... /     ٢٠٢ م بمدينة ............"
+    },
+    {
+      "content_id": "unparsed_4430851a829361219261",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 50,
+        "normalized_start": 0,
+        "raw_end": 50,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "95f7618722b5ae3c451a12abd5827be26dfe6f65d92b989314c68c9b1eaa23d0"
+      },
+      "text": "تم بحمد الله وعونه الاتفاق والتعاقد بين كلًا من :-"
+    },
+    {
+      "content_id": "unparsed_95c68476ae304fd0bc0c",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 324,
+        "normalized_start": 0,
+        "raw_end": 324,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "9a18ebcd37e87370a22d1d386f0a19cf62de5f239724fa469c8f498a7eadada7"
+      },
+      "text": "أولًا :- السيد / ................... ، ويحمل بطاقة رقم قومي ........................... بتاريخ ........................، وعنوانها ................................. ، تليفون …………… ، البريد الإلكتروني ....................................، فاكس ( ………… ) ، وتمثل قانونًا في هذا العقد بالأصالة عن نفسه، ويشار إليها في هذا العقد ب"
+    },
+    {
+      "content_id": "unparsed_489cfbbb9ff44350a3f5",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 13,
+        "normalized_start": 0,
+        "raw_end": 13,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "c768d9d604c634f3cea64dbe81f395aeb9e54eec1b30e96b72de9f348d53cbab"
+      },
+      "text": "(الطرف الأول)"
+    },
+    {
+      "content_id": "unparsed_f182b0b2664379ed90f2",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 325,
+        "normalized_start": 0,
+        "raw_end": 325,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "cc31178e2ebb0de4e305e010d5c55e1ffd80744626c1d12b49d8e075e794d9c8"
+      },
+      "text": "ثانيًا :- السيد / ................... ، ويحمل بطاقة رقم قومي ........................... بتاريخ ........................، وعنوانها ................................. ، تليفون …………… ، البريد الإلكتروني ....................................، فاكس ( ………… ) ، وتمثل قانونًا في هذا العقد بالأصالة عن نفسه، ويشار إليها في هذا العقد ب"
+    },
+    {
+      "content_id": "unparsed_ce6e17c8fa83b32ccc89",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000007",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 14,
+        "normalized_start": 0,
+        "raw_end": 14,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "87ccd270cf518922d6f0679ae304bd67b45079e8870089271bca45bcf0a38277"
+      },
+      "text": "(الطرف الثاني)"
+    },
+    {
+      "content_id": "unparsed_6da53a358288121a8ba3",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 7,
+        "normalized_start": 0,
+        "raw_end": 7,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "8acd0b33a4fca8cea999bccb9da8119fb479821cdc8e30471413eb3941a007e8"
+      },
+      "text": "التمهيد"
+    },
+    {
+      "content_id": "unparsed_3ab4ff91eeca5ce22332",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 121,
+        "normalized_start": 0,
+        "raw_end": 121,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "a90307ddb64d5e76903ddc476b374db2f0e1989df3eada33eb0075c1342548d1"
+      },
+      "text": "حيث ان يمتلك الطرف الأول ....... وهو راغب بتأجيره وان الطرف الثاني ذا خبرة في استعمال المنقول المذكور وهو راغب باستئجاره."
+    },
+    {
+      "content_id": "unparsed_0cd8e033d2959380531f",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 73,
+        "normalized_start": 1,
+        "raw_end": 73,
+        "raw_start": 1,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "2b0901860947b7d24feb6733781c896e347c7bd76d3c7ffbe6ac4e7a9e6b772a"
+      },
+      "text": "وعليه فقد تلاقت الإرادتان وتم الاتفاق والتراضي بين الطرفين على ما يلي :-"
+    },
+    {
+      "content_id": "unparsed_5926a4c37bdba97d05d1",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000012",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 67,
+        "normalized_start": 1,
+        "raw_end": 67,
+        "raw_start": 1,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "1f895467eedc5583f17c2718a046080b33589fe0d69bef88dc3803b2ca58df03"
+      },
+      "text": "يعتبر التمهيد الآنف جزءً لا يتجزأ من هذا العقد ومكملًا ومتممًا له."
+    },
+    {
+      "content_id": "unparsed_152294bfb3a464dcfbd4",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000014",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 11,
+        "normalized_start": 0,
+        "raw_end": 11,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "3f1cc6c7232a6bb20ed71e0eb0f34df2a1d0563d23b9fef9fb63d97a8726640c"
+      },
+      "text": "موضوع العقد"
+    },
+    {
+      "content_id": "unparsed_e32af7b3f1285302fe4b",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 103,
+        "normalized_start": 0,
+        "raw_end": 103,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "642fedd2b97e270532acc645fc3c933fbc995edafa158b99d827ed12048294cf"
+      },
+      "text": "قام الطرف الاول بتأجير …….. للطرف الثاني للقيام بأعمال ............. والكائنة …….. لنقلها إلى موقع آخر."
+    },
+    {
+      "content_id": "unparsed_829f66365a09e9260e29",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000017",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 12,
+        "normalized_start": 0,
+        "raw_end": 12,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "a1b8c3c36087be0cc5cbbd6a825903dcc8d9b27378aa9f521479205cc3ef38ab"
+      },
+      "text": "قيمة الايجار"
+    },
+    {
+      "content_id": "unparsed_748b24c1408213e39d75",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000018",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 339,
+        "normalized_start": 0,
+        "raw_end": 339,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "4e6af163d8a539bebb5b1af87e17320673c89571bfbea647a52009ef89b5ff0c"
+      },
+      "text": "اجر الطرف الأول للطرف الثاني القابل لذلك إجارة قطعية لا رجوع فيها ولا نكول ل (يذكر المنقول) الموصف بالمقدمة لقاء ايجار شهري قدره (   ) جنيه مصري يدفعه الطرف الثاني للطرف الأول بالطريقة المتفق عليها بينهم مقدماً في اليوم الأول من كل شهر ميلادي يحل بعد الشهر الجاري . وقد استوفى الطرف الأول اجرة شهر (    ) الجاري وأبرأ ذمة الطرف الثاني منه."
+    },
+    {
+      "content_id": "unparsed_cda9baaeb91b5da67036",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000019",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 179,
+        "normalized_start": 0,
+        "raw_end": 179,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "4644070334a57b9e9f74e3185fed93c90f1584b2efaf848b5efd77f5da2ee9a3"
+      },
+      "text": "وتم هذا الايجار لقاء أجرة قدرها …….. فقط …….. عن كل يوم، على الا يتم التشغيل لأكثر من …….. ساعة، فان تطلب العمل في اليوم الاخير أقل من هذا المعدل، استحق الطرف الاول أجرة يوم كامل."
+    },
+    {
+      "content_id": "unparsed_46a47fa6334efb4cb979",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000021",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 11,
+        "normalized_start": 0,
+        "raw_end": 11,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "54e05522a0eb49397812f6dde8b9eef4dea91f5ba55040c49e546c83e6a19d97"
+      },
+      "text": "مدة الايجار"
+    },
+    {
+      "content_id": "unparsed_2a2240859b3ee7e01030",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000022",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 103,
+        "normalized_start": 0,
+        "raw_end": 103,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "79767b62233fdbdc342110d495be7474824c809b1847606ae6ec4bec373ee2dd"
+      },
+      "text": "أتفق الطرفان أن تكون مدة الايجار .................. شهرًا ميلاديًا تبدأ من تاريخ التوقيع علي هذا العقد."
+    },
+    {
+      "content_id": "unparsed_193dc2ef053327debba1",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000024",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 13,
+        "normalized_start": 0,
+        "raw_end": 13,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "69c7ed71237ee7be3cb6beaf4e466235b07eec68b1c1d331fb842136e7d285b9"
+      },
+      "text": "اعمال الصيانة"
+    },
+    {
+      "content_id": "unparsed_5f442a4d27d430fdbdc2",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000025",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 159,
+        "normalized_start": 0,
+        "raw_end": 159,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "cf2fd4c3b433a83607b73133a305cff01f5f3232f9c01bbb7bb7b857c5d17336"
+      },
+      "text": "يلتزم الطرف الاول بأعمال الصيانة على أن تتم بعد الفترة المقررة للتشغيل، فان تمت خلالها ، كان للطرف الثاني استكمال ساعات التشغيل اليومي بعد اجراء اعمال الصيانة."
+    },
+    {
+      "content_id": "unparsed_2577d108f52fba3b6223",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000027",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 13,
+        "normalized_start": 0,
+        "raw_end": 13,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "e7d0e195113ada74862d5babbb28b975f7c81a140b307a6ebfab814973c8d34a"
+      },
+      "text": "اعمال التشغيل"
+    },
+    {
+      "content_id": "unparsed_1578ef182a78357476a4",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000028",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 171,
+        "normalized_start": 0,
+        "raw_end": 171,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "9d6efe612a87e21b9e9d24c4e960df5fc057da97fb607a7c2365b24262528f28"
+      },
+      "text": "ليس للطرف الثاني أن يتدخل فى اعمال التشغيل التي يتولاها عمال الطرف الاول، فان كان له اعتراض، خاطب فى شأنه الطرف الاول، والا كان مسئولا عنهم مسئولية المتبوع عن اعمال تابعه."
+    },
+    {
+      "content_id": "unparsed_5baae84121031440d136",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000030",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 32,
+        "normalized_start": 0,
+        "raw_end": 32,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "f0880a232bb921407c6c8c416fe72c29bd2d1d147b4442676cc84e957df785ed"
+      },
+      "text": "القانون المطبق والاختصاص القضائي"
+    },
+    {
+      "content_id": "unparsed_3f8bf5e1605eb0a54e9d",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000031",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 130,
+        "normalized_start": 0,
+        "raw_end": 130,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "0c0f22fb6677c286b2ef58e0f4d0e0bab48524f0dc76658b16b30fd8f61a667b"
+      },
+      "text": "يخضع تطبيق هذا العقد وتفسير بنوده لقوانين جمهورية مصر العربية وفي حالة حدوث أي نزاع لا قدر الله بين طرفي العقد تكون المحكمة......."
+    },
+    {
+      "content_id": "unparsed_d00c2c987e9207da3e44",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000033",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 7,
+        "normalized_start": 0,
+        "raw_end": 7,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "4261ecbd80af5fe3cdefad41b28a10566be1f725a9312cc76e91f3a29a7eae8a"
+      },
+      "text": "التامين"
+    },
+    {
+      "content_id": "unparsed_aaba19b104a125939b97",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000034",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 175,
+        "normalized_start": 0,
+        "raw_end": 175,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "d2fe713097edea0eea555f0f41771137e4aa4db3bae95a4dbb691bc1069be3a6"
+      },
+      "text": "التأمين المدفوع من المستأجر إلى المؤجر هو …. وليس من حق المستأجر أن يسترد هذا التأمين الا بعد انتهاء مدة الإيجار وبعد تسليمه المكان المؤجر بالحالة التى كانت عليها وقت التعاقد."
+    },
+    {
+      "content_id": "unparsed_a67c9f2ec9d1a32bc744",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000036",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 9,
+        "normalized_start": 0,
+        "raw_end": 9,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "ab8b121a218df96d87a1adefb04909a232d90a1eb311b2d052272f6e07d75233"
+      },
+      "text": "نسخ العقد"
+    },
+    {
+      "content_id": "unparsed_4c6e8dd96111c112b493",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000037",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 37,
+        "normalized_start": 0,
+        "raw_end": 37,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "6d783f6d8dbf19946488ff4dd800edeeef100597bc801b724cf377537a65b4bf"
+      },
+      "text": "حرر هذا العقد من نسختين لكل طرف نسخة."
+    },
+    {
+      "content_id": "unparsed_1f8c40c9daa7c51b2933",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000038",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 108,
+        "normalized_start": 0,
+        "raw_end": 108,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "c329c48c145d9cdc5cccc0228297cd02b6f00d2c223c07be1fb592d2f0fc93b6"
+      },
+      "text": "الطرف الأول: .....................................          الطرف الثاني: .................................."
+    },
+    {
+      "content_id": "unparsed_a3e18a509f66eceeb119",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000039",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 110,
+        "normalized_start": 0,
+        "raw_end": 110,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "48d033c706a1d3b58a5bffcbf1df873a27a57d9bcd9294b18b4d5a2d4e41f4be"
+      },
+      "text": "الرقم القومي: ......................................          الرقم القومي: .................................."
+    },
+    {
+      "content_id": "unparsed_d49b164c5148cb4c6965",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000040",
+        "extraction_id": "ext_e464eda2f3a1830ee75c",
+        "normalized_end": 113,
+        "normalized_start": 0,
+        "raw_end": 113,
+        "raw_start": 0,
+        "source_id": "src_24f37422f127dcc2dbba",
+        "text_sha256": "134bbd70048cc3abd180b72d5ed4b4919a1c0f7daae464c190493fb528edcf5c"
+      },
+      "text": "التوقيع: ............................................          التوقيع: ........................................."
+    }
+  ],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

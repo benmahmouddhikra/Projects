@@ -1,0 +1,74 @@
+{
+  "artifact_key": "src_367ac6b70971117ae8b8",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_367ac6b70971117ae8b8/canonical.json",
+    "extraction": "artifacts/pilot/src_367ac6b70971117ae8b8/extraction.json",
+    "review": "artifacts/review-queue/review_60af1e93197900a16bad.json",
+    "validation": "artifacts/pilot/src_367ac6b70971117ae8b8/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.061600Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "unknown",
+  "required_reviews": [
+    "classification"
+  ],
+  "review_coverage": "classification_only",
+  "review_record_id": "review_60af1e93197900a16bad",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/france/Accord de Confidentialité (NDA).pdf",
+      "sha256": "6cc60607d02042e9ae9548412ee8898b1c484d8190230ca8cc1ce2b547383e15",
+      "source_id": "src_367ac6b70971117ae8b8"
+    }
+  ],
+  "template_id": "tpl_156de1f26de5836bbf42",
+  "training_eligibility": "review_required",
+  "updated_at": "2026-08-12T14:00:38.061600Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:05:23.086181Z",
+    "errors": [],
+    "valid": true
+  }
+}

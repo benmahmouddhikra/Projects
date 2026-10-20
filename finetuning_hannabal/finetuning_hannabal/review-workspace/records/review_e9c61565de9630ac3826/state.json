@@ -1,0 +1,77 @@
+{
+  "artifact_key": "src_f406a928136d29a365eb",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_f406a928136d29a365eb/canonical.json",
+    "extraction": "artifacts/pilot/src_f406a928136d29a365eb/extraction.json",
+    "review": "artifacts/review-queue/review_e9c61565de9630ac3826.json",
+    "validation": "artifacts/pilot/src_f406a928136d29a365eb/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.742087Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "contract_template",
+  "required_reviews": [
+    "classification",
+    "extraction",
+    "legal",
+    "structure"
+  ],
+  "review_coverage": "full",
+  "review_record_id": "review_e9c61565de9630ac3826",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/Tunisie/Promesse_bail.docx",
+      "sha256": "d2b66b9302c9d4f742c6cfc7dfbbb53c3d200f90eda897c4ed7265ccd0a8b8cd",
+      "source_id": "src_f406a928136d29a365eb"
+    }
+  ],
+  "template_id": "tpl_08f01cfd08288e02aeba",
+  "training_eligibility": "review_required",
+  "updated_at": "2026-08-12T14:00:38.742087Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:05:23.626575Z",
+    "errors": [],
+    "valid": true
+  }
+}

@@ -1,0 +1,2737 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_50aa9d29c1c0a237cd8d",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "contract_template",
+    "initial_document_kind": "contract_template",
+    "languages": [
+      {
+        "basis": "deterministic_text_heuristic",
+        "confidence": 0.1302,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 775,
+            "normalized_start": 0,
+            "raw_end": 775,
+            "raw_start": 0,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "ab036d2a2eedc7f857a17d1a13dd93903754508fb32cf1192d38f62a83313c7d"
+          }
+        ],
+        "tag": "en"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "blank",
+    "title": "Agricultural Worker Employment Contract",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 39,
+        "normalized_start": 0,
+        "raw_end": 39,
+        "raw_start": 0,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "767ac3ede5c6aa8a9e77d147ff44866b4380d8e9193842b8c0569b11b2d0071f"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "not_required",
+    "structure_review_status": "pending",
+    "training_eligibility": "review_required"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_5cde03beecb4bf161886",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "THIS AGRICULTURAL WORKER EMPLOYMENT CONTRACT is made on",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 263,
+            "normalized_start": 248,
+            "raw_end": 263,
+            "raw_start": 248,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "f7ef09d08070eb51f3ec93870509f2ebec1b6a9b5833e6c65a362628ad88ef6f"
+          },
+          "text": "[CONTRACT_DATE]",
+          "variable_ids": [
+            "contract_date"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "THIS AGRICULTURAL WORKER EMPLOYMENT CONTRACT is made on",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 247,
+        "normalized_start": 192,
+        "raw_end": 247,
+        "raw_start": 192,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "b327b7fb2b17267bfe562870a86e8132a009bfccd0b529e1faaf3aa7c414eecd"
+      },
+      "kind": "unclassified",
+      "order": 1,
+      "requirement_status": "unspecified",
+      "section_id": "sec_74279267ef0dc6a94186",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 263,
+        "normalized_start": 192,
+        "raw_end": 263,
+        "raw_start": 192,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "46d5a030bbfa3eeffdcfc624070fdde03e7531ff0146877d315f72b3b8f2e412"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_49835bdc9719797ee531",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "BETWEEN:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 323,
+            "normalized_start": 273,
+            "raw_end": 323,
+            "raw_start": 273,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "ee96c7b8b4f35a8dd9259b50e1fe70a375e05de9631b8755fe334dbcb2b80602"
+          },
+          "text": "(1)\n[EMPLOYER_NAME]\n(BRS No:\n[EMPLOYER_BRS_NUMBER]",
+          "variable_ids": [
+            "employer_brs_number",
+            "employer_name"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "BETWEEN:",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 272,
+        "normalized_start": 264,
+        "raw_end": 272,
+        "raw_start": 264,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "f2b3c81bbb107f7ca683042ecfc78d72952af6973367aabc94c18ee370fda69b"
+      },
+      "kind": "unclassified",
+      "order": 2,
+      "requirement_status": "unspecified",
+      "section_id": "sec_997fee45caf145249a79",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 323,
+        "normalized_start": 264,
+        "raw_end": 323,
+        "raw_start": 264,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "60e3fda49f588c0100ac440490790dc0292d68f707f4cbda9b045e5bb7156980"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_39a451d426f0b1d76ab5",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": ", KRA PIN:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 478,
+            "normalized_start": 335,
+            "raw_end": 478,
+            "raw_start": 335,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "1ed7c17b66634c6d8247d7267e3e1441ae50bccccaa3cba241a43824ef12fc8b"
+          },
+          "text": "[EMPLOYER_KRA_PIN]\n), operating the farm known as\n[FARM_NAME_AND_LOCATION]\n(the \"Employer\"); and\n(2)\n[WORKER_NAME]\n(NIC No:\n[WORKER_NIC_NUMBER]",
+          "variable_ids": [
+            "employer_kra_pin",
+            "farm_name_and_location",
+            "worker_name",
+            "worker_nic_number"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": ", KRA PIN:",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 334,
+        "normalized_start": 324,
+        "raw_end": 334,
+        "raw_start": 324,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "014766955371fae133afa65c90e2be31fb81576b2736e9c28edbb8209d678546"
+      },
+      "kind": "unclassified",
+      "order": 3,
+      "requirement_status": "unspecified",
+      "section_id": "sec_75f0a678a8b4e7c08ab6",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 478,
+        "normalized_start": 324,
+        "raw_end": 478,
+        "raw_start": 324,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "cb46da7a7dc9297c3f4255a3669d378b7ad773eaed0ab58bb11fbc438f3ff6a3"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_b7a1f4177652c2de5a7e",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": ", KRA PIN:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 554,
+            "normalized_start": 490,
+            "raw_end": 554,
+            "raw_start": 490,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "fd0124c9a8e4ee25116ce9f32abb50dc2acafb15245a874c9a1b07f8e282f058"
+          },
+          "text": "[WORKER_KRA_PIN]\n), residing at\n[WORKER_ADDRESS]\n(the \"Worker\").",
+          "variable_ids": [
+            "worker_address",
+            "worker_kra_pin"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": ", KRA PIN:",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 489,
+        "normalized_start": 479,
+        "raw_end": 489,
+        "raw_start": 479,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "014766955371fae133afa65c90e2be31fb81576b2736e9c28edbb8209d678546"
+      },
+      "kind": "unclassified",
+      "order": 4,
+      "requirement_status": "unspecified",
+      "section_id": "sec_4da69d453f75375e1b3b",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 554,
+        "normalized_start": 479,
+        "raw_end": 554,
+        "raw_start": 479,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "f9d906a8043a700fad2c78a98d2c2b4e6b5cddea8bdfee5aac600a4e31958bd6"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_3faf456ace2b159d9c91",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1. COMMENCEMENT AND NATURE OF EMPLOYMENT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 595,
+            "normalized_start": 555,
+            "raw_end": 595,
+            "raw_start": 555,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "bbe1f97c4ab95923a7156376ce09e74ddc9df047e7baaa849e25d2265033436b"
+          },
+          "text": "1. COMMENCEMENT AND NATURE OF EMPLOYMENT",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1. COMMENCEMENT AND NATURE OF EMPLOYMENT",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 595,
+        "normalized_start": 555,
+        "raw_end": 595,
+        "raw_start": 555,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "bbe1f97c4ab95923a7156376ce09e74ddc9df047e7baaa849e25d2265033436b"
+      },
+      "kind": "unclassified",
+      "order": 5,
+      "requirement_status": "unspecified",
+      "section_id": "sec_ed7384d32db5437c283f",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 595,
+        "normalized_start": 555,
+        "raw_end": 595,
+        "raw_start": 555,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "bbe1f97c4ab95923a7156376ce09e74ddc9df047e7baaa849e25d2265033436b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_8fe34e859c7195f03c65",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1.1 The Worker is employed as",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 676,
+            "normalized_start": 626,
+            "raw_end": 676,
+            "raw_start": 626,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "8bbbe452cf9941867ef7c5dbb5cc90b086592f5c99ad0430d7505df129a993ad"
+          },
+          "text": "[JOB_TITLE]\nwith effect from\n[COMMENCEMENT_DATE]\n.",
+          "variable_ids": [
+            "commencement_date",
+            "job_title"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "1.1 The Worker is employed as",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 625,
+        "normalized_start": 596,
+        "raw_end": 625,
+        "raw_start": 596,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "bf49eee5e32b0f78f866119fc13edeb5bd3271a2702b6b68251b198eb385dba3"
+      },
+      "kind": "unclassified",
+      "order": 6,
+      "requirement_status": "unspecified",
+      "section_id": "sec_601887aa7c9e6cda11db",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 676,
+        "normalized_start": 596,
+        "raw_end": 676,
+        "raw_start": 596,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "481f95f0f597c8be1110579894c681c21295e499a43c2070c5b9d050f1699ea9"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_3cb8466e8faccf6a4ff3",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1.2 Nature of employment:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 775,
+            "normalized_start": 703,
+            "raw_end": 775,
+            "raw_start": 703,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "117d3e59aa879d7e4393c68a1283bcc9285c55d8a925cbc08cfd7e1e77025f38"
+          },
+          "text": "[CONTRACT_TYPE]\n. Contract end date (if applicable):\n[CONTRACT_END_DATE]",
+          "variable_ids": [
+            "contract_end_date",
+            "contract_type"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "1.2 Nature of employment:",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 702,
+        "normalized_start": 677,
+        "raw_end": 702,
+        "raw_start": 677,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "c69846a4346eb3a810afff2dac74df95ca8edde654d7f59a34ef92aa264123a4"
+      },
+      "kind": "unclassified",
+      "order": 7,
+      "requirement_status": "unspecified",
+      "section_id": "sec_f66eb25f191aa98d4a0b",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 775,
+        "normalized_start": 677,
+        "raw_end": 775,
+        "raw_start": 677,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "fce0fb6be14ef8ba3cc4dc5125de32170966d45583cb146cc4f902166a22534b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_ee635fff308f2a4097c5",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1.3 Probation period (if applicable):",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 195,
+            "normalized_start": 40,
+            "raw_end": 195,
+            "raw_start": 40,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "099cbfef8846e05f3fa364fa61da8b9266228040342086e180d215d54e26e30d"
+          },
+          "text": "[PROBATION_PERIOD]\n. Either party may terminate during probation by giving one week's written notice under Section 42\nof the Employment Act No. 11 of 2007.",
+          "variable_ids": [
+            "probation_period"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "1.3 Probation period (if applicable):",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 39,
+        "normalized_start": 2,
+        "raw_end": 39,
+        "raw_start": 2,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "ecfd81ef2e698a23c6d86627685d9172c466c3d44a688ed90ace1c98ac781647"
+      },
+      "kind": "unclassified",
+      "order": 8,
+      "requirement_status": "unspecified",
+      "section_id": "sec_3f518e2c2933bcce9b2e",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 195,
+        "normalized_start": 2,
+        "raw_end": 195,
+        "raw_start": 2,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "ac543d251a27203812c8fb953d8c5a7463e5aa1d4101f1c0f7f3954a64b3e807"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_d9177f136d1b3315e751",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1.4 Primary duties:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 230,
+            "normalized_start": 216,
+            "raw_end": 230,
+            "raw_start": 216,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "26e36404634dd1a95598c330c6db4fc6f474686847b6a7a429153b1f1d4f2ece"
+          },
+          "text": "[JOB_DUTIES]\n.",
+          "variable_ids": [
+            "job_duties"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "1.4 Primary duties:",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 215,
+        "normalized_start": 196,
+        "raw_end": 215,
+        "raw_start": 196,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "e3bea128ac906fe0aa9a7a104bb9e98a5ffe39b910447f10323f23eda10cc94d"
+      },
+      "kind": "unclassified",
+      "order": 9,
+      "requirement_status": "unspecified",
+      "section_id": "sec_7ecc1531033fc90be6df",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 230,
+        "normalized_start": 196,
+        "raw_end": 230,
+        "raw_start": 196,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "8a516247fc76b2a6d40227a5660b9286ee552e832e0a742250f6c55388fca928"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_ab7c2076ae94a8b782df",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1.5 This Contract is issued in compliance with Section 9 and Section 10 of the Employment Act No.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 328,
+            "normalized_start": 231,
+            "raw_end": 328,
+            "raw_start": 231,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "a4267c966f10945de4bea539a37246b8910674e887224469f9e8fdb2e0633370"
+          },
+          "text": "1.5 This Contract is issued in compliance with Section 9 and Section 10 of the Employment Act No.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1.5 This Contract is issued in compliance with Section 9 and Section 10 of the Employment Act No.",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 328,
+        "normalized_start": 231,
+        "raw_end": 328,
+        "raw_start": 231,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "a4267c966f10945de4bea539a37246b8910674e887224469f9e8fdb2e0633370"
+      },
+      "kind": "unclassified",
+      "order": 10,
+      "requirement_status": "unspecified",
+      "section_id": "sec_e2896e54560c55023f08",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 328,
+        "normalized_start": 231,
+        "raw_end": 328,
+        "raw_start": 231,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "a4267c966f10945de4bea539a37246b8910674e887224469f9e8fdb2e0633370"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_9302985115e0aadf792d",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "11 of 2007.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 340,
+            "normalized_start": 329,
+            "raw_end": 340,
+            "raw_start": 329,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "a240762fef064fc053564e3ef45c86e409c78e64c56e98bf0fe4f116e8803609"
+          },
+          "text": "11 of 2007.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "11 of 2007.",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 340,
+        "normalized_start": 329,
+        "raw_end": 340,
+        "raw_start": 329,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "a240762fef064fc053564e3ef45c86e409c78e64c56e98bf0fe4f116e8803609"
+      },
+      "kind": "unclassified",
+      "order": 11,
+      "requirement_status": "unspecified",
+      "section_id": "sec_cfd6ae66a4dc55efcb4a",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 340,
+        "normalized_start": 329,
+        "raw_end": 340,
+        "raw_start": 329,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "a240762fef064fc053564e3ef45c86e409c78e64c56e98bf0fe4f116e8803609"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_8296df102194b70137ef",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2. WAGES, BENEFITS, AND STATUTORY DEDUCTIONS",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 385,
+            "normalized_start": 341,
+            "raw_end": 385,
+            "raw_start": 341,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "a89450d3f8487deb34e27351e1186fccffc39294affef6fb95d603599aaae4d7"
+          },
+          "text": "2. WAGES, BENEFITS, AND STATUTORY DEDUCTIONS",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2. WAGES, BENEFITS, AND STATUTORY DEDUCTIONS",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 385,
+        "normalized_start": 341,
+        "raw_end": 385,
+        "raw_start": 341,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "a89450d3f8487deb34e27351e1186fccffc39294affef6fb95d603599aaae4d7"
+      },
+      "kind": "unclassified",
+      "order": 12,
+      "requirement_status": "unspecified",
+      "section_id": "sec_72fe610966740d2c035d",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 385,
+        "normalized_start": 341,
+        "raw_end": 385,
+        "raw_start": 341,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "a89450d3f8487deb34e27351e1186fccffc39294affef6fb95d603599aaae4d7"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_6af02c2ee8331adc52b9",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2.1 Basic wage:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 593,
+            "normalized_start": 402,
+            "raw_end": 593,
+            "raw_start": 402,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "bf195dfa79e1af54eb404cfb32b571b8c79cb7f56352b2082070ef95e9546590"
+          },
+          "text": "[BASIC_WAGE]\n, paid\n[PAYMENT_FREQUENCY]\n. Wages shall be paid in accordance with the Regulation of Wages (Agricultural Industry) Order and\nshall not be below the prescribed statutory minimum.",
+          "variable_ids": [
+            "basic_wage",
+            "payment_frequency"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "2.1 Basic wage:",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 401,
+        "normalized_start": 386,
+        "raw_end": 401,
+        "raw_start": 386,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "e949e5f643f564ff6da662ef5f8e91b841d1cf3538e0be615eb4afdb49fc694e"
+      },
+      "kind": "unclassified",
+      "order": 13,
+      "requirement_status": "unspecified",
+      "section_id": "sec_d11bce97d6c52be40789",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 593,
+        "normalized_start": 386,
+        "raw_end": 593,
+        "raw_start": 386,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "494f220cec269172c504214783beff8bf1ad3f5204275e35389554e49d4372ea"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_721a1d20f6732a750177",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2.2 In-kind benefits provided:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 764,
+            "normalized_start": 625,
+            "raw_end": 764,
+            "raw_start": 625,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "21da3ff0a8e85bcf066bd7a1ba257e5771cccf50cb4fef602a23ab4eb87d6461"
+          },
+          "text": "[IN_KIND_BENEFITS]\n. The monetary value of in-kind benefits is declared in accordance with Section 31 of the\nEmployment Act No. 11 of 2007.",
+          "variable_ids": [
+            "in_kind_benefits"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "2.2 In-kind benefits provided:",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 624,
+        "normalized_start": 594,
+        "raw_end": 624,
+        "raw_start": 594,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "8980a8f8cb3931efff96248159b10238a7f0a4bafb878699b384808a2cae1805"
+      },
+      "kind": "unclassified",
+      "order": 14,
+      "requirement_status": "unspecified",
+      "section_id": "sec_d0e2615774a44777f124",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 764,
+        "normalized_start": 594,
+        "raw_end": 764,
+        "raw_start": 594,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "502a65eecf88d45975b6db17b4d9337eb851afd154be835eb45cb15c14df03a6"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_944d9e3a5e60724ce944",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2.3 The Employer shall deduct and remit the following statutory deductions:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 1130,
+            "normalized_start": 841,
+            "raw_end": 1130,
+            "raw_start": 841,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "14267a4c946550e42916e59e1282bce1e3cbe5c8da47b64efd4e9fa227d5714c"
+          },
+          "text": "(a) PAYE income tax to the Kenya Revenue Authority (KRA) under the Income Tax Act (Cap. 470)\nat applicable progressive rates. Workers earning below KES 24,000 per month are within the 10%\nband.\n(b) NSSF Tier I and Tier II contributions under the National Social Security Fund Act No. 45 of",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2.3 The Employer shall deduct and remit the following statutory deductions:",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 840,
+        "normalized_start": 765,
+        "raw_end": 840,
+        "raw_start": 765,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "18401d117c688c0f3af43e238f72479db551b80f0cd6649070c7bb10dfee979f"
+      },
+      "kind": "unclassified",
+      "order": 15,
+      "requirement_status": "unspecified",
+      "section_id": "sec_ce0da4d43147190cb32a",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1130,
+        "normalized_start": 765,
+        "raw_end": 1130,
+        "raw_start": 765,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "75f0d1c6ddcf9367d6f1024a1a6ccf54f29be0252377b35429e4a77d0692c027"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_9267445d9526bf6ba584",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2013.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 1231,
+            "normalized_start": 1137,
+            "raw_end": 1231,
+            "raw_start": 1137,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "4eeceb937d68f14e7d6aeed2f2943c05fb9d202bef70aa3f0df41064326ff736"
+          },
+          "text": "(c) SHIF contributions at 2.75% of gross wages under the Social Health Insurance Act No. 16 of",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2013.",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1136,
+        "normalized_start": 1131,
+        "raw_end": 1136,
+        "raw_start": 1131,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "e3334063e16600b5c272c97566a9b696367f55bcddb5f2e5bdfe74b488d8392c"
+      },
+      "kind": "unclassified",
+      "order": 16,
+      "requirement_status": "unspecified",
+      "section_id": "sec_6624105ada40ccee7c08",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1231,
+        "normalized_start": 1131,
+        "raw_end": 1231,
+        "raw_start": 1131,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "676a68a3beb7aa28d46163e4972da064339ce2a52d7533649a3e441f9638523b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_961bce37ea1c330dfd8a",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2024.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 1347,
+            "normalized_start": 1238,
+            "raw_end": 1347,
+            "raw_start": 1238,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "08f572585bf89892f3776259a14f30be82d60b8309d0851127a1cecf281a633a"
+          },
+          "text": "(d) Housing Levy at 1.5% of gross wages (employee) plus 1.5% employer match under the\nAffordable Housing Act.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2024.",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1237,
+        "normalized_start": 1232,
+        "raw_end": 1237,
+        "raw_start": 1232,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "63009ed7c5764c4d2d7567bea35e126c3f6154b5fc4ddafd5c222c1f97058310"
+      },
+      "kind": "unclassified",
+      "order": 17,
+      "requirement_status": "unspecified",
+      "section_id": "sec_686c41a9b4a3f48777f0",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1347,
+        "normalized_start": 1232,
+        "raw_end": 1347,
+        "raw_start": 1232,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "b9bdbc94b4e733a6c8a50cc22244c2757cfe719131b49c66d2f542f5d22b273b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_f5f4df38ae9b6dd8df0e",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3. WORKING HOURS AND LEAVE",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 1374,
+            "normalized_start": 1348,
+            "raw_end": 1374,
+            "raw_start": 1348,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "52501df95dd7bb32731d3e2e390dad1bb136f62d1f45c580a779cadecdd50d23"
+          },
+          "text": "3. WORKING HOURS AND LEAVE",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3. WORKING HOURS AND LEAVE",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1374,
+        "normalized_start": 1348,
+        "raw_end": 1374,
+        "raw_start": 1348,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "52501df95dd7bb32731d3e2e390dad1bb136f62d1f45c580a779cadecdd50d23"
+      },
+      "kind": "unclassified",
+      "order": 18,
+      "requirement_status": "unspecified",
+      "section_id": "sec_11a1cbaafbbed42b0284",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1374,
+        "normalized_start": 1348,
+        "raw_end": 1374,
+        "raw_start": 1348,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "52501df95dd7bb32731d3e2e390dad1bb136f62d1f45c580a779cadecdd50d23"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_2fdead93876dad18d743",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3.1 Normal working hours:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 1609,
+            "normalized_start": 1401,
+            "raw_end": 1609,
+            "raw_start": 1401,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "ee31126a230aa32af55c46674c724261e98f5114cf63d714d8c149ac83454d55"
+          },
+          "text": "[WORKING_HOURS]\n. Overtime shall be compensated at 1.5 times the normal hourly rate (2 times on public gazetted\nholidays) under Section 27 of the Employment Act, subject to a maximum working week of 52\nhours.",
+          "variable_ids": [
+            "working_hours"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "3.1 Normal working hours:",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1400,
+        "normalized_start": 1375,
+        "raw_end": 1400,
+        "raw_start": 1375,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "c4395e375bc928be6fe73ade2f7fc0e183bf90c9202b1c898a8d1fbfc0640cf5"
+      },
+      "kind": "unclassified",
+      "order": 19,
+      "requirement_status": "unspecified",
+      "section_id": "sec_fe327b273d3605457b2c",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1609,
+        "normalized_start": 1375,
+        "raw_end": 1609,
+        "raw_start": 1375,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "7b18cf51a7e0edf48ab5bd51d94a9ffd1caa81e05e7d69dfc363b8ddf8652800"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_6d74f02d16f0bcaebaf8",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3.2 Annual leave: 21 working days of paid leave after 12 months of continuous service, accruing at",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 1708,
+            "normalized_start": 1610,
+            "raw_end": 1708,
+            "raw_start": 1610,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "e92c83167a22998276f41ea8fe4e165ad72afd2f654d9722fbeeb373885b6be7"
+          },
+          "text": "3.2 Annual leave: 21 working days of paid leave after 12 months of continuous service, accruing at",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3.2 Annual leave: 21 working days of paid leave after 12 months of continuous service, accruing at",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1708,
+        "normalized_start": 1610,
+        "raw_end": 1708,
+        "raw_start": 1610,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "e92c83167a22998276f41ea8fe4e165ad72afd2f654d9722fbeeb373885b6be7"
+      },
+      "kind": "unclassified",
+      "order": 20,
+      "requirement_status": "unspecified",
+      "section_id": "sec_a81768ab4d92985b3de1",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1708,
+        "normalized_start": 1610,
+        "raw_end": 1708,
+        "raw_start": 1610,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "e92c83167a22998276f41ea8fe4e165ad72afd2f654d9722fbeeb373885b6be7"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_a689f5d372aa09ab3611",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1.75 days per month under Section 28 of the Employment Act No. 11 of 2007.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 1783,
+            "normalized_start": 1709,
+            "raw_end": 1783,
+            "raw_start": 1709,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "a5c4e051fd82334ce9c1066d862942215428e8b75aba34da92dd5ddf2ef3272a"
+          },
+          "text": "1.75 days per month under Section 28 of the Employment Act No. 11 of 2007.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1.75 days per month under Section 28 of the Employment Act No. 11 of 2007.",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1783,
+        "normalized_start": 1709,
+        "raw_end": 1783,
+        "raw_start": 1709,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "a5c4e051fd82334ce9c1066d862942215428e8b75aba34da92dd5ddf2ef3272a"
+      },
+      "kind": "unclassified",
+      "order": 21,
+      "requirement_status": "unspecified",
+      "section_id": "sec_8054fde243ebf95ac063",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1783,
+        "normalized_start": 1709,
+        "raw_end": 1783,
+        "raw_start": 1709,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "a5c4e051fd82334ce9c1066d862942215428e8b75aba34da92dd5ddf2ef3272a"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_486849e75a16d740c6ee",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3.3 Sick leave: 7 days full pay plus 7 days half pay per year under Section 30.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 79,
+            "normalized_start": 0,
+            "raw_end": 79,
+            "raw_start": 0,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "73c3b74c274ac3d8d2361a2ca18b6a80b796d85d0191c7219addf49dad8cd187"
+          },
+          "text": "3.3 Sick leave: 7 days full pay plus 7 days half pay per year under Section 30.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3.3 Sick leave: 7 days full pay plus 7 days half pay per year under Section 30.",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 79,
+        "normalized_start": 0,
+        "raw_end": 79,
+        "raw_start": 0,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "73c3b74c274ac3d8d2361a2ca18b6a80b796d85d0191c7219addf49dad8cd187"
+      },
+      "kind": "unclassified",
+      "order": 22,
+      "requirement_status": "unspecified",
+      "section_id": "sec_2d3f9a3d58576b28b11b",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 79,
+        "normalized_start": 0,
+        "raw_end": 79,
+        "raw_start": 0,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "73c3b74c274ac3d8d2361a2ca18b6a80b796d85d0191c7219addf49dad8cd187"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_8217d0459dfef9b4e57c",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3.4 Maternity leave: 3 months fully paid under Section 29. Paternity leave: 14 calendar days under",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 178,
+            "normalized_start": 80,
+            "raw_end": 178,
+            "raw_start": 80,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "6aca5a04bae79cfba3b7c80760c5321a1dcd27946113066dea2788c7ae2f4909"
+          },
+          "text": "3.4 Maternity leave: 3 months fully paid under Section 29. Paternity leave: 14 calendar days under",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3.4 Maternity leave: 3 months fully paid under Section 29. Paternity leave: 14 calendar days under",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 178,
+        "normalized_start": 80,
+        "raw_end": 178,
+        "raw_start": 80,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "6aca5a04bae79cfba3b7c80760c5321a1dcd27946113066dea2788c7ae2f4909"
+      },
+      "kind": "unclassified",
+      "order": 23,
+      "requirement_status": "unspecified",
+      "section_id": "sec_ddd5ed5a2ac721583bce",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 178,
+        "normalized_start": 80,
+        "raw_end": 178,
+        "raw_start": 80,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "6aca5a04bae79cfba3b7c80760c5321a1dcd27946113066dea2788c7ae2f4909"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_a84145fc4b7dfc066e38",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Section 29A.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 191,
+            "normalized_start": 179,
+            "raw_end": 191,
+            "raw_start": 179,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "8b7d10843bca0dea22e55c1aa8adf9b1bd22e1865293193efd685dd7fc5de7ea"
+          },
+          "text": "Section 29A.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Section 29A.",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 191,
+        "normalized_start": 179,
+        "raw_end": 191,
+        "raw_start": 179,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "8b7d10843bca0dea22e55c1aa8adf9b1bd22e1865293193efd685dd7fc5de7ea"
+      },
+      "kind": "unclassified",
+      "order": 24,
+      "requirement_status": "unspecified",
+      "section_id": "sec_c5843888cf5a2ae59ca1",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 191,
+        "normalized_start": 179,
+        "raw_end": 191,
+        "raw_start": 179,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "8b7d10843bca0dea22e55c1aa8adf9b1bd22e1865293193efd685dd7fc5de7ea"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_0052ee4df7a7d3915df6",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3.5 All gazetted public holidays under the Public Holidays Act (Cap. 38).",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 265,
+            "normalized_start": 192,
+            "raw_end": 265,
+            "raw_start": 192,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "c33666a04d9704796d856cdf3ffb97957761d91d2752f8c255ce9cfaa32541dc"
+          },
+          "text": "3.5 All gazetted public holidays under the Public Holidays Act (Cap. 38).",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3.5 All gazetted public holidays under the Public Holidays Act (Cap. 38).",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 265,
+        "normalized_start": 192,
+        "raw_end": 265,
+        "raw_start": 192,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "c33666a04d9704796d856cdf3ffb97957761d91d2752f8c255ce9cfaa32541dc"
+      },
+      "kind": "unclassified",
+      "order": 25,
+      "requirement_status": "unspecified",
+      "section_id": "sec_5109f377710e945b8a44",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 265,
+        "normalized_start": 192,
+        "raw_end": 265,
+        "raw_start": 192,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "c33666a04d9704796d856cdf3ffb97957761d91d2752f8c255ce9cfaa32541dc"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_591c516e0ee915d4e580",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4. OCCUPATIONAL SAFETY AND HEALTH",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 299,
+            "normalized_start": 266,
+            "raw_end": 299,
+            "raw_start": 266,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "1c7a3d7a2d8784fcf8919857ee691e704fb2720ce96ea0a12807c359dfd0a27a"
+          },
+          "text": "4. OCCUPATIONAL SAFETY AND HEALTH",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4. OCCUPATIONAL SAFETY AND HEALTH",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 299,
+        "normalized_start": 266,
+        "raw_end": 299,
+        "raw_start": 266,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "1c7a3d7a2d8784fcf8919857ee691e704fb2720ce96ea0a12807c359dfd0a27a"
+      },
+      "kind": "unclassified",
+      "order": 26,
+      "requirement_status": "unspecified",
+      "section_id": "sec_a22e7bfe907ed2ee5795",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 299,
+        "normalized_start": 266,
+        "raw_end": 299,
+        "raw_start": 266,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "1c7a3d7a2d8784fcf8919857ee691e704fb2720ce96ea0a12807c359dfd0a27a"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_f6dd3dfe3999f6211636",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4.1 The Employer shall comply with all obligations under the Occupational Safety and Health Act",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 601,
+            "normalized_start": 396,
+            "raw_end": 601,
+            "raw_start": 396,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "60e7611c8b6997ca170dbc2f4749e2457b67d657d1b9d2dcad91d5d329210914"
+          },
+          "text": "No. 15 of 2007 (OSHA), including maintaining a safe workplace, conducting registered risk\nassessments with the Directorate of Occupational Safety and Health Services (DOSHS), and\nproviding safety training.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4.1 The Employer shall comply with all obligations under the Occupational Safety and Health Act",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 395,
+        "normalized_start": 300,
+        "raw_end": 395,
+        "raw_start": 300,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "6d69400eb13db9833d2bcdcc6988fa532d65c9c3140d25edd2347f349bb119cf"
+      },
+      "kind": "unclassified",
+      "order": 27,
+      "requirement_status": "unspecified",
+      "section_id": "sec_f8e59cb6e17ea0b40f3d",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 601,
+        "normalized_start": 300,
+        "raw_end": 601,
+        "raw_start": 300,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "3e9153ce15a619aa51caed3b7ad3e2810a5d979a0da5b1b4596e83e4beb3387a"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_dfaeadf35194dddb733d",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4.2 The Employer shall provide the following Personal Protective Equipment (PPE) at no cost to the",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 725,
+            "normalized_start": 701,
+            "raw_end": 725,
+            "raw_start": 701,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "b150c6c9767c1bd0153ce2818be46ae640a542ada049e0bbfd9edf2f8a03bcce"
+          },
+          "text": "Worker:\n[PPE_PROVIDED]\n.",
+          "variable_ids": [
+            "ppe_provided"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "4.2 The Employer shall provide the following Personal Protective Equipment (PPE) at no cost to the",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 700,
+        "normalized_start": 602,
+        "raw_end": 700,
+        "raw_start": 602,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "6fb4710f76ba9f25d78a741facfe981b2671e12b5930659c4ade66e2b7de644e"
+      },
+      "kind": "unclassified",
+      "order": 28,
+      "requirement_status": "unspecified",
+      "section_id": "sec_45dc18203c305bc47ce9",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 725,
+        "normalized_start": 602,
+        "raw_end": 725,
+        "raw_start": 602,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "a37098191a425e089a228d5544355b752f4a89d1ec123201eccdf5cb33e26953"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_a108b3935b5aafbc1987",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4.3 The Worker is covered by the Work Injury Benefits Act No. 13 of 2007 (WIBA). The Employer",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 929,
+            "normalized_start": 820,
+            "raw_end": 929,
+            "raw_start": 820,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "cf36502b89b8a691350bb6a9be24e152f4dd47524d3282e893d7f4659746bb04"
+          },
+          "text": "shall maintain WIBA insurance and file incident reports with DOSHS within 24 hours of any\nworkplace accident.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4.3 The Worker is covered by the Work Injury Benefits Act No. 13 of 2007 (WIBA). The Employer",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 819,
+        "normalized_start": 726,
+        "raw_end": 819,
+        "raw_start": 726,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "593132170545ee2a9d9d18be0cd1ce19eb007e8aa66f6487475b98916f8fd11e"
+      },
+      "kind": "unclassified",
+      "order": 29,
+      "requirement_status": "unspecified",
+      "section_id": "sec_b4c6b477fb01cd71b47c",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 929,
+        "normalized_start": 726,
+        "raw_end": 929,
+        "raw_start": 726,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "cef961a75281740d5e53f107f9e26b19c7910d7c2635a370cd0756576023fa4e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_1aaacb6d7c0f862e2a2d",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4.4 Any agrochemicals used on the farm shall be licensed by the Pest Control Products Board",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 1076,
+            "normalized_start": 1022,
+            "raw_end": 1076,
+            "raw_start": 1022,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "28bc23b6016355d049ee653be5944f7db20b305ba7a6caa0e16d07a5a6b4ff82"
+          },
+          "text": "(PCPB) under the Pest Control Products Act (Cap. 346).",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4.4 Any agrochemicals used on the farm shall be licensed by the Pest Control Products Board",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1021,
+        "normalized_start": 930,
+        "raw_end": 1021,
+        "raw_start": 930,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "f6f1a16c5803cca354c235bc97ad117863e1974398217d14d70808749272f43f"
+      },
+      "kind": "unclassified",
+      "order": 30,
+      "requirement_status": "unspecified",
+      "section_id": "sec_a56d0accfd099e0b908b",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1076,
+        "normalized_start": 930,
+        "raw_end": 1076,
+        "raw_start": 930,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "39813f9b6bc9411c7596fd171b532e5bd532c953f40ddec0aec02e7f7de761cb"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e28ab94f156cf457d828",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5. NOTICE AND TERMINATION",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 1102,
+            "normalized_start": 1077,
+            "raw_end": 1102,
+            "raw_start": 1077,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "54223df6cdc34addc3039ae4a9756a921e4a5edc887da896c353deee7719c606"
+          },
+          "text": "5. NOTICE AND TERMINATION",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5. NOTICE AND TERMINATION",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1102,
+        "normalized_start": 1077,
+        "raw_end": 1102,
+        "raw_start": 1077,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "54223df6cdc34addc3039ae4a9756a921e4a5edc887da896c353deee7719c606"
+      },
+      "kind": "unclassified",
+      "order": 31,
+      "requirement_status": "unspecified",
+      "section_id": "sec_ad447b52d3f5f93871d7",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1102,
+        "normalized_start": 1077,
+        "raw_end": 1102,
+        "raw_start": 1077,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "54223df6cdc34addc3039ae4a9756a921e4a5edc887da896c353deee7719c606"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_194e4f4f252f632fbdd9",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5.1 Either party may terminate this Contract by giving",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 1344,
+            "normalized_start": 1158,
+            "raw_end": 1344,
+            "raw_start": 1158,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "6a89459c33df9a3436067e175d8b9d5f81b90cfda514dfd85a57fba2164c615f"
+          },
+          "text": "[NOTICE_PERIOD]\nwritten notice, or payment of an equivalent amount in lieu of notice, subject to the minimum notice\nperiods prescribed by Section 35 of the Employment Act No. 11 of 2007.",
+          "variable_ids": [
+            "notice_period"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "5.1 Either party may terminate this Contract by giving",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1157,
+        "normalized_start": 1103,
+        "raw_end": 1157,
+        "raw_start": 1103,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "9888b8fab2238ca95f5a1f071fce7c232b98b8572da3d1c9c1ded98966105566"
+      },
+      "kind": "unclassified",
+      "order": 32,
+      "requirement_status": "unspecified",
+      "section_id": "sec_ce76d62ec1ef29b30ede",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1344,
+        "normalized_start": 1103,
+        "raw_end": 1344,
+        "raw_start": 1103,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "c687b2e218e75b54599e0d4992fa66b158f6a72e030621e2f8baa9836e0209d4"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_7b2e679ade62e69fc911",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5.2 Summary dismissal for gross misconduct is governed by Section 44 of the Employment Act.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 1580,
+            "normalized_start": 1437,
+            "raw_end": 1580,
+            "raw_start": 1437,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "39ca5fdfd14f880f930fc9012f50bb79daf6c62e8db97c7e386964d2bce9063f"
+          },
+          "text": "The Employer must issue a show-cause letter, conduct a disciplinary hearing, and allow the Worker\nto be represented before effecting dismissal.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5.2 Summary dismissal for gross misconduct is governed by Section 44 of the Employment Act.",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1436,
+        "normalized_start": 1345,
+        "raw_end": 1436,
+        "raw_start": 1345,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "0e333ff398dc7548c1b62d2aae75f30ef1edd58e9fce5e13167e8dce8b4e0713"
+      },
+      "kind": "unclassified",
+      "order": 33,
+      "requirement_status": "unspecified",
+      "section_id": "sec_5de5f10f13635252c39c",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1580,
+        "normalized_start": 1345,
+        "raw_end": 1580,
+        "raw_start": 1345,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "37fcf35560aa846ea9cfe680a6db8dfe8272eea68570850a66b7cd5938859417"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_c3ea6cec721dbf24cb8a",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5.3 Severance pay on redundancy: 15 days' basic wages per completed year of service under",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 1670,
+            "normalized_start": 1581,
+            "raw_end": 1670,
+            "raw_start": 1581,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "3aad92af63666e6aadfb4c573e28ad7947bbaafed47295cc6efdc690e0939cfa"
+          },
+          "text": "5.3 Severance pay on redundancy: 15 days' basic wages per completed year of service under",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5.3 Severance pay on redundancy: 15 days' basic wages per completed year of service under",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1670,
+        "normalized_start": 1581,
+        "raw_end": 1670,
+        "raw_start": 1581,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "3aad92af63666e6aadfb4c573e28ad7947bbaafed47295cc6efdc690e0939cfa"
+      },
+      "kind": "unclassified",
+      "order": 34,
+      "requirement_status": "unspecified",
+      "section_id": "sec_ebff4317dec8d98156b5",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1670,
+        "normalized_start": 1581,
+        "raw_end": 1670,
+        "raw_start": 1581,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "3aad92af63666e6aadfb4c573e28ad7947bbaafed47295cc6efdc690e0939cfa"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_9a501c92b724f18df832",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Section 40 of the Employment Act.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 1704,
+            "normalized_start": 1671,
+            "raw_end": 1704,
+            "raw_start": 1671,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "a8a5a02b60f98bceda9b92828674331b5f6bb16aef68fe8fd2388ad85f61cdbe"
+          },
+          "text": "Section 40 of the Employment Act.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Section 40 of the Employment Act.",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1704,
+        "normalized_start": 1671,
+        "raw_end": 1704,
+        "raw_start": 1671,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "a8a5a02b60f98bceda9b92828674331b5f6bb16aef68fe8fd2388ad85f61cdbe"
+      },
+      "kind": "unclassified",
+      "order": 35,
+      "requirement_status": "unspecified",
+      "section_id": "sec_88951832e43c28b0f8f8",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1704,
+        "normalized_start": 1671,
+        "raw_end": 1704,
+        "raw_start": 1671,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "a8a5a02b60f98bceda9b92828674331b5f6bb16aef68fe8fd2388ad85f61cdbe"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e95ba494fc67eceb4d9c",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5.4 All disputes arising from this Contract shall be referred to the Employment and Labour Relations",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 1921,
+            "normalized_start": 1806,
+            "raw_end": 1921,
+            "raw_start": 1806,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "6db53e3b15bba99c338ce4d7d4dd75ca6fb47963c8b9bba1c56aeba02c4ab6cc"
+          },
+          "text": "Court (ELRC) sitting in\n[GOVERNING_COUNTY]\n, established under Article 162(2)(a) of the Constitution of Kenya 2010.",
+          "variable_ids": [
+            "governing_county"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "5.4 All disputes arising from this Contract shall be referred to the Employment and Labour Relations",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1805,
+        "normalized_start": 1705,
+        "raw_end": 1805,
+        "raw_start": 1705,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "97ed10fd98d2739aab3b7d7050866a7ddce07a7fd4fa8dfb9d37a415328b4162"
+      },
+      "kind": "unclassified",
+      "order": 36,
+      "requirement_status": "unspecified",
+      "section_id": "sec_451e28283ab9a133fefb",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1921,
+        "normalized_start": 1705,
+        "raw_end": 1921,
+        "raw_start": 1705,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "ea3d2be554885c4c2fe41897a582c99aeb0e955bcc33722d518b90add9cb9632"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_7ec958f2775a9a9b615f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "6. GOVERNING LAW",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 1938,
+            "normalized_start": 1922,
+            "raw_end": 1938,
+            "raw_start": 1922,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "5f529947adad17ee05c386a2f718b7e27aeb4f4623e3711a9d7f9475abcf137b"
+          },
+          "text": "6. GOVERNING LAW",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "6. GOVERNING LAW",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1938,
+        "normalized_start": 1922,
+        "raw_end": 1938,
+        "raw_start": 1922,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "5f529947adad17ee05c386a2f718b7e27aeb4f4623e3711a9d7f9475abcf137b"
+      },
+      "kind": "unclassified",
+      "order": 37,
+      "requirement_status": "unspecified",
+      "section_id": "sec_809f30e8bcc0c1d83813",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1938,
+        "normalized_start": 1922,
+        "raw_end": 1938,
+        "raw_start": 1922,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "5f529947adad17ee05c386a2f718b7e27aeb4f4623e3711a9d7f9475abcf137b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_464e9ccda4926a8b2641",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "6.1 This Contract is governed by the laws of Kenya, including the Employment Act No. 11 of 2007,",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 2129,
+            "normalized_start": 2036,
+            "raw_end": 2129,
+            "raw_start": 2036,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "9513ab9617cacf389eaca5066515937f1f5f136a000b4067e2a6aef62b5ef41d"
+          },
+          "text": "the Labour Relations Act No. 14 of 2007, and the Occupational Safety and Health Act No. 15 of",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "6.1 This Contract is governed by the laws of Kenya, including the Employment Act No. 11 of 2007,",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 2035,
+        "normalized_start": 1939,
+        "raw_end": 2035,
+        "raw_start": 1939,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "b5c61f432cd7a4b20a8a8a188fbc998c872df1164a646465a10ece34be7e5974"
+      },
+      "kind": "unclassified",
+      "order": 38,
+      "requirement_status": "unspecified",
+      "section_id": "sec_425a7263819c05ee62d0",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 2129,
+        "normalized_start": 1939,
+        "raw_end": 2129,
+        "raw_start": 1939,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "bc8002ecaed7ddfd9b2bd408b6cf3760d929b428ac4c864f377ca0689bd1b322"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_949e22fe305557980c74",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2007.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 2285,
+            "normalized_start": 2136,
+            "raw_end": 2285,
+            "raw_start": 2136,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "f915c86acece22179d37143c1761307b7e8da2f409dccc670e92510a29835e67"
+          },
+          "text": "IN WITNESS WHEREOF, the Parties have signed this Contract on the date first written above.\nAuthorised Signatory (Employer)\n________________\nSignature",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2007.",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 2135,
+        "normalized_start": 2130,
+        "raw_end": 2135,
+        "raw_start": 2130,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "e8a7dc314160994aced121631aa3aeab10997721fdb75c27c715b6ab30453717"
+      },
+      "kind": "unclassified",
+      "order": 39,
+      "requirement_status": "unspecified",
+      "section_id": "sec_3134737831811568f7a8",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 2285,
+        "normalized_start": 2130,
+        "raw_end": 2285,
+        "raw_start": 2130,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "afb63df6335e6c256f7b6ce6e577bae33ec738e2aa14e3956cd09b72701d9c8a"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_d7d724a27994e74e32aa",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "FORMS-LEGAL.COM",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d6071f593676a9bd672b",
+            "normalized_end": 99,
+            "normalized_start": 98,
+            "raw_end": 99,
+            "raw_start": 98,
+            "source_id": "src_27d0c7e38fbba1957faa",
+            "text_sha256": "f8bf310263c1ac3ecd39fadaf73ef233d3a1e7f423e02afd8da0d4e8e38264af"
+          },
+          "text": "§",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "FORMS-LEGAL.COM",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 97,
+        "normalized_start": 82,
+        "raw_end": 97,
+        "raw_start": 82,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "9dcc6679dca92aef67105df2e4e9c1b39d662a1ee083fbad51ff995585c78dca"
+      },
+      "kind": "unclassified",
+      "order": 40,
+      "requirement_status": "unspecified",
+      "section_id": "sec_b7b3a57414f00867372b",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 99,
+        "normalized_start": 82,
+        "raw_end": 99,
+        "raw_start": 82,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "48f8e4c2c9ff6da7d23f8ec0b44373eda5425b0ddaef4c6360522f05e8cf1cd0"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "extracted_text_sha256": "d0207983a7b13ef8061259bf282f078e6407f258adadb9c448d533ce21269ef3",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 4,
+      "relative_path": "templates/kenya/Agricultural Worker Employment Contract.pdf",
+      "sha256": "2a12d704f678eeb5e0be4821961719a912a7edc58ed4a5a57cdbe75dd90c2cc0",
+      "size_bytes": 7233,
+      "source_id": "src_27d0c7e38fbba1957faa"
+    }
+  ],
+  "template_id": "tpl_69a7a9ff26aa41115938",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_98dc381e98d9da015278",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 191,
+        "normalized_start": 0,
+        "raw_end": 191,
+        "raw_start": 0,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "162dc428b2fb725e30c870f200225d1fd5c2499a8bebaf8594660928added352"
+      },
+      "text": "Agricultural Worker Employment Contract\nAgricultural Worker Employment Contract (Kenya)\nEmployment Act No. 11 of 2007 | Regulation of Wages (Agricultural Industry) Order | OSHA No. 15\nof 2007"
+    },
+    {
+      "content_id": "unparsed_20fbe648092bdff81221",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 1,
+        "normalized_start": 0,
+        "raw_end": 1,
+        "raw_start": 0,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8"
+      },
+      "text": "."
+    },
+    {
+      "content_id": "unparsed_5b1f7d053ef310a70d42",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d6071f593676a9bd672b",
+        "normalized_end": 81,
+        "normalized_start": 0,
+        "raw_end": 81,
+        "raw_start": 0,
+        "source_id": "src_27d0c7e38fbba1957faa",
+        "text_sha256": "ab0a80e53191a6dcc45f29896fe4df106c9c7eec3a1a2d4c531b4b8e910a34b1"
+      },
+      "text": "Agricultural Worker\n________________\nSignature\nWitness\n________________\nSignature"
+    }
+  ],
+  "variables": [
+    {
+      "allowed_choices": [],
+      "canonical_token": "[CONTRACT_DATE]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 263,
+          "normalized_start": 248,
+          "raw_end": 263,
+          "raw_start": 248,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "f7ef09d08070eb51f3ec93870509f2ebec1b6a9b5833e6c65a362628ad88ef6f"
+        }
+      ],
+      "original_tokens": [
+        "[Contract Date]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "contract_date"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[EMPLOYER_NAME]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 292,
+          "normalized_start": 277,
+          "raw_end": 292,
+          "raw_start": 277,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "7e09b2257b24786faef8161072f49694f991ae3013f1837f4ce44f26f3d75428"
+        }
+      ],
+      "original_tokens": [
+        "[Employer Name]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "employer_name"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[EMPLOYER_BRS_NUMBER]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 323,
+          "normalized_start": 302,
+          "raw_end": 323,
+          "raw_start": 302,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "67e6bff526239055b36c02d9351d3f08de13258d8fb55143d8c01713b93a8c7f"
+        }
+      ],
+      "original_tokens": [
+        "[Employer BRS Number]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "employer_brs_number"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[EMPLOYER_KRA_PIN]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 353,
+          "normalized_start": 335,
+          "raw_end": 353,
+          "raw_start": 335,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "e292d976ba9c984362badc777af3462146a5e65bf33a77e448dadbbe5318880c"
+        }
+      ],
+      "original_tokens": [
+        "[Employer KRA PIN]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "employer_kra_pin"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[FARM_NAME_AND_LOCATION]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 409,
+          "normalized_start": 385,
+          "raw_end": 409,
+          "raw_start": 385,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "3fb6956f3003ee80fdc8fbf5b0fdda459748658e42083b8b62ab469d482f1933"
+        }
+      ],
+      "original_tokens": [
+        "[Farm Name and Location]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "farm_name_and_location"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[WORKER_NAME]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 449,
+          "normalized_start": 436,
+          "raw_end": 449,
+          "raw_start": 436,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "47ab9355ed0db16e034ab42bb10da148c086d1437fc1630de42f82bb391b9292"
+        }
+      ],
+      "original_tokens": [
+        "[Worker Name]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "worker_name"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[WORKER_NIC_NUMBER]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 478,
+          "normalized_start": 459,
+          "raw_end": 478,
+          "raw_start": 459,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "c2bcf56a4e4b23be694fefffb7cfa547b34912506a6e155add912c7df1647e6d"
+        }
+      ],
+      "original_tokens": [
+        "[Worker NIC Number]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "worker_nic_number"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[WORKER_KRA_PIN]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 506,
+          "normalized_start": 490,
+          "raw_end": 506,
+          "raw_start": 490,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "b7a923c9d64c68702c5c9d92720b5572ed41dc0f1969adcd84971725d6ee2551"
+        }
+      ],
+      "original_tokens": [
+        "[Worker KRA PIN]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "worker_kra_pin"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[WORKER_ADDRESS]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 538,
+          "normalized_start": 522,
+          "raw_end": 538,
+          "raw_start": 522,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "6eca296cd773d47407720fba5468c9b4df09f3425d4c26c3b7e1cf91c8ee2d1e"
+        }
+      ],
+      "original_tokens": [
+        "[Worker Address]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "worker_address"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[JOB_TITLE]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 637,
+          "normalized_start": 626,
+          "raw_end": 637,
+          "raw_start": 626,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "9927bb41ae75a0bc1f4d4f5b7e925f061d12e9fc1a521eb389352f3a3485a42e"
+        }
+      ],
+      "original_tokens": [
+        "[Job Title]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "job_title"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[COMMENCEMENT_DATE]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 674,
+          "normalized_start": 655,
+          "raw_end": 674,
+          "raw_start": 655,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "ad6eefd5cb83607e48828279563a8265fb389d9c76bfa19a5d3f10e5151f1331"
+        }
+      ],
+      "original_tokens": [
+        "[Commencement Date]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "commencement_date"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[CONTRACT_TYPE]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 718,
+          "normalized_start": 703,
+          "raw_end": 718,
+          "raw_start": 703,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "149afb834c1cb8047cd765c657699e04425032f8688aadccd028eff47fbb3a18"
+        }
+      ],
+      "original_tokens": [
+        "[Contract Type]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "contract_type"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[CONTRACT_END_DATE]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 775,
+          "normalized_start": 756,
+          "raw_end": 775,
+          "raw_start": 756,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "b8c7229f1669184f78f2e25099fa30aacd5d29c92b2afd41141ee83613c14468"
+        }
+      ],
+      "original_tokens": [
+        "[Contract End Date]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "contract_end_date"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[PROBATION_PERIOD]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 58,
+          "normalized_start": 40,
+          "raw_end": 58,
+          "raw_start": 40,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "adca667371630b2b873a07a930c1e300ee923f341c89b42be1478b112ed2657f"
+        }
+      ],
+      "original_tokens": [
+        "[Probation Period]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "probation_period"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[JOB_DUTIES]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 228,
+          "normalized_start": 216,
+          "raw_end": 228,
+          "raw_start": 216,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "87413e12aa36a12c32ad4e715ff7f70c066c8e86f4e332b32bc44adc9464020d"
+        }
+      ],
+      "original_tokens": [
+        "[Job Duties]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "job_duties"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[BASIC_WAGE]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 414,
+          "normalized_start": 402,
+          "raw_end": 414,
+          "raw_start": 402,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "e13a85973e2eaef4f3ac6a0ac9bb95beb3530c8abcaceefd3a39de8e1729d4c0"
+        }
+      ],
+      "original_tokens": [
+        "[Basic Wage]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "basic_wage"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[PAYMENT_FREQUENCY]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 441,
+          "normalized_start": 422,
+          "raw_end": 441,
+          "raw_start": 422,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "0c377a829c067c3cc952c66f8ef7ad1360f04a78e60bc458af62692d1405c6bd"
+        }
+      ],
+      "original_tokens": [
+        "[Payment Frequency]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "payment_frequency"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[IN_KIND_BENEFITS]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 643,
+          "normalized_start": 625,
+          "raw_end": 643,
+          "raw_start": 625,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "2e66540d51bca2e76924093bdbbdd0b12a5a23483c5ae84ff19a72729cefc361"
+        }
+      ],
+      "original_tokens": [
+        "[In-Kind Benefits]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "in_kind_benefits"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[WORKING_HOURS]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 1416,
+          "normalized_start": 1401,
+          "raw_end": 1416,
+          "raw_start": 1401,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "db66e49b695b8807e67117a547e3ec3c39a16e0493c3b83a8c5213e63480de60"
+        }
+      ],
+      "original_tokens": [
+        "[Working Hours]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "working_hours"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[PPE_PROVIDED]",
+      "occurrences": [
+        {
+          "block_id": "block_000003",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 723,
+          "normalized_start": 709,
+          "raw_end": 723,
+          "raw_start": 709,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "0d0c7c4f4e0937875a7fa54231cbd0db38d3302d9159e09a6325fcb8eb1e7fdf"
+        }
+      ],
+      "original_tokens": [
+        "[PPE Provided]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "ppe_provided"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[NOTICE_PERIOD]",
+      "occurrences": [
+        {
+          "block_id": "block_000003",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 1173,
+          "normalized_start": 1158,
+          "raw_end": 1173,
+          "raw_start": 1158,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "859bfd248ae5199c31b5eac53ff81cfa5cf36fd5ae44eea9ed8300787b356a81"
+        }
+      ],
+      "original_tokens": [
+        "[Notice Period]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "notice_period"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[GOVERNING_COUNTY]",
+      "occurrences": [
+        {
+          "block_id": "block_000003",
+          "extraction_id": "ext_d6071f593676a9bd672b",
+          "normalized_end": 1848,
+          "normalized_start": 1830,
+          "raw_end": 1848,
+          "raw_start": 1830,
+          "source_id": "src_27d0c7e38fbba1957faa",
+          "text_sha256": "2eab319b0a8dfdbc6cbe752132f9ef415bd64937523dbc9f092d651d06b78d89"
+        }
+      ],
+      "original_tokens": [
+        "[Governing County]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "governing_county"
+    }
+  ],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

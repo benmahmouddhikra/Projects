@@ -1,0 +1,79 @@
+{
+  "artifact_key": "src_798db0230149fdd1d704",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_798db0230149fdd1d704/canonical.json",
+    "extraction": "artifacts/pilot/src_798db0230149fdd1d704/extraction.json",
+    "review": "artifacts/review-queue/review_966cef2cfad029539346.json",
+    "validation": "artifacts/pilot/src_798db0230149fdd1d704/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:37.747384Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "completed_contract",
+  "required_reviews": [
+    "classification",
+    "extraction",
+    "legal",
+    "privacy",
+    "sanitization",
+    "structure"
+  ],
+  "review_coverage": "full",
+  "review_record_id": "review_966cef2cfad029539346",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/Arabic_example/عقد بيع ابتدائي ( لفيلا خالية ).doc",
+      "sha256": "bacfd17ad637cdc2490df68363fac33a0e40736b12df2158f7fee67649104cc5",
+      "source_id": "src_798db0230149fdd1d704"
+    }
+  ],
+  "template_id": "tpl_57ae6e93a10df7db5397",
+  "training_eligibility": "review_required",
+  "updated_at": "2026-08-12T14:00:37.747384Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:00:37.747384Z",
+    "errors": [],
+    "valid": true
+  }
+}

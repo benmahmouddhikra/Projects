@@ -1,0 +1,5 @@
+jsonschema>=4.20,<5
+Flask>=3.0,<4
+PyPDF2>=2.12,<4
+pywin32>=306; platform_system == "Windows"
+pytest>=8,<10

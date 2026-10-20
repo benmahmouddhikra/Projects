@@ -1,0 +1,75 @@
+{
+  "artifact_key": "src_8011548a828a2f278c25",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_8011548a828a2f278c25/canonical.json",
+    "extraction": "artifacts/pilot/src_8011548a828a2f278c25/extraction.json",
+    "review": "artifacts/review-queue/review_c1a1ec8ec344c86bb73b.json",
+    "validation": "artifacts/pilot/src_8011548a828a2f278c25/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.219738Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "court_filing",
+  "required_reviews": [
+    "extraction",
+    "classification"
+  ],
+  "review_coverage": "sampled_audit",
+  "review_record_id": "review_c1a1ec8ec344c86bb73b",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/kenya/Court Affidavit.pdf",
+      "sha256": "bb783b19ef3294b174469d4e4f3f16a93cf293f6e6aa6c60b5e92c846a64c66b",
+      "source_id": "src_8011548a828a2f278c25"
+    }
+  ],
+  "template_id": "tpl_edbcc107381c69f7b9ae",
+  "training_eligibility": "excluded",
+  "updated_at": "2026-08-12T14:00:38.219738Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:05:23.201232Z",
+    "errors": [],
+    "valid": true
+  }
+}

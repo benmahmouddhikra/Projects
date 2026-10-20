@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:hannibal:schema:qwen-contract-label-response-v1",
+  "title": "Strict Qwen contract packet label response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "packet_id", "template_id", "section_id", "section_kind", "section_requirement_status", "clause_labels", "variable_labels", "warnings"],
+  "properties": {
+    "schema_version": {"const": "qwen-contract-label-response-v1"},
+    "packet_id": {"type": "string", "pattern": "^pkt_[a-f0-9]{20}$"},
+    "template_id": {"type": "string", "pattern": "^tpl_[a-f0-9]{20}$"},
+    "section_id": {"type": "string", "pattern": "^sec_[a-f0-9]{20}$"},
+    "section_kind": {"enum": ["parties", "recitals", "definitions", "employment_terms", "term_and_renewal", "employee_obligations", "termination", "financial_responsibilities", "governing_law_and_reference", "signatures", "unclassified"]},
+    "section_requirement_status": {"enum": ["explicit_required", "explicit_conditional", "explicit_optional", "unspecified"]},
+    "clause_labels": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["clause_id", "requirement_status"],
+        "properties": {
+          "clause_id": {"type": "string", "pattern": "^clause_[a-f0-9]{20}$"},
+          "requirement_status": {"enum": ["explicit_required", "explicit_conditional", "explicit_optional", "unspecified"]}
+        }
+      }
+    },
+    "variable_labels": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["variable_id", "value_type", "requirement_status"],
+        "properties": {
+          "variable_id": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+          "value_type": {"enum": ["text", "date", "number", "money", "duration", "address", "identifier", "signature", "choice", "unknown"]},
+          "requirement_status": {"enum": ["explicit_required", "explicit_conditional", "explicit_optional", "unspecified"]}
+        }
+      }
+    },
+    "warnings": {"type": "array", "items": {"type": "string"}}
+  }
+}

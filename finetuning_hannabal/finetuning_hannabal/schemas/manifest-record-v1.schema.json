@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:hannibal:schema:manifest-record-v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "source_id", "relative_path", "sha256", "media_type", "extension", "size_bytes", "folder_hint", "exact_duplicate", "inventory_status", "pipeline_version"],
+  "properties": {
+    "schema_version": {"const": "manifest-record-v1"},
+    "source_id": {"type": "string", "pattern": "^src_[a-f0-9]{20}$"},
+    "relative_path": {"type": "string", "pattern": "^templates/"},
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "media_type": {"enum": ["application/pdf", "application/msword", "application/vnd.openxmlformats-officedocument.wordprocessingml.document"]},
+    "extension": {"enum": ["pdf", "doc", "docx"]},
+    "size_bytes": {"type": "integer", "minimum": 0},
+    "folder_hint": {"type": "string", "minLength": 1},
+    "exact_duplicate": {
+      "type": "object", "additionalProperties": false,
+      "required": ["group_id", "is_primary", "member_paths"],
+      "properties": {
+        "group_id": {"type": ["string", "null"]},
+        "is_primary": {"type": "boolean"},
+        "member_paths": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^templates/"}}
+      }
+    },
+    "inventory_status": {"const": "inventoried"},
+    "pipeline_version": {"type": "string"}
+  }
+}

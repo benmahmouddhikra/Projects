@@ -1,0 +1,74 @@
+{
+  "artifact_key": "src_ca6f93ed4b4d01759a98",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_ca6f93ed4b4d01759a98/canonical.json",
+    "extraction": "artifacts/pilot/src_ca6f93ed4b4d01759a98/extraction.json",
+    "review": "artifacts/review-queue/review_140749fdda5920b096ac.json",
+    "validation": "artifacts/pilot/src_ca6f93ed4b4d01759a98/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.312715Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "unknown",
+  "required_reviews": [
+    "classification"
+  ],
+  "review_coverage": "classification_only",
+  "review_record_id": "review_140749fdda5920b096ac",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/Libya/ن-7.pdf",
+      "sha256": "0a7ad81ac81adb583c1d454d6f4e3e454233af8a961c46fa599d1e118db7d047",
+      "source_id": "src_ca6f93ed4b4d01759a98"
+    }
+  ],
+  "template_id": "tpl_4d7829b94e2e3d784b62",
+  "training_eligibility": "review_required",
+  "updated_at": "2026-08-12T14:00:38.312715Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:00:38.312715Z",
+    "errors": [],
+    "valid": true
+  }
+}

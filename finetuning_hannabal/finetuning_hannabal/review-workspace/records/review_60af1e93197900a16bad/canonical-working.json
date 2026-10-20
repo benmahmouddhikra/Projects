@@ -1,0 +1,2919 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_ac2edd647ce76324fddb",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "unknown",
+    "initial_document_kind": "unknown",
+    "languages": [
+      {
+        "basis": "deterministic_text_heuristic",
+        "confidence": 0.107,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 1496,
+            "normalized_start": 0,
+            "raw_end": 1496,
+            "raw_start": 0,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "466c8132a88a10440aad4acb6f592c09c50c186b3260f21f10a5ee8edcb2c8c1"
+          }
+        ],
+        "tag": "fr"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "unknown",
+    "title": "Accord de Confidentialité (NDA)",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 31,
+        "normalized_start": 0,
+        "raw_end": 31,
+        "raw_start": 0,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "cf85f543f83be3ba7a863766325952523b8cbb0c39d46d405815e66df33d9015"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "document_kind_unresolved",
+        "message": "Deterministic filename rules did not resolve document kind.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      },
+      {
+        "code": "ambiguity_023_non_contract_destination",
+        "message": "AMBIGUITY-023: the non-contract knowledge-base/training destination is unresolved.",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "not_required",
+    "structure_review_status": "pending",
+    "training_eligibility": "excluded"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_23e1d19c293e087b2320",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ACCORD DE CONFIDENTIALITÉ (NON-DISCLOSURE AGREEMENT)",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 374,
+            "normalized_start": 85,
+            "raw_end": 374,
+            "raw_start": 85,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "ea7ee4d515833cde65e8529625a3239b52df993b8c700d48c183bac0bb653f48"
+          },
+          "text": "Conforme au Code civil français (livre III, titre III, ordonnance n°2016-131 du 10 février 2016), à la\nloi n°2018-670 du 30 juillet 2018 relative à la protection du secret des affaires (transposition de la\nDirective UE 2016/943) et à la loi n°94-665 du 4 août 1994 dite loi Toubon.\nParties",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ACCORD DE CONFIDENTIALITÉ (NON-DISCLOSURE AGREEMENT)",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 84,
+        "normalized_start": 32,
+        "raw_end": 84,
+        "raw_start": 32,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "20f70006e9f14f854d5c7fb83ed52c856c72578ad05a2181f70b6b65afa07c11"
+      },
+      "kind": "unclassified",
+      "order": 1,
+      "requirement_status": "unspecified",
+      "section_id": "sec_4397fd0cf31dd7ec4f4d",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 374,
+        "normalized_start": 32,
+        "raw_end": 374,
+        "raw_start": 32,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "5f6ea83f2bb84cb602f8c6640824aceb251a9399bc80a9ee3c2571e48523e437"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_00c6651e794416b625d7",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ENTRE LES SOUSSIGNÉS :",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 397,
+            "normalized_start": 375,
+            "raw_end": 397,
+            "raw_start": 375,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "d1953667ca782601f989605dc958d92bf202c2f8e90c120fe66002c5c43add59"
+          },
+          "text": "ENTRE LES SOUSSIGNÉS :",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ENTRE LES SOUSSIGNÉS :",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 397,
+        "normalized_start": 375,
+        "raw_end": 397,
+        "raw_start": 375,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "d1953667ca782601f989605dc958d92bf202c2f8e90c120fe66002c5c43add59"
+      },
+      "kind": "unclassified",
+      "order": 2,
+      "requirement_status": "unspecified",
+      "section_id": "sec_1a4995a6db2bde12326c",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 397,
+        "normalized_start": 375,
+        "raw_end": 397,
+        "raw_start": 375,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "d1953667ca782601f989605dc958d92bf202c2f8e90c120fe66002c5c43add59"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_2117f52c147f21247c08",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 744,
+            "normalized_start": 401,
+            "raw_end": 744,
+            "raw_start": 401,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "6ed83a0e55506fd999f7249c1f1d0f595bad2e0aed802aaa516ceaafdd757439"
+          },
+          "text": "[DENOMINATION_DU_DIVULGATEUR_DISCLOSING_PARTY]\n, dont le siège social est situé\n[SIEGE_SOCIAL_DU_DIVULGATEUR]\n, immatriculée au RCS sous le numéro SIREN\n[NUMERO_SIREN_DU_DIVULGATEUR]\n, représentée par\n[REPRESENTANT_HABILITE_DU_DIVULGATEUR_NOM_ET_QUALITE]\n, dûment habilité(e) aux fins des présentes, ci-après dénommée 'le Divulgateur' ;\nET",
+          "variable_ids": [
+            "denomination_du_divulgateur_disclosing_party",
+            "numero_siren_du_divulgateur",
+            "representant_habilite_du_divulgateur_nom_et_qualite",
+            "siege_social_du_divulgateur"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "1.",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 400,
+        "normalized_start": 398,
+        "raw_end": 400,
+        "raw_start": 398,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "c977dbe785221d34114d345fdf8ff4e18bb4af66750751dbea29407f9738735f"
+      },
+      "kind": "unclassified",
+      "order": 3,
+      "requirement_status": "unspecified",
+      "section_id": "sec_45118d2efd8191f68084",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 744,
+        "normalized_start": 398,
+        "raw_end": 744,
+        "raw_start": 398,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "6a1e6ad60405ce6714809102ed47f19c69b4ce17fb8f484fde2345aea955ed84"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_5eb95d3fa434ee783848",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 1153,
+            "normalized_start": 748,
+            "raw_end": 1153,
+            "raw_start": 748,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "29495736057af99329e05354df627bf2a58ccae80126ab538f55e8aa82feb8b6"
+          },
+          "text": "[DENOMINATION_DU_RECEPTEUR_RECEIVING_PARTY]\n, dont le siège social est situé\n[SIEGE_SOCIAL_DU_RECEPTEUR]\n, immatriculée au RCS sous le numéro SIREN\n[NUMERO_SIREN_DU_RECEPTEUR]\n, représentée par\n[REPRESENTANT_HABILITE_DU_RECEPTEUR_NOM_ET_QUALITE]\n, dûment habilité(e) aux fins des présentes, ci-après dénommée 'le Récepteur' ;\nCi-après dénommées ensemble 'les Parties' et individuellement 'une Partie'.",
+          "variable_ids": [
+            "denomination_du_recepteur_receiving_party",
+            "numero_siren_du_recepteur",
+            "representant_habilite_du_recepteur_nom_et_qualite",
+            "siege_social_du_recepteur"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "2.",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 747,
+        "normalized_start": 745,
+        "raw_end": 747,
+        "raw_start": 745,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "6bc54f13bea593dc5e1c8e6b16249e669d1ce99cbeac65f2a10f36e1d86f1fd4"
+      },
+      "kind": "unclassified",
+      "order": 4,
+      "requirement_status": "unspecified",
+      "section_id": "sec_aa5274b6e8283546d80a",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1153,
+        "normalized_start": 745,
+        "raw_end": 1153,
+        "raw_start": 745,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "447ef22c4cebf28a61a73b84331a132214a24c19ccc6ea2fbfa0c4745eb75774"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_50d49733031c83abaa05",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "IL A ÉTÉ CONVENU ET ARRÊTÉ CE QUI SUIT :",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 1194,
+            "normalized_start": 1154,
+            "raw_end": 1194,
+            "raw_start": 1154,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "3c489a88908f1f07d3d36a03148cf41407651b91b64ed7edfaceda082570257c"
+          },
+          "text": "IL A ÉTÉ CONVENU ET ARRÊTÉ CE QUI SUIT :",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "IL A ÉTÉ CONVENU ET ARRÊTÉ CE QUI SUIT :",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1194,
+        "normalized_start": 1154,
+        "raw_end": 1194,
+        "raw_start": 1154,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "3c489a88908f1f07d3d36a03148cf41407651b91b64ed7edfaceda082570257c"
+      },
+      "kind": "unclassified",
+      "order": 5,
+      "requirement_status": "unspecified",
+      "section_id": "sec_1e39005658c7aa5c6a81",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1194,
+        "normalized_start": 1154,
+        "raw_end": 1194,
+        "raw_start": 1154,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "3c489a88908f1f07d3d36a03148cf41407651b91b64ed7edfaceda082570257c"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e9b55eca8da35d3c6f96",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 1 - Objet",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 1212,
+            "normalized_start": 1195,
+            "raw_end": 1212,
+            "raw_start": 1195,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "4490fdc3f6a56fd96177dd1a3944dd0a31b4841b51e7d9d185347f01bbabe0f5"
+          },
+          "text": "Article 1 - Objet",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 1 - Objet",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1212,
+        "normalized_start": 1195,
+        "raw_end": 1212,
+        "raw_start": 1195,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "4490fdc3f6a56fd96177dd1a3944dd0a31b4841b51e7d9d185347f01bbabe0f5"
+      },
+      "kind": "unclassified",
+      "order": 6,
+      "requirement_status": "unspecified",
+      "section_id": "sec_1d4b22eef5c521454307",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1212,
+        "normalized_start": 1195,
+        "raw_end": 1212,
+        "raw_start": 1195,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "4490fdc3f6a56fd96177dd1a3944dd0a31b4841b51e7d9d185347f01bbabe0f5"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_f8880e75aefbe4a8df9a",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 1 - OBJET ET NATURE DU CONTRAT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 1251,
+            "normalized_start": 1213,
+            "raw_end": 1251,
+            "raw_start": 1213,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "e6602194004d5087ee0452d2302877d711a8b6ad95580e35ddddc34490eac79b"
+          },
+          "text": "ARTICLE 1 - OBJET ET NATURE DU CONTRAT",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 1 - OBJET ET NATURE DU CONTRAT",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1251,
+        "normalized_start": 1213,
+        "raw_end": 1251,
+        "raw_start": 1213,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "e6602194004d5087ee0452d2302877d711a8b6ad95580e35ddddc34490eac79b"
+      },
+      "kind": "unclassified",
+      "order": 7,
+      "requirement_status": "unspecified",
+      "section_id": "sec_42d5de00023edc853605",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1251,
+        "normalized_start": 1213,
+        "raw_end": 1251,
+        "raw_start": 1213,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "e6602194004d5087ee0452d2302877d711a8b6ad95580e35ddddc34490eac79b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_3b081b8a76a1fd45cdcb",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1.1 Les Parties souhaitent échanger des informations confidentielles aux fins suivantes :",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 1419,
+            "normalized_start": 1342,
+            "raw_end": 1419,
+            "raw_start": 1342,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "6d0e0888b4c951b005bca626e38f90c7289fd190a520ffa57dd97fb8941c9734"
+          },
+          "text": "[OBJET_DE_L_ECHANGE_D_INFORMATIONS_PERMITTED_PURPOSE]\n(ci-après 'l'Objet').",
+          "variable_ids": [
+            "objet_de_l_echange_d_informations_permitted_purpose"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "1.1 Les Parties souhaitent échanger des informations confidentielles aux fins suivantes :",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1341,
+        "normalized_start": 1252,
+        "raw_end": 1341,
+        "raw_start": 1252,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "700f6d9f28b27d80ef3b60f4c39f64679a60d17ff8d7b9bc9f0ee689f5b487cb"
+      },
+      "kind": "unclassified",
+      "order": 8,
+      "requirement_status": "unspecified",
+      "section_id": "sec_27f768a44c080daf3634",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1419,
+        "normalized_start": 1252,
+        "raw_end": 1419,
+        "raw_start": 1252,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "eb588a2e8f32430327da80a878693ee79f35bcc0944b66696cd2cd9f6770da34"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e2aad6c1a4c21df54b19",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1.2 Le présent accord est de type :",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 1496,
+            "normalized_start": 1456,
+            "raw_end": 1496,
+            "raw_start": 1456,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "5034c14b5a84c0a6cbc518c5cae550b08c97d033a6a2d39fc7e62b3f5776c411"
+          },
+          "text": "[TYPE_DE_NDA_UNILATERAL_OU_RECIPROQUE]",
+          "variable_ids": [
+            "type_de_nda_unilateral_ou_reciproque"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "1.2 Le présent accord est de type :",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1455,
+        "normalized_start": 1420,
+        "raw_end": 1455,
+        "raw_start": 1420,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "2c4d0c7aa76538068f6c5908dd92a997dfb78a81c4c4c232504439941831da92"
+      },
+      "kind": "unclassified",
+      "order": 9,
+      "requirement_status": "unspecified",
+      "section_id": "sec_d9c87251309be42777d3",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1496,
+        "normalized_start": 1420,
+        "raw_end": 1496,
+        "raw_start": 1420,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "4f9045b22a021089cf23639436dc562730e64f0db29f367eff58a1bc993eb33b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_a0dad44d78f1df380235",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1.3 Conformément à l'article 1112-2 du Code civil, les informations communiquées ne peuvent être",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 198,
+            "normalized_start": 99,
+            "raw_end": 198,
+            "raw_start": 99,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "24de9df5f32ac871fde92394fba7fd7e8e51f55b2203a4c1640c53f433dfa2a3"
+          },
+          "text": "utilisées qu'aux fins de l'Objet et non à des fins commerciales, techniques ou stratégiques autres.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1.3 Conformément à l'article 1112-2 du Code civil, les informations communiquées ne peuvent être",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 98,
+        "normalized_start": 2,
+        "raw_end": 98,
+        "raw_start": 2,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "9f1c6898eddd0ca9af7a90986dc645cafef910ee10cba8caaa1114aea319487c"
+      },
+      "kind": "unclassified",
+      "order": 10,
+      "requirement_status": "unspecified",
+      "section_id": "sec_e9df409b4a038c1058ab",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 198,
+        "normalized_start": 2,
+        "raw_end": 198,
+        "raw_start": 2,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "0754b04509da7915ee3c1a59ccd3534f3c033cff29a81da71efe03ca606b04a5"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_bff74f76cebeefd5ef93",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 2 - Informations confidentielles",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 239,
+            "normalized_start": 199,
+            "raw_end": 239,
+            "raw_start": 199,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "fbf694560e568dcefc31dcbf2a73fd8b1ecfe653b3af02299f490baceae54277"
+          },
+          "text": "Article 2 - Informations confidentielles",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 2 - Informations confidentielles",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 239,
+        "normalized_start": 199,
+        "raw_end": 239,
+        "raw_start": 199,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "fbf694560e568dcefc31dcbf2a73fd8b1ecfe653b3af02299f490baceae54277"
+      },
+      "kind": "unclassified",
+      "order": 11,
+      "requirement_status": "unspecified",
+      "section_id": "sec_e3a23c4e3f14b014d640",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 239,
+        "normalized_start": 199,
+        "raw_end": 239,
+        "raw_start": 199,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "fbf694560e568dcefc31dcbf2a73fd8b1ecfe653b3af02299f490baceae54277"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_501278e93602b14b8efe",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 2 - DÉFINITION DES INFORMATIONS CONFIDENTIELLES",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 295,
+            "normalized_start": 240,
+            "raw_end": 295,
+            "raw_start": 240,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "5b9148eeaa536d403fea367da128c551f739d6145cdfaa5d86676c44f0058d1a"
+          },
+          "text": "ARTICLE 2 - DÉFINITION DES INFORMATIONS CONFIDENTIELLES",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 2 - DÉFINITION DES INFORMATIONS CONFIDENTIELLES",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 295,
+        "normalized_start": 240,
+        "raw_end": 295,
+        "raw_start": 240,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "5b9148eeaa536d403fea367da128c551f739d6145cdfaa5d86676c44f0058d1a"
+      },
+      "kind": "unclassified",
+      "order": 12,
+      "requirement_status": "unspecified",
+      "section_id": "sec_5119728fa34785bd103a",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 295,
+        "normalized_start": 240,
+        "raw_end": 295,
+        "raw_start": 240,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "5b9148eeaa536d403fea367da128c551f739d6145cdfaa5d86676c44f0058d1a"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_da9cbef4fc55d16ec7e7",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2.1 Sont qualifiées d'Informations Confidentielles toutes les informations, sous quelque forme que",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 611,
+            "normalized_start": 395,
+            "raw_end": 611,
+            "raw_start": 395,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "654dd505313c0f2e0f3afe04ca540c24111f57b7cc1bb0577e6cc30048afbd24"
+          },
+          "text": "ce soit (orale, écrite, électronique, visuelle ou autre), communiquées par le Divulgateur au\nRécepteur ou observées par le Récepteur, y compris mais sans s'y limiter :\n[DESCRIPTION_DES_INFORMATIONS_CONFIDENTIELLES]\n.",
+          "variable_ids": [
+            "description_des_informations_confidentielles"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "2.1 Sont qualifiées d'Informations Confidentielles toutes les informations, sous quelque forme que",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 394,
+        "normalized_start": 296,
+        "raw_end": 394,
+        "raw_start": 296,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "ba2aa51e0c26381a5b25e3eb425c399b123b32b31510c64a15d41453b7c3f18b"
+      },
+      "kind": "unclassified",
+      "order": 13,
+      "requirement_status": "unspecified",
+      "section_id": "sec_5faa39e1fb70483dbaa6",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 611,
+        "normalized_start": 296,
+        "raw_end": 611,
+        "raw_start": 296,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "ee86328788b5fba798b29143a6c562f24afbfc2633b343eaae7446084da29c93"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_760556af6f691554a41b",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2.2 Les Informations Confidentielles comprennent également tous les secrets d'affaires au sens de",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 794,
+            "normalized_start": 710,
+            "raw_end": 794,
+            "raw_start": 710,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "d9e8f931d9dc6c48d25d6ffcb59cbab42be76d9fb0fa40ecd17719129a6b7709"
+          },
+          "text": "l'article L151-1 du Code de commerce (issu de la loi n°2018-670 du 30 juillet 2018).",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2.2 Les Informations Confidentielles comprennent également tous les secrets d'affaires au sens de",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 709,
+        "normalized_start": 612,
+        "raw_end": 709,
+        "raw_start": 612,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "7a0b86bd21224f32459243c746e1f7e152e772d6a72ce64c0729d0e308502b3e"
+      },
+      "kind": "unclassified",
+      "order": 14,
+      "requirement_status": "unspecified",
+      "section_id": "sec_bfa55d1a66584572a323",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 794,
+        "normalized_start": 612,
+        "raw_end": 794,
+        "raw_start": 612,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "eb1d7432cf5fcaff7500d55a5198511bc9e7a35a9fba851ee73b73e48f505e97"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_cb32ddaa08adf9f52341",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2.3 Ne sont pas des Informations Confidentielles les informations qui : (a) étaient déjà publiques au",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 1335,
+            "normalized_start": 897,
+            "raw_end": 1335,
+            "raw_start": 897,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "e4e8f6312ad5ac897d086c588bf5a232af34307c2242c604d45dbd5829695f28"
+          },
+          "text": "moment de leur communication ; (b) sont devenues publiques après leur communication sans faute\ndu Récepteur ; (c) étaient déjà en possession du Récepteur sans obligation de confidentialité ; (d)\ndoivent être divulguées en vertu d'une obligation légale, d'une décision judiciaire définitive ou à la\ndemande d'une autorité administrative compétente (DGFiP, AFA, AMF, CNIL), à condition que le\nRécepteur en informe le Divulgateur sans délai.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2.3 Ne sont pas des Informations Confidentielles les informations qui : (a) étaient déjà publiques au",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 896,
+        "normalized_start": 795,
+        "raw_end": 896,
+        "raw_start": 795,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "e8b3fee37cf917d732e9adf700b0820e5e3532e7d458687e73f32fc557d5a09f"
+      },
+      "kind": "unclassified",
+      "order": 15,
+      "requirement_status": "unspecified",
+      "section_id": "sec_2fe197426f93c514155d",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1335,
+        "normalized_start": 795,
+        "raw_end": 1335,
+        "raw_start": 795,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "450b02ab8d2a4300ae9a75174b700fc248cc1d23ecffbb6907900d774edf1139"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_c629921edda2c2e58c5f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 3 - Obligation de confidentialité",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 1377,
+            "normalized_start": 1336,
+            "raw_end": 1377,
+            "raw_start": 1336,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "9b28c4f473d59eb52eca7616bfdc924e193295be5113fdc95460a155864a452e"
+          },
+          "text": "Article 3 - Obligation de confidentialité",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 3 - Obligation de confidentialité",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1377,
+        "normalized_start": 1336,
+        "raw_end": 1377,
+        "raw_start": 1336,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "9b28c4f473d59eb52eca7616bfdc924e193295be5113fdc95460a155864a452e"
+      },
+      "kind": "unclassified",
+      "order": 16,
+      "requirement_status": "unspecified",
+      "section_id": "sec_9c50cfd5ad7530af9139",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1377,
+        "normalized_start": 1336,
+        "raw_end": 1377,
+        "raw_start": 1336,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "9b28c4f473d59eb52eca7616bfdc924e193295be5113fdc95460a155864a452e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_3124d033587753295851",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 3 - OBLIGATION DE CONFIDENTIALITÉ ET DILIGENCE",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 1432,
+            "normalized_start": 1378,
+            "raw_end": 1432,
+            "raw_start": 1378,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "1c4f1d4440e5e2f5354ed5a6f201a3924ed0b7ea438a3273d9e7ccc763033720"
+          },
+          "text": "ARTICLE 3 - OBLIGATION DE CONFIDENTIALITÉ ET DILIGENCE",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 3 - OBLIGATION DE CONFIDENTIALITÉ ET DILIGENCE",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1432,
+        "normalized_start": 1378,
+        "raw_end": 1432,
+        "raw_start": 1378,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "1c4f1d4440e5e2f5354ed5a6f201a3924ed0b7ea438a3273d9e7ccc763033720"
+      },
+      "kind": "unclassified",
+      "order": 17,
+      "requirement_status": "unspecified",
+      "section_id": "sec_63c5af0f74b0c71edfb1",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1432,
+        "normalized_start": 1378,
+        "raw_end": 1432,
+        "raw_start": 1378,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "1c4f1d4440e5e2f5354ed5a6f201a3924ed0b7ea438a3273d9e7ccc763033720"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_81fa8eabfb6d42ea254f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3.1 Le Récepteur s'engage à garder les Informations Confidentielles strictement secrètes et à ne",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 1684,
+            "normalized_start": 1530,
+            "raw_end": 1684,
+            "raw_start": 1530,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "5fca533fa42fbf907ee0b17cd0669de18ad15877db1d1c2135cc1b5303c996a4"
+          },
+          "text": "pas les divulguer à des tiers sans autorisation écrite préalable du Divulgateur, conformément à\nl'obligation de bonne foi de l'article 1104 du Code civil.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3.1 Le Récepteur s'engage à garder les Informations Confidentielles strictement secrètes et à ne",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1529,
+        "normalized_start": 1433,
+        "raw_end": 1529,
+        "raw_start": 1433,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "f76d638e9d187773195ef63248b178eb82811127677da96f652d20a77cd7009f"
+      },
+      "kind": "unclassified",
+      "order": 18,
+      "requirement_status": "unspecified",
+      "section_id": "sec_137426804feb53900573",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1684,
+        "normalized_start": 1433,
+        "raw_end": 1684,
+        "raw_start": 1433,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "f45bf0f888425058125efd65a8a9d017d032da1089ea277695e166e76c01bd96"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_47062a14c43b9795f920",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3.2 Le Récepteur ne rendra les Informations Confidentielles accessibles qu'à ses propres salariés,",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 1967,
+            "normalized_start": 1784,
+            "raw_end": 1967,
+            "raw_start": 1784,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "d729f7ef8e415681cfa4a89f8d020c28454c992cb9a1860c2888ccd1dfff5227"
+          },
+          "text": "conseillers et sous-traitants qui en ont raisonnablement besoin pour l'Objet (need-to-know basis) et\nqui sont eux-mêmes liés par une obligation de confidentialité au moins comparable.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3.2 Le Récepteur ne rendra les Informations Confidentielles accessibles qu'à ses propres salariés,",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1783,
+        "normalized_start": 1685,
+        "raw_end": 1783,
+        "raw_start": 1685,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "fb74e0c4277f67c13c196d73434ee3c0031f4d7419d23ffa981fe7ca7003c5ef"
+      },
+      "kind": "unclassified",
+      "order": 19,
+      "requirement_status": "unspecified",
+      "section_id": "sec_9bf9b70fb573e93479de",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1967,
+        "normalized_start": 1685,
+        "raw_end": 1967,
+        "raw_start": 1685,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "1237cc72255be914f480f75b9ff9c4620d6d6755ce7bd834bceea1e97840b7d9"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_37e5ea100cc76b119fa4",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3.3 Le Récepteur appliquera au moins le même degré de diligence que celui qu'il observe pour ses",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 2213,
+            "normalized_start": 2065,
+            "raw_end": 2213,
+            "raw_start": 2065,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "deb3c85cda2c39d4d1d1e460aada61a3be57a9ee561e0226f11e672dca2e2e0c"
+          },
+          "text": "propres informations confidentielles, et en tout cas le degré de diligence d'un bon professionnel au\nsens des articles 1197 et 1231-1 du Code civil.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3.3 Le Récepteur appliquera au moins le même degré de diligence que celui qu'il observe pour ses",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2064,
+        "normalized_start": 1968,
+        "raw_end": 2064,
+        "raw_start": 1968,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "93282465b9e93583eee0be073d7da5ebc2b0872dd08c66e4fd12c0a87475437e"
+      },
+      "kind": "unclassified",
+      "order": 20,
+      "requirement_status": "unspecified",
+      "section_id": "sec_8ccf2485d3f3ba916f51",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2213,
+        "normalized_start": 1968,
+        "raw_end": 2213,
+        "raw_start": 1968,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "0524c0d01975ebb917fa468f0499970c987be8d4c0833f66259aded2849fc9df"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_baf03b5bc8f8f5e7ddcf",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 4 - Durée",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 2231,
+            "normalized_start": 2214,
+            "raw_end": 2231,
+            "raw_start": 2214,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "09ccab042381807b0a389265e1ccc6d4c93d942e082349f0d88e94e1ffe1240e"
+          },
+          "text": "Article 4 - Durée",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 4 - Durée",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2231,
+        "normalized_start": 2214,
+        "raw_end": 2231,
+        "raw_start": 2214,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "09ccab042381807b0a389265e1ccc6d4c93d942e082349f0d88e94e1ffe1240e"
+      },
+      "kind": "unclassified",
+      "order": 21,
+      "requirement_status": "unspecified",
+      "section_id": "sec_4e3a8eb782d889f2aa1d",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2231,
+        "normalized_start": 2214,
+        "raw_end": 2231,
+        "raw_start": 2214,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "09ccab042381807b0a389265e1ccc6d4c93d942e082349f0d88e94e1ffe1240e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e4a20ba67e01b3980020",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 4 - DURÉE DU CONTRAT ET PÉRIODE DE CONFIDENTIALITÉ",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 2290,
+            "normalized_start": 2232,
+            "raw_end": 2290,
+            "raw_start": 2232,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "571b31981eb5fb487bd64b51ccc097623ca3d97f4be232ff0a5fa618407e7daa"
+          },
+          "text": "ARTICLE 4 - DURÉE DU CONTRAT ET PÉRIODE DE CONFIDENTIALITÉ",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 4 - DURÉE DU CONTRAT ET PÉRIODE DE CONFIDENTIALITÉ",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2290,
+        "normalized_start": 2232,
+        "raw_end": 2290,
+        "raw_start": 2232,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "571b31981eb5fb487bd64b51ccc097623ca3d97f4be232ff0a5fa618407e7daa"
+      },
+      "kind": "unclassified",
+      "order": 22,
+      "requirement_status": "unspecified",
+      "section_id": "sec_97e940f39670e65f5efa",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2290,
+        "normalized_start": 2232,
+        "raw_end": 2290,
+        "raw_start": 2232,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "571b31981eb5fb487bd64b51ccc097623ca3d97f4be232ff0a5fa618407e7daa"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_9eee4aed66dc689a290f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4.1 Le présent accord est conclu pour une durée de",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 2406,
+            "normalized_start": 2342,
+            "raw_end": 2406,
+            "raw_start": 2342,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "589598e890097503881911ec7ac4d192547c7ba00f688e7233a773b825c39787"
+          },
+          "text": "[DUREE_DU_NDA_EN_MOIS]\nmois à compter de la date de signature.",
+          "variable_ids": [
+            "duree_du_nda_en_mois"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "4.1 Le présent accord est conclu pour une durée de",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2341,
+        "normalized_start": 2291,
+        "raw_end": 2341,
+        "raw_start": 2291,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "4161f0042bf2bea48ba5e04f8d2214a7e07666eea46c705fa653ecf55ff2dd0b"
+      },
+      "kind": "unclassified",
+      "order": 23,
+      "requirement_status": "unspecified",
+      "section_id": "sec_106598370ef6fc4b3755",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2406,
+        "normalized_start": 2291,
+        "raw_end": 2406,
+        "raw_start": 2291,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "225c6fc1ae207cafc2df06ae9b633ccc2d6ab8786856801d5c4909594bb66d79"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_1298e86c2f7fbad97f1f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4.2 L'obligation de confidentialité visée à l'Article 3 reste en vigueur pendant",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 2593,
+            "normalized_start": 2488,
+            "raw_end": 2593,
+            "raw_start": 2488,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "973af1b78137f5954c2b849140b0f2fb0d35a8300559228137991e0c1abd635d"
+          },
+          "text": "[DUREE_DE_L_OBLIGATION_DE_CONFIDENTIALITE_APRES_RESILIATION_ANNEES]\nans après la fin du présent accord.",
+          "variable_ids": [
+            "duree_de_l_obligation_de_confidentialite_apres_resiliation_annees"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "4.2 L'obligation de confidentialité visée à l'Article 3 reste en vigueur pendant",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2487,
+        "normalized_start": 2407,
+        "raw_end": 2487,
+        "raw_start": 2407,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "bdc54f6cd073bff8597c616708c62d56326a6df623c0d9ef12ca1ab1a0ba1368"
+      },
+      "kind": "unclassified",
+      "order": 24,
+      "requirement_status": "unspecified",
+      "section_id": "sec_d2db9bc8a11782fe9d92",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2593,
+        "normalized_start": 2407,
+        "raw_end": 2593,
+        "raw_start": 2407,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "3087416c913c7ddf4da02655fa6ef62df76b5a917d48cf4d1184eeb1daf21b0c"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_b9b26f5aea3a6bb4496a",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4.3 Pour les secrets d'affaires au sens de l'article L151-1 du Code de commerce, l'obligation de",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 2785,
+            "normalized_start": 2691,
+            "raw_end": 2785,
+            "raw_start": 2691,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "1c0b1e416ed35521f6b3843e41b9ec581072aa19d7c7c754daa94a906ca7434d"
+          },
+          "text": "confidentialité s'applique aussi longtemps que le secret d'affaires conserve sa qualification.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4.3 Pour les secrets d'affaires au sens de l'article L151-1 du Code de commerce, l'obligation de",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2690,
+        "normalized_start": 2594,
+        "raw_end": 2690,
+        "raw_start": 2594,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "8661a3a6aaf08f01b196af4f26017fe14fb9f8408007435dbb334af5e0b9295f"
+      },
+      "kind": "unclassified",
+      "order": 25,
+      "requirement_status": "unspecified",
+      "section_id": "sec_7ef1f40248e1306966e2",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2785,
+        "normalized_start": 2594,
+        "raw_end": 2785,
+        "raw_start": 2594,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "8058ef9efa935795e9127a60fd4e03e340c8f267f85b0ff8af94e8002fcc17f2"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_4ddac38e376d4be8e7b8",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 5 - Restitution et destruction",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 2824,
+            "normalized_start": 2786,
+            "raw_end": 2824,
+            "raw_start": 2786,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "c07072a86593a6c3301c9653617df4721c2caa711f8094de46e92785924a2f1e"
+          },
+          "text": "Article 5 - Restitution et destruction",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 5 - Restitution et destruction",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2824,
+        "normalized_start": 2786,
+        "raw_end": 2824,
+        "raw_start": 2786,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "c07072a86593a6c3301c9653617df4721c2caa711f8094de46e92785924a2f1e"
+      },
+      "kind": "unclassified",
+      "order": 26,
+      "requirement_status": "unspecified",
+      "section_id": "sec_c42d31320188aff24ab8",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2824,
+        "normalized_start": 2786,
+        "raw_end": 2824,
+        "raw_start": 2786,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "c07072a86593a6c3301c9653617df4721c2caa711f8094de46e92785924a2f1e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_9295f88f2a8abee08260",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 5 - RESTITUTION ET DESTRUCTION",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 2863,
+            "normalized_start": 2825,
+            "raw_end": 2863,
+            "raw_start": 2825,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "3d346b61c27bb4bfe1ce2f11eb78ae3d7bedc672453cefdfe9c9adcfc85c039c"
+          },
+          "text": "ARTICLE 5 - RESTITUTION ET DESTRUCTION",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 5 - RESTITUTION ET DESTRUCTION",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2863,
+        "normalized_start": 2825,
+        "raw_end": 2863,
+        "raw_start": 2825,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "3d346b61c27bb4bfe1ce2f11eb78ae3d7bedc672453cefdfe9c9adcfc85c039c"
+      },
+      "kind": "unclassified",
+      "order": 27,
+      "requirement_status": "unspecified",
+      "section_id": "sec_073b000a5fc08ba4f54c",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2863,
+        "normalized_start": 2825,
+        "raw_end": 2863,
+        "raw_start": 2825,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "3d346b61c27bb4bfe1ce2f11eb78ae3d7bedc672453cefdfe9c9adcfc85c039c"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_61e474f5e8ffe3fb1f66",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5.1 Après la fin du présent accord, ou à la première demande du Divulgateur, le Récepteur",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 220,
+            "normalized_start": 90,
+            "raw_end": 220,
+            "raw_start": 90,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "d796cf84c980846c52d415f4ef1ff305bb33caea85aeb8528a0205c803241736"
+          },
+          "text": "restituera ou détruira de manière vérifiable toutes les Informations Confidentielles et leurs copies\ndans les quatorze (14) jours.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5.1 Après la fin du présent accord, ou à la première demande du Divulgateur, le Récepteur",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 89,
+        "normalized_start": 0,
+        "raw_end": 89,
+        "raw_start": 0,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "039bc65951d962eb408c84fa14413fc1a576568f072469b90be9b79ef6b729c1"
+      },
+      "kind": "unclassified",
+      "order": 28,
+      "requirement_status": "unspecified",
+      "section_id": "sec_cbf35d962f7d69631397",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 220,
+        "normalized_start": 0,
+        "raw_end": 220,
+        "raw_start": 0,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "08501bd76c98dbbb2ed2d162b7b29bfd7e22ec4c0fa785ae27f21bdaa223b368"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_a75fff2539e37e3091d2",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5.2 Le Récepteur fournit sur demande une attestation écrite de destruction, signée par un",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 333,
+            "normalized_start": 311,
+            "raw_end": 333,
+            "raw_start": 311,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "c079aa5245630664f8a7a0a65d14226c2ab896db47cd632f1c188d6828c400e9"
+          },
+          "text": "représentant habilité.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5.2 Le Récepteur fournit sur demande une attestation écrite de destruction, signée par un",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 310,
+        "normalized_start": 221,
+        "raw_end": 310,
+        "raw_start": 221,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "d00fe8f1ae003042c5b6f9594905eb9c576eee555f35765e9a8948e8170c5587"
+      },
+      "kind": "unclassified",
+      "order": 29,
+      "requirement_status": "unspecified",
+      "section_id": "sec_bdd9c072c33add312fea",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 333,
+        "normalized_start": 221,
+        "raw_end": 333,
+        "raw_start": 221,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "6b90acdda95a53002b907fcec47de02c65900802619b9906333d3a3a8e80e014"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_9ab4489d1ca4540fb0bd",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5.3 Une copie d'archive raisonnable aux fins des obligations légales de conservation (Code de",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 650,
+            "normalized_start": 428,
+            "raw_end": 650,
+            "raw_start": 428,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "160cbf68fa34f539ae1eeeb1851985f864eccd79d1ad7e81c2d18ea481eff8fd"
+          },
+          "text": "commerce art. L123-22 pour les livres comptables 10 ans, Code général des impôts art. L102 B\npour les pièces fiscales 6 ans) est autorisée, à condition que le Récepteur continue à respecter\nl'obligation de confidentialité.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5.3 Une copie d'archive raisonnable aux fins des obligations légales de conservation (Code de",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 427,
+        "normalized_start": 334,
+        "raw_end": 427,
+        "raw_start": 334,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "0dd7193729ee56dc9c4201b94bf2a89f6ebec8578878dcb1dd4e460db1980e01"
+      },
+      "kind": "unclassified",
+      "order": 30,
+      "requirement_status": "unspecified",
+      "section_id": "sec_d4f9db0fef7fb0bf9b40",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 650,
+        "normalized_start": 334,
+        "raw_end": 650,
+        "raw_start": 334,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "140aafecccf0669c69a6de33fe7c4f1fcd52dfca24a21c8f059fb02aeb16d1de"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_3b8a954d3a8771e64704",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 6 - Clause pénale",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 676,
+            "normalized_start": 651,
+            "raw_end": 676,
+            "raw_start": 651,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "17c0efad4e30efc1eaab0592811635efe4c1c07a17c717c46e588a4dd52054ed"
+          },
+          "text": "Article 6 - Clause pénale",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 6 - Clause pénale",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 676,
+        "normalized_start": 651,
+        "raw_end": 676,
+        "raw_start": 651,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "17c0efad4e30efc1eaab0592811635efe4c1c07a17c717c46e588a4dd52054ed"
+      },
+      "kind": "unclassified",
+      "order": 31,
+      "requirement_status": "unspecified",
+      "section_id": "sec_04d8b7741c4140836581",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 676,
+        "normalized_start": 651,
+        "raw_end": 676,
+        "raw_start": 651,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "17c0efad4e30efc1eaab0592811635efe4c1c07a17c717c46e588a4dd52054ed"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_3acdf9ca70a7a0a71a27",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 6 - CLAUSE PÉNALE ET INDEMNISATION (Code civil art. 1231-5)",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 744,
+            "normalized_start": 677,
+            "raw_end": 744,
+            "raw_start": 677,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "8f42863a0fef84119ddcd4fd58042eae5bbbfb510f192a07b177674abd8d61e4"
+          },
+          "text": "ARTICLE 6 - CLAUSE PÉNALE ET INDEMNISATION (Code civil art. 1231-5)",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 6 - CLAUSE PÉNALE ET INDEMNISATION (Code civil art. 1231-5)",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 744,
+        "normalized_start": 677,
+        "raw_end": 744,
+        "raw_start": 677,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "8f42863a0fef84119ddcd4fd58042eae5bbbfb510f192a07b177674abd8d61e4"
+      },
+      "kind": "unclassified",
+      "order": 32,
+      "requirement_status": "unspecified",
+      "section_id": "sec_3234e3d420d0cb39023b",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 744,
+        "normalized_start": 677,
+        "raw_end": 744,
+        "raw_start": 677,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "8f42863a0fef84119ddcd4fd58042eae5bbbfb510f192a07b177674abd8d61e4"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_180abd9f92992bf9e243",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "6.1 En cas de violation d'une quelconque disposition du présent accord, le Récepteur s'engage à",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 1119,
+            "normalized_start": 841,
+            "raw_end": 1119,
+            "raw_start": 841,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "0f4ea40e6f372cebde4d4569006352a238097ee08e61974a14f217fba77ba52f"
+          },
+          "text": "payer au Divulgateur une pénalité immédiatement exigible de\n[CLAUSE_PENALE_PAR_VIOLATION_EUR]\nEUR par violation, augmentée de\n[ASTREINTE_JOURNALIERE_EN_CAS_DE_PROLONGATION_EUR]\nEUR par jour pendant lequel la violation persiste, conformément à l'article 1231-5 du Code civil.",
+          "variable_ids": [
+            "astreinte_journaliere_en_cas_de_prolongation_eur",
+            "clause_penale_par_violation_eur"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "6.1 En cas de violation d'une quelconque disposition du présent accord, le Récepteur s'engage à",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 840,
+        "normalized_start": 745,
+        "raw_end": 840,
+        "raw_start": 745,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "7c4da01f5a5a2a68425fff5d41b1087936d163767ed94007121b10814edfd4cc"
+      },
+      "kind": "unclassified",
+      "order": 33,
+      "requirement_status": "unspecified",
+      "section_id": "sec_1b0db7bb4618cdd19dad",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1119,
+        "normalized_start": 745,
+        "raw_end": 1119,
+        "raw_start": 745,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "459b33ff46336f2946b06f6eedaa067e8077de93b90a3665af93a4182e39f706"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_0c45383dda29614c6628",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "6.2 Conformément à l'article L152-1 du Code de commerce relatif aux atteintes au secret des",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 1376,
+            "normalized_start": 1212,
+            "raw_end": 1376,
+            "raw_start": 1212,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "f22872206a73459accb476a580f0e6335c3efe7b10e2ba3ecee1518eb6687d7b"
+          },
+          "text": "affaires, le Divulgateur peut obtenir réparation du préjudice effectivement subi, lequel peut être\nsupérieur à la clause pénale dans la limite des règles de preuve.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "6.2 Conformément à l'article L152-1 du Code de commerce relatif aux atteintes au secret des",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1211,
+        "normalized_start": 1120,
+        "raw_end": 1211,
+        "raw_start": 1120,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "6fe7a1bf6096087d3bad608f1117d12c1c15bfe47372c54b70adc40486e91103"
+      },
+      "kind": "unclassified",
+      "order": 34,
+      "requirement_status": "unspecified",
+      "section_id": "sec_937220b2aa727eeb868c",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1376,
+        "normalized_start": 1120,
+        "raw_end": 1376,
+        "raw_start": 1120,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "b69e7e2db0c5d686599c43f0372d0eddf93340232425531f36fc0a796ef82a78"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_d7fa651e82a3c4955736",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "6.3 Le Divulgateur peut en outre saisir le juge des référés du Tribunal de commerce (CPC art. 873)",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 1623,
+            "normalized_start": 1476,
+            "raw_end": 1623,
+            "raw_start": 1476,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "0c8835d3610003681dcfad7717aefa2dfec0573f9148cb7eb440f457aecd21a1"
+          },
+          "text": "ou du Tribunal judiciaire (CPC art. 835) pour obtenir des mesures provisoires, dont une interdiction\nsous astreinte (CPCE art. L131-1 et suivants).",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "6.3 Le Divulgateur peut en outre saisir le juge des référés du Tribunal de commerce (CPC art. 873)",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1475,
+        "normalized_start": 1377,
+        "raw_end": 1475,
+        "raw_start": 1377,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "12b4e9edd1c67325946c679f33596a0b6c9c03350457a50de0d91089a26ab897"
+      },
+      "kind": "unclassified",
+      "order": 35,
+      "requirement_status": "unspecified",
+      "section_id": "sec_68b191c5618c7b924b7c",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1623,
+        "normalized_start": 1377,
+        "raw_end": 1623,
+        "raw_start": 1377,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "e3fa4f35e526fc1269f348ddea930e36db533c0759409ab04b411951871019a6"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_c39e26ec91e17229d7f3",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 7 - Propriété intellectuelle",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 1660,
+            "normalized_start": 1624,
+            "raw_end": 1660,
+            "raw_start": 1624,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "d1a047b7598aa20981f7f5a170691759e618d5dddbf07a4d608b5d9536134e70"
+          },
+          "text": "Article 7 - Propriété intellectuelle",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 7 - Propriété intellectuelle",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1660,
+        "normalized_start": 1624,
+        "raw_end": 1660,
+        "raw_start": 1624,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "d1a047b7598aa20981f7f5a170691759e618d5dddbf07a4d608b5d9536134e70"
+      },
+      "kind": "unclassified",
+      "order": 36,
+      "requirement_status": "unspecified",
+      "section_id": "sec_9983f9239d46d730e129",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1660,
+        "normalized_start": 1624,
+        "raw_end": 1660,
+        "raw_start": 1624,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "d1a047b7598aa20981f7f5a170691759e618d5dddbf07a4d608b5d9536134e70"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_26a932e28235717cee3d",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 7 - PROPRIÉTÉ INTELLECTUELLE",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 1697,
+            "normalized_start": 1661,
+            "raw_end": 1697,
+            "raw_start": 1661,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "6f4b983846e2b25b98db504bddcfbb47d74ab3af921aee9847bcdaa23db823e2"
+          },
+          "text": "ARTICLE 7 - PROPRIÉTÉ INTELLECTUELLE",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 7 - PROPRIÉTÉ INTELLECTUELLE",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1697,
+        "normalized_start": 1661,
+        "raw_end": 1697,
+        "raw_start": 1661,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "6f4b983846e2b25b98db504bddcfbb47d74ab3af921aee9847bcdaa23db823e2"
+      },
+      "kind": "unclassified",
+      "order": 37,
+      "requirement_status": "unspecified",
+      "section_id": "sec_ef8a5d8debd7b4a48005",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1697,
+        "normalized_start": 1661,
+        "raw_end": 1697,
+        "raw_start": 1661,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "6f4b983846e2b25b98db504bddcfbb47d74ab3af921aee9847bcdaa23db823e2"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_327b9ec3e7600385d650",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "7.1 Aucune disposition du présent accord n'emporte cession d'un quelconque droit de propriété",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 1844,
+            "normalized_start": 1792,
+            "raw_end": 1844,
+            "raw_start": 1792,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "0ed9bd5dbe236233897aecec806a15dbeb9a6e1d55589274abbf9e4d58e3525a"
+          },
+          "text": "intellectuelle sur les Informations Confidentielles.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "7.1 Aucune disposition du présent accord n'emporte cession d'un quelconque droit de propriété",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1791,
+        "normalized_start": 1698,
+        "raw_end": 1791,
+        "raw_start": 1698,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "83253c108795875d89e2b92f4e3a4fe58ceb730e3f3fb9813bd26782aff48121"
+      },
+      "kind": "unclassified",
+      "order": 38,
+      "requirement_status": "unspecified",
+      "section_id": "sec_8ed88a64fb25df0d21ab",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1844,
+        "normalized_start": 1698,
+        "raw_end": 1844,
+        "raw_start": 1698,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "501ebd0cf016884ac4ab0c5ffae0c36db6a859d3db7da579f8e9f6d3e8ac97a9"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_b3ed8c443fd4dd62dbdf",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "7.2 Tous les droits de propriété intellectuelle (droits d'auteur sous Code de la propriété intellectuelle",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 2149,
+            "normalized_start": 1951,
+            "raw_end": 2149,
+            "raw_start": 1951,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "99278934ea1d8afdb47bd9c1bfd94f97bd8675a05beb39d54fa9a62ce5b2787b"
+          },
+          "text": "art. L111-1 et suivants, brevets sous CPI art. L611-1 et suivants, marques sous CPI art. L711-1 et\nsuivants, gérés par l'INPI) demeurent la propriété exclusive du Divulgateur ou de ses ayants droit.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "7.2 Tous les droits de propriété intellectuelle (droits d'auteur sous Code de la propriété intellectuelle",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1950,
+        "normalized_start": 1845,
+        "raw_end": 1950,
+        "raw_start": 1845,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "6b3c12685d79592797002e426f14da4a71fb4cd540dcc54376c7c0a16078a004"
+      },
+      "kind": "unclassified",
+      "order": 39,
+      "requirement_status": "unspecified",
+      "section_id": "sec_940ee40c543065597b94",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2149,
+        "normalized_start": 1845,
+        "raw_end": 2149,
+        "raw_start": 1845,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "e4ee9e45a7f132c756cd8180bf9a8d8abc81bb820f1726b66da228cf3ce381a1"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_fd8b28914fbe56581e0b",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 8 - Droit applicable",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 2178,
+            "normalized_start": 2150,
+            "raw_end": 2178,
+            "raw_start": 2150,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "6b9581658811cbca0dbb76e5004163b60437ef500ac86ee6494d9d443881f84c"
+          },
+          "text": "Article 8 - Droit applicable",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 8 - Droit applicable",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2178,
+        "normalized_start": 2150,
+        "raw_end": 2178,
+        "raw_start": 2150,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "6b9581658811cbca0dbb76e5004163b60437ef500ac86ee6494d9d443881f84c"
+      },
+      "kind": "unclassified",
+      "order": 40,
+      "requirement_status": "unspecified",
+      "section_id": "sec_8956713b492a2ced0a7c",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2178,
+        "normalized_start": 2150,
+        "raw_end": 2178,
+        "raw_start": 2150,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "6b9581658811cbca0dbb76e5004163b60437ef500ac86ee6494d9d443881f84c"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_9963a002cea660b929f7",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 8 - DROIT APPLICABLE ET RÈGLEMENT DES DIFFÉRENDS",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 2235,
+            "normalized_start": 2179,
+            "raw_end": 2235,
+            "raw_start": 2179,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "5d909b25a14d59251d8c0379b680cef1f5cf2c115b9b0bc4b60c79e3908265d6"
+          },
+          "text": "ARTICLE 8 - DROIT APPLICABLE ET RÈGLEMENT DES DIFFÉRENDS",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 8 - DROIT APPLICABLE ET RÈGLEMENT DES DIFFÉRENDS",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2235,
+        "normalized_start": 2179,
+        "raw_end": 2235,
+        "raw_start": 2179,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "5d909b25a14d59251d8c0379b680cef1f5cf2c115b9b0bc4b60c79e3908265d6"
+      },
+      "kind": "unclassified",
+      "order": 41,
+      "requirement_status": "unspecified",
+      "section_id": "sec_ddb0c88712b6a8e4f7d6",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2235,
+        "normalized_start": 2179,
+        "raw_end": 2235,
+        "raw_start": 2179,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "5d909b25a14d59251d8c0379b680cef1f5cf2c115b9b0bc4b60c79e3908265d6"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_ba03d2456255a942d319",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "8.1 Le présent accord est exclusivement soumis au droit français.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 2301,
+            "normalized_start": 2236,
+            "raw_end": 2301,
+            "raw_start": 2236,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "d695171123bde37b8714a505924e5a677cbdebd37b6fdb3f88dbc62e41f72412"
+          },
+          "text": "8.1 Le présent accord est exclusivement soumis au droit français.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "8.1 Le présent accord est exclusivement soumis au droit français.",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2301,
+        "normalized_start": 2236,
+        "raw_end": 2301,
+        "raw_start": 2236,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "d695171123bde37b8714a505924e5a677cbdebd37b6fdb3f88dbc62e41f72412"
+      },
+      "kind": "unclassified",
+      "order": 42,
+      "requirement_status": "unspecified",
+      "section_id": "sec_92197747c4496eaf8982",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2301,
+        "normalized_start": 2236,
+        "raw_end": 2301,
+        "raw_start": 2236,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "d695171123bde37b8714a505924e5a677cbdebd37b6fdb3f88dbc62e41f72412"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_57829342a7988e185c8d",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "8.2 Tous les différends découlant du présent accord ou s'y rapportant sont soumis au",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 2504,
+            "normalized_start": 2387,
+            "raw_end": 2504,
+            "raw_start": 2387,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "935ed5c0f999300f818a306e9c3881f54a51a01c44694c6cc247b6c751ec07f2"
+          },
+          "text": "[TRIBUNAL_COMPETENT]\n, sans préjudice du référé pour lequel le juge des référés compétent reste accessible.\nSignature",
+          "variable_ids": [
+            "tribunal_competent"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "8.2 Tous les différends découlant du présent accord ou s'y rapportant sont soumis au",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2386,
+        "normalized_start": 2302,
+        "raw_end": 2386,
+        "raw_start": 2302,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "325ec3e14ebb50b9b845c12ad844b37f3cef60d4573dbb6916d9622df987fc9f"
+      },
+      "kind": "unclassified",
+      "order": 43,
+      "requirement_status": "unspecified",
+      "section_id": "sec_48e0996e6a0c8de24947",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2504,
+        "normalized_start": 2302,
+        "raw_end": 2504,
+        "raw_start": 2302,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "c3a1b931380812c3437d2fb6381076be04f4d829f2e099976824fc6e1fbb9e95"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_cc740887c0b85cf43dff",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "SIGNATURE",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 2521,
+            "normalized_start": 2515,
+            "raw_end": 2521,
+            "raw_start": 2515,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "235d210da076c3e9fe19b4d481b7ea3eb3b196c13ae18003462a9a39c88ca399"
+          },
+          "text": "Fait à",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "SIGNATURE",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2514,
+        "normalized_start": 2505,
+        "raw_end": 2514,
+        "raw_start": 2505,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "45a7c54c84f0cbde87f6c2f6d221058ff112a419c588f4facbd0b7b5da153e8e"
+      },
+      "kind": "unclassified",
+      "order": 44,
+      "requirement_status": "unspecified",
+      "section_id": "sec_25128649bc33553a0386",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 2521,
+        "normalized_start": 2505,
+        "raw_end": 2521,
+        "raw_start": 2505,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "507fb8aa3a653bdd3c20709e3e86754a56029e52639ac606f1d8efcb41cfb9be"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_0b287a7d10fac76bb8d8",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "FORMS-LEGAL.COM",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_5944f9f36d32ac558b1b",
+            "normalized_end": 433,
+            "normalized_start": 432,
+            "raw_end": 433,
+            "raw_start": 432,
+            "source_id": "src_367ac6b70971117ae8b8",
+            "text_sha256": "f8bf310263c1ac3ecd39fadaf73ef233d3a1e7f423e02afd8da0d4e8e38264af"
+          },
+          "text": "§",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "FORMS-LEGAL.COM",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 431,
+        "normalized_start": 416,
+        "raw_end": 431,
+        "raw_start": 416,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "9dcc6679dca92aef67105df2e4e9c1b39d662a1ee083fbad51ff995585c78dca"
+      },
+      "kind": "unclassified",
+      "order": 45,
+      "requirement_status": "unspecified",
+      "section_id": "sec_4ec34dee52863414b45f",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 433,
+        "normalized_start": 416,
+        "raw_end": 433,
+        "raw_start": 416,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "48f8e4c2c9ff6da7d23f8ec0b44373eda5425b0ddaef4c6360522f05e8cf1cd0"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "extracted_text_sha256": "2c10100531e17fc07dd2ee1f85cc95fbaf4feba13ba31d0ffbc6547c7ecadfea",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 4,
+      "relative_path": "templates/france/Accord de Confidentialité (NDA).pdf",
+      "sha256": "6cc60607d02042e9ae9548412ee8898b1c484d8190230ca8cc1ce2b547383e15",
+      "size_bytes": 8509,
+      "source_id": "src_367ac6b70971117ae8b8"
+    }
+  ],
+  "template_id": "tpl_156de1f26de5836bbf42",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_5234ed17bb17d2a6dc97",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 31,
+        "normalized_start": 0,
+        "raw_end": 31,
+        "raw_start": 0,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "cf85f543f83be3ba7a863766325952523b8cbb0c39d46d405815e66df33d9015"
+      },
+      "text": "Accord de Confidentialité (NDA)"
+    },
+    {
+      "content_id": "unparsed_8de70e01e43183d4e5cc",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 1,
+        "normalized_start": 0,
+        "raw_end": 1,
+        "raw_start": 0,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "cdb4ee2aea69cc6a83331bbe96dc2caa9a299d21329efb0336fc02a82e1839a8"
+      },
+      "text": "."
+    },
+    {
+      "content_id": "unparsed_1c59379e9be750a56287",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_5944f9f36d32ac558b1b",
+        "normalized_end": 415,
+        "normalized_start": 0,
+        "raw_end": 415,
+        "raw_start": 0,
+        "source_id": "src_367ac6b70971117ae8b8",
+        "text_sha256": "e134b73a55a88e64a75b3465b375a9f76ffc71bc899dbed893f25470699d354c"
+      },
+      "text": "[Lieu de signature]\n, le\n[Date de signature]\n, en deux exemplaires originaux.\nLe Divulgateur : __________________________ Le Récepteur : __________________________\n[Représentant habilité du Divulgateur (nom et qualité)]\n[Représentant habilité du Récepteur (nom et qualité)]\n(Mention manuscrite 'Lu et approuvé' avant signature recommandée)\nDivulgateur\n________________\nSignature\nRécepteur\n________________\nSignature"
+    }
+  ],
+  "variables": [
+    {
+      "allowed_choices": [],
+      "canonical_token": "[DENOMINATION_DU_DIVULGATEUR_DISCLOSING_PARTY]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_5944f9f36d32ac558b1b",
+          "normalized_end": 449,
+          "normalized_start": 401,
+          "raw_end": 449,
+          "raw_start": 401,
+          "source_id": "src_367ac6b70971117ae8b8",
+          "text_sha256": "eb8e6475dbb11cc8e274df68eeb11b03c934c1a2b5dc3f4ce22a010a5587d32a"
+        }
+      ],
+      "original_tokens": [
+        "[Dénomination du Divulgateur (Disclosing Party)]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "denomination_du_divulgateur_disclosing_party"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[SIEGE_SOCIAL_DU_DIVULGATEUR]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_5944f9f36d32ac558b1b",
+          "normalized_end": 512,
+          "normalized_start": 483,
+          "raw_end": 512,
+          "raw_start": 483,
+          "source_id": "src_367ac6b70971117ae8b8",
+          "text_sha256": "cd661e345a3bc9552eb4d93ab4104b6167a5a4f8500e908e181492394a59423d"
+        }
+      ],
+      "original_tokens": [
+        "[Siège social du Divulgateur]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "siege_social_du_divulgateur"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[NUMERO_SIREN_DU_DIVULGATEUR]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_5944f9f36d32ac558b1b",
+          "normalized_end": 585,
+          "normalized_start": 556,
+          "raw_end": 585,
+          "raw_start": 556,
+          "source_id": "src_367ac6b70971117ae8b8",
+          "text_sha256": "b563db864c2cd551b6b37438020951af7b1dae008747dcff955bb51f759b6bda"
+        }
+      ],
+      "original_tokens": [
+        "[Numéro SIREN du Divulgateur]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "numero_siren_du_divulgateur"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[REPRESENTANT_HABILITE_DU_DIVULGATEUR_NOM_ET_QUALITE]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_5944f9f36d32ac558b1b",
+          "normalized_end": 659,
+          "normalized_start": 604,
+          "raw_end": 659,
+          "raw_start": 604,
+          "source_id": "src_367ac6b70971117ae8b8",
+          "text_sha256": "fb63c0f7818af3bdf9e1b001fe669ed2f83a754d68fc959f754e235fc0453d97"
+        },
+        {
+          "block_id": "block_000004",
+          "extraction_id": "ext_5944f9f36d32ac558b1b",
+          "normalized_end": 219,
+          "normalized_start": 164,
+          "raw_end": 219,
+          "raw_start": 164,
+          "source_id": "src_367ac6b70971117ae8b8",
+          "text_sha256": "fb63c0f7818af3bdf9e1b001fe669ed2f83a754d68fc959f754e235fc0453d97"
+        }
+      ],
+      "original_tokens": [
+        "[Représentant habilité du Divulgateur (nom et qualité)]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "representant_habilite_du_divulgateur_nom_et_qualite"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[DENOMINATION_DU_RECEPTEUR_RECEIVING_PARTY]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_5944f9f36d32ac558b1b",
+          "normalized_end": 793,
+          "normalized_start": 748,
+          "raw_end": 793,
+          "raw_start": 748,
+          "source_id": "src_367ac6b70971117ae8b8",
+          "text_sha256": "788998a2b768b22fffad187bfa5f444d88227416ea5221d7aa64fe8b5f537fc5"
+        }
+      ],
+      "original_tokens": [
+        "[Dénomination du Récepteur (Receiving Party)]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "denomination_du_recepteur_receiving_party"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[SIEGE_SOCIAL_DU_RECEPTEUR]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_5944f9f36d32ac558b1b",
+          "normalized_end": 854,
+          "normalized_start": 827,
+          "raw_end": 854,
+          "raw_start": 827,
+          "source_id": "src_367ac6b70971117ae8b8",
+          "text_sha256": "30595ba97cee8418e5fc1c6e8bba0839c8c4b2d395848fd56ce15a75b50eeec4"
+        }
+      ],
+      "original_tokens": [
+        "[Siège social du Récepteur]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "siege_social_du_recepteur"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[NUMERO_SIREN_DU_RECEPTEUR]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_5944f9f36d32ac558b1b",
+          "normalized_end": 925,
+          "normalized_start": 898,
+          "raw_end": 925,
+          "raw_start": 898,
+          "source_id": "src_367ac6b70971117ae8b8",
+          "text_sha256": "7cc7b7ea47c2e10a16845a6753a95b78aadc765e5ede7edd8a51fe463e753df3"
+        }
+      ],
+      "original_tokens": [
+        "[Numéro SIREN du Récepteur]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "numero_siren_du_recepteur"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[REPRESENTANT_HABILITE_DU_RECEPTEUR_NOM_ET_QUALITE]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_5944f9f36d32ac558b1b",
+          "normalized_end": 997,
+          "normalized_start": 944,
+          "raw_end": 997,
+          "raw_start": 944,
+          "source_id": "src_367ac6b70971117ae8b8",
+          "text_sha256": "e33b9a17d471c19c4e71d96823163b863f95e0d4903c3a77f1503cbe7fcf587f"
+        },
+        {
+          "block_id": "block_000004",
+          "extraction_id": "ext_5944f9f36d32ac558b1b",
+          "normalized_end": 273,
+          "normalized_start": 220,
+          "raw_end": 273,
+          "raw_start": 220,
+          "source_id": "src_367ac6b70971117ae8b8",
+          "text_sha256": "e33b9a17d471c19c4e71d96823163b863f95e0d4903c3a77f1503cbe7fcf587f"
+        }
+      ],
+      "original_tokens": [
+        "[Représentant habilité du Récepteur (nom et qualité)]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "representant_habilite_du_recepteur_nom_et_qualite"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[OBJET_DE_L_ECHANGE_D_INFORMATIONS_PERMITTED_PURPOSE]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_5944f9f36d32ac558b1b",
+          "normalized_end": 1397,
+          "normalized_start": 1342,
+          "raw_end": 1397,
+          "raw_start": 1342,
+          "source_id": "src_367ac6b70971117ae8b8",
+          "text_sha256": "c723d92dbb97903fe8fea144953537185905c7087bae8f79034369b46fb7e382"
+        }
+      ],
+      "original_tokens": [
+        "[Objet de l'échange d'informations (Permitted Purpose)]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "objet_de_l_echange_d_informations_permitted_purpose"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[TYPE_DE_NDA_UNILATERAL_OU_RECIPROQUE]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_5944f9f36d32ac558b1b",
+          "normalized_end": 1496,
+          "normalized_start": 1456,
+          "raw_end": 1496,
+          "raw_start": 1456,
+          "source_id": "src_367ac6b70971117ae8b8",
+          "text_sha256": "5034c14b5a84c0a6cbc518c5cae550b08c97d033a6a2d39fc7e62b3f5776c411"
+        }
+      ],
+      "original_tokens": [
+        "[Type de NDA : unilatéral ou réciproque]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "type_de_nda_unilateral_ou_reciproque"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[DESCRIPTION_DES_INFORMATIONS_CONFIDENTIELLES]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_5944f9f36d32ac558b1b",
+          "normalized_end": 609,
+          "normalized_start": 563,
+          "raw_end": 609,
+          "raw_start": 563,
+          "source_id": "src_367ac6b70971117ae8b8",
+          "text_sha256": "8c60dff90a3d7acfc7cf9b41373d29f93b8f493b86edd245ab32b998d9e33074"
+        }
+      ],
+      "original_tokens": [
+        "[Description des Informations Confidentielles]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "description_des_informations_confidentielles"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[DUREE_DU_NDA_EN_MOIS]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_5944f9f36d32ac558b1b",
+          "normalized_end": 2366,
+          "normalized_start": 2342,
+          "raw_end": 2366,
+          "raw_start": 2342,
+          "source_id": "src_367ac6b70971117ae8b8",
+          "text_sha256": "28bbe53845fbd76c2788519bb3ef623ba7c0a7a63d5dc328239fb89d2fab3cce"
+        }
+      ],
+      "original_tokens": [
+        "[Durée du NDA (en mois)]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "duree_du_nda_en_mois"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[DUREE_DE_L_OBLIGATION_DE_CONFIDENTIALITE_APRES_RESILIATION_ANNEES]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_5944f9f36d32ac558b1b",
+          "normalized_end": 2557,
+          "normalized_start": 2488,
+          "raw_end": 2557,
+          "raw_start": 2488,
+          "source_id": "src_367ac6b70971117ae8b8",
+          "text_sha256": "d180b58c5d196b6416978116dd6e347e5744b5bd0b74a227616d35957ee0ba03"
+        }
+      ],
+      "original_tokens": [
+        "[Durée de l'obligation de confidentialité après résiliation (années)]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "duree_de_l_obligation_de_confidentialite_apres_resiliation_annees"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[CLAUSE_PENALE_PAR_VIOLATION_EUR]",
+      "occurrences": [
+        {
+          "block_id": "block_000003",
+          "extraction_id": "ext_5944f9f36d32ac558b1b",
+          "normalized_end": 936,
+          "normalized_start": 901,
+          "raw_end": 936,
+          "raw_start": 901,
+          "source_id": "src_367ac6b70971117ae8b8",
+          "text_sha256": "cf5c931738250baa5caf6305ace055a4f2e3d94eaba0f77e36d85a25cf4a0b26"
+        }
+      ],
+      "original_tokens": [
+        "[Clause pénale par violation (EUR)]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "clause_penale_par_violation_eur"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[ASTREINTE_JOURNALIERE_EN_CAS_DE_PROLONGATION_EUR]",
+      "occurrences": [
+        {
+          "block_id": "block_000003",
+          "extraction_id": "ext_5944f9f36d32ac558b1b",
+          "normalized_end": 1021,
+          "normalized_start": 969,
+          "raw_end": 1021,
+          "raw_start": 969,
+          "source_id": "src_367ac6b70971117ae8b8",
+          "text_sha256": "28d6757a2602120e7f95b02988b9f0484923a2e99dd79c4dd62c704908bea449"
+        }
+      ],
+      "original_tokens": [
+        "[Astreinte journalière en cas de prolongation (EUR)]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "astreinte_journaliere_en_cas_de_prolongation_eur"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[TRIBUNAL_COMPETENT]",
+      "occurrences": [
+        {
+          "block_id": "block_000003",
+          "extraction_id": "ext_5944f9f36d32ac558b1b",
+          "normalized_end": 2407,
+          "normalized_start": 2387,
+          "raw_end": 2407,
+          "raw_start": 2387,
+          "source_id": "src_367ac6b70971117ae8b8",
+          "text_sha256": "0ac95804f72045902289624cbf20df2758fd7074046b7f9a62c0338342eff75b"
+        }
+      ],
+      "original_tokens": [
+        "[Tribunal compétent]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "tribunal_competent"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[LIEU_DE_SIGNATURE]",
+      "occurrences": [
+        {
+          "block_id": "block_000004",
+          "extraction_id": "ext_5944f9f36d32ac558b1b",
+          "normalized_end": 19,
+          "normalized_start": 0,
+          "raw_end": 19,
+          "raw_start": 0,
+          "source_id": "src_367ac6b70971117ae8b8",
+          "text_sha256": "85b38c249c68e2e60a95ea7974fc718091a9845ab8546f264de86053f1dcdb54"
+        }
+      ],
+      "original_tokens": [
+        "[Lieu de signature]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "lieu_de_signature"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[DATE_DE_SIGNATURE]",
+      "occurrences": [
+        {
+          "block_id": "block_000004",
+          "extraction_id": "ext_5944f9f36d32ac558b1b",
+          "normalized_end": 44,
+          "normalized_start": 25,
+          "raw_end": 44,
+          "raw_start": 25,
+          "source_id": "src_367ac6b70971117ae8b8",
+          "text_sha256": "32dd28c96361b79bcf157a7a1599cda39ecdd2ca902781c23d6aa2f5575bee72"
+        }
+      ],
+      "original_tokens": [
+        "[Date de signature]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "date_de_signature"
+    }
+  ],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

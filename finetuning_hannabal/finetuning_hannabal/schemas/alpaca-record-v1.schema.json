@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:hannibal:schema:alpaca-record-v1",
+  "title": "Hannibal Alpaca training row",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["instruction", "input", "output"],
+  "properties": {
+    "instruction": {"type": "string", "minLength": 1},
+    "input": {"type": "string", "minLength": 2},
+    "output": {"type": "string", "minLength": 1}
+  }
+}

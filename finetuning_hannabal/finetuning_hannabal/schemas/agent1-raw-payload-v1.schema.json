@@ -1,0 +1,82 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "urn:hannibal:schema:agent1-raw-payload-v1",
+  "title": "Schéma du contrat généré",
+  "description": "Structure JSON finale produite par le collecteur de contrat (ContractCollectorAgent)",
+  "type": "object",
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "description": "Métadonnées du contrat",
+      "properties": {
+        "session_id": {"type": "string"},
+        "user_id": {"type": "string"},
+        "date_generation": {"type": "string", "format": "date-time"},
+        "pays": {"type": "string"},
+        "juridiction": {"type": "string"},
+        "type_document": {"type": "string", "enum": ["contrat"]}
+      },
+      "required": ["session_id", "user_id", "date_generation", "pays", "juridiction", "type_document"]
+    },
+    "type_contrat": {
+      "type": "string",
+      "description": "Type de contrat détecté (ex: CDI, CDD, freelance, partenariat, etc.)"
+    },
+    "sous_type": {
+      "type": "string",
+      "description": "Sous-type du contrat si applicable"
+    },
+    "parties": {
+      "type": "array",
+      "description": "Liste des parties impliquées dans le contrat",
+      "items": {
+        "type": "object",
+        "properties": {
+          "nom": {"type": "string"},
+          "type": {"type": "string", "enum": ["individu", "entreprise"]},
+          "role": {"type": "string"},
+          "informations_contact": {
+            "type": "object",
+            "description": "Informations de contact (email, téléphone, adresse, etc.)",
+            "additionalProperties": true
+          }
+        },
+        "required": ["nom", "type", "role"]
+      }
+    },
+    "informations_principales": {
+      "type": "object",
+      "description": "Informations essentielles du contrat, dynamiques selon le type (ex: salaire, poste, date_debut, duree, loyer, etc.)",
+      "additionalProperties": true
+    },
+    "informations_generales": {
+      "type": "object",
+      "description": "Informations générales du contrat",
+      "properties": {
+        "date_creation_contrat": {"type": "string", "format": "date"},
+        "langue_contrat": {"type": "string"}
+      },
+      "required": ["date_creation_contrat", "langue_contrat"]
+    },
+    "informations_manquantes": {
+      "type": "array",
+      "description": "Liste des informations essentielles encore absentes du contrat",
+      "items": {"type": "string"}
+    },
+    "autres_informations": {
+      "type": "object",
+      "description": "Informations supplémentaires fournies par l'utilisateur qui ne rentrent dans aucune autre section",
+      "additionalProperties": true
+    }
+  },
+  "required": [
+    "metadata",
+    "type_contrat",
+    "sous_type",
+    "parties",
+    "informations_principales",
+    "informations_generales",
+    "informations_manquantes",
+    "autres_informations"
+  ]
+}

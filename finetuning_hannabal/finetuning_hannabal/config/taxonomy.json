@@ -1,0 +1,36 @@
+{
+  "taxonomy_version": "1.0.0",
+  "document_kinds": [
+    "contract_template", "completed_contract", "policy", "form", "letter",
+    "resolution", "court_filing", "guidance", "other", "unknown"
+  ],
+  "template_states": ["blank", "completed", "mixed", "unknown"],
+  "contract_families": [
+    "employment", "commercial", "saas", "nda", "investment",
+    "real_estate", "procurement", "unknown"
+  ],
+  "requirement_statuses": [
+    "explicit_required", "explicit_conditional", "explicit_optional", "unspecified"
+  ],
+  "value_types": [
+    "text", "date", "number", "money", "duration", "address",
+    "identifier", "signature", "choice", "unknown"
+  ],
+  "deterministic_filename_classification": {
+    "policy": ["policy", "politique"],
+    "form": ["form", "formulaire", "demande", "cerfa", "receipt", "invoice", "application"],
+    "letter": ["letter", "lettre"],
+    "resolution": ["resolution", "résolution"],
+    "court_filing": ["court", "tribunal", "affidavit", "appeal", "citation directe"],
+    "guidance": ["guide", "guidance"],
+    "contract_candidate": ["agreement", "contract", "contrat", "bail", "lease", "عقد"]
+  },
+  "extraction_thresholds": {
+    "likely_ocr_non_whitespace_characters_per_page": 40
+  },
+  "notes": [
+    "Filename classifications are conservative routing hints, never legal conclusions.",
+    "Folder names are collection hints and do not prove governing law.",
+    "No requirement status is inferred from mere presence."
+  ]
+}

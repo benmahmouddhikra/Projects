@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:hannibal:schema:agent2-generation-validation-v1",
+  "title": "Agent 2 intake validation and provenance",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "template_id", "status", "valid", "training_eligible", "errors", "warnings", "forbidden_identifier_paths", "hashes", "variable_counts", "normalization_audit", "raw_input_ref"],
+  "properties": {
+    "schema_version": {"const": "agent2-generation-validation-v1"},
+    "template_id": {"type": "string"},
+    "status": {"enum": ["demo_unreviewed", "eligible", "blocked"]},
+    "valid": {"type": "boolean"},
+    "training_eligible": {"type": "boolean"},
+    "errors": {"type": "array", "items": {"type": "string"}},
+    "warnings": {"type": "array", "items": {"type": "string"}},
+    "forbidden_identifier_paths": {"type": "array", "items": {"type": "string"}},
+    "hashes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["agent1_input_sha256", "runtime_sha256", "agent1_validation_sha256"],
+      "properties": {
+        "agent1_input_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "runtime_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "agent1_validation_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "agent1_proposal_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"}
+      }
+    },
+    "variable_counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["total", "provided", "missing", "ambiguous", "unmapped_facts"],
+      "properties": {
+        "total": {"type": "integer", "minimum": 0},
+        "provided": {"type": "integer", "minimum": 0},
+        "missing": {"type": "integer", "minimum": 0},
+        "ambiguous": {"type": "integer", "minimum": 0},
+        "unmapped_facts": {"type": "integer", "minimum": 0}
+      }
+    },
+    "normalization_audit": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source_path", "raw_value", "normalized_value"],
+        "properties": {"source_path": {"type": "string"}, "raw_value": {}, "normalized_value": {}}
+      }
+    },
+    "raw_input_ref": {"type": "string"}
+  }
+}

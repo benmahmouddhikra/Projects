@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:hannibal:schema:labeling-response-v1",
+  "title": "Source-coordinate-only model labeling response",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "source_id", "document", "jurisdictions", "parties", "sections", "placeholders", "unparsed_spans", "warnings", "versions"],
+  "properties": {
+    "schema_version": {"const": "labeling-response-v1"},
+    "source_id": {"type": "string"},
+    "document": {
+      "type": "object", "additionalProperties": false,
+      "required": ["title_span", "document_kind", "template_state", "contract_family", "contract_type_label", "languages"],
+      "properties": {
+        "title_span": {"anyOf": [{"$ref": "#/$defs/span"}, {"type": "null"}]},
+        "document_kind": {"enum": ["contract_template", "completed_contract", "policy", "form", "letter", "resolution", "court_filing", "guidance", "other", "unknown"]},
+        "template_state": {"enum": ["blank", "completed", "mixed", "unknown"]},
+        "contract_family": {"enum": ["employment", "commercial", "saas", "nda", "investment", "real_estate", "procurement", "unknown"]},
+        "contract_type_label": {"type": ["string", "null"], "maxLength": 160},
+        "languages": {"type": "array", "items": {"type": "string", "pattern": "^(und|[a-z]{2,3})(-[A-Za-z0-9]{2,8})*$"}}
+      }
+    },
+    "jurisdictions": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["country_code", "basis", "evidence_spans", "governing_law_spans", "citation_spans"],
+        "properties": {
+          "country_code": {"type": ["string", "null"], "pattern": "^[A-Z]{2}$"},
+          "basis": {"enum": ["document_text", "folder_hint", "unknown"]},
+          "evidence_spans": {"type": "array", "items": {"$ref": "#/$defs/span"}},
+          "governing_law_spans": {"type": "array", "items": {"$ref": "#/$defs/span"}},
+          "citation_spans": {"type": "array", "items": {"$ref": "#/$defs/span"}}
+        }
+      }
+    },
+    "parties": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["role", "entity_type", "role_spans", "placeholder_indexes"],
+        "properties": {
+          "role": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+          "entity_type": {"enum": ["individual", "company", "unknown"]},
+          "role_spans": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/span"}},
+          "placeholder_indexes": {"type": "array", "items": {"type": "integer", "minimum": 0}}
+        }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["kind", "heading_span", "body_spans", "requirement_status", "condition_span", "clauses"],
+        "properties": {
+          "kind": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+          "heading_span": {"anyOf": [{"$ref": "#/$defs/span"}, {"type": "null"}]},
+          "body_spans": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/span"}},
+          "requirement_status": {"enum": ["explicit_required", "explicit_conditional", "explicit_optional", "unspecified"]},
+          "condition_span": {"anyOf": [{"$ref": "#/$defs/span"}, {"type": "null"}]},
+          "clauses": {
+            "type": "array",
+            "items": {
+              "type": "object", "additionalProperties": false,
+              "required": ["clause_type", "heading_span", "body_spans", "requirement_status", "condition_span", "citation_spans", "placeholder_indexes"],
+              "properties": {
+                "clause_type": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+                "heading_span": {"anyOf": [{"$ref": "#/$defs/span"}, {"type": "null"}]},
+                "body_spans": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/span"}},
+                "requirement_status": {"enum": ["explicit_required", "explicit_conditional", "explicit_optional", "unspecified"]},
+                "condition_span": {"anyOf": [{"$ref": "#/$defs/span"}, {"type": "null"}]},
+                "citation_spans": {"type": "array", "items": {"$ref": "#/$defs/span"}},
+                "placeholder_indexes": {"type": "array", "items": {"type": "integer", "minimum": 0}}
+              }
+            }
+          }
+        }
+      }
+    },
+    "placeholders": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["span", "variable_id", "value_type", "requirement_status", "allowed_choice_spans"],
+        "properties": {
+          "span": {"$ref": "#/$defs/span"},
+          "variable_id": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+          "value_type": {"enum": ["text", "date", "number", "money", "duration", "address", "identifier", "signature", "choice", "unknown"]},
+          "requirement_status": {"enum": ["explicit_required", "explicit_conditional", "explicit_optional", "unspecified"]},
+          "allowed_choice_spans": {"type": "array", "items": {"$ref": "#/$defs/span"}}
+        }
+      }
+    },
+    "unparsed_spans": {"type": "array", "items": {"$ref": "#/$defs/span"}},
+    "warnings": {"type": "array", "items": {"type": "string"}},
+    "versions": {
+      "type": "object", "additionalProperties": false,
+      "required": ["model", "prompt", "taxonomy", "schema", "pipeline"],
+      "properties": {"model": {"type": "string"}, "prompt": {"type": "string"}, "taxonomy": {"type": "string"}, "schema": {"const": "labeling-response-v1"}, "pipeline": {"type": "string"}}
+    }
+  },
+  "$defs": {
+    "span": {
+      "type": "object", "additionalProperties": false,
+      "required": ["block_id", "start", "end", "text_sha256"],
+      "properties": {
+        "block_id": {"type": "string", "pattern": "^block_[0-9]{6}$"},
+        "start": {"type": "integer", "minimum": 0},
+        "end": {"type": "integer", "minimum": 0},
+        "text_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    }
+  }
+}

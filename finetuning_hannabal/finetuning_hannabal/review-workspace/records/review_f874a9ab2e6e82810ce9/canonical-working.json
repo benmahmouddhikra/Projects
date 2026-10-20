@@ -1,0 +1,1113 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_57a67077b0b03d5c6cfe",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "completed_contract",
+    "initial_document_kind": "completed_contract",
+    "languages": [
+      {
+        "basis": "script_detection",
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_1fcbbcad4209d906f640",
+            "normalized_end": 2642,
+            "normalized_start": 0,
+            "raw_end": 2642,
+            "raw_start": 0,
+            "source_id": "src_f654a4dd883ddce57c02",
+            "text_sha256": "e1c959b592accabb6a32fe10fd1b403f8cc5f2754479516f0e16861d8e30eb5b"
+          }
+        ],
+        "tag": "ar"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "completed",
+    "title": "عـقد إيجـــــار محل  محددة المدة",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 32,
+        "normalized_start": 0,
+        "raw_end": 32,
+        "raw_start": 0,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "1fb5774a867f05a94b20f5db3d94225e8f74aa975a93ed5d517cbc2d9237d788"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "completed_contract_heuristic_requires_review",
+        "message": "Contract-like filename without detected square-bracket placeholders was initially classified completed and requires human confirmation.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "required",
+    "structure_review_status": "pending",
+    "training_eligibility": "review_required"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_3739c4ec7f6a7345e621",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1)        مدة هذا العقـد محدودة بين الطرفين بالتراضى واألتفاقات المبرمة بالعقد ويلتزم بها",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_1fcbbcad4209d906f640",
+            "normalized_end": 1550,
+            "normalized_start": 1483,
+            "raw_end": 1550,
+            "raw_start": 1483,
+            "source_id": "src_f654a4dd883ddce57c02",
+            "text_sha256": "248405fa592fbb21c00456a89053abe6abc4c4a54760eb0a435f00c0476daa96"
+          },
+          "text": "الطرفين وتعتبر العقـود الغية بتاريخ انتهاء مدة العقد المتفق عليها .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1)        مدة هذا العقـد محدودة بين الطرفين بالتراضى واألتفاقات المبرمة بالعقد ويلتزم بها",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1482,
+        "normalized_start": 1393,
+        "raw_end": 1482,
+        "raw_start": 1393,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "b30736256a0c580131558b700526cb3bc58b32a1f8f241bc9591f39ed7950602"
+      },
+      "kind": "unclassified",
+      "order": 1,
+      "requirement_status": "unspecified",
+      "section_id": "sec_a964d2716173574810e4",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1550,
+        "normalized_start": 1393,
+        "raw_end": 1550,
+        "raw_start": 1393,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "87e45d5902220c500561983993028e87377f46b96d76e21fdcd238eb933ad642"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_1b3a167a473e7e85ae4f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2)      اليجوز بأى حال من األحوال للمستأجـــرالألقامة بعد إنتهاء مدة العقد.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_1fcbbcad4209d906f640",
+            "normalized_end": 1628,
+            "normalized_start": 1553,
+            "raw_end": 1628,
+            "raw_start": 1553,
+            "source_id": "src_f654a4dd883ddce57c02",
+            "text_sha256": "bdb2bc15e8b4b57b1becd2fb5eb41077844a806c478e9aabcd8f58e91639c7ff"
+          },
+          "text": "2)      اليجوز بأى حال من األحوال للمستأجـــرالألقامة بعد إنتهاء مدة العقد.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2)      اليجوز بأى حال من األحوال للمستأجـــرالألقامة بعد إنتهاء مدة العقد.",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1630,
+        "normalized_start": 1553,
+        "raw_end": 1630,
+        "raw_start": 1553,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "d194850878163c766ce6592643824252ae139acc2cc0888958f62b67570dc08b"
+      },
+      "kind": "unclassified",
+      "order": 2,
+      "requirement_status": "unspecified",
+      "section_id": "sec_29f189b81b22f109e43e",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1628,
+        "normalized_start": 1553,
+        "raw_end": 1628,
+        "raw_start": 1553,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "bdb2bc15e8b4b57b1becd2fb5eb41077844a806c478e9aabcd8f58e91639c7ff"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_5cee20a6676fc58f6c28",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3)       ال يجوز للمستأجر أن يؤجرالمحل موضوع هذا العقد من الباطن إلى الغير حتى أقرب",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_1fcbbcad4209d906f640",
+            "normalized_end": 1764,
+            "normalized_start": 1716,
+            "raw_end": 1764,
+            "raw_start": 1716,
+            "source_id": "src_f654a4dd883ddce57c02",
+            "text_sha256": "a234ea0181317c61614f72d4c1aa5a729bc72d6696f5526f0a54690854225350"
+          },
+          "text": "الناس إليه وإال أصبح العقد مفسوخا من تلقاء نفسه.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3)       ال يجوز للمستأجر أن يؤجرالمحل موضوع هذا العقد من الباطن إلى الغير حتى أقرب",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1715,
+        "normalized_start": 1631,
+        "raw_end": 1715,
+        "raw_start": 1631,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "ccbdb2e9bf4147bdfb49862dfb187d02999a6019098ea230ffdfb89ef7a04967"
+      },
+      "kind": "unclassified",
+      "order": 3,
+      "requirement_status": "unspecified",
+      "section_id": "sec_8439ea284f8b314cffd1",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1764,
+        "normalized_start": 1631,
+        "raw_end": 1764,
+        "raw_start": 1631,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "d6ad167d273121563b26b708f8efa03d53814c1efd7443b1405dac7fe02edd4e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_88f17f34d5f783ab89dd",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4)       يقر المستأجر أنه عاين المكان ووجده صالحا للغرضالمؤجر من أجله.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_1fcbbcad4209d906f640",
+            "normalized_end": 1836,
+            "normalized_start": 1766,
+            "raw_end": 1836,
+            "raw_start": 1766,
+            "source_id": "src_f654a4dd883ddce57c02",
+            "text_sha256": "8bd6d74357b081f57ce2c8faa2add1c3f7e75757b8e1c9fc1c900b2c42c7727d"
+          },
+          "text": "4)       يقر المستأجر أنه عاين المكان ووجده صالحا للغرضالمؤجر من أجله.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4)       يقر المستأجر أنه عاين المكان ووجده صالحا للغرضالمؤجر من أجله.",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1838,
+        "normalized_start": 1766,
+        "raw_end": 1838,
+        "raw_start": 1766,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "78477adf7fbde48809215a241ba31eccaaa9571d74017ded14e50814831282f7"
+      },
+      "kind": "unclassified",
+      "order": 4,
+      "requirement_status": "unspecified",
+      "section_id": "sec_4b2d1fb7395852c0929e",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1836,
+        "normalized_start": 1766,
+        "raw_end": 1836,
+        "raw_start": 1766,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "8bd6d74357b081f57ce2c8faa2add1c3f7e75757b8e1c9fc1c900b2c42c7727d"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_7652ef200e515c553887",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5)       .يتعهد المستأجر بعدم هدم أى حوائط أو أساسات قد تؤثر على صحة سالمة المبنى",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_1fcbbcad4209d906f640",
+            "normalized_end": 1920,
+            "normalized_start": 1839,
+            "raw_end": 1920,
+            "raw_start": 1839,
+            "source_id": "src_f654a4dd883ddce57c02",
+            "text_sha256": "bfb433e9af35184641381b158209a839239a1ba300ced9c408acb4d3b963ec6f"
+          },
+          "text": "5)       .يتعهد المستأجر بعدم هدم أى حوائط أو أساسات قد تؤثر على صحة سالمة المبنى",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5)       .يتعهد المستأجر بعدم هدم أى حوائط أو أساسات قد تؤثر على صحة سالمة المبنى",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1921,
+        "normalized_start": 1839,
+        "raw_end": 1921,
+        "raw_start": 1839,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "2a16e2ecf00204e73460c0e792cd79a2b80b00a8cc5438c8d5374973c7763fce"
+      },
+      "kind": "unclassified",
+      "order": 5,
+      "requirement_status": "unspecified",
+      "section_id": "sec_5d98ebc30846502b3f35",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1920,
+        "normalized_start": 1839,
+        "raw_end": 1920,
+        "raw_start": 1839,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "bfb433e9af35184641381b158209a839239a1ba300ced9c408acb4d3b963ec6f"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_684c83f72291fc6bff9f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "6)       يقر المستأجر بأنه عاين الوحدة المؤجرة بنفسه وقبلها بالحالة الى هى عليها مستوفية كل",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_1fcbbcad4209d906f640",
+            "normalized_end": 2280,
+            "normalized_start": 2014,
+            "raw_end": 2280,
+            "raw_start": 2014,
+            "source_id": "src_f654a4dd883ddce57c02",
+            "text_sha256": "18afd35cb38ea32e448d0c0de47fde702b58400e8fea3a20050d7a9c355be529"
+          },
+          "text": "لوازمها ويتعهد بالمحافظة عليها وصيانتها بما يتفق واألستعمال للوحدات المماثلة، يمتنع عن \nإجراء تغييرات أو بناء ما يضر بسالمة العقار وإال أعتبر هذا العقد مفسوخا فورا مع الزام \nالمستأجر بإعادة المكان إلى ما كان عليه فضال عن الزامه بكافة التعويضات التى تترتب على  \nذلك .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "6)       يقر المستأجر بأنه عاين الوحدة المؤجرة بنفسه وقبلها بالحالة الى هى عليها مستوفية كل",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 2013,
+        "normalized_start": 1922,
+        "raw_end": 2013,
+        "raw_start": 1922,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "ab6723f2581a8eb0e51c91d03743c55bacee14b0aa1e7f586533ec458f3f08ab"
+      },
+      "kind": "unclassified",
+      "order": 6,
+      "requirement_status": "unspecified",
+      "section_id": "sec_8b2622b5464442389a2d",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 2280,
+        "normalized_start": 1922,
+        "raw_end": 2280,
+        "raw_start": 1922,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "51fb49a2dbdad76f4bd5c99357d313f92d80996f855b7a61d3831bb4e8734a5e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_95bf1d7a06269090ba84",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "7)       من المتفق بين الطرفين أن يفتح المالك المحل دون اللجوء إلى القضاء إذا تبين أن",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_1fcbbcad4209d906f640",
+            "normalized_end": 2464,
+            "normalized_start": 2372,
+            "raw_end": 2464,
+            "raw_start": 2372,
+            "source_id": "src_f654a4dd883ddce57c02",
+            "text_sha256": "ee324b1ae7775623ecc9b0b0ebced79ddd75c9ba04249e2f701577c2fa34db43"
+          },
+          "text": "المسـتأجر قد غادر البالد المصرية بعد إنتهاء مدة العقد أو غيابه عن الشقة نهائيا ألى سبب آخر .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "7)       من المتفق بين الطرفين أن يفتح المالك المحل دون اللجوء إلى القضاء إذا تبين أن",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 2371,
+        "normalized_start": 2283,
+        "raw_end": 2371,
+        "raw_start": 2283,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "223805f7053d135f2d510d690ff01f83c544f9ae0739d1742c93b6758ba1fa94"
+      },
+      "kind": "unclassified",
+      "order": 7,
+      "requirement_status": "unspecified",
+      "section_id": "sec_66ff0f9b2070ec5005ad",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 2464,
+        "normalized_start": 2283,
+        "raw_end": 2464,
+        "raw_start": 2283,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "87406d02a8f54ddcb186d35e25b5ca11339f9b925439a761b7c94754889a5129"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_eac36b91c48fad2d9695",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "8)        فى حالة التأخير عن دفع القيمة اإليجارية فى ميعاد األستحقاق يفسخ هذا ا لعقد فورا ومن",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_1fcbbcad4209d906f640",
+            "normalized_end": 2642,
+            "normalized_start": 2560,
+            "raw_end": 2642,
+            "raw_start": 2560,
+            "source_id": "src_f654a4dd883ddce57c02",
+            "text_sha256": "da7614732b0c917a9dd56722276622c44f49a405d8a348856ccf80cdb2574664"
+          },
+          "text": "تلقاء نفسه دون حاجة الى تنبيه أو إنذار. ويحق للمؤجر رفع دعوى طرد ضد المستأجر وأمام",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "8)        فى حالة التأخير عن دفع القيمة اإليجارية فى ميعاد األستحقاق يفسخ هذا ا لعقد فورا ومن",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 2559,
+        "normalized_start": 2466,
+        "raw_end": 2559,
+        "raw_start": 2466,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "5066233ec619481d08f267903149fab0ba73cebaf622e9001caf7612756b8a4a"
+      },
+      "kind": "unclassified",
+      "order": 8,
+      "requirement_status": "unspecified",
+      "section_id": "sec_86a94aa4e8f077cc37ca",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 2642,
+        "normalized_start": 2466,
+        "raw_end": 2642,
+        "raw_start": 2466,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "895e6ffa04c8a928373de2b319791df51564d09eed6cc9aee891fdc7f190e5b4"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_9b5fc17d70722c05de8e",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "9)       :القيمة اإليجارية المتفق عليها شهريا هي     (                                     )",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_1fcbbcad4209d906f640",
+            "normalized_end": 252,
+            "normalized_start": 160,
+            "raw_end": 252,
+            "raw_start": 160,
+            "source_id": "src_f654a4dd883ddce57c02",
+            "text_sha256": "389133d63739e45c875bd390330f51d3e4201abec1d362d82f68b611b4e025c8"
+          },
+          "text": "9)       :القيمة اإليجارية المتفق عليها شهريا هي     (                                     )",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "9)       :القيمة اإليجارية المتفق عليها شهريا هي     (                                     )",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 253,
+        "normalized_start": 160,
+        "raw_end": 253,
+        "raw_start": 160,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "b12654fcf6dc3cbef2be5bea94bf8a3a8334fec7d778223a6f30f9057f752f7e"
+      },
+      "kind": "unclassified",
+      "order": 9,
+      "requirement_status": "unspecified",
+      "section_id": "sec_401a666e603ff8499634",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 252,
+        "normalized_start": 160,
+        "raw_end": 252,
+        "raw_start": 160,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "389133d63739e45c875bd390330f51d3e4201abec1d362d82f68b611b4e025c8"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_1fd358a6c958d5034494",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "10)  : اتفق الطرفان على دفع مبلغ وقدره           (                                         ) كتأمين",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_1fcbbcad4209d906f640",
+            "normalized_end": 487,
+            "normalized_start": 356,
+            "raw_end": 487,
+            "raw_start": 356,
+            "source_id": "src_f654a4dd883ddce57c02",
+            "text_sha256": "f8c1ae03228ee6d7e06234bc6d45359839a3f1a447ae0b4a692d880e35c5fcb1"
+          },
+          "text": "ويرد هذا المبلغ بعد دفع جميع إستهالكات ( الكهرباء والصيانة ) طوال مدة إشغال المستأجر  \nللمحل  ويتم تقديم اإليصاالت الدالة على ذلك .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "10)  : اتفق الطرفان على دفع مبلغ وقدره           (                                         ) كتأمين",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 355,
+        "normalized_start": 254,
+        "raw_end": 355,
+        "raw_start": 254,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "ef6080151c5da70029d6ff61dd5d2ca8f30bd3e75efc12b35e598fb33071d8a2"
+      },
+      "kind": "unclassified",
+      "order": 10,
+      "requirement_status": "unspecified",
+      "section_id": "sec_842689e77528febdc454",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 487,
+        "normalized_start": 254,
+        "raw_end": 487,
+        "raw_start": 254,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "2cca67cc4aed432393f3984c5d3f91c947ed3b189c1bcc28e25231bd5badda47"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_d5e98f3ceb838a9c7fcc",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "11)   كل إخطار أو إنذار يرسل من طرفى العقد للطرف اآلخر على العناوين المبينة بصدد هذا",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_1fcbbcad4209d906f640",
+            "normalized_end": 596,
+            "normalized_start": 575,
+            "raw_end": 596,
+            "raw_start": 575,
+            "source_id": "src_f654a4dd883ddce57c02",
+            "text_sha256": "7c9ae3d1a8c0446c5b2cd14b061e5c2939917751e995695647fade24a0e9e902"
+          },
+          "text": "العقد تعتبر قانونية .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "11)   كل إخطار أو إنذار يرسل من طرفى العقد للطرف اآلخر على العناوين المبينة بصدد هذا",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 574,
+        "normalized_start": 490,
+        "raw_end": 574,
+        "raw_start": 490,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "7d657549815b8ba091474152b56763d15fd4d7dcbef15a639680586a2433c38f"
+      },
+      "kind": "unclassified",
+      "order": 11,
+      "requirement_status": "unspecified",
+      "section_id": "sec_24baa1a597cf71e97304",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 596,
+        "normalized_start": 490,
+        "raw_end": 596,
+        "raw_start": 490,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "7cf06dd484b222347de7c0da0d8e8116089612e27ab0f831147bec3903302aec"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_474d85d3fd6cb1b0da1d",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "12)    تختص محكمة األمور المستعجلة بالحكم بطرد المستأجر فى حالة مخالفته ألى شرط من",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_1fcbbcad4209d906f640",
+            "normalized_end": 786,
+            "normalized_start": 682,
+            "raw_end": 786,
+            "raw_start": 682,
+            "source_id": "src_f654a4dd883ddce57c02",
+            "text_sha256": "6b1c8ef2332e4a0f965bcb147f3bf7ea22b67fa43c21073266b1626d98a40af2"
+          },
+          "text": "شروط هذا العقد بما يتفق وأختصاصات القضاء المستعجل كما يكون األختصاص المحلى  \nللمحكمة التابع لها العقار .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "12)    تختص محكمة األمور المستعجلة بالحكم بطرد المستأجر فى حالة مخالفته ألى شرط من",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 681,
+        "normalized_start": 599,
+        "raw_end": 681,
+        "raw_start": 599,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "a76b447c5acf919dd3e8cd115c0076298d45535d0bc03b771ea772e9860862fd"
+      },
+      "kind": "unclassified",
+      "order": 12,
+      "requirement_status": "unspecified",
+      "section_id": "sec_f09c53901921284321c1",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 786,
+        "normalized_start": 599,
+        "raw_end": 786,
+        "raw_start": 599,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "8473d4260af709de7ae78c8cfd7e98fd7916815bb2a7e844f5a33b8e4992ac92"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_3e1c4be7f0fc7cbfc44f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "13)    جميع ما ينفقة المستأجر بعد استالم العين المؤجرة من دهانات او لص ورق او ديكور",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_1fcbbcad4209d906f640",
+            "normalized_end": 951,
+            "normalized_start": 873,
+            "raw_end": 951,
+            "raw_start": 873,
+            "source_id": "src_f654a4dd883ddce57c02",
+            "text_sha256": "a5ae23fbe4db7d99b87b419cc4467c9748d424265f961bc8c26304fd146f696c"
+          },
+          "text": "وخالفة ال يلزم المالك بشئ منة وال يحق للمستأجر ان يطلب قيمتها بعد خروجة منها .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "13)    جميع ما ينفقة المستأجر بعد استالم العين المؤجرة من دهانات او لص ورق او ديكور",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 872,
+        "normalized_start": 789,
+        "raw_end": 872,
+        "raw_start": 789,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "d431377867e49da43af929c4d6bc844ce861abfdfb83d4021da983d035745f90"
+      },
+      "kind": "unclassified",
+      "order": 13,
+      "requirement_status": "unspecified",
+      "section_id": "sec_8802553976f8c1fc8456",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 951,
+        "normalized_start": 789,
+        "raw_end": 951,
+        "raw_start": 789,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "e65ba75f3c2d0ea21890a891bf204b6a7d5f24965dfd6a413637bf1b8af89233"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_674d0c85767a477dda1d",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "14)    اذا حدث أمر مخل بالعين المؤجرة فللمالك الحق في أخراج الساكن من العين المؤجرة",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_1fcbbcad4209d906f640",
+            "normalized_end": 1056,
+            "normalized_start": 1037,
+            "raw_end": 1056,
+            "raw_start": 1037,
+            "source_id": "src_f654a4dd883ddce57c02",
+            "text_sha256": "8557b1c9a71969ff08bebbf9dc975a92bb7209808bc93046838fd23b41e69aff"
+          },
+          "text": "بمجرد التنبيه شفويا",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "14)    اذا حدث أمر مخل بالعين المؤجرة فللمالك الحق في أخراج الساكن من العين المؤجرة",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1036,
+        "normalized_start": 953,
+        "raw_end": 1036,
+        "raw_start": 953,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "58c8c30b81d32792c956d293d337e328479b2fb70cdce9a2d938bb785dd879a6"
+      },
+      "kind": "unclassified",
+      "order": 14,
+      "requirement_status": "unspecified",
+      "section_id": "sec_4695197835367df57969",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1056,
+        "normalized_start": 953,
+        "raw_end": 1056,
+        "raw_start": 953,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "e91c032a06e5621145c2d596f920b0563556e99a58add8e987e6cfa47e25bd92"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_5f49c7cab7494e3b2ae3",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "15)    يتعهد الطرف الثانى فى حالة إخالء المحل بإصالح أى تلفيات قد تحدث من بداية تاريخ",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_1fcbbcad4209d906f640",
+            "normalized_end": 1198,
+            "normalized_start": 1147,
+            "raw_end": 1198,
+            "raw_start": 1147,
+            "source_id": "src_f654a4dd883ddce57c02",
+            "text_sha256": "f9d3d5e9940390918ac27b5b830e7728db26a1db15bf67f434fb5d1dc23a82f6"
+          },
+          "text": "استالمه للشقة حتى تاريخ إنهاء التى شغلها المستأجر .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "15)    يتعهد الطرف الثانى فى حالة إخالء المحل بإصالح أى تلفيات قد تحدث من بداية تاريخ",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1146,
+        "normalized_start": 1059,
+        "raw_end": 1146,
+        "raw_start": 1059,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "909ed66e00653ea18bda2b0205379487a574fa4d2a2b95f84da3388ad9655237"
+      },
+      "kind": "unclassified",
+      "order": 15,
+      "requirement_status": "unspecified",
+      "section_id": "sec_0478a186c97aa9b4b46a",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1198,
+        "normalized_start": 1059,
+        "raw_end": 1198,
+        "raw_start": 1059,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "618978a9d6cf01c332eeebcbe2e1b01624cc49aa507a1de05ff4f595e5f3b9e9"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_6274cbf7862bea47e9dd",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "16)   يلتزم المستأجر بدفع قيمة   الكهربا والمياه والغاز وصيانة ماتور المياه والتليفون",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_1fcbbcad4209d906f640",
+            "normalized_end": 1286,
+            "normalized_start": 1201,
+            "raw_end": 1286,
+            "raw_start": 1201,
+            "source_id": "src_f654a4dd883ddce57c02",
+            "text_sha256": "932eedb47aeb863f9c5dc51461b9ce7e932bf0567572f2e8cba7dcb88cabf3f6"
+          },
+          "text": "16)   يلتزم المستأجر بدفع قيمة   الكهربا والمياه والغاز وصيانة ماتور المياه والتليفون",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "16)   يلتزم المستأجر بدفع قيمة   الكهربا والمياه والغاز وصيانة ماتور المياه والتليفون",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1288,
+        "normalized_start": 1201,
+        "raw_end": 1288,
+        "raw_start": 1201,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "4456a969a67eb0a33475f26e465e8812f9cd01e418804492a39be69258fd8377"
+      },
+      "kind": "unclassified",
+      "order": 16,
+      "requirement_status": "unspecified",
+      "section_id": "sec_cb35a356f8607b6d2fcb",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1286,
+        "normalized_start": 1201,
+        "raw_end": 1286,
+        "raw_start": 1201,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "932eedb47aeb863f9c5dc51461b9ce7e932bf0567572f2e8cba7dcb88cabf3f6"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_30c6dbd6ddf6a76e0942",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "17)   اذا تأخر المستأجر عن دفع دفع االيجار في المواعيد المحدد لمدة شهر فللمالك الحق أن",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_1fcbbcad4209d906f640",
+            "normalized_end": 1477,
+            "normalized_start": 1376,
+            "raw_end": 1477,
+            "raw_start": 1376,
+            "source_id": "src_f654a4dd883ddce57c02",
+            "text_sha256": "73f4250503e954292a012e52dae0033477af487a2669840aff46e90de1b2a3e0"
+          },
+          "text": "يلزمة بدفع األجرة والمصاريف ويفسخ العقد بدون الحصول علي حكم قضائي وقد قبل المستأجر \nذالك  بهذه الشروط",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "17)   اذا تأخر المستأجر عن دفع دفع االيجار في المواعيد المحدد لمدة شهر فللمالك الحق أن",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1375,
+        "normalized_start": 1289,
+        "raw_end": 1375,
+        "raw_start": 1289,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "416d6005946eac79c5942ce375390c959b53791b991c98c5aace35ae542c79af"
+      },
+      "kind": "unclassified",
+      "order": 17,
+      "requirement_status": "unspecified",
+      "section_id": "sec_ae2c0d231f090cfae246",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1477,
+        "normalized_start": 1289,
+        "raw_end": 1477,
+        "raw_start": 1289,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "1b9ed71c7cccf543765646c9f6f93ea72024912a02f1ad575bdfda4183075eb8"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_ad0712cdbd59852521a1",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "18)    تختص محكمة الجيزة االبتدائية وجزئياتها للنظر فيما ينشأ من منازعات او خالف حول",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_1fcbbcad4209d906f640",
+            "normalized_end": 1628,
+            "normalized_start": 1565,
+            "raw_end": 1628,
+            "raw_start": 1565,
+            "source_id": "src_f654a4dd883ddce57c02",
+            "text_sha256": "79b3d2b26f0eb8115f1ccfe1da14746a52d4998f1f206fb741a5f6acfb230cc9"
+          },
+          "text": "بنود العقد وقد تحرر هذا العقد   من نسختين بيد كل طرف من الطرفين",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "18)    تختص محكمة الجيزة االبتدائية وجزئياتها للنظر فيما ينشأ من منازعات او خالف حول",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1564,
+        "normalized_start": 1480,
+        "raw_end": 1564,
+        "raw_start": 1480,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "111f19fe429683589c836c1d497f13ffd1b9cb091732d26a9afab1ebb5ed2595"
+      },
+      "kind": "unclassified",
+      "order": 18,
+      "requirement_status": "unspecified",
+      "section_id": "sec_b880c377d20c633f8b47",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1628,
+        "normalized_start": 1480,
+        "raw_end": 1628,
+        "raw_start": 1480,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "3df3bbb32fabb44a7fe3feb522a015b314897f02d29ee6d6b6b39589506f15fe"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_021df89579f6d4326bb2",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "22 . )تحرر هذا العقد من نسختين بيد كل طرف نسخة للعمل بها عند اللزوم",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_1fcbbcad4209d906f640",
+            "normalized_end": 2019,
+            "normalized_start": 1702,
+            "raw_end": 2019,
+            "raw_start": 1702,
+            "source_id": "src_f654a4dd883ddce57c02",
+            "text_sha256": "67193a4643d62fdc6a6d4846c98927be0e0324124378b07f3270853aff4247cd"
+          },
+          "text": "طرف أول (مؤجر)                                               طرف ثانى ( مستأجر )  \n \nاألسم :.................................                       األسم : .............................  \n \nرقم البطاقة:                                                              رقم البطاقة : \n \n \nتحرر في :           /            /",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "22 . )تحرر هذا العقد من نسختين بيد كل طرف نسخة للعمل بها عند اللزوم",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1699,
+        "normalized_start": 1631,
+        "raw_end": 1699,
+        "raw_start": 1631,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "87b5a3b04387daafdce67799d19f978144c9a9737cc02992d6be5bd82c5cbf14"
+      },
+      "kind": "unclassified",
+      "order": 19,
+      "requirement_status": "unspecified",
+      "section_id": "sec_7e29136857a8373be744",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 2019,
+        "normalized_start": 1631,
+        "raw_end": 2019,
+        "raw_start": 1631,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "cbc9524ec3426740020ba153abd981ed95c4d9558c7666b781802d62c28d2b8a"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "extracted_text_sha256": "5417c1b018d3bac1a809cf89254824c9313401db0704aba5e3214d6fb37f3443",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 3,
+      "relative_path": "templates/Iraq/store-rent-contract.pdf",
+      "sha256": "653d3992c31a39021e5e2f12a4a0234aca00bcfd4698007d842dc71e9cf034c1",
+      "size_bytes": 128811,
+      "source_id": "src_f654a4dd883ddce57c02"
+    }
+  ],
+  "template_id": "tpl_6775070f3c71845447d9",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_b43277f438b911cc4514",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 1389,
+        "normalized_start": 0,
+        "raw_end": 1389,
+        "raw_start": 0,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "d3375c0d61c24c4e75f1fc3c9322159c43da9ab6e8a7b490de735306331dea3d"
+      },
+      "text": "عـقد إيجـــــار محل  محددة المدة \nطبقا للقانون 4  لسنة 1996 \n \n انه فى يوم السبت . الموافق   /    / \nتحرر هذا العقد بين كال من  : \nمــــــؤجــر(طرف أول )  \nالسـيد / ...............................................................................................  \nجنسيته / ......................ديانته / ........................  \nومقيم فى / .............................................................................  \nويحمل  بطاقة رقم ..............................  \nمستــأجـر(طـــرف ثانى )  \nالسـيد / ....................................................................................   \nجنسيته / ......................... ديانته /........................ \nومقيم فى/ ........................................................................  \nويحمل بطاقة رقم ............................  \n*****************************  \nبموجب هذا العقـد أجر الطرف األول للطرف الثانى القابل لذلك (   محل   ) فى العقــــــــار  \nرقم(  ) شارع (                                                                   ) قسم (           ) \nلمدة (      ) تبدأ من  /   /     تنتهى فى    /  /      وال يجوز تجديدها لمده مماثلة  \nواالجرة المتفق عليها هي مبلغ :        (                                 ) ويتعهد المستأجر بدفعها \nمقدما اول كل شهر باإليصال الالزم . \nوتقاضي المؤجر من المستأجر مبلغ وقدرة :              (                        ) كتأمين يسترد في  \nنهاية المدة اإليجاري  \n \n·       :وذلك بالشروط األتية"
+    },
+    {
+      "content_id": "unparsed_1cb0d1084e4cf0a808fa",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_1fcbbcad4209d906f640",
+        "normalized_end": 157,
+        "normalized_start": 2,
+        "raw_end": 157,
+        "raw_start": 2,
+        "source_id": "src_f654a4dd883ddce57c02",
+        "text_sha256": "1939df817304d1c1bbb2344b2eda8fb7169a9e9cd1e1efc1b9d9e37c5a984777"
+      },
+      "text": "القضاء المستعجل باعتبار أن المسـتأجر غاصبا للمكان وشاغال له دون سند ويحق للمؤجر أيضا\nتوقيع حجز تحفظى دون أنذار على جميع األشياء الموجودة فى المكان المؤجر ."
+    }
+  ],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

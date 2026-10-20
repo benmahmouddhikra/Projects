@@ -1,0 +1,558 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_452f0c88a9c592b3d593",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "completed_contract",
+    "initial_document_kind": "completed_contract",
+    "languages": [
+      {
+        "basis": "script_detection",
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_8fadba0bb537b77fdb6b",
+            "normalized_end": 1074,
+            "normalized_start": 0,
+            "raw_end": 1074,
+            "raw_start": 0,
+            "source_id": "src_39b8ecbf870e189c9bd1",
+            "text_sha256": "9a707ad996eb9e7310f1546562349fe03fd619bc8e5a884efe77f7197be41b07"
+          }
+        ],
+        "tag": "ar"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "completed",
+    "title": "انه في يوم ....................... الموافق:      /       /   20",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 63,
+        "normalized_start": 0,
+        "raw_end": 63,
+        "raw_start": 0,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "498e81097cea99de41c9b77dfb4591650d90bcffe8004fe3c5ac6be9f8f00285"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "completed_contract_heuristic_requires_review",
+        "message": "Contract-like filename without detected square-bracket placeholders was initially classified completed and requires human confirmation.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "required",
+    "structure_review_status": "pending",
+    "training_eligibility": "review_required"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_00ab99772af6bc9c069d",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "البند الثاني: الأجرة المتفق عليها هي مبلغ ............................. جنيه كل شهر والأجرة تدفع شهرياً مقدماً عند أول كل شهر.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_8fadba0bb537b77fdb6b",
+            "normalized_end": 127,
+            "normalized_start": 1,
+            "raw_end": 127,
+            "raw_start": 1,
+            "source_id": "src_39b8ecbf870e189c9bd1",
+            "text_sha256": "ab112e34da19a540eb012509baf23ded5aa50bfa69124401cfe7804aeaedbf27"
+          },
+          "text": "البند الثاني: الأجرة المتفق عليها هي مبلغ ............................. جنيه كل شهر والأجرة تدفع شهرياً مقدماً عند أول كل شهر.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "البند الثاني: الأجرة المتفق عليها هي مبلغ ............................. جنيه كل شهر والأجرة تدفع شهرياً مقدماً عند أول كل شهر.",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 127,
+        "normalized_start": 1,
+        "raw_end": 127,
+        "raw_start": 1,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "ab112e34da19a540eb012509baf23ded5aa50bfa69124401cfe7804aeaedbf27"
+      },
+      "kind": "unclassified",
+      "order": 1,
+      "requirement_status": "unspecified",
+      "section_id": "sec_72237f4e3d2f13cf9e0b",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 127,
+        "normalized_start": 1,
+        "raw_end": 127,
+        "raw_start": 1,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "ab112e34da19a540eb012509baf23ded5aa50bfa69124401cfe7804aeaedbf27"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_dc92a7119f1d85a1a57e",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "البند العاشر: إذا ترك المستأجر العين المؤجرة قبل انتهاء المدة فيلتزم بدفع القيمة الإيجارية عن المدة كاملة مع مصاريف ما يكون قد أتلف بها.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000011",
+            "extraction_id": "ext_8fadba0bb537b77fdb6b",
+            "normalized_end": 136,
+            "normalized_start": 0,
+            "raw_end": 136,
+            "raw_start": 0,
+            "source_id": "src_39b8ecbf870e189c9bd1",
+            "text_sha256": "73fcd4ceeb6d58e3c3e1a35e4366b22b4218cfaec60114b5e36766f9dd4df0f6"
+          },
+          "text": "البند العاشر: إذا ترك المستأجر العين المؤجرة قبل انتهاء المدة فيلتزم بدفع القيمة الإيجارية عن المدة كاملة مع مصاريف ما يكون قد أتلف بها.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "البند العاشر: إذا ترك المستأجر العين المؤجرة قبل انتهاء المدة فيلتزم بدفع القيمة الإيجارية عن المدة كاملة مع مصاريف ما يكون قد أتلف بها.",
+      "heading_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 136,
+        "normalized_start": 0,
+        "raw_end": 136,
+        "raw_start": 0,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "73fcd4ceeb6d58e3c3e1a35e4366b22b4218cfaec60114b5e36766f9dd4df0f6"
+      },
+      "kind": "unclassified",
+      "order": 2,
+      "requirement_status": "unspecified",
+      "section_id": "sec_f8554bb69da875cc0ee9",
+      "source_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 136,
+        "normalized_start": 0,
+        "raw_end": 136,
+        "raw_start": 0,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "73fcd4ceeb6d58e3c3e1a35e4366b22b4218cfaec60114b5e36766f9dd4df0f6"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_d624d089d81873f463d7",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "البند الثاني عشر: إذا حدث أمر مخل بالعين المؤجرة فللمالك الحق في إخراج المستأجر من العين بمجرد الإبلاغ عنه شفوياً ويحق له فسخ العقد.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000013",
+            "extraction_id": "ext_8fadba0bb537b77fdb6b",
+            "normalized_end": 132,
+            "normalized_start": 0,
+            "raw_end": 132,
+            "raw_start": 0,
+            "source_id": "src_39b8ecbf870e189c9bd1",
+            "text_sha256": "8dfeb02ce1e2c39b0aa2452c1b9555fc2a5103e94ab0dc2c6148c7fb0bbaa797"
+          },
+          "text": "البند الثاني عشر: إذا حدث أمر مخل بالعين المؤجرة فللمالك الحق في إخراج المستأجر من العين بمجرد الإبلاغ عنه شفوياً ويحق له فسخ العقد.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "البند الثاني عشر: إذا حدث أمر مخل بالعين المؤجرة فللمالك الحق في إخراج المستأجر من العين بمجرد الإبلاغ عنه شفوياً ويحق له فسخ العقد.",
+      "heading_span": {
+        "block_id": "block_000013",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 132,
+        "normalized_start": 0,
+        "raw_end": 132,
+        "raw_start": 0,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "8dfeb02ce1e2c39b0aa2452c1b9555fc2a5103e94ab0dc2c6148c7fb0bbaa797"
+      },
+      "kind": "unclassified",
+      "order": 3,
+      "requirement_status": "unspecified",
+      "section_id": "sec_546f8b4a91cdd1919750",
+      "source_span": {
+        "block_id": "block_000013",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 132,
+        "normalized_start": 0,
+        "raw_end": 132,
+        "raw_start": 0,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "8dfeb02ce1e2c39b0aa2452c1b9555fc2a5103e94ab0dc2c6148c7fb0bbaa797"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_f69ae9e908e84c3b3b62",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "البند الثالث عشر: يلتزم المستأجر بدفع قيمة الضرائب العقارية وسداد فواتير الكهرباء والمياه التليفون.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000014",
+            "extraction_id": "ext_8fadba0bb537b77fdb6b",
+            "normalized_end": 100,
+            "normalized_start": 1,
+            "raw_end": 100,
+            "raw_start": 1,
+            "source_id": "src_39b8ecbf870e189c9bd1",
+            "text_sha256": "11af95c3b9d83be605fd8ffbd248068b1322a23e2febbd8a15a30d1744c8457d"
+          },
+          "text": "البند الثالث عشر: يلتزم المستأجر بدفع قيمة الضرائب العقارية وسداد فواتير الكهرباء والمياه التليفون.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "البند الثالث عشر: يلتزم المستأجر بدفع قيمة الضرائب العقارية وسداد فواتير الكهرباء والمياه التليفون.",
+      "heading_span": {
+        "block_id": "block_000014",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 100,
+        "normalized_start": 1,
+        "raw_end": 100,
+        "raw_start": 1,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "11af95c3b9d83be605fd8ffbd248068b1322a23e2febbd8a15a30d1744c8457d"
+      },
+      "kind": "unclassified",
+      "order": 4,
+      "requirement_status": "unspecified",
+      "section_id": "sec_8a3833b487ddc3fbc603",
+      "source_span": {
+        "block_id": "block_000014",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 100,
+        "normalized_start": 1,
+        "raw_end": 100,
+        "raw_start": 1,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "11af95c3b9d83be605fd8ffbd248068b1322a23e2febbd8a15a30d1744c8457d"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "extracted_text_sha256": "2acd2aac368a284b8cf86449ef807c40536e9b4fcbbf436739fb57a8de289bf4",
+      "extraction_method": "docx_ooxml_xml",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "page_count": null,
+      "relative_path": "templates/Iraq/نموذج-عقد-ايجار.docx",
+      "sha256": "6f30e4f161e4002429a6d876346bcddffce4dd711ce59b4ca9ab4260a91ddc31",
+      "size_bytes": 17384,
+      "source_id": "src_39b8ecbf870e189c9bd1"
+    }
+  ],
+  "template_id": "tpl_ffe77f7d179992b39e00",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_99ec824217f9fc3be751",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 1074,
+        "normalized_start": 0,
+        "raw_end": 1074,
+        "raw_start": 0,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "9a707ad996eb9e7310f1546562349fe03fd619bc8e5a884efe77f7197be41b07"
+      },
+      "text": "انه في يوم ....................... الموافق:      /       /   20\n\nقد أجر السيد/ ......................................................................................................................... (طرف أول مؤجر)\n\nالمقيم بـ: ................................................................................... ويحمل بطاقة رقم: ............................................\n\nإلى السيد/ .........................................................................................................................  (طرف ثاني مستأجر)\n\nالمقيم بـ: ................................................................................... ويحمل بطاقة رقم: ............................................\n\nما هو: ............................................................................... كائن بالعقار رقم: ....................................................\n\nوقد قرر المستأجر بأن العين المؤجرة مستوفي جميع لوازمه كعقار ومشطب كاملاً وقد اعترف المستأجر بمعاينته العين المذكورة وأنه خال من أي خلل وأنه صالح للغرض الذي اُستأجر من أجله وقد اتفق المتعاقدين وهما بكامل الأهلية على الشروط الآتية:"
+    },
+    {
+      "content_id": "unparsed_65d4b21a5d02b1ffc20d",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 305,
+        "normalized_start": 0,
+        "raw_end": 305,
+        "raw_start": 0,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "725f29835e9e92a8a36d136a4a19e5f7a0292d5def6465b48ed2f15183ac2c48"
+      },
+      "text": "البند الأول: مدة الإيجـار ..................................... سنوات تبدأ من     /     /     20 وتنتهـي فـي      /     /     20 ولا يجوز تجديدها لمدة مماثلة إلا بعقد جديد ويلتزم المستأجر بتسليمه المحل عند نهاية المدة وفي حالة عدم تسليم المحل في نهاية المدة يحق للمالك دخول المحل واستغلاله بوضع اليد عليه."
+    },
+    {
+      "content_id": "unparsed_29492ea7e8b2f143d4a8",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 270,
+        "normalized_start": 0,
+        "raw_end": 270,
+        "raw_start": 0,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "b1a9b7373d54b1f3221fc344a25ce39de08babe22691e1774fa587626bdd4a92"
+      },
+      "text": "البند الثالث: تقاضى الطرف الأول من الطرف الثاني مبلغ وقدره ........................................... كمقدم إيجار يتم خصم ............................ جنيه من القيمة الإيجارية المشار إليها في البند الثاني كل شهر ويدفع المستأجر ......................... جنيه كل أول شهر."
+    },
+    {
+      "content_id": "unparsed_afc3853c14b3a359f556",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 397,
+        "normalized_start": 0,
+        "raw_end": 397,
+        "raw_start": 0,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "187378fa154a367f9e1477654032111e75a383a78644e1ca9ba6780a83e3c17c"
+      },
+      "text": "البند الرابع: إذا تأخر المستأجر عن دفع الإيجار في المواعيد المحددة لمدة شهر يُفسخ هذا العقد فوراً وتلقائياً ودون أي تنبيه أو إنذار وللمالك الحق في رفع دعوى طرد مستعجلة أمام قاضي الأمور المستعجلة لاستصدار حكماً بإخلاء المستأجر بمجرد التثبت من التأخير في السداد ولا يجوز للمستأجر التأخير في سداد قيمة الإيجار لأي سبب أو يدعي المقاصة مع أي مصاريف او تصليحات أو خلافه ولا يجوز له إيداعه خزانة المحكمة."
+    },
+    {
+      "content_id": "unparsed_b131d5049f65938b5b4d",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 342,
+        "normalized_start": 0,
+        "raw_end": 342,
+        "raw_start": 0,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "5199bab9fd6959a293438e2b46ed2fafa3228a55f2bc1583423fd9279a4a0b78"
+      },
+      "text": "البند الخامس: محظور على المستأجر أن يؤجر العين المذكورة من الباطن أو يتنازل عنها للغير عن أي مدة كانت أو يؤجر من الباطن كل أو جزء من المكان المؤجر مهما كانت الأسباب بمقابل أو غير مقابل أو لأي شخص كان وإذا حصل تغيير بالعين المؤجرة بدون إذن المالك كتابة وإذا خالف ذلك يكون العقد مفسوخاً من تلقاء نفسه ويلزمه بالعطل والأضرار والمصاريف التي تحدث."
+    },
+    {
+      "content_id": "unparsed_26fdc16ab034728ebf2d",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000007",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 412,
+        "normalized_start": 0,
+        "raw_end": 412,
+        "raw_start": 0,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "730fac036bf00d271a4169bfd59967a6ac4a85ffa4b374161d3f9663b7cfba32"
+      },
+      "text": "البند السادس: يلتزم المستأجر باستعمال العين المؤجرة وفقاً للبنود المتفق عليها بالعقد وأن يحافظ عليها ويراعيها كما يراعي الإنسان ماله الخاص ويحظر على المستأجر ان يضع في المكان المؤجر أية مواد ملتهبة أو مضرة بالصحة العامة وإذا خالف ذلك يحق للمالك ان يفسخ العقد ويلزمه بالعطل والمصاريف ويحظر على المستأجر إحداث أي تغيير في المكان المؤجر له إلا بتصريح كتابي من المالك وإذا خالف ذلك يعتبر العقد مفسوخاً من تلقاء نفسه."
+    },
+    {
+      "content_id": "unparsed_b42dc4048498abecc817",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 279,
+        "normalized_start": 0,
+        "raw_end": 279,
+        "raw_start": 0,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "d15e221932e9a6e1c484271433382c09587febb4658e374b15b357d15e90074c"
+      },
+      "text": "البند السابع: جميع ما ينفقه المستأجر بعد استلامه العين المؤجرة من دهانات أو لصق ورق أو ديكور وخلافه لا يلزم المالك بشيء منها ولا يحق للمستأجر أن يطلب قيمتها عند انتهاء العقد بل يكون متبرعاً بها للمالك ولا يجوز للمستأجر أن يعلو بواجهة المحل بإقامة ديكورات تعلو عن مستوى سقف المحل."
+    },
+    {
+      "content_id": "unparsed_160ca6f8f74289f5a7e4",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 187,
+        "normalized_start": 0,
+        "raw_end": 187,
+        "raw_start": 0,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "0802922e6cc45b516553abc65e180f4a7e84ffab1062f5013e50eb3ca9d771fc"
+      },
+      "text": "البند الثامن: يلتزم المستأجر بعلم الترميمات التأجيرية للعين المؤجرة مثل إصلاح البلاط أو الأبواب والمفاتيح ودهان الحوائط وذلك طوال مدة الإيجار أمام الترميمات الضرورية تكون على عاتق المالك."
+    },
+    {
+      "content_id": "unparsed_0dcfd7687b0528aa786e",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 257,
+        "normalized_start": 0,
+        "raw_end": 257,
+        "raw_start": 0,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "783821c140cea46860fc778c5acd40be76abd5d07384d538be5f71cbf7ce7892"
+      },
+      "text": "البند التاسع: جميع ما يملكه المستأجر من أثاثات ومنقولات وبضائع وخلافه بالعين المؤجرة يحق للمالك الحجر عليها في حالة التأخير عن دفع الأجرة واستيفاء حقه منها كما يحق له حبسها وأن يمنع المستأجر من نقلها حتى استيفاء مستحقاته من قيمة إيجارية متأخرة لدى المستأجر."
+    },
+    {
+      "content_id": "unparsed_2694ae2b8e8a7962b876",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000012",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 435,
+        "normalized_start": 0,
+        "raw_end": 435,
+        "raw_start": 0,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "a34edcfcce03cb6d0feb4187df6d9c8fc39042e0a3d86d359110cd31a140536c"
+      },
+      "text": "البند الحادي عشر: بانتهاء مدة التعاقد المحددة بهذا العقد يعتبر هذا العقد مفسوخاً من تلقاء نفسه دون حاجة إلى إنذار او تنبيه او لجوء إلى القضاء ويلتزم المستأجر بالإخلاء دون حاجة الى اخطار المالك للمستأجر برغبته في إخلاء المكان المؤجر وفي حالة التأخير عن التسليم يلتزم المستأجر بدفع تعويض قدره ................................... جنيه عن كل يوم تأخير في التسليم كما يتعهد المستأجر بتمكين المالك من دخول كل من يرغب في معاينة المكان المؤجر."
+    },
+    {
+      "content_id": "unparsed_57eaa5f84ee7f49c631a",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 194,
+        "normalized_start": 0,
+        "raw_end": 194,
+        "raw_start": 0,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "82357efb3a79b847f0af587e30ec4daa846fd4b012b2e5c1541b402cf29d1174"
+      },
+      "text": "البند الرابع عشر: يخضع هذا العقد لأحكام القانون رقم 4 لسنة 1996 بشأن سريان أحكام القانون المدني على الأماكن التي لم يسبق تأجيرها والأماكن التي انتهت أو تنتهي عقود إيجارها والقانون 137 لسنة 2006."
+    },
+    {
+      "content_id": "unparsed_2e60992a5152ab8174d0",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000016",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 181,
+        "normalized_start": 0,
+        "raw_end": 181,
+        "raw_start": 0,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "944ba61fcf161c0d8919a05fa9228da09debf8d999cc45bb0ce74264822d7dd9"
+      },
+      "text": "البند الخامس عشر: تختص محكمة .......................................... بالنظر فيما ينشأ من منازعات وخلافه حول بنود العقد وقد تحرر هذا العقد من نسختين بيد كل طرف نسخة للعمل بموجبها."
+    },
+    {
+      "content_id": "unparsed_9cd6e165f56a3894de53",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000017",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 497,
+        "normalized_start": 1,
+        "raw_end": 497,
+        "raw_start": 1,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "4e935a1cdd17c50cabee485a7404935829821a702f74ca8e3c3b559ac8aabacd"
+      },
+      "text": "بند إضافي: .......................................................................................................................................................\n......................................................................................................................................................................\n......................................................................................................................................................................"
+    },
+    {
+      "content_id": "unparsed_3621c4db6010ac96874f",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000018",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 408,
+        "normalized_start": 0,
+        "raw_end": 408,
+        "raw_start": 0,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "356e913fb550ca6ca83170995a9eae79a6b2185e2e520fd497eb45ace7228f08"
+      },
+      "text": "الطرف الأول (المؤجر)                                                                                   الطرف الثاني (المستأجر)\n\nالاســـــم:                                                                        الاســـــم:\n\nالتوقـيـع:                                                                         التوقـيـع:\n\nرقم قومي:                                                                       رقم قومي:"
+    },
+    {
+      "content_id": "unparsed_9f3ea672ce573de705cc",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000019",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 9,
+        "normalized_start": 0,
+        "raw_end": 9,
+        "raw_start": 0,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "2151c90b37c65d3d4860ebd49120663282c1b6f771ebf533962ae9bfd65f2168"
+      },
+      "text": "الشهـــود"
+    },
+    {
+      "content_id": "unparsed_62bdcbce6ca74027a4cb",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000020",
+        "extraction_id": "ext_8fadba0bb537b77fdb6b",
+        "normalized_end": 373,
+        "normalized_start": 0,
+        "raw_end": 373,
+        "raw_start": 0,
+        "source_id": "src_39b8ecbf870e189c9bd1",
+        "text_sha256": "38431ee466f0e53fcb518a9cf6a262ea08a2fdf0d04aee36cb1209d8b495d561"
+      },
+      "text": "الشاهد الاول                                                                  الشاهد الثاني\n\nالاســـــم:                                                                        الاســـــم:\n\nالتوقـيـع:                                                                         التوقـيـع:\n\nرقم قومي:                                                                       رقم قومي:"
+    }
+  ],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

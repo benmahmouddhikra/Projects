@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:hannibal:schema:contract-target-validation-v1",
+  "title": "Grounded contract target validation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "template_id", "status", "valid_for_demo_export", "training_eligible", "errors", "warnings", "hashes", "passages", "checks"],
+  "properties": {
+    "schema_version": {"const": "contract-target-validation-v1"},
+    "template_id": {"type": "string"},
+    "status": {"enum": ["demo_unreviewed", "eligible", "blocked"]},
+    "valid_for_demo_export": {"type": "boolean"},
+    "training_eligible": {"type": "boolean"},
+    "errors": {"type": "array", "items": {"type": "string"}},
+    "warnings": {"type": "array", "items": {"type": "string"}},
+    "hashes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["generation_facts_sha256", "runtime_sha256", "canonical_sha256", "extraction_sha256", "target_sha256"],
+      "properties": {
+        "generation_facts_sha256": {"type": "string"}, "runtime_sha256": {"type": "string"},
+        "canonical_sha256": {"type": "string"}, "extraction_sha256": {"type": "string"},
+        "target_sha256": {"type": "string"}
+      }
+    },
+    "passages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["passage_id", "source_ids", "block_id", "clause_ids", "content_ids", "variable_ids", "source_sha256", "target_sha256"],
+        "properties": {
+          "passage_id": {"type": "string"}, "source_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+          "block_id": {"type": "string"}, "clause_ids": {"type": "array", "items": {"type": "string"}},
+          "content_ids": {"type": "array", "items": {"type": "string"}}, "variable_ids": {"type": "array", "items": {"type": "string"}},
+          "source_sha256": {"type": "string"}, "target_sha256": {"type": "string"}
+        }
+      }
+    },
+    "checks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required_sections", "missing_clauses", "placeholders", "variable_consistency", "internal_contradictions", "unsupported_legal_content", "legal_references", "legal_drafting_style", "mena_adaptation", "jurisdiction_preservation", "language_preservation", "grounding_coverage", "completed_contract_privacy"],
+      "properties": {
+        "required_sections": {"$ref": "#/$defs/check"}, "missing_clauses": {"$ref": "#/$defs/check"},
+        "placeholders": {"$ref": "#/$defs/check"}, "variable_consistency": {"$ref": "#/$defs/check"},
+        "internal_contradictions": {"$ref": "#/$defs/check"}, "unsupported_legal_content": {"$ref": "#/$defs/check"},
+        "legal_references": {"$ref": "#/$defs/check"}, "legal_drafting_style": {"$ref": "#/$defs/check"},
+        "mena_adaptation": {"$ref": "#/$defs/check"}, "jurisdiction_preservation": {"$ref": "#/$defs/check"},
+        "language_preservation": {"$ref": "#/$defs/check"}, "grounding_coverage": {"$ref": "#/$defs/check"},
+        "completed_contract_privacy": {"$ref": "#/$defs/check"}
+      }
+    }
+  },
+  "$defs": {
+    "check": {
+      "type": "object", "additionalProperties": false, "required": ["status", "details"],
+      "properties": {"status": {"enum": ["passed", "failed", "not_applicable", "not_measured"]}, "details": {"type": "string"}}
+    }
+  }
+}

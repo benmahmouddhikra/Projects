@@ -1,0 +1,75 @@
+{
+  "artifact_key": "src_ec1f1b89af87ce3f422b",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_ec1f1b89af87ce3f422b/canonical.json",
+    "extraction": "artifacts/pilot/src_ec1f1b89af87ce3f422b/extraction.json",
+    "review": "artifacts/review-queue/review_d7d6dd4aa8385b0d2c7a.json",
+    "validation": "artifacts/pilot/src_ec1f1b89af87ce3f422b/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.721831Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "form",
+  "required_reviews": [
+    "extraction",
+    "classification"
+  ],
+  "review_coverage": "sampled_audit",
+  "review_record_id": "review_d7d6dd4aa8385b0d2c7a",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/Tunisie/CERFA_15187.02.pdf",
+      "sha256": "cfc8ba035469a556f6e7fdbb4f3977a2f2e3dda3bab391a2f120bc5c19096917",
+      "source_id": "src_ec1f1b89af87ce3f422b"
+    }
+  ],
+  "template_id": "tpl_af842abd2e11a482a00a",
+  "training_eligibility": "excluded",
+  "updated_at": "2026-08-12T14:00:38.721831Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:00:38.721831Z",
+    "errors": [],
+    "valid": true
+  }
+}

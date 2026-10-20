@@ -1,0 +1,273 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_7a7370eacc746672a5d6",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "unknown",
+    "initial_document_kind": "unknown",
+    "languages": [
+      {
+        "basis": "deterministic_text_heuristic",
+        "confidence": 0.2117,
+        "evidence": [
+          {
+            "block_id": "block_000002",
+            "extraction_id": "ext_724c6aa4487911ad5a04",
+            "normalized_end": 79,
+            "normalized_start": 0,
+            "raw_end": 79,
+            "raw_start": 0,
+            "source_id": "src_4ee5d860c9329c8d4cb4",
+            "text_sha256": "09fee7196afe67fd918f8ecf5cdc0b42b3cda7e5211afd061690aea7779aeb4e"
+          }
+        ],
+        "tag": "en"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "unknown",
+    "title": "Lease Agreements under Lebanese",
+    "title_evidence": [
+      {
+        "block_id": "block_000002",
+        "extraction_id": "ext_724c6aa4487911ad5a04",
+        "normalized_end": 31,
+        "normalized_start": 0,
+        "raw_end": 31,
+        "raw_start": 0,
+        "source_id": "src_4ee5d860c9329c8d4cb4",
+        "text_sha256": "8dd3dd626afe955966d8c3ecbe25dc6fee4bb1b462785c3c1eaa5a8a5218ba2a"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "document_kind_unresolved",
+        "message": "Deterministic filename rules did not resolve document kind.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      },
+      {
+        "code": "no_sections_confirmed",
+        "message": "No section boundaries were confirmed; meaningful text remains in unparsed_source_content.",
+        "severity": "warning"
+      },
+      {
+        "code": "ambiguity_023_non_contract_destination",
+        "message": "AMBIGUITY-023: the non-contract knowledge-base/training destination is unresolved.",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "not_required",
+    "structure_review_status": "pending",
+    "training_eligibility": "excluded"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [],
+  "source_files": [
+    {
+      "extracted_text_sha256": "9e40ee3b4a23d11b7668cba0ae6a6ab8f324c3094112ee62541a018d127c8bea",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 12,
+      "relative_path": "templates/Lebanon/1497528932.pdf",
+      "sha256": "03a0d53ba35fb7642ca0dad8816d2bc2c38f5aa589cd2815281f7fb37754ecfd",
+      "size_bytes": 270687,
+      "source_id": "src_4ee5d860c9329c8d4cb4"
+    }
+  ],
+  "template_id": "tpl_085d7d276c94d08f0613",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_33b6854152fa9b70783c",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_724c6aa4487911ad5a04",
+        "normalized_end": 79,
+        "normalized_start": 0,
+        "raw_end": 79,
+        "raw_start": 0,
+        "source_id": "src_4ee5d860c9329c8d4cb4",
+        "text_sha256": "09fee7196afe67fd918f8ecf5cdc0b42b3cda7e5211afd061690aea7779aeb4e"
+      },
+      "text": "Lease Agreements under Lebanese \nLaw\n(Including rent freeze and rent reduction)"
+    },
+    {
+      "content_id": "unparsed_290b316b7e1e3104f604",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_724c6aa4487911ad5a04",
+        "normalized_end": 258,
+        "normalized_start": 0,
+        "raw_end": 258,
+        "raw_start": 0,
+        "source_id": "src_4ee5d860c9329c8d4cb4",
+        "text_sha256": "392f986f48a0c4a2e6a54f933bb6fc186a71cf981de1b706a01e6967b49c220a"
+      },
+      "text": "Definition:\n•A lease agreement is a mutual agreement between \ntwo parties, the lessor and the tenant. The agreement \nshould define the premises, the amount of rent to be \npaid and the duration of the lease (Art 533 of the \nCode of obligations and Contracts)."
+    },
+    {
+      "content_id": "unparsed_e4f5d0a56cea2ef6e579",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_724c6aa4487911ad5a04",
+        "normalized_end": 164,
+        "normalized_start": 0,
+        "raw_end": 164,
+        "raw_start": 0,
+        "source_id": "src_4ee5d860c9329c8d4cb4",
+        "text_sha256": "ffbc61a6c206bf910974a8471bf28c7cacd91069c657388b3a5f8b86a8f61de5"
+      },
+      "text": "The amount of rent:\n•The agreement should specify when and where the \nrent should be paid.\n•The amount of rent should be fixed for the whole \nduration of the lease."
+    },
+    {
+      "content_id": "unparsed_fe25c6a85c02f0ed831c",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_724c6aa4487911ad5a04",
+        "normalized_end": 396,
+        "normalized_start": 0,
+        "raw_end": 396,
+        "raw_start": 0,
+        "source_id": "src_4ee5d860c9329c8d4cb4",
+        "text_sha256": "8c61530cbd65c81d7972aa020b4008221be548b3e4d13a693ba1890b346c7f26"
+      },
+      "text": "Duration of the lease:\n•The parties are free to agree on the different terms of \nthe agreement except for duration.\n•In residential premises, even if the duration of lease is \nless than 3 years, Lebanese Law considers the lease \nagreement valid for a minimum of 3 years (exception: \nseasonal lease and lease agreement for premises \noffered by the employer to the employee, with or \nwithout rent)."
+    },
+    {
+      "content_id": "unparsed_dfd5735e96f7115c0d2a",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_724c6aa4487911ad5a04",
+        "normalized_end": 317,
+        "normalized_start": 0,
+        "raw_end": 317,
+        "raw_start": 0,
+        "source_id": "src_4ee5d860c9329c8d4cb4",
+        "text_sha256": "52b646080c7f1eec6240f3a9b544e8a57fe27e0bd6724216b5912701a38115a3"
+      },
+      "text": "Written/verbal lease agreements\n•It is possible to establish a valid lease agreement \nverbally. Sufficient proof of a concluded lease \nagreement is the ten ant’s occupation of the premises \nhanded over by the lessor.\n•Same conditions apply for both written and verbal \nlease agreement (rent, duration, termination...)"
+    },
+    {
+      "content_id": "unparsed_5a924013b4368834fd8b",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000007",
+        "extraction_id": "ext_724c6aa4487911ad5a04",
+        "normalized_end": 289,
+        "normalized_start": 0,
+        "raw_end": 289,
+        "raw_start": 0,
+        "source_id": "src_4ee5d860c9329c8d4cb4",
+        "text_sha256": "8ac4aff6f74406c319ad0340d575724f2cb1e22cd68ed53bcf73a22981203103"
+      },
+      "text": "Termination of the agreement.\n•The parties can terminate the lease agreement at any \ntime by mutual agreement.\n•The tenant can terminate the lease agreement when \nthe initially agreed period ends.\n•Before the end of agreement in case the \nlessee/tenant fails to fulfil certain obligations."
+    },
+    {
+      "content_id": "unparsed_b2e41866de0cb023c0a1",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_724c6aa4487911ad5a04",
+        "normalized_end": 164,
+        "normalized_start": 0,
+        "raw_end": 164,
+        "raw_start": 0,
+        "source_id": "src_4ee5d860c9329c8d4cb4",
+        "text_sha256": "3482bebe64084047721309e8dc7c76d9056b06014212faee66a3f38eb07029c2"
+      },
+      "text": "No termination of the agreement:\n•In case the lessor sells the property to a third party,\n•In case of the lessor’s death.\n•In such cases the contract remains valid."
+    },
+    {
+      "content_id": "unparsed_7931196c3b1d691f6c48",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_724c6aa4487911ad5a04",
+        "normalized_end": 190,
+        "normalized_start": 0,
+        "raw_end": 190,
+        "raw_start": 0,
+        "source_id": "src_4ee5d860c9329c8d4cb4",
+        "text_sha256": "484e27a580f131406bb9bc7744b93622078e534295abb4aaab2e137dab892ab6"
+      },
+      "text": "Tolerance situations: \n(including the occupacy free of charge modality)\n•Not defined by the Lebanese Law. \n•Practice of courts defines the terms and conditions for \nthese type of contracts ."
+    },
+    {
+      "content_id": "unparsed_557f64e7d25d36a292d5",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_724c6aa4487911ad5a04",
+        "normalized_end": 354,
+        "normalized_start": 0,
+        "raw_end": 354,
+        "raw_start": 0,
+        "source_id": "src_4ee5d860c9329c8d4cb4",
+        "text_sha256": "c760c0014638a43d4312bea7d6f0e9f8339df4e0b6baed50a9106aa22cdebb67"
+      },
+      "text": "Definition:\n•It is a situation where a real estate owner would allow \nanother person to occupy his/her property for free.\n•A tolerance contract can be verbal or written. If it is \nverbal, the fact of occupying the property for free and \nfor a certain period of time with the prior approval of \nthe owner is enough to prove the existence of the \ncontract."
+    },
+    {
+      "content_id": "unparsed_036e1ea9cba7778eac46",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_724c6aa4487911ad5a04",
+        "normalized_end": 303,
+        "normalized_start": 0,
+        "raw_end": 303,
+        "raw_start": 0,
+        "source_id": "src_4ee5d860c9329c8d4cb4",
+        "text_sha256": "15cb0dff395011798442628ff7a9f3ba776845c258facb206e75ea4dec10d026"
+      },
+      "text": "Termination:\n•The contract is terminated when the contract period ends. \nThe legal procedures should be followed in order to evict \nthe person occupying the property.\n•In case the parties didn’t agree on a period, the owner can \nterminate the tolerance situation at any time (through legal \nprocedures)."
+    }
+  ],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

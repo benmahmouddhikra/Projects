@@ -1,0 +1,822 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_25a8b52fc5ddcbb6c447",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "form",
+    "initial_document_kind": "form",
+    "languages": [
+      {
+        "basis": "deterministic_text_heuristic",
+        "confidence": 0.0153,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_33e921bce172e3a6c5d2",
+            "normalized_end": 3201,
+            "normalized_start": 0,
+            "raw_end": 3201,
+            "raw_start": 0,
+            "source_id": "src_ec1f1b89af87ce3f422b",
+            "text_sha256": "057ad1c1a182dc1ebe5bf56a526ac6ef22beb2c49f80c0f99d616fc238c2010c"
+          }
+        ],
+        "tag": "fr"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "unknown",
+    "title": "3-SALARIÉ(identitéetdocumentsdevoyage)",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 38,
+        "normalized_start": 0,
+        "raw_end": 38,
+        "raw_start": 0,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "7bbc74ecb0a67484250f0f1d4d2398b303c5887486c9ceedb7a65de3785f93de"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      },
+      {
+        "code": "ambiguity_023_non_contract_destination",
+        "message": "AMBIGUITY-023: the non-contract knowledge-base/training destination is unresolved.",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "not_required",
+    "structure_review_status": "pending",
+    "training_eligibility": "excluded"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_4a259518a2114d218024",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3-SALARIÉ(identitéetdocumentsdevoyage)",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_33e921bce172e3a6c5d2",
+            "normalized_end": 588,
+            "normalized_start": 39,
+            "raw_end": 588,
+            "raw_start": 39,
+            "source_id": "src_ec1f1b89af87ce3f422b",
+            "text_sha256": "c3e7aa879856edd3a25d0318fb7ee000e9b471cd55e4592dc34588415f558f76"
+          },
+          "text": "NOM(S)defamille: NOM(S)denaissance:\nPrénom(s): SexeM□F□Né(e)le:jj/mm/aaaaNationalité:Rappel:ArticleL.8256-1ducodedutravail:lefaitdeserendrecoupabledefraudeoufaussedéclarationpourobtenir,faireobteniroutenter\ndefaireobteniràunétrangerletitrementionnéàl'articleL.8251­1estpunid'unemprisonnementd'unanetd'uneamendede3000€.\nPasseport:Numéro délivréle:jj/mm/aaaaexpirantle:jj/mm/aaaapar:2-EMPLOYEURouentreprised'accueiloubénéficiairedelaprestation\nParticulierEmployeur:NOMprénom N°decotisant(URSSAF,MSA,CESU):\nAdresse:\nComplément: Codepostal:00000Commune:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3-SALARIÉ(identitéetdocumentsdevoyage)",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 38,
+        "normalized_start": 0,
+        "raw_end": 38,
+        "raw_start": 0,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "7bbc74ecb0a67484250f0f1d4d2398b303c5887486c9ceedb7a65de3785f93de"
+      },
+      "kind": "unclassified",
+      "order": 1,
+      "requirement_status": "unspecified",
+      "section_id": "sec_3b557a8387382d23adc4",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 588,
+        "normalized_start": 0,
+        "raw_end": 588,
+        "raw_start": 0,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "72c96a32fc47a579c1e544072c0aa56cd5c7e3a0b0cde6257de6db5dc41e2a1c"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e4fda1a16c5f975ae874",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4-Élémentsducontratdetravailoudel'éxécutiondelaprestation",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_33e921bce172e3a6c5d2",
+            "normalized_end": 1033,
+            "normalized_start": 647,
+            "raw_end": 1033,
+            "raw_start": 647,
+            "source_id": "src_ec1f1b89af87ce3f422b",
+            "text_sha256": "aa3427fd2012c60912742f21e9d7b50598058ea217357d649453802882292c7b"
+          },
+          "text": "Emploioccupé*: CodeROME:A0000\nClassificationdel'emploi:Niveau*: Coefficient*: *Selonlaconventioncollectiveapplicable\nLogementassuréparl'employeur:collectif□individuel□Tempscomplet□tempspartiel□:0000heureset00centièmes/hebdomadaire□mensuelle□annuelle□\nSignataire:NOMPrénom Signatureetcachetdel'entreprise:\nQualité:\nFaitle:jj/mm/aaaaà:DEMANDED'AUTORISATIONDETRAVAILPOURCONCLUREUNCONTRATDE",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4-Élémentsducontratdetravailoudel'éxécutiondelaprestation",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 646,
+        "normalized_start": 589,
+        "raw_end": 646,
+        "raw_start": 589,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "197f5a66569006b1af2d42053bd530d4b236155ebc2761dd44a74e8645c9da84"
+      },
+      "kind": "unclassified",
+      "order": 2,
+      "requirement_status": "unspecified",
+      "section_id": "sec_d27bd437ee0577936015",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 1033,
+        "normalized_start": 589,
+        "raw_end": 1033,
+        "raw_start": 589,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "722f8eaec163fc9b19b3cf33858daacab4652a8a9c35a9bef27e1986061d0a05"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_81b4a840411d69336a54",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "TRAVAILAVECUNSALARIÉÉTRANGERRÉSIDANTHORSDEFRANCE",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_33e921bce172e3a6c5d2",
+            "normalized_end": 1811,
+            "normalized_start": 1083,
+            "raw_end": 1811,
+            "raw_start": 1083,
+            "source_id": "src_ec1f1b89af87ce3f422b",
+            "text_sha256": "0c1c388a6e9da16a153cca4293a8d052eb7604c2a5e743868739835e590067d0"
+          },
+          "text": "(Art.L.5221-1etsuiv.etR.5221-1etsuiv.ducodedutravail)\n(Réservéadministration)N°deDossier: Reçule:\nDispositifsparticuliersselonconditionspréciséessurhttp://www.immigration­professionnelle.gouv.fr:\nTravailleursaisonnier□Jeuneprofessionnel□prévuparl'accordbilatéralentrelaFranceetle(a):Pays\n(Réservéadministration)\nVulaprésentedemandeetsesannexes,ilestaccordéàl'employeursignataire,pourl'emploietlesélémentsducontratdetravaildéclarés,\n/uni25A1uneautorisationprovisoiredetravaildemoisjourspourle(s)salarié(s)désigné(s).\n/uni25A1uneautorisationdetravailpourlesalariédésignépendantladuréedevaliditédutitredeséjourquiluiseradélivrés'il(elle)remplit\nlesconditionsprescritesparleCodedel'entréeetduséjourdesétrangersetdudroitd'asile.\nA le",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "TRAVAILAVECUNSALARIÉÉTRANGERRÉSIDANTHORSDEFRANCE",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 1082,
+        "normalized_start": 1034,
+        "raw_end": 1082,
+        "raw_start": 1034,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "721b221062aabb217afab9cbbbb76d64595b41b2350cf93942117582a1dd1d2b"
+      },
+      "kind": "unclassified",
+      "order": 3,
+      "requirement_status": "unspecified",
+      "section_id": "sec_929cf09c13880291a0a6",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 1811,
+        "normalized_start": 1034,
+        "raw_end": 1811,
+        "raw_start": 1034,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "5a34d47609973a75e5314e148777e6fba70205719085600016833cf2d9883bd9"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_6316c28a9dbbdd32307d",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "IMPORTANT:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_33e921bce172e3a6c5d2",
+            "normalized_end": 3201,
+            "normalized_start": 1823,
+            "raw_end": 3201,
+            "raw_start": 1823,
+            "source_id": "src_ec1f1b89af87ce3f422b",
+            "text_sha256": "f9749eb470610026b7e122f6c12d68e6fa704566974cb5d510d1eee033b2c809"
+          },
+          "text": "Toutemodificationdesconditionsd'emploidusalariédevrafairel'objetd'unenouvelledemanded'autorisationdetravailSalairebruthorsavantageennature:0000000,00€/annuel□mensuel□horaire□\nAvantages:Nourriture:000,00€/jour;Logement:0000,00€/mois;Autres:0000,00€/mois*àjustifier\nIMPORTANT:Lesignatairedelademandereconnaitêtreinformédesonobligationdes'acquitterdelataxeemployeurdue\naprèsaccordd'uneautorisationdetravailpouruncontratdetravaildeplusdetroismoisoupourtoutcontratconcluavecun\ntravailleursaisonnier(Art.L.311­15etD.311.18­3duCodedel'entrée,duséjourdesétrangersetdudroitd'asile)/uni25A1\nvoirlesmodalitésd'acquittementsurlanoticeduformulaire\nContrat:duréeindéterminée□duréedéterminée□:duréeducontrat:00moiset00jours\nMotifdurecoursaucontratàduréedéterminée:SIRET:00000000000000Dénomination:\nActivité(NAF):00.00AConventioncollectiveapplicablen°IDCC:00000\nIntitulé:accordsoustatutcollectifssansIDCCMisàjourle23/11/20161-MOTIFDELADEMANDE:contratdetravailsupérieurà3mois/uni25A1d'auplus3mois/uni25A1000salarié(s)\nActivitérèglementée:Intitulé Formalité:\nauprèsde: le:jj/mm/aaaaN°:Formulaire15187*02\nFeuillet1\nDétachementde(s)salarié(s)d'uneduréede00mois00jourspourréaliser:\n­uncontratdeprestationconcluentrel'entrepriseétrangèreetunprestataireétabliouexerçantenFrance□\n­uneprestationpourcomptepropresanscontratcommercialavecunprestataireétablienFrance:□\n­unemoblitéinternationaleintragroupe□",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "IMPORTANT:",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 1822,
+        "normalized_start": 1812,
+        "raw_end": 1822,
+        "raw_start": 1812,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "e8b0454e61ca83b58f15b49b6a47bb24cd9f37d1d3cf92aa31806712876c5e94"
+      },
+      "kind": "unclassified",
+      "order": 4,
+      "requirement_status": "unspecified",
+      "section_id": "sec_318bf9a4d40896c60fdf",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 3201,
+        "normalized_start": 1812,
+        "raw_end": 3201,
+        "raw_start": 1812,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "8225ed3b11c3f6e05ec17cadcba07c9488aa9f4482f6ce916d7f47bfcf61746c"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_9e9b643585b6421281d9",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3.0SALARIÉ(coordonnéesetparcoursprofessionnel)ANNEXEOBLIGATOIREHORSDETACHEMENT:Informationscomplémentaires",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_33e921bce172e3a6c5d2",
+            "normalized_end": 704,
+            "normalized_start": 107,
+            "raw_end": 704,
+            "raw_start": 107,
+            "source_id": "src_ec1f1b89af87ce3f422b",
+            "text_sha256": "724ff43b3e6efb4fae9db8fa325aef138c15320588176696b5126bdc1fe4c93a"
+          },
+          "text": "2.0EMPLOYEUR(coordonnéesspécifiquesdegestiondelademandeetdupaiementdelataxeemployeur)Rappel:ArticleL.8256-1ducodedutravail:lefaitdeserendrecoupabledefraudeoufaussedéclarationpourobtenir,faireobteniroutenter\ndefaireobteniràunétrangerletitrementionnéàl'articleL.8251­1estpunid'unemprisonnementd'unanetd'uneamendede3000€.\nDiplômesobtenus:Pays:\n­ Intitulédudiplôme délivrépar:(organisme) le:jj/mm/aaaa\n­ Intitulédudiplôme délivrépar:(organisme) le:jj/mm/aaaa\nExpérienceprofessionnelledansl'emploisollicité:Durée:00an(s)00mois;période0000à0000\n(Joindrelecuriculum­vitaeetlacopiedescertificatsdetravail)",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3.0SALARIÉ(coordonnéesetparcoursprofessionnel)ANNEXEOBLIGATOIREHORSDETACHEMENT:Informationscomplémentaires",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 106,
+        "normalized_start": 0,
+        "raw_end": 106,
+        "raw_start": 0,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "122e480fa5ed59646e09356d1c4512e7914425a84c9499d18e5c060e7e6cf9e7"
+      },
+      "kind": "unclassified",
+      "order": 5,
+      "requirement_status": "unspecified",
+      "section_id": "sec_0fc7a9e399969ff67421",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 704,
+        "normalized_start": 0,
+        "raw_end": 704,
+        "raw_start": 0,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "9aa9c26a3d8c3a0811a4856bf6496331393da198eac725b73b0788a1f3060513"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_68d9efa2c3f408e7d953",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4.1Lieud'exécutionducontratdetravailoupremierlieud'emploisidifférentdel'établissementderattachement4.0ConditionsderecrutementDEMANDED'AUTORISATIONDETRAVAILPOURCONCLUREUNCONTRATDE",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_33e921bce172e3a6c5d2",
+            "normalized_end": 883,
+            "normalized_start": 705,
+            "raw_end": 883,
+            "raw_start": 705,
+            "source_id": "src_ec1f1b89af87ce3f422b",
+            "text_sha256": "35948b8a095855c9d57740a21599ace214e170641251500bcd09f802ef7e4dd6"
+          },
+          "text": "4.1Lieud'exécutionducontratdetravailoupremierlieud'emploisidifférentdel'établissementderattachement4.0ConditionsderecrutementDEMANDED'AUTORISATIONDETRAVAILPOURCONCLUREUNCONTRATDE",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4.1Lieud'exécutionducontratdetravailoupremierlieud'emploisidifférentdel'établissementderattachement4.0ConditionsderecrutementDEMANDED'AUTORISATIONDETRAVAILPOURCONCLUREUNCONTRATDE",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 883,
+        "normalized_start": 705,
+        "raw_end": 883,
+        "raw_start": 705,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "35948b8a095855c9d57740a21599ace214e170641251500bcd09f802ef7e4dd6"
+      },
+      "kind": "unclassified",
+      "order": 6,
+      "requirement_status": "unspecified",
+      "section_id": "sec_cba715a4cbe608e0b10f",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 883,
+        "normalized_start": 705,
+        "raw_end": 883,
+        "raw_start": 705,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "35948b8a095855c9d57740a21599ace214e170641251500bcd09f802ef7e4dd6"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_5f0b7d13c0e05ebb7c39",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "TRAVAILAVECUNSALARIÉÉTRANGERRÉSIDANTHORSDEFRANCE",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_33e921bce172e3a6c5d2",
+            "normalized_end": 2220,
+            "normalized_start": 933,
+            "raw_end": 2220,
+            "raw_start": 933,
+            "source_id": "src_ec1f1b89af87ce3f422b",
+            "text_sha256": "5054d13d2197ccf6b779b2ee9b4c1a3c81419522746f809b9ed6141a09fce497"
+          },
+          "text": "(Art.L.5221-1etsuiv.etR.5221-1etsuiv.ducodedutravail)\n(Réservéadministration)N°deDossier: Reçule:\nMisàjourle23/11/2016Dateprévisibled'embauche:jj/mm/aaaa\nSalairebruthorsavantageennature,pratiquédansl'entrepriseaprèspérioded'essai,pourunemploidemême\nqualificationetl'exercicedefonctionséquivalentes:000000000,00€/annuel□mensuel□adresse:\nPays: Courriel: téléphone:\nActivitérèglementée:Intitulé Formalité:\nauprèsde: le:jj/mm/aaaaN°:•descriptionprécisedel'emploioccupéoudelamission:\n•spécificitédestâchesàeffectuer:\n•exigencesprofessionnellesdéterminantespouroccuperl'emploi:\n(àcompléteréventuellementparpiècejointesurpapierlibre):Uneoffred'emploiaétédéposéeàPôleemploi□auprèsde:(organismedeplacement)\nNumérodel'offre:000000A Nombredemisesenrelationsoudecandidaturesreçues:000Etablissementresponsabledupaiementdelataxe□Etablissementgestionnairedelademande□\nEtablissementouservice: Siret:00000000000000\nContact:NOMprénom Fonction: téléphone:0000000000\nCourriel:\nEtablissementouservice: Siret:00000000000000\nContact:NOMprénom Fonction: téléphone:0000000000\nCourriel:\nAdresse\nComplément: Codepostal:00000Commune:\nDénomination: Activité(NAF):0000ASiret:00000000000000\nAdresse:\nComplément: Codepostal:00000Commune:\nSignataire:NOMPrénom Signatureetcachetdel'entreprise:Formulaire15187*02\nFeuillet2",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "TRAVAILAVECUNSALARIÉÉTRANGERRÉSIDANTHORSDEFRANCE",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 932,
+        "normalized_start": 884,
+        "raw_end": 932,
+        "raw_start": 884,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "721b221062aabb217afab9cbbbb76d64595b41b2350cf93942117582a1dd1d2b"
+      },
+      "kind": "unclassified",
+      "order": 7,
+      "requirement_status": "unspecified",
+      "section_id": "sec_3b364ed06d3b7a3da142",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 2220,
+        "normalized_start": 884,
+        "raw_end": 2220,
+        "raw_start": 884,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "d3ff9c35e0ac636ce6ec4b7d3f3821478b0ea118784ebe80975ca110d284ce54"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_ea73042eca8770ea05af",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4.1Lieud'exécutiondelaprestationoudelamissionDEMANDED'AUTORISATIONDETRAVAILPOURCONCLUREUNCONTRATDE",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_33e921bce172e3a6c5d2",
+            "normalized_end": 389,
+            "normalized_start": 291,
+            "raw_end": 389,
+            "raw_start": 291,
+            "source_id": "src_ec1f1b89af87ce3f422b",
+            "text_sha256": "a0fc7c523b27cade022856dd03e5e18336277f9b4dcb4155859de35045b81c4f"
+          },
+          "text": "4.1Lieud'exécutiondelaprestationoudelamissionDEMANDED'AUTORISATIONDETRAVAILPOURCONCLUREUNCONTRATDE",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4.1Lieud'exécutiondelaprestationoudelamissionDEMANDED'AUTORISATIONDETRAVAILPOURCONCLUREUNCONTRATDE",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 389,
+        "normalized_start": 291,
+        "raw_end": 389,
+        "raw_start": 291,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "a0fc7c523b27cade022856dd03e5e18336277f9b4dcb4155859de35045b81c4f"
+      },
+      "kind": "unclassified",
+      "order": 8,
+      "requirement_status": "unspecified",
+      "section_id": "sec_c6c9ee38804345b72fb8",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 389,
+        "normalized_start": 291,
+        "raw_end": 389,
+        "raw_start": 291,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "a0fc7c523b27cade022856dd03e5e18336277f9b4dcb4155859de35045b81c4f"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e92895bd341a181666c9",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "TRAVAILAVECUNSALARIÉÉTRANGERRÉSIDANTHORSDEFRANCE",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_33e921bce172e3a6c5d2",
+            "normalized_end": 1043,
+            "normalized_start": 439,
+            "raw_end": 1043,
+            "raw_start": 439,
+            "source_id": "src_ec1f1b89af87ce3f422b",
+            "text_sha256": "b536e5cdf4ee09058e616bd7bba8d9168b9c8989f038f72c30fb5d4aa747ce8d"
+          },
+          "text": "article.L.5221-1etsuiv.etR.5221-1etsuiv.ducodedutravail)\n(Réservéadministration)N°deDossier: Reçule:\nMisàjourle23/11/20166­représentantdel'employeurenFranceresponsabledupaiementdelataxe□5Etablissementgestionnairedelademande□\nEtablissementouservice: Siret:00000000000000\nContact:NOMprénom Fonction: téléphone:0000000000\nCourriel:\nEtablissementouservice: Siret:00000000000000\nContact:NOMprénom Fonction: téléphone:0000000000\nCourriel:\nAdresse\nComplément: Codepostal:00000Commune:Dénomination: Activité(NAF):0000ASiret:00000000000000\nAdresse:\nComplément: Codepostal:00000Commune:Formulaire15187*02\nFeuillet3",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "TRAVAILAVECUNSALARIÉÉTRANGERRÉSIDANTHORSDEFRANCE",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 438,
+        "normalized_start": 390,
+        "raw_end": 438,
+        "raw_start": 390,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "721b221062aabb217afab9cbbbb76d64595b41b2350cf93942117582a1dd1d2b"
+      },
+      "kind": "unclassified",
+      "order": 9,
+      "requirement_status": "unspecified",
+      "section_id": "sec_49c663d65573cd05a9b8",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 1043,
+        "normalized_start": 390,
+        "raw_end": 1043,
+        "raw_start": 390,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "658d4fa42d8bd5e722eb907f0e3c5e2b7746f54b003afe4c09469fb8f4b06028"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_bd73d15318802de08127",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2.1.-2MOBILITEINTRAGROUPE:situationdel'entrepriseoul'établissementd'accueilauseindugroupe",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_33e921bce172e3a6c5d2",
+            "normalized_end": 1655,
+            "normalized_start": 1134,
+            "raw_end": 1655,
+            "raw_start": 1134,
+            "source_id": "src_ec1f1b89af87ce3f422b",
+            "text_sha256": "2e36980a3d484bb8a8bf947f4e5674e92f174be9ad18e2ab7d51862d15ca8555"
+          },
+          "text": "Objetdelamissionoudelaformation:\ndatededébutprévisible:jj/mm/aaaadatedefinprévisible:jj/mm/aaaa\n(àcompléteréventuellementparpiècejointesurpapierlibre)2.1-1PRESTATIONDESERVICEINTERNATIONALE\nGroupeouentrepriseétrangers:Dénomination siteinternet:www.\nSociétémère□sociétéfiliale□succursale□bureaudeliaison□:\ndates:prisedecontrôledelasociétéfrancaise:jj/mm/aaaacréationdel'établissementfrançais:jj/mm/aaaaActivitéounature: Montantdelaprestation:000000000000,00€\ndatededébutprévisible: jj/mm/aaaa datedefinprévisible:jj/mm/aaaa",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2.1.-2MOBILITEINTRAGROUPE:situationdel'entrepriseoul'établissementd'accueilauseindugroupe",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 1133,
+        "normalized_start": 1044,
+        "raw_end": 1133,
+        "raw_start": 1044,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "0acf4697c8588bbf6bc5d13fe56c09e247b998faac3174ed4c2e6283d29b1b7b"
+      },
+      "kind": "unclassified",
+      "order": 10,
+      "requirement_status": "unspecified",
+      "section_id": "sec_49b193a8f17bfb6f5a99",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 1655,
+        "normalized_start": 1044,
+        "raw_end": 1655,
+        "raw_start": 1044,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "06bf3c602272972a7cf19f91d3ef8582bd52ea7836157a1a48acffde35a453ee"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e31f21f5120b0648e363",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4.0modalitésd'exécutiondelamissionoudelaformationdusalariédétaché2.1ENTREPRISEETRANGERE(employeurdusalariéétranger)",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_33e921bce172e3a6c5d2",
+            "normalized_end": 2165,
+            "normalized_start": 1772,
+            "raw_end": 2165,
+            "raw_start": 1772,
+            "source_id": "src_ec1f1b89af87ce3f422b",
+            "text_sha256": "a611172f15d15b9c28d311c2b1398ca0942d12b5d121b0d868490b221e08804f"
+          },
+          "text": "Dénomination/Nomprénom:\nRegistred'enregistrement:Nomduregistre N°d'enregistrement:\nActivitééconomique: datedecréation:jj/mm/aaaa\nAdresse:\nVille: Pays:\ncourriel(mail):\nSignataire:NOMPrénom Signatureetcachetdel'entreprise:\nQualité:\nFaitle:jj/mm/aaaaà:3.0SALARIÉ(situationavantledétachement)\nDatedeconclusionducontratdetravailavecl'employeurétranger:jj/mm/aaaa\nadresse:\nPays: Courriel: téléphone:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4.0modalitésd'exécutiondelamissionoudelaformationdusalariédétaché2.1ENTREPRISEETRANGERE(employeurdusalariéétranger)",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 1771,
+        "normalized_start": 1656,
+        "raw_end": 1771,
+        "raw_start": 1656,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "9e6d272e9064c6bf24b36d9b7d8c53433f5368531373fd405d4d7111e14daec1"
+      },
+      "kind": "unclassified",
+      "order": 11,
+      "requirement_status": "unspecified",
+      "section_id": "sec_05c9589650e090e6c48c",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 2165,
+        "normalized_start": 1656,
+        "raw_end": 2165,
+        "raw_start": 1656,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "d76670250d1a35e03170f8638c14bea9b94c6127b11759e3ffad31017a444d6f"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_8cc5fa8bc8e3a3385f30",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "TRAVAILAVECUNSALARIÉÉTRANGERRÉSIDANTHORSDEFRANCE",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_33e921bce172e3a6c5d2",
+            "normalized_end": 1837,
+            "normalized_start": 826,
+            "raw_end": 1837,
+            "raw_start": 826,
+            "source_id": "src_ec1f1b89af87ce3f422b",
+            "text_sha256": "2e09364b9030c865f93cc91123ecd199eaaf9945181ffdb015bc5075fecdca49"
+          },
+          "text": "(Art.L.5221-1etsuiv.etR.5221-1etsuiv.ducodedutravail)\n(Réservéadministration)N°deDossier: Reçule:\nadresse:\nPays: Courriel: téléphone:\nSalariéN°:000\nPasseport:Numéro Délivréle:jj/mm/aaaaexpirantle:jj/mm/aaaapar:\nNOM(S)defamille: NOM(S)denaissance:\nPrénom(s): Sexe:M□F□Né(e)le:jj/mm/aaaaNationalité:\nNOM(S)defamille: NOM(S)denaissance:\nPrénom(s): Sexe:M□F□Né(e)le:jj/mm/aaaaNationalité:\nNOM(S)defamille: NOM(S)denaissance:\nPrénom(s): Sexe:M□F□Né(e)le:jj/mm/aaaaNationalité:NOM(S)defamille: NOM(S)denaissance:\nPrénom(s): Sexe:M□F□Né(e)le:jj/mm/aaaaNationalité:\nNOM(S)defamille: NOM(S)denaissance:\nPrénom(s): Sexe:M□F□Né(e)le:jj/mm/aaaaNationalité:\nNOM(S)defamille: NOM(S)denaissance:\nPrénom(s): Sexe:M□F□Né(e)le:jj/mm/aaaaNationalité:Misàjourle23/11/2016adresse:\nPays: Courriel: téléphone:adresse:\nPays: Courriel: téléphone:\nadresse:\nPays: Courriel: téléphone:\nadresse:\nPays: Courriel: téléphone:\nadresse:\nPays: Courriel: téléphone:\nSignataire:NOMPrénom Signatureetcachetdel'entreprise:Formulaire15187*02\nFeuillet4",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "TRAVAILAVECUNSALARIÉÉTRANGERRÉSIDANTHORSDEFRANCE",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 825,
+        "normalized_start": 777,
+        "raw_end": 825,
+        "raw_start": 777,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "721b221062aabb217afab9cbbbb76d64595b41b2350cf93942117582a1dd1d2b"
+      },
+      "kind": "unclassified",
+      "order": 12,
+      "requirement_status": "unspecified",
+      "section_id": "sec_51c45b54cb5be003e1d7",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 1837,
+        "normalized_start": 777,
+        "raw_end": 1837,
+        "raw_start": 777,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "70241cc4d84c015fe058e8eec7eaca54648ca7f3578334aac746da91fee5d312"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_a1538ad70d7591252746",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "TRAVAILAVECUNSALARIÉÉTRANGERRÉSIDANTHORSDEFRANCE",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_33e921bce172e3a6c5d2",
+            "normalized_end": 2248,
+            "normalized_start": 608,
+            "raw_end": 2248,
+            "raw_start": 608,
+            "source_id": "src_ec1f1b89af87ce3f422b",
+            "text_sha256": "8fb60c375c45abad5a60b230ff484c2ba28a6b63d31f45e0ab210e62c73ef775"
+          },
+          "text": "(Art.L.5221-1etsuiv.etR.5221-1etsuiv.ducodedutravail)\nMisàjourle23/11/2016Dénomination: Activité(NAF):0000A Siret:00000000000000\nAdresse:\nComplément: Codepostal:00000Commune:\nDatededébutprévisible:jj/mm/aaaa Datedefinprévisible:jj/mm/aaaa\nDénomination: Activité(NAF):0000A Siret:00000000000000\nAdresse:\nComplément: Codepostal:00000Commune:\nDatededébutprévisible:jj/mm/aaaa Datedefinprévisible:jj/mm/aaaa\nDénomination: Activité(NAF):0000A Siret:00000000000000\nAdresse:\nComplément: Codepostal:00000Commune:\nDatededébutprévisible:jj/mm/aaaa Datedefinprévisible:jj/mm/aaaa\nDénomination: Activité(NAF):0000A Siret:00000000000000\nAdresse:\nComplément: Codepostal:00000Commune:\nDatededébutprévisible:jj/mm/aaaa Datedefinprévisible:jj/mm/aaaa\nDénomination: Activité(NAF):0000A Siret:00000000000000\nAdresse:\nComplément: Codepostal:00000Commune:\nDatededébutprévisible:jj/mm/aaaa Datedefinprévisible:jj/mm/aaaa\nDénomination: Activité(NAF):0000A Siret:00000000000000\nAdresse:\nComplément: Codepostal:00000Commune:\nDatededébutprévisible:jj/mm/aaaa Datedefinprévisible:jj/mm/aaaa\nDénomination: Activité(NAF):0000A Siret:00000000000000\nAdresse:\nComplément: Codepostal:00000Commune:\nDatededébutprévisible:jj/mm/aaaa Datedefinprévisible:jj/mm/aaaa\nDénomination: Activité(NAF):0000A Siret:00000000000000\nAdresse:\nComplément: Codepostal:00000Commune:\nDatededébutprévisible:jj/mm/aaaa Datedefinprévisible:jj/mm/aaaa\nDénomination: Activité(NAF):0000A Siret:00000000000000\nAdresse:\nComplément: Codepostal:00000Commune:\nDatededébutprévisible:jj/mm/aaaa Datedefinprévisible:jj/mm/aaaa\nSignataire:NOMPrénom Signatureetcachetdel'entreprise:Formulaire15187*02\nFeuillet5",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "TRAVAILAVECUNSALARIÉÉTRANGERRÉSIDANTHORSDEFRANCE",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 607,
+        "normalized_start": 559,
+        "raw_end": 607,
+        "raw_start": 559,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "721b221062aabb217afab9cbbbb76d64595b41b2350cf93942117582a1dd1d2b"
+      },
+      "kind": "unclassified",
+      "order": 13,
+      "requirement_status": "unspecified",
+      "section_id": "sec_261973d10ce9ca8a6b88",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 2248,
+        "normalized_start": 559,
+        "raw_end": 2248,
+        "raw_start": 559,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "9eaea20d804c00e2b8f8bae98c81a44efaa17d00b293cedd18dea8fdb6c2f031"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "extracted_text_sha256": "978e7f215dd49a21b493151014e2f07001d956bd8bc8cdee53f6bc35c05c2101",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 5,
+      "relative_path": "templates/Tunisie/CERFA_15187.02.pdf",
+      "sha256": "cfc8ba035469a556f6e7fdbb4f3977a2f2e3dda3bab391a2f120bc5c19096917",
+      "size_bytes": 1713093,
+      "source_id": "src_ec1f1b89af87ce3f422b"
+    }
+  ],
+  "template_id": "tpl_af842abd2e11a482a00a",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_695dd7628cd8e1f9ee53",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 290,
+        "normalized_start": 0,
+        "raw_end": 290,
+        "raw_start": 0,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "6cb67a75a73e35373ea97b56f9d1db63467f45307335a9c4673dc5eb47daf3ea"
+      },
+      "text": "ANNEXEOBLIGATOIREDETACHEMENT:Informationscomplémentaires\nRappel:ArticleL.8256-1ducodedutravail:lefaitdeserendrecoupabledefraudeoufaussedéclarationpourobtenir,faireobteniroutenter\ndefaireobteniràunétrangerletitrementionnéàl'articleL.8251­1estpunid'unemprisonnementd'unanetd'uneamendede3000€."
+    },
+    {
+      "content_id": "unparsed_19ded1989acf0288ede1",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 776,
+        "normalized_start": 0,
+        "raw_end": 776,
+        "raw_start": 0,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "c1ea30d17bfbfac514b8709c411acbd17c603175fa7bf6458b062d93283ef996"
+      },
+      "text": "SalariéN°:000\nSalariéN°:000\nSalariéN°:000\nSalariéN°:000\nSalariéN°:000ANNEXESPECIFIQUE:recrutementdeplusieurssalariéspourunmêmeemploi\n-listenominativedescontratsde3moisauplus-\nRappel:ArticleL.8256-1ducodedutravail:lefaitdeserendrecoupabledefraudeoufaussedéclarationpourobtenir,faireobteniroutenter\ndefaireobteniràunétrangerletitrementionnéàl'articleL.8251­1estpunid'unemprisonnementd'unanetd'uneamendede3000€.\nPasseport:Numéro Délivréle:jj/mm/aaaaexpirantle:jj/mm/aaaapar:\nPasseport:Numéro Délivréle:jj/mm/aaaaexpirantle:jj/mm/aaaapar:\nPasseport:Numéro Délivréle:jj/mm/aaaaexpirantle:jj/mm/aaaapar:\nPasseport:Numéro Délivréle:jj/mm/aaaaexpirantle:jj/mm/aaaapar:\nPasseport:Numéro Délivréle:jj/mm/aaaaexpirantle:jj/mm/aaaapar:DEMANDED'AUTORISATIONDETRAVAILPOURCONCLUREUNCONTRATDE"
+    },
+    {
+      "content_id": "unparsed_7b28719f4470fc748828",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_33e921bce172e3a6c5d2",
+        "normalized_end": 558,
+        "normalized_start": 0,
+        "raw_end": 558,
+        "raw_start": 0,
+        "source_id": "src_ec1f1b89af87ce3f422b",
+        "text_sha256": "d8db4f98f08973a9d7436dafa7eb1e17316c48e6afc7d52cbe59bee1aac0a9e8"
+      },
+      "text": "Dénomination: Activité(NAF):0000A Siret:00000000000000\nAdresse:\nComplément: Codepostal:00000Commune:\nDatededébutprévisible:jj/mm/aaaa Datedefinprévisible:jj/mm/aaaaANNEXESPECIFIQUE:listedeslieuxd'emploisuccessifsduoudessalariés\nRappel:ArticleL.8256-1ducodedutravail:lefaitdeserendrecoupabledefraudeoufaussedéclarationpourobtenir,faireobteniroutenter\ndefaireobteniràunétrangerletitrementionnéàl'articleL.8251­1estpunid'unemprisonnementd'unanetd'uneamendede3000€.\n(Réservéadministration)N°deDossier: Reçule:DEMANDED'AUTORISATIONDETRAVAILPOURCONCLUREUNCONTRATDE"
+    }
+  ],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

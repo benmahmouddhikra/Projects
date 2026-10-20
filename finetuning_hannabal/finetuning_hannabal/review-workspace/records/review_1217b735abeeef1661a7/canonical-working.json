@@ -1,0 +1,2680 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_f8669797233431d392ac",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "policy",
+    "initial_document_kind": "policy",
+    "languages": [
+      {
+        "basis": "deterministic_text_heuristic",
+        "confidence": 0.0895,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 1349,
+            "normalized_start": 0,
+            "raw_end": 1349,
+            "raw_start": 0,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "bd54e53807c38f01cba359ec7cf7d4ccf2e4fe61bc0b48e8b3835aa7fad55600"
+          }
+        ],
+        "tag": "en"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "unknown",
+    "title": "Acceptable Use Policy",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 21,
+        "normalized_start": 0,
+        "raw_end": 21,
+        "raw_start": 0,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "34aa287a1fcdb9ee8ecced499d87a3be07b5dc50453fe76721f9573b021591a8"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      },
+      {
+        "code": "ambiguity_023_non_contract_destination",
+        "message": "AMBIGUITY-023: the non-contract knowledge-base/training destination is unresolved.",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "not_required",
+    "structure_review_status": "pending",
+    "training_eligibility": "excluded"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_a4d501165d670ac04001",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1. PURPOSE AND LEGAL FRAMEWORK",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 392,
+            "normalized_start": 362,
+            "raw_end": 392,
+            "raw_start": 362,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "61adf6a826e9cde3e1662935b5e9a4ecbe87fe177d7ac1913190adb377a0e56c"
+          },
+          "text": "1. PURPOSE AND LEGAL FRAMEWORK",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1. PURPOSE AND LEGAL FRAMEWORK",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 392,
+        "normalized_start": 362,
+        "raw_end": 392,
+        "raw_start": 362,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "61adf6a826e9cde3e1662935b5e9a4ecbe87fe177d7ac1913190adb377a0e56c"
+      },
+      "kind": "unclassified",
+      "order": 1,
+      "requirement_status": "unspecified",
+      "section_id": "sec_b4938a2038733610618a",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 392,
+        "normalized_start": 362,
+        "raw_end": 392,
+        "raw_start": 362,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "61adf6a826e9cde3e1662935b5e9a4ecbe87fe177d7ac1913190adb377a0e56c"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_b963283aaf4ff6ce00ea",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1.1 This Acceptable Use Policy (\"Policy\") governs the use of information technology systems,",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 602,
+            "normalized_start": 486,
+            "raw_end": 602,
+            "raw_start": 486,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "0ad70b16c7697a4a06585ce61d8e03047f42630243dfcbde14ee3e1bf1dd21a8"
+          },
+          "text": "networks, devices, data, and communications platforms owned or operated by\n[ORGANISATION_NAME]\n(the \"Organisation\").",
+          "variable_ids": [
+            "organisation_name"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "1.1 This Acceptable Use Policy (\"Policy\") governs the use of information technology systems,",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 485,
+        "normalized_start": 393,
+        "raw_end": 485,
+        "raw_start": 393,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "106aaa257610d287e2632ab65a8a2df8bb58add2ad833b4ce10e6fa4754b2260"
+      },
+      "kind": "unclassified",
+      "order": 2,
+      "requirement_status": "unspecified",
+      "section_id": "sec_6ac4554f7577f9a81a12",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 602,
+        "normalized_start": 393,
+        "raw_end": 602,
+        "raw_start": 393,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "0d02fdf6f898b8c82d739efdd353e18b84f7dc37ddc3ce85682e74eb08135727"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_05ab34024b7e567a77ea",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1.2 This Policy is issued pursuant to the Computer Misuse and Cybercrimes Act No. 5 of 2018, the",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 912,
+            "normalized_start": 700,
+            "raw_end": 912,
+            "raw_start": 700,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "69a360f3a5bfaf111f9a23ddd184766ec4a3fe5854801f5622cf74227a3dd89c"
+          },
+          "text": "Data Protection Act No. 24 of 2019 (enforced by the Office of the Data Protection Commissioner\n(ODPC)), the Employment Act No. 11 of 2007, and the Communications Authority of Kenya\nCybersecurity Regulations 2022.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1.2 This Policy is issued pursuant to the Computer Misuse and Cybercrimes Act No. 5 of 2018, the",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 699,
+        "normalized_start": 603,
+        "raw_end": 699,
+        "raw_start": 603,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "79348658fbf2fe62022f5c2eb56f665480270832bf2026a0e34f03a7e51d2578"
+      },
+      "kind": "unclassified",
+      "order": 3,
+      "requirement_status": "unspecified",
+      "section_id": "sec_85ad0416712a2c87a215",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 912,
+        "normalized_start": 603,
+        "raw_end": 912,
+        "raw_start": 603,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "5d74266cd3dc30459773c969f9ae67e8391c5572c503628cc8eb356877f24fc6"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e32ba230e34d42380b92",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1.3 Compliance with this Policy is a condition of accessing the Organisation's IT systems. Breach of",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 1206,
+            "normalized_start": 1014,
+            "raw_end": 1206,
+            "raw_start": 1014,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "cabdb499a5a339679c89c807b1bedfc07c002a6583606233d0e48183eabae6aa"
+          },
+          "text": "this Policy constitutes misconduct under Section 41 of the Employment Act No. 11 of 2007 and may\nalso constitute a criminal offence under the Computer Misuse and Cybercrimes Act No. 5 of 2018.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1.3 Compliance with this Policy is a condition of accessing the Organisation's IT systems. Breach of",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1013,
+        "normalized_start": 913,
+        "raw_end": 1013,
+        "raw_start": 913,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "9b4d81bfb0224e426b9aeb2795e1e267c41ef0d2df03ca0abc1fba667d38faed"
+      },
+      "kind": "unclassified",
+      "order": 4,
+      "requirement_status": "unspecified",
+      "section_id": "sec_bb0962b704a9e4a99a7d",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1206,
+        "normalized_start": 913,
+        "raw_end": 1206,
+        "raw_start": 913,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "6bfad9d24958785dd5bd149b8d06d20e8c13b7f7988864b31499c706b724e066"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_48735f21347132fc0385",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2. SCOPE",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 1215,
+            "normalized_start": 1207,
+            "raw_end": 1215,
+            "raw_start": 1207,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "c918d9ae239b08f39f98b4065f3114eec7400901c0e9ceb217c1d1408c02e3bf"
+          },
+          "text": "2. SCOPE",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2. SCOPE",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1215,
+        "normalized_start": 1207,
+        "raw_end": 1215,
+        "raw_start": 1207,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "c918d9ae239b08f39f98b4065f3114eec7400901c0e9ceb217c1d1408c02e3bf"
+      },
+      "kind": "unclassified",
+      "order": 5,
+      "requirement_status": "unspecified",
+      "section_id": "sec_9261124dc7972b620914",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1215,
+        "normalized_start": 1207,
+        "raw_end": 1215,
+        "raw_start": 1207,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "c918d9ae239b08f39f98b4065f3114eec7400901c0e9ceb217c1d1408c02e3bf"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_94480fc3e1db6432876a",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2.1 This Policy applies to:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 1261,
+            "normalized_start": 1244,
+            "raw_end": 1261,
+            "raw_start": 1244,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "a5da8edfee750259e332f0dca04ed6ad1d00f895396b6e0ad260e8d5f036b255"
+          },
+          "text": "[COVERED_USERS]\n.",
+          "variable_ids": [
+            "covered_users"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "2.1 This Policy applies to:",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1243,
+        "normalized_start": 1216,
+        "raw_end": 1243,
+        "raw_start": 1216,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "de8298fa45b4c8c2385761cdb98ae792e3539d6710267c508954a69394e13811"
+      },
+      "kind": "unclassified",
+      "order": 6,
+      "requirement_status": "unspecified",
+      "section_id": "sec_5b5fc11ac270b23ca3bd",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1261,
+        "normalized_start": 1216,
+        "raw_end": 1261,
+        "raw_start": 1216,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "6982dff80308be95f1b9007f08eef2b29004dbd8ff5bfd80113f78f88a5bd1f2"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_6ddf70308ae156f107d3",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2.2 The following IT systems and assets are covered by this Policy:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 1349,
+            "normalized_start": 1330,
+            "raw_end": 1349,
+            "raw_start": 1330,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "f7317b5bd58d3b5796916839c1b98be0beded585c991ce0b92b0e171d1981932"
+          },
+          "text": "[COVERED_SYSTEMS]\n.",
+          "variable_ids": [
+            "covered_systems"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "2.2 The following IT systems and assets are covered by this Policy:",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1329,
+        "normalized_start": 1262,
+        "raw_end": 1329,
+        "raw_start": 1262,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "db94601ea7bb7ab500d70db5a0f8fd75a1c8549d41b920798ddf7108a7f76ea5"
+      },
+      "kind": "unclassified",
+      "order": 7,
+      "requirement_status": "unspecified",
+      "section_id": "sec_02c9e82f4c8d6eaf08c7",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1349,
+        "normalized_start": 1262,
+        "raw_end": 1349,
+        "raw_start": 1262,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "aae4e8634e8ad48925306280ee316d9f364c6359e8079256d8b041f073d48f85"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_55a83429f271d041a61e",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2.3 Personal device (BYOD) access:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 50,
+            "normalized_start": 35,
+            "raw_end": 50,
+            "raw_start": 35,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "49008faf50bd31553e31d3379ef797db59c68fbc2089f57c7c099f5c7180dfe1"
+          },
+          "text": "[BYOD_POLICY]\n.",
+          "variable_ids": [
+            "byod_policy"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "2.3 Personal device (BYOD) access:",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 34,
+        "normalized_start": 0,
+        "raw_end": 34,
+        "raw_start": 0,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "76f0a4d79a8cde7a3e6269981d0e5c8e09945fe77f079f97116ae264bd744601"
+      },
+      "kind": "unclassified",
+      "order": 8,
+      "requirement_status": "unspecified",
+      "section_id": "sec_c5d6e12927b60022bea8",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 50,
+        "normalized_start": 0,
+        "raw_end": 50,
+        "raw_start": 0,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "40a2729dd3a411216e9cf2262e500f7038d0f249f74071abee9626dc0069c4b5"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_9dab7c2dbb96ee54ea05",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3. PERMITTED USE",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 67,
+            "normalized_start": 51,
+            "raw_end": 67,
+            "raw_start": 51,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "b0f978c598a075513c08ae145bcd5e510269455fcfb926d29429a3aadf3e5ff4"
+          },
+          "text": "3. PERMITTED USE",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3. PERMITTED USE",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 67,
+        "normalized_start": 51,
+        "raw_end": 67,
+        "raw_start": 51,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "b0f978c598a075513c08ae145bcd5e510269455fcfb926d29429a3aadf3e5ff4"
+      },
+      "kind": "unclassified",
+      "order": 9,
+      "requirement_status": "unspecified",
+      "section_id": "sec_8b42da87da47b05b0d7e",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 67,
+        "normalized_start": 51,
+        "raw_end": 67,
+        "raw_start": 51,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "b0f978c598a075513c08ae145bcd5e510269455fcfb926d29429a3aadf3e5ff4"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_dd8d847c9dc7cb5f959f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3.1 Authorised users may use the Organisation's IT systems for legitimate work purposes,",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 416,
+            "normalized_start": 157,
+            "raw_end": 416,
+            "raw_start": 157,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "868566c074ccf1041c0a125ee11afdc4b33da895ba9986ef5e05f3e78a215b63"
+          },
+          "text": "including: communicating with colleagues, clients, and suppliers using approved platforms;\naccessing approved software tools and data; storing work files on approved cloud or on-premises\nstorage; and attending authorised video conferences and online meetings.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3.1 Authorised users may use the Organisation's IT systems for legitimate work purposes,",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 156,
+        "normalized_start": 68,
+        "raw_end": 156,
+        "raw_start": 68,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "faaa511458258e831ff45f3b99eca948b361d60e248c6f028265e8408b28f829"
+      },
+      "kind": "unclassified",
+      "order": 10,
+      "requirement_status": "unspecified",
+      "section_id": "sec_96dafecbe556f7b3defb",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 416,
+        "normalized_start": 68,
+        "raw_end": 416,
+        "raw_start": 68,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "d8545329de9d707efee364e1157e330f40acf476644a88ed9e98e095c3850d9a"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_d5bd02e77a44e7547f93",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3.2 Personal use:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 458,
+            "normalized_start": 435,
+            "raw_end": 458,
+            "raw_start": 435,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "c5c72ec8408e917573cb239ce571d71a6b2c0f9008bf40c6d7cf6024c777e5c0"
+          },
+          "text": "[PERSONAL_USE_POLICY]\n.",
+          "variable_ids": [
+            "personal_use_policy"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "3.2 Personal use:",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 434,
+        "normalized_start": 417,
+        "raw_end": 434,
+        "raw_start": 417,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "6a038de2303cb9158d57b6c7edcfd5b27b6e8623ed3490c1c854d9bc2d788d86"
+      },
+      "kind": "unclassified",
+      "order": 11,
+      "requirement_status": "unspecified",
+      "section_id": "sec_f6ebd940f6c7b57c62bd",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 458,
+        "normalized_start": 417,
+        "raw_end": 458,
+        "raw_start": 417,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "898fa355ffc9e0767e0431c02c7fcd31601a59388ca165ec64d8ac497b6078a5"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_231174964542739eda2c",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3.3 Social media:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 500,
+            "normalized_start": 477,
+            "raw_end": 500,
+            "raw_start": 477,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "21a1adf38ebd25093b77907d14a5f6cd274771c42de8090427eb2a3ea826c875"
+          },
+          "text": "[SOCIAL_MEDIA_POLICY]\n.",
+          "variable_ids": [
+            "social_media_policy"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "3.3 Social media:",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 476,
+        "normalized_start": 459,
+        "raw_end": 476,
+        "raw_start": 459,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "e45851dcb7473e22dbda31cc4f80420c9ae80eb4982e865523f25516a558dddf"
+      },
+      "kind": "unclassified",
+      "order": 12,
+      "requirement_status": "unspecified",
+      "section_id": "sec_5e858a28240da89dd5db",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 500,
+        "normalized_start": 459,
+        "raw_end": 500,
+        "raw_start": 459,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "281e9e5c731533ffbf17eb4d7f2d1813068aba01cbfe1b06fab1d03f8d2b6e4d"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e18d2f910c33c618b1d3",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4. PROHIBITED USE",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 518,
+            "normalized_start": 501,
+            "raw_end": 518,
+            "raw_start": 501,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "d17790e518090e8e58d9060cebe80768e62ac7fd42ff00f7417d15624fd2de5b"
+          },
+          "text": "4. PROHIBITED USE",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4. PROHIBITED USE",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 518,
+        "normalized_start": 501,
+        "raw_end": 518,
+        "raw_start": 501,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "d17790e518090e8e58d9060cebe80768e62ac7fd42ff00f7417d15624fd2de5b"
+      },
+      "kind": "unclassified",
+      "order": 13,
+      "requirement_status": "unspecified",
+      "section_id": "sec_9ac27257700beb824840",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 518,
+        "normalized_start": 501,
+        "raw_end": 518,
+        "raw_start": 501,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "d17790e518090e8e58d9060cebe80768e62ac7fd42ff00f7417d15624fd2de5b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_d96706efcd91e5280417",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4.1 The following activities are strictly prohibited and may constitute offences under the Computer",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 2040,
+            "normalized_start": 619,
+            "raw_end": 2040,
+            "raw_start": 619,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "4e0732516e48fd6a94f0afb1a5418a750698d636a418845870f57e14ecea6763"
+          },
+          "text": "Misuse and Cybercrimes Act No. 5 of 2018:\n(a) Unauthorised access to any computer system, server, or data repository — Section 3 of the\nComputer Misuse and Cybercrimes Act No. 5 of 2018 (penalty: up to KES 5,000,000 or 3 years\nimprisonment).\n(b) Unlawful interception of data transmissions — Section 7 of the Computer Misuse and\nCybercrimes Act No. 5 of 2018.\n(c) Computer fraud, including creating or using false electronic records to obtain financial\nadvantage — Section 14 of the Computer Misuse and Cybercrimes Act No. 5 of 2018.\n(d) Publishing false or misleading information through electronic means — Section 22 of the\nComputer Misuse and Cybercrimes Act No. 5 of 2018.\n(e) Cyber harassment, intimidation, or sending unsolicited communications — Sections 27 and 28\nof the Computer Misuse and Cybercrimes Act No. 5 of 2018.\n(f) Downloading, installing, or distributing unlicensed or malicious software, including ransomware,\nspyware, or cryptocurrency mining applications.\n(g) Sharing login credentials, passwords, or access tokens with any unauthorised person.\n(h) Transferring personal data of clients, employees, or third parties to unauthorised recipients or\nunapproved systems, in violation of the Data Protection Act No. 24 of 2019.\n(i) Accessing, downloading, or distributing illegal content, including content prohibited under the\nFilms and Stage Plays Act Cap. 222 or the Sexual Offences Act No. 3 of 2006.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4.1 The following activities are strictly prohibited and may constitute offences under the Computer",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 618,
+        "normalized_start": 519,
+        "raw_end": 618,
+        "raw_start": 519,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "746117de6f53698fcf11eec3dd565a1440111c9a07ea9f4c93e6978289049b5b"
+      },
+      "kind": "unclassified",
+      "order": 14,
+      "requirement_status": "unspecified",
+      "section_id": "sec_0a16814393e4d0b95a01",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 2040,
+        "normalized_start": 519,
+        "raw_end": 2040,
+        "raw_start": 519,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "797d6fd57f2c1a9f5c054ebe05b8953c33f5d04d4ca445986ca2c109c24b7c68"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e45d1a8f219e8327db11",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4.2 Additional prohibited activities specific to this Organisation:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 2145,
+            "normalized_start": 2109,
+            "raw_end": 2145,
+            "raw_start": 2109,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "4a0fc4e06a617128856ac90c2bd7259717df916e0c5561f049bcba419dc783ca"
+          },
+          "text": "[ADDITIONAL_PROHIBITED_ACTIVITIES]\n.",
+          "variable_ids": [
+            "additional_prohibited_activities"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "4.2 Additional prohibited activities specific to this Organisation:",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 2108,
+        "normalized_start": 2041,
+        "raw_end": 2108,
+        "raw_start": 2041,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "e3af9562becf20d9f87fe4da35f78f1687d24e7110bc0844b2b5e4d755e55fcc"
+      },
+      "kind": "unclassified",
+      "order": 15,
+      "requirement_status": "unspecified",
+      "section_id": "sec_78849893e19c7b292d3f",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 2145,
+        "normalized_start": 2041,
+        "raw_end": 2145,
+        "raw_start": 2041,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "e2614fb8830cce923939b4634046e96c1bdd219287192ddd0e1dd3c0f5aef6ce"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_62a41934c6947b89f373",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5. SECURITY OBLIGATIONS",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 2169,
+            "normalized_start": 2146,
+            "raw_end": 2169,
+            "raw_start": 2146,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "a582b625ce5ceb96670bb2078e61d6d494ecf704d6c85dafbe5762ac82348f30"
+          },
+          "text": "5. SECURITY OBLIGATIONS",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5. SECURITY OBLIGATIONS",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 2169,
+        "normalized_start": 2146,
+        "raw_end": 2169,
+        "raw_start": 2146,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "a582b625ce5ceb96670bb2078e61d6d494ecf704d6c85dafbe5762ac82348f30"
+      },
+      "kind": "unclassified",
+      "order": 16,
+      "requirement_status": "unspecified",
+      "section_id": "sec_9ae9e2bd642d2a861431",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 2169,
+        "normalized_start": 2146,
+        "raw_end": 2169,
+        "raw_start": 2146,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "a582b625ce5ceb96670bb2078e61d6d494ecf704d6c85dafbe5762ac82348f30"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_3be5e2c4ee9dc26b3e56",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5.1 Password requirements: All system passwords must be a minimum of",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 236,
+            "normalized_start": 69,
+            "raw_end": 236,
+            "raw_start": 69,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "702467874cf79f3908ba18494b89a27f88ccc7b021314bc0ef2fd60790f96b6c"
+          },
+          "text": "[PASSWORD_MIN_LENGTH]\nand must be changed\n[PASSWORD_ROTATION]\n. Passwords must not be shared, written down in accessible locations, or reused across different\nsystems.",
+          "variable_ids": [
+            "password_min_length",
+            "password_rotation"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "5.1 Password requirements: All system passwords must be a minimum of",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 68,
+        "normalized_start": 0,
+        "raw_end": 68,
+        "raw_start": 0,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "b1b8afec88c6101c4e97bf09449fede183201c9b7032837eebd3d1513796e0bb"
+      },
+      "kind": "unclassified",
+      "order": 17,
+      "requirement_status": "unspecified",
+      "section_id": "sec_80c6f48894d5769bbd19",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 236,
+        "normalized_start": 0,
+        "raw_end": 236,
+        "raw_start": 0,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "17024d0a77b787a1823a8df7873b5312a1db6a5a0d69a5cb3659c5d0bf473182"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_b390654f7fb214aa9c27",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5.2 Screen locking: Workstations and devices must be locked when unattended, using",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 351,
+            "normalized_start": 320,
+            "raw_end": 351,
+            "raw_start": 320,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "fab2371e4b65552f7543d8f267f245f1bbee4b23672987455818da62e7270808"
+          },
+          "text": "password-protected screen lock.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5.2 Screen locking: Workstations and devices must be locked when unattended, using",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 319,
+        "normalized_start": 237,
+        "raw_end": 319,
+        "raw_start": 237,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "6181359601724c57c23009814c1aabe9be6e4ffd9dc9e3457d5682de8c4872b2"
+      },
+      "kind": "unclassified",
+      "order": 18,
+      "requirement_status": "unspecified",
+      "section_id": "sec_5d24dff90e0d570fbd90",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 351,
+        "normalized_start": 237,
+        "raw_end": 351,
+        "raw_start": 237,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "bdd03f98df797eea1c4fe9ac76a45096ca32e4cc153fc0ad2a61247756b6107c"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_c702364b20d46d65b0a6",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5.3 Remote access:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 401,
+            "normalized_start": 371,
+            "raw_end": 401,
+            "raw_start": 371,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "57e3b13dca5810c0a76af6cbe3da5f8bb4a015ca96cd6997b25fd79da007c739"
+          },
+          "text": "[REMOTE_ACCESS_REQUIREMENTS]\n.",
+          "variable_ids": [
+            "remote_access_requirements"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "5.3 Remote access:",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 370,
+        "normalized_start": 352,
+        "raw_end": 370,
+        "raw_start": 352,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "8fa96307cd8a096a54bd875489e1f3372b6ec897e9225a5a4717834e7558b924"
+      },
+      "kind": "unclassified",
+      "order": 19,
+      "requirement_status": "unspecified",
+      "section_id": "sec_42ec0ef64ecf33a24398",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 401,
+        "normalized_start": 352,
+        "raw_end": 401,
+        "raw_start": 352,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "c7189a398560c8df966caecaf7e540ab3d96a1523e80f7c484e19479b20d767b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_606d7485acbaa4b5e3e7",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5.4 Incident reporting: Any suspected security incident, data breach, lost or stolen device, or",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 844,
+            "normalized_start": 498,
+            "raw_end": 844,
+            "raw_start": 498,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "051895bf20836aa525106d91e3dd25c8e69e8fa72653e7508a731f84d90b202e"
+          },
+          "text": "unusual system activity must be reported to the Data Protection Officer (\n[DPO_CONTACT]\n) within\n[INCIDENT_REPORTING_DEADLINE]\nof discovery. The Organisation is required to notify the Office of the Data Protection Commissioner\n(ODPC) of reportable personal data breaches within 72 hours under Section 43 of the Data\nProtection Act No. 24 of 2019.",
+          "variable_ids": [
+            "dpo_contact",
+            "incident_reporting_deadline"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "5.4 Incident reporting: Any suspected security incident, data breach, lost or stolen device, or",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 497,
+        "normalized_start": 402,
+        "raw_end": 497,
+        "raw_start": 402,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "c3c585704534a7cbbf439b4b444e0ab42eb8d4a84d0f076584a7f1cfb381b191"
+      },
+      "kind": "unclassified",
+      "order": 20,
+      "requirement_status": "unspecified",
+      "section_id": "sec_8e2c5b5c3f6f64027617",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 844,
+        "normalized_start": 402,
+        "raw_end": 844,
+        "raw_start": 402,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "6b56a5afa0d60eab7b6accee04075108cf64e4dffd539f5c6a3254fa38369dd8"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_eb0400c7c7a20cd370f2",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5.5 Software updates: Authorised users must not prevent or delay the installation of approved",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 968,
+            "normalized_start": 939,
+            "raw_end": 968,
+            "raw_start": 939,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "15a9ae1ed8a06ee6df7a77d741513ee2c7c8cd93617dfb7e1b58083b1523e915"
+          },
+          "text": "security updates and patches.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5.5 Software updates: Authorised users must not prevent or delay the installation of approved",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 938,
+        "normalized_start": 845,
+        "raw_end": 938,
+        "raw_start": 845,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "1304cfd7d614773ef3d14724bc16b856f4012310c48ac61f8ab842a8285f2c2c"
+      },
+      "kind": "unclassified",
+      "order": 21,
+      "requirement_status": "unspecified",
+      "section_id": "sec_aace0a030d0243faf2ad",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 968,
+        "normalized_start": 845,
+        "raw_end": 968,
+        "raw_start": 845,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "722bb73ca2b6f0f375793ef962c48869c67dd0d451eb442e18fd57ae1810c1de"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_136c440cf00e36295e6b",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "6. MONITORING AND PRIVACY",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 994,
+            "normalized_start": 969,
+            "raw_end": 994,
+            "raw_start": 969,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "fca17dda05f199c30c27e8f85bdd41286564dd2b9547cdcd9bb5560fb7fde6d4"
+          },
+          "text": "6. MONITORING AND PRIVACY",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "6. MONITORING AND PRIVACY",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 994,
+        "normalized_start": 969,
+        "raw_end": 994,
+        "raw_start": 969,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "fca17dda05f199c30c27e8f85bdd41286564dd2b9547cdcd9bb5560fb7fde6d4"
+      },
+      "kind": "unclassified",
+      "order": 22,
+      "requirement_status": "unspecified",
+      "section_id": "sec_f7a9550e83ebd9bdbeb8",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 994,
+        "normalized_start": 969,
+        "raw_end": 994,
+        "raw_start": 969,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "fca17dda05f199c30c27e8f85bdd41286564dd2b9547cdcd9bb5560fb7fde6d4"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_bcecd7b0dafd7e25bfcb",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "6.1",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 1022,
+            "normalized_start": 999,
+            "raw_end": 1022,
+            "raw_start": 999,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "fce96c4416136452795a8825d73226f478d8e804d8ea4c77fbc3dfde8023a4e0"
+          },
+          "text": "[MONITORING_DISCLOSURE]",
+          "variable_ids": [
+            "monitoring_disclosure"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "6.1",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 998,
+        "normalized_start": 995,
+        "raw_end": 998,
+        "raw_start": 995,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "5798758bbc833df09bceba3fb38dfa95dbe82d1a51b94ea300392654fc2b2665"
+      },
+      "kind": "unclassified",
+      "order": 23,
+      "requirement_status": "unspecified",
+      "section_id": "sec_7715e38e00e2a4d9869b",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1022,
+        "normalized_start": 995,
+        "raw_end": 1022,
+        "raw_start": 995,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "b3562b236021f0c18da6ee619374d6f8f83bb1422108daab2ae40adb9d814ae2"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_a471f94a53ae59855d09",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "6.2 Monitoring activities will be conducted in accordance with the Data Protection Act No. 24 of",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 1119,
+            "normalized_start": 1023,
+            "raw_end": 1119,
+            "raw_start": 1023,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "6ea635379fa33b30361908894a664b46ecda734b36a69f130b03ea954e9959d1"
+          },
+          "text": "6.2 Monitoring activities will be conducted in accordance with the Data Protection Act No. 24 of",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "6.2 Monitoring activities will be conducted in accordance with the Data Protection Act No. 24 of",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1119,
+        "normalized_start": 1023,
+        "raw_end": 1119,
+        "raw_start": 1023,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "6ea635379fa33b30361908894a664b46ecda734b36a69f130b03ea954e9959d1"
+      },
+      "kind": "unclassified",
+      "order": 24,
+      "requirement_status": "unspecified",
+      "section_id": "sec_f7b4393b8836e697833d",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1119,
+        "normalized_start": 1023,
+        "raw_end": 1119,
+        "raw_start": 1023,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "6ea635379fa33b30361908894a664b46ecda734b36a69f130b03ea954e9959d1"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_89df8784ed20e787fcbf",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2019 and the ODPC's Guidelines on Processing of Personal Data in Employment Contexts.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 1300,
+            "normalized_start": 1206,
+            "raw_end": 1300,
+            "raw_start": 1206,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "3a7ca64c6df458c4475b9bc45a665068eff24b3f11cd148260b15c82f2253a7b"
+          },
+          "text": "Employees retain rights as data subjects under Section 26 of the Data Protection Act No. 24 of",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2019 and the ODPC's Guidelines on Processing of Personal Data in Employment Contexts.",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1205,
+        "normalized_start": 1120,
+        "raw_end": 1205,
+        "raw_start": 1120,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "30f8b352a04c70207930936f237e5979841fc64ba309c050fb85328834db763a"
+      },
+      "kind": "unclassified",
+      "order": 25,
+      "requirement_status": "unspecified",
+      "section_id": "sec_9bc2c46870e53713d594",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1300,
+        "normalized_start": 1120,
+        "raw_end": 1300,
+        "raw_start": 1120,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "8b9e2184c519eedadf324fbcf54fa80c355c4613645ea48f8e9a0044c2e281fb"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_a2e0a085efb5c6d0844f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2019, including the right to access information about monitoring activities.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 1377,
+            "normalized_start": 1301,
+            "raw_end": 1377,
+            "raw_start": 1301,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "4b74f62a82f9d6754f77ab235527c38eb2fc903e4072511b4f79c9d2da28d4aa"
+          },
+          "text": "2019, including the right to access information about monitoring activities.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2019, including the right to access information about monitoring activities.",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1377,
+        "normalized_start": 1301,
+        "raw_end": 1377,
+        "raw_start": 1301,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "4b74f62a82f9d6754f77ab235527c38eb2fc903e4072511b4f79c9d2da28d4aa"
+      },
+      "kind": "unclassified",
+      "order": 26,
+      "requirement_status": "unspecified",
+      "section_id": "sec_86f46846c499afe114b7",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1377,
+        "normalized_start": 1301,
+        "raw_end": 1377,
+        "raw_start": 1301,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "4b74f62a82f9d6754f77ab235527c38eb2fc903e4072511b4f79c9d2da28d4aa"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_b1e7d0b4b7bc6f666e95",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "7. DATA PROTECTION OBLIGATIONS",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 1408,
+            "normalized_start": 1378,
+            "raw_end": 1408,
+            "raw_start": 1378,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "5410d97a5177466425e7620fab3cfc4b55301ea2ddc7df56570880da2dd69c61"
+          },
+          "text": "7. DATA PROTECTION OBLIGATIONS",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "7. DATA PROTECTION OBLIGATIONS",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1408,
+        "normalized_start": 1378,
+        "raw_end": 1408,
+        "raw_start": 1378,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "5410d97a5177466425e7620fab3cfc4b55301ea2ddc7df56570880da2dd69c61"
+      },
+      "kind": "unclassified",
+      "order": 27,
+      "requirement_status": "unspecified",
+      "section_id": "sec_38ae45e718c98d2907c9",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1408,
+        "normalized_start": 1378,
+        "raw_end": 1408,
+        "raw_start": 1378,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "5410d97a5177466425e7620fab3cfc4b55301ea2ddc7df56570880da2dd69c61"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_761edb482700a8cb7a2f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "7.1 All authorised users must process personal data only in accordance with this Policy, the",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 1584,
+            "normalized_start": 1502,
+            "raw_end": 1584,
+            "raw_start": 1502,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "e8bf35a882c986a729e76abf9adcfccff6aaafcbaf35d98ba62acbcd8202b7db"
+          },
+          "text": "Organisation's Data Protection Policy, and the Data Protection Act No. 24 of 2019.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "7.1 All authorised users must process personal data only in accordance with this Policy, the",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1501,
+        "normalized_start": 1409,
+        "raw_end": 1501,
+        "raw_start": 1409,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "e4b024fee6fa2688ab134b49dbde39e68c1c26fefd138fabc7624c3f78db8244"
+      },
+      "kind": "unclassified",
+      "order": 28,
+      "requirement_status": "unspecified",
+      "section_id": "sec_b2987046b5e128620772",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1584,
+        "normalized_start": 1409,
+        "raw_end": 1584,
+        "raw_start": 1409,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "c4f8429d22d9e8c7fe45793d7fdbc159c03cc27a33ba8f62b2353e4617d7d6be"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_f82b154f830ee0361c28",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "7.2 Personal data must be stored only on approved systems and must not be transferred to",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 1764,
+            "normalized_start": 1674,
+            "raw_end": 1764,
+            "raw_start": 1674,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "c9228438823aa822b7017fc00ad534db646cd18f5e7eb7319c1f872b664708cd"
+          },
+          "text": "unauthorised third parties, personal email accounts, or unapproved cloud storage services.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "7.2 Personal data must be stored only on approved systems and must not be transferred to",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1673,
+        "normalized_start": 1585,
+        "raw_end": 1673,
+        "raw_start": 1585,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "1c8d79acb4c5c1d9696da4aad04c1d840a82a50e8bcc86ecb19c3877c65a12b6"
+      },
+      "kind": "unclassified",
+      "order": 29,
+      "requirement_status": "unspecified",
+      "section_id": "sec_b439227865d553cfeb17",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1764,
+        "normalized_start": 1585,
+        "raw_end": 1764,
+        "raw_start": 1585,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "d783e0d8dbf5b32a1a40b0fbb986261762bbd2f0171d284af3855550d8fe302b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_ea73a8e2dbac72b0c761",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "7.3 Any request from a data subject to exercise rights under Sections 26–34 of the Data Protection",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 2001,
+            "normalized_start": 1864,
+            "raw_end": 2001,
+            "raw_start": 1864,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "708bc16851d1ffc37b35d7f2c1d1470cc386c34e01ae458b43db42fde5012c2f"
+          },
+          "text": "Act No. 24 of 2019 (access, rectification, erasure, restriction, objection) must be escalated\nimmediately to the Data Protection Officer.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "7.3 Any request from a data subject to exercise rights under Sections 26–34 of the Data Protection",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1863,
+        "normalized_start": 1765,
+        "raw_end": 1863,
+        "raw_start": 1765,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "b66a885b6439ac13469afabeb182a7ca97b578db8fe1fcf7169b74585a375994"
+      },
+      "kind": "unclassified",
+      "order": 30,
+      "requirement_status": "unspecified",
+      "section_id": "sec_183513a88dec6211b090",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 2001,
+        "normalized_start": 1765,
+        "raw_end": 2001,
+        "raw_start": 1765,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "34a890393036bee8472b44af3f3441cbdcdf0075b95e5bd66e44fcb89d6dc835"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_bdd4fc7b11bfe0bf9bdd",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "8. CONSEQUENCES OF BREACH",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 2027,
+            "normalized_start": 2002,
+            "raw_end": 2027,
+            "raw_start": 2002,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "3cd92fb862c62ae3425cc88a104ba33ffc411e346b360645226a60d802d33645"
+          },
+          "text": "8. CONSEQUENCES OF BREACH",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "8. CONSEQUENCES OF BREACH",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 2027,
+        "normalized_start": 2002,
+        "raw_end": 2027,
+        "raw_start": 2002,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "3cd92fb862c62ae3425cc88a104ba33ffc411e346b360645226a60d802d33645"
+      },
+      "kind": "unclassified",
+      "order": 31,
+      "requirement_status": "unspecified",
+      "section_id": "sec_f4de9fff5dac368d4b2f",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 2027,
+        "normalized_start": 2002,
+        "raw_end": 2027,
+        "raw_start": 2002,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "3cd92fb862c62ae3425cc88a104ba33ffc411e346b360645226a60d802d33645"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_6d01a458ee780be90555",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "8.1 Breach of this Policy constitutes misconduct under Section 41 of the Employment Act No. 11 of",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 2125,
+            "normalized_start": 2028,
+            "raw_end": 2125,
+            "raw_start": 2028,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "1cdff02d62e11f5295ef325cfb8591d9b08d3e33ea0157c50cca8057863e7dd8"
+          },
+          "text": "8.1 Breach of this Policy constitutes misconduct under Section 41 of the Employment Act No. 11 of",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "8.1 Breach of this Policy constitutes misconduct under Section 41 of the Employment Act No. 11 of",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 2125,
+        "normalized_start": 2028,
+        "raw_end": 2125,
+        "raw_start": 2028,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "1cdff02d62e11f5295ef325cfb8591d9b08d3e33ea0157c50cca8057863e7dd8"
+      },
+      "kind": "unclassified",
+      "order": 32,
+      "requirement_status": "unspecified",
+      "section_id": "sec_14927e8df4fba82dbe1a",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 2125,
+        "normalized_start": 2028,
+        "raw_end": 2125,
+        "raw_start": 2028,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "1cdff02d62e11f5295ef325cfb8591d9b08d3e33ea0157c50cca8057863e7dd8"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_9fbf44e34a42904b7577",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2007. Disciplinary proceedings will be conducted by",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 2202,
+            "normalized_start": 2178,
+            "raw_end": 2202,
+            "raw_start": 2178,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "86c0435e5e2ea1a4601dd859d71345393426442b3eb46a8dbbd62ae05c68f2ce"
+          },
+          "text": "[DISCIPLINARY_AUTHORITY]",
+          "variable_ids": [
+            "disciplinary_authority"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "2007. Disciplinary proceedings will be conducted by",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 2177,
+        "normalized_start": 2126,
+        "raw_end": 2177,
+        "raw_start": 2126,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "75876979932a8c11feba9f8873bb614d18223a10a27fa060958014461ed4433f"
+      },
+      "kind": "unclassified",
+      "order": 33,
+      "requirement_status": "unspecified",
+      "section_id": "sec_e4162101474916fd019d",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 2202,
+        "normalized_start": 2126,
+        "raw_end": 2202,
+        "raw_start": 2126,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "bec4dcd3976d83fa8b74dc8b31d290b0ad0fd7985dc46285793cc23ede708cdd"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_093a0a0e79304b09910c",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "8.2 Depending on the severity of the breach, consequences may range from a formal written",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 423,
+            "normalized_start": 331,
+            "raw_end": 423,
+            "raw_start": 331,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "c5937e1bd1fda34dce5f5d2d43f8c259370abdb116311c6881d023b388ef6596"
+          },
+          "text": "warning to summary dismissal without notice under Section 44 of the Employment Act No. 11 of",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "8.2 Depending on the severity of the breach, consequences may range from a formal written",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 330,
+        "normalized_start": 241,
+        "raw_end": 330,
+        "raw_start": 241,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "f6fb49e5473e7aec5db30962b778bbc3bd74ca61014c1c089fb4ad2367e5202a"
+      },
+      "kind": "unclassified",
+      "order": 34,
+      "requirement_status": "unspecified",
+      "section_id": "sec_3fcfd8363aa414dcf3c3",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 423,
+        "normalized_start": 241,
+        "raw_end": 423,
+        "raw_start": 241,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "83b4ad8d4fd63eeadf01137ef334eff6b07cda2951dc675e45773ca5c233ff02"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_b2769ca709936abd2886",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2007.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 429,
+            "normalized_start": 424,
+            "raw_end": 429,
+            "raw_start": 424,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "e8a7dc314160994aced121631aa3aeab10997721fdb75c27c715b6ab30453717"
+          },
+          "text": "2007.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2007.",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 429,
+        "normalized_start": 424,
+        "raw_end": 429,
+        "raw_start": 424,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "e8a7dc314160994aced121631aa3aeab10997721fdb75c27c715b6ab30453717"
+      },
+      "kind": "unclassified",
+      "order": 35,
+      "requirement_status": "unspecified",
+      "section_id": "sec_492a2388b60ce9c78c12",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 429,
+        "normalized_start": 424,
+        "raw_end": 429,
+        "raw_start": 424,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "e8a7dc314160994aced121631aa3aeab10997721fdb75c27c715b6ab30453717"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_c3824a64761fb08f7f76",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "8.3 Where a breach involves a suspected offence under the Computer Misuse and Cybercrimes Act",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 760,
+            "normalized_start": 524,
+            "raw_end": 760,
+            "raw_start": 524,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "e79675a4e032670810dddd32d4951f0a9d677023b07a635f713cd7d0aac44e3c"
+          },
+          "text": "No. 5 of 2018, the Organisation reserves the right to refer the matter to the Directorate of Criminal\nInvestigations (DCI) for prosecution by the Director of Public Prosecutions (DPP) under Article 157\nof the Constitution of Kenya 2010.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "8.3 Where a breach involves a suspected offence under the Computer Misuse and Cybercrimes Act",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 523,
+        "normalized_start": 430,
+        "raw_end": 523,
+        "raw_start": 430,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "be90132e79b275391856e9f65034656d5e8975c1df73f51636112da3e2e7e3ce"
+      },
+      "kind": "unclassified",
+      "order": 36,
+      "requirement_status": "unspecified",
+      "section_id": "sec_847187d3ab3b4c58b42e",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 760,
+        "normalized_start": 430,
+        "raw_end": 760,
+        "raw_start": 430,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "1ee50ff93e8575753d9fb85794c941c848d3195d811544381b201d98c8f758f5"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_dad7831dc345f19832c7",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "8.4 Disputes about enforcement of this Policy that are not resolved internally may be referred to the",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 973,
+            "normalized_start": 863,
+            "raw_end": 973,
+            "raw_start": 863,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "364d87eb2849df5dd6dba85d1a727e035f02c7141eeeb48f0c3c3416f908a5fe"
+          },
+          "text": "Employment and Labour Relations Court (ELRC), established under Article 162 of the Constitution\nof Kenya 2010.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "8.4 Disputes about enforcement of this Policy that are not resolved internally may be referred to the",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 862,
+        "normalized_start": 761,
+        "raw_end": 862,
+        "raw_start": 761,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "ecf5c0c9387820d66efaef8d4359c389d5bdfc8ec7f082d45f87692a9b0205a1"
+      },
+      "kind": "unclassified",
+      "order": 37,
+      "requirement_status": "unspecified",
+      "section_id": "sec_12b3914adaa939aaa254",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 973,
+        "normalized_start": 761,
+        "raw_end": 973,
+        "raw_start": 761,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "bd25b9a1ddb67fd55730b94fbd74a712056daedc2bb9a83466bce672f59d55ee"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_7c2979d5ca1765d12401",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "9. ACKNOWLEDGMENT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 991,
+            "normalized_start": 974,
+            "raw_end": 991,
+            "raw_start": 974,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "5684243f0736b06a733c077b4c2859652d83b196505adc85b3d9c614ce03ed32"
+          },
+          "text": "9. ACKNOWLEDGMENT",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "9. ACKNOWLEDGMENT",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 991,
+        "normalized_start": 974,
+        "raw_end": 991,
+        "raw_start": 974,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "5684243f0736b06a733c077b4c2859652d83b196505adc85b3d9c614ce03ed32"
+      },
+      "kind": "unclassified",
+      "order": 38,
+      "requirement_status": "unspecified",
+      "section_id": "sec_ca4ec6f3619a22c6b442",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 991,
+        "normalized_start": 974,
+        "raw_end": 991,
+        "raw_start": 974,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "5684243f0736b06a733c077b4c2859652d83b196505adc85b3d9c614ce03ed32"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_97f16d36f0bf26ebb064",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "9.1 By signing below, the authorised user confirms that they have read, understood, and agree to",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 1408,
+            "normalized_start": 1089,
+            "raw_end": 1408,
+            "raw_start": 1089,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "b62ef9052b7336e0ee6c68d4590d662eb03f74161a1f06867252b9aca307a372"
+          },
+          "text": "comply with this Acceptable Use Policy in its entirety.\nOrganisation:\n[ORGANISATION_NAME]\nGoverning Law: The laws of Kenya. Jurisdiction: Courts of Kenya.\nAuthorised Signatory (Organisation)\n________________\nSignature\nAuthorised User (Employee / Contractor)\n________________\nSignature\nWitness\n________________\nSignature",
+          "variable_ids": [
+            "organisation_name"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "9.1 By signing below, the authorised user confirms that they have read, understood, and agree to",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1088,
+        "normalized_start": 992,
+        "raw_end": 1088,
+        "raw_start": 992,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "1714b33bc461a890b908d1b74a278cda9937bddc92c433cda723cfcf4298d66b"
+      },
+      "kind": "unclassified",
+      "order": 39,
+      "requirement_status": "unspecified",
+      "section_id": "sec_08ba422d216cb23a9f37",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1408,
+        "normalized_start": 992,
+        "raw_end": 1408,
+        "raw_start": 992,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "c038548c8bbc7851880778a65f64fc4e140ddcf721ce165dabe725e30eba7f84"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_35f90495692d3add7e68",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "FORMS-LEGAL.COM",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d1968dde873327e544b8",
+            "normalized_end": 1426,
+            "normalized_start": 1425,
+            "raw_end": 1426,
+            "raw_start": 1425,
+            "source_id": "src_b32d280fe1834d1ff467",
+            "text_sha256": "f8bf310263c1ac3ecd39fadaf73ef233d3a1e7f423e02afd8da0d4e8e38264af"
+          },
+          "text": "§",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "FORMS-LEGAL.COM",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1424,
+        "normalized_start": 1409,
+        "raw_end": 1424,
+        "raw_start": 1409,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "9dcc6679dca92aef67105df2e4e9c1b39d662a1ee083fbad51ff995585c78dca"
+      },
+      "kind": "unclassified",
+      "order": 40,
+      "requirement_status": "unspecified",
+      "section_id": "sec_8eaa0cc2a50217deef94",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 1426,
+        "normalized_start": 1409,
+        "raw_end": 1426,
+        "raw_start": 1409,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "48f8e4c2c9ff6da7d23f8ec0b44373eda5425b0ddaef4c6360522f05e8cf1cd0"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "extracted_text_sha256": "35fea21b0b5eb2c6e897c302851269fd69ea27be0232c28cc3ac795d267a52c3",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 4,
+      "relative_path": "templates/kenya/Acceptable Use Policy.pdf",
+      "sha256": "6c5ea60ee75b2925ca24e80ece5423e73c452f4f191146bb4de0d4d51b2a3324",
+      "size_bytes": 8487,
+      "source_id": "src_b32d280fe1834d1ff467"
+    }
+  ],
+  "template_id": "tpl_ad55cef6fa6db518991d",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_f2f1d1f48b4837f7c2a5",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 361,
+        "normalized_start": 0,
+        "raw_end": 361,
+        "raw_start": 0,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "4e0a04b02ae7e2f308efdf5e8116b49ded799751531dd58ebb8aaa3a4cfb17ee"
+      },
+      "text": "Acceptable Use Policy\nAcceptable Use Policy (Kenya)\nComputer Misuse and Cybercrimes Act No. 5 of 2018 | Data Protection Act No. 24 of 2019\nOrganisation:\n[Organisation Name]\n(BRS No:\n[BRS Number]\n)\nAddress:\n[Organisation Address]\nEffective Date:\n[Effective Date]\nNext Review Date:\n[Review Date]\nPolicy Owner:\n[Policy Owner]\nData Protection Officer:\n[DPO Contact]"
+    },
+    {
+      "content_id": "unparsed_84e13d21add9f8d7bc1e",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d1968dde873327e544b8",
+        "normalized_end": 240,
+        "normalized_start": 0,
+        "raw_end": 240,
+        "raw_start": 0,
+        "source_id": "src_b32d280fe1834d1ff467",
+        "text_sha256": "669b394e9f3525545bad600fee6b36030cf8b8040215776293dd1470d9a9ef14"
+      },
+      "text": "in accordance with the Organisation's Disciplinary Procedure, including: a written show-cause\nletter; a disciplinary hearing at which the employee may be represented by a fellow employee or\ntrade union representative; and a written outcome."
+    }
+  ],
+  "variables": [
+    {
+      "allowed_choices": [],
+      "canonical_token": "[ORGANISATION_NAME]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 172,
+          "normalized_start": 153,
+          "raw_end": 172,
+          "raw_start": 153,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "c0fb072b62297ab2710e4033de4d580f95ac117b9b16a4741817395bd8ff5482"
+        },
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 580,
+          "normalized_start": 561,
+          "raw_end": 580,
+          "raw_start": 561,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "c0fb072b62297ab2710e4033de4d580f95ac117b9b16a4741817395bd8ff5482"
+        },
+        {
+          "block_id": "block_000004",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 1178,
+          "normalized_start": 1159,
+          "raw_end": 1178,
+          "raw_start": 1159,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "c0fb072b62297ab2710e4033de4d580f95ac117b9b16a4741817395bd8ff5482"
+        }
+      ],
+      "original_tokens": [
+        "[Organisation Name]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "organisation_name"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[BRS_NUMBER]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 194,
+          "normalized_start": 182,
+          "raw_end": 194,
+          "raw_start": 182,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "7711d58214755f42c0d1b2455aadfd1f16742d4895fc25dad5b0a18d81d46b91"
+        }
+      ],
+      "original_tokens": [
+        "[BRS Number]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "brs_number"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[ORGANISATION_ADDRESS]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 228,
+          "normalized_start": 206,
+          "raw_end": 228,
+          "raw_start": 206,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "e0783eb5551a23cf25ba9fb8a01229fe8831af1fbd647664d0d395581aa52218"
+        }
+      ],
+      "original_tokens": [
+        "[Organisation Address]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "organisation_address"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[EFFECTIVE_DATE]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 261,
+          "normalized_start": 245,
+          "raw_end": 261,
+          "raw_start": 245,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "bea672071f9d0bbf287f816a5cd71bcb27b43eab507fe5572840ac9162115fe5"
+        }
+      ],
+      "original_tokens": [
+        "[Effective Date]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "effective_date"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[REVIEW_DATE]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 293,
+          "normalized_start": 280,
+          "raw_end": 293,
+          "raw_start": 280,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "332247ea46b96c7ae377996ae7de9070bdd9026f4fceb7db3a48fd60fb2a2802"
+        }
+      ],
+      "original_tokens": [
+        "[Review Date]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "review_date"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[POLICY_OWNER]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 322,
+          "normalized_start": 308,
+          "raw_end": 322,
+          "raw_start": 308,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "d9ceafcf6880974e6537c18d2dc9f5f41a81962a168b35291281c9574895c69b"
+        }
+      ],
+      "original_tokens": [
+        "[Policy Owner]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "policy_owner"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[DPO_CONTACT]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 361,
+          "normalized_start": 348,
+          "raw_end": 361,
+          "raw_start": 348,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "ec1c57b8f6cc98e888416322c38f4fe03c4ae7a5c8e744b1bb88fb7bbf37bf05"
+        },
+        {
+          "block_id": "block_000003",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 585,
+          "normalized_start": 572,
+          "raw_end": 585,
+          "raw_start": 572,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "ec1c57b8f6cc98e888416322c38f4fe03c4ae7a5c8e744b1bb88fb7bbf37bf05"
+        }
+      ],
+      "original_tokens": [
+        "[DPO Contact]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "dpo_contact"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[COVERED_USERS]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 1259,
+          "normalized_start": 1244,
+          "raw_end": 1259,
+          "raw_start": 1244,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "f755f24d5cf351ac65e95dfc4cf711046f05dc104a59bc4f0ebe85d15d8b683b"
+        }
+      ],
+      "original_tokens": [
+        "[Covered Users]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "covered_users"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[COVERED_SYSTEMS]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 1347,
+          "normalized_start": 1330,
+          "raw_end": 1347,
+          "raw_start": 1330,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "9bc63e88531a9e5928c886b4d770c81495400c6fe38b28f11fab5306310c1295"
+        }
+      ],
+      "original_tokens": [
+        "[Covered Systems]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "covered_systems"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[BYOD_POLICY]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 48,
+          "normalized_start": 35,
+          "raw_end": 48,
+          "raw_start": 35,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "8e7fb57a1e5dd6d46b013c6f1728ee8e43a8da4f0b526d6f344b19770e643249"
+        }
+      ],
+      "original_tokens": [
+        "[BYOD Policy]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "byod_policy"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[PERSONAL_USE_POLICY]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 456,
+          "normalized_start": 435,
+          "raw_end": 456,
+          "raw_start": 435,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "feda04f1886ec4ecbc54d3cb2d24af7fa8750c852b745f153735cb5f3324ac52"
+        }
+      ],
+      "original_tokens": [
+        "[Personal Use Policy]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "personal_use_policy"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[SOCIAL_MEDIA_POLICY]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 498,
+          "normalized_start": 477,
+          "raw_end": 498,
+          "raw_start": 477,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "f0c6ffe397a5ecba15dbf4add4890829f07fe5934fa0f10b2e64bd6b69ecc672"
+        }
+      ],
+      "original_tokens": [
+        "[Social Media Policy]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "social_media_policy"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[ADDITIONAL_PROHIBITED_ACTIVITIES]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 2143,
+          "normalized_start": 2109,
+          "raw_end": 2143,
+          "raw_start": 2109,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "3e820aed51645a5228c0c42eae6528e3fc41b0f1e65c0859591f3ffbd8107817"
+        }
+      ],
+      "original_tokens": [
+        "[Additional Prohibited Activities]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "additional_prohibited_activities"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[PASSWORD_MIN_LENGTH]",
+      "occurrences": [
+        {
+          "block_id": "block_000003",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 90,
+          "normalized_start": 69,
+          "raw_end": 90,
+          "raw_start": 69,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "feac98dbbc3d18dc86b6277f05639ddb2cd9387ba982f24c34997832ee1365e3"
+        }
+      ],
+      "original_tokens": [
+        "[Password Min Length]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "password_min_length"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[PASSWORD_ROTATION]",
+      "occurrences": [
+        {
+          "block_id": "block_000003",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 130,
+          "normalized_start": 111,
+          "raw_end": 130,
+          "raw_start": 111,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "1fb37afc77ae544625769ecd10ab82966755c10632eb5f2ffa638727350c683a"
+        }
+      ],
+      "original_tokens": [
+        "[Password Rotation]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "password_rotation"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[REMOTE_ACCESS_REQUIREMENTS]",
+      "occurrences": [
+        {
+          "block_id": "block_000003",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 399,
+          "normalized_start": 371,
+          "raw_end": 399,
+          "raw_start": 371,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "e0b6a37df18c6722a004622d199ee677d8d4a61ea5fb93ed7b53021589f74b2e"
+        }
+      ],
+      "original_tokens": [
+        "[Remote Access Requirements]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "remote_access_requirements"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[INCIDENT_REPORTING_DEADLINE]",
+      "occurrences": [
+        {
+          "block_id": "block_000003",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 624,
+          "normalized_start": 595,
+          "raw_end": 624,
+          "raw_start": 595,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "b99fe78fbdc0602c46d2387dfe803162744c8238f407dbe8aed097fcc3d5086e"
+        }
+      ],
+      "original_tokens": [
+        "[Incident Reporting Deadline]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "incident_reporting_deadline"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[MONITORING_DISCLOSURE]",
+      "occurrences": [
+        {
+          "block_id": "block_000003",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 1022,
+          "normalized_start": 999,
+          "raw_end": 1022,
+          "raw_start": 999,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "fce96c4416136452795a8825d73226f478d8e804d8ea4c77fbc3dfde8023a4e0"
+        }
+      ],
+      "original_tokens": [
+        "[Monitoring Disclosure]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "monitoring_disclosure"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[DISCIPLINARY_AUTHORITY]",
+      "occurrences": [
+        {
+          "block_id": "block_000003",
+          "extraction_id": "ext_d1968dde873327e544b8",
+          "normalized_end": 2202,
+          "normalized_start": 2178,
+          "raw_end": 2202,
+          "raw_start": 2178,
+          "source_id": "src_b32d280fe1834d1ff467",
+          "text_sha256": "86c0435e5e2ea1a4601dd859d71345393426442b3eb46a8dbbd62ae05c68f2ce"
+        }
+      ],
+      "original_tokens": [
+        "[Disciplinary Authority]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "disciplinary_authority"
+    }
+  ],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

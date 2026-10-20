@@ -1,0 +1,767 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_10c5a1e7c9eb9ac2b809",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "policy",
+    "initial_document_kind": "policy",
+    "languages": [
+      {
+        "basis": "deterministic_text_heuristic",
+        "confidence": 0.1257,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_bea85b6a2483b76bf6bf",
+            "normalized_end": 2553,
+            "normalized_start": 0,
+            "raw_end": 2553,
+            "raw_start": 0,
+            "source_id": "src_5bda226150d98eb351a0",
+            "text_sha256": "e494a97f3d225b73142d8c1b84464e071315cde5b580ce7412ae34a5e8bec823"
+          }
+        ],
+        "tag": "en"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "unknown",
+    "title": "AML Compliance Policy",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_bea85b6a2483b76bf6bf",
+        "normalized_end": 21,
+        "normalized_start": 0,
+        "raw_end": 21,
+        "raw_start": 0,
+        "source_id": "src_5bda226150d98eb351a0",
+        "text_sha256": "41cd746655f508b1b98fa176140f96ff6a7e842bfc621d3eb5aac23862ea452f"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      },
+      {
+        "code": "ambiguity_023_non_contract_destination",
+        "message": "AMBIGUITY-023: the non-contract knowledge-base/training destination is unresolved.",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "not_required",
+    "structure_review_status": "pending",
+    "training_eligibility": "excluded"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_3d61bc27395fc0ae85dd",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ANTI-MONEY LAUNDERING AND COUNTER-TERRORIST FINANCING COMPLIANCE POLICY",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_bea85b6a2483b76bf6bf",
+            "normalized_end": 229,
+            "normalized_start": 122,
+            "raw_end": 229,
+            "raw_start": 122,
+            "source_id": "src_5bda226150d98eb351a0",
+            "text_sha256": "0005031e8d298b6dce9459aa55417182244a131334d899d110b730c9014e63d4"
+          },
+          "text": "[COMPANY_NAME]\n[EMIRATE]\n, United Arab Emirates\nEffective date:\n[EFFECTIVE_DATE]\nApproved by:\n[APPROVED_BY]",
+          "variable_ids": [
+            "approved_by",
+            "company_name",
+            "effective_date",
+            "emirate"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "ANTI-MONEY LAUNDERING AND COUNTER-TERRORIST FINANCING COMPLIANCE POLICY",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_bea85b6a2483b76bf6bf",
+        "normalized_end": 121,
+        "normalized_start": 50,
+        "raw_end": 121,
+        "raw_start": 50,
+        "source_id": "src_5bda226150d98eb351a0",
+        "text_sha256": "85b314355068c7df00809a0aaad9a784c5754c6b0696d23d9ba09f6ba97fd577"
+      },
+      "kind": "unclassified",
+      "order": 1,
+      "requirement_status": "unspecified",
+      "section_id": "sec_d68dab7592fda0b53439",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_bea85b6a2483b76bf6bf",
+        "normalized_end": 229,
+        "normalized_start": 50,
+        "raw_end": 229,
+        "raw_start": 50,
+        "source_id": "src_5bda226150d98eb351a0",
+        "text_sha256": "78cfd1410eea47a3bc4cec847be889f0f82776923b6733877225c71fb690c953"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_9d26a1c3fd12796c90d0",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1. COMMITMENT AND LEGAL BASIS",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_bea85b6a2483b76bf6bf",
+            "normalized_end": 1493,
+            "normalized_start": 260,
+            "raw_end": 1493,
+            "raw_start": 260,
+            "source_id": "src_5bda226150d98eb351a0",
+            "text_sha256": "5bc7f965b12d75621f916b3ba6e528ef6188e8ff7dc2196d43d1e13aed9e54a2"
+          },
+          "text": "[COMPANY_NAME]\n(the 'Company') is committed to the highest standards of Anti-Money Laundering (AML) and\nCounter-Terrorist Financing (CTF) compliance. The Company operates as a\n[ENTITY_TYPE]\nand is subject to the Anti-Money Laundering and Combating the Financing of Terrorism Law —\nFederal Decree-Law No. 20 of 2018, as amended by Federal Decree-Law No. 26 of 2021 — and\nthe AML-CFT Executive Regulations, Cabinet Decision No. 10 of 2019. The Company recognises\nthe UAE's National Action Plan for AML-CFT compliance and its obligations under the Financial\nAction Task Force (FATF) standards, to which the UAE is committed as a FATF member.\nThis Policy applies to all employees, directors, managers, agents, and contractors of the Company.\nIt covers the Company's customer due diligence programme, transaction monitoring, Suspicious\nTransaction Reporting to the UAE Financial Intelligence Unit, employee training, and\nrecord-keeping obligations. Non-compliance with this Policy or with applicable AML-CFT law is a\nserious disciplinary matter and may constitute a criminal offence under Federal Decree-Law No. 20\nof 2018, which provides for imprisonment of up to ten years and fines of up to AED 5 million for\nmoney laundering offences.",
+          "variable_ids": [
+            "company_name",
+            "entity_type"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "1. COMMITMENT AND LEGAL BASIS",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_bea85b6a2483b76bf6bf",
+        "normalized_end": 259,
+        "normalized_start": 230,
+        "raw_end": 259,
+        "raw_start": 230,
+        "source_id": "src_5bda226150d98eb351a0",
+        "text_sha256": "527f8a4e37a4a449d8f13418be736d46f1466590fd4a7635ac24f8a9184264b3"
+      },
+      "kind": "unclassified",
+      "order": 2,
+      "requirement_status": "unspecified",
+      "section_id": "sec_9a9883efcc08d9fd3fcc",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_bea85b6a2483b76bf6bf",
+        "normalized_end": 1493,
+        "normalized_start": 230,
+        "raw_end": 1493,
+        "raw_start": 230,
+        "source_id": "src_5bda226150d98eb351a0",
+        "text_sha256": "91433eebd1140d16d2e1d3ca985e711cd05c7d8ef855f1aee6af18d4ff17dc7b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_ac192a01c747b95d0ef5",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2. RISK ASSESSMENT AND RISK-BASED APPROACH",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_bea85b6a2483b76bf6bf",
+            "normalized_end": 2553,
+            "normalized_start": 1537,
+            "raw_end": 2553,
+            "raw_start": 1537,
+            "source_id": "src_5bda226150d98eb351a0",
+            "text_sha256": "c05e03299dcf86c52924e087b0fc206520473c1559b94a7aedf5496061c17bad"
+          },
+          "text": "The Company has conducted a Business Risk Assessment in accordance with Article 16 of the\nAML-CFT Executive Regulations, Cabinet Decision No. 10 of 2019. The overall AML-CFT risk\nrating of the Company is:\n[RISK_RATING]\n. The Business Risk Assessment evaluates risk across four dimensions: customer risk (including\npolitically exposed persons, non-resident customers, and high-risk nationalities); product and\nservice risk; geographic risk; and delivery channel risk. The assessment is reviewed\n[REVIEW_PERIOD]\nor whenever the Company's business activities change materially.\nThe Company applies a risk-based approach as required by the FATF Recommendations.\nEnhanced Due Diligence is applied to high-risk customers, transactions, and business relationships\n— including customers classified as politically exposed persons under the PDPL and the AML-CFT\nExecutive Regulations. Simplified Due Diligence may be applied where the risk is demonstrably\nlow, subject to the restrictions in the AML-CFT Executive Regulations.",
+          "variable_ids": [
+            "review_period",
+            "risk_rating"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "2. RISK ASSESSMENT AND RISK-BASED APPROACH",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_bea85b6a2483b76bf6bf",
+        "normalized_end": 1536,
+        "normalized_start": 1494,
+        "raw_end": 1536,
+        "raw_start": 1494,
+        "source_id": "src_5bda226150d98eb351a0",
+        "text_sha256": "4bfadd396bc495f6d1d8ebf5fbd812a5638bd9fb9f5a0074a1064d07bc5b4952"
+      },
+      "kind": "unclassified",
+      "order": 3,
+      "requirement_status": "unspecified",
+      "section_id": "sec_329c2085431f5c0371cb",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_bea85b6a2483b76bf6bf",
+        "normalized_end": 2553,
+        "normalized_start": 1494,
+        "raw_end": 2553,
+        "raw_start": 1494,
+        "source_id": "src_5bda226150d98eb351a0",
+        "text_sha256": "2136c6f6e34a3c79b86f3ea6339b80ed01a251ee24e2c7b5caf46e756753ff7d"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_2178ffd31d554157f01f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3. CUSTOMER DUE DILIGENCE",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_bea85b6a2483b76bf6bf",
+            "normalized_end": 1343,
+            "normalized_start": 26,
+            "raw_end": 1343,
+            "raw_start": 26,
+            "source_id": "src_5bda226150d98eb351a0",
+            "text_sha256": "4b153133cf7f2efd5a8135abe087671d928d24672e14c578cfb3e92fc39bfd13"
+          },
+          "text": "The Company applies Customer Due Diligence (CDD) measures before establishing a business\nrelationship or carrying out an occasional transaction above the applicable threshold. CDD\nmeasures include: identifying and verifying the customer's identity using reliable, independent\nsource documents — Emirates ID, passport, trade licence, or Memorandum of Association as\napplicable; identifying the ultimate beneficial owner (UBO) in accordance with the UAE UBO\nRegulation, Cabinet Resolution No. 58 of 2020, and verifying the UBO's identity; understanding the\nnature and purpose of the business relationship; and conducting ongoing monitoring of the\nbusiness relationship.\nFor customers who are legal persons or legal arrangements, the Company identifies and verifies\nthe identity of all natural persons who own or control the legal person — including any person who\nowns or controls more than 25% of the legal person's shares or voting rights — as required by the\nUBO Regulation and the AML-CFT Executive Regulations. The MLRO,\n[MLRO_NAME]\n, oversees the CDD programme and reviews CDD files for high-risk customers. All CDD records are\nretained for a minimum of five years from the end of the business relationship or the date of the\noccasional transaction, as required by Article 25 of Federal Decree-Law No. 20 of 2018.",
+          "variable_ids": [
+            "mlro_name"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "3. CUSTOMER DUE DILIGENCE",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_bea85b6a2483b76bf6bf",
+        "normalized_end": 25,
+        "normalized_start": 0,
+        "raw_end": 25,
+        "raw_start": 0,
+        "source_id": "src_5bda226150d98eb351a0",
+        "text_sha256": "890568bebd3ac254e63ddc4115481077a8a8250d9d0e2b86576820c1589001b1"
+      },
+      "kind": "unclassified",
+      "order": 4,
+      "requirement_status": "unspecified",
+      "section_id": "sec_4ea44bf516dba32b7060",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_bea85b6a2483b76bf6bf",
+        "normalized_end": 1343,
+        "normalized_start": 0,
+        "raw_end": 1343,
+        "raw_start": 0,
+        "source_id": "src_5bda226150d98eb351a0",
+        "text_sha256": "8cab52ad4ed7408b549f5c4906c5f64f2969418792ed36dfac2cd33c4508069b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_254077ef0be4e0e5b44c",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4. SUSPICIOUS TRANSACTION REPORTING",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_bea85b6a2483b76bf6bf",
+            "normalized_end": 2413,
+            "normalized_start": 1380,
+            "raw_end": 2413,
+            "raw_start": 1380,
+            "source_id": "src_5bda226150d98eb351a0",
+            "text_sha256": "a108dd6a145bd2d2adf30a714e5ab7c854ccd1949f4f148de9cdbe8115503c59"
+          },
+          "text": "All employees are required to report any suspicion of money laundering, terrorist financing, or\nrelated predicate offences — including bribery and corruption under the UAE Penal Code, Federal\nDecree-Law No. 31 of 2021 — to the MLRO at\n[MLRO_CONTACT]\npromptly and without alerting the customer or the subject of the suspicion (tipping-off prohibition\nunder Article 17 of Federal Decree-Law No. 20 of 2018). The MLRO will assess the internal report\nand, where there is reasonable grounds for suspicion, file a Suspicious Transaction Report (STR)\nor Suspicious Activity Report (SAR) with the UAE Financial Intelligence Unit via the goAML portal.\nEmployees must not warn the customer that an STR has been filed or is being considered. Tipping\noff is a criminal offence under UAE law. Employees who report suspicious activity in good faith are\nprotected from civil and criminal liability by Article 17 of Federal Decree-Law No. 20 of 2018. The\nMLRO maintains a register of all internal reports received and the outcome of each assessment.",
+          "variable_ids": [
+            "mlro_contact"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "4. SUSPICIOUS TRANSACTION REPORTING",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_bea85b6a2483b76bf6bf",
+        "normalized_end": 1379,
+        "normalized_start": 1344,
+        "raw_end": 1379,
+        "raw_start": 1344,
+        "source_id": "src_5bda226150d98eb351a0",
+        "text_sha256": "0345ef03f5519eb36f39e3cf675974de471a66e969b2243c1ec828818ffb64a9"
+      },
+      "kind": "unclassified",
+      "order": 5,
+      "requirement_status": "unspecified",
+      "section_id": "sec_2965daba2484bb47958c",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_bea85b6a2483b76bf6bf",
+        "normalized_end": 2413,
+        "normalized_start": 1344,
+        "raw_end": 2413,
+        "raw_start": 1344,
+        "source_id": "src_5bda226150d98eb351a0",
+        "text_sha256": "fda1b1864b1fc704137b1977951a87f16422f385d9d50f945820217b9f54fc80"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e960f40433125d8f0ed1",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5. TRAINING, RECORD-KEEPING, AND REVIEW",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_bea85b6a2483b76bf6bf",
+            "normalized_end": 3288,
+            "normalized_start": 2454,
+            "raw_end": 3288,
+            "raw_start": 2454,
+            "source_id": "src_5bda226150d98eb351a0",
+            "text_sha256": "c5a46059a585be96109158f4ce281d874b7f8361177bc8f6fdce04f1324eb072"
+          },
+          "text": "All employees receive AML-CFT training upon joining the Company and\n[REVIEW_PERIOD]\nthereafter. Training covers the relevant provisions of Federal Decree-Law No. 20 of 2018, the\nAML-CFT Executive Regulations, the Company's internal procedures, how to recognise the signs of\nmoney laundering and terrorist financing, reporting obligations, and the tipping-off prohibition.\nSenior management and the MLRO receive enhanced training appropriate to their responsibilities.\nThe Company maintains records of all CDD documentation, transaction records, and STR files for a\nminimum of five years. This Policy is reviewed\n[REVIEW_PERIOD]\nby\n[MLRO_NAME]\nand updated to reflect changes in UAE law, FATF guidance, or the Company's risk profile. The\nreview considers the findings of any regulatory inspection by the Ministry of Economy, the Central",
+          "variable_ids": [
+            "mlro_name",
+            "review_period"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "5. TRAINING, RECORD-KEEPING, AND REVIEW",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_bea85b6a2483b76bf6bf",
+        "normalized_end": 2453,
+        "normalized_start": 2414,
+        "raw_end": 2453,
+        "raw_start": 2414,
+        "source_id": "src_5bda226150d98eb351a0",
+        "text_sha256": "3ea10ce99969615fcdd23a9062c18309113dd374b1a9e9e6e8182ebb523ab138"
+      },
+      "kind": "unclassified",
+      "order": 6,
+      "requirement_status": "unspecified",
+      "section_id": "sec_d0bd0b6b0aa632799e4b",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_bea85b6a2483b76bf6bf",
+        "normalized_end": 3288,
+        "normalized_start": 2414,
+        "raw_end": 3288,
+        "raw_start": 2414,
+        "source_id": "src_5bda226150d98eb351a0",
+        "text_sha256": "e881e4079bd57ab59259356475ed4708ba8e6e291506c09ceb93e5647b55624d"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_a054d4aa1d86105856bd",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "FORMS-LEGAL.COM",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_bea85b6a2483b76bf6bf",
+            "normalized_end": 279,
+            "normalized_start": 278,
+            "raw_end": 279,
+            "raw_start": 278,
+            "source_id": "src_5bda226150d98eb351a0",
+            "text_sha256": "f8bf310263c1ac3ecd39fadaf73ef233d3a1e7f423e02afd8da0d4e8e38264af"
+          },
+          "text": "§",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "FORMS-LEGAL.COM",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_bea85b6a2483b76bf6bf",
+        "normalized_end": 277,
+        "normalized_start": 262,
+        "raw_end": 277,
+        "raw_start": 262,
+        "source_id": "src_5bda226150d98eb351a0",
+        "text_sha256": "9dcc6679dca92aef67105df2e4e9c1b39d662a1ee083fbad51ff995585c78dca"
+      },
+      "kind": "unclassified",
+      "order": 7,
+      "requirement_status": "unspecified",
+      "section_id": "sec_66cc9706e85d49d92e73",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_bea85b6a2483b76bf6bf",
+        "normalized_end": 279,
+        "normalized_start": 262,
+        "raw_end": 279,
+        "raw_start": 262,
+        "source_id": "src_5bda226150d98eb351a0",
+        "text_sha256": "48f8e4c2c9ff6da7d23f8ec0b44373eda5425b0ddaef4c6360522f05e8cf1cd0"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "extracted_text_sha256": "2a868af351f498d61839652473a9f4e03bab95e0076364e167541598ec2a0fee",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 3,
+      "relative_path": "templates/Émirats arabes unis/AML Compliance Policy.pdf",
+      "sha256": "776eea2f584be7adc9bde775c9fe45be17911ac23325ccd349bd15d7c825e907",
+      "size_bytes": 6783,
+      "source_id": "src_5bda226150d98eb351a0"
+    }
+  ],
+  "template_id": "tpl_c4c29bc1f998c60ccc97",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_e35ae4ec254244d31183",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_bea85b6a2483b76bf6bf",
+        "normalized_end": 49,
+        "normalized_start": 0,
+        "raw_end": 49,
+        "raw_start": 0,
+        "source_id": "src_5bda226150d98eb351a0",
+        "text_sha256": "a20d8cc60c71284facecdc25c53525dab053eb1d6016c557d29cdbead4abb01a"
+      },
+      "text": "AML Compliance Policy\nAML Compliance Policy (UAE)"
+    },
+    {
+      "content_id": "unparsed_365fe1281e473ecf4154",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_bea85b6a2483b76bf6bf",
+        "normalized_end": 261,
+        "normalized_start": 0,
+        "raw_end": 261,
+        "raw_start": 0,
+        "source_id": "src_5bda226150d98eb351a0",
+        "text_sha256": "059633dd8e7634de1b68436b52cb5b731b1560b3d53c63ede86736a357cfc859"
+      },
+      "text": "Bank of the UAE, the Securities and Commodities Authority, or the Virtual Asset Regulatory\nAuthority (VARA), as applicable.\nGeneral Manager / Chief Executive Officer\n________________\nSignature\nMoney Laundering Reporting Officer (MLRO)\n________________\nSignature"
+    }
+  ],
+  "variables": [
+    {
+      "allowed_choices": [],
+      "canonical_token": "[COMPANY_NAME]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_bea85b6a2483b76bf6bf",
+          "normalized_end": 136,
+          "normalized_start": 122,
+          "raw_end": 136,
+          "raw_start": 122,
+          "source_id": "src_5bda226150d98eb351a0",
+          "text_sha256": "8b14fe44dea31fbf18f117d0b21650aedc4fa9ac8200880c52fd7e121e6a5964"
+        },
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_bea85b6a2483b76bf6bf",
+          "normalized_end": 274,
+          "normalized_start": 260,
+          "raw_end": 274,
+          "raw_start": 260,
+          "source_id": "src_5bda226150d98eb351a0",
+          "text_sha256": "8b14fe44dea31fbf18f117d0b21650aedc4fa9ac8200880c52fd7e121e6a5964"
+        }
+      ],
+      "original_tokens": [
+        "[Company Name]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "company_name"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[EMIRATE]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_bea85b6a2483b76bf6bf",
+          "normalized_end": 146,
+          "normalized_start": 137,
+          "raw_end": 146,
+          "raw_start": 137,
+          "source_id": "src_5bda226150d98eb351a0",
+          "text_sha256": "455094940d49cdea33b462acc971b9471611ddad4ae7afc07968959fbfeda51b"
+        }
+      ],
+      "original_tokens": [
+        "[Emirate]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "emirate"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[EFFECTIVE_DATE]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_bea85b6a2483b76bf6bf",
+          "normalized_end": 202,
+          "normalized_start": 186,
+          "raw_end": 202,
+          "raw_start": 186,
+          "source_id": "src_5bda226150d98eb351a0",
+          "text_sha256": "bea672071f9d0bbf287f816a5cd71bcb27b43eab507fe5572840ac9162115fe5"
+        }
+      ],
+      "original_tokens": [
+        "[Effective Date]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "effective_date"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[APPROVED_BY]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_bea85b6a2483b76bf6bf",
+          "normalized_end": 229,
+          "normalized_start": 216,
+          "raw_end": 229,
+          "raw_start": 216,
+          "source_id": "src_5bda226150d98eb351a0",
+          "text_sha256": "716549dd21a62ff320d9763e2aa232690c3add9fe300b281c34c84feeefbfde2"
+        }
+      ],
+      "original_tokens": [
+        "[Approved By]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "approved_by"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[ENTITY_TYPE]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_bea85b6a2483b76bf6bf",
+          "normalized_end": 449,
+          "normalized_start": 436,
+          "raw_end": 449,
+          "raw_start": 436,
+          "source_id": "src_5bda226150d98eb351a0",
+          "text_sha256": "c9c1d8bb0a818c1d1a898eeea5f50184f267b680cf39f118bc9217a3069f3572"
+        }
+      ],
+      "original_tokens": [
+        "[Entity Type]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "entity_type"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[RISK_RATING]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_bea85b6a2483b76bf6bf",
+          "normalized_end": 1755,
+          "normalized_start": 1742,
+          "raw_end": 1755,
+          "raw_start": 1742,
+          "source_id": "src_5bda226150d98eb351a0",
+          "text_sha256": "e4d139660ef6e2b1e961a224b9c9f369d6ebe9a8991b3f1d5afa947506597128"
+        }
+      ],
+      "original_tokens": [
+        "[Risk Rating]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "risk_rating"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[REVIEW_PERIOD]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_bea85b6a2483b76bf6bf",
+          "normalized_end": 2046,
+          "normalized_start": 2031,
+          "raw_end": 2046,
+          "raw_start": 2031,
+          "source_id": "src_5bda226150d98eb351a0",
+          "text_sha256": "8611240e1e5e1a15f8f5690f1d6fb91cdedcc85dd3550f44dd9f6a161959bdfa"
+        },
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_bea85b6a2483b76bf6bf",
+          "normalized_end": 2537,
+          "normalized_start": 2522,
+          "raw_end": 2537,
+          "raw_start": 2522,
+          "source_id": "src_5bda226150d98eb351a0",
+          "text_sha256": "8611240e1e5e1a15f8f5690f1d6fb91cdedcc85dd3550f44dd9f6a161959bdfa"
+        },
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_bea85b6a2483b76bf6bf",
+          "normalized_end": 3081,
+          "normalized_start": 3066,
+          "raw_end": 3081,
+          "raw_start": 3066,
+          "source_id": "src_5bda226150d98eb351a0",
+          "text_sha256": "8611240e1e5e1a15f8f5690f1d6fb91cdedcc85dd3550f44dd9f6a161959bdfa"
+        }
+      ],
+      "original_tokens": [
+        "[Review Period]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "review_period"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[MLRO_NAME]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_bea85b6a2483b76bf6bf",
+          "normalized_end": 1061,
+          "normalized_start": 1050,
+          "raw_end": 1061,
+          "raw_start": 1050,
+          "source_id": "src_5bda226150d98eb351a0",
+          "text_sha256": "6a6ed9ae6ba6c512a758bb37cd9157acd60902d2d1295a3b13e4ba44e5582781"
+        },
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_bea85b6a2483b76bf6bf",
+          "normalized_end": 3096,
+          "normalized_start": 3085,
+          "raw_end": 3096,
+          "raw_start": 3085,
+          "source_id": "src_5bda226150d98eb351a0",
+          "text_sha256": "6a6ed9ae6ba6c512a758bb37cd9157acd60902d2d1295a3b13e4ba44e5582781"
+        }
+      ],
+      "original_tokens": [
+        "[MLRO Name]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "mlro_name"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[MLRO_CONTACT]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_bea85b6a2483b76bf6bf",
+          "normalized_end": 1629,
+          "normalized_start": 1615,
+          "raw_end": 1629,
+          "raw_start": 1615,
+          "source_id": "src_5bda226150d98eb351a0",
+          "text_sha256": "b9317ec40da4752d078ad409fdd859b90922a835bd120229b3b8bcd6385b3e16"
+        }
+      ],
+      "original_tokens": [
+        "[MLRO Contact]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "mlro_contact"
+    }
+  ],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

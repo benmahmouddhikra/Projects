@@ -1,0 +1,77 @@
+{
+  "artifact_key": "src_a77d99c589c5ace7837d",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_a77d99c589c5ace7837d/canonical.json",
+    "extraction": "artifacts/pilot/src_a77d99c589c5ace7837d/extraction.json",
+    "review": "artifacts/review-queue/review_f255a1deb366d97a7d69.json",
+    "validation": "artifacts/pilot/src_a77d99c589c5ace7837d/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:37.778550Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "contract_template",
+  "required_reviews": [
+    "classification",
+    "extraction",
+    "legal",
+    "structure"
+  ],
+  "review_coverage": "full",
+  "review_record_id": "review_f255a1deb366d97a7d69",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/Eygpte/2025 EGAS Model Agreement English.pdf",
+      "sha256": "63c0a23ad64ff55405c299ad72abfbda055185f7be62ed3d7c919a4b94f85ac9",
+      "source_id": "src_a77d99c589c5ace7837d"
+    }
+  ],
+  "template_id": "tpl_c6c07443680767417a5c",
+  "training_eligibility": "review_required",
+  "updated_at": "2026-08-12T14:00:37.778550Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:05:23.019043Z",
+    "errors": [],
+    "valid": true
+  }
+}

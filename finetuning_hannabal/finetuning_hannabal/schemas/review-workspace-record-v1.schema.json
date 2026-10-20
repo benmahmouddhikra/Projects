@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:hannibal:schema:review-workspace-record-v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "review_record_id", "template_id", "artifact_key",
+    "artifact_paths", "sources", "reviewer", "revision", "review_coverage",
+    "initial_classification", "required_reviews", "decisions",
+    "final_disposition", "training_eligibility", "validation",
+    "revision_history", "created_at", "updated_at"
+  ],
+  "properties": {
+    "schema_version": {"const": "review-workspace-record-v1"},
+    "review_record_id": {"type": "string", "pattern": "^review_[a-f0-9]{20}$"},
+    "template_id": {"type": ["string", "null"]},
+    "artifact_key": {"type": "string", "minLength": 1},
+    "artifact_paths": {
+      "type": "object", "additionalProperties": false,
+      "required": ["review", "extraction", "canonical", "validation"],
+      "properties": {
+        "review": {"type": "string", "pattern": "^artifacts/"},
+        "extraction": {"type": "string", "pattern": "^artifacts/"},
+        "canonical": {"type": ["string", "null"]},
+        "validation": {"type": "string", "pattern": "^artifacts/"}
+      }
+    },
+    "sources": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["source_id", "relative_path", "sha256"],
+        "properties": {
+          "source_id": {"type": "string"},
+          "relative_path": {"type": "string", "pattern": "^templates/"},
+          "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+        }
+      }
+    },
+    "reviewer": {"type": ["string", "null"]},
+    "revision": {"type": "integer", "minimum": 0},
+    "review_coverage": {"enum": ["full", "classification_only", "sampled_audit", "automated_triage"]},
+    "initial_classification": {"type": ["string", "null"]},
+    "required_reviews": {
+      "type": "array", "uniqueItems": true,
+      "items": {"enum": ["extraction", "classification", "structure", "privacy", "sanitization", "legal"]}
+    },
+    "decisions": {
+      "type": "object", "additionalProperties": false,
+      "required": ["extraction", "classification", "structure", "privacy", "sanitization", "legal"],
+      "properties": {
+        "extraction": {"$ref": "#/$defs/decision"},
+        "classification": {"$ref": "#/$defs/decision"},
+        "structure": {"$ref": "#/$defs/decision"},
+        "privacy": {"$ref": "#/$defs/decision"},
+        "sanitization": {"$ref": "#/$defs/decision"},
+        "legal": {"$ref": "#/$defs/decision"}
+      }
+    },
+    "final_disposition": {"enum": ["pending", "approved", "rejected", "changes_required", "excluded"]},
+    "training_eligibility": {"enum": ["eligible", "review_required", "excluded"]},
+    "validation": {
+      "type": "object", "additionalProperties": false,
+      "required": ["valid", "errors", "checked_at"],
+      "properties": {
+        "valid": {"type": "boolean"},
+        "errors": {"type": "array", "items": {"type": "string"}},
+        "checked_at": {"type": "string"}
+      }
+    },
+    "revision_history": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["revision", "action", "reviewer", "created_at"],
+        "properties": {
+          "revision": {"type": "integer", "minimum": 1},
+          "action": {"type": "string", "minLength": 1},
+          "reviewer": {"type": "string", "minLength": 1},
+          "created_at": {"type": "string"}
+        }
+      }
+    },
+    "created_at": {"type": "string"},
+    "updated_at": {"type": "string"}
+  },
+  "$defs": {
+    "decision": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "reviewer", "notes", "decided_at"],
+      "properties": {
+        "status": {"enum": ["pending", "approved", "rejected", "changes_required", "not_applicable"]},
+        "reviewer": {"type": ["string", "null"]},
+        "notes": {"type": "string"},
+        "decided_at": {"type": ["string", "null"]}
+      }
+    }
+  }
+}

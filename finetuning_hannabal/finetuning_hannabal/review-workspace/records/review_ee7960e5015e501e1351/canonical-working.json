@@ -1,0 +1,2540 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_e43ac7647376292c1b74",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "completed_contract",
+    "initial_document_kind": "completed_contract",
+    "languages": [
+      {
+        "basis": "script_detection",
+        "confidence": 0.4229,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 2134,
+            "normalized_start": 0,
+            "raw_end": 2134,
+            "raw_start": 0,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "90faaededda23f6d4ff84dc2576a7d83bb6d5be60b47c8577797a69f1964019d"
+          }
+        ],
+        "tag": "ar"
+      },
+      {
+        "basis": "deterministic_text_heuristic",
+        "confidence": 0.1722,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 2134,
+            "normalized_start": 0,
+            "raw_end": 2134,
+            "raw_start": 0,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "90faaededda23f6d4ff84dc2576a7d83bb6d5be60b47c8577797a69f1964019d"
+          }
+        ],
+        "tag": "en"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "completed",
+    "title": "Definite Employment Agreement   عقـد عمـل",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 41,
+        "normalized_start": 0,
+        "raw_end": 41,
+        "raw_start": 0,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "7d08aa9027d47b2a047c7379daade750c9eb854945e0abc1fa2d82cae82ebabb"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "completed_contract_heuristic_requires_review",
+        "message": "Contract-like filename without detected square-bracket placeholders was initially classified completed and requires human confirmation.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "required",
+    "structure_review_status": "pending",
+    "training_eligibility": "review_required"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_32434552bc024add0ea6",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1. Company Name …. Commercial register no ….",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 509,
+            "normalized_start": 211,
+            "raw_end": 509,
+            "raw_start": 211,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "50107ea0f9be147d3ac8760dbc240246a0eda231d06a15caddb387bc9d8eb7da"
+          },
+          "text": "Located at ADDRESS  Egypt & herein \nrepresented by NAME in his capacity as the \nCompany Manager, hereinafter referred to as \n(“The Company ”). 1  .. اسم الشركة ….رقم السجل التجاري\nيقع مقرها في العنوان مصر ويمثلها \nهنا xxxxxx  بصفته مدير الشركة،\nوالمشار إليها فيما يلي  \n \n(First Party)   )(طـرف أول",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1. Company Name …. Commercial register no ….",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 210,
+        "normalized_start": 165,
+        "raw_end": 210,
+        "raw_start": 165,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "14badb20b4feab1136b40915166eba3a8d75e0105106f21ee960fc559c1b4515"
+      },
+      "kind": "unclassified",
+      "order": 1,
+      "requirement_status": "unspecified",
+      "section_id": "sec_f15b86aa0f0290c47e05",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 509,
+        "normalized_start": 165,
+        "raw_end": 509,
+        "raw_start": 165,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "971d0a946d3b364045a69cecbac2c02d8cc75d70843ffa47ac42fdbc67282234"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_74ace87c9a15b6cc96c1",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2. Ms/r ……………………………………..  Nationality:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 2134,
+            "normalized_start": 551,
+            "raw_end": 2134,
+            "raw_start": 551,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "f597071f54de7578502a834d59eb5fcca7be7d6f1ed9ea9cfa466004b5a51219"
+          },
+          "text": "Egyptian, holding National ID \n……………………………….. , Issued No. on \n………………..  , residing …………………………………  \nand hereinafter referred to as (“the \nEmployee”).  2 - /السيدة   …………………………… ، الجنسية:مصري  ، بطاقة  \nقومي رقم  ..…………………………  صادرة بتاريخ..…………   \nويقيم ……………………………………… \nوالمشار إليه فيما بعد بـ (\"الموظف\") \n(Second Party)   )(طـرف ثان \nThe Parties agree to enter into this Agreement \naccording to the following terms and conditions:  اتفق الطرفان على إبرام هذا العقد وفقا لألحكام و الشروط التالية:  \nPREAMBLE   تمهـيد \nThe Company  is a service provider and has the \ncapacity to provide technical expertise to its \nclients. And in need of the Title  services to carry \nout defined duties, that are required to \nimplement the company’s agreement with its \nclient  (Company Name )   حيث أن نشاط الشركة هو تقديم الخدمات وتقوم بتوفير الخبرات\nالفنية لعمالءها وكانت في حاجة إلى خدمات    Title    ألداء بعض\nاألعمال المؤقته والعرضية من هذا العقد و التي يحتاج إليها تنفيذ  \nتعاقدها مع  Company Name  . )(العميل \nWHEREAS, the work assigned to the Employer \nby its Client is temporary, therefore works at \nEmployer's hand that may be assigned to his \nemployees are of the same temporary nature.    وحيث ان العمل المسند الى الشركة من عميلها عمل مؤقت، فان\nاالعمال المتاحة للشركة والتي يمكن  اسنادها لموظفيها تتسم بنفس  \nالطبيعة.  \nWHEREAS, the said nature of the work entitles \nthe Employer to terminate this agreement for \nany of the reasons stated in this agreement.    وحيث أن طبيعة العمل هذه ترتب بالضرورة للشركة الحق في\nإنهاء هذا العقد عند توافر أي من األسباب المنصوص عليها في  \nهذا العقد.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2. Ms/r ……………………………………..  Nationality:",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 550,
+        "normalized_start": 511,
+        "raw_end": 550,
+        "raw_start": 511,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "723fb7a0438152b911a06c1ce8f5c1352391a5a878bee9eb33f3f91e5d00c075"
+      },
+      "kind": "unclassified",
+      "order": 2,
+      "requirement_status": "unspecified",
+      "section_id": "sec_18038688165881b41325",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 2134,
+        "normalized_start": 511,
+        "raw_end": 2134,
+        "raw_start": 511,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "31cd962ffd0a74561c5658b574e11d18f11bb1a5171bda3a164b88a759206d6e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_44dfdf9eae14faad2205",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2005 , and in accordance with the terms of this",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1300,
+            "normalized_start": 1095,
+            "raw_end": 1300,
+            "raw_start": 1095,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "ddd0c3f5f256a6e05d071f255081a93db8ddc9b2390f3d6a21fde6c95f6db7bf"
+          },
+          "text": "Agreement as follows;    بـناء عليه توافــق الشركة على تعيين المـــوظف ويوافق الموظف\nعلى أداء خدماتـــه إلى الشركة للفترة المحددة وفقا لألحكام  \nالخاصة بعقود العمل المؤقتة الموضحة في القانون رقم  12   لسنة",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2005 , and in accordance with the terms of this",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1094,
+        "normalized_start": 1046,
+        "raw_end": 1094,
+        "raw_start": 1046,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "dc487c0cc2aa6d9ec9b6d62d07557f86ee0aef028286dbcd0865830c743debaf"
+      },
+      "kind": "unclassified",
+      "order": 3,
+      "requirement_status": "unspecified",
+      "section_id": "sec_94acb25041891402ee6e",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1300,
+        "normalized_start": 1046,
+        "raw_end": 1300,
+        "raw_start": 1046,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "2b2b77c86b9bd4f1775156634cb64b1a3ccd5a566161955fe8df6d9a017dd030"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_b6f3e4602f6fe9c8aad6",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2003  المعدل بالقانون رقم90   لسنة2005   وطبقاً لنصوص هذا",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1436,
+            "normalized_start": 1359,
+            "raw_end": 1436,
+            "raw_start": 1359,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "aa8e81d417eb4e4ac4301924a4eec6e57991e8eed08a9a96c4408f6ba0ae4f6b"
+          },
+          "text": "العقد، وذلك على النحو الت الي:  وبالـــشروط الواردة في هــذا العقد  \nكما يلي:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2003  المعدل بالقانون رقم90   لسنة2005   وطبقاً لنصوص هذا",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1358,
+        "normalized_start": 1301,
+        "raw_end": 1358,
+        "raw_start": 1301,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "4a566185e3eeadb5e04be532a0240bf9e78edd9ffa4053684388b5dfc93e718f"
+      },
+      "kind": "unclassified",
+      "order": 4,
+      "requirement_status": "unspecified",
+      "section_id": "sec_a8d2715b174c77ab625f",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1436,
+        "normalized_start": 1301,
+        "raw_end": 1436,
+        "raw_start": 1301,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "4befdf3a064f438710404b7d8ac678c2f23293c1de63ce2c294b40ab6bb8e905"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e12d4741bfaa198e3659",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 1",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1606,
+            "normalized_start": 1456,
+            "raw_end": 1606,
+            "raw_start": 1456,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "0b3e92de65221e26d33591867b48f2e26c8648e2c7caf6f6b1a1bf8436ebad16"
+          },
+          "text": "General provision    مادة1 \nقاعدة عامة \nThe above Preamble is an integral part of this \nagreement.   يعتبر التمهيد السابق جزءاً ال يتجزأ من هذاالعقد .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 1",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1455,
+        "normalized_start": 1444,
+        "raw_end": 1455,
+        "raw_start": 1444,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "99d7aa672a435577c7f01cc9b20c489c1e830f840dc0944e80524624ec401cc7"
+      },
+      "kind": "unclassified",
+      "order": 5,
+      "requirement_status": "unspecified",
+      "section_id": "sec_ccf9e80af9ed0849d4af",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1606,
+        "normalized_start": 1444,
+        "raw_end": 1606,
+        "raw_start": 1444,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "433ecccc8b4c6b99f92bcad5e94376bf4a100d1d44bd9586d86e5119fa10d74b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_bea38a6196afd4c3772d",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 2",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 2067,
+            "normalized_start": 1620,
+            "raw_end": 2067,
+            "raw_start": 1620,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "3d4771e097162a2297de66713bd72778aea93efc443c8f2a9ba13f7b468da7e1"
+          },
+          "text": "Scope of Work    مادة2 \n نطاق العقد \nPursuant to this Agreement, the Employee \nhereby consents and agrees to perform \ntemporary work in the Employer's employment \nfor the Client’s account as a Title  and \nundertakes to perform the duties and \nresponsibilities involved in the above capacity.    يقبل الموظف ويوافق بموجب هذا العقد على أداء أعمال مؤقتة\nللشركة لحساب العميل في وظيفة Title   على أن يتولى ويؤدى هذه\nالواجبات والمسؤوليات بصفته المذكورة.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 2",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1619,
+        "normalized_start": 1608,
+        "raw_end": 1619,
+        "raw_start": 1608,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "9bb04805ffd129579ae49328da817ffeaa245ebff960845560da42ecc779cf32"
+      },
+      "kind": "unclassified",
+      "order": 6,
+      "requirement_status": "unspecified",
+      "section_id": "sec_7b10c0d69ea7f0be83c3",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 2067,
+        "normalized_start": 1608,
+        "raw_end": 2067,
+        "raw_start": 1608,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "fcfb581f6a1ad8516d1558886961434d2556d9d5e6564fbb92783394f566a9da"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_8f66ed699efeef1f4a4f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 3",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 2108,
+            "normalized_start": 2083,
+            "raw_end": 2108,
+            "raw_start": 2083,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "2749009fd339fa6cdd01b68a45fc5e8ec64e6a738abe75cd0f5dd9dc971198aa"
+          },
+          "text": "Salary  ( مادة3 ) \n األجر",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 3",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 2082,
+        "normalized_start": 2071,
+        "raw_end": 2082,
+        "raw_start": 2071,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "fd6f7acd3252f53c8d281c0ffb14e83891dec2d470c8d7d9fbd868051d58b5ae"
+      },
+      "kind": "unclassified",
+      "order": 7,
+      "requirement_status": "unspecified",
+      "section_id": "sec_1b03404f2dabbd051ad9",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 2108,
+        "normalized_start": 2071,
+        "raw_end": 2108,
+        "raw_start": 2071,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "59b599cfb33110d42ea4853869e25fbb93e9380996ee7057532f21cb0fa4a34e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_12b6cae774d85a1f8aae",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 4",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 786,
+            "normalized_start": 563,
+            "raw_end": 786,
+            "raw_start": 563,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "0772f82340737600f19443e4f1d39afdfe5bc14efdb202ca290af12bdf72ea99"
+          },
+          "text": "Withholding Taxes:  ( مادة4 ) \n الضرائـــــــب \n-Social Insurance & Salary tax payment for \nemployees should be the responsibility of the \ncompany.  و يكون سداد ضرائب المرتبات و التأمينات اإلجتماعية للموظفين \nمسؤلية الشركة.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 4",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 562,
+        "normalized_start": 551,
+        "raw_end": 562,
+        "raw_start": 551,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "da7437bce51bce14bb55c3e9e3098642f458ee45d8808bb2886bcdb2e6fd0d64"
+      },
+      "kind": "unclassified",
+      "order": 8,
+      "requirement_status": "unspecified",
+      "section_id": "sec_d92c0f4a3e54d0a5eaaa",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 786,
+        "normalized_start": 551,
+        "raw_end": 786,
+        "raw_start": 551,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "541e8fbc7f3419c34b08c8f1360e72847496c580dcc32700d8e0989b4ce85aad"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_4b837339d1fc77ba9071",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 5",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1149,
+            "normalized_start": 801,
+            "raw_end": 1149,
+            "raw_start": 801,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "6b810bcc7dfc761b65b5c16101aa99d1054982a02e3b9ed0109842c70abd7353"
+          },
+          "text": "Agreement’s Duration  ( مادة5 ) \n مـدة العقـد \n- The duration of this Agreement is for defined \nperiod commencing on ………………..  and \nending on ……………………….  -  حددت مـــدة هذا العقد سنة تبدأ من  ..…………………  وتنتهي في  \n.……………… \n- The renewal of which shall not come into \neffect except with a written mutual \nagreement between both parties according to",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 5",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 800,
+        "normalized_start": 789,
+        "raw_end": 800,
+        "raw_start": 789,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "a16074ad33b426595628bd30f3cf16a1389d9aab6a809ffb2163ba93d6111172"
+      },
+      "kind": "unclassified",
+      "order": 9,
+      "requirement_status": "unspecified",
+      "section_id": "sec_5e894682b6ecf349ade2",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1149,
+        "normalized_start": 789,
+        "raw_end": 1149,
+        "raw_start": 789,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "45f8fc4cca6dd831845d3f23dadf08f3354ecb720147a85bb76f25c6b3f7fe3b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_b5adb4f6fc03db506582",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "article 106 Law 12 for year 2003.  -    و ال يـــجدد إال بــاتفاق كتابــي جديــد بيــن طــرفيه طــبقا للمادة",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1535,
+            "normalized_start": 1260,
+            "raw_end": 1535,
+            "raw_start": 1260,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "0a78ede52cc82d01da1b83567e9e2599469834c3e8ff066b923d05ef17226166"
+          },
+          "text": "رقــم  106  مــن القانـون12   لسنة2003  . \n- In case of the termination of the agreement \nbetween the company and the client this \nagreement shall be deemed rescinded.    -   يعتبر هذا العقد مفسوخا من تلقاء نفسه في حالة انتهاء العالقة\nالتعاقدية بين الشركة والعميل  في اي وقت.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "article 106 Law 12 for year 2003.  -    و ال يـــجدد إال بــاتفاق كتابــي جديــد بيــن طــرفيه طــبقا للمادة",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1259,
+        "normalized_start": 1151,
+        "raw_end": 1259,
+        "raw_start": 1151,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "0a90eb7096aebbaf5ad5408b40d03816b1353dfc962b51355dff75bbbc1fe044"
+      },
+      "kind": "unclassified",
+      "order": 10,
+      "requirement_status": "unspecified",
+      "section_id": "sec_71eaf8b409994e9ad13a",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1535,
+        "normalized_start": 1151,
+        "raw_end": 1535,
+        "raw_start": 1151,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "daea9e1c572dd726a160e5c02716f9c5526237842c948dc8736a91b3d0993990"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_37fd3ba2aed7d901ad23",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 6",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1776,
+            "normalized_start": 1550,
+            "raw_end": 1776,
+            "raw_start": 1550,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "1765eb7d1a2a61f19a9fd80bf7f0d5b7c0c650e382257c541c701b059e60893f"
+          },
+          "text": "Abidance to Working Hours   ( مـادة6 ) \n االلتزام بساعات العمل \nAccording to the Labor Law, the number of \nworking hours per week is 48 hours.    طبقا ألحكام قانون العمل فإن عدد ساعات العمل األسبوعية سوف\nيكون 48  .ساعة أسبوعيا",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 6",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1549,
+        "normalized_start": 1538,
+        "raw_end": 1549,
+        "raw_start": 1538,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "43b6ac0fdfab8376109faf3d9b948ecbbf782462cc9e666a074e046ca0ee2795"
+      },
+      "kind": "unclassified",
+      "order": 11,
+      "requirement_status": "unspecified",
+      "section_id": "sec_376a59a00bbe803a37c4",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1776,
+        "normalized_start": 1538,
+        "raw_end": 1776,
+        "raw_start": 1538,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "e9d7d2c8e276134e61d1bd29622582b1ae6ffd0cd0471eb7a91902383bcb0d28"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_1305bc43567146a70769",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 7",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1869,
+            "normalized_start": 1790,
+            "raw_end": 1869,
+            "raw_start": 1790,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "0509ff061b093a8afea69c9da471fb13e25ab04ad807d4baefb975cedba16878"
+          },
+          "text": "Leaves   ( مـادة7 ) \n األجازات \nThe Employee is entitled to annual vacations of",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 7",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1789,
+        "normalized_start": 1778,
+        "raw_end": 1789,
+        "raw_start": 1778,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "24b5367e26f686e12ca981a09ddf4085ebc89a013d44e20073dc27ad43eb038f"
+      },
+      "kind": "unclassified",
+      "order": 12,
+      "requirement_status": "unspecified",
+      "section_id": "sec_b27cfda2fd32813216f1",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1869,
+        "normalized_start": 1778,
+        "raw_end": 1869,
+        "raw_start": 1778,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "72d77d04ce1aa8ab8425be12774daa7d9b482a757d1d2f3b5029cc4a5d29f072"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_c0d0fcf620fd6c7f08d8",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "21 working days after the first 6 months of",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1961,
+            "normalized_start": 1916,
+            "raw_end": 1961,
+            "raw_start": 1916,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "8401a7d22fd922618c6d8b98ec616c08ab286f3800dce9978a682d5d0f0a2e15"
+          },
+          "text": "service. Those Employees that have served for",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "21 working days after the first 6 months of",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1915,
+        "normalized_start": 1871,
+        "raw_end": 1915,
+        "raw_start": 1871,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "83de84e34f65873245df5866b8413ac2904b9113cf277356807b08ffb583299b"
+      },
+      "kind": "unclassified",
+      "order": 13,
+      "requirement_status": "unspecified",
+      "section_id": "sec_bd5d6ed1ed9742afaa29",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1961,
+        "normalized_start": 1871,
+        "raw_end": 1961,
+        "raw_start": 1871,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "ee452887b50388f1237b278394c4425dbde3df710e65f57aa6c322fe3aa7812e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_1d836b3228acecc4341a",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "10 years consecutively in the work force or have ( يحق للموظف أجازة سنوية قدرها21   ) يوماً ال تستحق للموظف",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 2181,
+            "normalized_start": 2071,
+            "raw_end": 2181,
+            "raw_start": 2071,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "7e7dc11d6bd8bb53ee89c3e6aad1830f3bcd57bfb423d10314ceb87f4b1f42ca"
+          },
+          "text": "إال بعد مرور ستة أشهر من تعيينه وتزداد إلى  30    يوماً لمن أمضى\nفي الخدمة 10   .سنوات أو لمن تجاوز سن الخمسين",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "10 years consecutively in the work force or have ( يحق للموظف أجازة سنوية قدرها21   ) يوماً ال تستحق للموظف",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 2070,
+        "normalized_start": 1963,
+        "raw_end": 2070,
+        "raw_start": 1963,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "40424d6ee5cb7ccb83be11aeacc737df28cf7ed686051d798d5426d16a7edbad"
+      },
+      "kind": "unclassified",
+      "order": 14,
+      "requirement_status": "unspecified",
+      "section_id": "sec_60813c86245650ecf0f2",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 2181,
+        "normalized_start": 1963,
+        "raw_end": 2181,
+        "raw_start": 1963,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "e5f63d0b9efca0610f49c341e8b2cde7cff1d4b84eb5f2cf9a58b29648bb50aa"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_fd9afdba8e2de027509a",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 8",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 531,
+            "normalized_start": 241,
+            "raw_end": 531,
+            "raw_start": 241,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "b533e432b81a6dd257dc58b10bde8b302bcff9bc533c4b95d95d42cb5aa44971"
+          },
+          "text": "Dismissal  مادة8   \nالفصــــــــــل \nThe Employer shall have the right to commence \ndismissal procedures against the Employee and \nthereby terminate this agreement in the \nfollowing cases:    للشركة الحق في أن تشرع في اتخاذ إجراءات فصل الموظف \nوإنهاء هذا العقد تبعا لذلك في األحوال التالية:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 8",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 240,
+        "normalized_start": 229,
+        "raw_end": 240,
+        "raw_start": 229,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "266c6008f0cc6459e505820560142f0625078bcb7c4ab434ac120332e5bca54e"
+      },
+      "kind": "unclassified",
+      "order": 15,
+      "requirement_status": "unspecified",
+      "section_id": "sec_5cfb3d7cee7f771fa025",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 531,
+        "normalized_start": 229,
+        "raw_end": 531,
+        "raw_start": 229,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "4e2b7291f764ca24c77d97ff3d6097db5f713be39f662e8f83635eba0bb9e5f6"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_6251f93894b1e8e2f931",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1. Failure of the Employee to adhere to the",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 647,
+            "normalized_start": 579,
+            "raw_end": 647,
+            "raw_start": 579,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "eda8a7d53f6835ddc3807da15fde10aa0b2147ce96c2a02791d91cbf673e46d3"
+          },
+          "text": "terms of this agreement.  1 - .إخفاق الموظف في إتباع أحكام هذا العقد",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1. Failure of the Employee to adhere to the",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 578,
+        "normalized_start": 534,
+        "raw_end": 578,
+        "raw_start": 534,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "e4976c9911e702c09cf82b2ca3729315f106f3c4d8b300cfc6c77d8496a6b1f1"
+      },
+      "kind": "unclassified",
+      "order": 16,
+      "requirement_status": "unspecified",
+      "section_id": "sec_1f2b73d1262df70fb356",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 647,
+        "normalized_start": 534,
+        "raw_end": 647,
+        "raw_start": 534,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "996fe2393f3f7f3bc14ba612efa8de2146f0c7cb113f6a90729d7b9bfbc3f50f"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_a4c182e3020ee96d3556",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2. Failure of the Employee to adhere to the",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 837,
+            "normalized_start": 694,
+            "raw_end": 837,
+            "raw_start": 694,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "b1da2b55110dbd9d80d9e74cc0d0e083ee34b51be4d68198c92c43c5d2d6d631"
+          },
+          "text": "Employer or its Client’s rules, regulations, or \npolicies.  2 -   عدم مراعاة الموظف للقواعد واللوائح والسياسات المتبعة في\nالشركة أو لدي عميلها.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2. Failure of the Employee to adhere to the",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 693,
+        "normalized_start": 649,
+        "raw_end": 693,
+        "raw_start": 649,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "ef6d2c7b7153873ff7e1957142fdc3d6dacd8ef68a062b1d5adc6d5368ce0742"
+      },
+      "kind": "unclassified",
+      "order": 17,
+      "requirement_status": "unspecified",
+      "section_id": "sec_51502b2815d9f16d077f",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 837,
+        "normalized_start": 649,
+        "raw_end": 837,
+        "raw_start": 649,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "c5508a60698ea43adfb98d47eff936a561fc4c94ab898b5e2f3fb651e8589eef"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_ac7a877e984dcbe8101c",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3. If the Employee commits a mistake resulting in",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1007,
+            "normalized_start": 890,
+            "raw_end": 1007,
+            "raw_start": 890,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "de1452a33595ff2bd54812db632d032350ae01fcaff6500263837f8c468535fd"
+          },
+          "text": "severe loss to the Employer or its Client.  3 -   إذا ما اقترف الموظف خطأ ونتج عن ذلك خسارة كبيرة \nللشركة أو لعميلها.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3. If the Employee commits a mistake resulting in",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 889,
+        "normalized_start": 839,
+        "raw_end": 889,
+        "raw_start": 839,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "0cb936735504a71ae3c1361be9bc86521370704370e1c323dd902d7700c4482d"
+      },
+      "kind": "unclassified",
+      "order": 18,
+      "requirement_status": "unspecified",
+      "section_id": "sec_9d9e95ed3dfbb6a571aa",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1007,
+        "normalized_start": 839,
+        "raw_end": 1007,
+        "raw_start": 839,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "98ab1365fc08c4e6f425658547e6ac8970413f73d3c21976dc5f0089318acba0"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_fcc7af25c93cfd376804",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4. For any other reason stated in Labor Law No.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1056,
+            "normalized_start": 1009,
+            "raw_end": 1056,
+            "raw_start": 1009,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "8c83c3fb1ae36d27399c9cfd07408601ca4ad805095850c9efaa16cd8cf8d34f"
+          },
+          "text": "4. For any other reason stated in Labor Law No.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4. For any other reason stated in Labor Law No.",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1057,
+        "normalized_start": 1009,
+        "raw_end": 1057,
+        "raw_start": 1009,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "69b7596f88c39e77faf01a78aa5e1d342854899c4b9d2c2ba25ce6a6347ad99a"
+      },
+      "kind": "unclassified",
+      "order": 19,
+      "requirement_status": "unspecified",
+      "section_id": "sec_9ef52c8cd67690c2db95",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1056,
+        "normalized_start": 1009,
+        "raw_end": 1056,
+        "raw_start": 1009,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "8c83c3fb1ae36d27399c9cfd07408601ca4ad805095850c9efaa16cd8cf8d34f"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_db7cc95ac09e196e54eb",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "12 of 2003.  4 -   أي من األحوال األخرى المنصوص عليها في قانون العمل",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1148,
+            "normalized_start": 1127,
+            "raw_end": 1148,
+            "raw_start": 1127,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "fdf40f073baea6f2c630dad134fbfaee3ca63f980ac1a32d7f7fde9b2223f170"
+          },
+          "text": "رقم  12  لسنة2003  .م",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "12 of 2003.  4 -   أي من األحوال األخرى المنصوص عليها في قانون العمل",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1126,
+        "normalized_start": 1058,
+        "raw_end": 1126,
+        "raw_start": 1058,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "9c9020f97179f22b78d90e9c18caba8eb0ad34de552760efbf47d63478c0fa4e"
+      },
+      "kind": "unclassified",
+      "order": 20,
+      "requirement_status": "unspecified",
+      "section_id": "sec_f609623e3ad0e7494e1f",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1148,
+        "normalized_start": 1058,
+        "raw_end": 1148,
+        "raw_start": 1058,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "6c7b302b2918163ca4b045818f80982fa6b9e9c09068b1702d9e4517e820b204"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_9d1fca20e6b56a8c09af",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 9",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 2219,
+            "normalized_start": 1161,
+            "raw_end": 2219,
+            "raw_start": 1161,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "74d96ca12a23d549f22bcb8447a5953ba4bd4a70183e29499919116a12057203"
+          },
+          "text": "Termination of Agreement  ( مادة9 ) \n إنهـاء العقـد  \nThe Company  shall have the right to terminate \nthe Employee’s service without the Employee \nbeing entitled to compensation in accordance \nwith Law 12 of 2003. This right of termination \nshall be exercised in the cases provided by this \nLaw.  -   يحـــق للشركــة إنــهاء خدمـــة المـــوظف دون استحقاق أي  \nتعويض إعماال  لنصوص القانون رقم  12     لسنـــة2003    وذلك\nفــي الحاالت المنصوص فيــه.  \n \nThe Employee declares that he/she is fully \naware that the continuity of this Contract is \nrelated to the basic agreement drawn up \nbetween  Company Name  (Client) and the \nEmployer, which is referred to in the Preamble; \nthis will entitle the Employer at his sole -  يقر الموظف بأنه على علم تام بأن استمرار سريان هذا العقد  \nمرتبط بالعقد المبرم بين الشركة مع شركة  Company \nName    (العميل) المنوه عنه في تمهيد هذا العقد ، األمر الذي\nيحق معه للشركة وفق تقديرها اعتبار هذا العقد مفسوخاً دون  \nأن يرتب ذلك أية التزامات على عاتقها. وذلك في أي حالة من  \nالحاالت المنصوص عليها في المادة 6   و يعتبر ما جاء بهذه",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 9",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1160,
+        "normalized_start": 1150,
+        "raw_end": 1160,
+        "raw_start": 1150,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "dcda7b8b8b33351a6bb175c88c1fb00410ae3bb97243fa3ae8ef7c44f900cdcc"
+      },
+      "kind": "unclassified",
+      "order": 21,
+      "requirement_status": "unspecified",
+      "section_id": "sec_75ae5c9de049be68a99e",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 2219,
+        "normalized_start": 1150,
+        "raw_end": 2219,
+        "raw_start": 1150,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "73acac9c0f69e36483c5840635de0b92c63bbf3ef0ed97f5ba261e97ad801840"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_96048dce6e92d7e95641",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "المادة من الشروط الجوهرية التي روعيت في هذا التعاقد.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 2272,
+            "normalized_start": 2220,
+            "raw_end": 2272,
+            "raw_start": 2220,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "545fc094e39e4ea913cedaa8f5e748b27fd5d1b316e141fd2a8a0842461d3dfb"
+          },
+          "text": "المادة من الشروط الجوهرية التي روعيت في هذا التعاقد.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "المادة من الشروط الجوهرية التي روعيت في هذا التعاقد.",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 2276,
+        "normalized_start": 2220,
+        "raw_end": 2276,
+        "raw_start": 2220,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "ef737741551a5c60fc113ff6d3b4d37c8483dd9de1577d2be39ed67c44276812"
+      },
+      "kind": "unclassified",
+      "order": 22,
+      "requirement_status": "unspecified",
+      "section_id": "sec_81f9e2006cde7f2d13c0",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 2272,
+        "normalized_start": 2220,
+        "raw_end": 2272,
+        "raw_start": 2220,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "545fc094e39e4ea913cedaa8f5e748b27fd5d1b316e141fd2a8a0842461d3dfb"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_606b28e0bb31d981379d",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 10",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1959,
+            "normalized_start": 395,
+            "raw_end": 1959,
+            "raw_start": 395,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "8af92f06ac9e6bbb955dcf471489b7fe1e43e73370a971c00f56aeedf24e8a98"
+          },
+          "text": "Employee’s Submission of Documents Under \nhis/her Possession  ( مادة10 ) \n تقديم الموظف ما تحت يده من أوراق ومستندات  \nUpon the expiration or termination of this \nAgreement, the Employee shall, as a condition \nprior to his/her receipt of any amounts due to \nhim/her, return all papers, documents, \nequipment and other property belonging to The \nCompany  that are in his/her possession.  The \nEmployee shall also sign a final settlement and \nrelease declaring that he/she has no other \nclaims or entitlements from The Company.  \n \nFurther, The Company shall not grant the \nEmployee a final release unless the \nentrustments and documents in his/her \npossession are returned and the final settlement \nhas been signed.   The Employee undertakes not \nto disclose to any person any business -related \ninformation that he /she has become aware of \nduring his/her employment and for a period of \ntwo years after the termination of the \nrelationship.   عنــد إنــهاء أو انتهاء هـــذا العـــقد يجب على الموظف– كشرط  \nمسبق الستالم أية مبالغ مستحقة له  – أن يعيد كافة األوراق  \nوالمستندات و األجهزة و المبالغ النقدية الموجودة في عهدته أو  \nحوزته وان يوقع على مخالصة تامة ونهائية يقر بموجبها بعدم  \nوجود أي مطالبات أخرى له لدى الشركــة.  \n \n \n \n \nولن تمنح الشركــة إخالء طرف نهائي للمــوظف إال بعـد  \nتسليمــه لعهدته  والمستنــدات الـــتي فـــي حوزته والتوقيع علــى  \nالــمخالصة النهائيــة ، ويتعـــــهد المــوظف بعدم اإلفصاح ألي  \nشخص بأسرار العمل أو بأية معلومات اتصلت بعمله أثــناء مدة  \nعملــه تتعلق بعمل الشركة أو بعمالئها أو مورديها و لمدة سنتان  \nبعد انتهاء عالقة العمل.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 10",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 394,
+        "normalized_start": 383,
+        "raw_end": 394,
+        "raw_start": 383,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "5a3804c51a448211ec4fb5023fd276499c051375a148cdf3b50b34cb5c49de4b"
+      },
+      "kind": "unclassified",
+      "order": 23,
+      "requirement_status": "unspecified",
+      "section_id": "sec_749774782e172b1e5969",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1959,
+        "normalized_start": 383,
+        "raw_end": 1959,
+        "raw_start": 383,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "aaa8b38f932971bef76bc19e261806f1c7e3f8e01b4ef586967791f8121cda8e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_ed016dad9228f308469f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 11",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 2311,
+            "normalized_start": 1976,
+            "raw_end": 2311,
+            "raw_start": 1976,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "5425ef65543bd5cdafc6ea38b7857d4de305346b89bb152ef8b451458094f692"
+          },
+          "text": "Employee’s Abidance to the Law and \nRegulations  ( مادة11 ) \n التزام الموظف بالقانون واللوائح  \nA. The Employee shall respect the Egyptian \nlaws and regulations.  Both parties declare \nthat the Egyptian Labor Law No. 12 of 2003  أ-  يجب على الموظف مراعاة األنظمة واللوائح المصرية ويقر  \nالطرفان بأن قانون العمل المصري رقم  12  لسنة2003",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 11",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1975,
+        "normalized_start": 1964,
+        "raw_end": 1975,
+        "raw_start": 1964,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "1aad24311caf956e92a784a09b795ae91183dfe76324c4627fe710a37700907a"
+      },
+      "kind": "unclassified",
+      "order": 24,
+      "requirement_status": "unspecified",
+      "section_id": "sec_408a04471eafbc79cb48",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 2311,
+        "normalized_start": 1964,
+        "raw_end": 2311,
+        "raw_start": 1964,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "5a13419e736a30eed9a9f6dac47a3de06d05c5d94a2aa1ee57d1129e2d3f3abe"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_32ad2788aa9578db9314",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 12",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 3138,
+            "normalized_start": 1413,
+            "raw_end": 3138,
+            "raw_start": 1413,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "c030fe4ef0727d5798b1b71becd8b52dee40b0ba1c414eb7edaf23b82f2e23c8"
+          },
+          "text": "Employee’s Obligations  ( مادة21 ) \n الـتزامات الموظف \nThe Employee shall:   :يلتزم الموظف باآلتي \nA. Submit to The Company at the date of \nsigning this Agreement, all data, documents \nand certificates required for his/her \nemployment.  He/she shall also \nimmediately notify The Company, in \nwriting, of any amendment or change \noccurring to such data or documents no \nlater than two weeks after such change \noccurs.   أ-  بأن يقدم للشركة في تاريخ توقيعه هذا العقــد كافة البيــانات   \nوالمستندات والشهادات المطلوبة لتعيينه. كما يلتزم بإخطار  \nالشركة كتابة بأي تعديل أو تغيير يطرأ على هذه البيانات أو  \nالمستندات فور وقوعه في ميعاد غايته أسبوعين.  \nB. The Employee shall be responsible for the \naccuracy of the data, statements, documents \nor certificates submitted to The Company set \nout in Annex (1).  Should any of the \ninformation provided by the Employee under \nthis Article prove to be incorrect, the \nAgree ment shall be automatically rescinded \nwithout need for any notice, procedure or \njudicial order;  ب-  ويـــكون المـــوظف مسئول عـــن صحة البيانات أو  \nاإلقرارات أو المستندات أو الشهادات  المقدمة للشركـــة  \nوالـمذكورة في  الملحق ( 1   ) بعاليه ، وإذا تـــبين خالف ذلك\nيصبـــح  العقد مفسوخـــا تلقائيا دون أي إخطار أو اتخاذ  أي  \nإجراء أو الحصول علــى حكـــم  قضائي.  \nC. Inform The Company of any changes to \nhis/her address, telephone and social status \nwithin two weeks from the date of such \nchange;   ج-   بـإبالغ الشركة بآي تغييرات تطرأ علــى عنوان سكنه وهاتفه  \nوحالته االجتماعية خالل أسبوعين من تاريخ التغيير . \nD. Immediately inform whenever a conflict of \ninterest arises between The Company or د-  بأن يخطر الشركة فورا كلما بدا له أو حدث تعارض بيــن   \nمصالح الشركة وبين مصالحه الشخصية أو مصالح  أحد",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 12",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1412,
+        "normalized_start": 1401,
+        "raw_end": 1412,
+        "raw_start": 1401,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "88e80de4db34600f6261a1bcd90568c5e0e92dce2ccab90c25c5238c2ef8028b"
+      },
+      "kind": "unclassified",
+      "order": 25,
+      "requirement_status": "unspecified",
+      "section_id": "sec_ca0b0b8df46fc5dc43bc",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 3138,
+        "normalized_start": 1401,
+        "raw_end": 3138,
+        "raw_start": 1401,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "1777ca41ecb4028107de2f17662eb77322d58bbfaa3aab59af9e6479e5b3f64e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_9630eb60e82bb357f6f4",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 13",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000007",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 3081,
+            "normalized_start": 2132,
+            "raw_end": 3081,
+            "raw_start": 2132,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "02df5a2ef04851ec6c6dc6694753a09016aa55c5e112c55f53e3ed5452f0fd64"
+          },
+          "text": "Confidentiality  ( مادة31 ) \n السرية \nThe Employee is prohibited from disclosing the \nbusiness secrets of The Company or any of its \nAffiliated companies or clients or employees or \ndivulging to a third party its methods of work \nduring his/her employment with The Company \nand after the employment is terminated.  \nShould the Employee breach this Article, The \nCompany shall have the right to immediately \nterminate this Agreement without notice, \nreward or gratuity, notwithstanding The   يحظر على الموظف إفشاء أسرار العمل الخاصة بالشركــــة او\nاي من الشركات التابعة لها أو بعمالئهـــا أو موظفيهــا أو إطالع  \nالغير على طرق أدائه وذلك خالل مدة عمـــــــله لدى الشركــــة  \nوبعـــــد ترك العمــل وفى حالة مخالفته لهذا البند ، فـإنه يــحق   \nللشركــــة  إنهاء العقد فورا دون إنذار أو مكافأة مع احتفاظ  \nالشركـــــة بحقها في الرجوع عليه بالتعويض عن األضرار  \nالناشئة عـــن ذلك كمـــا يحق للشركــــة اقتضاء هذا التعويض  \nبكافــــــة الطرق القانونيــة.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 13",
+      "heading_span": {
+        "block_id": "block_000007",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 2131,
+        "normalized_start": 2120,
+        "raw_end": 2131,
+        "raw_start": 2120,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "a6705a15fd2833e6b3f8df24a563029e27d5de2cc14f0631954ab78a41a202cc"
+      },
+      "kind": "unclassified",
+      "order": 26,
+      "requirement_status": "unspecified",
+      "section_id": "sec_693d88eb9391630c5fa7",
+      "source_span": {
+        "block_id": "block_000007",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 3081,
+        "normalized_start": 2120,
+        "raw_end": 3081,
+        "raw_start": 2120,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "676afb63b848b35fced757e2d7cf917e862acc50068eee28ca629bee54258b9d"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_efb6f22d8ff727e54997",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 14",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000008",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1065,
+            "normalized_start": 204,
+            "raw_end": 1065,
+            "raw_start": 204,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "4a71c6ee73cd176ffbcecd495e305ed9b62db8cc57c222bf5240f345df0ae48d"
+          },
+          "text": "Notifications  ( مادة41 ) \n اإلخطارات \nThe address of the Employee is stated in the \nbeginning of this Agreement.  Any notices sent \nto the stated address shall be considered legally \nsent. Taking into consideration the dates of \nnotices stated in the Law. The Employee shall \nnotify The Company  of any change to his/her \naddress within two weeks of such change.  \nShould the Employee fail to make such notice, \nhe/she shall bear all the legal consequences in \naddition to violating The Company’s  regulations.    عنوان الموظف هو المبين في صدر هذا  العقد، وأية إخطارات\nترسل على العنوان المذكور تعتبر أنها أرسلت  بشكل قانوني مع  \nمراعاة مواعيد اإلخطارات المنصوص عليها في القانون. وعلى  \nالموظف إخطار الشركة بأي تعديل في عنوانه خالل أسبوعين من \nهذا التعديل وفى حالة عدم اإلبالغ  فإنه يتحمل كل ما يترتب على  \nذلك من آثار قانونية باإلضافة إلى مخالفته لنظم الشركة .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 14",
+      "heading_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 203,
+        "normalized_start": 192,
+        "raw_end": 203,
+        "raw_start": 192,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "5e0dbec2fa261c9b09423c8278aad308ef96afb9d7683e961b7ecf21c08f4533"
+      },
+      "kind": "unclassified",
+      "order": 27,
+      "requirement_status": "unspecified",
+      "section_id": "sec_73f6c88dc009754d91a0",
+      "source_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1065,
+        "normalized_start": 192,
+        "raw_end": 1065,
+        "raw_start": 192,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "6748bcf226ef81b5993398e866f7412ca09585d5e69042be9ad4895ea382042e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_8c6fa938e8777b29bd58",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 15",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000008",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1627,
+            "normalized_start": 1080,
+            "raw_end": 1627,
+            "raw_start": 1080,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "2caed457477c5f2a21d3a335bc6b39dd187cf4e95cab9da64c67f786a97f9b26"
+          },
+          "text": "Jurisdiction  ( مادة51 ) \nاالختصاص القضائي   \nWill apply Egyptian law in Any dispute arising \nbetween the two parties set out in this \nAgreement  and shall be submitted to the \njurisdiction of the Court.  \nThis agreement is made in Arabic and English \nversion, and the Arabic version will prevail in \ncase of any disputes.  يطبق القانون المصري وتختص المحكمة التي يقع في دائرتها مقر   \nالشركة بالفصل في أي نزاع ينشأ بين الطرفين  حول هذا العقد .  \nتحــرر هذا العقد باللغتين العربية و اإلنجليزية و تعتبر اللغة  \nالعربية هي المعتمدة عند حدوث أي خالف .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 15",
+      "heading_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1079,
+        "normalized_start": 1068,
+        "raw_end": 1079,
+        "raw_start": 1068,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "d264201b6ee908b643dd5b09fe1c47a7092cdc5bdcf102590e8f3c2b40c67d92"
+      },
+      "kind": "unclassified",
+      "order": 28,
+      "requirement_status": "unspecified",
+      "section_id": "sec_eb78cd7caf25166b8b11",
+      "source_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1627,
+        "normalized_start": 1068,
+        "raw_end": 1627,
+        "raw_start": 1068,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "5c859dc076f93bb02f8f0a5b69c14130a77db7cc7b18715a9a83766c0f00b13b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_89b69270c5665e0d84a1",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 16 ( مادة61 )",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000008",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 2308,
+            "normalized_start": 1653,
+            "raw_end": 2308,
+            "raw_start": 1653,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "a633e1a05a8d0e7d2316530f1016026420adebdedbe25590c3eba9fc1e3023e8"
+          },
+          "text": "This Agreement constitutes the whole \nagreement between the two parties and \nsupersedes any prior agreements or \nunderstandings whether oral or written.  No \nother employee or agent of The Company  \n(except The Company’s  General Manager) shall \nhave the right to give any promises concerning \nthe Employee’s employment or any conditions   يشمل هذا العقد االتفاق الكامل بين الطرفين ، ويسمو على أية\nاتفاقيات أو تفاهمات سابقة سواء كانت شفوية  أو كتابية.  \nال يحق ألي موظف آخر أو وكيل عن الشركة – بخالف مدير عام  \nللشركة – إعطاء أية تعهدات  تخص عمل الموظف أو أية شروط  \nتتعلق بهذا التوظيف سواء في تاريخ هذا العقد أو بعده بخالف  \nالشروط الواردة في هذا العقد .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 16 ( مادة61 )",
+      "heading_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1652,
+        "normalized_start": 1630,
+        "raw_end": 1652,
+        "raw_start": 1630,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "87bd58e85090e7d41f0ea1a19d855d9e4b97ad5f56b3177c6eb1382a7f27af8a"
+      },
+      "kind": "unclassified",
+      "order": 29,
+      "requirement_status": "unspecified",
+      "section_id": "sec_20e6233da1154bf1526d",
+      "source_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 2308,
+        "normalized_start": 1630,
+        "raw_end": 2308,
+        "raw_start": 1630,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "de3506dbe5652e08e272ac233918ce6e069f857e86f679c03070da68d32f9f4c"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_b890f342d4de7489aaf1",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "Article 17",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000009",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 779,
+            "normalized_start": 133,
+            "raw_end": 779,
+            "raw_start": 133,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "be03548250732498678a4ba5f2c5c0d18cece22e2d40a152c8349bb82774368e"
+          },
+          "text": "Employee’s Declaration of Reviewing The \nAgreement  ( مادة71 ) \n إقرار الموظف بإطالعه على العقد \nThe Employee declares that he/she has \nreviewed this Agreement and all The Company’s \nrules and regulations related thereto and agrees \nto their entire context.  Both parties have signed \nthree copies of this Agreement, a copy for each \nand the third for the Social  Insurance Office.    يقر الموظف بإطالعه على هذا  العقد وكل ما يرتبط به من نظم\nولوائح  وقواعد وخالفه لدي الشركة ويوافق على كل ما ورد بهم  \nوبناءا عليه فقد وقع الطرفان على ثالث نسخ من هذا العقد ، نسخة  \nبيد كل طرف والنسخة الثالثة لمكتب التأمينات  االجتماعية .  \n \nThe Company   الشركة",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "Article 17",
+      "heading_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 132,
+        "normalized_start": 121,
+        "raw_end": 132,
+        "raw_start": 121,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "096b6a1bd9433b292d898a6ed43a72f2e540623477343a7be441345158ad0edb"
+      },
+      "kind": "unclassified",
+      "order": 30,
+      "requirement_status": "unspecified",
+      "section_id": "sec_8723522425a9d5b2bc1c",
+      "source_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 779,
+        "normalized_start": 121,
+        "raw_end": 779,
+        "raw_start": 121,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "e7ef90ac2f966f9fbba58bf7f73e09286eb5578ca1b7b1fc2e79437703d8e450"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_66788f6d324ca5af4556",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "By: COMPANY REPRESENTATIVE",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000009",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1149,
+            "normalized_start": 810,
+            "raw_end": 1149,
+            "raw_start": 810,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "82d43fda7d4081ad6b30421dbfa0900978dc9d044fd400f05633c5e48d5c3df2"
+          },
+          "text": "بواسطة: ممثل الشركة  \n \nIn the capacity of:  JOB TITLE  \nبصفته: المسمى الوظيفي \n \nSignature:____________________  : التوقيع    \n \nDATE: --/--/---- :التاريخ--/ -- /----  \nThe Employee   الموظف \nMr/Ms.: ----------------------------  :السيد ------------------------------                \n              \nSignature:___________________  التوقيع:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "By: COMPANY REPRESENTATIVE",
+      "heading_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 809,
+        "normalized_start": 781,
+        "raw_end": 809,
+        "raw_start": 781,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "2670ca7c28a303496ee8393b5ed7e0e909b3247ca45f893db3ba68f4dc491555"
+      },
+      "kind": "unclassified",
+      "order": 31,
+      "requirement_status": "unspecified",
+      "section_id": "sec_5e5871eae55383e95347",
+      "source_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1149,
+        "normalized_start": 781,
+        "raw_end": 1149,
+        "raw_start": 781,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "38f68560cb404e7ce88cf286224a76cb5c8c41d133845fcb2028c02a578772e5"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_44cbf7169aca998f0a31",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1. Original or official extract of",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000010",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 146,
+            "normalized_start": 63,
+            "raw_end": 146,
+            "raw_start": 63,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "443585fb0f6767f5a599480e60c27aa7526fbfd5c2df9dac464960a72a263008"
+          },
+          "text": "the Employee's birth \ncertificate;  1 -    أصل أو مستخرجرسمي من شهادة ميالد الموظف.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1. Original or official extract of",
+      "heading_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 62,
+        "normalized_start": 27,
+        "raw_end": 62,
+        "raw_start": 27,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "50b621012556da15cabae01dfea70f41f804d7535c5248b81e97f6a53a80b015"
+      },
+      "kind": "unclassified",
+      "order": 32,
+      "requirement_status": "unspecified",
+      "section_id": "sec_a12c3cc167b5c9041d49",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 146,
+        "normalized_start": 27,
+        "raw_end": 146,
+        "raw_start": 27,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "117d34ae2a8b148a72bec47e305cad5e46067ed1d38ce09a81dbb9a34e3518a9"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_8810b85def6607b807d6",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2. Original or official extract of",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000010",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 268,
+            "normalized_start": 186,
+            "raw_end": 268,
+            "raw_start": 186,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "76d26a687d7a07f0814357c5e56ee5dbda4cccf8cee782f7f126c1db2abe553d"
+          },
+          "text": "the Employee’s academic \ncertificates;  2 - .أصل أو مستخرج رسمي من الشهادة العلمية",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2. Original or official extract of",
+      "heading_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 185,
+        "normalized_start": 150,
+        "raw_end": 185,
+        "raw_start": 150,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "951d7fd309f2d2c317c1ea0c90f278f2743378ae043fa458bfc08a54b50856ad"
+      },
+      "kind": "unclassified",
+      "order": 33,
+      "requirement_status": "unspecified",
+      "section_id": "sec_9ea830f1c6563388a034",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 268,
+        "normalized_start": 150,
+        "raw_end": 268,
+        "raw_start": 150,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "30ddf876e4fd6e87c4a867ea514f3d5740b24892f184095982074f120740ee23"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_1dcd335bdad45fcdd87e",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3. The Employee’s registration",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000010",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 437,
+            "normalized_start": 302,
+            "raw_end": 437,
+            "raw_start": 302,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "a4910167b0a99c901ce107a20b859566058959b0547e9c57cd9104d05a40243c"
+          },
+          "text": "certificate from the \ncompetent Labor Office (for \nEgyptian nationals only);  3 -  .)شهادة التسجيل  لدى مكتب العمل المختص (للمصريين فقط",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3. The Employee’s registration",
+      "heading_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 301,
+        "normalized_start": 270,
+        "raw_end": 301,
+        "raw_start": 270,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "4d09171819cc2f2225b039a235604df8b721d126cb4e4a0004623ddd23d5ef2c"
+      },
+      "kind": "unclassified",
+      "order": 34,
+      "requirement_status": "unspecified",
+      "section_id": "sec_1f68e18cc152de76060d",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 437,
+        "normalized_start": 270,
+        "raw_end": 437,
+        "raw_start": 270,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "a2f8378d9a34d78da3764f5125b5a0c80db9ad95370795e6664b46a7eb1f1b79"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_4e8ad090c606c43f546f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4. A photocopy of the Employee's",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000010",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 583,
+            "normalized_start": 473,
+            "raw_end": 583,
+            "raw_start": 473,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "2b7f04a3bbcc54d557bda02d81c2e908942501da1004dd934e4c6bd99a182ce8"
+          },
+          "text": "identity card   (Valid) and six \nphotographs;  4-  صورة بطاقةالرقم القومي (سارية)   للموظف وست صور فوتوغرافية.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4. A photocopy of the Employee's",
+      "heading_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 472,
+        "normalized_start": 439,
+        "raw_end": 472,
+        "raw_start": 439,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "b8dcf307f1a008cffdba59691ea16d6fa5851467a816d068fa0749c289abff6c"
+      },
+      "kind": "unclassified",
+      "order": 35,
+      "requirement_status": "unspecified",
+      "section_id": "sec_d067ad2a6b97706d3dd3",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 583,
+        "normalized_start": 439,
+        "raw_end": 583,
+        "raw_start": 439,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "105d570727bbdd0f985b20d6d1bef25624ff648a13131c63f4da018e4bbfb700"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_0ded76a38a7df4d8919e",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5. A health certificate establishing that",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000010",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 720,
+            "normalized_start": 629,
+            "raw_end": 720,
+            "raw_start": 629,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "a1765433f180831ab4f8aaf1eaf878de30b70308899ae752fe7a87d9cf86d479"
+          },
+          "text": "the Employee is physically qualified \nfor work;  5 -  .شهادة صحية تثبت أن الموظف مؤهل للعمل",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5. A health certificate establishing that",
+      "heading_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 628,
+        "normalized_start": 586,
+        "raw_end": 628,
+        "raw_start": 586,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "7a7f688cc80b91d2bb8811163e0e0e7822d3101cb35a6cbda2814027b6e54233"
+      },
+      "kind": "unclassified",
+      "order": 36,
+      "requirement_status": "unspecified",
+      "section_id": "sec_a00004e4e089590fa788",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 720,
+        "normalized_start": 586,
+        "raw_end": 720,
+        "raw_start": 586,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "b3855665004a82ebed090ff08338f5d6b5627cd88ed68438ed74b460a8f9eebe"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_33332cae953632b4c68c",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "6. A certificate of termination",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000010",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 907,
+            "normalized_start": 755,
+            "raw_end": 907,
+            "raw_start": 755,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "602714d039e223a865839a8f4f5eed7703c9254bdf79e4c4e93a8192313b8b43"
+          },
+          "text": "or release from the \nEmployee's prior Employer  \n(Form No:6 Social \nInsurance);  6 -   شهادة إخالء طرف من العمل السابق للموظف (واستمارة رقم6  \n.)تأمينات",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "6. A certificate of termination",
+      "heading_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 754,
+        "normalized_start": 722,
+        "raw_end": 754,
+        "raw_start": 722,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "386b36fd664202b8251c358f548038c55f626817973fe82da45a331e62c9747f"
+      },
+      "kind": "unclassified",
+      "order": 37,
+      "requirement_status": "unspecified",
+      "section_id": "sec_e23ac15c0fa9bcb3104e",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 907,
+        "normalized_start": 722,
+        "raw_end": 907,
+        "raw_start": 722,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "a0a182675b00ebf5813a48e4f8e060108898f768094ff2dae0af6dc2618dd270"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_970af4dac931f84a0f6a",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "7. A declaration from the",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000010",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1043,
+            "normalized_start": 936,
+            "raw_end": 1043,
+            "raw_start": 936,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "1c891521342da00c994666ae72b6eecd28821b503b4e9b9f855b181ef207d71f"
+          },
+          "text": "Employee stating his/her \nmarital status and \ndependents;  7 - .بيان من الموظف بحالته االجتماعية ومن يعولهم",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "7. A declaration from the",
+      "heading_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 935,
+        "normalized_start": 909,
+        "raw_end": 935,
+        "raw_start": 909,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "ede2b3f26abb63e161d11d113280086d834fc40bd676194e91c5251143cef59f"
+      },
+      "kind": "unclassified",
+      "order": 38,
+      "requirement_status": "unspecified",
+      "section_id": "sec_1b935b4feb5a056536e7",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1043,
+        "normalized_start": 909,
+        "raw_end": 1043,
+        "raw_start": 909,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "338d65e4280f8c7d6fa35cd182e6879c1524c3021426f2e11470bf3a0cc1abd9"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_9885376d5752c7dc4e21",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "8. The Employee's recent criminal",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000010",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1161,
+            "normalized_start": 1080,
+            "raw_end": 1161,
+            "raw_start": 1080,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "8fdf6cf4696971eb69c329fc3c03b2da78fbfa519527789447f3943f9ede0bd9"
+          },
+          "text": "record;  8 -   .صحيفة الحالة الجنائية (فيش وتشبيه) من قسم الشرطة التابع له الموظف",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "8. The Employee's recent criminal",
+      "heading_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1079,
+        "normalized_start": 1045,
+        "raw_end": 1079,
+        "raw_start": 1045,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "7291c4c475cec4eaea282dc0a983f8527edd939742743e07a78eff5444c23a05"
+      },
+      "kind": "unclassified",
+      "order": 39,
+      "requirement_status": "unspecified",
+      "section_id": "sec_084e80572d10feb5fbac",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1161,
+        "normalized_start": 1045,
+        "raw_end": 1161,
+        "raw_start": 1045,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "12833935027c7ee6d3f3d72b7a21c1e04fbb6158e75fde4bada015fd2a08eed0"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_620504f2e5e612f17655",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "9. The Employee's military record (the",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000010",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1304,
+            "normalized_start": 1203,
+            "raw_end": 1304,
+            "raw_start": 1203,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "f44e659f552478c40e831c84568a14a7acaffb33d25bd95588a2ae69dbee0b03"
+          },
+          "text": "original) for males.  9 -  الموقف من الخدمة العسكرية (أصل الشهادة) لحملة المؤهالت العليا\nذكور و إناث.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "9. The Employee's military record (the",
+      "heading_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1202,
+        "normalized_start": 1163,
+        "raw_end": 1202,
+        "raw_start": 1163,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "dde855fbd021f80a3042c5317976903232935c8d830a0f8720d7ae4a470ca46a"
+      },
+      "kind": "unclassified",
+      "order": 40,
+      "requirement_status": "unspecified",
+      "section_id": "sec_b7ff0c956622bfef97af",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1304,
+        "normalized_start": 1163,
+        "raw_end": 1304,
+        "raw_start": 1163,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "1346fc5aa3f6144f52e26f3cd1805bee418ff71929d2695b001da368e0a46175"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_06d7afbe6bbdd2caf0a6",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "10. Any other documents which may be",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000010",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1380,
+            "normalized_start": 1345,
+            "raw_end": 1380,
+            "raw_start": 1345,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "a248c73c6e47b727434fe84087682ea8394abe99b2e15bef400425872656a6d7"
+          },
+          "text": "required by the Labor Law No. 12 of",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "10. Any other documents which may be",
+      "heading_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1344,
+        "normalized_start": 1307,
+        "raw_end": 1344,
+        "raw_start": 1307,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "404652cca5a501c6d07cf305f535e9f480e9837b8df7b9c5a127ce17575bddd4"
+      },
+      "kind": "unclassified",
+      "order": 41,
+      "requirement_status": "unspecified",
+      "section_id": "sec_68537738b368e06dd67e",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1380,
+        "normalized_start": 1307,
+        "raw_end": 1380,
+        "raw_start": 1307,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "2f297cc5b46ae8912ac4808b1152812c7c1efe5016e45e2174362ba25e71ce09"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e10f2a7436d131acdc5f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2003 as amended, replaced or",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000010",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1503,
+            "normalized_start": 1412,
+            "raw_end": 1503,
+            "raw_start": 1412,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "545057692ff48e78693019e9f1f8674bcee083dee13347eb9512d0994d4b36dd"
+          },
+          "text": "complemented hereafter;  10 -   أية أوراق أخرى قد تكون مطلوبة بموجب قانون العمل رقم12  لسنة",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2003 as amended, replaced or",
+      "heading_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1411,
+        "normalized_start": 1382,
+        "raw_end": 1411,
+        "raw_start": 1382,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "1fdff90338d40e5c557628e4f509e931eb85138c769d554838ab997cde6e1681"
+      },
+      "kind": "unclassified",
+      "order": 42,
+      "requirement_status": "unspecified",
+      "section_id": "sec_f7dc4398c8ffdc1d3c3d",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1503,
+        "normalized_start": 1382,
+        "raw_end": 1503,
+        "raw_start": 1382,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "67491531c3c4d493034b5badbd2306a2cc522b629c25a0a0437005e2ed967594"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_19192d6f342dc9f7f5f1",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2003  .وما يحل محله أو يكمله من قوانين",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000010",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1542,
+            "normalized_start": 1504,
+            "raw_end": 1542,
+            "raw_start": 1504,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "9940475342e848bca3bc5bd6d8443f50d3112bea1ee4ad8cc7b819084753a17e"
+          },
+          "text": "2003  .وما يحل محله أو يكمله من قوانين",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2003  .وما يحل محله أو يكمله من قوانين",
+      "heading_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1543,
+        "normalized_start": 1504,
+        "raw_end": 1543,
+        "raw_start": 1504,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "62377dc17a0fc98ebc33727c5b812db27ed786907396effbd3199c8110963596"
+      },
+      "kind": "unclassified",
+      "order": 43,
+      "requirement_status": "unspecified",
+      "section_id": "sec_540e25f583df643e632c",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1542,
+        "normalized_start": 1504,
+        "raw_end": 1542,
+        "raw_start": 1504,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "9940475342e848bca3bc5bd6d8443f50d3112bea1ee4ad8cc7b819084753a17e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_de0e56ba937c29624ab7",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "11. The Employee undertakes to",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000010",
+            "extraction_id": "ext_abb0f363a86416fdb229",
+            "normalized_end": 1855,
+            "normalized_start": 1576,
+            "raw_end": 1855,
+            "raw_start": 1576,
+            "source_id": "src_a9a056f2cabad34b84c0",
+            "text_sha256": "8fee3c0a79d8ce06133d1bbe15d7da778d6a2cf0a478f7cd730aaae70dc72127"
+          },
+          "text": "notify the Employer in \nwriting of any and all \nchanges or amendments \nsubmitted within one week \nof the occurrence of any \nsuch change or amendment.  11 -  يتعهد الموظف بإخطار الشركة كتابة بأية تعديالت في المعلومات أو\nالمستندات المقدمة منها في خالل أسبوع من تاريخ هذه التعديالت.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "11. The Employee undertakes to",
+      "heading_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1575,
+        "normalized_start": 1544,
+        "raw_end": 1575,
+        "raw_start": 1544,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "5caf8b282bde95e1b27a7643a6229642f21837977ea8cbbe66fdb9098c6c2696"
+      },
+      "kind": "unclassified",
+      "order": 44,
+      "requirement_status": "unspecified",
+      "section_id": "sec_abe47afa0207a112ddd4",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1855,
+        "normalized_start": 1544,
+        "raw_end": 1855,
+        "raw_start": 1544,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "401ea5b61bf1681d8702623d17111a59dfc4f9dfc838421fcd7acfeca789e826"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "extracted_text_sha256": "499a08b883ae99b68eff19426ff5d28870630fe0768da3dd560a03df4e17ba7e",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 11,
+      "relative_path": "templates/Eygpte/Egypt-Definite-Employment-Agreement_.pdf",
+      "sha256": "7075e5249793983b2cc29c7507389463fbb81ce9199ed63d984d00e55375d49d",
+      "size_bytes": 605938,
+      "source_id": "src_a9a056f2cabad34b84c0"
+    }
+  ],
+  "template_id": "tpl_e8df20c606d7cdc28c4e",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_e9ad70aa5ca109e92e9e",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 162,
+        "normalized_start": 0,
+        "raw_end": 162,
+        "raw_start": 0,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "b070dca9071e440f7f65153864e0af7ed2f1c927a6dd3cabeb3e772f956a7ac4"
+      },
+      "text": "Definite Employment Agreement   عقـد عمـل  \nمحدد المدة  \nThis Agreement is made this \n…………………………. by and between:       أُبرم هذا العقد في.…………………………  بين كل من :"
+    },
+    {
+      "content_id": "unparsed_9cbcd9be8b661b9c2d54",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1044,
+        "normalized_start": 0,
+        "raw_end": 1044,
+        "raw_start": 0,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "842da3e204034f0f16c4389379a2af5a6c6d86c574b1abb37b43985ca51ea658"
+      },
+      "text": "WHEREAS,  the Employee is fully aware of the \nnature of its work with the Employer and \naccepts to join the Employer on this basis which \nis an essential condition of the agreement.  وحيث أن الموظف يقر بعلمه اليقيني بطبيعة عمله بالشركة، وقبل  \nأن يلتحق بخدمتها على هذا األساس وباعتبار أن ذلك شرطا  \nجوهرياً في التعاقد.  \nWHEREAS, the Employee is available & able to \nprovide the services needed; The Employee \nwishes to be employed by The Company  and \ndeclares that he/she is qualified to fulfil the \nobligations of the position described in article 2 \nof this Agreement.    وحيث أن الموظف مستعد للقيام بالخدمات التي تحتاجها الشركة ؛\nو يرغـــب في أن يعمل لديها  ويقر أنه مؤهل و قادر عــلى أداء  \nالتزامات الوظيفة المنصوص  عليهـــا في المادة الثانية من هذا  \nالعقد .  \nTHEREFORE, The Company agrees to employ the \nEmployee, and the Employee agrees to perform \nservices for The Company  for the duration in \naccordance with the provisions pertaining to   \ntemporary   employment contracts described in \nthe Law 12 of 2003 as amended by Law 90 of"
+    },
+    {
+      "content_id": "unparsed_8f2700458f692accfcb7",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 549,
+        "normalized_start": 0,
+        "raw_end": 549,
+        "raw_start": 0,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "c3459403c7c9e1125234752c6881c4e198acd2a93baefd6d91db14f0e12ad15a"
+      },
+      "text": "- The Employee will be paid a net  salary of \n…………………………………………………….  \n-  -   يستحق الموظف مرتبا صافي  شهريا وقدره  \n……………………………………………………………… \n \n- It is understood and agreed that the above \nsalary and allowances, if any, represents all \ndues of the Employee including the high cost -\nof-living allowance stipulated by the laws in \nforce on the date of this agreement.  -   ومن المفهوم والمتفق عليه إن مرتب الموظف ، بحسب ما هو\nموضح آنفا يمثل كافة مستحقات الموظف بما في ذلك بدل غالء  \nالمعيشة و كافة البدالت األخرى المقررة قانونا في تاريخ هذا  \nالعقد."
+    },
+    {
+      "content_id": "unparsed_7c9697087931552ce3d3",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 223,
+        "normalized_start": 0,
+        "raw_end": 223,
+        "raw_start": 0,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "35630454b313cc8d3a43c04b0ddd482701b14f60c5fad29217a060801daedce7"
+      },
+      "text": "exceeded the age of 50 are entitled to 30 \nworking days of vacation.  \nSick leave & the salary paid during it will be in \naccordance with the Labor Law.    وتكون اإلجازة المرضية واألجر المستحق عنها طبقاً ألحكام قانون\nالعمل."
+    },
+    {
+      "content_id": "unparsed_baf0d3e54514d9026c17",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 379,
+        "normalized_start": 0,
+        "raw_end": 379,
+        "raw_start": 0,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "16ac0e0cd79b8a17015ff3cf6450b9dbbdb8d3e1afd4135b44adcb6df4fbc205"
+      },
+      "text": "judgment to consider this Contract terminated \nwith no obligations on her part in any of the \nevents described in Article 6 in which its \ncontents are fundamental conditions taken into \nconsideration in this contract.  \n-The contract can be terminated by either \nparties with 30 Days written notice  -   يحق لكل من الطرفين انهاء التعاقد المبرم بينهما بأقرار كتابي\nقبل ثالثون يوما"
+    },
+    {
+      "content_id": "unparsed_b44707696f1bb16e68fe",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 1396,
+        "normalized_start": 0,
+        "raw_end": 1396,
+        "raw_start": 0,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "a4a798d7c8905c8869520e852ee474b40c217d5810b4f08615bad46841369222"
+      },
+      "text": "and the Social Insurance Law No. 148 of 2019  \nand any amendments thereto, shall apply to \nthis Agreement.  The provisions of those Laws \nconstitute an integral part of this Agreement \nand that the above -mentioned Labor Law \nshall regulate all the matters that are not \nspecifically mentioned in this Agreem ent.  وقانون التأمينات االجتماعية رقم148  لسنة 2019    وأية\nتعديالت تدخل عليهما سوف تسرى على هذا العقد وأن أحكام  \nتلك القوانين تشكل جزءاً ال يتجزأ من هذا العقد وان قانون  \nالعمل المذكور سوف ينظم كافة األمور غير المنصوص  \nعليها على وجه التحديد في الالئحة الداخلية للشركة.  \nB. The Employment Regulations of The \nCompany  and the Disciplinary Regulations, \nand any amendments thereto of the \npublished Code of Conduct, as well as any \nother instructions and orders that are \ndeclared by The Company are considered an \nintegral part of this Agreement.  The \nEmployee declares his/her acceptance to \nabide by and respect all these regulations, \nrules and instructions within the limits of the \napplicable laws of the Arab Republic of Egypt.    ب-  تعتبر الئحة النظام األساســي للعمــل والئحة الـــجزاءات  \nوما يطرأ عليهما من تعديالت قــواعد  سلوك الــموظــفين \nالمعلنـــة و التعليمـــات واألوامــر التي تقرها الشركـــة  \nجزءاً متمماً ألحكام هذا العقد ويقر الموظف بموافقته  \nوالتزامه واحترامــــه لتـــلك اللــوائح والـــنظم والتعليمــات  \nفي حدود القوانين المعمول بها بجمهورية مصـر العربية."
+    },
+    {
+      "content_id": "unparsed_f1ed1a54136d8f6ff94d",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000007",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 2117,
+        "normalized_start": 0,
+        "raw_end": 2117,
+        "raw_start": 0,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "4999cfda460fe396a41b5955b5529dc88b200073b7ce0f28fa5636083e6b2ba3"
+      },
+      "text": "Employee or one of the Employee’s relatives.  \nThe Employee shall divulge to The Company \nany ownership, benefit or personal relations \nthat may affect his/her ability to duly and \nindulgently perform his/her work;     أقربائه ، كما يلتزم بأن يطلع الشركة على أية ملكية أو\nمصلحة أو عالقات خاصة قد تؤثر على مقدرته في القيام  \nبمهام عمله بنزاهة و  استقاللية.  \nE. The Employee has no right to perform any \ntasks for a third Party or for his/her own, in \ncase such task is related to The Company's \nfield or not; unless prior written approval of \nThe Company. Also The Company has all the \nright to cancel such permission upon  its own \ndetermination. In case the employee failed to \nfulfill his/her contractual obligations \nhereunder, this agreement shall be deemed \nrescinded.   هـ- عـدم ممارســة أيــة عمـــل لحساب الغير أو لحسابه الخاص  \nسواء كان هذا العمل يدخل في نطاق عمل الشركـــة أو ال إال  \nبإذن كتابي مسبق من الشركـــة و لألخيرة الحق في إلغاء هذا  \nاإلذن فوراً بناء على تقديرهـــا. و فــــي حالـــة مخالفة  \nالموظف لذلك يعتبر العقد مفسوخاً فوراً مــن تلقاء نفســـه.     \nF. The employee has to make all necessary \nefforts to promote the interests of the \ncompany and to refrain from any work or act \ncontrary to the company's interest.  و- أن يبذل الموظف كل الجهود الالزمة لتعزيز مصالح الشركة  \nو االمتناع عن أي نشاط او ممارسة أي عمل يتعارض مع  \nمصلحة الشركة.  \n \nG.  To devote the whole of his/her time, \nability, and energy in performing his/her \nduties, this ensures him/her to do his/her \nwork in a systematic and effective manner.   ي–  التفرغ الكامل ألداء واجبات عمله و الذي يكفل له القيام  \nبعمله بطريقة منتظمة و فعالة .  \nH. Submit to The Company all what he/she \nmight have in his/her possession (whether \nmoney, objects or documents) or any other \nproperty in the Employee’s possession that \nbelong or relate to The Company, \nimmediately after the termination of the \nAgreement for wha tsoever reason.  ز-  بتسليم الشركـــــة كل ما يكون لديــــه مـــــن أموال أو عهدة  \nأو مستندات أو أي شيء آخــــر لديــــه أو له عالقة بمصالح  \nأو نشاطات الشركـــــة وذلك فور انقضاء عالقة العمل الى  \nسبب من األسـباب."
+    },
+    {
+      "content_id": "unparsed_e8e643cc9f65de050277",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 189,
+        "normalized_start": 0,
+        "raw_end": 189,
+        "raw_start": 0,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "3a0f1eda4d09c48404d8e05e7e9e20b45f462b706e987455f0b54750e632a071"
+      },
+      "text": "Company’s right to claim compensation for the \ndamage occurring from such disclosure.  \nFurther, The Company shall have the right to \nobtain such compensation through all legal \nprocedures;"
+    },
+    {
+      "content_id": "unparsed_69159e1a54279a7e6675",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 118,
+        "normalized_start": 0,
+        "raw_end": 118,
+        "raw_start": 0,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "1963ba2673f06e2cddcffe51c8f3af8a8f41d917ed435685f0c4be9cf4da12ce"
+      },
+      "text": "concerning such employment, whether on the \ndate of this Agreement or after, except those \nprovided in this Agreement."
+    },
+    {
+      "content_id": "unparsed_6a00627243c38b9fbd28",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 25,
+        "normalized_start": 2,
+        "raw_end": 25,
+        "raw_start": 2,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "2b8f0ca7fd64779f5da69a532f67bdab4415a8be9743ed71746b3500fce40914"
+      },
+      "text": "ANNEX (1)  ( ملحق رقم1)"
+    },
+    {
+      "content_id": "unparsed_5365d08bfb39ca1010fa",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_abb0f363a86416fdb229",
+        "normalized_end": 36,
+        "normalized_start": 0,
+        "raw_end": 36,
+        "raw_start": 0,
+        "source_id": "src_a9a056f2cabad34b84c0",
+        "text_sha256": "be12e2ed3f5057f0409f170650442266a873a3b266056bc864200f691ef2ef88"
+      },
+      "text": "Employee's Signature:   توقيع الموظف"
+    }
+  ],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

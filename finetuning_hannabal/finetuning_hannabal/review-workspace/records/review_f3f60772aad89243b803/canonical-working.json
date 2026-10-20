@@ -1,0 +1,2478 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_2b1ba400bcc86f4b6dc4",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "completed_contract",
+    "initial_document_kind": "completed_contract",
+    "languages": [
+      {
+        "basis": "script_detection",
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 19,
+            "normalized_start": 6,
+            "raw_end": 19,
+            "raw_start": 6,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "2b6baeee28cc554d613d5185ef214b436397c3f6d4a43f94e1100d387c4c55c7"
+          }
+        ],
+        "tag": "ar"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "completed",
+    "title": "الصفحة 1  من8",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 19,
+        "normalized_start": 6,
+        "raw_end": 19,
+        "raw_start": 6,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "2b6baeee28cc554d613d5185ef214b436397c3f6d4a43f94e1100d387c4c55c7"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "completed_contract_heuristic_requires_review",
+        "message": "Contract-like filename without detected square-bracket placeholders was initially classified completed and requires human confirmation.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "required",
+    "structure_review_status": "pending",
+    "training_eligibility": "review_required"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e2efb5bbeae9e01b62a9",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2  /   إذا كان اإلنهاء منجانب الطرف األول ، حيق للطرف الثاني احلصول على كامل مقابله (راتبه) عن فرتة اإلختبار .",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 824,
+            "normalized_start": 714,
+            "raw_end": 824,
+            "raw_start": 714,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "e12a6ab853244130491afbb4beb593e831f36c984a215483fb0535a96e92e32e"
+          },
+          "text": "2  /   إذا كان اإلنهاء منجانب الطرف األول ، حيق للطرف الثاني احلصول على كامل مقابله (راتبه) عن فرتة اإلختبار .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2  /   إذا كان اإلنهاء منجانب الطرف األول ، حيق للطرف الثاني احلصول على كامل مقابله (راتبه) عن فرتة اإلختبار .",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 825,
+        "normalized_start": 714,
+        "raw_end": 825,
+        "raw_start": 714,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "435709b695dbd80328569e59217a38868d5fa2433c6e8eaec2be9f6e243beb25"
+      },
+      "kind": "unclassified",
+      "order": 1,
+      "requirement_status": "unspecified",
+      "section_id": "sec_556cda85cab42775c2a6",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 824,
+        "normalized_start": 714,
+        "raw_end": 824,
+        "raw_start": 714,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "e12a6ab853244130491afbb4beb593e831f36c984a215483fb0535a96e92e32e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_734ff4b75957e38b6a60",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1 /   أما إذا كان إنهاء العقد من جانب الطرف الثاني، فال حيق له أي تعويض سوى مرتبه حتى أخر يوم عمل فعلي قضاه",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 998,
+            "normalized_start": 935,
+            "raw_end": 998,
+            "raw_start": 935,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "780a407a22a6eae14ddf5d8fed4c2e8e4420d4f67749571b2f21c2e271fd28c1"
+          },
+          "text": "يف العمل . \nمادة (8) \n يلتزم الطرف الثاني بالواجبات التالية  :-",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1 /   أما إذا كان إنهاء العقد من جانب الطرف الثاني، فال حيق له أي تعويض سوى مرتبه حتى أخر يوم عمل فعلي قضاه",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 934,
+        "normalized_start": 826,
+        "raw_end": 934,
+        "raw_start": 826,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "4eca629254bffb1487f227fa2e2b3238049933adcd1e1f3607b6f08f61f629aa"
+      },
+      "kind": "unclassified",
+      "order": 2,
+      "requirement_status": "unspecified",
+      "section_id": "sec_737f7a7cb21e5cba68d4",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 998,
+        "normalized_start": 826,
+        "raw_end": 998,
+        "raw_start": 826,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "1177119417afa63c3e3a109d571f2f05fb9239e4b739200a0350904d6d12bdde"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_8ee5f963afe1cee3512d",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2  ـ  أن يقوم بالعمل المسندإليه بنفسه , و أن يؤديه  بدقة وأمانة",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 1063,
+            "normalized_start": 1000,
+            "raw_end": 1063,
+            "raw_start": 1000,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "83892d41ad1586cc4ecc05b9755857856b046c71ba5d898160d7a0d6656e9da0"
+          },
+          "text": "2  ـ  أن يقوم بالعمل المسندإليه بنفسه , و أن يؤديه  بدقة وأمانة",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2  ـ  أن يقوم بالعمل المسندإليه بنفسه , و أن يؤديه  بدقة وأمانة",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1065,
+        "normalized_start": 1000,
+        "raw_end": 1065,
+        "raw_start": 1000,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "3fcb80889c131898c7d4f0aeb30b9757502f6f2f7829aa24695ec6ad7f50319c"
+      },
+      "kind": "unclassified",
+      "order": 3,
+      "requirement_status": "unspecified",
+      "section_id": "sec_37de2d911e4a90be5023",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1063,
+        "normalized_start": 1000,
+        "raw_end": 1063,
+        "raw_start": 1000,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "83892d41ad1586cc4ecc05b9755857856b046c71ba5d898160d7a0d6656e9da0"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_0fac4e0f8fd616277700",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1  .أن يلتز م بالعمل في غير األوقات الرسمية عند تكليفه بذلك كتابي   ا من الطرف  األول.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 1152,
+            "normalized_start": 1066,
+            "raw_end": 1152,
+            "raw_start": 1066,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "5ea62e9c021efea2612c06eaabe6919a0c94be10ce5beb410427bad70acd546a"
+          },
+          "text": "1  .أن يلتز م بالعمل في غير األوقات الرسمية عند تكليفه بذلك كتابي   ا من الطرف  األول.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1  .أن يلتز م بالعمل في غير األوقات الرسمية عند تكليفه بذلك كتابي   ا من الطرف  األول.",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1154,
+        "normalized_start": 1066,
+        "raw_end": 1154,
+        "raw_start": 1066,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "acfe2a42dc08ce1bbe10e1ed02069b6ea2dcb17c34dba96d6dc888e471359e8e"
+      },
+      "kind": "unclassified",
+      "order": 4,
+      "requirement_status": "unspecified",
+      "section_id": "sec_cc6282d1dfa8065c49c2",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1152,
+        "normalized_start": 1066,
+        "raw_end": 1152,
+        "raw_start": 1066,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "5ea62e9c021efea2612c06eaabe6919a0c94be10ce5beb410427bad70acd546a"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_38f72304270e4456e53b",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "0  . االلتزام بحضور الدورات التدريبية  وإتباع  كافة التعليمات ذات العالقة.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 1229,
+            "normalized_start": 1155,
+            "raw_end": 1229,
+            "raw_start": 1155,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "c0affcac3d0f4c993e4e0a47e970655305168e1d8d114737990b1efd1aea434c"
+          },
+          "text": "0  . االلتزام بحضور الدورات التدريبية  وإتباع  كافة التعليمات ذات العالقة.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "0  . االلتزام بحضور الدورات التدريبية  وإتباع  كافة التعليمات ذات العالقة.",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1301,
+        "normalized_start": 1155,
+        "raw_end": 1301,
+        "raw_start": 1155,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "4b7d2bd1db2fe4783361d8716adcc24f1b9878c0d5c6c7db6424dc11a243c5ef"
+      },
+      "kind": "unclassified",
+      "order": 5,
+      "requirement_status": "unspecified",
+      "section_id": "sec_3610bdca9f5484a01988",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1229,
+        "normalized_start": 1155,
+        "raw_end": 1229,
+        "raw_start": 1155,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "c0affcac3d0f4c993e4e0a47e970655305168e1d8d114737990b1efd1aea434c"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_8b5c72970fd0a63f5799",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4 ـ عدم ممارسة أي نشاط  يهدف الى الحصول على مكافأة ما لم يتم الموافقة على ذلك من قبل الطرف ا ألول.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 1400,
+            "normalized_start": 1302,
+            "raw_end": 1400,
+            "raw_start": 1302,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "a751c0fca53e914f5f3d1e7b7dcd02dc4caf20ff784b2af9e0db9e1a69cea5a9"
+          },
+          "text": "4 ـ عدم ممارسة أي نشاط  يهدف الى الحصول على مكافأة ما لم يتم الموافقة على ذلك من قبل الطرف ا ألول.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4 ـ عدم ممارسة أي نشاط  يهدف الى الحصول على مكافأة ما لم يتم الموافقة على ذلك من قبل الطرف ا ألول.",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1401,
+        "normalized_start": 1302,
+        "raw_end": 1401,
+        "raw_start": 1302,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "c4f0e48f631d019e8b57bad8c83e7c117aed887b9eefd53491a478231c2cbece"
+      },
+      "kind": "unclassified",
+      "order": 6,
+      "requirement_status": "unspecified",
+      "section_id": "sec_2e834f4356c9cd6d2fbd",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1400,
+        "normalized_start": 1302,
+        "raw_end": 1400,
+        "raw_start": 1302,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "a751c0fca53e914f5f3d1e7b7dcd02dc4caf20ff784b2af9e0db9e1a69cea5a9"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_95018c081fb4255b3254",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5 ـ أن يحافظ على مواعيد العمل الرسمية التي المحددة من قبل  الطرف  األول، وعدم التغيب إال  بإذن مسبق، وفق  ا ألحكام",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 1546,
+            "normalized_start": 1518,
+            "raw_end": 1546,
+            "raw_start": 1518,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "55cb584e968c60c6738f42086f84691a83a8e1d792f32d0483f2fc98b68d22ef"
+          },
+          "text": "التشريعات القانونية المنظمة.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5 ـ أن يحافظ على مواعيد العمل الرسمية التي المحددة من قبل  الطرف  األول، وعدم التغيب إال  بإذن مسبق، وفق  ا ألحكام",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1517,
+        "normalized_start": 1402,
+        "raw_end": 1517,
+        "raw_start": 1402,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "9073ca6633cb6b0f8044012e71ddbf82d8341a955a802a7e4376f0aea6f71812"
+      },
+      "kind": "unclassified",
+      "order": 7,
+      "requirement_status": "unspecified",
+      "section_id": "sec_7bbd8b046b15684ef447",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1546,
+        "normalized_start": 1402,
+        "raw_end": 1546,
+        "raw_start": 1402,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "77a36d48413602cc5c719dc651a9ee082b4748feac1aff4c81334455922f7693"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_26932a63263deb244be7",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "6  . أن يراعي التسلسل اإلداري  في العمل والمعامالت الخاصة به.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 1611,
+            "normalized_start": 1550,
+            "raw_end": 1611,
+            "raw_start": 1550,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "c6365fc83e50d80b2238d3c181beb2d0e2ff201563b73e59e7a1a543e6737dfd"
+          },
+          "text": "6  . أن يراعي التسلسل اإلداري  في العمل والمعامالت الخاصة به.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "6  . أن يراعي التسلسل اإلداري  في العمل والمعامالت الخاصة به.",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1613,
+        "normalized_start": 1550,
+        "raw_end": 1613,
+        "raw_start": 1550,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "945aa5c0e1d8a0da4ab036348c461ccfeff28bf84efff3e420e4815a44588545"
+      },
+      "kind": "unclassified",
+      "order": 8,
+      "requirement_status": "unspecified",
+      "section_id": "sec_091b2df6b8294bfab448",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1611,
+        "normalized_start": 1550,
+        "raw_end": 1611,
+        "raw_start": 1550,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "c6365fc83e50d80b2238d3c181beb2d0e2ff201563b73e59e7a1a543e6737dfd"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e887ea21a96a1deff1f8",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "7  .إن ي  لم بنظم وإجراءات  العمل، ومتابعة أي متغيرات  تطرأ عليها.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 1680,
+            "normalized_start": 1614,
+            "raw_end": 1680,
+            "raw_start": 1614,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "1ee38e8b2711e8294071c4ffc460ef860b22ae5afd5c6df537a855a390be9899"
+          },
+          "text": "7  .إن ي  لم بنظم وإجراءات  العمل، ومتابعة أي متغيرات  تطرأ عليها.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "7  .إن ي  لم بنظم وإجراءات  العمل، ومتابعة أي متغيرات  تطرأ عليها.",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1682,
+        "normalized_start": 1614,
+        "raw_end": 1682,
+        "raw_start": 1614,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "3762458ddc32da6004447c9e4eb36b948d5fbebd0755d4e2af3e950d12a6397d"
+      },
+      "kind": "unclassified",
+      "order": 9,
+      "requirement_status": "unspecified",
+      "section_id": "sec_4cfb02b1b3744ea72b05",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1680,
+        "normalized_start": 1614,
+        "raw_end": 1680,
+        "raw_start": 1614,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "1ee38e8b2711e8294071c4ffc460ef860b22ae5afd5c6df537a855a390be9899"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_297635cf5ffb3d8abe4c",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "8 . االطالع على اللوائح والقوانين والت عليمات المتعلقة بالعمل والتقيد ب ما جاء فيها.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 1767,
+            "normalized_start": 1683,
+            "raw_end": 1767,
+            "raw_start": 1683,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "ca9fbb58f572f65ea08a93aef52eae670505fecddec29f76bf85e91d026d1ee3"
+          },
+          "text": "8 . االطالع على اللوائح والقوانين والت عليمات المتعلقة بالعمل والتقيد ب ما جاء فيها.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "8 . االطالع على اللوائح والقوانين والت عليمات المتعلقة بالعمل والتقيد ب ما جاء فيها.",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1768,
+        "normalized_start": 1683,
+        "raw_end": 1768,
+        "raw_start": 1683,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "bac21c66f6a1cb460ad6eb5fbeb475feb200f95ce6c95c146da153212c658a14"
+      },
+      "kind": "unclassified",
+      "order": 10,
+      "requirement_status": "unspecified",
+      "section_id": "sec_45a894a806ba6f66bb8b",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1767,
+        "normalized_start": 1683,
+        "raw_end": 1767,
+        "raw_start": 1683,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "ca9fbb58f572f65ea08a93aef52eae670505fecddec29f76bf85e91d026d1ee3"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_16e67bd63fd8549581bc",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "9  . أن يقدم كل العون والمساعدة في حالة الكوارثواإلخطار  التي تهدد مكان العمل دون  طلب مقابل نظير ذلك.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 1871,
+            "normalized_start": 1769,
+            "raw_end": 1871,
+            "raw_start": 1769,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "d4212e5847165f444ddaefdfa1bd09c3208a6d77344ba6362da7996ada49df04"
+          },
+          "text": "9  . أن يقدم كل العون والمساعدة في حالة الكوارثواإلخطار  التي تهدد مكان العمل دون  طلب مقابل نظير ذلك.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "9  . أن يقدم كل العون والمساعدة في حالة الكوارثواإلخطار  التي تهدد مكان العمل دون  طلب مقابل نظير ذلك.",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1875,
+        "normalized_start": 1769,
+        "raw_end": 1875,
+        "raw_start": 1769,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "176e6d15bf1ec7bd6940e725793a582665ae221d3db669ca9a64ca576eb0cbcd"
+      },
+      "kind": "unclassified",
+      "order": 11,
+      "requirement_status": "unspecified",
+      "section_id": "sec_f3df8cc041baaad0b75f",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1871,
+        "normalized_start": 1769,
+        "raw_end": 1871,
+        "raw_start": 1769,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "d4212e5847165f444ddaefdfa1bd09c3208a6d77344ba6362da7996ada49df04"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_325c8111b4cbcdaaf4d2",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "22 ـ التمسك خالل تأدية العمل باالنضباط التام والتحلي باآلداب واللباقة خالل تعامله مع رؤسائه و زمالئه فــ ي العمـــل.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 1992,
+            "normalized_start": 1876,
+            "raw_end": 1992,
+            "raw_start": 1876,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "f8b01a64bdfa5d9471c950936436707c63ab078e5a437fd4f9bebcefdb8f144e"
+          },
+          "text": "22 ـ التمسك خالل تأدية العمل باالنضباط التام والتحلي باآلداب واللباقة خالل تعامله مع رؤسائه و زمالئه فــ ي العمـــل.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "22 ـ التمسك خالل تأدية العمل باالنضباط التام والتحلي باآلداب واللباقة خالل تعامله مع رؤسائه و زمالئه فــ ي العمـــل.",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1993,
+        "normalized_start": 1876,
+        "raw_end": 1993,
+        "raw_start": 1876,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "1e12cf54e907a7339d821c76132e293feb2da6e57217378718c6eaf1d20e0f6a"
+      },
+      "kind": "unclassified",
+      "order": 12,
+      "requirement_status": "unspecified",
+      "section_id": "sec_53cb74e277645d6e0171",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1992,
+        "normalized_start": 1876,
+        "raw_end": 1992,
+        "raw_start": 1876,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "f8b01a64bdfa5d9471c950936436707c63ab078e5a437fd4f9bebcefdb8f144e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_abe78fb020b3afdda6c4",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "22  ـ االلتزام بالسرية التامة اتجاه معرفته بأعمال الطرف  األول بحكم عمله ويستمـر هذا االلتزام حتى بعـد تركه العمـل .",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 2110,
+            "normalized_start": 1994,
+            "raw_end": 2110,
+            "raw_start": 1994,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "f411ad86f3499fb07ccabd6e21f4f30e86e81310f7101fbc0f94f7ab113aa23b"
+          },
+          "text": "22  ـ االلتزام بالسرية التامة اتجاه معرفته بأعمال الطرف  األول بحكم عمله ويستمـر هذا االلتزام حتى بعـد تركه العمـل .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "22  ـ االلتزام بالسرية التامة اتجاه معرفته بأعمال الطرف  األول بحكم عمله ويستمـر هذا االلتزام حتى بعـد تركه العمـل .",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 2112,
+        "normalized_start": 1994,
+        "raw_end": 2112,
+        "raw_start": 1994,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "d8fc37ef459a236844df3f1f212aaccb6fb6798c46d5cb1353a75f694e5e7de1"
+      },
+      "kind": "unclassified",
+      "order": 13,
+      "requirement_status": "unspecified",
+      "section_id": "sec_a3d7cb23c0ccdd9c2ee7",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 2110,
+        "normalized_start": 1994,
+        "raw_end": 2110,
+        "raw_start": 1994,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "f411ad86f3499fb07ccabd6e21f4f30e86e81310f7101fbc0f94f7ab113aa23b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_c06b06f9a3fc87da7e19",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "21  ـ االلتزام بكافة تعليمات السالمة المقررة من قبل الطرف  األول.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 2178,
+            "normalized_start": 2113,
+            "raw_end": 2178,
+            "raw_start": 2113,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "6945f5fded187c296e6d96bd4ea9a03b79988157e5914bb4b9c5a7f1004aa029"
+          },
+          "text": "21  ـ االلتزام بكافة تعليمات السالمة المقررة من قبل الطرف  األول.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "21  ـ االلتزام بكافة تعليمات السالمة المقررة من قبل الطرف  األول.",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 2179,
+        "normalized_start": 2113,
+        "raw_end": 2179,
+        "raw_start": 2113,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "d7f18f15aacf8363b71bf747b2872b9531fdda372f283043c6fecfcaf00836cd"
+      },
+      "kind": "unclassified",
+      "order": 14,
+      "requirement_status": "unspecified",
+      "section_id": "sec_99a782e75b14024e4563",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 2178,
+        "normalized_start": 2113,
+        "raw_end": 2178,
+        "raw_start": 2113,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "6945f5fded187c296e6d96bd4ea9a03b79988157e5914bb4b9c5a7f1004aa029"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_f7185f54fc3534f447bf",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2 ـ  أن يترك العمل أو يتوقف عن القيام به  ، أو أن يحرض غيره من العاملين على ذلك.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 364,
+            "normalized_start": 281,
+            "raw_end": 364,
+            "raw_start": 281,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "c9c7e674b346456553efe965e030b18db1354b33f8aeef929390e34fef3bc44f"
+          },
+          "text": "   2 ـ  أن يترك العمل أو يتوقف عن القيام به  ، أو أن يحرض غيره من العاملين على ذلك.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2 ـ  أن يترك العمل أو يتوقف عن القيام به  ، أو أن يحرض غيره من العاملين على ذلك.",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 366,
+        "normalized_start": 281,
+        "raw_end": 366,
+        "raw_start": 281,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "888ec5a4d431940e4b1819af5ee7043ccf4e37a93472fa9de90b98383d128326"
+      },
+      "kind": "unclassified",
+      "order": 15,
+      "requirement_status": "unspecified",
+      "section_id": "sec_1fc83fe1ffac9520a245",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 364,
+        "normalized_start": 281,
+        "raw_end": 364,
+        "raw_start": 281,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "c9c7e674b346456553efe965e030b18db1354b33f8aeef929390e34fef3bc44f"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_5716140179298d802dbf",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1  ـ  أن يستعمل أدوات ومعدات وأجهزة  الطرف  األول ألغراض شخصية أو غير مرتبطة بعمله  .",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 455,
+            "normalized_start": 367,
+            "raw_end": 455,
+            "raw_start": 367,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "9bfccad0475eaa551ab12227bf561932e38b7ddb9246a30e35244f6f6075a680"
+          },
+          "text": "   1  ـ  أن يستعمل أدوات ومعدات وأجهزة  الطرف  األول ألغراض شخصية أو غير مرتبطة بعمله  .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1  ـ  أن يستعمل أدوات ومعدات وأجهزة  الطرف  األول ألغراض شخصية أو غير مرتبطة بعمله  .",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 456,
+        "normalized_start": 367,
+        "raw_end": 456,
+        "raw_start": 367,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "53ba2ac1f47a80acbc0bb022586ee0becdd22d459abaaf4e37495561bfb79193"
+      },
+      "kind": "unclassified",
+      "order": 16,
+      "requirement_status": "unspecified",
+      "section_id": "sec_f634576783ba676cf691",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 455,
+        "normalized_start": 367,
+        "raw_end": 455,
+        "raw_start": 367,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "9bfccad0475eaa551ab12227bf561932e38b7ddb9246a30e35244f6f6075a680"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_c9f75c2591631e583a9a",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "0 ـ  أن يدخل دون إذن أية مواد خطرة من شأنها تعريض األموال واألرواح للخطر.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 533,
+            "normalized_start": 457,
+            "raw_end": 533,
+            "raw_start": 457,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "c42bb0c8d3a5513106d6d5d2d06b0f2c34709d91b54410b263bc6c3a20d7b101"
+          },
+          "text": "   0 ـ  أن يدخل دون إذن أية مواد خطرة من شأنها تعريض األموال واألرواح للخطر.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "0 ـ  أن يدخل دون إذن أية مواد خطرة من شأنها تعريض األموال واألرواح للخطر.",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 535,
+        "normalized_start": 457,
+        "raw_end": 535,
+        "raw_start": 457,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "bac5d99deb29d25b1f0b9fa242ac88899d090f3c407e6e0065f19889aca3b643"
+      },
+      "kind": "unclassified",
+      "order": 17,
+      "requirement_status": "unspecified",
+      "section_id": "sec_ecc475cdb3a37a8bc368",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 533,
+        "normalized_start": 457,
+        "raw_end": 533,
+        "raw_start": 457,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "c42bb0c8d3a5513106d6d5d2d06b0f2c34709d91b54410b263bc6c3a20d7b101"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_4781fc2484b4656af409",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4 ـ  أن يخالف إجراءات األمن والسالمة أو  أي إجراءات أمنية أخرى في موقع العمل.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 616,
+            "normalized_start": 536,
+            "raw_end": 616,
+            "raw_start": 536,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "ee330f46cb107f09a3e796f4f1ade474c6f6ab9458cd67219b79a952f0302e01"
+          },
+          "text": "   4 ـ  أن يخالف إجراءات األمن والسالمة أو  أي إجراءات أمنية أخرى في موقع العمل.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4 ـ  أن يخالف إجراءات األمن والسالمة أو  أي إجراءات أمنية أخرى في موقع العمل.",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 618,
+        "normalized_start": 536,
+        "raw_end": 618,
+        "raw_start": 536,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "b143efe017dd476883330a76d603cc2dc071a4c3ca54c6250ee2daab3808481f"
+      },
+      "kind": "unclassified",
+      "order": 18,
+      "requirement_status": "unspecified",
+      "section_id": "sec_61546f6e5140275f393a",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 616,
+        "normalized_start": 536,
+        "raw_end": 616,
+        "raw_start": 536,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "ee330f46cb107f09a3e796f4f1ade474c6f6ab9458cd67219b79a952f0302e01"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_aa82d952f57e2e4a1e57",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5  . العمللدى الغير بمقابل أو بدونه دون موافقة مكتوبة من  قبل الطرف  األول.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 697,
+            "normalized_start": 619,
+            "raw_end": 697,
+            "raw_start": 619,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "5d73f32dcef735b2491e3ff8847c59dc71f1482840150df9961ae5174ea015a0"
+          },
+          "text": "   5  . العمللدى الغير بمقابل أو بدونه دون موافقة مكتوبة من  قبل الطرف  األول.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5  . العمللدى الغير بمقابل أو بدونه دون موافقة مكتوبة من  قبل الطرف  األول.",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 699,
+        "normalized_start": 619,
+        "raw_end": 699,
+        "raw_start": 619,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "07e9ced149dbf035d9a5889d62d65571386d0ff870b6d8656f46a7c40473decc"
+      },
+      "kind": "unclassified",
+      "order": 19,
+      "requirement_status": "unspecified",
+      "section_id": "sec_ae3b8b357603cc6ea824",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 697,
+        "normalized_start": 619,
+        "raw_end": 697,
+        "raw_start": 619,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "5d73f32dcef735b2491e3ff8847c59dc71f1482840150df9961ae5174ea015a0"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_13a0ffcca6c01f0948c5",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "6   . قبولالرشوة  أو الهدايا مقابل أداء واجباته الوظيفية.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 760,
+            "normalized_start": 700,
+            "raw_end": 760,
+            "raw_start": 700,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "7c2c406c2231b61831d24dc8ca8ac99ea3d69660ccc8825d47d58abb61b75586"
+          },
+          "text": "   6   . قبولالرشوة  أو الهدايا مقابل أداء واجباته الوظيفية.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "6   . قبولالرشوة  أو الهدايا مقابل أداء واجباته الوظيفية.",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 762,
+        "normalized_start": 700,
+        "raw_end": 762,
+        "raw_start": 700,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "59ff5dbdf6416b8086aa101e7c815ab577da4775830dc09ebf94136eaaae4bb0"
+      },
+      "kind": "unclassified",
+      "order": 20,
+      "requirement_status": "unspecified",
+      "section_id": "sec_daa08bbd92c67f851684",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 760,
+        "normalized_start": 700,
+        "raw_end": 760,
+        "raw_start": 700,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "7c2c406c2231b61831d24dc8ca8ac99ea3d69660ccc8825d47d58abb61b75586"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_636bc63bc792e512a0f7",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "7 . القيام بالتحرش الجنسي .",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 793,
+            "normalized_start": 763,
+            "raw_end": 793,
+            "raw_start": 763,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "699134ac19664eedb6d984cf4cbc34a1848c112575628f56ab450e8223888b09"
+          },
+          "text": "   7 . القيام بالتحرش الجنسي .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "7 . القيام بالتحرش الجنسي .",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 795,
+        "normalized_start": 763,
+        "raw_end": 795,
+        "raw_start": 763,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "cd7762bc1bc1b67764e12a96fa78113b27b9effc5cb488ce8e9469669b07102d"
+      },
+      "kind": "unclassified",
+      "order": 21,
+      "requirement_status": "unspecified",
+      "section_id": "sec_cfe3fcba750c7a37db46",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 793,
+        "normalized_start": 763,
+        "raw_end": 793,
+        "raw_start": 763,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "699134ac19664eedb6d984cf4cbc34a1848c112575628f56ab450e8223888b09"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_3966146148e5b71281a0",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "8  . نشرأو توزيع مقاالت أو منشورات ذات صبغة سياسية مناهضة ألهداف الدولة.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 871,
+            "normalized_start": 796,
+            "raw_end": 871,
+            "raw_start": 796,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "3e14dbd18b4d269e55dfa962f7c6c7d21fa2b96a6e3d16eff92b400e0f043f96"
+          },
+          "text": "   8  . نشرأو توزيع مقاالت أو منشورات ذات صبغة سياسية مناهضة ألهداف الدولة.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "8  . نشرأو توزيع مقاالت أو منشورات ذات صبغة سياسية مناهضة ألهداف الدولة.",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 873,
+        "normalized_start": 796,
+        "raw_end": 873,
+        "raw_start": 796,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "c84e9e9bb2e83066c3141654b73aed44587fc7278873721a664000453a3ef574"
+      },
+      "kind": "unclassified",
+      "order": 22,
+      "requirement_status": "unspecified",
+      "section_id": "sec_243abfd8adeb3fa93b70",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 871,
+        "normalized_start": 796,
+        "raw_end": 871,
+        "raw_start": 796,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "3e14dbd18b4d269e55dfa962f7c6c7d21fa2b96a6e3d16eff92b400e0f043f96"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_1911ac42a1188201f6f3",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "9 .  ارتكاب أي فعل من أفعال الوساطة والمحسوبية .",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 925,
+            "normalized_start": 874,
+            "raw_end": 925,
+            "raw_start": 874,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "f2ffdc4dbe3a90c2912ba3aa0eb8d002cfacaef41ee43bded0a090adbe2be541"
+          },
+          "text": "   9 .  ارتكاب أي فعل من أفعال الوساطة والمحسوبية .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "9 .  ارتكاب أي فعل من أفعال الوساطة والمحسوبية .",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 927,
+        "normalized_start": 874,
+        "raw_end": 927,
+        "raw_start": 874,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "74b5daa8a42be8af084970edaa361eca8f30d0ef08c7c388a730c6b3d72da6b3"
+      },
+      "kind": "unclassified",
+      "order": 23,
+      "requirement_status": "unspecified",
+      "section_id": "sec_72b42a57283c6b2831f0",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 925,
+        "normalized_start": 874,
+        "raw_end": 925,
+        "raw_start": 874,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "f2ffdc4dbe3a90c2912ba3aa0eb8d002cfacaef41ee43bded0a090adbe2be541"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_fc122af7dcb5fd6285cb",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "22  . إدخال المشروبات الروحية أو تعاطي المخدرات في مكان العمل.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 991,
+            "normalized_start": 928,
+            "raw_end": 991,
+            "raw_start": 928,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "61f1b9338b596122fbbaf0541717257f943e4a93d267b2a44dc46788597600a3"
+          },
+          "text": " 22  . إدخال المشروبات الروحية أو تعاطي المخدرات في مكان العمل.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "22  . إدخال المشروبات الروحية أو تعاطي المخدرات في مكان العمل.",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 993,
+        "normalized_start": 928,
+        "raw_end": 993,
+        "raw_start": 928,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "555c071ed992c3804d66f1bcd3220eb4419d0dba635b6aafc5037ede80398381"
+      },
+      "kind": "unclassified",
+      "order": 24,
+      "requirement_status": "unspecified",
+      "section_id": "sec_142f172a5c67acfb63a8",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 991,
+        "normalized_start": 928,
+        "raw_end": 991,
+        "raw_start": 928,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "61f1b9338b596122fbbaf0541717257f943e4a93d267b2a44dc46788597600a3"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_cabf09c9c1c3c567112c",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "22  . النومأثناء أوقات العمل التي تتطلب اليقظة التامة.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 1049,
+            "normalized_start": 994,
+            "raw_end": 1049,
+            "raw_start": 994,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "92b9c5c6884088d3c75740d1851575c5fdadbdd8ee6b6b05753ebfba091c06bd"
+          },
+          "text": " 22  . النومأثناء أوقات العمل التي تتطلب اليقظة التامة.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "22  . النومأثناء أوقات العمل التي تتطلب اليقظة التامة.",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1050,
+        "normalized_start": 994,
+        "raw_end": 1050,
+        "raw_start": 994,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "6b0edb3789a29383ef6ec0063c9956ff9c7bd996f209cdc698e31d0efcb1f374"
+      },
+      "kind": "unclassified",
+      "order": 25,
+      "requirement_status": "unspecified",
+      "section_id": "sec_e8e57699f3999ab82eaa",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1049,
+        "normalized_start": 994,
+        "raw_end": 1049,
+        "raw_start": 994,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "92b9c5c6884088d3c75740d1851575c5fdadbdd8ee6b6b05753ebfba091c06bd"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_8e77df2e7ca23fa9b578",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "21  . إدخال األسلحة و ترعيب  العاملين.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 1090,
+            "normalized_start": 1051,
+            "raw_end": 1090,
+            "raw_start": 1051,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "bcbcb9abb3b7612ee8340f6502a1b7b5af47fc59c7a97a3f2aaf7966a93ae401"
+          },
+          "text": " 21  . إدخال األسلحة و ترعيب  العاملين.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "21  . إدخال األسلحة و ترعيب  العاملين.",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1092,
+        "normalized_start": 1051,
+        "raw_end": 1092,
+        "raw_start": 1051,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "f82f2afab3f51e9ed42c6b4e3b2c1c3c724c5c3627d82c2d807e0ec601b9e0cb"
+      },
+      "kind": "unclassified",
+      "order": 26,
+      "requirement_status": "unspecified",
+      "section_id": "sec_2d2398b9c68ad1424633",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1090,
+        "normalized_start": 1051,
+        "raw_end": 1090,
+        "raw_start": 1051,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "bcbcb9abb3b7612ee8340f6502a1b7b5af47fc59c7a97a3f2aaf7966a93ae401"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_734d6cc60aa0bf394cc1",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "20  . التدخين فياإلمكان  المحظور التدخين فيها والمعلن عنها من قبل الطرف  األول.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 1173,
+            "normalized_start": 1093,
+            "raw_end": 1173,
+            "raw_start": 1093,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "a4be6cee2216817af9f096dfb34c4ff44562de72b066061cfb74ea4669692730"
+          },
+          "text": " 20  . التدخين فياإلمكان  المحظور التدخين فيها والمعلن عنها من قبل الطرف  األول.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "20  . التدخين فياإلمكان  المحظور التدخين فيها والمعلن عنها من قبل الطرف  األول.",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1174,
+        "normalized_start": 1093,
+        "raw_end": 1174,
+        "raw_start": 1093,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "f58314d841e7d1985c734f26481bd8a314ed81578bf97f8d83d3d63af5119385"
+      },
+      "kind": "unclassified",
+      "order": 27,
+      "requirement_status": "unspecified",
+      "section_id": "sec_da0ea33fa358ff53ff87",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1173,
+        "normalized_start": 1093,
+        "raw_end": 1173,
+        "raw_start": 1093,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "a4be6cee2216817af9f096dfb34c4ff44562de72b066061cfb74ea4669692730"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_9a3c35199ef467373a38",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "24  . نقل وثائقأو ملفات خارج مقر العمل دون الحصول على تصريح كتابي  من الطرف  األول بذلك.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 1264,
+            "normalized_start": 1175,
+            "raw_end": 1264,
+            "raw_start": 1175,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "581c394034ab50ee697552a3111a8e5c0ed3dddc8ff0e187c4d8a9a8cb610a27"
+          },
+          "text": " 24  . نقل وثائقأو ملفات خارج مقر العمل دون الحصول على تصريح كتابي  من الطرف  األول بذلك.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "24  . نقل وثائقأو ملفات خارج مقر العمل دون الحصول على تصريح كتابي  من الطرف  األول بذلك.",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1265,
+        "normalized_start": 1175,
+        "raw_end": 1265,
+        "raw_start": 1175,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "d169cf1f26923cdf10a78866f6a261f59b3999caf0e1dbc913683c476502fd7d"
+      },
+      "kind": "unclassified",
+      "order": 28,
+      "requirement_status": "unspecified",
+      "section_id": "sec_0a2a08b5089ef89b337e",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1264,
+        "normalized_start": 1175,
+        "raw_end": 1264,
+        "raw_start": 1175,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "581c394034ab50ee697552a3111a8e5c0ed3dddc8ff0e187c4d8a9a8cb610a27"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_6dcb113676c97ea2f3c1",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "15  . أنيفضي  بأي تصريح أو بيان يتعلق ب أعمال الطرف األول عبر وسائل األعالم المقروءة أو المرئية أو المسموعة",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 1484,
+            "normalized_start": 1376,
+            "raw_end": 1484,
+            "raw_start": 1376,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "1630cc9f948dd2af5ed98c2eae344e9bd32aec06818ffdbf17ab8eb6715146b8"
+          },
+          "text": "أو عبر وسائل التواصل  االجتماعي أو غير ذلك من طرق النشر،  إال إذا كان مصرحا  له بذلك كتابة   من الطرف األول.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "15  . أنيفضي  بأي تصريح أو بيان يتعلق ب أعمال الطرف األول عبر وسائل األعالم المقروءة أو المرئية أو المسموعة",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1375,
+        "normalized_start": 1266,
+        "raw_end": 1375,
+        "raw_start": 1266,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "54536dc8be2b1ef7f2c7a48d6fb64706956b51535e877615cab6f91896e0b843"
+      },
+      "kind": "unclassified",
+      "order": 29,
+      "requirement_status": "unspecified",
+      "section_id": "sec_c5d81a8cd753541626f6",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1484,
+        "normalized_start": 1266,
+        "raw_end": 1484,
+        "raw_start": 1266,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "b0656eb2628edb6ce269d2cb29f5e0d190ecff6245c55272fe60e754a391c66d"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_ab1c42b5c03b836e942a",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "11 .. االمتناع عن المثول للكشف الطبي للتأكد من صحته وخلوه من األمراض المعدية أو المستوطنة أو األمراض المهنية",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 1595,
+            "normalized_start": 1486,
+            "raw_end": 1595,
+            "raw_start": 1486,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "9147936bc1894bdda849d82e7e9956d8a0c57b53f91d27f1b4e5a96d7c84b602"
+          },
+          "text": " 11 .. االمتناع عن المثول للكشف الطبي للتأكد من صحته وخلوه من األمراض المعدية أو المستوطنة أو األمراض المهنية",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "11 .. االمتناع عن المثول للكشف الطبي للتأكد من صحته وخلوه من األمراض المعدية أو المستوطنة أو األمراض المهنية",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1597,
+        "normalized_start": 1486,
+        "raw_end": 1597,
+        "raw_start": 1486,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "21790d154e9f7dfdb91b9bf345199100b6369069e7b97e6096ba5868c8d45cfd"
+      },
+      "kind": "unclassified",
+      "order": 30,
+      "requirement_status": "unspecified",
+      "section_id": "sec_20a824dd6b40d97ab3ad",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1595,
+        "normalized_start": 1486,
+        "raw_end": 1595,
+        "raw_start": 1486,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "9147936bc1894bdda849d82e7e9956d8a0c57b53f91d27f1b4e5a96d7c84b602"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_f7996f6dea3427085a29",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2. إذا لم يقم بتأدية التزاماته المنصوص عليها في العقد.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 270,
+            "normalized_start": 216,
+            "raw_end": 270,
+            "raw_start": 216,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "211fc0751343ba40dcda4c672b1b445d42adb7f1a3ed4add1ed013a1e89f6915"
+          },
+          "text": "2. إذا لم يقم بتأدية التزاماته المنصوص عليها في العقد.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2. إذا لم يقم بتأدية التزاماته المنصوص عليها في العقد.",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 272,
+        "normalized_start": 216,
+        "raw_end": 272,
+        "raw_start": 216,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "f6e4a29a03e9acda638854ed284711292ffa0d8aa3373a341aecba8753d766a1"
+      },
+      "kind": "unclassified",
+      "order": 31,
+      "requirement_status": "unspecified",
+      "section_id": "sec_93e5661d7deef26261a1",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 270,
+        "normalized_start": 216,
+        "raw_end": 270,
+        "raw_start": 216,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "211fc0751343ba40dcda4c672b1b445d42adb7f1a3ed4add1ed013a1e89f6915"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_f3525d8b624c349cf221",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1.  إذا انتحلالطرف الثاني  شخصية غير شخصيته أو قدم شهادات أو إقرارات أو بيانات غير  صحيحة.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 363,
+            "normalized_start": 273,
+            "raw_end": 363,
+            "raw_start": 273,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "46ea5090d54c9613dfaf49309d699560a82eee0f3a9d18524d0fb96bea84624e"
+          },
+          "text": "1.  إذا انتحلالطرف الثاني  شخصية غير شخصيته أو قدم شهادات أو إقرارات أو بيانات غير  صحيحة.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1.  إذا انتحلالطرف الثاني  شخصية غير شخصيته أو قدم شهادات أو إقرارات أو بيانات غير  صحيحة.",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 365,
+        "normalized_start": 273,
+        "raw_end": 365,
+        "raw_start": 273,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "c3826c157d63fcdbf16d0ced14dbe5d8799079607c7d712e0095db5fb7310fae"
+      },
+      "kind": "unclassified",
+      "order": 32,
+      "requirement_status": "unspecified",
+      "section_id": "sec_de494cf1ca910ecc164e",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 363,
+        "normalized_start": 273,
+        "raw_end": 363,
+        "raw_start": 273,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "46ea5090d54c9613dfaf49309d699560a82eee0f3a9d18524d0fb96bea84624e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_8f0ec40cb822ea047aff",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "0. إذا كان تحت االختبار (( فترة التجربة )).",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 409,
+            "normalized_start": 366,
+            "raw_end": 409,
+            "raw_start": 366,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "895bd8962b146b924ec13b07c35301dd5f9eb4d1b800fdca400f0230cd64924d"
+          },
+          "text": "0. إذا كان تحت االختبار (( فترة التجربة )).",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "0. إذا كان تحت االختبار (( فترة التجربة )).",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 411,
+        "normalized_start": 366,
+        "raw_end": 411,
+        "raw_start": 366,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "2d02d00ee284c66b4f127980b6c7e79b4a78825feabc48aad298c87c0accec71"
+      },
+      "kind": "unclassified",
+      "order": 33,
+      "requirement_status": "unspecified",
+      "section_id": "sec_a98ae0c9e173235882f4",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 409,
+        "normalized_start": 366,
+        "raw_end": 409,
+        "raw_start": 366,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "895bd8962b146b924ec13b07c35301dd5f9eb4d1b800fdca400f0230cd64924d"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_a1b7a2eb323338f41fb8",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4. إذا ارتكب خطأ نشأت عنه خسارة مادية جسيمة للطرف  األول.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 469,
+            "normalized_start": 412,
+            "raw_end": 469,
+            "raw_start": 412,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "a62d33753caaa66d86ba802e2d69702d011b182c1ff5c84c6ebd5b2a2ab6fc9d"
+          },
+          "text": "4. إذا ارتكب خطأ نشأت عنه خسارة مادية جسيمة للطرف  األول.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4. إذا ارتكب خطأ نشأت عنه خسارة مادية جسيمة للطرف  األول.",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 470,
+        "normalized_start": 412,
+        "raw_end": 470,
+        "raw_start": 412,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "269a77af32b77302697df9696bb8ca16d5188368c77af0bb2a75e92051b2f8a5"
+      },
+      "kind": "unclassified",
+      "order": 34,
+      "requirement_status": "unspecified",
+      "section_id": "sec_69aa6168a67f5db27252",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 469,
+        "normalized_start": 412,
+        "raw_end": 469,
+        "raw_start": 412,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "a62d33753caaa66d86ba802e2d69702d011b182c1ff5c84c6ebd5b2a2ab6fc9d"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_c3d94e7e5ffec6706006",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5.  إذا تكرر من العامل عدم مراعاة التعليمات الالزم إتباعها لسالمة العاملين و مكان العمل.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 559,
+            "normalized_start": 471,
+            "raw_end": 559,
+            "raw_start": 471,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "102d3f5e33b65ee5573888cb3e0989466ad4e1ac6044b31acc1187d6d6162786"
+          },
+          "text": "5.  إذا تكرر من العامل عدم مراعاة التعليمات الالزم إتباعها لسالمة العاملين و مكان العمل.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5.  إذا تكرر من العامل عدم مراعاة التعليمات الالزم إتباعها لسالمة العاملين و مكان العمل.",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 561,
+        "normalized_start": 471,
+        "raw_end": 561,
+        "raw_start": 471,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "cb21888f8c00b644501519a4a68d4b19cbd01a732da79d7d22e931344d5927e8"
+      },
+      "kind": "unclassified",
+      "order": 35,
+      "requirement_status": "unspecified",
+      "section_id": "sec_eadfe44274ebfcf38366",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 559,
+        "normalized_start": 471,
+        "raw_end": 559,
+        "raw_start": 471,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "102d3f5e33b65ee5573888cb3e0989466ad4e1ac6044b31acc1187d6d6162786"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_f890f530977c17a0c4e6",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "6. إذا تغيب بدون سبب مشروع أكثر من عشرة أيام متتالية.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 615,
+            "normalized_start": 562,
+            "raw_end": 615,
+            "raw_start": 562,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "ded12186128f65c6cfdda84761702699a60db8d6ab1fc608ed773b5d68cf531e"
+          },
+          "text": "6. إذا تغيب بدون سبب مشروع أكثر من عشرة أيام متتالية.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "6. إذا تغيب بدون سبب مشروع أكثر من عشرة أيام متتالية.",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 617,
+        "normalized_start": 562,
+        "raw_end": 617,
+        "raw_start": 562,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "6000da3142c95c85af53f8067d1e5d8f2fb5707d672b9a607ed8f847723d6deb"
+      },
+      "kind": "unclassified",
+      "order": 36,
+      "requirement_status": "unspecified",
+      "section_id": "sec_8a0dc1f2fe9118f432ef",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 615,
+        "normalized_start": 562,
+        "raw_end": 615,
+        "raw_start": 562,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "ded12186128f65c6cfdda84761702699a60db8d6ab1fc608ed773b5d68cf531e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_b85b76c3f3ca82945422",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "7. إذا افشى األسرار الخاصة بعمله.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 651,
+            "normalized_start": 618,
+            "raw_end": 651,
+            "raw_start": 618,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "162a5bc9ed416054f57c34f99f471d42a533cd908db433e9c0011a82436150c6"
+          },
+          "text": "7. إذا افشى األسرار الخاصة بعمله.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "7. إذا افشى األسرار الخاصة بعمله.",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 653,
+        "normalized_start": 618,
+        "raw_end": 653,
+        "raw_start": 618,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "ebfe6eba961a302840c5f614c9abf430738108444ff65c39ebca97f4b126c68d"
+      },
+      "kind": "unclassified",
+      "order": 37,
+      "requirement_status": "unspecified",
+      "section_id": "sec_0199e7111942ebc0039d",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 651,
+        "normalized_start": 618,
+        "raw_end": 651,
+        "raw_start": 618,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "162a5bc9ed416054f57c34f99f471d42a533cd908db433e9c0011a82436150c6"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_a51727e970c09f7cedd8",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "8.  إذا وجد أثناء ساعات العمل في حالة سكر ظاهر أو تحت تأثير المؤثرات العقلية .",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 732,
+            "normalized_start": 654,
+            "raw_end": 732,
+            "raw_start": 654,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "8d5a072cab9bcb0a212af599d59642f2f975b69615a4c93221134a76349e9715"
+          },
+          "text": "8.  إذا وجد أثناء ساعات العمل في حالة سكر ظاهر أو تحت تأثير المؤثرات العقلية .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "8.  إذا وجد أثناء ساعات العمل في حالة سكر ظاهر أو تحت تأثير المؤثرات العقلية .",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 734,
+        "normalized_start": 654,
+        "raw_end": 734,
+        "raw_start": 654,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "6574b0c057732540f79b8f51b267cbefe0c2973d4e3a32f9245776bc2946c056"
+      },
+      "kind": "unclassified",
+      "order": 38,
+      "requirement_status": "unspecified",
+      "section_id": "sec_f7a22916b5c158af9218",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 732,
+        "normalized_start": 654,
+        "raw_end": 732,
+        "raw_start": 654,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "8d5a072cab9bcb0a212af599d59642f2f975b69615a4c93221134a76349e9715"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_98a35646038be1dc1d57",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "9. .إذا اعتدى على أحد رؤسائه أو زمالئه أثناء العمل أو بسببه",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 794,
+            "normalized_start": 735,
+            "raw_end": 794,
+            "raw_start": 735,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "13002355c23fd006d64bf1639cceca95042b5fb9313076eac61efcf189c7cb12"
+          },
+          "text": "9. .إذا اعتدى على أحد رؤسائه أو زمالئه أثناء العمل أو بسببه",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "9. .إذا اعتدى على أحد رؤسائه أو زمالئه أثناء العمل أو بسببه",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 796,
+        "normalized_start": 735,
+        "raw_end": 796,
+        "raw_start": 735,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "d41244b8b4d4dd5a3a3376aa96a94582f7eb49c92c12163725ce87cd441f4fe2"
+      },
+      "kind": "unclassified",
+      "order": 39,
+      "requirement_status": "unspecified",
+      "section_id": "sec_71c07155e2e4e5ebc9cf",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 794,
+        "normalized_start": 735,
+        "raw_end": 794,
+        "raw_start": 735,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "13002355c23fd006d64bf1639cceca95042b5fb9313076eac61efcf189c7cb12"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_309d58d07cc194230924",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "22. إذا حكم على العامل نهائيا  في جناية أو جنحة مخلة بالشرف أو األمانة أو األمن.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 993,
+            "normalized_start": 881,
+            "raw_end": 993,
+            "raw_start": 881,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "fd6b7455e65f6e1a728e50df4608da6988b5fc5fc65f40f615f9de5de3ed08b9"
+          },
+          "text": "مادة (11) \nجيوز للطرف الثاني ترك العمل لدى الطرف األول قبل نهاية مدة العقد وبدون إخطار مسبق يف احلاالت اآلتية: ـ",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "22. إذا حكم على العامل نهائيا  في جناية أو جنحة مخلة بالشرف أو األمانة أو األمن.",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 878,
+        "normalized_start": 797,
+        "raw_end": 878,
+        "raw_start": 797,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "e4fd8841c6fe139a4ba764bdbc9f2b8744cee23294bcdc27f357ded3fe6ef94f"
+      },
+      "kind": "unclassified",
+      "order": 40,
+      "requirement_status": "unspecified",
+      "section_id": "sec_bcd9d61ce85f0043dcd2",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 993,
+        "normalized_start": 797,
+        "raw_end": 993,
+        "raw_start": 797,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "9a4bfea2c16774b97fc8381495bb4875f2e59a343957c4d9bd042f43edc1bed5"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_097fb440de1e9d4e8e71",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2.إذا مارس  الطرف األول أو من يمثله الغش وقت التعاقد فيما يتعلق بشروط العمل.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 1071,
+            "normalized_start": 995,
+            "raw_end": 1071,
+            "raw_start": 995,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "26cdf1e0b723806e83b1d8bf4ead4080a22ffca78fd21c29c1681762d6e2d51e"
+          },
+          "text": "2.إذا مارس  الطرف األول أو من يمثله الغش وقت التعاقد فيما يتعلق بشروط العمل.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2.إذا مارس  الطرف األول أو من يمثله الغش وقت التعاقد فيما يتعلق بشروط العمل.",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1073,
+        "normalized_start": 995,
+        "raw_end": 1073,
+        "raw_start": 995,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "fbe365fe4b6f15c3cd6c1582f0f99d034b979a1e3763c20ae75ffb41223d63cd"
+      },
+      "kind": "unclassified",
+      "order": 41,
+      "requirement_status": "unspecified",
+      "section_id": "sec_667c37cf80f5d109d4e0",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1071,
+        "normalized_start": 995,
+        "raw_end": 1071,
+        "raw_start": 995,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "26cdf1e0b723806e83b1d8bf4ead4080a22ffca78fd21c29c1681762d6e2d51e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_01b1a66545551670cadb",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1  .إذا لم ينفذ الطرف األول االلتزامات  المقررة  عليه بموجب أحكام هذا العقد أو وفق التشريعات ذات العالقة بعمله.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 1185,
+            "normalized_start": 1074,
+            "raw_end": 1185,
+            "raw_start": 1074,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "a84ad9c70c86f6a652e191efc5f44c692f212b919a87e4372a69aec96f230e1e"
+          },
+          "text": "1  .إذا لم ينفذ الطرف األول االلتزامات  المقررة  عليه بموجب أحكام هذا العقد أو وفق التشريعات ذات العالقة بعمله.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1  .إذا لم ينفذ الطرف األول االلتزامات  المقررة  عليه بموجب أحكام هذا العقد أو وفق التشريعات ذات العالقة بعمله.",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1187,
+        "normalized_start": 1074,
+        "raw_end": 1187,
+        "raw_start": 1074,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "13ea5dd2f5fd236a76fb3fdc88837d09679cdbbed0f69ea44627b62cd610691e"
+      },
+      "kind": "unclassified",
+      "order": 42,
+      "requirement_status": "unspecified",
+      "section_id": "sec_cb1bee79063819ca7727",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1185,
+        "normalized_start": 1074,
+        "raw_end": 1185,
+        "raw_start": 1074,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "a84ad9c70c86f6a652e191efc5f44c692f212b919a87e4372a69aec96f230e1e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_c39ddd30edcfc95af4a3",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "0 .إذا كان هناك خطر جسيم يهدد سالمة الطرف الثاني أو صحت ، بشرط أن يكون الطرف األول على علم ب هذا الخطر",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 1373,
+            "normalized_start": 1292,
+            "raw_end": 1373,
+            "raw_start": 1292,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "8d2d69f2a3bf301cb934cbe5de0e950a8ed5875057f89e74fe7492f25e5c6205"
+          },
+          "text": "ولم يتخذ التدابير الوقائية المقررة والمفروضة من  الجهات المختصة في الموعد المحدد.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "0 .إذا كان هناك خطر جسيم يهدد سالمة الطرف الثاني أو صحت ، بشرط أن يكون الطرف األول على علم ب هذا الخطر",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1291,
+        "normalized_start": 1188,
+        "raw_end": 1291,
+        "raw_start": 1188,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "d8b873fffb9eaa18b49ad296108dd033c5a5c70d639069d3adebaa53bd4e2fbc"
+      },
+      "kind": "unclassified",
+      "order": 43,
+      "requirement_status": "unspecified",
+      "section_id": "sec_09f93ddab8cb7a53026a",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1373,
+        "normalized_start": 1188,
+        "raw_end": 1373,
+        "raw_start": 1188,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "c7b30a16630ac4fe0eb2d21ae0e83a3bd6d783dc61a6a657066afc4925874559"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_4e54ddb405f30da6f446",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4 .إذا مورست ضده أفعال مخلة باآلداب أو  الشرف من قبل المسؤولين أو المشرفين عليه.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_d7fe070b1aacc2465ad4",
+            "normalized_end": 1821,
+            "normalized_start": 1461,
+            "raw_end": 1821,
+            "raw_start": 1461,
+            "source_id": "src_9f642ef4cbe5d7505a0e",
+            "text_sha256": "04057a7b15953fbfecc4e3c5dc4e082b128502ac0111b82cddade16bedbd9cf8"
+          },
+          "text": "مادة (12) \n ال جيوز للطرف األول أن خيرجعلى شروط  العقد أو أن يكلف الطرف الثاني بعمل غري املتفق عليه، إال إذا اقتضت \nالضرورة القصوى ذلك لوقوع حادث أو يف حالة القوة القاهرة، وبصفة مؤقتة، مع إبالغ مكتب العمل املختص \nخالل مدة أقصاها ثالثة أيام من حدوث التغيري كما جيوز للطرف األول نقل الطرف الثاني إىل إي مهنة ال ختتلف \nجوهريا عن املهنة املكلف بها مبوجب هذا العقد.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4 .إذا مورست ضده أفعال مخلة باآلداب أو  الشرف من قبل المسؤولين أو المشرفين عليه.",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1458,
+        "normalized_start": 1376,
+        "raw_end": 1458,
+        "raw_start": 1376,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "0ee5d29b9bbc452759adfa2ec3d79ebe2cbf395dda7291c4fc580ce1ffd8427f"
+      },
+      "kind": "unclassified",
+      "order": 44,
+      "requirement_status": "unspecified",
+      "section_id": "sec_7c7f34221a5f93cbe821",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1821,
+        "normalized_start": 1376,
+        "raw_end": 1821,
+        "raw_start": 1376,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "f371e48489744ddc6b528ffb4cfdee06e43347c70cc6bf493226280e925a4d6e"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "extracted_text_sha256": "7b47107985087520225ee1fe6f6a893c7d16c1d0abcfdfa437352b43a4a4f40c",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 8,
+      "relative_path": "templates/Libya/عقد-العنصر-الوطني-بعد-التعديل-النهائي-8-2.pdf",
+      "sha256": "f199cd36fcd337ae9d4e99ae2a369b41eac33c98ce95b5537f9c65b3e2b9466d",
+      "size_bytes": 1717624,
+      "source_id": "src_9f642ef4cbe5d7505a0e"
+    }
+  ],
+  "template_id": "tpl_b1a6d9602217a6dc3dbc",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_be551e3ee8f19c341395",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 19,
+        "normalized_start": 6,
+        "raw_end": 19,
+        "raw_start": 6,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "2b6baeee28cc554d613d5185ef214b436397c3f6d4a43f94e1100d387c4c55c7"
+      },
+      "text": "الصفحة 1  من8"
+    },
+    {
+      "content_id": "unparsed_4e021df0b8027c116b3e",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 2214,
+        "normalized_start": 6,
+        "raw_end": 2214,
+        "raw_start": 6,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "1e9f1128d0be4b0698242f1e43b67435b1ce8840cfeebfc6fb3faa6917ac8add"
+      },
+      "text": "الصفحة 2  من8 \n \n \n \n \nعقــــــ د عمـــل (مُستخـــدم  وطـــــــــين) \nإنه يف يوم ................املوافق .. ......./......./..... .........ميالدي  \nتطبيقاً ألحكام قانون عالقات العمل رقم  (21)  لسنة1222 ميالدي والئحته التنفيذية والقرارات الصادرة  \nأبرم هذا العقد بني كلً من : ـ \nأوال: (جهة العمل): .......................................................................................................................................... . \nجنسيتــــها: .................................... سجل جتاري رقم: ..................................... عنوانها: ...................................  \nالربيد اإللكرتوني: ...........................................................وميثله ا السيد/ ة: ............... ........................ ..............   \nجنسيتـــــه: ............................... بصفته  / ـها: .............................. ......... هاتف رقم: ..................... ...................      \nويشار  إليها يف هذا العقد بالطرف األول . \n \nثانياً: (العامل ):    \nتاريخ امليالد اجلنس احلالة االجتماعية اجلنسية \n/      /         ميالدي ذكر                 أنثى أعزب                   متزوج  \n \nجواز سفر رقم                                                                                       جهة وتاريخ اإلصدار  \nالرقــــــم الوطنــــــي             \nاسم املصرف / الفرع  \n \nرقم ورقة العائلة :............................ رقم القيد:............................. فصيلة الدم  :.................................. ........ \nاملؤهل العلمي :................................................................. ..التخصص:.............................................  \nمدة اخلربة السابقة هلذا العقد .............................................جهة  أو جهات العمل السابقة  ................................................... \nمكان اإلقامة الدائم :................ ............. البلدية  .......... .........أقرب نقطة دالة ...............................  \nهاتف السكن:............................. نقال2 .....: .......................... نقال1 ..............................................:.... \nالربيد اإللكرتوني .................................... ............................................................ . ويشار اليه يف هذا العقد بالطرف الثاني. \n \n االسم األول  \n اسم األب \n اسم اجلد  \n اللقب  \n \nرقم احلساب"
+    },
+    {
+      "content_id": "unparsed_c6d3b30683e285989884",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 2689,
+        "normalized_start": 6,
+        "raw_end": 2689,
+        "raw_start": 6,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "73b68993e09fe4d322b25e5d641ad78c264ab4b0dbfb53afec7689129ebcd131"
+      },
+      "text": "الصفحة 3  من8 \n \n \n \n \nمتهيد \nنظرا لرغبة الطرف األول يف االستفادة من خدمات الطرف الثاني يف جمال ختصصه ، وحيث ان الطرف الثاني لديه \nاملؤهل واخلربة الالزمة لشغل املهنة املطلوبة ، ويعرب عن رغبته  يف العمل لدى الطرف األول ، وبعد أن أقر الطرفان \nبأهليتهما القانونية والشرعية إلبرام هذا العقد فقد  اتفق الطرفان  على ما يلي : \nمادة (1) \nيلتزم الطرف الثاني بالعمل لدى الطرف األول  حتت إداراته أو إشرافه  على مهنة \n............................................ ..........ومباشرة  كافة األعمال واملهام اليت يكلف بها ، مبا يتناسب مع قدراته \nالعلمية والعملية والفنية، وفقاً ال حتياجات العمل ، ومبا ال يتعارض مع أحكام قانون عالقات العمل رقم (21 )\n لسنة1222 موالقرارات واللوائح الصا درة تنفيذا له ، وتكون مدة الفرتة التعاقدية... ................................ تبدأ \nيوم ............................   املوافق   ......../ ........ / ................. \nوتنتهي يوم ............................ املوافق......../ ........ / ................. ، قابلة للتجديد مرة واحدة ويصبح بعدها العقد \nغري حمدد املدة ، وتُحدد أيام العمل العادية بـ(.....................) أيام يف األ سبوع ، وحتدد ساعات العمل بـ (............)  \nوفقا لنظام العمل املعتمد من الطرف األول. \nمادة (2) \n يدفع الطرف األول للطرف الثاني مقابال شهري قدره  ((             ))  القيمة باحلروف \n................................................................ مضافاً إليه  العالوات  واملزايا والبدالت التالية :    \n...................................................................................................................................................................  \n...................................................................................................................................................................  \n........................................................................................................................................................ ........... \n...................................................................................................................................................................  \n...................................................................................................................................................................  \nخاضعً ا لكافة االستقطاعات القانونية وفقً ا للتشريعات النافدة. \nمادة (3) \n إذا استمر الطرفني يف تنفيذهذا العقد بعد إنتهاء  مدته دون االتفاق على جتديده ، اعترب العقد مُجددً ا تلقائياً \nبنفس املدة،  ويصبح بعدها العقد غري حمدد املدة . \nمادة (4) \nجيوز لكلٍ من الطرفني فسخ العقد بعد إخطار الطرف اآلخر مب وجب كتاب مسجل بعلم الوصول قبل الفسخ \nبثالثني (02)  يوما،ويف حال فسخ العقد دون مر اعاة مدة اإلخطار املذكورة ، يلتزم  الطرف األول  بأداء تعويض \nللطرف الثاني يعادل أجره عن مدة اإلنذار أو اجلزء املتبقي منها ."
+    },
+    {
+      "content_id": "unparsed_1f46b854402ea81fcfc8",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 711,
+        "normalized_start": 6,
+        "raw_end": 711,
+        "raw_start": 6,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "513ed0b016f66ca984fbb66f5c867c2e66386fb44cb15fc3d5248d260c7177a2"
+      },
+      "text": "الصفحة 4  من8 \n \n \n \n \n \n مادة(5) \nال جيوز للطرف األول إنهاء أو فسخ العق د إال ألسباب جوهرية وفقا ألحكام القانون  مع ضرورة إخطار اجلهة  \nاملختصة بوزارة العمل والتأهيل  باألسباب الذي استند عليها  قبل الشروع يف عملية  اإلنهاء أو الفسخ . \nمادة (6) \n خيضع الطرف الثاني عند بداية التعاقد لفرتة اختبار مدتهاثالثون  (02) يوم عمل فعلي غري قابل  للتجديد، تبدأ \nمن تاريخ مباشرة العمل  ويعترب  انقضاء هذه الفرتة  دون صدور قرار من الطرف األول بإنهاء العقد مبثابة تثبيت \nللطرف الثاني  يف العمل ، وال جيوز للطرف األول التعاقد مع الطرف الثاني حتت االختبار أكثر من مرة واحدة \nطيلة مدة عمله معه. \nمادة (7) \n جيوز لكال الطرفني خالل فرتة االختبار إنهاء العقد بإخطار كتابيموجه إىل الطرف األخر  ، وعلى ان يتم \nمراعاة ما يلي :-"
+    },
+    {
+      "content_id": "unparsed_c69ad1e9071cdb8ec460",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 279,
+        "normalized_start": 6,
+        "raw_end": 279,
+        "raw_start": 6,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "6f96dc3184921d9375953e98b59ee1dba78157654109bd89793a4b877431054a"
+      },
+      "text": "الصفحة 5  من8 \n \n \n \n \n \n مادة(9) \n حيظرعلى  الطرف الثاني  القيام بأي تصرف من شأنه اإلخالل بالنظام واالنضباط أو التأثري سلبً ا على سري العمل \nلدى الطرف األول أو القيام بأي عمل من األعمال احملظورة أو احملرمة مبقتضى القوانني أو اللوائح أو األنظمة \nاملعمول بها، وخاصة ما يلي:-"
+    },
+    {
+      "content_id": "unparsed_726c86d01ba6cdb0150e",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 214,
+        "normalized_start": 6,
+        "raw_end": 214,
+        "raw_start": 6,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "b0ff5a0ad0d134f146dabd21961ff0370ccbefe97ec284fb94bf48d3829d825b"
+      },
+      "text": "الصفحة 6  من8 \n \n \n \n \n \n مادة(11) \nجيوزللطرف  األول  إنهاء عقد الطرف الثاني دون أندار مسبق ، ودون مكافأة أو تعويض يف احلاالت املنصوص \nعليها باملادة 70  من قانون عالقات العمل رقم21  لسنة1222 موتشمل مايلي   :-"
+    },
+    {
+      "content_id": "unparsed_a0f75a2128d894352b25",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000007",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 2491,
+        "normalized_start": 6,
+        "raw_end": 2491,
+        "raw_start": 6,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "751b7c923771d208042809a6e942c2a2f8481bdc186cd89e48bf3537dfc34525"
+      },
+      "text": "الصفحة 7  من8 \n \n \n \n \n مادة(13) \n يستحق الطرف الثانيالزيادة السنوية املقررة  للمهنة اليت يشغلها بعد  مضي سنة من تاريخ مباشرته للعمل وعن \nكل سنة بعد ذلك، ومتنح الزيادة وفقاً ملعدالت أداء املهنة أو  درجة الكفاءة السنوية وفقً ا للسياق املتبع لدى \nالطرف األول.  \nمادة (14) \n يستحق الطرف الثانيإجازة  سنوية مدتها (ثالثون  (31))  يومــاً تزداد إىل (مخسة و أربعون  (45)) يومً اً ملن بلغ \nعمره مخسون سنة ميالدية أو جتاوزت مدة خدمته (21)) سنة ميالدية كاملة ،  مضافا إليها أيام الراحة \nاألسبوعية والعطالت الرمسية واإلجازات املرضية املقررة،  وال جيوز للطرف الثاني التنازل عن إجازته مقابل أي \nبدل عيين أو نقدي . \nمادة (15) \n وحيقللطرف  الثاني التمتع بإجازته السنوية داخل البالد أو خارجها، وال حيق للطرف األول تأجيلها أو منعها، إال \nإذا اقتضت  مصلحة العمل ذلك. \nمادة (16) \n ال جيوزللطرف  الثاني اخلروج يف إجازة إال بعد احلصول على موافقة كتابية مسبقة من الطرف األول، ويف حالة \nخمالفة ذلك، يعترب التصرف خرقا اللتزامات العمل، ويعترب الطرف الثاني، غائبا عن العمل وختصم هذه املدة من  \nمقابله (املرتب) دون اإلخالل باملسائلة التأديبية املقررة حبقه .  \n \nمادة (17) \n الجيوز تطبيق جزاء على العامل ما مل يكن منصوص عليه يف الئحة اجلزاءات  الصادرة عن الطرف األول \nواملعتمدة من اجلهة املختصة . \nمادة (18) \n مع مراعاة نصوص موادهذا العقد أعاله، تضاف الشروط التالية اىل العقد  ، وتعترب  باطلة  يف حال مامل تكن \nأكثر فائدة للطرف الثاني والشروط هي : ( تعبأ كتابيا من قبل اجلهة املختصة بالوزارة ) . \n.......................................................................................................................................................................... \n.......................................................................................................................................................................... \n.......................................................................................................................................................................... \n............................................................................................................................... ........................................... \n................................................................................................................................... ....................................... \n \nمادة (19) \nأي إخطار ينص عليه هذا العقد أو جييزه أو يطلبه القانون يعترب ساري املفعول من تاريخ استالم الطرف األخر \nشخصيً ا أو من خالل رسالة كتابية مصحوبة بعلم الوصول، على العنوان املبني يف صدر هذا العقد أو على أخر \nعنوان سبق إخطار الطرف  األخر به كتابيا."
+    },
+    {
+      "content_id": "unparsed_949fff0071bb5fb51c38",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_d7fe070b1aacc2465ad4",
+        "normalized_end": 1430,
+        "normalized_start": 6,
+        "raw_end": 1430,
+        "raw_start": 6,
+        "source_id": "src_9f642ef4cbe5d7505a0e",
+        "text_sha256": "ca65436a03222928f7fbd7ccb3ad5d7802ab77c4520a4ccde51679519b743489"
+      },
+      "text": "الصفحة 8  من8 \n \n \n \n \n مادة(21) \n تسري أحكام قانون عالقاتالعمل  رقم ( 21 )   لسنة1222 م والئحته التنفيذية، وقانون الضمان االجتماعي \nرقم (20  ) لسنة2982  ميالدي وتعديالته، وقانون األمن الصناعيوالسالمة املهنية رقم ( 90 )  لسنة2976 ميالدي \nوالقرارات واللوائح الصادرة تنفيذً ا له  ، والئحيت النظام األساسي  للعمل والسالمة املهنية اخلاصة بالطرف األول و \nاملعتمدة من اجلهة املختصة    ، وقانون  التأمني الصحي  رقم (12  ) لسنة1222 م والئحته التنفيذية، ما مل ينص \nعلى خالف ذلك صراحة يف هذا العقد . \nمادة (21) \nحرر هذا العقد باللغة العربية من ثالث نسخ، تسلم لكل طرف نسخة   بعد التصديق عليها من اجلهة املختصة \nوحتفظ النسخة  الثالثة مبكتب العمل والتأهيل املختص، وجلميع هذه النسخ نفس القوة القانونية، وال يعترب \nهذا العقد نافذً اً يف حق الطرف األخر إال بعد تصديقه من اجلهة املختصة.  \n \n \n \nالتوقيعات  \n           الطرف األول                                   الطرف الثاني \n       االسم:ـ............................                                            االسم:ـ............................  \n      الصفة:ـ.......................... .                        التوقيع:ـ........................... \n     التوقيع:ـ...........................                        البصمة :ـ......................... \n     اخلتم :- ............................. \nتصديق اجلهة املختصة بوزارة العمل والتأهيل  \nاالسم:.......................... ..............  \nالصفة:.......................................  \nالتوقيع:........................................"
+    }
+  ],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

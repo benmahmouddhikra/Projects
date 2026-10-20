@@ -1,0 +1,193 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_348d0661a4bd58f687a3",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "completed_contract",
+    "initial_document_kind": "completed_contract",
+    "languages": [
+      {
+        "basis": "script_detection",
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_add97bd5f267c0a53380",
+            "normalized_end": 676,
+            "normalized_start": 0,
+            "raw_end": 676,
+            "raw_start": 0,
+            "source_id": "src_2c7d515ad5796238fd5a",
+            "text_sha256": "6d68d9211dfaacec177e9789258285bacf8bd613b6049b8f2ef61ed33b1fbd29"
+          }
+        ],
+        "tag": "ar"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "completed",
+    "title": "إنه فـي يوم:                                   الموافق:       /        /",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_add97bd5f267c0a53380",
+        "normalized_end": 72,
+        "normalized_start": 0,
+        "raw_end": 72,
+        "raw_start": 0,
+        "source_id": "src_2c7d515ad5796238fd5a",
+        "text_sha256": "45f71425fa7a7cf9a983be587d95af7c781677630d025769052e7906bcbc94c7"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "completed_contract_heuristic_requires_review",
+        "message": "Contract-like filename without detected square-bracket placeholders was initially classified completed and requires human confirmation.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      },
+      {
+        "code": "no_sections_confirmed",
+        "message": "No section boundaries were confirmed; meaningful text remains in unparsed_source_content.",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "required",
+    "structure_review_status": "pending",
+    "training_eligibility": "review_required"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [],
+  "source_files": [
+    {
+      "extracted_text_sha256": "8dbacd8d4bbec90228fecb16dd8d9230ee66abc9aa69a66c58fe678d9faad5e9",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 5,
+      "relative_path": "templates/Oman/نموذج عقد عمل رسمي من وزارة العمل العمانية.pdf",
+      "sha256": "7575a8752f47405dcce6b16f5c6dc2a92a27da91da95afd509209850dba9fb3c",
+      "size_bytes": 160375,
+      "source_id": "src_2c7d515ad5796238fd5a"
+    }
+  ],
+  "template_id": "tpl_4038901777245e748631",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_f82c13d1b4ae5703b6db",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_add97bd5f267c0a53380",
+        "normalized_end": 676,
+        "normalized_start": 0,
+        "raw_end": 676,
+        "raw_start": 0,
+        "source_id": "src_2c7d515ad5796238fd5a",
+        "text_sha256": "6d68d9211dfaacec177e9789258285bacf8bd613b6049b8f2ef61ed33b1fbd29"
+      },
+      "text": "إنه فـي يوم:                                   الموافق:       /        /   \nتم االتفاق بين:  \nوزارة ................................................. نيابــة عـن حكومـة سلطنة عمان   \nويمثلها ...................................................                     (  طرف أول )  \nوبين ............................... .............................                  (طرف ثان)  \nعلى ما يأتي:  \nبنــــد (1 ) \n  تعيين الطرف الثاني فـي وظيفة .................... معادلة للدرجة ........... براتب كامل\nقدره ..................... لاير يصرف فـي نهاية كل شهر ميالدي، مفصال على النحو  \nاآلتي:  \nالراتـــــــــــــــــب:  \nبدل السكـن:  \nبدل الكهرباء:  \nبـــــــدل المــــــ اء:  \nبدل الهاتف:"
+    },
+    {
+      "content_id": "unparsed_3bbf2219f4bf2f342bb1",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_add97bd5f267c0a53380",
+        "normalized_end": 804,
+        "normalized_start": 1,
+        "raw_end": 804,
+        "raw_start": 1,
+        "source_id": "src_2c7d515ad5796238fd5a",
+        "text_sha256": "81c34bbadde2320c594f689c768224b680885d5b70d0c5e2ca94f77fb0133cc4"
+      },
+      "text": ":بدل االنتقال \nبدل طبيعة عمل (إن وجد):   \nعالوة غالء المعيشة:  \nبنــــد (2 ) \n   يبدأ هذا العقد من     /      /           م، ولمدة ................. ما لم ينته قبل ذلك ألي\nسبب من األسباب الواردة فـي النظام الوظيفـي الذي يخضع له الطرف الثاني.  \nبنــــد (3 ) \n  إذا لــم يخطـــر أحـــد الطرفـين الطرف اآلخر بعدم رغبته فـي تمديد هذا العقد قبل انتهائه\nبــ (2 .) شهرين على األقل اعتبر العقد مجددا تلقائيا لمدة ........... أخرى \nبنــــد (4 ) \n يجوز لكل من الطرفـين إنهاء هذا العقد قبل نهاية السنة التعاقدية بغير إبداء األسباب بشرط   \nإخطار الطرف اآلخر بذلك قبل اإلنهاء بمدة ال تقل عن ( 3  )   ثالثة أشهر يبقى خاللها\nالطرف الثاني فـي الخدمة. \nوللطرف األول التنازل عن الحق فـي استمــرار الطــرف الثانــي فـي العمل بعد اإلخطار  \nأو فـي استمراره حتى نهاية كامل المــدة المشـــار إليها - إذا استدعـــت الظروف ذلك -"
+    },
+    {
+      "content_id": "unparsed_6ca1f1b04aa5bd0c571c",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_add97bd5f267c0a53380",
+        "normalized_end": 752,
+        "normalized_start": 1,
+        "raw_end": 752,
+        "raw_start": 1,
+        "source_id": "src_2c7d515ad5796238fd5a",
+        "text_sha256": "3bb84480ed69aa8bd8bbdb55a70815e367347d63289e115fa852208962bf412a"
+      },
+      "text": "شريطة أال يتعارض ذلك مع مصلحة العمل، على أن تحسب هذه المدة كاملة ضمن مدة\nالخدمة الفعلية للطرف الثاني.  \nبنــــد (5 ) \n  يستحق الطرف الثاني عالوة دورية فـي أول يناير من كل عام بالفئة المقررة للدرجة\nالمعادلة لمخصصاته المالية، شريطة أن تكون قد مضت ( 6   ) ستة أشهر على األقل من\nتاريخ التعاقد معه.  \nويحرم من العالوة الدورية من قدم عنه تقرير أداء وظيفـي بمرتبة \"ضعيف\" فـي السنة \nالتالية لتلك المقدم عنها التقرير.  \nبنــــد (6 ) \n ( يستحق الطرف الثاني إجازة اعتيادية بالراتب المحدد وفقا للبند1 ) من هذا  العقد، وللمدد  \nالمحددة وفقا للنظام  الوظيفـي الذي يخضع له. \nبنــــد (7 ) \n   يستحق الطرف الثاني بدل السفر لمهمة رسمية داخل سلطنة عمان أو خارجها،  وتذاكر\nالسفر فـي حالة تكليفه بالفئات وفـي الحدود المبينة فـي النظام الوظيفـي الذي يخضع له.  \nبنــــد (8 )"
+    },
+    {
+      "content_id": "unparsed_eb5bb145d1745200ffb5",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_add97bd5f267c0a53380",
+        "normalized_end": 977,
+        "normalized_start": 1,
+        "raw_end": 977,
+        "raw_start": 1,
+        "source_id": "src_2c7d515ad5796238fd5a",
+        "text_sha256": "273618812bfe4189ac0b8ccdce43cf88e2b1ed40e2996fd5b2c6fcfbf6ec4365"
+      },
+      "text": "يستحق الطرف الثاني عند انتهاء خدمته منحة عن مدة تعاقده تحسب وفقا  للنظام الوظيفـي   \nالذي يخضع له. \nبنــــد (9 ) \n  يخضع الطرف الثاني ألحكام قانون معاشات ومكافآت ما بعد الخدمة لموظفـي الحكومــة\nالعمانيــين الصـــادر بالمرســـوم السلطانـــي رقـــم  26 /86  ، أو أي قانــــون أو نظامآخر   \nيخضع له.  \nبنــــد (10 ) \n إذا أنهي العقد من قبل أي من طرفـيــه، واقتضـــت الظـــروف عـــدم استمــرار الطرف\nالثاني فـي العمل للمدة المنصوص عليها فـي البند (4   ) من هذا العقد، تتم تسوية الحقوق\nالمالية للطرف الثاني، على النحو اآلتي:  \nأ - إذا تنازل الطرف األول عن التمسك باستمرار الطرف الثاني فـي العمل حتى نهاية  \nالمدة المشار إليها، حسبت هذه المدة ضمن مدة الخدمة الفعلية للطرف الثاني ويتقاضى  \nالطرف الثاني -  وفقــا لذلـــك - جميـــع مستحقاته المالية عنها بما فـي ذلك منحة نهاية  \nالخدمة المستحقة وفقا للبند ( 8 ) من هذا العقد. \nب - إذا لم يتنازل الطرف األول عن الحق فـي استمرار الموظف فـي العمل حتى نهاية  \nالمدة المشار إليها لم تحسب المدة المذكورة ضمن مدة الخدمة الفعلية للطرف الثاني،"
+    },
+    {
+      "content_id": "unparsed_b1fea9e617e7bca6bf77",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_add97bd5f267c0a53380",
+        "normalized_end": 510,
+        "normalized_start": 2,
+        "raw_end": 510,
+        "raw_start": 2,
+        "source_id": "src_2c7d515ad5796238fd5a",
+        "text_sha256": "b1603089a21c4c35cec4e07db06abd2965d7bc2a9ac560f51861207fc2cd168f"
+      },
+      "text": "ويتقاضى الطرف الثاني- وفقا لذلك - مستحقاتـــه الماليــة حتــى تاريخ آخر يوم باشر فـيه \nالعمل بما فـي ذلك منحة نهايــة الخدمة المستحقة وفقا للبند ( 8  .) من هذا العقد \nبند (11) \n  فـيما لم يرد به نص فـي هذا العقد، يخضع الطرف الثاني فـي أثناء مدة سريان العقد\nألحكام أي قانون أو نظام وظيفـي آخر يخضع له، وما تقرره الحكومة من وقت آلخر فـي  \nشأن الموظفـين بصفة عا مة، وله كافة الحقوق وعليه جميع الواجبات المنصوص عليها \nفـيها. \n \nتوقيع الطرف األول                                                 توقيع الطرف الثاني"
+    }
+  ],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

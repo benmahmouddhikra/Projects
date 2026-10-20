@@ -1,0 +1,79 @@
+{
+  "artifact_key": "src_56bda4e26097b86e41f4",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_56bda4e26097b86e41f4/canonical.json",
+    "extraction": "artifacts/pilot/src_56bda4e26097b86e41f4/extraction.json",
+    "review": "artifacts/review-queue/review_d20f939d5c4b1f117b26.json",
+    "validation": "artifacts/pilot/src_56bda4e26097b86e41f4/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.354698Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "completed_contract",
+  "required_reviews": [
+    "classification",
+    "extraction",
+    "legal",
+    "privacy",
+    "sanitization",
+    "structure"
+  ],
+  "review_coverage": "full",
+  "review_record_id": "review_d20f939d5c4b1f117b26",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/Oman/684880140-Work-Contract-example-oman.pdf",
+      "sha256": "dc9f15a13277a1b07ff4524f99d2c2e538019044b5f9194834f9522566d91bdc",
+      "source_id": "src_56bda4e26097b86e41f4"
+    }
+  ],
+  "template_id": "tpl_aa16975f11e8463f00d2",
+  "training_eligibility": "review_required",
+  "updated_at": "2026-08-12T14:00:38.354698Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:00:38.354698Z",
+    "errors": [],
+    "valid": true
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "artifact_key": "src_39b8ecbf870e189c9bd1",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_39b8ecbf870e189c9bd1/canonical.json",
+    "extraction": "artifacts/pilot/src_39b8ecbf870e189c9bd1/extraction.json",
+    "review": "artifacts/review-queue/review_04498f526d10e6cd6dbc.json",
+    "validation": "artifacts/pilot/src_39b8ecbf870e189c9bd1/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.137593Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "completed_contract",
+  "required_reviews": [
+    "classification",
+    "extraction",
+    "legal",
+    "privacy",
+    "sanitization",
+    "structure"
+  ],
+  "review_coverage": "full",
+  "review_record_id": "review_04498f526d10e6cd6dbc",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/Iraq/نموذج-عقد-ايجار.docx",
+      "sha256": "6f30e4f161e4002429a6d876346bcddffce4dd711ce59b4ca9ab4260a91ddc31",
+      "source_id": "src_39b8ecbf870e189c9bd1"
+    }
+  ],
+  "template_id": "tpl_ffe77f7d179992b39e00",
+  "training_eligibility": "review_required",
+  "updated_at": "2026-08-12T14:00:38.137593Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:00:38.137593Z",
+    "errors": [],
+    "valid": true
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "artifact_key": "src_27d0c7e38fbba1957faa",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_27d0c7e38fbba1957faa/canonical.json",
+    "extraction": "artifacts/pilot/src_27d0c7e38fbba1957faa/extraction.json",
+    "review": "artifacts/review-queue/review_a323674a3618993f6424.json",
+    "validation": "artifacts/pilot/src_27d0c7e38fbba1957faa/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.175643Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "contract_template",
+  "required_reviews": [
+    "classification",
+    "extraction",
+    "legal",
+    "structure"
+  ],
+  "review_coverage": "full",
+  "review_record_id": "review_a323674a3618993f6424",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/kenya/Agricultural Worker Employment Contract.pdf",
+      "sha256": "2a12d704f678eeb5e0be4821961719a912a7edc58ed4a5a57cdbe75dd90c2cc0",
+      "source_id": "src_27d0c7e38fbba1957faa"
+    }
+  ],
+  "template_id": "tpl_69a7a9ff26aa41115938",
+  "training_eligibility": "review_required",
+  "updated_at": "2026-08-12T14:00:38.175643Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:00:38.175643Z",
+    "errors": [],
+    "valid": true
+  }
+}

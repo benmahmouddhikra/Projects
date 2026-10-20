@@ -1,0 +1,183 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_de8926dc67ca671d3c96",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "unknown",
+    "initial_document_kind": "unknown",
+    "languages": [
+      {
+        "basis": "script_detection",
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_2424839c9b070921c5e0",
+            "normalized_end": 209,
+            "normalized_start": 4,
+            "raw_end": 209,
+            "raw_start": 4,
+            "source_id": "src_ca6f93ed4b4d01759a98",
+            "text_sha256": "9f6946350c1fef975695e405168c44d65cf0f9e91464788cdf463a90bce9e27e"
+          }
+        ],
+        "tag": "ar"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "unknown",
+    "title": "الصفحة 1  من4",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_2424839c9b070921c5e0",
+        "normalized_end": 17,
+        "normalized_start": 4,
+        "raw_end": 17,
+        "raw_start": 4,
+        "source_id": "src_ca6f93ed4b4d01759a98",
+        "text_sha256": "fc5a187210cc84011778e0fe067c49128a5159fff3f18f4e8f7b40cf0be29807"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "document_kind_unresolved",
+        "message": "Deterministic filename rules did not resolve document kind.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      },
+      {
+        "code": "no_sections_confirmed",
+        "message": "No section boundaries were confirmed; meaningful text remains in unparsed_source_content.",
+        "severity": "warning"
+      },
+      {
+        "code": "ambiguity_023_non_contract_destination",
+        "message": "AMBIGUITY-023: the non-contract knowledge-base/training destination is unresolved.",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "not_required",
+    "structure_review_status": "pending",
+    "training_eligibility": "excluded"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [],
+  "source_files": [
+    {
+      "extracted_text_sha256": "8f8617b0a251c504f9d49c032ffc88eab6b4493ff6ab8b462594ebd30ffab9ca",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 4,
+      "relative_path": "templates/Libya/ن-7.pdf",
+      "sha256": "0a7ad81ac81adb583c1d454d6f4e3e454233af8a961c46fa599d1e118db7d047",
+      "size_bytes": 430105,
+      "source_id": "src_ca6f93ed4b4d01759a98"
+    }
+  ],
+  "template_id": "tpl_4d7829b94e2e3d784b62",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_c7781904a38dabc27ef7",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_2424839c9b070921c5e0",
+        "normalized_end": 209,
+        "normalized_start": 4,
+        "raw_end": 209,
+        "raw_start": 4,
+        "source_id": "src_ca6f93ed4b4d01759a98",
+        "text_sha256": "9f6946350c1fef975695e405168c44d65cf0f9e91464788cdf463a90bce9e27e"
+      },
+      "text": "الصفحة 1  من4  \n \n ( منوذج رقم7/0202) \n  \n \n \n \nدولة ليبيا \nوزارة العمل والتأهيل \n \n \nاسم جهة العمل \n......................................... \nجتيدديد  عقيد استخيدام وطين  \n \n \n \n \nالرقــــــم الوطنـــــي"
+    },
+    {
+      "content_id": "unparsed_c8b540b6308e28973bd1",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_2424839c9b070921c5e0",
+        "normalized_end": 1781,
+        "normalized_start": 4,
+        "raw_end": 1781,
+        "raw_start": 4,
+        "source_id": "src_ca6f93ed4b4d01759a98",
+        "text_sha256": "c9e7753e2b9323cffa9128beee09b71e9aaf1b1c7dde7d01dd1e7a8785e6d2cd"
+      },
+      "text": "الصفحة 2  من4  \n \n ( منوذج رقم7/0202) \n  \n \n \nإنه يف  دوم ................املوافق .../.../.........ميالدي \nوتطبيقاً ألحكام قانون عالقات العمل  الصادر بالقانون رقم (20)  لسنة0222 ميالدي والئحته التنفيذدة \nأبرم هذا العقيد بني كلً من: ـ \nالطرف األول: \n............................................................................. \nوميثله السييد: .......................... ..............  صفته: ................................. ..... \nجنسيتـــــ ه: ....................................... .... عنوانه: ..................................... \nالطرف الثاني: \n  \nاالسم األول  \n اسم األب \n اسم اجليد  \n اللقب  \n  \nتاردخ امليالد اجلنس احلالة االجتماعية اجلنسية \n    /  /     ميالدي ذكر             أنثى أعزب                متزوج  \n \nبطاقة  / رخصة قيادة                                                                                             جهة وتاردخ اإلصيدار \nالرقـــم الوطنـــــــــي \n   اسم املصرف/الفرع  \n \nرقم ورقة العائلة:............................ رقم القييد:......................... فصيلة اليدم:.................................. \nاملؤهل العلمي:............................................ التخصص:...................................................................  \nالبليددة:........................... امليددنة..........................مكان اإلقامة اليدائم........................................  \nهاتف السكن:.............................نقال2 :...............................نقال0 ..............................................: \n........................الربديد اإللكرتوني.................................................................................................  \nاسم اقرب األقارب.............................................................................................................................              \nرقم احلساب                \nصورة شخصية"
+    },
+    {
+      "content_id": "unparsed_4271a046edcbf605d3b5",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_2424839c9b070921c5e0",
+        "normalized_end": 1276,
+        "normalized_start": 4,
+        "raw_end": 1276,
+        "raw_start": 4,
+        "source_id": "src_ca6f93ed4b4d01759a98",
+        "text_sha256": "f4aa92252d6786767235be8704815ee6ebb80a4a23822e662316f7c359ff9846"
+      },
+      "text": "الصفحة 3  من4  \n \n ( منوذج رقم7/0202) \n \n \n \n \nمتهييد \nبناءً على رغبة الطرفني اليت اجتهت إىل جتيدديد العقيد السابق املربم بينهما والذي انتهى العمل به بتاردخ ..... / .. / ... 02  ميالدي\nفقيد اتفق الطرفان على ما دلي: ـــــ \n \nمادة (1) \nدُعْتبــــــــــــــرُ  التمهيــيد الســـــابــق جــــــــــزءاً ال دتجـــــــــــــــــزأ مـــــــــــــــــــن  هذا العقـــــــــيد. \nمادة (2) \n دتم جتيدديد عقيد االستخيدام السابق املوقع بني الطرفني على مهنة / عمل(........ ..................................................)  \nلفرتة تعاقيددة ميدتها.................. ............. تبيدأ دــــوم............................املوافق.../.../........ميالدي  \n                                                                                     وتنتهي دـوم......................املوافق.../.../........ ......ميالدي  \nمادة (3) \nدُحْذفُ  البنيد املتعلق  بـفرتة  االختبار، ودُعيدَّلُ البنيد املتعلق باملقابل املالي للعقيد على النحو التالي بيانه، وتبقى باقي  بنود العقيد  \nالسابق على حاهلا (ودعترب مكمِّالً هلذا العقيد).  \nمادة (4) \nديدفع الطرف األول للطرف الثاني أجراً شهرداً قيدره  (............................) ددناراً ليبياً  وذلك اعتباراً من تاردخ التجيدديد، مضافاً إليه  \n(العالوات واملزادا) وخيضع األجر لكافة االستقطاعات القانونية وفقاً للتشردعات النافيدة.  \n \n \n \nالرقــــــم الوطنـــــي"
+    },
+    {
+      "content_id": "unparsed_bdf28e45505eb7886a5f",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_2424839c9b070921c5e0",
+        "normalized_end": 995,
+        "normalized_start": 4,
+        "raw_end": 995,
+        "raw_start": 4,
+        "source_id": "src_ca6f93ed4b4d01759a98",
+        "text_sha256": "b3cfd3466f30afca18cf2254ac8944a87eae8fbba70d0233773afad85bc2d41d"
+      },
+      "text": "الصفحة 4  من4  \n \n ( منوذج رقم7/0202) \n \n \n \n \n مادة(5) \n حرر هذا العقيد باللغةالعربية من  ثالث نسخ، تسلم نسختان منه بعيد التصيددق عليها للطرف األول على أن دسلم  \nنسخة منه ما للطرف الثاني، وحتفظ نسخة مبكتب العمل والتأهيل املختص، وجلميع هذه النسخ نفس القوة  \nالقانونية، وال دعترب هذا العقيد نافذاً يف حق الطرف الثاني إال بعيد تصيددقه من اجلهة املخ تصة.  \n \n \n \n \n \n                             الطرف األول                                   الطرف الثاني \n             االسم:ـ............................                             االسم:ـ............................  \n            الصفة:ـ..........................               التوقيع:ـ.......................... \n           التوقيع:ـ...........................              البصمة :ـ........................ \n \n \nتصيددق اجلهة املختصة وزارة العمل والتأهيل \n االسم  :........................................  \nالصفة  :.......................................  \nالتوقيع :........................................  \n \n \n \nالرقــــــم الوطنـــــي"
+    }
+  ],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "artifact_key": "src_9f642ef4cbe5d7505a0e",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_9f642ef4cbe5d7505a0e/canonical.json",
+    "extraction": "artifacts/pilot/src_9f642ef4cbe5d7505a0e/extraction.json",
+    "review": "artifacts/review-queue/review_f3f60772aad89243b803.json",
+    "validation": "artifacts/pilot/src_9f642ef4cbe5d7505a0e/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.279553Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "completed_contract",
+  "required_reviews": [
+    "classification",
+    "extraction",
+    "legal",
+    "privacy",
+    "sanitization",
+    "structure"
+  ],
+  "review_coverage": "full",
+  "review_record_id": "review_f3f60772aad89243b803",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/Libya/عقد-العنصر-الوطني-بعد-التعديل-النهائي-8-2.pdf",
+      "sha256": "f199cd36fcd337ae9d4e99ae2a369b41eac33c98ce95b5537f9c65b3e2b9466d",
+      "source_id": "src_9f642ef4cbe5d7505a0e"
+    }
+  ],
+  "template_id": "tpl_b1a6d9602217a6dc3dbc",
+  "training_eligibility": "review_required",
+  "updated_at": "2026-08-12T14:00:38.279553Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:00:38.279553Z",
+    "errors": [],
+    "valid": true
+  }
+}

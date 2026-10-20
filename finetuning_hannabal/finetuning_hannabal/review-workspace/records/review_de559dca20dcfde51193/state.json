@@ -1,0 +1,74 @@
+{
+  "artifact_key": "src_451d09939a84037bac59",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_451d09939a84037bac59/canonical.json",
+    "extraction": "artifacts/pilot/src_451d09939a84037bac59/extraction.json",
+    "review": "artifacts/review-queue/review_de559dca20dcfde51193.json",
+    "validation": "artifacts/pilot/src_451d09939a84037bac59/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:37.767077Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "unknown",
+  "required_reviews": [
+    "classification"
+  ],
+  "review_coverage": "classification_only",
+  "review_record_id": "review_de559dca20dcfde51193",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/Arabic_example/اقرار بقبض باقى الثمن.doc",
+      "sha256": "f70782ede280c39353c3abc043d0d6c61db41eff2aec8fb61c8048c5a3ca7cbf",
+      "source_id": "src_451d09939a84037bac59"
+    }
+  ],
+  "template_id": "tpl_0cd658bc32029b320b3f",
+  "training_eligibility": "review_required",
+  "updated_at": "2026-08-12T14:00:37.767077Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:00:37.767077Z",
+    "errors": [],
+    "valid": true
+  }
+}

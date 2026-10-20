@@ -1,0 +1,899 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_06512b63ced8a561bc79",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "completed_contract",
+    "initial_document_kind": "completed_contract",
+    "languages": [
+      {
+        "basis": "script_detection",
+        "confidence": 0.9938,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_9a4037404907422120cc",
+            "normalized_end": 1929,
+            "normalized_start": 1,
+            "raw_end": 1929,
+            "raw_start": 1,
+            "source_id": "src_0d67937c474a4ffdb282",
+            "text_sha256": "04205df88a9f92920f74615055fe760dcc0c95507f5399b03bbcbe693f19d5d4"
+          }
+        ],
+        "tag": "ar"
+      },
+      {
+        "basis": "deterministic_text_heuristic",
+        "confidence": 0.0909,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_9a4037404907422120cc",
+            "normalized_end": 1929,
+            "normalized_start": 1,
+            "raw_end": 1929,
+            "raw_start": 1,
+            "source_id": "src_0d67937c474a4ffdb282",
+            "text_sha256": "04205df88a9f92920f74615055fe760dcc0c95507f5399b03bbcbe693f19d5d4"
+          }
+        ],
+        "tag": "und-Latn"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "completed",
+    "title": "عقـد كـراء",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 11,
+        "normalized_start": 1,
+        "raw_end": 11,
+        "raw_start": 1,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "f548b1ca23a4f84950ded6b81db5734e1722a69393a6eb15b0f14be97d50497a"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "completed_contract_heuristic_requires_review",
+        "message": "Contract-like filename without detected square-bracket placeholders was initially classified completed and requires human confirmation.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "required",
+    "structure_review_status": "pending",
+    "training_eligibility": "review_required"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_fda0e23904fd394f7a42",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1 / 7",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_9a4037404907422120cc",
+            "normalized_end": 1929,
+            "normalized_start": 24,
+            "raw_end": 1929,
+            "raw_start": 24,
+            "source_id": "src_0d67937c474a4ffdb282",
+            "text_sha256": "df17c5c26a880f9178f9fbe14d0534d9a1ad10e19ad16411dc1b10c87958a5b5"
+          },
+          "text": "عقـد كـراءرقم:  \n  \n \n مديرية أمﻼك الدولة  \n \nمندوبية فاس \n  \n \n  \n \n   \nملك الدولة عدد :  \n    \nملف اﻷكرية عدد : \n     \nبين :  \nالدولة )الملك الخاص( ممثلة في شخص مدير أمﻼك الدولة الجاعل محل المخابرة معه في شأن هذا العقد بمندوبية أمﻼك الدولة \nبـفاس، \n \nمن جهة،     \n    \nو بين :  \nشركة …………مقيدة بالسجل التجاري تحت  عدد .....، ممثلة من طرف ............ بصفته مسير الشركة الحامل لبطاقة \nالتعريف الوطنية ........لجاعل محل المخابرة معه .................. \nمن جهة أخرى  \nبناء علﻰ طلب ابداء انجاز مشاريع «Appel à Projets» لوحدات صناعية فوق قطع أرضية مكونة للوعاء العقاري المسمﻰ \nكوطيف سابقا والذي حدد شروط البقع المذكورة.  \nبناء علﻰ محضر اللجنة الجهوية الموحدة لﻼستثمار بتاريخ ...... بخصوص اسناد مختلف القطع اﻷرضية المذكورة أعﻼه \nومتابعة شروط اﻹنجاز الملتزم بها.  \n \n     \n• وبناء علﻰ مقرر ولي جهة فاس- مكناس عدد .........، المرخص بالكراء بالتراضي لقطعة أرضية من ملك الدولة الخاص \nكائنة بحي سيدي ابراهيم جماعة فاس.  \n  \n  \n  \n \n  \nوقع اﻻتفاق وتقرر ما يلي :  \n    \nالمـادة اﻷولى: \nتكري الدولة )الملك الخاص( بمقتضﻰ هذا العقد، لفائدة ............ مقيدة بالسجل التجاري تحت ....... في شخص ممثلها \nالقانوني ...............  بصفته مسيرا الشركة والكائن  محل المخابرة معه ........................... , قطعة أرضية حاملة لرقم \n...   بتصميم الوعاء العقاري  \"كوطيف\"مساحتها اﻻجمالية  ......... مترا مربعا، تابعة للملك المسجل تحت رقم  \n............بكناش محتويات أمﻼك الدولة الحضرية بهذه المدينة   تابع للرسم العقاري عدد  .......... ، الكائن  ب جماعة فاس \n،وقد رسمت حدود هذا العقار، عﻼوة علﻰ ذلك، بخط أحمر في  التصميم المرفق بهذا العقد. \n     \nالمـادة الثانية : \nينعقد هذا الكـراء الذي ﻻ يكتسي الصبغة الحكرية لمدة 15 سنة، تبتدئ من .......... وتنتهي في............. إن عملية الكـراء هاته \nﻻ تخول للمكتري أي حق في تمديد العقد أو اقتناء العقار المكرى عند نهاية الكـراء. وإذا ما طلب المكتري تمديد عقد الكـراء، فإن \nاﻻستجابة له يجب أن تخضع للمساطر واﻹجراءات الجاري بها العمل، علﻰ أن يتم تحديد الشروط التقنية والمالية لعملية التمديد",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1 / 7",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 21,
+        "normalized_start": 15,
+        "raw_end": 21,
+        "raw_start": 15,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "20e304ef9469943d510e6cbfbdf04c0c4f318bdc6a12e57bd7d0ec8b707f70f6"
+      },
+      "kind": "unclassified",
+      "order": 1,
+      "requirement_status": "unspecified",
+      "section_id": "sec_d4b044ffa8c38238d602",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 1929,
+        "normalized_start": 15,
+        "raw_end": 1929,
+        "raw_start": 15,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "936a9918b379cecdedd53d06b1ffdb7bdb01520fab49649794bd2fb4bc488898"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_5c34c812eef3f5cc54a0",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2 / 7",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_9a4037404907422120cc",
+            "normalized_end": 1153,
+            "normalized_start": 24,
+            "raw_end": 1153,
+            "raw_start": 24,
+            "source_id": "src_0d67937c474a4ffdb282",
+            "text_sha256": "5d952abf74b24dfaade53f6c6a66c035c19bc4fbcddfe3cac3630620b86f1eeb"
+          },
+          "text": "عقـد كـراءرقم:  \n  \n \n مديرية أمﻼك الدولة  \n \nمندوبية فاس \n  \n \n  \n \nفي عقد كـراء جديد، والكل مع ضرورة مراعاة تحقق شرطين أساسيين وهما أداء الوجيبة الكرائية بانتظام واﻻستمرارية في تشغيل  \nالمشروع من طرف المكتري.  \nغير أنه يمكن للمكتري أن يتقدم لدى اللجنة الجهوية الموحدة لﻼستثمار في أي وقت أثناء سريان مدة الكراء وبعد انجاز \nالمشروع بطلب تفويته العقار.  \n  \n  \n \n     \nالمـادة الثالثة : \nيتم الكراء علﻰ أساس وجيبة كرائية سنوية قدرها ............. درهما. تم أداء السنة اﻷولﻰ مسبقا لدى صندوق الخازن اﻻقليمي \nبفاس بواسطة الوصل عدد .......تاريخ ....... . \nفي شروط اﻹنجاز \nالمـادة الرابعة: \nيتعين علﻰ المكتري في ظرف ستة )6 (أشهر ا ﻻ في حالة حاجة المشروع الﻰ أجل إضافي ﻻستكمال المساطر الضرورية \nوخاصة دراسة التأثير علﻰ البيئة ابتداء من تاريخ إبرام عقد الكراء:   \n- أن يحصل علﻰ رخصة التجهيز و/أو البناء وأن يعلم مندوب أمﻼك الدولة بذلك؛  \n - أن يزود مندوب أمﻼك الدولة بالمعلومات الﻼزمة حول التجهيزات والبنايات المراد إنجازها، وخصوصا بتصاميم هذه \nاﻷخيرة، وكذا أن يضع سياجا للعقار المكرى. كما يجب عليه، في ظرف  شهر )1  ( واحد ابتداء من تاريخ الحصول علﻰ رخصة\nالتجهيز و/أو البناء أن يشرع في أشغال إنجاز المشروع أو يكون قد تزود بالمواد الﻼزمة.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2 / 7",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 21,
+        "normalized_start": 15,
+        "raw_end": 21,
+        "raw_start": 15,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "822fc58bfa54f94e843fbe7f5a2db5a7c663c7fa927f8c9f0a14214f0c8dbc9d"
+      },
+      "kind": "unclassified",
+      "order": 2,
+      "requirement_status": "unspecified",
+      "section_id": "sec_56719eb5bd03047fb9b0",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 1153,
+        "normalized_start": 15,
+        "raw_end": 1153,
+        "raw_start": 15,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "2782e9aa9c32432c156057f44301337a09c8549356cbeaeb83f518359f0752d4"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_ab11adb036cbfd990110",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "المادة الخامسة",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_9a4037404907422120cc",
+            "normalized_end": 1327,
+            "normalized_start": 1178,
+            "raw_end": 1327,
+            "raw_start": 1178,
+            "source_id": "src_0d67937c474a4ffdb282",
+            "text_sha256": "9c3e4938f71e9b134a441d8d5f95c6c0f4061eb17f3dd401743934b636c85812"
+          },
+          "text": "يجب علﻰ المكتري، داخل أجل سنة ابتداء من تاريخ الحصول علﻰ رخصة التجهيز و/أو البناء: - أن ينجز فوق العقار المكرى \nله المشروع:  \n  \n  \n \nمكونات المشروع:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "المادة الخامسة",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 1172,
+        "normalized_start": 1156,
+        "raw_end": 1172,
+        "raw_start": 1156,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "ce12597c56b3e8c2bc273125568cb624149ab23462860c9a99b28a3abb7e763d"
+      },
+      "kind": "unclassified",
+      "order": 3,
+      "requirement_status": "unspecified",
+      "section_id": "sec_363db87c1a56382428a3",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 1327,
+        "normalized_start": 1156,
+        "raw_end": 1327,
+        "raw_start": 1156,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "6b546f71ec8a49053b6f24b24ab65c99aed4745d66f1d8b785018ce27fcc2e45"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_117dd1fbf19d388cced2",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1 ....................  وتسدد هذه الوجيبة الكرائية بالنسبة للسنوات الﻼحقة علﻰ شكل أقساطسنوية  متساوية محددة في ........... درهما.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_9a4037404907422120cc",
+            "normalized_end": 1516,
+            "normalized_start": 1462,
+            "raw_end": 1516,
+            "raw_start": 1462,
+            "source_id": "src_0d67937c474a4ffdb282",
+            "text_sha256": "54390bc8dc0469fa6904c025864ff6a3e1370754329841b7a845420f8c7a22b5"
+          },
+          "text": "وتتم مراجعة السومة الكرائية بزيادة 10) ./. كل3.( سنوات",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1 ....................  وتسدد هذه الوجيبة الكرائية بالنسبة للسنوات الﻼحقة علﻰ شكل أقساطسنوية  متساوية محددة في ........... درهما.",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 1461,
+        "normalized_start": 1330,
+        "raw_end": 1461,
+        "raw_start": 1330,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "c917a5e70c414e5d842a28b99dac0de6ba15582d3286e9ef5a26ec348709f373"
+      },
+      "kind": "unclassified",
+      "order": 4,
+      "requirement_status": "unspecified",
+      "section_id": "sec_ab1d163291a7462b57d5",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 1516,
+        "normalized_start": 1330,
+        "raw_end": 1516,
+        "raw_start": 1330,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "6a08a339887be1809a46fedcf19f73562f62a52caca517467dbd31ef9ad23f74"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_00b2e0cd2ee1cfd18a13",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3 / 7",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_9a4037404907422120cc",
+            "normalized_end": 758,
+            "normalized_start": 24,
+            "raw_end": 758,
+            "raw_start": 24,
+            "source_id": "src_0d67937c474a4ffdb282",
+            "text_sha256": "be6e4a18b9a4f7656f35ac9a5cc076fb1432ba70f16c3c38448a1d388c241b31"
+          },
+          "text": "عقـد كـراءرقم:  \n  \n \n مديرية أمﻼك الدولة  \n \nمندوبية فاس \n  \n \n  \n \n  \n  \n- أن يلتزم بإنجاز مشروعه في إطار احداث وحدة جديدة او توسيع وحدته اﻷصلية بعدم ترحيل نشاطه اﻻولي بوحدته اﻻصلية \nوبخلق مناصب شغل جديدة للوحدة موضوع الكراء مع احترام مكونات المشروع المتعهد بها بطلب الكراء المصادق عليه من \nطرف اللجنة الجهوية الموحدة لﻼستثمار، كما أنه ﻻ يقبل أي تغيير لمكونات المشروع اﻷصلية وفي حال القوة القاهرة يتعين علﻰ  \nالمكتري عرض طلب التعديل علﻰ أنظار اللجنة الجهوية الموحدة لﻼستثمار.  \n- أن ينخرط في الجمعية المهنية المتعلقة بمنهيي المنطقة المسماة سابقا كوطيف Zone Ex Cotef   \n-   أن يلتزم بتوقيع وباحترام دفتر شروط اﻻستغﻼل « Cahier des charges d’exploitation » المتعلق بهاته العملية العقارية \nوالمصادقة علﻰ صحة التوقيع لدى السلطات المختصة.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3 / 7",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 21,
+        "normalized_start": 15,
+        "raw_end": 21,
+        "raw_start": 15,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "0d07cf74ff10d3ace6880a3cd782441cba47f547f384ba8b7d9aa1f7d1bdec32"
+      },
+      "kind": "unclassified",
+      "order": 5,
+      "requirement_status": "unspecified",
+      "section_id": "sec_55cf937d225b6906c475",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 758,
+        "normalized_start": 15,
+        "raw_end": 758,
+        "raw_start": 15,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "832b7ff0618989ff134a78808c4f92748247a61d3d65d247d297b48fa7a9eec5"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_aaf147d27cc14854a251",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "المادة السادسة:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_9a4037404907422120cc",
+            "normalized_end": 1910,
+            "normalized_start": 785,
+            "raw_end": 1910,
+            "raw_start": 785,
+            "source_id": "src_0d67937c474a4ffdb282",
+            "text_sha256": "c7ae9d6ac095563afd46e6b9cd7f04c4e628482fdead2aad43ce5cddc9d71af0"
+          },
+          "text": "تتكلف لجنة مصغرة منبثقة عن اللجنة الجهوية لﻼستثمار بمعاينة اﻹنجازات قصد مراقبة انجاز المشروع،ويمكن استدعاء \nأي عضو يكون حضوره مهما لسير اعمال هاته اللجنة.  \nويمكن استدعاء المكتري لحضور اشغال اللجنة وتقديم اﻹيضاحات الﻼزمة حول المشروع الذي التزم بانجازه،كما يتعين \nالسماح ﻷعضاء هاته اللجنة بزيارة العقار المكرى.  \nفي حال عدم احترام الشروط التعاقدية الملتزم بها، يتم عرض اﻷمر علﻰ انظار اللجنة الجهوية الموحدة لﻼستثمار ﻻتخاذ التدابير  \nالﻼزمة.  \nالمـادة السابعة:  \nعند انتهاء أجل اﻻنجاز المحدد في المادة الخامسة أعﻼه، تجتمع اللجنة المكلفة بمعاينة اﻻنجازات قصد مراقبة انجاز المشروع. \nوتتكون هذه اللجنة من:  \n ـ عامل اﻹقليم أو ممثله، رئيسا، ـ  \n مندوب أمﻼك الدولة، ـ   \nممثل السلطة المكلفة بالتعمير، ـ   \nممثل وزارة الصناعة والتجارة.  \nممثل المصلحة المحلية المكلفة بالتشغيل   \n ويتم استدعاء المكتري عن طريق السلطة المحلية لحضور أشغال اللجنة وتقديم اﻹيضاحات الﻼزمة حول المشروع الذي التزم \nبإنجازه، علﻰ أن عدم حضور هذا اﻷخير ﻻ يحول دون قيام اللجنة بمهمتها في هذا الشأن. تقوم اللجنة بمعاينة المشروع وتتأكد \nمن إنجازه أو عدم إنجازه وتقرر في محضر يعده مندوب أمﻼك الدولة اﻹجراءات الواجب \nاتخادها، علما بأن قرارات اللجنة غير قابلة ﻷي طعن.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "المادة السادسة:",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 784,
+        "normalized_start": 767,
+        "raw_end": 784,
+        "raw_start": 767,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "b4b10bb84a0f8c36c2ad59246cd2614e0a61a53abe70147665ef39a7908d5390"
+      },
+      "kind": "unclassified",
+      "order": 6,
+      "requirement_status": "unspecified",
+      "section_id": "sec_911c2223a9e6842bd6b2",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 1910,
+        "normalized_start": 767,
+        "raw_end": 1910,
+        "raw_start": 767,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "c5fdbe02ab2fc6ff4cfde95d8ea783a5ee12260fb64a1e21d4446b31a66aad5c"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_58009221e92b03a0ba93",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "المادة الثامنة:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_9a4037404907422120cc",
+            "normalized_end": 2039,
+            "normalized_start": 1931,
+            "raw_end": 2039,
+            "raw_start": 1931,
+            "source_id": "src_0d67937c474a4ffdb282",
+            "text_sha256": "b83f3be8935fbc28289c012d684bddd6febda553b526ef2a0c5e287cbc26516e"
+          },
+          "text": "إذا ﻻحظت اللجنة بأن المكتري قد أنجز المشروع الذي التزم به داخل اﻷجل المحدد تدون ذلك في محضر تعده لهذا الغرض.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "المادة الثامنة:",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 1930,
+        "normalized_start": 1913,
+        "raw_end": 1930,
+        "raw_start": 1913,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "295b35c959a4d74b15795ada5277d654772a528d9a16c43d48d647e18a80603f"
+      },
+      "kind": "unclassified",
+      "order": 7,
+      "requirement_status": "unspecified",
+      "section_id": "sec_640b233bbdc6a5be928d",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 2039,
+        "normalized_start": 1913,
+        "raw_end": 2039,
+        "raw_start": 1913,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "2b5e1af961fd2769dc328ebd75d4a958faf59fa80982ee8e8afcfd46e19570cf"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_d7542c809a832a6ff3b7",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4 / 7",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_9a4037404907422120cc",
+            "normalized_end": 2254,
+            "normalized_start": 24,
+            "raw_end": 2254,
+            "raw_start": 24,
+            "source_id": "src_0d67937c474a4ffdb282",
+            "text_sha256": "4e982e628caeb7382dd8c56f8801b7f93ccc8ca5f6d17a15139284ce6b864a96"
+          },
+          "text": "عقـد كـراءرقم:  \n  \n \n مديرية أمﻼك الدولة  \n \nمندوبية فاس \n  \n \n  \n \nالمـادة التاسعة:  \nيعتبر المكتري متوفرا علﻰ الوسائل المادية والتقنية الضرورية للتنفيذ التام لشروط اﻹنجاز المقررة في هذا العقد.  \nوعليه، يتعين عليه في كل اﻷحوال أن ينفذ التزاماته وأﻻ يطلب تمديدا لﻶجال المحددة ﻹنجاز المشروع المشار إليه في المادة 5 \n.أعﻼه فوق العقار المكرى  \nعلﻰ المكتري أن يعمل بنفسه وعلﻰ نفقته علﻰ ربط تجهيزاته وبناياته بقنوات الماء وشبكات التطهير والكهرباء ووسائل \nاﻻتصال.  \n \n \n  \nفي حالة عدم اﻹنجـــاز  \nالمـادة العاشرة: \nإذا تقاعس المكتري عن استكمال اﻹجراءات الموالية لعقد الكراء المنصوص عليها في المادة الرابعة أعﻼه، يطلب مندوب أمﻼك \nالدولة جمع اللجنة المكلفة بمعاينة اﻹنجازات مع استدعاء المكتري عن طريق السلطة المحلية لحضور أشغالها. وتقوم هاته \nاللجنة بدراسة الملف علﻰ ضوء اﻹيضاحات التي يمكن أن يقدمها المكتري وتمنحه أجﻼ إضافيا أقصاه ستة )6  ( أشهر للقيام\nباﻹجراءات المطلوبة. ويبلغ هذا القرار إلﻰ المكتري من طرف مندوب أمﻼك الدولة بواسطة رسالة مضمونة مع اﻹشعار \nبالتوصل. بعد انتهاء هذا اﻷجل اﻹضافي، تجتمع اللجنة من جديد. فإذا ﻻحظت أن المكتري قام باﻹجراءات المطلوبة تضمن ذلك \nفي المحضر المعد بالمناسبة. غير أنه إذا ما لم يقم المكتري بإتمام هذه اﻹجراءات والشروع في اﻷشغال مع العلم أن بناء سياج \nأو حفر اﻷساس ﻻ يعتبران بداية في اﻹنجاز، فإنها تقرر فسخ عقد الكراء ويتم تبليغ هذا القرار إلﻰ المكتري من طرف مندوب  \nأمﻼك الدولة. \nالمـادة الحادية عشر: \nإذا انتهﻰ اﻷجل الممنوح للمكتري من أجل إنجاز مشروعه دون أن يتمكن من إتمامه، فإن أجﻼ إضافيا ﻻ تتعدى مدته سنة واحدة \nيمكن أن يمنح له بناء علﻰ قرار لجنة معاينة اﻹنجازات. إﻻ أنه إذا كان سبب هذا التأخير في اﻹنجاز راجعا إلﻰ عوائق أو \nظروف خارجة عن إرادة المكتري بناء علﻰ تقييم لجنة معاينة اﻹنجازات، فإن اﻷجل اﻹضافي يمنح له وجوبا من طرف هاته \nاللجنة. ويتم تبليغ قرار اللجنة إلﻰ المكتري من طرف مندوب أمﻼك الدولة. بعد انصرام اﻷجل اﻹضافي، تقوم اللجنة مرة أخرى  \nبمعاينة اﻹنجاز فإذا تبين لها بأن المكتري نفذ التزاماته وشرع في مزاولة نشاطه تدون ذلك في محضر تعده بهذه المناسبة. أما \nإذا ﻻحظت اللجنة بأن المشروع لم يتم التقدم في إنجازه رغم اﻷجل اﻹضافي الممنوح فإنها تقرر فسخ عقد الكراء ويتم تبليغ هذا \nالقرار إلﻰ المكتري من طرف مندوب أمﻼك الدولة.  \n \n  \nفي الشروط العامة  \nالمـادة الثانية عشر: \nيلتزم المكتري، تحت طائلة فسخ الكراء، بتشغيل مشروعه بصفة مستمرة ودون انقطاع طيلة مدة هذا العقد. \nالمـادة الثالثة عشر:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4 / 7",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 21,
+        "normalized_start": 15,
+        "raw_end": 21,
+        "raw_start": 15,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "4537bda06a2ce14b3b947dfbd3973140637aa8bae77262a30b3ef9d4575ef0c6"
+      },
+      "kind": "unclassified",
+      "order": 8,
+      "requirement_status": "unspecified",
+      "section_id": "sec_ff956fa277a2ee3d7259",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 2254,
+        "normalized_start": 15,
+        "raw_end": 2254,
+        "raw_start": 15,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "ce332333fde18c0ba57b12f333a586c83db01ca6a094a1534eb1434ae759a678"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_cc773bd5e68c1ba55881",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5 / 7",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_9a4037404907422120cc",
+            "normalized_end": 1617,
+            "normalized_start": 24,
+            "raw_end": 1617,
+            "raw_start": 24,
+            "source_id": "src_0d67937c474a4ffdb282",
+            "text_sha256": "646cf31c7f2cd5de725b4be45d62e700ed1ce39393988306d1cad3410844dd08"
+          },
+          "text": "عقـد كـراءرقم:  \n  \n \n مديرية أمﻼك الدولة  \n \nمندوبية فاس \n  \n \n  \n \nإذا تأخر المكتري عن تسديد قسط واحد من السومة الكرائية عند حلول أجله وأصر علﻰ عدم اﻷداء بعد انصرام أجل شهر )1 (\n.واحد من تاريخ إنذاره بواسطة إشعار بإحدى الطرق القانونية، يتم فسخ عقد الكراء \nالمـادة الرابعة عشر: \nفي حالة فسخ العقد، يبقﻰ مبلغ الكراء الجاري مستحقا ويتعين علﻰ المكتري أداؤه فورا باﻹضافة إلﻰ ربع مبلغ الكراء السنوي \nكتعويض لﻺدارة عن الفسخ.  \n \nالمـادة الخامسة عشر: \nإذا تم فسخ العقد أو عند انتهاء مدته، يتعهد المكتري بإفراغ العقار المكرى في التاريخ المحدد تحت طائلة إلزامه بدفع غرامة عن \nكل يوم تأخير لﻺدارة قدرها 1 .% من قيمة الكراء السنوي  \n \nالمـادة السادسة عشر  : \n \nتؤول جميع التحسينات والبنايات واﻹصﻼحات المحدثة من طرف المكتري لفائدة الدولة بدون تعويض عند انتهاء العقد أو فسخه. \nالمـادة السابعة عشر: \nيصرح المكتري بمعرفته الجيدة للعقار المكرى من حيث محتوياته ومساحته وحدوده ويأخذه علﻰ الحالة التي يوجد عليها دون \nالمطالبة بأي ضمان أو تخفيض في الوجيبة الكرائية ﻷي سبب كان. \nالمـادة الثامنة عشر: \nيستفيد المكتري من اﻻرتفاقات اﻹيجابية ويتحمل اﻻرتفاقات السلبية، سواء الظاهرة منها أو الخفية سواء كانت مستمرة أم  \nمتقطعة، الكل تحت مسؤوليته دون إمكانية الرجوع علﻰ الدولة )الملك الخاص(. \nالمـادة التاسعة عشر: \nﻻ يمكن للمكتري أن يحمل الدولة أية مسؤولية بسبب وقوع حادث كيفما كان نوعه، قد تتسبب فيه معدات حربية أو متفجرات \nيمكن العثور عليها بالعقار المكرى له.  \n \nالمـادة العشرون: \nيلتزم المكتري بالسماح بأن تقتطع من العقار المكرى اﻷجزاء الضرورية لتنفيذ اﻷشغال العمومية وكل اﻷشغال ذات النفع العام \nالمـادة الواحدة وعشرون: \nيتعين علﻰ المكتري إشعار المالك دون تأخير بكل الوقائع التي تتطلب تدخله. \nالمـادة الثانية وعشرون:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5 / 7",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 21,
+        "normalized_start": 15,
+        "raw_end": 21,
+        "raw_start": 15,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "91460b24612574e64d0317d2aae99954908a9af770d93c44acbdca4a8ba00512"
+      },
+      "kind": "unclassified",
+      "order": 9,
+      "requirement_status": "unspecified",
+      "section_id": "sec_6e165ba39a223a7200c5",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 1617,
+        "normalized_start": 15,
+        "raw_end": 1617,
+        "raw_start": 15,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "0abf3e3c89028aa22b356bf0e0efeddb5f01d633a9bdb7885a57b1435e6f881f"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e3188098fefc725d34d2",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "6 / 7",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_9a4037404907422120cc",
+            "normalized_end": 301,
+            "normalized_start": 24,
+            "raw_end": 301,
+            "raw_start": 24,
+            "source_id": "src_0d67937c474a4ffdb282",
+            "text_sha256": "ec533310827c61140ac53013fb238213bad2544f043aa748c7dd372eb01b5eb0"
+          },
+          "text": "عقـد كـراءرقم:  \n  \n \n مديرية أمﻼك الدولة  \n \nمندوبية فاس \n  \n \n  \n \nالمـادة الثالثة والعشرون: \nطبقا للفصل 40  من ظهير24  ماي1955  المتعلق بعقود كراء اﻷمﻼك واﻷماكن المستعملة للتجارة أو الصناعة أو الحرف،\nتستثنﻰ من هذا اﻹيجار صراحة اﻹستفادة من الكراء لهدف تجاري أو صناعي أو حرفي.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "6 / 7",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 21,
+        "normalized_start": 15,
+        "raw_end": 21,
+        "raw_start": 15,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "c1ed175b8d86e2ac56b67cd842a6c03905cf70601b052dc7541cca458aa8e4e3"
+      },
+      "kind": "unclassified",
+      "order": 10,
+      "requirement_status": "unspecified",
+      "section_id": "sec_42de4644eb26db018a4e",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 301,
+        "normalized_start": 15,
+        "raw_end": 301,
+        "raw_start": 15,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "43792815eba2d26e99cf250a5a20d19fc666bf0336b9be7fdac8a04276cad0cb"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_15d9c35cf6cfea197cfc",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "المادة الرابعة والعشرون:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_9a4037404907422120cc",
+            "normalized_end": 1365,
+            "normalized_start": 329,
+            "raw_end": 1365,
+            "raw_start": 329,
+            "source_id": "src_0d67937c474a4ffdb282",
+            "text_sha256": "878c060459d3e92a65588ccc38914292979ac6300f2f148dba63163bd2fd7fd3"
+          },
+          "text": "في حالة وقوع تعد أو ترام من قبل الجوار، ﻻ يجوز للمكتري الرجوع علﻰ الدولة )الملك الخاص( أو مطالبتها بالضمان ويبقﻰ \nله الحق في اللجوء إلﻰ المحاكم المختصة من أجل رفع الضرر إن ارتأى ذلك مع إخبار مندوب أمﻼك الدولة في جميع اﻷحوال. \nالمـادة الخامسة والعشرون: \nيجب علﻰ المكتري أﻻ يعترض علﻰ تفقد العقار المكرى من طرف أعضاء اللجنة المكلفة بمعاينة اﻹنجازات أثناء مدة العقد \nللوقوف علﻰ حالته. \nالمـادة السادسة والعشرون: \nيتعهد المكتري بالخضوع لكل القوانين واﻷنظمة اﻹدارية العامة والمحلية الجاري بها العمل حاليا والتي ستحدث مستقبﻼ وخاصة \nضوابط ونظام تجهيزات الطرق ومجاري المياه. \n يمنع علﻰ المكتري تحت طائلة فسخ عقد الكراء:   \n- أن يستعمل العقار المكرى لغير الغرض المحدد في المادة الخامسة أعﻼه؛  \n - أن يقوم، طيلة مدة العقد، بتفويت أو تولية الكراء أو إكراء من الباطن أو رهن كﻼ أو جزءا من العقار المكرى له لفائدة الغير؛ \n- أن يقوم بتفويت المشروع أو تقليص حصته في رأسمال شركة المشروع إلﻰ أقل من 51 % قبل إنهاء أشغال إنجاز المشروع  \nوتشغيله ومعاينة ذلك من طرف اللجنة المكلفة بمعاينة اﻹنجازات، عدا وجود مقتضيات مخالفة أو موافقة صريحة ومكتوبة من \nاﻹدارة.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "المادة الرابعة والعشرون:",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 328,
+        "normalized_start": 303,
+        "raw_end": 328,
+        "raw_start": 303,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "8e2f9fee7774c036e675dca783a8383dba9c71b74a7fb5ce1ca2534a09fe2863"
+      },
+      "kind": "unclassified",
+      "order": 11,
+      "requirement_status": "unspecified",
+      "section_id": "sec_8b9aacc3b746b9a8609d",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 1365,
+        "normalized_start": 303,
+        "raw_end": 1365,
+        "raw_start": 303,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "a5254540b543de9872971ba801ed81b70b8ef45030df8da946d5057dc9388ea2"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_7c1e3efc60ad25eb7c17",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "المادة السابعة والعشرون:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_9a4037404907422120cc",
+            "normalized_end": 2034,
+            "normalized_start": 1396,
+            "raw_end": 2034,
+            "raw_start": 1396,
+            "source_id": "src_0d67937c474a4ffdb282",
+            "text_sha256": "f42f00280ef973bb311c3d100e0f16616bfb1cfc49965aaa5bfe4ce9e5d98cce"
+          },
+          "text": "يتحمل المكتري كل الضرائب والرسوم المعمول بها حاليا والتي قد تحدث مستقبﻼ المتعلقة بالعقار المكرى. \nالمـادة الثامنة والعشرون: \nيلتزم المكتري طيلة مدة العقد بالتأمين عن كل الحوادث واﻷخطار )حريق، فيضان.....( وﻻ  يمكنه تحميل الدولة أية مسؤولية في \nحالة حدوثها. \nالمـادة التاسعة والعشرون: \nيجب علﻰ المكتري أن يصون مكتراه ويبقيه في حالة صالحة ويتحمل وحده صوائر اﻹصﻼح والصيانة الﻼزمين دون إمكانية \nالرجوع علﻰ الدولة. \nالمـادة الثﻼثون: \nتحتفظ الدولة لنفسها بملكية اﻷشياء الفنية واﻷثرية والكنوز والمسكوكات القديمة التي قد يعثر عليها في العقار المكرى. \nالمـادة الواحد وثﻼثون: \nيتحمل المكتري مصاريف التنبر وحقوق التسجيل المترتبة عن هذا العقد./. \n اﻻل",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "المادة السابعة والعشرون:",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 1395,
+        "normalized_start": 1370,
+        "raw_end": 1395,
+        "raw_start": 1370,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "35c28f52d7e699b564866cfd107c750d8a665dd81ed4a66cccb0d222497a10c4"
+      },
+      "kind": "unclassified",
+      "order": 12,
+      "requirement_status": "unspecified",
+      "section_id": "sec_b746b0179f3bd9c635d3",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 2034,
+        "normalized_start": 1370,
+        "raw_end": 2034,
+        "raw_start": 1370,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "4f6ff3af26a807ed551c0d2653d156d00a975aef9248c13515da5fc36c1404a4"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_8630c3213605d42c712a",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "7 / 7",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000007",
+            "extraction_id": "ext_9a4037404907422120cc",
+            "normalized_end": 251,
+            "normalized_start": 24,
+            "raw_end": 251,
+            "raw_start": 24,
+            "source_id": "src_0d67937c474a4ffdb282",
+            "text_sha256": "bad86585525c9e5a8adf9c6d141459056a21c4ed92f7d02619565e15db1fcc75"
+          },
+          "text": "عقـد كـراءرقم:  \n  \n \n مديرية أمﻼك الدولة  \n \nمندوبية فاس \n  \n \n  \n \nحرر في أربعة نظائر ب ...................... في \n........................................ \n \nعن مدير أمﻼك الدولة وبإذن منه  \nمندوب أمﻼك الدولة بفاس \n  \nالمكتري",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "7 / 7",
+      "heading_span": {
+        "block_id": "block_000007",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 21,
+        "normalized_start": 15,
+        "raw_end": 21,
+        "raw_start": 15,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "1631c244f62f34a754c42b76769c35919b69623276a0b0da35a5f62e86a8ca43"
+      },
+      "kind": "unclassified",
+      "order": 13,
+      "requirement_status": "unspecified",
+      "section_id": "sec_7a36e5654defdbcb9686",
+      "source_span": {
+        "block_id": "block_000007",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 251,
+        "normalized_start": 15,
+        "raw_end": 251,
+        "raw_start": 15,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "e69cee2796a6ae057e6eb93a77ace807b6a1a79173223ea0e5124a842072336b"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "extracted_text_sha256": "12e85a5852c24c03a1597e5dc5a48ce5cb2ce61a79b1966918d61c255d04925d",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 7,
+      "relative_path": "templates/Maroc/Projet-du-contrat-de-location-1.pdf",
+      "sha256": "34a6a757f3a2072e40c57f13cd78f5556a40e97c1b385d0d54f8f130cc472581",
+      "size_bytes": 724806,
+      "source_id": "src_0d67937c474a4ffdb282"
+    }
+  ],
+  "template_id": "tpl_f277ea8a0b4fdc9b8ddd",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_cee95acfebdcfe4c05c5",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 11,
+        "normalized_start": 1,
+        "raw_end": 11,
+        "raw_start": 1,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "f548b1ca23a4f84950ded6b81db5734e1722a69393a6eb15b0f14be97d50497a"
+      },
+      "text": "عقـد كـراء"
+    },
+    {
+      "content_id": "unparsed_b9f5836a7508ed49bb0c",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 11,
+        "normalized_start": 1,
+        "raw_end": 11,
+        "raw_start": 1,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "f548b1ca23a4f84950ded6b81db5734e1722a69393a6eb15b0f14be97d50497a"
+      },
+      "text": "عقـد كـراء"
+    },
+    {
+      "content_id": "unparsed_7fb7004bc34dbae950f5",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 11,
+        "normalized_start": 1,
+        "raw_end": 11,
+        "raw_start": 1,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "f548b1ca23a4f84950ded6b81db5734e1722a69393a6eb15b0f14be97d50497a"
+      },
+      "text": "عقـد كـراء"
+    },
+    {
+      "content_id": "unparsed_ef4e600ce5a91461e7ef",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 11,
+        "normalized_start": 1,
+        "raw_end": 11,
+        "raw_start": 1,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "f548b1ca23a4f84950ded6b81db5734e1722a69393a6eb15b0f14be97d50497a"
+      },
+      "text": "عقـد كـراء"
+    },
+    {
+      "content_id": "unparsed_003b6bdba506bde1465b",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 11,
+        "normalized_start": 1,
+        "raw_end": 11,
+        "raw_start": 1,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "f548b1ca23a4f84950ded6b81db5734e1722a69393a6eb15b0f14be97d50497a"
+      },
+      "text": "عقـد كـراء"
+    },
+    {
+      "content_id": "unparsed_ec2726ceb0116dfd9085",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 11,
+        "normalized_start": 1,
+        "raw_end": 11,
+        "raw_start": 1,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "f548b1ca23a4f84950ded6b81db5734e1722a69393a6eb15b0f14be97d50497a"
+      },
+      "text": "عقـد كـراء"
+    },
+    {
+      "content_id": "unparsed_c826aaeb5cf46e8e909d",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000007",
+        "extraction_id": "ext_9a4037404907422120cc",
+        "normalized_end": 11,
+        "normalized_start": 1,
+        "raw_end": 11,
+        "raw_start": 1,
+        "source_id": "src_0d67937c474a4ffdb282",
+        "text_sha256": "f548b1ca23a4f84950ded6b81db5734e1722a69393a6eb15b0f14be97d50497a"
+      },
+      "text": "عقـد كـراء"
+    }
+  ],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

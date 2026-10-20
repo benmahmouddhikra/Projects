@@ -1,0 +1,1122 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_4567d40c6ef8efdd9dfb",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "court_filing",
+    "initial_document_kind": "court_filing",
+    "languages": [
+      {
+        "basis": "deterministic_text_heuristic",
+        "confidence": 0.071,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+            "normalized_end": 666,
+            "normalized_start": 0,
+            "raw_end": 666,
+            "raw_start": 0,
+            "source_id": "src_8011548a828a2f278c25",
+            "text_sha256": "7564d1f27640793d9d3973919cdc10afcb6ad7a2ca1794a4d17dd530aaf7d861"
+          }
+        ],
+        "tag": "en"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "unknown",
+    "title": "Court Affidavit",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 15,
+        "normalized_start": 0,
+        "raw_end": 15,
+        "raw_start": 0,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "516900c9b0fa78f675c48b112fca9329b39da02358fb7fbacdaaabdb06bf9217"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      },
+      {
+        "code": "ambiguity_023_non_contract_destination",
+        "message": "AMBIGUITY-023: the non-contract knowledge-base/training destination is unresolved.",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "not_required",
+    "structure_review_status": "pending",
+    "training_eligibility": "excluded"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_95bc747f0689a3a8d367",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "BETWEEN:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+            "normalized_end": 92,
+            "normalized_start": 76,
+            "raw_end": 92,
+            "raw_start": 76,
+            "source_id": "src_8011548a828a2f278c25",
+            "text_sha256": "7f3c46577f727ce4b78598bb787294e999259d331ced03e2bc0d535701f26c5f"
+          },
+          "text": "[PLAINTIFF_NAME]",
+          "variable_ids": [
+            "plaintiff_name"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "BETWEEN:",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 75,
+        "normalized_start": 67,
+        "raw_end": 75,
+        "raw_start": 67,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "f2b3c81bbb107f7ca683042ecfc78d72952af6973367aabc94c18ee370fda69b"
+      },
+      "kind": "unclassified",
+      "order": 1,
+      "requirement_status": "unspecified",
+      "section_id": "sec_096b564c94c8b517c97c",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 92,
+        "normalized_start": 67,
+        "raw_end": 92,
+        "raw_start": 67,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "ca3335459dd06d006d95f30786225cd87338440868cadad749b473fc36bb231b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_81b9f7cd287987987a88",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": ".............. PLAINTIFF / APPLICANT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+            "normalized_end": 150,
+            "normalized_start": 130,
+            "raw_end": 150,
+            "raw_start": 130,
+            "source_id": "src_8011548a828a2f278c25",
+            "text_sha256": "3235130bd408f35edd4e3fe8a078ac443fae7c23e4729bac82cd7daf6b5ece49"
+          },
+          "text": "AND\n[DEFENDANT_NAME]",
+          "variable_ids": [
+            "defendant_name"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": ".............. PLAINTIFF / APPLICANT",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 129,
+        "normalized_start": 93,
+        "raw_end": 129,
+        "raw_start": 93,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "6008aba888fee77911d9e624b271b182473d584457bdf4737f9e86110d75b53f"
+      },
+      "kind": "unclassified",
+      "order": 2,
+      "requirement_status": "unspecified",
+      "section_id": "sec_1435bdbc5940d0ae6052",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 150,
+        "normalized_start": 93,
+        "raw_end": 150,
+        "raw_start": 93,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "65a860a61b274bcb8c8d4c5905181a01568cdfcf381c5eda3a1b2d27b6618e09"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_82351a8a592ec7d5ef9a",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": ".............. DEFENDANT / RESPONDENT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+            "normalized_end": 188,
+            "normalized_start": 151,
+            "raw_end": 188,
+            "raw_start": 151,
+            "source_id": "src_8011548a828a2f278c25",
+            "text_sha256": "5f18ba3d04b804546eb45d56e2811107e65348f6e6a0cdf6f4c0ebb111e89acc"
+          },
+          "text": ".............. DEFENDANT / RESPONDENT",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": ".............. DEFENDANT / RESPONDENT",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 188,
+        "normalized_start": 151,
+        "raw_end": 188,
+        "raw_start": 151,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "5f18ba3d04b804546eb45d56e2811107e65348f6e6a0cdf6f4c0ebb111e89acc"
+      },
+      "kind": "unclassified",
+      "order": 3,
+      "requirement_status": "unspecified",
+      "section_id": "sec_ab7f43231b9e448bc5af",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 188,
+        "normalized_start": 151,
+        "raw_end": 188,
+        "raw_start": 151,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "5f18ba3d04b804546eb45d56e2811107e65348f6e6a0cdf6f4c0ebb111e89acc"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_728abf2d26057cd47cd5",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "AFFIDAVIT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+            "normalized_end": 546,
+            "normalized_start": 199,
+            "raw_end": 546,
+            "raw_start": 199,
+            "source_id": "src_8011548a828a2f278c25",
+            "text_sha256": "c5ee54b744394c453a523e5557a11f424c41a861c21cdcd1146bd5d57f125706"
+          },
+          "text": "(Oaths and Statutory Declarations Act Cap. 15 | Evidence Act Cap. 80)\nPurpose:\n[AFFIDAVIT_PURPOSE]\nI,\n[DEPONENT_NAME]\n, of National Identity Card No.\n[DEPONENT_NIC]\n, aged\n[DEPONENT_AGE]\nyears, of occupation\n[DEPONENT_OCCUPATION]\n, residing/carrying on business at\n[DEPONENT_ADDRESS]\n, being the\n[DEPONENT_CAPACITY]\n, make oath and say as follows:",
+          "variable_ids": [
+            "affidavit_purpose",
+            "deponent_address",
+            "deponent_age",
+            "deponent_capacity",
+            "deponent_name",
+            "deponent_nic",
+            "deponent_occupation"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "AFFIDAVIT",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 198,
+        "normalized_start": 189,
+        "raw_end": 198,
+        "raw_start": 189,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "a53c7cf38a163fd57aa74a8405a9e906a32033d2350fd5b8ba28671dad82e010"
+      },
+      "kind": "unclassified",
+      "order": 4,
+      "requirement_status": "unspecified",
+      "section_id": "sec_184c017262417800b400",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 546,
+        "normalized_start": 189,
+        "raw_end": 546,
+        "raw_start": 189,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "5b07da510dea5112519e833d34a176f8c939260cdea564d836b3bc449b6f0ca4"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_af5151549b510ee674ac",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "STATEMENT OF FACTS",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+            "normalized_end": 583,
+            "normalized_start": 566,
+            "raw_end": 583,
+            "raw_start": 566,
+            "source_id": "src_8011548a828a2f278c25",
+            "text_sha256": "0a102f508841c11d37addcf21f53ede0ff4b6f502a7583b4ed77956ec4e10b47"
+          },
+          "text": "[FACTS_STATEMENT]",
+          "variable_ids": [
+            "facts_statement"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "STATEMENT OF FACTS",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 565,
+        "normalized_start": 547,
+        "raw_end": 565,
+        "raw_start": 547,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "6528f0d9373e995d90a0b280773ac76e9662796653c6cb5e01f840a830608942"
+      },
+      "kind": "unclassified",
+      "order": 5,
+      "requirement_status": "unspecified",
+      "section_id": "sec_a890307a60ad064f554e",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 583,
+        "normalized_start": 547,
+        "raw_end": 583,
+        "raw_start": 547,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "4fff4bdc76909003a4929b2b6c2d4f41ce0160e89b981de0fbdcf9bccb628c8d"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e4a1520427bdaea13827",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "EXHIBITS:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+            "normalized_end": 609,
+            "normalized_start": 594,
+            "raw_end": 609,
+            "raw_start": 594,
+            "source_id": "src_8011548a828a2f278c25",
+            "text_sha256": "406b0db1ad083c04ecc4103b46552273aed17516077f598e4793c58e2480bf63"
+          },
+          "text": "[EXHIBITS_LIST]",
+          "variable_ids": [
+            "exhibits_list"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "EXHIBITS:",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 593,
+        "normalized_start": 584,
+        "raw_end": 593,
+        "raw_start": 584,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "e078d7c0699fe5afaedd88ccdb64d06c1637075bacb5f8233fe73b52cd42fe8c"
+      },
+      "kind": "unclassified",
+      "order": 6,
+      "requirement_status": "unspecified",
+      "section_id": "sec_be09ab9a0b2a54cd7163",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 609,
+        "normalized_start": 584,
+        "raw_end": 609,
+        "raw_start": 584,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "0abec4e1194ee75860b576b14f2708f1473e61aebb50e554e8c344e53048f4c3"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_b49857a0bc6d3ff17ffa",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "RELIEF / ORDER SOUGHT:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+            "normalized_end": 666,
+            "normalized_start": 633,
+            "raw_end": 666,
+            "raw_start": 633,
+            "source_id": "src_8011548a828a2f278c25",
+            "text_sha256": "d8feb3d229932d261fcdc439aba8d87f5030c8f3df1cea3a3e012a560faf77e0"
+          },
+          "text": "[RELIEF_SOUGHT]\nSWORN by the said",
+          "variable_ids": [
+            "relief_sought"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "RELIEF / ORDER SOUGHT:",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 632,
+        "normalized_start": 610,
+        "raw_end": 632,
+        "raw_start": 610,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "bc637432b56e4b1239e77e8da036b703c6a99da14f90911b707439d57e9f2238"
+      },
+      "kind": "unclassified",
+      "order": 7,
+      "requirement_status": "unspecified",
+      "section_id": "sec_59139179bbb3aa918444",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 666,
+        "normalized_start": 610,
+        "raw_end": 666,
+        "raw_start": 610,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "d0280f70a11a50eeef7b967fd872a1e99a7bf2031ce32099ac4f0f57efab3a07"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_c520319aa275514590fb",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "JURAT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+            "normalized_end": 351,
+            "normalized_start": 157,
+            "raw_end": 351,
+            "raw_start": 157,
+            "source_id": "src_8011548a828a2f278c25",
+            "text_sha256": "9a5094a71f6e7e18d2c5f1611692064afedb7d3645fc163028d1fb1ae7fb0e77"
+          },
+          "text": "SWORN at\n[SWORN_LOCATION]\nthis ______ day of ________________\n[SWORN_DATE]\nbefore me:\nCommissioner for Oaths:\n[COMMISSIONER_NAME]\nAddress:\n[COMMISSIONER_ADDRESS]\n________________________________",
+          "variable_ids": [
+            "commissioner_address",
+            "commissioner_name",
+            "sworn_date",
+            "sworn_location"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "JURAT",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 156,
+        "normalized_start": 151,
+        "raw_end": 156,
+        "raw_start": 151,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "0877e4189d0b45c3827e69d52be67ebc3a5b7450d2c3eed5f7877dfb3bf65019"
+      },
+      "kind": "unclassified",
+      "order": 8,
+      "requirement_status": "unspecified",
+      "section_id": "sec_f534dc2a82ffc47fb88a",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 351,
+        "normalized_start": 151,
+        "raw_end": 351,
+        "raw_start": 151,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "41eb9401da9cdd03c95d4fed193d83fdc94b530387dcff004068a1fe3bf67016"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_b185d92c949de84f3f7d",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "COMMISSIONER FOR OATHS",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+            "normalized_end": 588,
+            "normalized_start": 375,
+            "raw_end": 588,
+            "raw_start": 375,
+            "source_id": "src_8011548a828a2f278c25",
+            "text_sha256": "696c872de57787e1b7cbf45f8637af636b41a9b9242353ccf61a057a51829447"
+          },
+          "text": "(Official rubber stamp and date of appointment)\nFiled by: _______________________________ Advocates for the Plaintiff/Applicant\nDeponent\n________________\nSignature\nCommissioner for Oaths\n________________\nSignature",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "COMMISSIONER FOR OATHS",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 374,
+        "normalized_start": 352,
+        "raw_end": 374,
+        "raw_start": 352,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "31e12f76b6e053c8bc204ee31b13cd729401949e0ac8a449ead93b0b779be307"
+      },
+      "kind": "unclassified",
+      "order": 9,
+      "requirement_status": "unspecified",
+      "section_id": "sec_16b09f8c3f9a635499d9",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 588,
+        "normalized_start": 352,
+        "raw_end": 588,
+        "raw_start": 352,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "c80c0d700d6ad7e7aa28fd9ffca6c3489ae501a33f7f6b756510a544e5bc3166"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_140b1d8ed715d53e2e51",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "FORMS-LEGAL.COM",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+            "normalized_end": 606,
+            "normalized_start": 605,
+            "raw_end": 606,
+            "raw_start": 605,
+            "source_id": "src_8011548a828a2f278c25",
+            "text_sha256": "f8bf310263c1ac3ecd39fadaf73ef233d3a1e7f423e02afd8da0d4e8e38264af"
+          },
+          "text": "§",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "FORMS-LEGAL.COM",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 604,
+        "normalized_start": 589,
+        "raw_end": 604,
+        "raw_start": 589,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "9dcc6679dca92aef67105df2e4e9c1b39d662a1ee083fbad51ff995585c78dca"
+      },
+      "kind": "unclassified",
+      "order": 10,
+      "requirement_status": "unspecified",
+      "section_id": "sec_69e923edfdd80de06d19",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 606,
+        "normalized_start": 589,
+        "raw_end": 606,
+        "raw_start": 589,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "48f8e4c2c9ff6da7d23f8ec0b44373eda5425b0ddaef4c6360522f05e8cf1cd0"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "extracted_text_sha256": "a66745d1e58d5d6c80fc40c4caba5e491f143acaef7068df17ebf4c0f45f1167",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 2,
+      "relative_path": "templates/kenya/Court Affidavit.pdf",
+      "sha256": "bb783b19ef3294b174469d4e4f3f16a93cf293f6e6aa6c60b5e92c846a64c66b",
+      "size_bytes": 3321,
+      "source_id": "src_8011548a828a2f278c25"
+    }
+  ],
+  "template_id": "tpl_edbcc107381c69f7b9ae",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_edcc1bca86b86f9e765b",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 66,
+        "normalized_start": 0,
+        "raw_end": 66,
+        "raw_start": 0,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "a1db332fdbcf9cf4f219f579c097f8e4a55cd3331bd34ea185d18c3116bda561"
+      },
+      "text": "Court Affidavit\nCourt Affidavit (Kenya)\n[Court Name]\n[Case Number]"
+    },
+    {
+      "content_id": "unparsed_f976663e3dd145f3f2c0",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+        "normalized_end": 150,
+        "normalized_start": 0,
+        "raw_end": 150,
+        "raw_start": 0,
+        "source_id": "src_8011548a828a2f278c25",
+        "text_sha256": "0251305b4e4c506a8aef7298096ae91a32349a8b1b966c2ef51ecfdc0bfa0f26"
+      },
+      "text": "[Deponent Name]\nat\n[Sworn Location]\non\n[Sworn Date]\nthat the contents of this affidavit are true to the best of my knowledge, information, and belief."
+    }
+  ],
+  "variables": [
+    {
+      "allowed_choices": [],
+      "canonical_token": "[COURT_NAME]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+          "normalized_end": 52,
+          "normalized_start": 40,
+          "raw_end": 52,
+          "raw_start": 40,
+          "source_id": "src_8011548a828a2f278c25",
+          "text_sha256": "06de44ba0224706260c4b683599a65c32e3e38f6123a4b5a65cd6272eaf95644"
+        }
+      ],
+      "original_tokens": [
+        "[Court Name]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "court_name"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[CASE_NUMBER]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+          "normalized_end": 66,
+          "normalized_start": 53,
+          "raw_end": 66,
+          "raw_start": 53,
+          "source_id": "src_8011548a828a2f278c25",
+          "text_sha256": "b40836be0dd8b931fe7677ad671c860fee2871897d83a2a36c0be411765899cd"
+        }
+      ],
+      "original_tokens": [
+        "[Case Number]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "case_number"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[PLAINTIFF_NAME]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+          "normalized_end": 92,
+          "normalized_start": 76,
+          "raw_end": 92,
+          "raw_start": 76,
+          "source_id": "src_8011548a828a2f278c25",
+          "text_sha256": "7f3c46577f727ce4b78598bb787294e999259d331ced03e2bc0d535701f26c5f"
+        }
+      ],
+      "original_tokens": [
+        "[Plaintiff Name]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "plaintiff_name"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[DEFENDANT_NAME]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+          "normalized_end": 150,
+          "normalized_start": 134,
+          "raw_end": 150,
+          "raw_start": 134,
+          "source_id": "src_8011548a828a2f278c25",
+          "text_sha256": "ceb3881a601e2c5a821d5c46e88010a07a3ce5dbb3eb2db99da96e10e8b2bbf7"
+        }
+      ],
+      "original_tokens": [
+        "[Defendant Name]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "defendant_name"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[AFFIDAVIT_PURPOSE]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+          "normalized_end": 297,
+          "normalized_start": 278,
+          "raw_end": 297,
+          "raw_start": 278,
+          "source_id": "src_8011548a828a2f278c25",
+          "text_sha256": "b6bec21690b09d02a987199e084471d12bb86d0b89fbfd72245707d070eee53d"
+        }
+      ],
+      "original_tokens": [
+        "[Affidavit Purpose]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "affidavit_purpose"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[DEPONENT_NAME]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+          "normalized_end": 316,
+          "normalized_start": 301,
+          "raw_end": 316,
+          "raw_start": 301,
+          "source_id": "src_8011548a828a2f278c25",
+          "text_sha256": "13f872287f98f540f64bf439e577505c38bbd85c0812e220c90a937d8c69d520"
+        },
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+          "normalized_end": 15,
+          "normalized_start": 0,
+          "raw_end": 15,
+          "raw_start": 0,
+          "source_id": "src_8011548a828a2f278c25",
+          "text_sha256": "13f872287f98f540f64bf439e577505c38bbd85c0812e220c90a937d8c69d520"
+        }
+      ],
+      "original_tokens": [
+        "[Deponent Name]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "deponent_name"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[DEPONENT_NIC]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+          "normalized_end": 363,
+          "normalized_start": 349,
+          "raw_end": 363,
+          "raw_start": 349,
+          "source_id": "src_8011548a828a2f278c25",
+          "text_sha256": "5344790d8f42765e07d5073cece9f0e032f3389ed36e466cbb0d8887eddbd388"
+        }
+      ],
+      "original_tokens": [
+        "[Deponent NIC]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "deponent_nic"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[DEPONENT_AGE]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+          "normalized_end": 385,
+          "normalized_start": 371,
+          "raw_end": 385,
+          "raw_start": 371,
+          "source_id": "src_8011548a828a2f278c25",
+          "text_sha256": "0a6def150437246d60aa18ed77a5c05e41cc91d1546cf1c1b81174fe08458bdd"
+        }
+      ],
+      "original_tokens": [
+        "[Deponent Age]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "deponent_age"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[DEPONENT_OCCUPATION]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+          "normalized_end": 428,
+          "normalized_start": 407,
+          "raw_end": 428,
+          "raw_start": 407,
+          "source_id": "src_8011548a828a2f278c25",
+          "text_sha256": "f326e4a9a5c690292622966afca12b5f0c632a0a8d80f9f263e6aed5b55af584"
+        }
+      ],
+      "original_tokens": [
+        "[Deponent Occupation]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "deponent_occupation"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[DEPONENT_ADDRESS]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+          "normalized_end": 482,
+          "normalized_start": 464,
+          "raw_end": 482,
+          "raw_start": 464,
+          "source_id": "src_8011548a828a2f278c25",
+          "text_sha256": "d3dcf7bc1022253199e84f586555f5abca2a7b06a1835cba824ad867c19e01ad"
+        }
+      ],
+      "original_tokens": [
+        "[Deponent Address]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "deponent_address"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[DEPONENT_CAPACITY]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+          "normalized_end": 514,
+          "normalized_start": 495,
+          "raw_end": 514,
+          "raw_start": 495,
+          "source_id": "src_8011548a828a2f278c25",
+          "text_sha256": "3a272918b89180f40c3e1fda02ccc149f1dc2c6effd1159c7dd8bf64ca1e1b1d"
+        }
+      ],
+      "original_tokens": [
+        "[Deponent Capacity]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "deponent_capacity"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[FACTS_STATEMENT]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+          "normalized_end": 583,
+          "normalized_start": 566,
+          "raw_end": 583,
+          "raw_start": 566,
+          "source_id": "src_8011548a828a2f278c25",
+          "text_sha256": "0a102f508841c11d37addcf21f53ede0ff4b6f502a7583b4ed77956ec4e10b47"
+        }
+      ],
+      "original_tokens": [
+        "[Facts Statement]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "facts_statement"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[EXHIBITS_LIST]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+          "normalized_end": 609,
+          "normalized_start": 594,
+          "raw_end": 609,
+          "raw_start": 594,
+          "source_id": "src_8011548a828a2f278c25",
+          "text_sha256": "406b0db1ad083c04ecc4103b46552273aed17516077f598e4793c58e2480bf63"
+        }
+      ],
+      "original_tokens": [
+        "[Exhibits List]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "exhibits_list"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[RELIEF_SOUGHT]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+          "normalized_end": 648,
+          "normalized_start": 633,
+          "raw_end": 648,
+          "raw_start": 633,
+          "source_id": "src_8011548a828a2f278c25",
+          "text_sha256": "e28196b29c911de341750e6422aca4548ae463b87f22bf76c421b67b863b7cb1"
+        }
+      ],
+      "original_tokens": [
+        "[Relief Sought]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "relief_sought"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[SWORN_LOCATION]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+          "normalized_end": 35,
+          "normalized_start": 19,
+          "raw_end": 35,
+          "raw_start": 19,
+          "source_id": "src_8011548a828a2f278c25",
+          "text_sha256": "7df44c0954de029fc151e5525c2aa060cf26571530e338f8771fa1ee782bb197"
+        },
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+          "normalized_end": 182,
+          "normalized_start": 166,
+          "raw_end": 182,
+          "raw_start": 166,
+          "source_id": "src_8011548a828a2f278c25",
+          "text_sha256": "7df44c0954de029fc151e5525c2aa060cf26571530e338f8771fa1ee782bb197"
+        }
+      ],
+      "original_tokens": [
+        "[Sworn Location]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "sworn_location"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[SWORN_DATE]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+          "normalized_end": 51,
+          "normalized_start": 39,
+          "raw_end": 51,
+          "raw_start": 39,
+          "source_id": "src_8011548a828a2f278c25",
+          "text_sha256": "1a16de364340906d26d6e7943d6f97c3b8296515b11e97c8a8a45cf6209685e2"
+        },
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+          "normalized_end": 231,
+          "normalized_start": 219,
+          "raw_end": 231,
+          "raw_start": 219,
+          "source_id": "src_8011548a828a2f278c25",
+          "text_sha256": "1a16de364340906d26d6e7943d6f97c3b8296515b11e97c8a8a45cf6209685e2"
+        }
+      ],
+      "original_tokens": [
+        "[Sworn Date]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "sworn_date"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[COMMISSIONER_NAME]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+          "normalized_end": 286,
+          "normalized_start": 267,
+          "raw_end": 286,
+          "raw_start": 267,
+          "source_id": "src_8011548a828a2f278c25",
+          "text_sha256": "5705302514fcf496fd01911ff66e829b81ec20d94f63c6afe45a8fc34d110239"
+        }
+      ],
+      "original_tokens": [
+        "[Commissioner Name]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "commissioner_name"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[COMMISSIONER_ADDRESS]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_7e51bb58cbc235fc8bfb",
+          "normalized_end": 318,
+          "normalized_start": 296,
+          "raw_end": 318,
+          "raw_start": 296,
+          "source_id": "src_8011548a828a2f278c25",
+          "text_sha256": "ae5ffbc05b663a4d80892b9a982228f715fdfa4377e582b40de00e6119265535"
+        }
+      ],
+      "original_tokens": [
+        "[Commissioner Address]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "commissioner_address"
+    }
+  ],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

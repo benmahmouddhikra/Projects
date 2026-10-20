@@ -1,0 +1,1055 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_db9093eb7edb28f3a66f",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "completed_contract",
+    "initial_document_kind": "completed_contract",
+    "languages": [
+      {
+        "basis": "script_detection",
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_6830908e41d82b821899",
+            "normalized_end": 29,
+            "normalized_start": 0,
+            "raw_end": 29,
+            "raw_start": 0,
+            "source_id": "src_40588fa342354ceb6b06",
+            "text_sha256": "a2b632b02866b266c7d728888ac2dae18f45e1d4015303144404dd15988d7b01"
+          }
+        ],
+        "tag": "ar"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "completed",
+    "title": "نموذج عقد تأجير واستثمار عقار",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 29,
+        "normalized_start": 0,
+        "raw_end": 29,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "a2b632b02866b266c7d728888ac2dae18f45e1d4015303144404dd15988d7b01"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "completed_contract_heuristic_requires_review",
+        "message": "Contract-like filename without detected square-bracket placeholders was initially classified completed and requires human confirmation.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "required",
+    "structure_review_status": "pending",
+    "training_eligibility": "review_required"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_323b8a6ee5afdb9c1d7a",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "أولاً : (( الوزارة أو الجهة الحكومية )) ويمثلها .............. بصفته ............ ويشار إليه بالمؤجر                    (( طرف أول ))",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000009",
+            "extraction_id": "ext_6830908e41d82b821899",
+            "normalized_end": 133,
+            "normalized_start": 0,
+            "raw_end": 133,
+            "raw_start": 0,
+            "source_id": "src_40588fa342354ceb6b06",
+            "text_sha256": "4aecd24a76b05cea1139b0e7730e563fca407cb04e4fe29fa5008a19b47041a7"
+          },
+          "text": "أولاً : (( الوزارة أو الجهة الحكومية )) ويمثلها .............. بصفته ............ ويشار إليه بالمؤجر                    (( طرف أول ))",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "أولاً : (( الوزارة أو الجهة الحكومية )) ويمثلها .............. بصفته ............ ويشار إليه بالمؤجر                    (( طرف أول ))",
+      "heading_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 133,
+        "normalized_start": 0,
+        "raw_end": 133,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "4aecd24a76b05cea1139b0e7730e563fca407cb04e4fe29fa5008a19b47041a7"
+      },
+      "kind": "unclassified",
+      "order": 1,
+      "requirement_status": "unspecified",
+      "section_id": "sec_237acb81d4307563ab2a",
+      "source_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 133,
+        "normalized_start": 0,
+        "raw_end": 133,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "4aecd24a76b05cea1139b0e7730e563fca407cb04e4fe29fa5008a19b47041a7"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_542a66ddaca45855b0db",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "المادة الأولى : تعتبر المقدمة المشار إليها أعلاه جزء لايتجزأ من العقد .",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000012",
+            "extraction_id": "ext_6830908e41d82b821899",
+            "normalized_end": 71,
+            "normalized_start": 0,
+            "raw_end": 71,
+            "raw_start": 0,
+            "source_id": "src_40588fa342354ceb6b06",
+            "text_sha256": "11c719dd62bbf8a1d1a89b2120b3886da7e81f77bd0256c139a4dcf716fd9b7a"
+          },
+          "text": "المادة الأولى : تعتبر المقدمة المشار إليها أعلاه جزء لايتجزأ من العقد .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "المادة الأولى : تعتبر المقدمة المشار إليها أعلاه جزء لايتجزأ من العقد .",
+      "heading_span": {
+        "block_id": "block_000012",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 72,
+        "normalized_start": 0,
+        "raw_end": 72,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "a16d5e4976b79bfec1c7510a1d729435f02d537b296fdf3207ff8ada7dab1136"
+      },
+      "kind": "unclassified",
+      "order": 2,
+      "requirement_status": "unspecified",
+      "section_id": "sec_11d4d5c62009b3064a7a",
+      "source_span": {
+        "block_id": "block_000012",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 71,
+        "normalized_start": 0,
+        "raw_end": 71,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "11c719dd62bbf8a1d1a89b2120b3886da7e81f77bd0256c139a4dcf716fd9b7a"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_d06ec67f9603f668690b",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "المادة الثانية : الغرض من العقد .",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000013",
+            "extraction_id": "ext_6830908e41d82b821899",
+            "normalized_end": 33,
+            "normalized_start": 0,
+            "raw_end": 33,
+            "raw_start": 0,
+            "source_id": "src_40588fa342354ceb6b06",
+            "text_sha256": "6147c600fec9414a925f3a1432884c2144db977362215fb752b6204089a691b2"
+          },
+          "text": "المادة الثانية : الغرض من العقد .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "المادة الثانية : الغرض من العقد .",
+      "heading_span": {
+        "block_id": "block_000013",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 33,
+        "normalized_start": 0,
+        "raw_end": 33,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "6147c600fec9414a925f3a1432884c2144db977362215fb752b6204089a691b2"
+      },
+      "kind": "unclassified",
+      "order": 3,
+      "requirement_status": "unspecified",
+      "section_id": "sec_49ab86f77c23327ab064",
+      "source_span": {
+        "block_id": "block_000013",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 33,
+        "normalized_start": 0,
+        "raw_end": 33,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "6147c600fec9414a925f3a1432884c2144db977362215fb752b6204089a691b2"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_298e2d63017e351311ad",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "المادة الثالثة : وصف العين المؤجرة .",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000015",
+            "extraction_id": "ext_6830908e41d82b821899",
+            "normalized_end": 36,
+            "normalized_start": 0,
+            "raw_end": 36,
+            "raw_start": 0,
+            "source_id": "src_40588fa342354ceb6b06",
+            "text_sha256": "df578738f94491be18251db4fdc97c89b1d804776fdcadf8057cf31d235887fe"
+          },
+          "text": "المادة الثالثة : وصف العين المؤجرة .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "المادة الثالثة : وصف العين المؤجرة .",
+      "heading_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 36,
+        "normalized_start": 0,
+        "raw_end": 36,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "df578738f94491be18251db4fdc97c89b1d804776fdcadf8057cf31d235887fe"
+      },
+      "kind": "unclassified",
+      "order": 4,
+      "requirement_status": "unspecified",
+      "section_id": "sec_51305c9c5e706db74728",
+      "source_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 36,
+        "normalized_start": 0,
+        "raw_end": 36,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "df578738f94491be18251db4fdc97c89b1d804776fdcadf8057cf31d235887fe"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_96dfee7d037e5de1fd22",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "المادة الرابعة : وثائق العقد , وتشمل .",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000017",
+            "extraction_id": "ext_6830908e41d82b821899",
+            "normalized_end": 38,
+            "normalized_start": 0,
+            "raw_end": 38,
+            "raw_start": 0,
+            "source_id": "src_40588fa342354ceb6b06",
+            "text_sha256": "5588489643d59d6b343916589e3cb9574a68a1cddfea816ba70e41363b25d0fb"
+          },
+          "text": "المادة الرابعة : وثائق العقد , وتشمل .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "المادة الرابعة : وثائق العقد , وتشمل .",
+      "heading_span": {
+        "block_id": "block_000017",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 39,
+        "normalized_start": 0,
+        "raw_end": 39,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "6d7574a7e52772a8ace5d9ee898f8da66d86f654b64d4c99088e6980618e68a9"
+      },
+      "kind": "unclassified",
+      "order": 5,
+      "requirement_status": "unspecified",
+      "section_id": "sec_23d7fe8bfa7d6bfd78e7",
+      "source_span": {
+        "block_id": "block_000017",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 38,
+        "normalized_start": 0,
+        "raw_end": 38,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "5588489643d59d6b343916589e3cb9574a68a1cddfea816ba70e41363b25d0fb"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_14ad47ed8c4c028aa4d9",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "المادة الخامسة : مدة العقد",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000025",
+            "extraction_id": "ext_6830908e41d82b821899",
+            "normalized_end": 26,
+            "normalized_start": 0,
+            "raw_end": 26,
+            "raw_start": 0,
+            "source_id": "src_40588fa342354ceb6b06",
+            "text_sha256": "1b979fb787d6edc4e5ff50368b12ee9511b28aab408bb007ea1a9caa4eed2355"
+          },
+          "text": "المادة الخامسة : مدة العقد",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "المادة الخامسة : مدة العقد",
+      "heading_span": {
+        "block_id": "block_000025",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 27,
+        "normalized_start": 0,
+        "raw_end": 27,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "38f8365b2a42b4b15bd367bd6e4a043dec9cc8475f639e49d737c7c133b6a878"
+      },
+      "kind": "unclassified",
+      "order": 6,
+      "requirement_status": "unspecified",
+      "section_id": "sec_d9cfa9bc02c894b0465a",
+      "source_span": {
+        "block_id": "block_000025",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 26,
+        "normalized_start": 0,
+        "raw_end": 26,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "1b979fb787d6edc4e5ff50368b12ee9511b28aab408bb007ea1a9caa4eed2355"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_13576baba386a6f913da",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "المادة السادسة : القيمة الإيجارية وطريقة الدفع .",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000027",
+            "extraction_id": "ext_6830908e41d82b821899",
+            "normalized_end": 48,
+            "normalized_start": 0,
+            "raw_end": 48,
+            "raw_start": 0,
+            "source_id": "src_40588fa342354ceb6b06",
+            "text_sha256": "2c4fd1de665bd2424b3ca84ab46023792cd7a9ad2b707cd7d721411f397b141e"
+          },
+          "text": "المادة السادسة : القيمة الإيجارية وطريقة الدفع .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "المادة السادسة : القيمة الإيجارية وطريقة الدفع .",
+      "heading_span": {
+        "block_id": "block_000027",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 55,
+        "normalized_start": 0,
+        "raw_end": 55,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "5a4cf759f977f5094d564794b38386d8e2c3ba1185d717be8c8276f9ad663c04"
+      },
+      "kind": "unclassified",
+      "order": 7,
+      "requirement_status": "unspecified",
+      "section_id": "sec_a82f9b8d79b21276cb78",
+      "source_span": {
+        "block_id": "block_000027",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 48,
+        "normalized_start": 0,
+        "raw_end": 48,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "2c4fd1de665bd2424b3ca84ab46023792cd7a9ad2b707cd7d721411f397b141e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e23bd2bf935339da654d",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "المادة السابعة : نظام العقد .",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000030",
+            "extraction_id": "ext_6830908e41d82b821899",
+            "normalized_end": 29,
+            "normalized_start": 0,
+            "raw_end": 29,
+            "raw_start": 0,
+            "source_id": "src_40588fa342354ceb6b06",
+            "text_sha256": "233b1a2f87b4d23bf7d771865437d8fb87c3b20bef66c54ffbfe878607b091a2"
+          },
+          "text": "المادة السابعة : نظام العقد .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "المادة السابعة : نظام العقد .",
+      "heading_span": {
+        "block_id": "block_000030",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 29,
+        "normalized_start": 0,
+        "raw_end": 29,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "233b1a2f87b4d23bf7d771865437d8fb87c3b20bef66c54ffbfe878607b091a2"
+      },
+      "kind": "unclassified",
+      "order": 8,
+      "requirement_status": "unspecified",
+      "section_id": "sec_60933a75c6afd68a69f1",
+      "source_span": {
+        "block_id": "block_000030",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 29,
+        "normalized_start": 0,
+        "raw_end": 29,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "233b1a2f87b4d23bf7d771865437d8fb87c3b20bef66c54ffbfe878607b091a2"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_a826feb659b815855c35",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "المادة الثامنة : تسوية الخلاف",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000032",
+            "extraction_id": "ext_6830908e41d82b821899",
+            "normalized_end": 29,
+            "normalized_start": 0,
+            "raw_end": 29,
+            "raw_start": 0,
+            "source_id": "src_40588fa342354ceb6b06",
+            "text_sha256": "c205d327e745a15b2789d039f5beb08c186241fab9f5efccd6d5720b1a9b25ed"
+          },
+          "text": "المادة الثامنة : تسوية الخلاف",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "المادة الثامنة : تسوية الخلاف",
+      "heading_span": {
+        "block_id": "block_000032",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 30,
+        "normalized_start": 0,
+        "raw_end": 30,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "278688573332c6508d11cde0cd3ff025230438c0b5fee9e696b6c5521aa4dbfb"
+      },
+      "kind": "unclassified",
+      "order": 9,
+      "requirement_status": "unspecified",
+      "section_id": "sec_fb3b562ffb66a6e562fb",
+      "source_span": {
+        "block_id": "block_000032",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 29,
+        "normalized_start": 0,
+        "raw_end": 29,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "c205d327e745a15b2789d039f5beb08c186241fab9f5efccd6d5720b1a9b25ed"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "extracted_text_sha256": "d72d82fce9bc60639da449be4c850c2e70b4fa67e2355e3991e5ab510b685003",
+      "extraction_method": "microsoft_word_com_read_only",
+      "extraction_status": "success",
+      "extraction_warnings": [
+        "word_paragraphs_may_include_table_text"
+      ],
+      "media_type": "application/msword",
+      "page_count": 4,
+      "relative_path": "templates/Saudi arabia/مشروع نموذج عقد التأجير و الاستثمار.doc",
+      "sha256": "8d820bd287b6c28ed9f8644a3386d084a8c96ff96bc04255b0bd5a94aa2fac0d",
+      "size_bytes": 51200,
+      "source_id": "src_40588fa342354ceb6b06"
+    }
+  ],
+  "template_id": "tpl_3c26de8415bc4ee2e9fd",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_05d013c4c1f209ddec49",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 29,
+        "normalized_start": 0,
+        "raw_end": 29,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "a2b632b02866b266c7d728888ac2dae18f45e1d4015303144404dd15988d7b01"
+      },
+      "text": "نموذج عقد تأجير واستثمار عقار"
+    },
+    {
+      "content_id": "unparsed_7274abc1de083160c80d",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 47,
+        "normalized_start": 0,
+        "raw_end": 47,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "eb2e82f08e8d2eb35735d3fe4b377d95a9a9c3176103f5e56e89a6d1e3d2bb4f"
+      },
+      "text": "وفقاً لأحكام نظام المنافسات والمشتريات الحكومية"
+    },
+    {
+      "content_id": "unparsed_c04883d6968b148d909e",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 11,
+        "normalized_start": 0,
+        "raw_end": 11,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "d5e96354a46412bdd755ae28504d6d7e75293acf96c6434010975e1abf6b41e2"
+      },
+      "text": "القسم الأول"
+    },
+    {
+      "content_id": "unparsed_a6c1f95f4a73e6b748ce",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 20,
+        "normalized_start": 0,
+        "raw_end": 20,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "6abd9de54150b7f2f7e90b06f3311f3491da3b43c6a9634671d9b9053af5c371"
+      },
+      "text": "وثيقة العقد الأساسية"
+    },
+    {
+      "content_id": "unparsed_36e2ca8e2eee2d96457a",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 7,
+        "normalized_start": 0,
+        "raw_end": 7,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "5144a4cc6f71a0dc7a01d79648b50009a33a84ca6d3312dc9a116a967a6b39c1"
+      },
+      "text": "المقدمة"
+    },
+    {
+      "content_id": "unparsed_7c563fa24bf7615f5520",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 15,
+        "normalized_start": 3,
+        "raw_end": 15,
+        "raw_start": 3,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "d34a4bf5458ee7a260040caac75922dc18e4a809d5537d1d829caeabd3ea4bb7"
+      },
+      "text": "بعون من الله"
+    },
+    {
+      "content_id": "unparsed_586ce22f1f20d0f11af9",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000007",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 65,
+        "normalized_start": 3,
+        "raw_end": 65,
+        "raw_start": 3,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "3b36e244b0b8f76c038884230b3d50c1bb779756c66ec0c0c1d012a0f5391ed2"
+      },
+      "text": "تم الاتفاق في مدينة ................. يوم ............ الموافق"
+    },
+    {
+      "content_id": "unparsed_51932977e5ac362a6c02",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 12,
+        "normalized_start": 3,
+        "raw_end": 12,
+        "raw_start": 3,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "6f40ca135bcc899d50203f3136f607edcf4bb457de9d365144c5eeeaa83f6fa4"
+      },
+      "text": "بين كل من"
+    },
+    {
+      "content_id": "unparsed_3a51532c17fd2375ecf1",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 145,
+        "normalized_start": 0,
+        "raw_end": 145,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "13d53bf2124f6cc0bfb41cd999bb90d3b10492b4c71665d772f78e2f8bb61112"
+      },
+      "text": "ثانياً: تذكر المعلومات الخاصة بالطرف الثاني , فرد , مؤسسة , شركة , رقم وتاريخ التفويض الرسمى , ويشار إليه بالمستأجر أو المستثمر    (( طرف ثاني ))"
+    },
+    {
+      "content_id": "unparsed_c58f2e09104db923b5ad",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 635,
+        "normalized_start": 1,
+        "raw_end": 635,
+        "raw_start": 1,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "8b94ee83f01dccd3c446c06b997b9a7c6f21e1d59364266b242d62380740387c"
+      },
+      "text": "لماكان المؤجر يرغب في تأجير/استثمار (( يذكر وصف كامل للعين  المؤجرة )) والتي طرحت في مزايدة عامه وتقدم لذلك المستأجر بعرضة لهذه المزايدة (( وإن كانت العين المؤجرة طرحت بالمزاد العلني المفتوح يشار إليه وأنه تقدم بأعلى سعر بموجب محضر لجنة المزاد العلني )) بعــد علمـــه واطلاعــه على جميــع الشـــروط والمواصـــفات , وجميع الوثائق , ووقوفه على الموقع , وبمعرفته بأحكام وتعليمات نظام المنافسات والمشتريات الحكومية ولائحته التنفيذية معرفه تنفي الجهالة والغـــرر , وحيــث اقترن ايجـــاب المستأجـــر بقـــبول المؤجـــر , وذلــــك وفــــقاً لمـــا جـــاء في خطاب الترســـية رقم ........ وتاريخ ............... ، فقد اتفق الطرفان على ما يلي :"
+    },
+    {
+      "content_id": "unparsed_ae45f1cba481c8b54b03",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000014",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 45,
+        "normalized_start": 8,
+        "raw_end": 45,
+        "raw_start": 8,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "c4bb43883fa34e9dca1d3e54fd74d75fc417c24d530bad2d7ca537ba6b43d80f"
+      },
+      "text": "(( يذكر وصف شامل للغرض من العقد ))  ."
+    },
+    {
+      "content_id": "unparsed_bea2a26a412a4d78e920",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000016",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 88,
+        "normalized_start": 6,
+        "raw_end": 88,
+        "raw_start": 6,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "2d68df87252ca9fa55947e201898cbb864a2f3884f37802e7b2f333b4a20a0fa"
+      },
+      "text": "(( يذكر وصف للعين المؤجرة شاملاً الموقع , المساحة , الحدود , وخلوها من الشوائب)) ."
+    },
+    {
+      "content_id": "unparsed_af56f33fbfc958143e80",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000018",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 20,
+        "normalized_start": 0,
+        "raw_end": 20,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "6f211c52371e78d7201ece4c1461e66e2219de0f3a78bccddfeda4421aee87e8"
+      },
+      "text": "(1) الوثيقة الأساسية"
+    },
+    {
+      "content_id": "unparsed_3a62eeeb1141fbb80c3f",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000019",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 29,
+        "normalized_start": 0,
+        "raw_end": 29,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "e2cc832636920a03b1825d46420c55f26be94184f58e08c3e37267305e2dec40"
+      },
+      "text": "(2) الالتزامات والشروط العامة"
+    },
+    {
+      "content_id": "unparsed_aa7e43bb57b2c744fbe6",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000020",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 21,
+        "normalized_start": 0,
+        "raw_end": 21,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "5e69e7c6e0d9da984481b0967bf1b194259594930acdb22152f7c6f1adae008b"
+      },
+      "text": "(3) الشروط والمواصفات"
+    },
+    {
+      "content_id": "unparsed_fe954812c5d51cb83306",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000021",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 25,
+        "normalized_start": 0,
+        "raw_end": 25,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "a371a84cdaf2ecb6f3bd03601a1287e54707ab6305ccc3053a7138de086f62d4"
+      },
+      "text": "(4) الشروط الخاصة ان وجدت"
+    },
+    {
+      "content_id": "unparsed_0be8996788891f2f2fad",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000022",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 14,
+        "normalized_start": 0,
+        "raw_end": 14,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "609e09e98c23a6a94cd4b85bfe74e9df2d99e3f6d719f6b35143baf534041b87"
+      },
+      "text": "(5) خطاب العرض"
+    },
+    {
+      "content_id": "unparsed_62e2afb59a301548fee2",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000023",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 16,
+        "normalized_start": 0,
+        "raw_end": 16,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "a0693bb96b8dd6d2799d79dea95fd94a318c0dd9c33f50ba8288e49d276cfc7a"
+      },
+      "text": "(6) خطاب الترسية"
+    },
+    {
+      "content_id": "unparsed_216ab7c99ff32e60a304",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000024",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 115,
+        "normalized_start": 5,
+        "raw_end": 115,
+        "raw_start": 5,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "c039ac1c1acc61f71559e208ac0b3009642740ec3f36782e991c10ef952d4381"
+      },
+      "text": "تشكل هذه الوثائق وحدة متكاملة , وتعد كل وثيقة منها جزء من العقد بحيث تفسر وتتمم الوثائق المذكورة بعضها بعضاً ."
+    },
+    {
+      "content_id": "unparsed_5f3a7ecb8a8d963acac3",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000026",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 304,
+        "normalized_start": 5,
+        "raw_end": 304,
+        "raw_start": 5,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "e816902109e4cfa1668b54235275235c7cbdbfe97586e5a77f56216a1f2f385e"
+      },
+      "text": "(( تذكر مدة العقد رقماً وكتابة )) وتبدأ هذه المدة اعتباراً من تاريخ تسليم الموقع للمستأجر/المستثمر خالياً من الشواغل والعوائق بموجب محضر كتابي موقع عليه من قبل مندوبي الطرفين (( يراعى في تحديد المدة نص المادة التاسعة والثلاثين بعد المائة من اللائحة التنفيذية لنظام المنافسات والمشتريات الحكومية )) ."
+    },
+    {
+      "content_id": "unparsed_2f40af1b7ea1f46d07e9",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000028",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 361,
+        "normalized_start": 0,
+        "raw_end": 361,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "052eb617ce6305e8628aaf1f30c6804e1a63cb3584049fe4a3ec57e9e31c2e27"
+      },
+      "text": "أ/ إن القيمة الايجارية عن كامل مدة العقد (( تذكر قيمة العقد الإجمالية رقماً وكتابة ))  موزعه على عدد سنوات العقد , وتبلغ الأجرة السنوية (( تذكر قيمة الأجرة السنوية رقماً وكتابة )) وتسدد الأجرة السنوية كاملة خلال عشرة أيام من بداية كل سنه تعاقدية , ويعتبر تاريخ استلام الموقع بداية السنة العقدية ويجوز الاتفاق على تسديد أجرة السنوات المحددة في العقد دفعة واحدة ."
+    },
+    {
+      "content_id": "unparsed_92ba631fd62e404f5949",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000029",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 121,
+        "normalized_start": 0,
+        "raw_end": 121,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "c447ce34d6e603711ab14cede5fc0693e28bb28a2bcc664c53ddd079aaa799ec"
+      },
+      "text": "ب/ إذا كان التأجير للاستثمار يعطى المستثمر مدة غير مدفوعة الأجرة  لا تتجاوز 5% من مدة العقد وتبدأ من تاريخ تسليم الموقع ."
+    },
+    {
+      "content_id": "unparsed_216f9a5283ec53f67537",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000031",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 149,
+        "normalized_start": 0,
+        "raw_end": 149,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "634d7c2d9f7364228bfd037192f8ecc1b2735b68613eacad773d33a81a88e915"
+      },
+      "text": "يحكم هذا العقد أنظمة المملكة العربية السعودية , وبصفة خاصة نظام المنافسات والمشتريات الحكومية ولائحته التنفيذية , وتعليمات , وتفسيرات وزارة المالية ."
+    },
+    {
+      "content_id": "unparsed_471d8c8d2ab26dd18bea",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000033",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 142,
+        "normalized_start": 6,
+        "raw_end": 142,
+        "raw_start": 6,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "9ec3f755b89c0120593cc59ea3978440d7bc20b91d7d461c91e3b168eb2770ae"
+      },
+      "text": "كل خلاف ينشأ عن تطبيق هذا العقد , ولايتم التوصل إلى تسويته بين الطرفين تختص المحكمة الإدارية بالفصل فيه ــ ويكون حكمهاً في ذلك نهائياً ."
+    },
+    {
+      "content_id": "unparsed_c86663f91b59b03efa5f",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000034",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 121,
+        "normalized_start": 0,
+        "raw_end": 121,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "7958420557f7b899fe8d04d5e354d6a90dcb75b1e630eea21bf75caa4c2931e3"
+      },
+      "text": "وتوثيقاً لما تقدم فقد قام الطرفان المؤجر والمستأجر/المستثمر بالتوقيع على هذه الوثيقة في المكان والتاريخ المذكورين أعلاه ."
+    },
+    {
+      "content_id": "unparsed_72c8999100d206ff1de9",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000035",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 15,
+        "normalized_start": 0,
+        "raw_end": 15,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "9f1bdae6fd1216ed0bd31e4b881f78c72e42547b7b08b5fad986006268f15c2e"
+      },
+      "text": "والله والموفق ."
+    },
+    {
+      "content_id": "unparsed_67c53e517c16817c6557",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000036",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 91,
+        "normalized_start": 0,
+        "raw_end": 91,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "83fc11c2c3cb578590696c580aff52f6895b15113d1bc32de8de066be5845ade"
+      },
+      "text": "الطرف الثاني (( المستأجر/المستثمر ))                     الطــــرف الأول (( المــؤجــــر ))"
+    },
+    {
+      "content_id": "unparsed_3d6762eaab8cc700214e",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000037",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 64,
+        "normalized_start": 0,
+        "raw_end": 64,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "0aca9f69e009ae3520e99a77fbb987ba158a186463d12843611004e132171a01"
+      },
+      "text": "الاسم                                                      الاسم"
+    },
+    {
+      "content_id": "unparsed_598f079f04d6e77ac6fa",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000038",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 63,
+        "normalized_start": 0,
+        "raw_end": 63,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "0c060d62d17c44e866aa924791a02d29c0bfa2213b6eaf0b2b189024aa21f6f4"
+      },
+      "text": "الصفة                                                     الصفة"
+    },
+    {
+      "content_id": "unparsed_5065bbe973a8182e6951",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000039",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 66,
+        "normalized_start": 0,
+        "raw_end": 66,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "047e3cfe38a34597d5f6ca49acdde1d4f185fe3017e9c848405d45153cb80b2e"
+      },
+      "text": "التوقيع                                                    التوقيع"
+    },
+    {
+      "content_id": "unparsed_fb5c22ebf68306482a63",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000042",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 4,
+        "normalized_start": 1,
+        "raw_end": 4,
+        "raw_start": 0,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "a267d6bd89fd06eaa9bff9a047f1fa75a91bcb6d4a5946fb3f0bc1efb143a453"
+      },
+      "text": "-1-"
+    },
+    {
+      "content_id": "unparsed_e84df4432072ca16f1b1",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000043",
+        "extraction_id": "ext_6830908e41d82b821899",
+        "normalized_end": 23,
+        "normalized_start": 6,
+        "raw_end": 23,
+        "raw_start": 6,
+        "source_id": "src_40588fa342354ceb6b06",
+        "text_sha256": "45a75f9fb9668dec741be9bcaa2b0083eaf54efc7a03bf8a9da4a0378f2cc351"
+      },
+      "text": "الإدارة القانونية"
+    }
+  ],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

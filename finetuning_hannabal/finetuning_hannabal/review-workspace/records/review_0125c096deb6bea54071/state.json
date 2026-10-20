@@ -1,0 +1,74 @@
+{
+  "artifact_key": "src_24f37422f127dcc2dbba",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_24f37422f127dcc2dbba/canonical.json",
+    "extraction": "artifacts/pilot/src_24f37422f127dcc2dbba/extraction.json",
+    "review": "artifacts/review-queue/review_0125c096deb6bea54071.json",
+    "validation": "artifacts/pilot/src_24f37422f127dcc2dbba/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.042942Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "unknown",
+  "required_reviews": [
+    "classification"
+  ],
+  "review_coverage": "classification_only",
+  "review_record_id": "review_0125c096deb6bea54071",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/Eygpte/66941485-a17f-4472-9f60-0275cf7f929d.docx",
+      "sha256": "eebb439eca9ec23805883ec5dba69a302a8cadd1d396eb25278e11a12f98f2ff",
+      "source_id": "src_24f37422f127dcc2dbba"
+    }
+  ],
+  "template_id": "tpl_1fd905a1ae07665c70c4",
+  "training_eligibility": "review_required",
+  "updated_at": "2026-08-12T14:00:38.042942Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:00:38.042942Z",
+    "errors": [],
+    "valid": true
+  }
+}

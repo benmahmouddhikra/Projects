@@ -1,0 +1,86 @@
+{
+  "artifact_key": "src_bc3242743138c02663fb",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_bc3242743138c02663fb/canonical.json",
+    "extraction": "artifacts/pilot/src_bc3242743138c02663fb/extraction.json",
+    "review": "artifacts/review-queue/review_879ce77316eac05070e4.json",
+    "validation": "artifacts/pilot/src_bc3242743138c02663fb/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:37.693799Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "completed_contract",
+  "required_reviews": [
+    "classification",
+    "extraction",
+    "legal",
+    "privacy",
+    "sanitization",
+    "structure"
+  ],
+  "review_coverage": "full",
+  "review_record_id": "review_879ce77316eac05070e4",
+  "reviewer": "saif",
+  "revision": 1,
+  "revision_history": [
+    {
+      "action": "structured_correction",
+      "created_at": "2026-08-12T14:12:31.429797Z",
+      "reviewer": "saif",
+      "revision": 1
+    }
+  ],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/algérie/model-contrat-travail-cdd.docx",
+      "sha256": "c95abdc7d0f9a83b46d20c952a64c57c67d8229e050bc71be75d3cca0648fb33",
+      "source_id": "src_bc3242743138c02663fb"
+    }
+  ],
+  "template_id": "tpl_b3fdf3de0bca716489d1",
+  "training_eligibility": "review_required",
+  "updated_at": "2026-08-12T14:12:31.429797Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:12:31.429797Z",
+    "errors": [],
+    "valid": true
+  }
+}

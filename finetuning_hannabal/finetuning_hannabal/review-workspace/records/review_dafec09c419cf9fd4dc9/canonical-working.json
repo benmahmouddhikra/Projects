@@ -1,0 +1,639 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_f36ba9f558f7690c9383",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "completed_contract",
+    "initial_document_kind": "completed_contract",
+    "languages": [
+      {
+        "basis": "script_detection",
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_847b482dccf60cc0448e",
+            "normalized_end": 1423,
+            "normalized_start": 0,
+            "raw_end": 1423,
+            "raw_start": 0,
+            "source_id": "src_9cbb508bb34760770e6f",
+            "text_sha256": "404eb49fc21829a8d72ba3a7151d599fdf485f99fcd11be06d1e8f7746af9f5e"
+          }
+        ],
+        "tag": "ar"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "completed",
+    "title": "1.  ﻧﻤﻮذج ﻋﻘﺪ ﻋﻤﻞ ﻓﺮد ﻣﻊ ﺷﺮﻛﺔ - ﻣﺆﺳﺴﺔ - ﻣﻨﺸﺄة",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 45,
+        "normalized_start": 0,
+        "raw_end": 45,
+        "raw_start": 0,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "cdb62c421dd3a7b0d90a79956dde8fc9121e25966249be7e9cc7eb3057810154"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "completed_contract_heuristic_requires_review",
+        "message": "Contract-like filename without detected square-bracket placeholders was initially classified completed and requires human confirmation.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "required",
+    "structure_review_status": "pending",
+    "training_eligibility": "review_required"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_31aec7d4a22ad77c4ed6",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1.  ﻧﻤﻮذج ﻋﻘﺪ ﻋﻤﻞ ﻓﺮد ﻣﻊ ﺷﺮﻛﺔ - ﻣﺆﺳﺴﺔ - ﻣﻨﺸﺄة",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_847b482dccf60cc0448e",
+            "normalized_end": 45,
+            "normalized_start": 0,
+            "raw_end": 45,
+            "raw_start": 0,
+            "source_id": "src_9cbb508bb34760770e6f",
+            "text_sha256": "cdb62c421dd3a7b0d90a79956dde8fc9121e25966249be7e9cc7eb3057810154"
+          },
+          "text": "1.  ﻧﻤﻮذج ﻋﻘﺪ ﻋﻤﻞ ﻓﺮد ﻣﻊ ﺷﺮﻛﺔ - ﻣﺆﺳﺴﺔ - ﻣﻨﺸﺄة",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1.  ﻧﻤﻮذج ﻋﻘﺪ ﻋﻤﻞ ﻓﺮد ﻣﻊ ﺷﺮﻛﺔ - ﻣﺆﺳﺴﺔ - ﻣﻨﺸﺄة",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 45,
+        "normalized_start": 0,
+        "raw_end": 45,
+        "raw_start": 0,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "cdb62c421dd3a7b0d90a79956dde8fc9121e25966249be7e9cc7eb3057810154"
+      },
+      "kind": "unclassified",
+      "order": 1,
+      "requirement_status": "unspecified",
+      "section_id": "sec_9227209d430efdbe3360",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 45,
+        "normalized_start": 0,
+        "raw_end": 45,
+        "raw_start": 0,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "cdb62c421dd3a7b0d90a79956dde8fc9121e25966249be7e9cc7eb3057810154"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_4c7cd691a766c45fdea2",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2010  ( ﻟﻌﺎم17) وﻓﻖ أﺣﻜﺎم ﻗﺎﻧﻮن اﻟﻌﻤﻞ اﻟﺴﻮري رﻗﻢ",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_847b482dccf60cc0448e",
+            "normalized_end": 1423,
+            "normalized_start": 97,
+            "raw_end": 1423,
+            "raw_start": 97,
+            "source_id": "src_9cbb508bb34760770e6f",
+            "text_sha256": "8052d91cc99d1bfcc434dee43008b21376e0817c958f01ff8903fd7cac84d0a6"
+          },
+          "text": "اﻟﻄﺮف اﻷول: ﺑﺎﺳﻢ اﻟﺸﺮﻛﺔ أو اﻟﻤﺆﺳﺴﺔ واﻟﻤﻔﻮض ﺑﺎﻟﺘﻮﻗﯿﻌﻌﻨﻬﺎ اﻟﻤﺪﯾﺮ اﻟﻌﺎم ﺑﺤﻤﻞ اﻟﺒﻄﺎﻗﺔ اﻟﺸﺨﺼﯿﺔ  \nاﻟﺼﺎدرة ﻋﻦ أﻣﺎﻧﺔ اﻟﺴﺠﻞ ...... اﻟﻌﺎم ﺑﺘﺎرﯾﺦ// \nرﻗﻤﻪ اﻟﻮﻃﻨﻲ .......... اﻟﻤﺪﻧﻲ................  \nاﻟﻌﻨﻮان ﻓﻲ ﻣﻌﺮض ﺗﻨﻔﯿﺬ ﻫﺬا اﻟﻌﻘﺪ. \nاﻟﻄﺮف اﻟﺜﺎﻧﻲ: .............. ﻣﻦ اﻟﺠﻨﺴﯿﺔ اﻟﻌﺮﺑﯿﺔ اﻟﺴﻮرﯾﺔ وﯾﺤﻤﻞ اﻟﺒﻄﺎﻗﺔ اﻟﺸﺨﺼﯿﺔ ............  \nاﻟﺼﺎدرة ﻋﻦ أﻣﺎﻧﺔ اﻟﺴﺠﻞ اﻟﻤﺪﻧﻲ ﻓﻲ ................ ﺑﺘﺎرﯾﺦ// \nاﻟﻌﻨﻮان ﻓﻲ ﻣﻌﺮض ﺗﻨﻔﯿﺬ ﻫﺬا اﻟﻌﻘﺪ\nﻣﻘﺪﻣﺔ اﻟﻌﻘﺪ\nﻟﻤﺎ ﻛﺎن اﻟﻔﺮﯾﻖ اﻷول ﺑﺼﻔﺘﻪ اﻟﻤﺒﯿﻨﺔ آﻧﻔﺎً، ﯾﺮﻏﺐ ﺑﺎﻟﺘﻌﺎﻗﺪ ﻣﻊ اﻟﻔﺮﯾﻖ اﻟﺜﺎﻧﻲ ﻟﻠﻌﻤﻞ ﻓﻲ اﻟﻤﻨﺸﺄة اﻟﻤﺬﻛﻮرة،  \nوﻛﺎن اﻟﻔﺮﯾﻖ اﻟﺜﺎﻧﻲ ﯾﺮﻏﺐ ﺑﺬﻟﻚ ﺑﻤﻬﻨﺔ )( وﻗﺪ اﻃﻠﻊ اﻟﻔﺮﯾﻖ اﻟﺜﺎﻧﻲ ﻋﻠﻰ اﻧﻈﻤﺔ اﻟﻌﻤﻞ اﻟﻨﺎﻓﺬة ﻟﺪﯾﻬﺎ وﻗﺒﻞ  \n/ب ﻣﻦ ﻗﺎﻧﻮن اﻟﻌﻤﻞ اﻟﺴﻮري( 4 ﺑﻬﺎ )ﻣﻊ ﻣﺮاﻋﺎة أﺣﻜﺎم اﻟﻤﺎدة. \nاﺗﻔﻖ اﻟﻔﺮﯾﻘﺎن ﻋﻠﻰ ﻣﺎ ﯾﻠﻲ: \n- ﺗﻌﺘﺒﺮ ﻣﻘﺪﻣﺔ ﻫﺬا اﻟﻌﻘﺪ ﺟﺰء ﻻ ﯾﺘﺠﺰأ ﻣﻨﻪ 1- ﻣﺎدة.\n- ﺗﺒﺪأ ﻣﺪة ﻫﺬا اﻟﻌﻘﺪ ﺑﺘﺎرﯾﺦ//وﺗﻨﺘﻬﻲ ﺑﺘﺎرﯾﺦ 2- ﻣﺎدة//\n- ﺗﻌﺘﺒﺮ اﻟﺜﻼﺛﺔ اﺷﻬﺮ اﻷوﻟﻰ ﻣﻦ ﻋﻤﻞ اﻟﻄﺮف اﻟﺜﺎﻧﻲ ﻣﺪة اﺧﺘﺒﺎر ﻻ ﯾﺠﻮز ﺗﻜﺮارﻫﺎ أو زﯾﺎدﺗﻬﺎ 3- ﻣﺎدة \nوﻟﻜﻞ ﻣﻦ اﻟﻄﺮﻓﯿﻦ إﻧﻬﺎء اﻟﻌﻘﺪ ﺧﻼل ﻫﺬه اﻟﻤﺪة دون أي إﺧﻄﺎر ﻣﺴﺒﻖ أو اﻟﺘﺰام ﺑﺘﻌﻮﯾﺾ وﻻ ﯾﺘﺮﺗﺐ  \nﻋﻠﻰ اﻟﻄﺮف اﻷول أي ﻣﺴﺆوﻟﯿﺔ ﻓﻲ ﺣﺎل إﻧﻬﺎء اﻟﻌﻘﺪ ﺧﻼل اﻟﻤﺪة اﻟﻤﺬﻛﻮرة. \n- )أ(- اﺗﻔﻖ اﻟﻄﺮﻓﺎن ﻋﻠﻰ ﺗﺤﺪﯾﺪ اﻷﺟﺮ اﻟﺸﻬﺮي ﻟﻠﻄﺮف اﻟﺜﺎﻧﻲ ﺑﻤﺒﻠﻎ وﻗﺪره )( ﻟﯿﺮة ﺳﻮرﯾﺔ 4- ﻣﺎدة \nﯾﺘﻘﺎﺿﺎه ﻓﻲ ﻣﻜﺎن ﻋﻤﻠﻪ ﺧﻼل ﺳﺎﻋﺎت اﻟﺪوام اﻟﺮﺳﻤﻲ ﻓﻲ ﻣﻮﻋﺪ ﻻ ﯾﺘﺠﺎوز اﻟﯿﻮم اﻟﺴﺎدس ﻣﻦ اﻟﺸﻬﺮي  \nاﻟﺘﺎﻟﻲ.\n(ب -)اﺗﻔﻖ اﻟﻄﺮﻓﺎن ﻋﻠﻰ ﻣﻨﺢ اﻟﻄﺮف اﻟﺜﺎﻧﻲ إﺿﺎﻓﺔ ﻟﻸﺟﺮ اﻟﺸﻬﺮي اﻟﻤﺰاﯾﺎ اﻟﻨﻘﺪﯾﺔ أو اﻟﻌﯿﻨﯿﺔ اﻟﺘﺎﻟﯿﺔ:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2010  ( ﻟﻌﺎم17) وﻓﻖ أﺣﻜﺎم ﻗﺎﻧﻮن اﻟﻌﻤﻞ اﻟﺴﻮري رﻗﻢ",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 96,
+        "normalized_start": 48,
+        "raw_end": 96,
+        "raw_start": 48,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "191213e8751af95a536db4c3040b7fe30d2bcd202534cccaf508e4695232f834"
+      },
+      "kind": "unclassified",
+      "order": 2,
+      "requirement_status": "unspecified",
+      "section_id": "sec_07bfa6a3bcd06853197c",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 1423,
+        "normalized_start": 48,
+        "raw_end": 1423,
+        "raw_start": 48,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "b6be1aff2674a5dd501b6f183c656033eaf939ceaf77c6e60e36f403d829a67a"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_ef07656e2c7fae1f7b7c",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2-ﺗﻌﻮﯾﺾ ﻃﺒﯿﻌﺔ اﻟﻌﻤﻞ ﻟﻤﻦ ﯾﻌﻤﻞ ﻓﻲ اﻷﻗﺴﺎم اﻟﺘﻲ ﯾﻤﻨﺢ اﻟﻌﺎﻣﻠﻮن ﺑﻬﺎ ﻫﺬا اﻟﺘﻌﻮﯾﺾ ووﻓﻖ اﻷﺳﺲ",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_847b482dccf60cc0448e",
+            "normalized_end": 105,
+            "normalized_start": 86,
+            "raw_end": 105,
+            "raw_start": 86,
+            "source_id": "src_9cbb508bb34760770e6f",
+            "text_sha256": "624d2fe63d77069342f1f65eb3fd2ac49e9c0ddcc02d868365756139ab0c6eec"
+          },
+          "text": "اﻟﺼﺎدرة ﺑﻬﺬا اﻟﺸﺄن.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2-ﺗﻌﻮﯾﺾ ﻃﺒﯿﻌﺔ اﻟﻌﻤﻞ ﻟﻤﻦ ﯾﻌﻤﻞ ﻓﻲ اﻷﻗﺴﺎم اﻟﺘﻲ ﯾﻤﻨﺢ اﻟﻌﺎﻣﻠﻮن ﺑﻬﺎ ﻫﺬا اﻟﺘﻌﻮﯾﺾ ووﻓﻖ اﻷﺳﺲ",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 85,
+        "normalized_start": 0,
+        "raw_end": 85,
+        "raw_start": 0,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "f5f64d9872adbcdc6fb2ecb857505879c0faa9877ccf25f33ad278ddf97087b4"
+      },
+      "kind": "unclassified",
+      "order": 3,
+      "requirement_status": "unspecified",
+      "section_id": "sec_2509c83bb0e70d933fd6",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 105,
+        "normalized_start": 0,
+        "raw_end": 105,
+        "raw_start": 0,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "e47a5a7cee67d48ecc285e56a81c6e605dfb0e417506910392fe13ef3435c796"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_a941186605d80b0b7e11",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3-ﺗﻌﻮﯾﺾ اﻟﻤﻨﺤﺔ اﻟﺸﻬﺮﯾﺔ وﻓﻖ اﻷﺳﺲ اﻟﻤﻌﻤﻮل ﺑﻬﺎ ﻓﻲ اﻟﺸﺮﻛﺔ وﺗﺴﺘﺤﻖ ﻣﻦ اﻟﺸﻬﺮ اﻟﺘﺎﻟﻲ ﻟﻤﺒﺎﺷﺮة",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_847b482dccf60cc0448e",
+            "normalized_end": 200,
+            "normalized_start": 194,
+            "raw_end": 200,
+            "raw_start": 194,
+            "source_id": "src_9cbb508bb34760770e6f",
+            "text_sha256": "297f94475a87e7a38776dffa99562b35dbe55f31a2d32a2847f383fa82459566"
+          },
+          "text": "اﻟﻌﻤﻞ.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3-ﺗﻌﻮﯾﺾ اﻟﻤﻨﺤﺔ اﻟﺸﻬﺮﯾﺔ وﻓﻖ اﻷﺳﺲ اﻟﻤﻌﻤﻮل ﺑﻬﺎ ﻓﻲ اﻟﺸﺮﻛﺔ وﺗﺴﺘﺤﻖ ﻣﻦ اﻟﺸﻬﺮ اﻟﺘﺎﻟﻲ ﻟﻤﺒﺎﺷﺮة",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 193,
+        "normalized_start": 107,
+        "raw_end": 193,
+        "raw_start": 107,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "26a4f6a3f7a3375b2b176f46c3be61fc5ec5b4721ced71f3e0e23caf2e166922"
+      },
+      "kind": "unclassified",
+      "order": 4,
+      "requirement_status": "unspecified",
+      "section_id": "sec_5e0521c02cb68168c85a",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 200,
+        "normalized_start": 107,
+        "raw_end": 200,
+        "raw_start": 107,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "b4eb3a30273e5b6fecb4fee170c22a394b08f679efa543b789a8e7ff205a4ef8"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_166e248d6d82fde5f16d",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4-أﯾﺔ ﺗﻌﻮﯾﻀﺎت أﺧﺮى ﺗﺼﺪر ﻓﻲ ﺣﯿﻨﻬﺎ.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_847b482dccf60cc0448e",
+            "normalized_end": 1696,
+            "normalized_start": 236,
+            "raw_end": 1696,
+            "raw_start": 236,
+            "source_id": "src_9cbb508bb34760770e6f",
+            "text_sha256": "b397c75a8c9ca72b8df3ba9e8b68e956cf57ec4151a787afd53c5fe7325b14fa"
+          },
+          "text": "( ﺳﺎﻋﺎت ﯾﻮﻣﯿﺎً ﻻ 8) - )أ(- اﺗﻔﻖ اﻟﻄﺮﻓﺎن ﻋﻠﻰ ﺗﺤﺪﯾﺪ ﺳﺎﻋﺎت اﻟﺘﺸﻐﯿﻞ اﻟﻔﻌﻠﻲ ﻟﻠﻄﺮف اﻟﺜﺎﻧﻲ ﺑـ 5- ﻣﺎدة \nﺗﺪﺧﻞ ﻓﯿﻬﺎ اﻟﻔﺘﺮات اﻟﻤﺨﺼﺼﺔ ﻟﻠﻄﻌﺎم أو اﻟﺮاﺣﺔ. وأﻻّ ﺗﺘﺠﺎوز ﺳﺎﻋﺎت اﻟﺘﺸﻐﯿﻞ اﻟﻔﻌﻠﻲ اﻟﻤﺘﻔﻖ ﻋﻠﯿﻬﺎ  \n( ﺳﺎﻋﺔ اﺳﺒﻮﻋﯿﺎً، ﻛﻤﺎ ﯾﺠﺐ ﻋﻠﻰ اﻟﻄﺮف اﻷول ﺗﻨﻈﯿﻢ ﺳﺎﻋﺎت اﻟﻌﻤﻞ وﻓﺘﺮات اﻟﺮاﺣﺔ ﻋﻠﻰ ﻧﺤﻮ 48)اﻟـ \nﺗﺤﻘﯿﻖ ﻋﺪم وﺟﻮد اﻟﻌﺎﻣﻞ ﻓﻲ ﻣﻜﺎن اﻟﻌﻤﻞ أﻛﺜﺮ ﻣﻦ ﻋﺸﺮ ﺳﺎﻋﺎت ﻓﻲ اﻟﯿﻮم اﻟﻮاﺣﺪ. \n(ب -)( ﻣﻦ ﻗﺎﻧﻮن اﻟﻌﻤﻞ 107) ﯾﺠﻮز زﯾﺎدة ﺳﺎﻋﺎت اﻟﻌﻤﻞ اﻟﯿﻮﻣﻲ إﻟﻰ ﺗﺴﻊ ﺳﺎﻋﺎت وﻓﻖ أﺣﻜﺎم اﻟﻤﺎدة  \nاﻟﺴﻮري. \n/ ﻣﻦ ﻗﺎﻧﻮن اﻟﻌﻤﻞ ﯾﺠﻮز ﻟﻠﻄﺮف اﻷول ﻧﻘﻞ ﻋﻤﻞ اﻟﻄﺮف اﻟﺜﺎﻧﻲ 52/ - ﻣﻊ ﻣﺮاﻋﺎة أﺣﻜﺎم اﻟﻤﺎدة 6- ﻣﺎدة \nﻣﻦ ﻣﻜﺎن اﻟﻌﻤﻞ اﻟﻤﺘﻔﻖ ﻋﻠﯿﻪ إﻟﻰ ﻣﻜﺎن آﺧﺮ ﯾﻌﻮد ﻟﻠﻄﺮف اﻷول. \n- )أ( –ﯾﺠﻮز ﻟﻠﻄﺮف اﻷول ﻓﻲ اﻟﻌﻘﻮد اﻟﻤﺤﺪدة أن ﯾﻨﻬﻲ ﻫﺬا اﻟﻌﻘﺪ ﻓﻲ أي وﻗﺖ ﺧﻼل ﻣﺪة 7- ﻣﺎدة \nﺳﺮﯾﺎﻧﻪ ﺷﺮﯾﻄﺔ أن ﯾﺪﻓﻊ ﻟﻠﻄﺮف اﻟﺜﺎﻧﻲ أﺟﻮره ﻋﻦ اﻟﻤﺪة اﻟﻤﺘﺒﻘﯿﺔ ﻣﻦ اﻟﻌﻘﺪ. \n(ب-)ﯾﺠﻮز ﻟﻠﻄﺮف اﻟﺜﺎﻧﻲ ﻓﻲ اﻟﻌﻘﺪ اﻟﻤﺤﺪد اﻟﻤﺪة أن ﯾﻨﻬﻲ ﻫﺬا اﻟﻌﻘﺪ ﺧﻄﯿﺎً ﻓﻲ أي وﻗﺖ ﺷﺮﯾﻄﺔ إﺧﻄﺎر  \nاﻟﻄﺮف اﻷول ﺑﺬﻟﻚ ﻗﺒﻞ ﺷﻬﺮﯾﻦ ﻣﻦ اﻟﻤﻮﻋﺪ اﻟﺬي ﺣﺪده ﻟﻼﻧﺘﻬﺎء ﺗﺤﺖ ﻃﺎﺋﻠﺔ دﻓﻊ ﺗﻌﻮﯾﺾ إﻟﻰ اﻟﻄﺮف  \nاﻷول ﯾﻌﺎدل ﺑﺪل أﺟﺮ اﻟﻄﺮف اﻟﺜﺎﻧﻲ ﻋﻦ ﻣﺪة اﻹﺧﻄﺎر أو اﻟﺠﺰء اﻟﺒﺎﻗﻲ ﻣﻨﻬﺎ. \n- ﯾﺤﻖ ﻟﻠﻄﺮف اﻷول إﻧﻬﺎء ﻋﻘﺪ اﻟﻌﻤﻞ ﺳﻮاء أﻛﺎن ﻣﺤﺪد اﻟﻤﺪة أو ﻏﯿﺮ ﻣﺤﺪد اﻟﻤﺪة أو ﻹﻧﺠﺎز 8- ﻣﺎدة \nﻋﻤﻞ ﻣﻌﯿﻦ دون إﺧﻄﺎر أو ﻣﻜﺎﻓﺄة أو ﺗﻌﻮﯾﺾ ﻓﻲ ﺣﺎل ﺛﺒﻮت ارﺗﻜﺎب اﻟﻄﺮف اﻟﺜﺎﻧﻲ ﻣﺨﺎﻟﻔﺔ ﻣﻦ  \n/ ﻣﻦ ﻗﺎﻧﻮن اﻟﻌﻤﻞ 64/ اﻟﻤﺨﺎﻟﻔﺎت اﻟﻤﺤﺪدة ﻓﻲ ﻧﺺ اﻟﻤﺎدة. \n- ﯾﺠﻮز ﻟﻠﻄﺮف اﻟﺜﺎﻧﻲ ﺗﺮك اﻟﻌﻤﻞ ﻗﺒﻞ ﻧﻬﺎﯾﺔ اﻟﻌﻘﺪ وﺑﺪون إﺧﻄﺎر ﺻﺎﺣﺐ اﻟﻌﻤﻞ ﻓﻲ اﻟﺤﺎﻻت 9- ﻣﺎدة \n/ ﻣﻦ ﻗﺎﻧﻮن اﻟﻌﻤﻞ وﻟﻪ أن ﯾﺮﻓﻊ ﺿﺪ اﻟﻄﺮف اﻷول دﻋﻮى ﺗﺴﺮﯾﺢ ﻏﯿﺮ ﻣﺒﺮر 66/ اﻟﻤﺤﺪدة ﻓﻲ اﻟﻤﺎدة  \nأﻣﺎم اﻟﻘﻀﺎء وﯾﻘﻊ ﻋﻠﯿﻪ ﻋﺐء إﺛﺒﺎت وﻗﻮع اﻟﺤﺎﻟﺔ اﻟﺘﻲ ﯾﺴﺘﻨﺪ إﻟﯿﻬﺎ.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4-أﯾﺔ ﺗﻌﻮﯾﻀﺎت أﺧﺮى ﺗﺼﺪر ﻓﻲ ﺣﯿﻨﻬﺎ.",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 235,
+        "normalized_start": 201,
+        "raw_end": 235,
+        "raw_start": 201,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "d8069615dcbd2e9e1f2d7f07e5a4a82790b3625bfc40e527e927a8ea6b53bdad"
+      },
+      "kind": "unclassified",
+      "order": 5,
+      "requirement_status": "unspecified",
+      "section_id": "sec_33044dff98f3c97153fa",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 1696,
+        "normalized_start": 201,
+        "raw_end": 1696,
+        "raw_start": 201,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "e8a7a0dc7079e03cf0718e7af11b3c5d73d8ed1b95d300379c7701ae6856d005"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_cf82f8526bb68310e17b",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1. اﻹﺟﺎزة اﻟﺴﻨﻮﯾﺔ",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_847b482dccf60cc0448e",
+            "normalized_end": 17,
+            "normalized_start": 0,
+            "raw_end": 17,
+            "raw_start": 0,
+            "source_id": "src_9cbb508bb34760770e6f",
+            "text_sha256": "af454efc06661e29a82c3f780bdebf5056a5f13e02bbbdd26716f445315f857a"
+          },
+          "text": "1. اﻹﺟﺎزة اﻟﺴﻨﻮﯾﺔ",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1. اﻹﺟﺎزة اﻟﺴﻨﻮﯾﺔ",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 17,
+        "normalized_start": 0,
+        "raw_end": 17,
+        "raw_start": 0,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "af454efc06661e29a82c3f780bdebf5056a5f13e02bbbdd26716f445315f857a"
+      },
+      "kind": "unclassified",
+      "order": 6,
+      "requirement_status": "unspecified",
+      "section_id": "sec_6d214712c058a823946a",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 17,
+        "normalized_start": 0,
+        "raw_end": 17,
+        "raw_start": 0,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "af454efc06661e29a82c3f780bdebf5056a5f13e02bbbdd26716f445315f857a"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_46ee5c1508be590969d5",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2. إﺟﺎزة اﻷﻋﯿﺎد واﻟﻤﻨﺎﺳﺒﺎت اﻟﺮﺳﻤﯿﺔ",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_847b482dccf60cc0448e",
+            "normalized_end": 52,
+            "normalized_start": 18,
+            "raw_end": 52,
+            "raw_start": 18,
+            "source_id": "src_9cbb508bb34760770e6f",
+            "text_sha256": "6521f102801a35a2d8ac4ffc75bd85e85431eadfb97ea4ebed6a37d563641760"
+          },
+          "text": "2. إﺟﺎزة اﻷﻋﯿﺎد واﻟﻤﻨﺎﺳﺒﺎت اﻟﺮﺳﻤﯿﺔ",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2. إﺟﺎزة اﻷﻋﯿﺎد واﻟﻤﻨﺎﺳﺒﺎت اﻟﺮﺳﻤﯿﺔ",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 52,
+        "normalized_start": 18,
+        "raw_end": 52,
+        "raw_start": 18,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "6521f102801a35a2d8ac4ffc75bd85e85431eadfb97ea4ebed6a37d563641760"
+      },
+      "kind": "unclassified",
+      "order": 7,
+      "requirement_status": "unspecified",
+      "section_id": "sec_2b6c6272440134dde63a",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 52,
+        "normalized_start": 18,
+        "raw_end": 52,
+        "raw_start": 18,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "6521f102801a35a2d8ac4ffc75bd85e85431eadfb97ea4ebed6a37d563641760"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_29cd04c98ac300a2ba66",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3. اﻹﺟﺎزة اﻟﻤﺮﺿﯿﺔ",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_847b482dccf60cc0448e",
+            "normalized_end": 70,
+            "normalized_start": 53,
+            "raw_end": 70,
+            "raw_start": 53,
+            "source_id": "src_9cbb508bb34760770e6f",
+            "text_sha256": "b4db7b2c71fb1799faf5922d8f1dc33c441badae797d2f9ede0fbc66bfbd5f5e"
+          },
+          "text": "3. اﻹﺟﺎزة اﻟﻤﺮﺿﯿﺔ",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3. اﻹﺟﺎزة اﻟﻤﺮﺿﯿﺔ",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 70,
+        "normalized_start": 53,
+        "raw_end": 70,
+        "raw_start": 53,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "b4db7b2c71fb1799faf5922d8f1dc33c441badae797d2f9ede0fbc66bfbd5f5e"
+      },
+      "kind": "unclassified",
+      "order": 8,
+      "requirement_status": "unspecified",
+      "section_id": "sec_2895111ee6ee2d153d02",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 70,
+        "normalized_start": 53,
+        "raw_end": 70,
+        "raw_start": 53,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "b4db7b2c71fb1799faf5922d8f1dc33c441badae797d2f9ede0fbc66bfbd5f5e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_85b9719d76f0ca6b3139",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4. اﻹﺟﺎزات اﻟﺪراﺳﯿﺔ واﻟﺪورات اﻟﺘﺪرﯾﺒﯿﺔ واﻹﺟﺎزة ﺑﻼ أﺟﺮ",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_847b482dccf60cc0448e",
+            "normalized_end": 124,
+            "normalized_start": 71,
+            "raw_end": 124,
+            "raw_start": 71,
+            "source_id": "src_9cbb508bb34760770e6f",
+            "text_sha256": "28235716cb6f4c58dd5de301135e78032565039ef52b1d6c0a61340626eede82"
+          },
+          "text": "4. اﻹﺟﺎزات اﻟﺪراﺳﯿﺔ واﻟﺪورات اﻟﺘﺪرﯾﺒﯿﺔ واﻹﺟﺎزة ﺑﻼ أﺟﺮ",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4. اﻹﺟﺎزات اﻟﺪراﺳﯿﺔ واﻟﺪورات اﻟﺘﺪرﯾﺒﯿﺔ واﻹﺟﺎزة ﺑﻼ أﺟﺮ",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 124,
+        "normalized_start": 71,
+        "raw_end": 124,
+        "raw_start": 71,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "28235716cb6f4c58dd5de301135e78032565039ef52b1d6c0a61340626eede82"
+      },
+      "kind": "unclassified",
+      "order": 9,
+      "requirement_status": "unspecified",
+      "section_id": "sec_a4dc4c1e6e68a2e73663",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 124,
+        "normalized_start": 71,
+        "raw_end": 124,
+        "raw_start": 71,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "28235716cb6f4c58dd5de301135e78032565039ef52b1d6c0a61340626eede82"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_f78636b1ce2d47133fae",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5. إﺟﺎزات اﻟﺤﺞ واﻟﺰواج واﻟﻮﻓﺎة- ﻻ ﯾﺠﻮز ﻟﻠﻄﺮف اﻷول أن ﯾﺴﺮح اﻟﻄﺮف اﻟﺜﺎﻧﻲ ﻷي ﺳﺒﺐ ﻣﻦ اﻷﺳﺒﺎب ﻏﯿﺮ اﻟﻤﺤﺪدة ﻓﻲ 10- ﻣﺎدة",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_847b482dccf60cc0448e",
+            "normalized_end": 1679,
+            "normalized_start": 238,
+            "raw_end": 1679,
+            "raw_start": 238,
+            "source_id": "src_9cbb508bb34760770e6f",
+            "text_sha256": "53b4b1a26eb8d46847b8705194e10821c1f4e1b907f5ca08d6b7933e9407235c"
+          },
+          "text": "/ ﻣﻦ ﻗﺎﻧﻮن اﻟﻌﻤﻞ ﺗﺤﺖ ﻃﺎﺋﻠﺔ اﻋﺘﺒﺎر اﻟﺘﺴﺮﯾﺢ ﻏﯿﺮ ﻣﺒﺮر 67/ اﻟﻤﺎدة. \n- ﯾﺴﺄل اﻟﻄﺮف اﻟﺜﺎﻧﻲ ﺗﺄدﯾﺒﯿﺎً ﻓﻲ ﺣﺎل ﻣﺨﺎﻟﻔﺘﻪ واﺟﺒﺎﺗﻪ ﺑﻤﻮﺟﺐ ﻗﺎﻧﻮن اﻟﻌﻤﻞ أو ﻋﻘﺪ اﻟﻌﻤﻞ أو 11- ﻣﺎدة \nاﻟﻨﻈﺎم اﻟﺪاﺧﻠﻲ ﻟﻠﻌﻤﻞ وذﻟﻚ وﻓﻖ ﻻﺋﺤﺔ اﻟﺠﺰاءات وأﺣﻜﺎم اﻟﻔﺼﻞ اﻟﺮاﺑﻊ ﻣﻦ اﻟﺒﺎب اﻟﺴﺎدس ﻣﻦ ﻗﺎﻧﻮن  \nاﻟﻌﻤﻞ.\n/ أﯾﺎم6/  ﺳﺎﻋﺔ ﻣﺘﻮاﺻﻠﺔ ﺑﻌﺪ 24 - )أ(ﯾﺴﺘﺤﻖ اﻟﻄﺮف اﻟﺜﺎﻧﻲ راﺣﺔ اﺳﺒﻮﻋﯿﺔ ﻣﺄﺟﻮرة ﻣﺪﺗﻬﺎ 12- ﻣﺎدة \nﻋﻤﻞ ﻣﺘﻮاﺻﻠﺔ. \n(ب)إذا دﻋﺖ اﻟﺤﺎﺟﺔ اﻟﻄﺮف اﻷول ﻟﺘﺸﻐﯿﻞ اﻟﻄﺮف اﻟﺜﺎﻧﻲ ﻓﻲ ﯾﻮم اﻟﺮاﺣﺔ اﻻﺳﺒﻮﻋﯿﺔ ﯾﺴﺘﺤﻖ اﻟﻄﺮف  \nاﻟﺜﺎﻧﻲ إﺿﺎﻓﺔ ﻷﺟﺮه اﻟﯿﻮﻣﻲ ﻣﺜﻞ اﻷﺟﺮ وﯾﻮم راﺣﺔ ﺑﺪﯾﻞ ﺧﻼل اﻻﺳﺒﻮع اﻟﺘﺎﻟﻲ. \n- )أ(ﯾﺴﺘﺤﻖ اﻟﻄﺮف اﻟﺜﺎﻧﻲ اﻹﺟﺎزات اﻟﺘﺎﻟﯿﺔ وﻓﻖ أﺣﻜﺎم ﻗﺎﻧﻮن اﻟﻌﻤﻞ اﻟﻨﺎﻇﻤﺔ ﻻﺳﺘﺤﻘﺎﻗﻬﺎ 13- ﻣﺎدة:\n(ب)إذا اﻗﺘﻀﺖ ﻇﺮوف اﻟﻌﻤﻞ ﺗﺸﻐﯿﻞ اﻟﻄﺮف اﻟﺜﺎﻧﻲ ﻓﻲ أﯾﺎم إﺟﺎزة اﻷﻋﯿﺎد واﻟﻤﻨﺎﺳﺒﺎت اﻟﺮﺳﻤﯿﺔ  \nﯾﺴﺘﺤﻖ اﻟﻄﺮف اﻟﺜﺎﻧﻲ إﺿﺎﻓﺔ ﻷﺟﺮه اﻟﯿﻮﻣﻲ ﻣﺜﻠﻲ اﻷﺟﺮ. \n         - ﻣﺤﻜﻤﺔ اﻟﺒﺪاﯾﺔ اﻟﻤﺪﻧﯿﺔ ﻓﻲ ﻣﺮﻛﺰ اﻟﻤﺤﺎﻓﻈﺔ اﻟﺘﻲ ﺗﻘﻊ ﻓﯿﻬﺎ اﻟﻤﻨﺸﺄة ﻫﻲ اﻟﻤﺨﺘﺼﺔ ﻓﻲ 14- ﻣﺎدة \nﺗﺴﻮﯾﺔ  اﻟﻨﺰاﻋﺎت اﻟﺘﻲ ﺗﻨﺸﺄ ﺑﯿﻦ ﻃﺮﻓﻲ ﻫﺬا اﻟﻌﻘﺪ ﺣﻮل ﺗﻄﺒﯿﻖ ﺷﺮوﻃﻪ وأﺣﻜﺎم ﻗﺎﻧﻮن اﻟﻌﻤﻞ. \n- ﯾﺠﺐ أن ﯾﺘﻀﻤﻦ اﻟﻌﻘﺪ ﺣﻘﻮق وواﺟﺒﺎت اﻟﻄﺮﻓﯿﻦ وﯾﺮﺟﻊ ﻓﻲ ﺷﺄن ﻣﺎ ﺗﻀﻤﻨﻪ، وﻓﯿﻤﺎ ﻟﻢ ﯾﺮد 15- ﻣﺎدة \n اﻟﺘﻲ ﺗﻌﺘﺒﺮ دﻟﯿﻼً ﻟﺤﻘﻮق اﻟﻌﻤﺎل 2010  ( ﻟﻌﺎم17) ﻋﻠﯿﻪ ﻧﺺ ﻓﯿﻪ إﻟﻰ أﺣﻜﺎم ﻗﺎﻧﻮن اﻟﻌﻤﻞ رﻗﻢ  \nاﻟﻤﺸﻤﻮﻟﯿﻦ ﺑﺄﺣﻜﺎﻣﻪ ﻓﻼ ﯾﺠﻮز اﻟﺘﻨﺎزل ﻋﻨﻬﺎ. \n        - ﻧﻈﻢ ﻫﺬا اﻟﻌﻘﺪ ﻋﻠﻰ  ﺛﻼث ﻧﺴﺦ، ﻧﺴﺨﺔ ﻟﻜﻞ ﻣﻦ اﻟﻄﺮﻓﯿﻦ وﯾﻠﺘﺰم اﻟﻄﺮف اﻷول إﯾﺪاع 16- ﻣﺎدة \nاﻟﻨﺴﺨﺔ اﻟﺜﺎﻟﺜﺔ ﻟﺪى ﻣﺪﯾﺮﯾﺔ اﻟﺘﺄﻣﯿﻨﺎت اﻻﺟﺘﻤﺎﻋﯿﺔ ﻓﻲ اﻟﻤﺤﺎﻓﻈﺔ اﻟﺘﻲ ﺗﻘﻊ ﻓﯿﻬﺎ اﻟﻤﻨﺸﺄة ، ﺧﻼل ﺛﻼﺛﺔ أﺷﻬﺮ  \nﻣﻦ ﺗﺎرﯾﺦ ﺗﺤﺮﯾﺮ اﻟﻌﻘﺪ )وﻋﻠﻰ ﺻﺎﺣﺐ اﻟﻌﻤﻞ ﺗﻨﻈﯿﻢ ﻧﺴﺨﺔ ﻋﻦ ﻋﻘﺪ اﻟﻌﻤﻞ ﺑﺎﻟﻠﻐﺔ اﻷﺟﻨﺒﯿﺔ ﻓﻲ ﺣﺎل ﻛﺎن  \nاﻟﻌﺎﻣﻞ اﻟﻤﺘﻌﺎﻗﺪ ﻏﯿﺮ ﻋﺮﺑﻲ(.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5. إﺟﺎزات اﻟﺤﺞ واﻟﺰواج واﻟﻮﻓﺎة- ﻻ ﯾﺠﻮز ﻟﻠﻄﺮف اﻷول أن ﯾﺴﺮح اﻟﻄﺮف اﻟﺜﺎﻧﻲ ﻷي ﺳﺒﺐ ﻣﻦ اﻷﺳﺒﺎب ﻏﯿﺮ اﻟﻤﺤﺪدة ﻓﻲ 10- ﻣﺎدة",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 237,
+        "normalized_start": 125,
+        "raw_end": 237,
+        "raw_start": 125,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "2f074d8bdb8128f0d57ab824db716122c980380b61d7d3e5e356e7bbbe50d668"
+      },
+      "kind": "unclassified",
+      "order": 10,
+      "requirement_status": "unspecified",
+      "section_id": "sec_994a6ca53d0bd1086f84",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 1679,
+        "normalized_start": 125,
+        "raw_end": 1679,
+        "raw_start": 125,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "ffd3ddfaefed037f73196aef4f701aded1d9f1df19ae556662fa09a2be191764"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "extracted_text_sha256": "273d5ed51866b43a24b830ad0fb48e0f5a8961ba0d3830ee23fdf5007b945fd9",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 4,
+      "relative_path": "templates/Syria/نموذج عقد عمل فرد مع شركة.pdf",
+      "sha256": "6f9c0484815baf2a3d85d22311158ee87af87bbf965b5c44cad42445c5095334",
+      "size_bytes": 54857,
+      "source_id": "src_9cbb508bb34760770e6f"
+    }
+  ],
+  "template_id": "tpl_cf4badd918adc47889b6",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_04cf460919d0f268e5fb",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_847b482dccf60cc0448e",
+        "normalized_end": 264,
+        "normalized_start": 0,
+        "raw_end": 264,
+        "raw_start": 0,
+        "source_id": "src_9cbb508bb34760770e6f",
+        "text_sha256": "494346d48cd5bd3af666815d0e64573191d4d82a580a55ff0d3659259284b573"
+      },
+      "text": "ﺣﺮر ﻓﻲ    /    /         م اﻟﻤﻮاﻓﻘﺔ ﻟــ     /         /             ﻫـ\nاﻟﻄﺮف اﻷول                                                                         اﻟﻄﺮف اﻟﺜﺎﻧﻲ\nاﻻﺳﻢ واﻟﺘﻮﻗﯿﻊ                                                                       اﻻﺳﻢ واﻟﺘﻮﻗﯿﻊ"
+    }
+  ],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

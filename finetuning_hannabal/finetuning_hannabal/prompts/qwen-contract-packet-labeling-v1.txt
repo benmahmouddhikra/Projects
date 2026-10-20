@@ -1,0 +1,17 @@
+Label one compact Hannibal contract packet.
+
+Return only JSON matching the supplied qwen-contract-label-response-v1 schema.
+
+The packet is source text selected by deterministic code. You may label only the
+existing packet_id, template_id, section_id, clause_ids, and variable_ids. Do not
+return source text, offsets, new clauses, new variables, parties, jurisdictions,
+legal citations, conditions, laws, or any field outside the schema.
+
+Use one of the supplied controlled section kinds. Use `unclassified` when the
+source does not clearly match a permitted kind. Use `unspecified` for a
+requirement status unless the source itself explicitly proves required,
+conditional, or optional. Do not infer a requirement merely because a clause is
+present. Classify every supplied clause and variable exactly once. Preserve
+`unknown` for a variable type when the text does not support a more precise type.
+
+INPUT_JSON:

@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:hannibal:schema:qwen-agent1-demo-proposal-v1",
+  "title": "Qwen proposal for one fictional Agent 1 demo input",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "template_id", "fact_mode", "document", "parties", "variable_bindings", "additional_facts", "warnings"],
+  "properties": {
+    "schema_version": {"const": "qwen-agent1-demo-proposal-v1"},
+    "template_id": {"type": "string", "pattern": "^tpl_[a-f0-9]{20}$"},
+    "fact_mode": {"enum": ["synthetic", "source_extracted"]},
+    "document": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type_contrat", "sous_type", "pays", "juridiction", "langue_contrat", "evidence_clause_ids", "evidence_content_ids"],
+      "properties": {
+        "type_contrat": {"type": ["string", "null"]},
+        "sous_type": {"type": ["string", "null"]},
+        "pays": {"type": ["string", "null"]},
+        "juridiction": {"type": ["string", "null"]},
+        "langue_contrat": {"type": ["string", "null"]},
+        "evidence_clause_ids": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^clause_[a-f0-9]{20}$"}
+        },
+        "evidence_content_ids": {
+          "type": "array",
+          "items": {"type": "string", "pattern": "^unparsed_[a-f0-9]{20}$"}
+        }
+      }
+    },
+    "parties": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["party_key", "name", "type", "role", "evidence_clause_ids", "evidence_content_ids"],
+        "properties": {
+          "party_key": {"type": "string", "pattern": "^party_[a-z0-9_]+$"},
+          "name": {"type": ["string", "null"]},
+          "type": {"enum": ["individu", "entreprise"]},
+          "role": {"type": "string", "minLength": 1},
+          "evidence_clause_ids": {
+            "type": "array",
+            "items": {"type": "string", "pattern": "^clause_[a-f0-9]{20}$"}
+          },
+          "evidence_content_ids": {
+            "type": "array",
+            "items": {"type": "string", "pattern": "^unparsed_[a-f0-9]{20}$"}
+          }
+        }
+      }
+    },
+    "variable_bindings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["variable_id", "value_type", "destination", "party_key", "status", "evidence_clause_ids", "evidence_content_ids"],
+        "properties": {
+          "variable_id": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+          "value_type": {
+            "enum": ["text", "date", "number", "money", "duration", "address", "identifier", "signature", "choice", "unknown"]
+          },
+          "destination": {
+            "enum": ["party_name", "party_contact", "informations_principales", "autres_informations", "missing"]
+          },
+          "party_key": {"type": ["string", "null"], "pattern": "^party_[a-z0-9_]+$"},
+          "status": {"enum": ["provided", "missing", "ambiguous"]},
+          "evidence_clause_ids": {
+            "type": "array",
+            "items": {"type": "string", "pattern": "^clause_[a-f0-9]{20}$"}
+          },
+          "evidence_content_ids": {
+            "type": "array",
+            "items": {"type": "string", "pattern": "^unparsed_[a-f0-9]{20}$"}
+          }
+        }
+      }
+    },
+    "additional_facts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["key", "destination", "party_key", "value", "evidence_clause_ids", "evidence_content_ids"],
+        "properties": {
+          "key": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+          "destination": {"enum": ["party_contact", "informations_principales", "autres_informations"]},
+          "party_key": {"type": ["string", "null"], "pattern": "^party_[a-z0-9_]+$"},
+          "value": {"type": ["string", "number", "boolean"]},
+          "evidence_clause_ids": {
+            "type": "array",
+            "items": {"type": "string", "pattern": "^clause_[a-f0-9]{20}$"}
+          },
+          "evidence_content_ids": {
+            "type": "array",
+            "items": {"type": "string", "pattern": "^unparsed_[a-f0-9]{20}$"}
+          }
+        }
+      }
+    },
+    "warnings": {"type": "array", "items": {"type": "string"}}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"fact_mode": {"const": "synthetic"}}},
+      "then": {
+        "properties": {
+          "parties": {
+            "items": {"properties": {"name": {"type": "null"}}}
+          },
+          "additional_facts": {"maxItems": 0}
+        }
+      }
+    }
+  ]
+}

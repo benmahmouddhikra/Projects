@@ -1,0 +1,1277 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_0daca5bf982b14efea0d",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "completed_contract",
+    "initial_document_kind": "completed_contract",
+    "languages": [
+      {
+        "basis": "script_detection",
+        "confidence": 0.0066,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 1971,
+            "normalized_start": 0,
+            "raw_end": 1971,
+            "raw_start": 0,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "b517b7ef289bdbdddb7993c6647114956333cb56caf999766ddd943718d050cf"
+          }
+        ],
+        "tag": "ar"
+      },
+      {
+        "basis": "deterministic_text_heuristic",
+        "confidence": 0.1777,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 1971,
+            "normalized_start": 0,
+            "raw_end": 1971,
+            "raw_start": 0,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "b517b7ef289bdbdddb7993c6647114956333cb56caf999766ddd943718d050cf"
+          }
+        ],
+        "tag": "en"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "completed",
+    "title": "ﻋﻘﺪ ﺍﻟﻌﻤﻞ  ﻟﻐﻴﺮ ﺍﻟﻌٌﻤﺎﻧﻴﻴﻦ",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 26,
+        "normalized_start": 0,
+        "raw_end": 26,
+        "raw_start": 0,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "910939c7c25212c1d98446c02a6da82b8bd7d587110e131f45191087bdef214b"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "completed_contract_heuristic_requires_review",
+        "message": "Contract-like filename without detected square-bracket placeholders was initially classified completed and requires human confirmation.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "required",
+    "structure_review_status": "pending",
+    "training_eligibility": "review_required"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_7aefb0e0a51af5bed4e0",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1383195 1383195 :ﺭﻗﻢ ﺍﻟﺴﺠﻞ ﺍﻟﺘﺠﺎﺭﻱ CR No:",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 1588,
+            "normalized_start": 420,
+            "raw_end": 1588,
+            "raw_start": 420,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "fa67c7d8470b6f9ae8b30782719b9e74b4ff78857314796ca62fffb455c11ebc"
+          },
+          "text": ":ﺍﻟﻌﻨﻮﺍﻥ Address:\n:ﺍﻟﻤﺤﺎﻓﻈﺔ ﻣﺤﺎﻓﻈﺔ ﺟﻨﻮﺏ ﺍﻟﺒﺎﻃﻨﺔ South Batinah Governorate:\n:ﺍﻟﻮﻻﻳﺔ ﺑـــﺮﻛـــﺎﺀ Barka Wilayat:\n:ﺭﻗﻢ ﺍﻟﻤﺒﻨﻰ ﺭﻗﻢ ﺍﻟﺴﻜﺔ: Way No: Building No:\n:ﺹ.ﺏ 357 :ﺍﻟﺮﻣﺰ ﺍﻟﺒﺮﻳﺪﻱ 320 320 P.C: 357 P.O. Box:\n:ﺍﻟﺒﺮﻳﺪ ﺍﻹﻟﻜﺘﺮﻭﻧﻲ saleh11z@icloud.com saleh11z@icloud.com E-Mail Address:\n(ﺍﻟﻄﺮﻑ ﺍﻟﺜﺎﻧﻲ )ﺍﻟﻌﺎﻣﻞ Second Party (Employee)\n:ﺍﻟﺮﻗﻢ ﺍﻟﻤﺪﻧﻲ 87461769 87461769 Civil Number:\nﻣﺤﻤﺪ ﻧﺰﻳﻢ ﺍﻟﺪﻳﻦ ﺍﻻﺳﻢ: MOHAMMED NEZAM UDDIN Name:\n:ﺍﻟﺠﻨﺴﻴﺔ ﺑﻨﻐﻼﺩﻳﺶ BANGLADESH Nationality:\nBirth Date: 24/06/1983 24/06/1983 :ﺗﺎﺭﻳﺦ ﺍﻟﻤﻴﻼﺩ\nﺍﻟﻤﺆﻫﻞ ﺍﻟﻌﻠﻤﻲ: Qualification:\nPassport Number: EH0102286 EH0102286 :ﺭﻗﻢ ﺟﻮﺍﺯ ﺍﻟﺴﻔﺮ\nDate Of Issue: 27/10/2020 27/10/2020 :ﺍﻟﺼﺎﺩﺭ ﺑﺘﺎﺭﻳﺦ\nIssued By: BANGLADESH ﺑﻨﻐﻼﺩﻳﺶ ﺍﻟﺼﺎﺩﺭ ﻣﻦ:\nPhone No: 95869505 95869505 :ﺭﻗﻢ ﺍﻟﻬﺎﺗﻒ\nﺭﻗﻢ ﺍﻟﺘﺮﺧﻴﺺ: 23/58978 23/58978 Clearance Number:\n:ﺭﻗﻢ ﺗﺼﺮﻳﺢ ﺍﻟﻌﻤﻞ 12267162 12267162 WP Number:\n:ﻣﻜﺎﻥ ﺍﻹﻗﺎﻣﺔ Place of residence:\n:ﺍﻟﻤﺤﺎﻓﻈﺔ ﻣﺤﺎﻓﻈﺔ ﺟﻨﻮﺏ ﺍﻟﺒﺎﻃﻨﺔ South Batinah Governorate:\n:ﺍﻟﻮﻻﻳﺔ ﺑـــﺮﻛـــﺎﺀ Barka Wilayat:\n:ﺍﻟﻘﺮﻳﺔ ﻗﺮﺣﺔ ﺍﻟﺒﻠﻮﺵ Baloch ulcer Village:\n:ﺭﻗﻢ ﺍﻟﻤﺒﻨﻰ Building No:\nStreet Name: :ﺍﺳﻢ ﺍﻟﺸﺎﺭﻉ\nﻣﻘﺮ ﺍﻟﻌﻤﻞ: Work Location Address:\n:ﺍﻟﻤﺤﺎﻓﻈﺔ ﻣﺤﺎﻓﻈﺔ ﺷﻤﺎﻝ ﺍﻟﺸﺮﻗﻴﺔ North Al-Sharqiya Governorate:\n:ﺍﻟﻮﻻﻳﺔ ﺍﻟﻤﻀﻴﺒﻲ Al-Mudhaibi Wilayat:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1383195 1383195 :ﺭﻗﻢ ﺍﻟﺴﺠﻞ ﺍﻟﺘﺠﺎﺭﻱ CR No:",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 419,
+        "normalized_start": 378,
+        "raw_end": 419,
+        "raw_start": 378,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "f80449ae405439a6c05730707bc0a1d5d60452ff51d7dbb070e41856f5ce5f6c"
+      },
+      "kind": "unclassified",
+      "order": 1,
+      "requirement_status": "unspecified",
+      "section_id": "sec_bb2b122ba8a337ce3bea",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 1588,
+        "normalized_start": 378,
+        "raw_end": 1588,
+        "raw_start": 378,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "e37cce0923e2e56144ecd298feae2cf9e6513e0dcf7d3c74728b0bb58e53e574"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_183dc7d8208f1e764190",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "660e3b13-9196-458c-8811-0b9cbfa1503d:ﻫﺬﻩ ﺍﻟﻮﺛﻴﻘﺔ ﻣﻮﻗﻌﺔ ﺇﻟﻜﺘﺮﻭﻧﻴﺎ ﻭﻣﺴﺠﻠﺔ ﻟﺪﻯ ﻭﺯﺍﺭﺓ ﺍﻟﻌﻤﻞ ﺑﺎﻟﺮﻣﺰThis document is signed electronically and registered at",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 1769,
+            "normalized_start": 1740,
+            "raw_end": 1769,
+            "raw_start": 1740,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "b46c8fbd9795ac22b4502d62b895a4b6810fd70ae5d602857650dabfd7ed3dea"
+          },
+          "text": "Ministry of Labour with code:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "660e3b13-9196-458c-8811-0b9cbfa1503d:ﻫﺬﻩ ﺍﻟﻮﺛﻴﻘﺔ ﻣﻮﻗﻌﺔ ﺇﻟﻜﺘﺮﻭﻧﻴﺎ ﻭﻣﺴﺠﻠﺔ ﻟﺪﻯ ﻭﺯﺍﺭﺓ ﺍﻟﻌﻤﻞ ﺑﺎﻟﺮﻣﺰThis document is signed electronically and registered at",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 1739,
+        "normalized_start": 1589,
+        "raw_end": 1739,
+        "raw_start": 1589,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "a25d2762d2302c30f9803ee32162a5f7f82d76003fea8dd6e3bca2a49feb89f6"
+      },
+      "kind": "unclassified",
+      "order": 2,
+      "requirement_status": "unspecified",
+      "section_id": "sec_6c71ccc6fd42030141ff",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 1769,
+        "normalized_start": 1589,
+        "raw_end": 1769,
+        "raw_start": 1589,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "f7adbb5b182ca6c9b2f497a9230dac87f4c66dcc4a260b04f1c3c5c2df6ae36f"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_a0f31535b0882584f18b",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "660e3b13-9196-458c-8811-0b9cbfa1503d: ﺍﻟﻄﺮﻑ ﺍﻷﻭﻝ",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 1956,
+            "normalized_start": 1820,
+            "raw_end": 1956,
+            "raw_start": 1820,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "02510f349a88fbc3371ed3a0d07622e1955ab13f68f3628b6ddca54b986c3917"
+          },
+          "text": "ﺍﻟﻄﺮﻑ ﺍﻟﺜﺎﻧﻲ: ﻣﺤﻤﺪ ﻧﺰﻳﻢ ﺍﻟﺪﻳﻦﺍﻣﻨﻪ ﺑﻨﺖ ﻃﺎﻟﺐ ﺍﻟﺤﺴﻨﻴﺔ ﻟﻠﺘﺠﺎﺭﺓ Amna Bint Talib Al Hasani Trad\nMOHAMMED NEZAM UDDINFirst Party:\nSecond Party:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "660e3b13-9196-458c-8811-0b9cbfa1503d: ﺍﻟﻄﺮﻑ ﺍﻷﻭﻝ",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 1819,
+        "normalized_start": 1770,
+        "raw_end": 1819,
+        "raw_start": 1770,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "604277d752ecbd65568a70a422817d4c2ab7126066b1e3f0d5d2510730e49830"
+      },
+      "kind": "unclassified",
+      "order": 3,
+      "requirement_status": "unspecified",
+      "section_id": "sec_edba9b508d1dcb8e8170",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 1956,
+        "normalized_start": 1770,
+        "raw_end": 1956,
+        "raw_start": 1770,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "48efccb8cdc8dda411ecafeb0cac40828e4bf1833d455cef73dfe101f274de12"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_d7f86f7ef8667d699d9c",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5  ﻣﻦ1  ﺍﻟﺼﻔﺤﺔ",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 1971,
+            "normalized_start": 1957,
+            "raw_end": 1971,
+            "raw_start": 1957,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "51d43659d6e250a3597aa5107d6d486d80db216798915f50033e05143b880453"
+          },
+          "text": "5  ﻣﻦ1  ﺍﻟﺼﻔﺤﺔ",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5  ﻣﻦ1  ﺍﻟﺼﻔﺤﺔ",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 1971,
+        "normalized_start": 1957,
+        "raw_end": 1971,
+        "raw_start": 1957,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "51d43659d6e250a3597aa5107d6d486d80db216798915f50033e05143b880453"
+      },
+      "kind": "unclassified",
+      "order": 4,
+      "requirement_status": "unspecified",
+      "section_id": "sec_4b6482ea23a925af8b17",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 1971,
+        "normalized_start": 1957,
+        "raw_end": 1971,
+        "raw_start": 1957,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "51d43659d6e250a3597aa5107d6d486d80db216798915f50033e05143b880453"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_55c15fcbd6e9f7dde0c3",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "90.000 OMR  ﺭﻳﺎﻝ ﻋﻤﺎﻧﻲ90.000 ﺭﻳﺎﻝ ﻋﻤﺎﻧﻲ90.000 ﻭﺫﻟﻚ ﺑﺄﺟﺮ ﺷﺎﻣﻞ ﻗﺪﺭﻩ",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 1708,
+            "normalized_start": 1087,
+            "raw_end": 1708,
+            "raw_start": 1087,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "ac71e0db6eb5fe0de2279990d4f975851071fcc9b7534fd16575707ea796feb3"
+          },
+          "text": "ﺍﻷﺟﺮ ﺍﻷﺳﺎﺳﻲ\nﺍﻟﻌﻼﻭﺍﺕ : Allowances:\nﻭﻳﺪﻓﻊ ﺍﻷﺟﺮ ﻟﻜﻞ ﺷﻬﺮ monthly Pay Frequency\n ﻳﻮﻡ، ﻣﻦ ﺗﺎﺭﻳﺦ ﺇﺳﺘﻼﻣﻪ ﺍﻟﻌﻤﻞ ، ﻭﺇﺫﺍ30  .ﻳﻌﻴﻦ ﺍﻟﻄﺮﻑ ﺍﻟﺜﺎﻧﻲ ﺗﺤﺖ ﺍﻹﺧﺘﺒﺎﺭ ﻟﻤﺪﺓ3\nﺭﻏﺐ ﺃﺣﺪ ﺍﻟﻄﺮﻓﻴﻦ ﻓﻲ ﺇﻧﻬﺎﺀ ﻫﺬﺍ ﺍﻟﻌﻘﺪ ﻭﺟﺐ ﻋﻠﻴﻪ ﺇﺧﻄﺎﺭ ﺍﻟﻄﺮﻑ ﺍﻵﺧﺮ ﻛﺘﺎﺑﺔ ﻗﺒﻞ\n( ﺛﻼﺛﺔ3) ( ﺳﺒﻌﺔ ﺃﻳﺎﻡ ﻋﻠﻰ ﺍﻷﻗﻞ )ﻳﺠﺐ ﺃﻻ ﺗﺰﻳﺪ ﻣﺪﺓ ﺍﻹﺧﺘﺒﺎﺭ ﻋﻠﻰ7) ﺍﻹﻧﻬﺎﺀ ﺏ\nﺃﺷﻬﺮ(.3.The  second  party  shall  be  appointed  under  a  30  Days\nprobation period, from the date of assuming work. If one of\nthe  two  parties’  desires  to  terminate  the  contract,  he  shall\nnotify  the  other  party  in  writing,  at  least  7  days  before  the\ncontract expiry date (The probation period must not exceed",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "90.000 OMR  ﺭﻳﺎﻝ ﻋﻤﺎﻧﻲ90.000 ﺭﻳﺎﻝ ﻋﻤﺎﻧﻲ90.000 ﻭﺫﻟﻚ ﺑﺄﺟﺮ ﺷﺎﻣﻞ ﻗﺪﺭﻩ",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 1086,
+        "normalized_start": 1021,
+        "raw_end": 1086,
+        "raw_start": 1021,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "c56242a84255b660057b5ba89390d80c12b26ee86accbafe9c2bfe9ca638b6bc"
+      },
+      "kind": "unclassified",
+      "order": 5,
+      "requirement_status": "unspecified",
+      "section_id": "sec_46278ae281666dd090de",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 1708,
+        "normalized_start": 1021,
+        "raw_end": 1708,
+        "raw_start": 1021,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "a7e38e63ed4ac3cc9d73af60befb4473ea5dc2734b832612a7f8cc52c986e695"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_cd16a042276cbea954f1",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3 Months).",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 2515,
+            "normalized_start": 1721,
+            "raw_end": 2515,
+            "raw_start": 1721,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "da2f8dab4fc13540bc0c59b99823dbae43fa11902182ff922c5d53601bcb69cd"
+          },
+          "text": "ﻳﻮﻡ، ﻭﻳﺘﻤﺘﻊ ﺍﻟﻌﺎﻣﻞ30 . ﻳﺴﺘﺤﻖ ﺍﻟﻄﺮﻑ ﺍﻟﺜﺎﻧﻲ ﺇﺟﺎﺯﺓ ﺳﻨﻮﻳﺔ ﺑﺄﺟﺮ ﺷﺎﻣﻞ ﻟﻤﺪﺓ4\nﺑﺎﻹﺟﺎﺯﺓ ﺣﺴﺐ ﻣﻘﺘﻀﻴﺎﺕ ﻣﺼﻠﺤﺔ ﺍﻟﻌﻤﻞ ، ﻭﻻ ﻳﺠﻮﺯ ﻟﻠﻄﺮﻑ ﺍﻟﺜﺎﻧﻲ ﺍﻟﻘﻴﺎﻡ ﺑﺎﻹﺟﺎﺯﺓ\n( ﺳﺘﺔ ﺃﺷﻬﺮ ﻋﻠﻰ ﺍﻷﻗﻞ ﻣﻦ ﺗﺎﺭﻳﺦ ﺇﻟﺘﺤﺎﻗﻪ ﺑﺎﻟﻌﻤﻞ ﻟﺪﻯ6) ﺍﻹﻋﺘﻴﺎﺩﻳﺔ ﻗﺒﻞ ﺇﻧﻘﻀﺎﺀ\nﺻﺎﺣﺐ ﺍﻟﻌﻤﻞ.4.The  second  party  is  entitled  to  an  annual  leave  with  a\ncomprehensive  wage  for  30  days  according  to  the\nnecessity  of  work  after  completing  at  least  (6)  Month  from\nthe date of assuming work.\n( ﺳﺘﺔ ﺃﻳﺎﻡ ﻃﻮﺍﻝ ﺍﻟﺴﻨﺔ6) .ﻳﺴﺘﺤﻖ ﺍﻟﻄﺮﻑ ﺍﻟﺜﺎﻧﻲ ﺇﺟﺎﺯﺓ ﻃﺎﺭﺋﺔ ﺑﺄﺟﺮ ﺷﺎﻣﻞ ﻟﻤﺪﺓ5\n.ﻟﻤﻮﺍﺟﻬﺔ ﺃﻱ ﻇﺮﻑ ﻃﺎﺭﺉ ﻭﻓﻘﺎً ﻟﻘﺎﻧﻮﻥ ﺍﻟﻌﻤﻞ ﻭﺍﻟﻘﺮﺍﺭﺍﺕ ﺍﻟﻮﺯﺍﺭﻳﺔ ﺍﻟﻤﻨﻔﺬﻩ ﻟﻪ5. The second party is entitled for an emergency leave with\na comprehensive wage for (6) days throughout the year, for\nany  emergency  purpose  as  per  the  labor  law  and  its\nimplementing ministerial decisions.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3 Months).",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 1719,
+        "normalized_start": 1709,
+        "raw_end": 1719,
+        "raw_start": 1709,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "4a9f1f5c60a4cb5722f8bad2c29317742611d91a8ea94ee623ce32fb6203d07a"
+      },
+      "kind": "unclassified",
+      "order": 6,
+      "requirement_status": "unspecified",
+      "section_id": "sec_f4a5232759ba64422141",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 2515,
+        "normalized_start": 1709,
+        "raw_end": 2515,
+        "raw_start": 1709,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "1d39a46d7e54cf26cc8c426c7b283615cf57471882d44ff60ab5473758444908"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_448c729cb78069d12071",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "660e3b13-9196-458c-8811-0b9cbfa1503d:ﻫﺬﻩ ﺍﻟﻮﺛﻴﻘﺔ ﻣﻮﻗﻌﺔ ﺇﻟﻜﺘﺮﻭﻧﻴﺎ ﻭﻣﺴﺠﻠﺔ ﻟﺪﻯ ﻭﺯﺍﺭﺓ ﺍﻟﻌﻤﻞ ﺑﺎﻟﺮﻣﺰThis document is signed electronically and registered at",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 2696,
+            "normalized_start": 2667,
+            "raw_end": 2696,
+            "raw_start": 2667,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "b46c8fbd9795ac22b4502d62b895a4b6810fd70ae5d602857650dabfd7ed3dea"
+          },
+          "text": "Ministry of Labour with code:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "660e3b13-9196-458c-8811-0b9cbfa1503d:ﻫﺬﻩ ﺍﻟﻮﺛﻴﻘﺔ ﻣﻮﻗﻌﺔ ﺇﻟﻜﺘﺮﻭﻧﻴﺎ ﻭﻣﺴﺠﻠﺔ ﻟﺪﻯ ﻭﺯﺍﺭﺓ ﺍﻟﻌﻤﻞ ﺑﺎﻟﺮﻣﺰThis document is signed electronically and registered at",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 2666,
+        "normalized_start": 2516,
+        "raw_end": 2666,
+        "raw_start": 2516,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "a25d2762d2302c30f9803ee32162a5f7f82d76003fea8dd6e3bca2a49feb89f6"
+      },
+      "kind": "unclassified",
+      "order": 7,
+      "requirement_status": "unspecified",
+      "section_id": "sec_0ce60b7d7d3da57c78b8",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 2696,
+        "normalized_start": 2516,
+        "raw_end": 2696,
+        "raw_start": 2516,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "f7adbb5b182ca6c9b2f497a9230dac87f4c66dcc4a260b04f1c3c5c2df6ae36f"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_f108d4e56df965eb4318",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "660e3b13-9196-458c-8811-0b9cbfa1503d: ﺍﻟﻄﺮﻑ ﺍﻷﻭﻝ",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 2883,
+            "normalized_start": 2747,
+            "raw_end": 2883,
+            "raw_start": 2747,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "02510f349a88fbc3371ed3a0d07622e1955ab13f68f3628b6ddca54b986c3917"
+          },
+          "text": "ﺍﻟﻄﺮﻑ ﺍﻟﺜﺎﻧﻲ: ﻣﺤﻤﺪ ﻧﺰﻳﻢ ﺍﻟﺪﻳﻦﺍﻣﻨﻪ ﺑﻨﺖ ﻃﺎﻟﺐ ﺍﻟﺤﺴﻨﻴﺔ ﻟﻠﺘﺠﺎﺭﺓ Amna Bint Talib Al Hasani Trad\nMOHAMMED NEZAM UDDINFirst Party:\nSecond Party:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "660e3b13-9196-458c-8811-0b9cbfa1503d: ﺍﻟﻄﺮﻑ ﺍﻷﻭﻝ",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 2746,
+        "normalized_start": 2697,
+        "raw_end": 2746,
+        "raw_start": 2697,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "604277d752ecbd65568a70a422817d4c2ab7126066b1e3f0d5d2510730e49830"
+      },
+      "kind": "unclassified",
+      "order": 8,
+      "requirement_status": "unspecified",
+      "section_id": "sec_c44a494427fa9c05cd12",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 2883,
+        "normalized_start": 2697,
+        "raw_end": 2883,
+        "raw_start": 2697,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "48efccb8cdc8dda411ecafeb0cac40828e4bf1833d455cef73dfe101f274de12"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_54478a3ed1dc53e1416c",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5  ﻣﻦ2  ﺍﻟﺼﻔﺤﺔ",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 2898,
+            "normalized_start": 2884,
+            "raw_end": 2898,
+            "raw_start": 2884,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "6a315fbe85179369f310f4b0c6a12e8c0e6c2e73e2f48750b50a4efe0639b625"
+          },
+          "text": "5  ﻣﻦ2  ﺍﻟﺼﻔﺤﺔ",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5  ﻣﻦ2  ﺍﻟﺼﻔﺤﺔ",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 2898,
+        "normalized_start": 2884,
+        "raw_end": 2898,
+        "raw_start": 2884,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "6a315fbe85179369f310f4b0c6a12e8c0e6c2e73e2f48750b50a4efe0639b625"
+      },
+      "kind": "unclassified",
+      "order": 9,
+      "requirement_status": "unspecified",
+      "section_id": "sec_3fbcee10e30ca81f5228",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 2898,
+        "normalized_start": 2884,
+        "raw_end": 2898,
+        "raw_start": 2884,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "6a315fbe85179369f310f4b0c6a12e8c0e6c2e73e2f48750b50a4efe0639b625"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_c702e4e42e9d57531765",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "6.Upon  application  of  this  contract,  employment  of  women",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 1436,
+            "normalized_start": 120,
+            "raw_end": 1436,
+            "raw_start": 120,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "bf4192762474ea1211114282c7434ff7aff4b7472adcc80d48a7f23dec243c57"
+          },
+          "text": "must  take  into  consideration  the  labor  law  and  its\nimplementing ministerial decisions.ﻋﻨﺪ ﺗﻄﺒﻴﻖ ﻫﺬﺍ ﺍﻟﻌﻘﺪ ﻳﺮﺍﻋﻰ ﻓﻲ ﺗﺸﻐﻴﻞ ﺍﻟﻨﺴﺎﺀ ، ﻗﺎﻧﻮﻥ ﺍﻟﻌﻤﻞ ﻭﺍﻟﻘﺮﺍﺭﺍﺕ ﺍﻟﻮﺯﺍﺭﻳﺔ6\n.ﺍﻟﻤﻨﻔﺬﻩ ﻟﻪ\n.ﻋﻠﻰ ﺍﻟﻄﺮﻑ ﺍﻷﻭﻝ ﺗﺤﻮﻳﻞ ﺃﺟﺮ ﺍﻟﻌﺎﻣﻞ )ﺍﻟﻄﺮﻑ ﺍﻟﺜﺎﻧﻲ( ﺍﻟﻰ ﺣﺴﺎﺑﻪ ﺑﺄﺣﺪ ﺍﻟﻤﺼﺎﺭﻑ7\n( ﺳﺒﻌﺔ ﺃﻳﺎﻡ ﻣﻦ7) ﺍﻟﻤﺤﻠﻴﺔ ﺍﻟﻤﻌﺘﻤﺪﺓ ﻓﻲ ﺍﻟﺘﺎﺭﻳﺦ ﺍﻟﻤﺘﻔﻖ ﻋﻠﻴﻪ ﺧﻼﻝ ﻣﺪﻩ ﻻ ﺗﺘﺠﺎﻭﺯ\nﺗﺎﺭﻳﺦ ﺍﻹﺳﺘﺤﻘﺎﻕ.7.The  first  party  shall  transfer  the  employee  (Second\nparty`s)  wage  to  his  account  at  one  of  the  endorsed  local\nbanks on the date agreed upon and within a period of not\nmore than (7) days from the entitlement date.\n.ﻋﻠﻰ ﺻﺎﺣﺐ ﺍﻟﻌﻤﻞ ﺃﻥ ﻳﻤﻨﺢ ﺍﻟﻌﺎﻣﻞ ﺭﺍﺣﺔ ﺃﺳﺒﻮﻋﻴﺔ ﻻ ﺗﻘﻞ ﻋﻦ ﻳﻮﻣﻴﻦ ﻣﺘﺘﺎﻟﻴﻦ ﺑﻌﺪ8\nﺧﻤﺴﺔ ﺃﻳﺎﻡ ﻋﻤﻞ ﻣﺘﺼﻠﺔ، ﻭﻳﺠﻮﺯ ﻓﻲ ﺍﻷﻣﺎﻛﻦ ﺃﻭ ﺍﻷﻋﻤﺎﻝ ﺍﻟﺘﻲ ﺗﺤﺪﺩ ﺑﻘﺮﺍﺭ ﻣﻦ ﺍﻟﻮﺯﻳﺮ\nﺗﺠﻤﻴﻊ ﺍﻟﺮﺍﺣﺎﺕ ﺍﻷﺳﺒﻮﻋﻴﺔ ﺍﻟﻤﺴﺘﺤﻘﺔ ﻟﻠﻌﺎﻣﻞ ﻋﻦ ﻣﺪﺓ ﻻ ﺗﺠﺎﻭﺯ ﺛﻤﺎﻧﻴﺔ ﺃﺳﺎﺑﻴﻊ ﺇﺫﺍ ﺍﺗﻔﻖ\nﺍﻟﻌﺎﻣﻞ ﻭﺻﺎﺣﺐ ﺍﻟﻌﻤﻞ ﻋﻠﻰ ﺫﻟﻚ ﻛﺘﺎﺑﺔ، ﻭﺗﻜﻮﻥ ﺍﻟﺮﺍﺣﺔ ﺍﻷﺳﺒﻮﻋﻴﺔ ﻓﻲ ﺟﻤﻴﻊ ﺍﻷﺣﻮﺍﻝ\nﻣﺪﻓﻮﻋﺔ ﺍﻷﺟﺮ.8.The first party shall grant the second party a weekly rest\nof not less than two consecutive days, after continued five\ndays of work.\n:. ﻳﺤﻈﺮ ﻋﻠﻰ ﺍﻟﻄﺮﻑ ﺍﻷﻭﻝ ﺍﻟﻘﻴﺎﻡ ﺑﻤﺎ ﻳﻠﻲ9 9.The first party shall be banned from the following:\nﺃ- ﺗﺸﻐﻴﻞ ﺍﻟﻄﺮﻑ ﺍﻟﺜﺎﻧﻲ ﻓﻲ ﻣﻮﺍﻗﻊ ﺍﻹﻧﺸﺎﺀﺍﺕ ﻭﺍﻷﻣﺎﻛﻦ ﺍﻟﻤﻜﺸﻮﻓﺔ ﺫﺍﺕ ﺍﻟﺤﺮﺍﺭﺓ\n ( ﻭﺫﻟﻚ ﻃﻮﺍﻝ ﺃﺷﻬﺮ03:30 -  12:30 ) ﺍﻟﻌﺎﻟﻴﺔ ﻓﻲ ﺃﻭﻗﺎﺕ ﺍﻟﻈﻬﻴﺮﺓ ﻣﻦ ﺍﻟﺴﺎﻋﺔ\nﻳﻮﻧﻴﻮ ﻭﻳﻮﻟﻴﻮ ﻭﺃﻏﺴﻄﺲ ﻭﻓﻘﺎً ﻷﺣﻜﺎﻡ ﺍﻟﻼﺋﺤﺔ ﺍﻟﺘﻨﻈﻴﻤﻴﺔ ﻟﺘﺪﺍﺑﻴﺮ ﺍﻟﺴﻼﻣﺔ ﻭﺍﻟﺼﺤﺔ",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "6.Upon  application  of  this  contract,  employment  of  women",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 119,
+        "normalized_start": 56,
+        "raw_end": 119,
+        "raw_start": 56,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "dacf1a66f3406a1ee72c98b0fa979ccf8489679582674ec691c9b3eb8b40b260"
+      },
+      "kind": "unclassified",
+      "order": 10,
+      "requirement_status": "unspecified",
+      "section_id": "sec_8af6ae07c3ebc127194b",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 1436,
+        "normalized_start": 56,
+        "raw_end": 1436,
+        "raw_start": 56,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "2f512bf62dc36267aa8ec428807d537173763dbc083aabe910bd51610171ff0c"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_f5804755457ab69bf5ed",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2008/286) .)ﺍﻟﻤﻬﻨﻴﺔ ﺍﻟﺼﺎﺩﺭﺓ ﺑﺎﻟﻘﺮﺍﺭ ﺍﻟﻮﺯﺍﺭﻱ ﺭﻗﻢ",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 2439,
+            "normalized_start": 1485,
+            "raw_end": 2439,
+            "raw_start": 1485,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "5bf0334daaa31a30690814637ad7f3fd22e642767266eb1ec05fdd1cd7dbd3ed"
+          },
+          "text": "ﺏ- ﺍﻟﺨﺮﻭﺝ ﻋﻠﻰ ﻧﺼﻮﺹ ﺍﻟﻌﻘﺪ ﺃﻭ ﺗﻜﻠﻴﻒ ﺍﻟﻄﺮﻑ ﺍﻟﺜﺎﻧﻲ  ﺑﻐﻴﺮ ﺍﻟﻌﻤﻞ ﺍﻟﻤﺘﻔﻖ ﻋﻠﻴﻪ\nﻓﻲ ﻫﺬﺍ ﺍﻟﻌﻘﺪ ﺍﻻ ﺍﺫﺍ ﺩﻋﺖ ﺍﻟﻀﺮﻭﺭﺓ ﻟﺬﻟﻚ ﻭﺑﺼﻔﺔ ﻣﺆﻗﺘﻪ ، ﻭﻣﻊ ﺫﻟﻚ ﻳﺠﻮﺯ ﻟﻪ ﺃﻥ\nﻳﻜﻠﻒ ﺍﻟﻄﺮﻑ ﺍﻟﺜﺎﻧﻲ ﺑﻌﻤﻞ ﻏﻴﺮﺍﻟﻤﺘﻔﻖ ﻋﻠﻴﻪ ﺇﺫﺍ ﻛﺎﻥ ﺍﻟﻌﻤﻞ ﻻ ﻳﺨﺘﻠﻒ ﻋﻦ ﺍﻟﻌﻤﻞ\n.ﺍﻷﺻﻠﻲ ﺇﺧﺘﻼﻓﺎً ﺟﻮﻫﺮﻳﺎً\na.Employing  the  second  party  in  construction  sites  and\nopen  areas  with  high  temperatures  at  noon  (from  12:30\nto 03:30), during the months of June, July and August in\naccordance  with  the  provisions  of  the  regulations  for\noccupational  safety  and  health  measures  issued  by\nMinisterial Decree No. (286/2008).\nb.Violating  the  provisions  of  this  contract,  or  tasking  the\nsecond party with a work which is not agreed upon in the\ncontract,  unless  necessity  arises  and  for  a  transitional\nperiod.  However,  he/she  may  assign  the  worker  or  the\nsecond  party  only  if  there  is  no  fundamental  difference\nbetween  the  new  tasks  and  the  original  work  he  is\ncontracted for.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2008/286) .)ﺍﻟﻤﻬﻨﻴﺔ ﺍﻟﺼﺎﺩﺭﺓ ﺑﺎﻟﻘﺮﺍﺭ ﺍﻟﻮﺯﺍﺭﻱ ﺭﻗﻢ",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 1484,
+        "normalized_start": 1437,
+        "raw_end": 1484,
+        "raw_start": 1437,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "b1b6c4e08676d34f2e90c1af64e5171b3ed4bd4a433876a5753c11e942499e1a"
+      },
+      "kind": "unclassified",
+      "order": 11,
+      "requirement_status": "unspecified",
+      "section_id": "sec_ea8605b5edbf2fcbd7f1",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 2439,
+        "normalized_start": 1437,
+        "raw_end": 2439,
+        "raw_start": 1437,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "eb5cebd59c085ae3c352e30acf2fdf4da31805a8dcd151342a2ea60b8a1284de"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_fe697cf9f0e97b0ce28c",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "10.The first party shall repatriate the non-Omani employee",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 3716,
+            "normalized_start": 2499,
+            "raw_end": 3716,
+            "raw_start": 2499,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "3cb3b00927ff38299bd767f4fb7604a1f704650b5cdcc885233f1f8df29d73df"
+          },
+          "text": "to his country, after completing the work relation with him,\nunless the employee`s services have been transferred to\nanother employer, and if the employee has left the work in\nviolation of the labor law he shall be deported, in\naccordance with the procedures adopted by the Ministry..ﻳﻠﺘﺰﻡ ﺍﻟﻄﺮﻑ ﺍﻷﻭﻝ ﺑﺈﻋﺎﺩﺓ ﺍﻟﻌﺎﻣﻞ ﻏﻴﺮ ﺍﻟﻌﻤﺎﻧﻲ ﺍﻟﻰ ﺑﻠﺪﻩ ﺑﻌﺪ ﺍﻧﺘﻬﺎﺀ ﻋﻼﻗﺔ ﺍﻟﻌﻤﻞ10\nﻣﻌﻪ ، ﻣﺎﻟﻢ ﻳﺘﻢ ﻧﻘﻞ ﺧﺪﻣﺎﺗﻪ ﺍﻟﻰ ﺻﺎﺣﺐ ﻋﻤﻞ ﺍﺧﺮ ، ﻭﺍﺫﺍ ﺗﺮﻙ ﺍﻟﻌﺎﻣﻞ ﺍﻟﻌﻤﻞ ﺑﻄﺮﻳﻘﺔ\nﻣﺨﺎﻟﻔﺔ ﻷﺣﻜﺎﻡ ﻗﺎﻧﻮﻥ ﺍﻟﻌﻤﻞ ﻳﺘﻢ ﺗﺮﺣﻴﻠﻪ ﻭﻓﻖ ﺍﻹﺟﺮﺍﺀﺍﺕ ﺍﻟﻤﺘﺒﻌﺔ ﺑﺎﻟﻮﺯﺍﺭﺓ.\n.ﻳﻠﺘﺰﻡ ﺍﻟﻄﺮﻑ ﺍﻷﻭﻝ ﺑﺘﻮﻓﻴﺮ ﺍﻟﺘﺄﻣﻴﻦ ﺿﺪ ﺇﺻﺎﺑﺎﺕ ﺍﻟﻌﻤﻞ ﻭﺍﻟﻮﻓﺎﺓ ﻟﻠﻄﺮﻑ ﺍﻟﺜﺎﻧﻲ.1111.First  party  should  Provide  death  and  work  injuries\ninsurance for the second party.\n:.  ﻳﺘﻌﻬﺪ ﺍﻟﻄﺮﻑ ﺍﻟﺜﺎﻧﻲ ﺑﻤﺎ ﻳﻠﻲ12 12.The second party shall undertake the following:\nﺃ- ﺍﻹﻟﺘﺰﺍﻡ ﺑﺸﺮﻭﻁ ﺍﻟﻌﻤﻞ ﺍﻟﻤﻨﺼﻮﺹ ﻋﻠﻴﻬﺎ ﻓﻲ ﻫﺬﺍ ﺍﻟﻌﻘﺪ\nﺏ- ﺍﺣﺘﺮﺍﻡ ﺍﻟﺪﻳﻦ ﺍﻻﺳﻼﻣﻲ ﻭﻗﻮﺍﻧﻴﻦ ﺍﻟﺒﻼﺩ ﻭﻋﺎﺩﺍﺗﻬﺎ ﻭﺗﻘﺎﻟﻴﺪﻫﺎ ﺍﻻﺟﺘﻤﺎﻋﻴﺔ\nﺝ- ﻋﺪﻡ ﺍﻟﺘﺪﺧﻞ ﺑﺄﻧﺸﻄﺔ ﺗﻀﺮ ﺑﺄﻣﻦ ﺍﻟﺒﻼﺩ\na.Comply with the work terms stipulated in this contract.\nb.Respect  the  Islamic  religion,  the  sultanate’s  laws  and\nsocial traditions and customs.\nc.Not  to  get  involved  in  any  activities  that  harm  the\nState`s security.\n:.ﻳﻠﺘﺰﻡ ﺍﻟﻄﺮﻑ ﺍﻟﺜﺎﻧﻲ ﺑﻤﺎ ﻳﻠﻲ13 13.The second party shall commit to the following:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "10.The first party shall repatriate the non-Omani employee",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 2498,
+        "normalized_start": 2440,
+        "raw_end": 2498,
+        "raw_start": 2440,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "7539263317968945e84ddfe1ba710c361c5bad323eedf98d804614e881047cff"
+      },
+      "kind": "unclassified",
+      "order": 12,
+      "requirement_status": "unspecified",
+      "section_id": "sec_48756df216892325383f",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 3716,
+        "normalized_start": 2440,
+        "raw_end": 3716,
+        "raw_start": 2440,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "b85a6baf5fa6bd6d8c7792cc272c52420c1a38bc6a9501059416e29c47c5703d"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_c8d254dab2ed83439884",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "660e3b13-9196-458c-8811-0b9cbfa1503d:ﻫﺬﻩ ﺍﻟﻮﺛﻴﻘﺔ ﻣﻮﻗﻌﺔ ﺇﻟﻜﺘﺮﻭﻧﻴﺎ ﻭﻣﺴﺠﻠﺔ ﻟﺪﻯ ﻭﺯﺍﺭﺓ ﺍﻟﻌﻤﻞ ﺑﺎﻟﺮﻣﺰThis document is signed electronically and registered at",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 3897,
+            "normalized_start": 3868,
+            "raw_end": 3897,
+            "raw_start": 3868,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "b46c8fbd9795ac22b4502d62b895a4b6810fd70ae5d602857650dabfd7ed3dea"
+          },
+          "text": "Ministry of Labour with code:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "660e3b13-9196-458c-8811-0b9cbfa1503d:ﻫﺬﻩ ﺍﻟﻮﺛﻴﻘﺔ ﻣﻮﻗﻌﺔ ﺇﻟﻜﺘﺮﻭﻧﻴﺎ ﻭﻣﺴﺠﻠﺔ ﻟﺪﻯ ﻭﺯﺍﺭﺓ ﺍﻟﻌﻤﻞ ﺑﺎﻟﺮﻣﺰThis document is signed electronically and registered at",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 3867,
+        "normalized_start": 3717,
+        "raw_end": 3867,
+        "raw_start": 3717,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "a25d2762d2302c30f9803ee32162a5f7f82d76003fea8dd6e3bca2a49feb89f6"
+      },
+      "kind": "unclassified",
+      "order": 13,
+      "requirement_status": "unspecified",
+      "section_id": "sec_714d49801d0387e67efa",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 3897,
+        "normalized_start": 3717,
+        "raw_end": 3897,
+        "raw_start": 3717,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "f7adbb5b182ca6c9b2f497a9230dac87f4c66dcc4a260b04f1c3c5c2df6ae36f"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_734c9d67ede5031c0863",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "660e3b13-9196-458c-8811-0b9cbfa1503d: ﺍﻟﻄﺮﻑ ﺍﻷﻭﻝ",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 4084,
+            "normalized_start": 3948,
+            "raw_end": 4084,
+            "raw_start": 3948,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "02510f349a88fbc3371ed3a0d07622e1955ab13f68f3628b6ddca54b986c3917"
+          },
+          "text": "ﺍﻟﻄﺮﻑ ﺍﻟﺜﺎﻧﻲ: ﻣﺤﻤﺪ ﻧﺰﻳﻢ ﺍﻟﺪﻳﻦﺍﻣﻨﻪ ﺑﻨﺖ ﻃﺎﻟﺐ ﺍﻟﺤﺴﻨﻴﺔ ﻟﻠﺘﺠﺎﺭﺓ Amna Bint Talib Al Hasani Trad\nMOHAMMED NEZAM UDDINFirst Party:\nSecond Party:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "660e3b13-9196-458c-8811-0b9cbfa1503d: ﺍﻟﻄﺮﻑ ﺍﻷﻭﻝ",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 3947,
+        "normalized_start": 3898,
+        "raw_end": 3947,
+        "raw_start": 3898,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "604277d752ecbd65568a70a422817d4c2ab7126066b1e3f0d5d2510730e49830"
+      },
+      "kind": "unclassified",
+      "order": 14,
+      "requirement_status": "unspecified",
+      "section_id": "sec_387f41d12898cfd5df82",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 4084,
+        "normalized_start": 3898,
+        "raw_end": 4084,
+        "raw_start": 3898,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "48efccb8cdc8dda411ecafeb0cac40828e4bf1833d455cef73dfe101f274de12"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_f0f1105ce030364bd742",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5  ﻣﻦ3  ﺍﻟﺼﻔﺤﺔ",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 4099,
+            "normalized_start": 4085,
+            "raw_end": 4099,
+            "raw_start": 4085,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "acf121b827cc09dc0f7ca44e5d7d0ecb6d22db040ec7736bdb6308d0923b7e16"
+          },
+          "text": "5  ﻣﻦ3  ﺍﻟﺼﻔﺤﺔ",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5  ﻣﻦ3  ﺍﻟﺼﻔﺤﺔ",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 4099,
+        "normalized_start": 4085,
+        "raw_end": 4099,
+        "raw_start": 4085,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "acf121b827cc09dc0f7ca44e5d7d0ecb6d22db040ec7736bdb6308d0923b7e16"
+      },
+      "kind": "unclassified",
+      "order": 15,
+      "requirement_status": "unspecified",
+      "section_id": "sec_e321514c1185e9642a55",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 4099,
+        "normalized_start": 4085,
+        "raw_end": 4099,
+        "raw_start": 4085,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "acf121b827cc09dc0f7ca44e5d7d0ecb6d22db040ec7736bdb6308d0923b7e16"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_4ca0fb51682f0caafc17",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "660e3b13-9196-458c-8811-0b9cbfa1503d:ﻫﺬﻩ ﺍﻟﻮﺛﻴﻘﺔ ﻣﻮﻗﻌﺔ ﺇﻟﻜﺘﺮﻭﻧﻴﺎ ﻭﻣﺴﺠﻠﺔ ﻟﺪﻯ ﻭﺯﺍﺭﺓ ﺍﻟﻌﻤﻞ ﺑﺎﻟﺮﻣﺰThis document is signed electronically and registered at",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 4318,
+            "normalized_start": 4289,
+            "raw_end": 4318,
+            "raw_start": 4289,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "b46c8fbd9795ac22b4502d62b895a4b6810fd70ae5d602857650dabfd7ed3dea"
+          },
+          "text": "Ministry of Labour with code:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "660e3b13-9196-458c-8811-0b9cbfa1503d:ﻫﺬﻩ ﺍﻟﻮﺛﻴﻘﺔ ﻣﻮﻗﻌﺔ ﺇﻟﻜﺘﺮﻭﻧﻴﺎ ﻭﻣﺴﺠﻠﺔ ﻟﺪﻯ ﻭﺯﺍﺭﺓ ﺍﻟﻌﻤﻞ ﺑﺎﻟﺮﻣﺰThis document is signed electronically and registered at",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 4288,
+        "normalized_start": 4138,
+        "raw_end": 4288,
+        "raw_start": 4138,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "a25d2762d2302c30f9803ee32162a5f7f82d76003fea8dd6e3bca2a49feb89f6"
+      },
+      "kind": "unclassified",
+      "order": 16,
+      "requirement_status": "unspecified",
+      "section_id": "sec_27dbafa073829767c3af",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 4318,
+        "normalized_start": 4138,
+        "raw_end": 4318,
+        "raw_start": 4138,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "f7adbb5b182ca6c9b2f497a9230dac87f4c66dcc4a260b04f1c3c5c2df6ae36f"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e723e24a37c1cec45cd0",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "660e3b13-9196-458c-8811-0b9cbfa1503d: ﺍﻟﻄﺮﻑ ﺍﻷﻭﻝ",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 4505,
+            "normalized_start": 4369,
+            "raw_end": 4505,
+            "raw_start": 4369,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "02510f349a88fbc3371ed3a0d07622e1955ab13f68f3628b6ddca54b986c3917"
+          },
+          "text": "ﺍﻟﻄﺮﻑ ﺍﻟﺜﺎﻧﻲ: ﻣﺤﻤﺪ ﻧﺰﻳﻢ ﺍﻟﺪﻳﻦﺍﻣﻨﻪ ﺑﻨﺖ ﻃﺎﻟﺐ ﺍﻟﺤﺴﻨﻴﺔ ﻟﻠﺘﺠﺎﺭﺓ Amna Bint Talib Al Hasani Trad\nMOHAMMED NEZAM UDDINFirst Party:\nSecond Party:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "660e3b13-9196-458c-8811-0b9cbfa1503d: ﺍﻟﻄﺮﻑ ﺍﻷﻭﻝ",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 4368,
+        "normalized_start": 4319,
+        "raw_end": 4368,
+        "raw_start": 4319,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "604277d752ecbd65568a70a422817d4c2ab7126066b1e3f0d5d2510730e49830"
+      },
+      "kind": "unclassified",
+      "order": 17,
+      "requirement_status": "unspecified",
+      "section_id": "sec_f8ebc13f8c87e69409f2",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 4505,
+        "normalized_start": 4319,
+        "raw_end": 4505,
+        "raw_start": 4319,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "48efccb8cdc8dda411ecafeb0cac40828e4bf1833d455cef73dfe101f274de12"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_498b58ff3f390ea7389a",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5  ﻣﻦ4  ﺍﻟﺼﻔﺤﺔ",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 4520,
+            "normalized_start": 4506,
+            "raw_end": 4520,
+            "raw_start": 4506,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "7cd036e5167644f2ce8ebf6cf94722bb4c836c2f36bdd1848fa1d98d1a392185"
+          },
+          "text": "5  ﻣﻦ4  ﺍﻟﺼﻔﺤﺔ",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5  ﻣﻦ4  ﺍﻟﺼﻔﺤﺔ",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 4520,
+        "normalized_start": 4506,
+        "raw_end": 4520,
+        "raw_start": 4506,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "7cd036e5167644f2ce8ebf6cf94722bb4c836c2f36bdd1848fa1d98d1a392185"
+      },
+      "kind": "unclassified",
+      "order": 18,
+      "requirement_status": "unspecified",
+      "section_id": "sec_9c6ce695b8c2137e6b61",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 4520,
+        "normalized_start": 4506,
+        "raw_end": 4520,
+        "raw_start": 4506,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "7cd036e5167644f2ce8ebf6cf94722bb4c836c2f36bdd1848fa1d98d1a392185"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_881d325f3592642ef0c9",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "660e3b13-9196-458c-8811-0b9cbfa1503d:ﻫﺬﻩ ﺍﻟﻮﺛﻴﻘﺔ ﻣﻮﻗﻌﺔ ﺇﻟﻜﺘﺮﻭﻧﻴﺎ ﻭﻣﺴﺠﻠﺔ ﻟﺪﻯ ﻭﺯﺍﺭﺓ ﺍﻟﻌﻤﻞ ﺑﺎﻟﺮﻣﺰThis document is signed electronically and registered at",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 643,
+            "normalized_start": 614,
+            "raw_end": 643,
+            "raw_start": 614,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "b46c8fbd9795ac22b4502d62b895a4b6810fd70ae5d602857650dabfd7ed3dea"
+          },
+          "text": "Ministry of Labour with code:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "660e3b13-9196-458c-8811-0b9cbfa1503d:ﻫﺬﻩ ﺍﻟﻮﺛﻴﻘﺔ ﻣﻮﻗﻌﺔ ﺇﻟﻜﺘﺮﻭﻧﻴﺎ ﻭﻣﺴﺠﻠﺔ ﻟﺪﻯ ﻭﺯﺍﺭﺓ ﺍﻟﻌﻤﻞ ﺑﺎﻟﺮﻣﺰThis document is signed electronically and registered at",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 613,
+        "normalized_start": 463,
+        "raw_end": 613,
+        "raw_start": 463,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "a25d2762d2302c30f9803ee32162a5f7f82d76003fea8dd6e3bca2a49feb89f6"
+      },
+      "kind": "unclassified",
+      "order": 19,
+      "requirement_status": "unspecified",
+      "section_id": "sec_d7da003fe5007a52f65e",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 643,
+        "normalized_start": 463,
+        "raw_end": 643,
+        "raw_start": 463,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "f7adbb5b182ca6c9b2f497a9230dac87f4c66dcc4a260b04f1c3c5c2df6ae36f"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_dd2461eb5d75403d0f12",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "660e3b13-9196-458c-8811-0b9cbfa1503d: ﺍﻟﻄﺮﻑ ﺍﻷﻭﻝ",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 830,
+            "normalized_start": 694,
+            "raw_end": 830,
+            "raw_start": 694,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "02510f349a88fbc3371ed3a0d07622e1955ab13f68f3628b6ddca54b986c3917"
+          },
+          "text": "ﺍﻟﻄﺮﻑ ﺍﻟﺜﺎﻧﻲ: ﻣﺤﻤﺪ ﻧﺰﻳﻢ ﺍﻟﺪﻳﻦﺍﻣﻨﻪ ﺑﻨﺖ ﻃﺎﻟﺐ ﺍﻟﺤﺴﻨﻴﺔ ﻟﻠﺘﺠﺎﺭﺓ Amna Bint Talib Al Hasani Trad\nMOHAMMED NEZAM UDDINFirst Party:\nSecond Party:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "660e3b13-9196-458c-8811-0b9cbfa1503d: ﺍﻟﻄﺮﻑ ﺍﻷﻭﻝ",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 693,
+        "normalized_start": 644,
+        "raw_end": 693,
+        "raw_start": 644,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "604277d752ecbd65568a70a422817d4c2ab7126066b1e3f0d5d2510730e49830"
+      },
+      "kind": "unclassified",
+      "order": 20,
+      "requirement_status": "unspecified",
+      "section_id": "sec_c085ecf2e30831c36855",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 830,
+        "normalized_start": 644,
+        "raw_end": 830,
+        "raw_start": 644,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "48efccb8cdc8dda411ecafeb0cac40828e4bf1833d455cef73dfe101f274de12"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_76d48278e2f4901996a7",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5  ﻣﻦ5  ﺍﻟﺼﻔﺤﺔ",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_88da4d57d9c037276041",
+            "normalized_end": 845,
+            "normalized_start": 831,
+            "raw_end": 845,
+            "raw_start": 831,
+            "source_id": "src_56bda4e26097b86e41f4",
+            "text_sha256": "b8a1b5844a57c7b3ada730cabc676eb863e0b31936bdcd64f5962ee29d494ef7"
+          },
+          "text": "5  ﻣﻦ5  ﺍﻟﺼﻔﺤﺔ",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5  ﻣﻦ5  ﺍﻟﺼﻔﺤﺔ",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 845,
+        "normalized_start": 831,
+        "raw_end": 845,
+        "raw_start": 831,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "b8a1b5844a57c7b3ada730cabc676eb863e0b31936bdcd64f5962ee29d494ef7"
+      },
+      "kind": "unclassified",
+      "order": 21,
+      "requirement_status": "unspecified",
+      "section_id": "sec_edf21825de3f1e622fe3",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 845,
+        "normalized_start": 831,
+        "raw_end": 845,
+        "raw_start": 831,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "b8a1b5844a57c7b3ada730cabc676eb863e0b31936bdcd64f5962ee29d494ef7"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "extracted_text_sha256": "1b0e6dfe6d47bb65eb8cfd0a397fed0bd78a46fe9071510f391e32806842272e",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 5,
+      "relative_path": "templates/Oman/684880140-Work-Contract-example-oman.pdf",
+      "sha256": "dc9f15a13277a1b07ff4524f99d2c2e538019044b5f9194834f9522566d91bdc",
+      "size_bytes": 384197,
+      "source_id": "src_56bda4e26097b86e41f4"
+    }
+  ],
+  "template_id": "tpl_aa16975f11e8463f00d2",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_e84c3afc32c759189a22",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 377,
+        "normalized_start": 0,
+        "raw_end": 377,
+        "raw_start": 0,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "0e1c5426f13c9b8f27035ba7fd2e15411dd68fef1583ee45549adcb45c88ed43"
+      },
+      "text": "ﻋﻘﺪ ﺍﻟﻌﻤﻞ  ﻟﻐﻴﺮ ﺍﻟﻌٌﻤﺎﻧﻴﻴﻦ\nContract of Work - Non Omani\nContract Number: 1492467 1492467 :ﺭﻗﻢ ﻋﻘﺪ ﺍﻟﻌﻤﻞ\nﺃﻧﻪ ﻓﻲ ﻳﻮﻡ ﺑﺘﺎﺭﻳﺦ\nﺣﺮﺭ ﻫﺬﺍ ﺍﻟﻌﻘﺪ ﺑﻴﻦ ﻛﻞ ﻣﻦ:\nThis contract is maintained between:06/04/2023 ﺍﻟﺨﻤﻴﺲ This contract was executed on Thursday\nDate 06/04/2023\n( ﺍﻟﻄﺮﻑ ﺍﻷﻭﻝ )ﺻﺎﺣﺐ ﺍﻟﻌﻤﻞ First Party (Employer)\nﺍﻣﻨﻪ ﺑﻨﺖ ﻃﺎﻟﺐ ﺍﻟﺤﺴﻨﻴﺔ ﻟﻠﺘﺠﺎﺭﺓ ﺍﻻﺳﻢ : Amna Bint Talib Al Hasani Trad Name:"
+    },
+    {
+      "content_id": "unparsed_ea3b6492f2327f9666c6",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 1020,
+        "normalized_start": 0,
+        "raw_end": 1020,
+        "raw_start": 0,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "91f2fef24e745aab85772973ebf727060ca9dafd998d53f74e6b4948842224f1"
+      },
+      "text": "ﻋﻘﺪ ﺍﻟﻌﻤﻞ  ﻟﻐﻴﺮ ﺍﻟﻌٌﻤﺎﻧﻴﻴﻦ\nContract of Work - Non Omani\n:ﺍﻟﻘﺮﻳﺔ ﺳﻨﺎﻭ Sinaw Village:\n:ﺍﻟﻨﺸﺎﻁ  - ﺍﻟﺘﻨﻈﻴﻒ ﺍﻟﻌﺎﻡ ﻟﻠﻤﺒﺎﻧﻲ812100 812100-General cleaning of buildings Activity:\n:ﺭﻣﺰ ﻣﻜﺎﻥ ﺍﻟﻨﺸﺎﻁ 46024127 46024127 POA Code:\n:ﺭﻗﻢ ﺍﻟﻤﺒﻨﻰ ﺭﻗﻢ ﺍﻟﺴﻜﺔ: Way No: Building No:\n:.ﺹ.ﺏ 418 :ﺍﻟﺮﻣﺰ ﺍﻟﺒﺮﻳﺪﻱ 121 121 P.C: 418 P.O. Box:\n:ﺍﻟﻌﻨﻮﺍﻥ ﻣﺤﺎﻓﻈﺔ ﺷﻤﺎﻝ ﺍﻟﺸﺮﻗﻴﺔ / ﺍﻟﻤﻀﻴﺒﻲ / ﺳﻨﺎﻭ North Al-Sharqiya / Al-Mudhaibi / Sinaw Address:\n:ﺑﻌﺪ ﺃﻥ ﺃﻗﺮ ﺍﻟﻄﺮﻓﺎﻥ ﺑﺄﻫﻠﻴﺘﻬﻤﺎ ﻟﻠﺘﻌﺎﻗﺪ ﺍﺗﻔﻘﺎ ﻋﻠﻰ ﻣﺎ ﻳﻠﻰAfter declaring their illegibility to sign this contract, the\ntwo parties have agreed on the following:\n.ﻭﺍﻓﻖ ﺍﻟﻄﺮﻑ ﺍﻟﺜﺎﻧﻲ ﻋﻠﻰ ﺃﻥ ﻳﻌﻤﻞ ﻟﺪﻯ ﺍﻟﻄﺮﻑ ﺍﻷﻭﻝ11.The second party has agreed to work with the first party\nas\n:ﺑﻤﻬﻨﺔ ﻋﺎﻣﻞ ﺗﻨﻈﻴﻒ / ﻣﺒﺎﻧﻲ ﻋﺎﻣﺔ CLEANER - PUBLIC BUILDINGS Occupation:\n:ﺭﻣﺰ ﺍﻟﻤﻬﻨﺔ 5132045 5132045 Occupation Code:\n:.ﻧﻮﻉ ﺍﻟﻌﻘﺪ2 2.Contract Type:\n:ﻣﻦ 06/04/2023 :ﺇﻟﻰ 05/04/2025 From: 06/04/2023 To: 05/04/2025\nﻭ ﺑﺴﺎﻋﺎﺕ ﻋﻤﻞ ﻋﺪﺩﻫﺎ  ﺳﺎﻋﻪ ﻓﻲ ﺍﻻﺳﺒﻮﻉ24 24 hour(s) per a week with Number Of Workingﻣﺤﺪﺩ ﺍﻟﻤﺪﺓ Fixed-Term\nBasic Salary:Gross Salary: 90.000 OMR"
+    },
+    {
+      "content_id": "unparsed_39c7dd26f5870341e521",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 55,
+        "normalized_start": 0,
+        "raw_end": 55,
+        "raw_start": 0,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "17ebf225c52366ec89a11ac8096261c0ed900b6c4cc3b153b461af905e3ec9d1"
+      },
+      "text": "ﻋﻘﺪ ﺍﻟﻌﻤﻞ  ﻟﻐﻴﺮ ﺍﻟﻌٌﻤﺎﻧﻴﻴﻦ\nContract of Work - Non Omani"
+    },
+    {
+      "content_id": "unparsed_acc4a6ad9648d4be1c37",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 4137,
+        "normalized_start": 0,
+        "raw_end": 4137,
+        "raw_start": 0,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "9d032082e69f548c44aee8899e037c4760e9beda08f6ce67542dde3f30d51066"
+      },
+      "text": "ﻋﻘﺪ ﺍﻟﻌﻤﻞ  ﻟﻐﻴﺮ ﺍﻟﻌٌﻤﺎﻧﻴﻴﻦ\nContract of Work - Non Omani\nﺃ-  ﺍﻟﺘﻮﺍﺟﺪ ﻓﻲ ﻣﻜﺎﻥ ﺍﻟﻌﻤﻞ ﻓﻲ ﺍﻟﻤﻮﺍﻋﻴﺪ ﺍﻟﻤﻘﺮﺭﺓ ، ﻭﺍﻥ ﻳﺆﺩﻱ ﻋﻤﻠﻪ ﺑﺈﺧﻼﺹ\nﻭﺃﻣﺎﻧﺔ   ﺃﻥ ﻳﺒﺬﻝ ﻓﻲ ﺗﺄﺩﻳﺘﻪ ﺍﻟﻌﻨﺎﻳﺔ ﺍﻟﻼﺯﻣﺔ ﻃﺒﻘﺎ ﻟﻤﺎ ﻫﻮ ﻣﺤﺪﺩ ﺑﻬﺬﺍ ﺍﻟﻌﻘﺪ ﻭﻃﺒﻘﺎ\nﻷﺣﻜﺎﻡ ﻗﺎﻧﻮﻥ ﺍﻟﻌﻤﻞ ﻭﺃﻧﻈﻤﺔ ﺍﻟﻌﻤﻞ ﺍﻟﻤﻌﻤﻮﻝ ﺑﻬﺎ\nﺏ- ﺍﻟﺤﺮﺹ ﻋﻠﻰ ﻭﺳﺎﺋﻞ ﺍﻹﻧﺘﺎﺝ ﻭﺃﺩﻭﺍﺕ ﺍﻟﻌﻤﻞ ﺍﻟﻤﻮﺿﻮﻋﺔ ﺗﺤﺖ ﺗﺼﺮﻓﻪ ﻭﻳﺤﺎﻓﻆ\nﻋﻠﻴﻬﺎ ﺑﻌﻨﺎﻳﺔ\nﺝ- ﺍﻟﻘﻴﺎﻡ ﺑﺘﻨﻔﻴﺬ ﺗﻌﻠﻴﻤﺎﺕ ﺍﻟﺴﻼﻣﺔ ﻭﺍﻟﺼﺤﺔ ﺍﻟﻤﻬﻨﻴﺔ ﺍﻟﻤﻘﺮﺭﺓ ﺑﺎﻟﻤﻨﺸﺄﻩ ﺑﻤﻮﺟﺐ ﺍﻟﻘﺎﻧﻮﻥ\nﻭﺍﻟﻘﺮﺍﺭﺍﺕ ﺍﻟﻤﻨﻔﺬﺓ ﻟﻪ ﻭﻧﻈﻢ ﻭﻟﻮﺍﺋﺢ ﺍﻟﻌﻤﻞ ﻭﺗﻌﻠﻴﻤﺎﺗﻪ\na.Be  available  at  the  workplace  at  the  set  timings  and\nperform  his  duties  loyally  and  honestly  as  per  the\nstipulations  of  this  contract  and  according  to  the\nprovisions of the labor law and the systems in place.\nb.Take  care  of  the  production  means  and  work  tools  at\nhis disposal and preserve them.\nc.Implement  the  occupational  safety  and  health\nregulations set at the establishment, as per the labor law,\nits  implementing  decisions  and  the  work  systems  and\nregulations  and  instructions.\n.ﻻ ﻳﺠﻮﺯ ﻟﻠﻄﺮﻑ ﺍﻟﺜﺎﻧﻲ ﺃﻥ ﻳﻨﺎﻓﺲ ﺍﻟﻄﺮﻑ ﺍﻷﻭﻝ ﺃﻭ ﻳﺸﺘﺮﻙ ﻓﻲ ﻋﻤﻞ ﻳﻨﺎﻓﺴﻪ ﺑﻌﺪ14\nﺍﻧﺘﻬﺎﺀ ﺍﻟﻌﻘﺪ، ﻋﻠﻰ ﺃﻥ ﻳﻜﻮﻥ ﻫﺬﺍ ﺍﻟﺸﺮﻁ ﻣﻘﻴﺪﺍ ﺑﺎﻟﺰﻣﺎﻥ ﻭﺍﻟﻤﻜﺎﻥ ﻭﻧﻮﻉ ﺍﻟﻌﻤﻞ ﺑﺎﻟﻘﺪﺭ\nﺍﻟﻀﺮﻭﺭﻱ ﻟﺤﻤﺎﻳﺔ ﺍﻟﻤﺼﺎﻟﺢ ﺍﻟﻤﺸﺮﻭﻋﺔ ﻟﻠﻄﺮﻑ ﺍﻻﻭﻝ.14.It  is  not  permitted  for  the  second  party  to  compete  with\nthe first party or to participate in work that competes against\nhim after the end of the contract, provided that this condition\nis  tied  by  the  time,  place,  and  kind  of  work  to  the  extent\nnecessary  to  protect  the  legitimate  interests  of  the  first\nparty.\n.ﻳﻠﺘﺰﻡ ﺍﻟﻄﺮﻑ ﺍﻟﺜﺎﻧﻲ ﺑﺎﻟﻤﺤﺎﻓﻈﺔ ﻋﻠﻰ ﺳﺮﻳﺔ ﺃﻳﺔ ﺑﻴﺎﻧﺎﺕ ﺍﻭ ﻣﻌﻠﻮﻣﺎﺕ ﺗﺼﻞ ﺍﻟﻰ ﻋﻠﻤﻪ15\nﺑﻤﻮﺟﺐ ﺍﺣﻜﺎﻡ ﻫﺬﺍ ﺍﻟﻌﻘﺪ ﺧﻼﻝ ﻓﺘﺮﺓ ﺗﻨﻔﻴﺬﻩ ﻭﺑﻌﺪ ﺍﻧﺘﻬﺎﺀﻩ ، ﻭﻋﺪﻡ ﺍﻓﺸﺎﺀ ﺍﻭ ﻛﺸﻒ ﺍﻭ ﻧﻘﻞ\nﺍﻳﺔ ﻣﻌﻠﻮﻣﺎﺕ ﺗﺘﻌﻠﻖ ﺑﻬﺬﺍ ﺍﻟﻌﻘﺪ ﺍﻟﻰ ﺍﻱ ﺷﺨﺺ ﺍﻭ ﺟﻬﺔ ﺍﺧﺮﻯ ، ﻭﻓﻲ ﺣﺎﻟﺔ ﺍﺧﻼﻟﻪ ﺑﺬﻟﻚ\nﺗﻄﺒﻖ ﺍﻟﻘﻮﺍﻧﻴﻦ ﻭﺍﻻﻧﻈﻤﺔ ﺍﻟﻤﻌﻤﻮﻝ ﺑﻬﺎ ﻓﻲ ﺍﻟﺴﻠﻄﻨﺔ .15.The second party shall maintain the confidentiality of any\ndata or information pertaining to his knowledge by virtue of\nthe provisions of this contract during its implementation and\nafter  its  termination,  and  shall  not  disclose,  reveal,  or\ncommunicate any information relating to this contract to any\nother person or entity, and in case of violation the laws and\nregulations in force in the Sultanate shall apply.\n.ﻳﻘﺮ ﺍﻟﻄﺮﻓﺎﻥ ﺑﺈﻃﺎﻟﻌﻬﻤﺎ ﻋﻠﻰ ﻗﺎﻧﻮﻥ ﺗﺼﻨﻴﻒ ﻭﺛﺎﺋﻖ ﺍﻟﺪﻭﻟﺔ ﻭﺗﻨﻈﻴﻢ ﺍﻷﻣﺎﻛﻦ ﺍﻟﻤﺤﻤﻴﺔ16\n.ﻭﻛﺬﻟﻚ ﻗﺎﻧﻮﻥ ﺍﻟﻌﻤﻞ ﻭﺍﻟﻘﺮﺍﺭﺍﺕ ﻭﺍﻟﻠﻮﺍﺋﺢ ﺍﻟﻮﺯﺍﺭﻳﺔ ﺍﻟﻤﻨﻔﺬﻩ ﻟﻪ16.The parties acknowledge being aware of the Law on the\nClassification of State Documents and Governing Protected\nPlaces,  and  the  Labor  Law  and  its  implementing  decisions\nand ministerial decisions.\n.ﻳﺴﺮﻱ ﻗﺎﻧﻮﻥ ﺍﻟﻌﻤﻞ ﻭﺍﻟﻘﺮﺍﺭﺍﺕ ﻭﺍﻟﻠﻮﺍﺋﺢ ﺍﻟﻮﺯﺍﺭﻳﺔ ﺍﻟﻤﻨﻔﺪﺓ ﻟﻪ ﻋﻠﻰ ﻣﺎ ﻟﻢ ﻳﺮﺩ ﺫﻛﺮﻩ17\nﺑﻬﺬﺍ ﺍﻟﻌﻘﺪ17.The  labor  law  and  the  decisions  and  ministerial\nregulations  implementing  it  shall  be  effective  on  whatever\nhas not been mentioned in this contract.\n.ﻓﻲ ﺣﺎﻝ ﻭﺟﻮﺩ ﺃﻱ ﻧﺰﺍﻉ ﺑﻴﻦ ﺍﻷﻃﺮﺍﻑ ﺑﺸﺄﻥ ﺗﻨﻔﻴﺬ ﺍﻹﻟﺘﺰﺍﻣﺎﺕ ﺍﻟﻨﺎﺷﺌﺔ ﻋﻦ ﻫﺬﺍ18\nﺍﻟﻌﻘﺪ ﻳﺘﻢ ﺗﺴﻮﻳﺘﻪ ﻭﺩﻳﺎ ﻟﺪﻯ ﺍﻟﺪﺍﺋﺮﺓ ﺍﻟﻤﺨﺘﺼﺔ ﺑﺎﻟﻮﺯﺍﺭﺓ ، ﻭﻓﻲ ﺣﺎﻝ ﺗﻌﺬﺭ ﺫﻟﻚ ، ﻓﺎﻧﻪ\nﻳﺘﻌﻴﻦ ﺍﻟﻠﺠﻮﺀ ﺍﻟﻰ ﺍﻟﻤﺤﻜﻤﺔ ﺍﻟﻤﺨﺘﺼﺔ ﺑﺴﻠﻄﻨﺔ ﻋﻤﺎﻥ.18.In  case  of  any  dispute  arising  between  the  parties  on\nimplementing the commitments resulting from this contract,\nsuch  dispute  shall  be  settled  cordially  at  the  concerned\ndepartment  of  the  Ministry.  And  if  this  is  not  possible,  it\nshall be referred to the competent court in the Sultanate of\nOman.\n.ﻓﻲ ﺣﺎﻟﺔ ﻭﺟﻮﺩ ﺷﺮﻭﻁ ﺃﺧﺮﻯ ﻳﺮﻏﺐ ﺍﻟﻄﺮﻓﻴﻦ ﺍﻹﻟﺘﺰﺍﻡ ﺑﻬﺎ ، ﺗﺤﺮﺭ ﻓﻲ ﻣﻠﺤﻖ ﺃﺧﺮ19\nﺧﺎﺭﺝ ﻫﺬﺍ ﺍﻟﻌﻘﺪ ﺩﻭﻥ ﺍﻟﺘﺼﺪﻳﻖ ﻋﻠﻴﻬﺎ ﻣﻦ ﻗﺒﻞ ﺍﻟﻮﺯﺍﺭﺓ ، ﻣﻊ ﻣﺮﺍﻋﺎﺓ ﺍﻥ ﺗﻜﻮﻥ ﻣﻄﺎﺑﻘﺔ\nﻷﺣﻜﺎﻡ ﻗﺎﻧﻮﻥ ﺍﻟﻌﻤﻞ.19.In  case  the  two  parties  desire  to  abide  be  other  terms,\nsuch  terms  shall  be  included  in  an  annex  to  this  contract,\nwithout  being  endorsed  by  the  ministry,  provided  that  they\ncomply with the provisions of the labor law.\n.ﺣﺮﺭ ﻫﺬﺍ ﺍﻟﻌﻘﺪ ﻣﻦ ﻧﺴﺨﺘﻴﻦ ﺑﺎﻟﻠﻐﺔ ﺍﻟﻌﺮﺑﻴﺔ ﻭﺍﻟﻠﻐﺔ ﺍﻻﻧﺠﻠﻴﺰﻳﺔ ﻟﻜﻞ ﻃﺮﻑ ﻧﺴﺨﺔ20\nﻟﻠﻌﻤﻞ ﺑﻤﻮﺟﺒﻬﺎ ﻭﻟﻜﻞ ﻣﻨﻬﻤﺎ ﺫﺍﺕ ﺍﻟﺤﺠﻴﺔ ﺍﻟﻘﺎﻧﻮﻧﻴﺔ. ﻭﻓﻲ ﺣﺎﻟﺔ ﺍﻻﺧﺘﻼﻑ ﻓﻲ ﺍﻟﺘﻔﺴﻴﺮ\nﻳﻌﺘﺪ ﺑﺎﻟﻨﺴﺨﺔ ﺍﻟﻌﺮﺑﻴﺔ.20.The contract is drafted in two copies in both Arabic and\nEnglish  languages,  one  copy  for  each  party,  both  texts\nbeing  equally  authentic  and  in  case  of  a  divergence  in\ninterpretation, the Arabic text shall prevail."
+    },
+    {
+      "content_id": "unparsed_c380c460ecc8a363bf5c",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_88da4d57d9c037276041",
+        "normalized_end": 462,
+        "normalized_start": 0,
+        "raw_end": 462,
+        "raw_start": 0,
+        "source_id": "src_56bda4e26097b86e41f4",
+        "text_sha256": "84fd77cf786e1a35ff47b55a8011424f682644b1b720359c75ef28a4293f8623"
+      },
+      "text": "ﻋﻘﺪ ﺍﻟﻌﻤﻞ  ﻟﻐﻴﺮ ﺍﻟﻌٌﻤﺎﻧﻴﻴﻦ\nContract of Work - Non Omani\n.ﺍﻟﺸﺮﻭﻁ ﻭﺍﻷﺣﻜﺎﻡ ﺍﻷﺧﺮﻯ21 21.Other Terms & Conditions\n*ﺃﻱ ﺷﺮﻁ ﻳﺨﺎﻟﻒ ﻗﺎﻧﻮﻥ ﺍﻟﻌﻤﻞ ﻳﻌﺘﺒﺮ ﺑﺎﻃﻼ *Any condition violates the labor law is deemed invalid.\nNote:  This document is not valid unless\nelectronically or physically signed by both parties.ﻣﻼﺣﻈﺔ: ﻫﺬﺍ ﺍﻟﻤﺴﺘﻨﺪ ﻏﻴﺮ ﺻﺎﻟﺢ ﻣﺎ ﻟﻢ ﻳﺘﻢ ﺍﻟﺘﻮﻗﻴﻊ ﻋﻠﻴﻪ ﺇﻟﻜﺘﺮﻭﻧﻴًﺎ ﺃﻭ ﻳﺪﻭﻳﺎ\nﻣﻦ ﻗﺒﻞ ﺍﻟﻄﺮﻓﻴﻦ.\nﺗﻮﻗﻴﻊ ﺍﻟﻄﺮﻑ ﺍﻷﻭﻝ ﺗﻮﻗﻴﻊ ﺍﻟﻄﺮﻑ ﺍﻟﺜﺎﻧﻲ First Party Signature Second Party Signature"
+    }
+  ],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

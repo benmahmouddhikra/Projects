@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:hannibal:schema:extraction-record-v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "extraction_id", "source", "status", "extraction_status", "method", "warnings", "counts", "raw_text", "normalized_text", "raw_text_sha256", "normalized_text_sha256", "blocks", "versions"],
+  "properties": {
+    "schema_version": {"const": "extraction-record-v1"},
+    "extraction_id": {"type": "string", "pattern": "^ext_[a-f0-9]{20}$"},
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_id", "relative_path", "sha256", "media_type", "size_bytes"],
+      "properties": {
+        "source_id": {"type": "string"}, "relative_path": {"type": "string"},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "media_type": {"type": "string"}, "size_bytes": {"type": "integer", "minimum": 0}
+      }
+    },
+    "status": {"enum": ["success", "review_required", "failed"]},
+    "extraction_status": {"enum": ["success", "partial", "encrypted", "unreadable", "empty", "malformed", "likely_ocr_required"]},
+    "method": {"enum": ["pypdf2_page_text", "docx_ooxml_xml", "microsoft_word_com_read_only", "libreoffice_safe_mode_temporary_docx", "none"]},
+    "warnings": {"type": "array", "items": {"type": "string"}},
+    "counts": {
+      "type": "object", "additionalProperties": false,
+      "required": ["pages", "paragraphs", "tables", "headers", "footers"],
+      "properties": {
+        "pages": {"type": "integer", "minimum": 0}, "paragraphs": {"type": "integer", "minimum": 0},
+        "tables": {"type": "integer", "minimum": 0}, "headers": {"type": "integer", "minimum": 0},
+        "footers": {"type": "integer", "minimum": 0}
+      }
+    },
+    "raw_text": {"type": "string"}, "normalized_text": {"type": "string"},
+    "raw_text_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "normalized_text_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "blocks": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["block_id", "kind", "ordinal", "location", "raw_text", "normalized_text", "raw_sha256", "normalized_sha256", "raw_global_start", "raw_global_end", "normalized_global_start", "normalized_global_end", "normalization_map"],
+        "properties": {
+          "block_id": {"type": "string", "pattern": "^block_[0-9]{6}$"},
+          "kind": {"enum": ["page", "paragraph", "table_cell", "header", "footer"]},
+          "ordinal": {"type": "integer", "minimum": 1},
+          "location": {"type": "object"},
+          "raw_text": {"type": "string"}, "normalized_text": {"type": "string"},
+          "raw_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "normalized_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "raw_global_start": {"type": "integer", "minimum": 0}, "raw_global_end": {"type": "integer", "minimum": 0},
+          "normalized_global_start": {"type": "integer", "minimum": 0}, "normalized_global_end": {"type": "integer", "minimum": 0},
+          "normalization_map": {
+            "type": "array",
+            "items": {
+              "type": "object", "additionalProperties": false,
+              "required": ["operation", "raw_start", "raw_end", "normalized_start", "normalized_end"],
+              "properties": {
+                "operation": {"enum": ["equal", "replace", "insert", "delete"]},
+                "raw_start": {"type": "integer", "minimum": 0}, "raw_end": {"type": "integer", "minimum": 0},
+                "normalized_start": {"type": "integer", "minimum": 0}, "normalized_end": {"type": "integer", "minimum": 0}
+              }
+            }
+          }
+        }
+      }
+    },
+    "versions": {
+      "type": "object", "additionalProperties": false,
+      "required": ["pipeline", "extractor", "normalizer", "schema"],
+      "properties": {"pipeline": {"type": "string"}, "extractor": {"type": "string"}, "normalizer": {"type": "string"}, "schema": {"type": "string"}}
+    }
+  }
+}

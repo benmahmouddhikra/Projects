@@ -1,0 +1,72 @@
+{
+  "artifact_key": "src_d5f484a0a6a8455b481f",
+  "artifact_paths": {
+    "canonical": null,
+    "extraction": "artifacts/pilot/src_d5f484a0a6a8455b481f/extraction.json",
+    "review": "artifacts/review-queue/review_244a84132543a6bd7e20.json",
+    "validation": "artifacts/pilot/src_d5f484a0a6a8455b481f/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.631447Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    }
+  },
+  "final_disposition": "excluded",
+  "initial_classification": null,
+  "required_reviews": [],
+  "review_coverage": "automated_triage",
+  "review_record_id": "review_244a84132543a6bd7e20",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/Saudi arabia/international-sales-contract-in-arabic.pdf",
+      "sha256": "4713be6c71aa995d059f8c4284fc8f40dfd7c17c9df9cf304874c3b2d69fc547",
+      "source_id": "src_d5f484a0a6a8455b481f"
+    }
+  ],
+  "template_id": null,
+  "training_eligibility": "excluded",
+  "updated_at": "2026-08-12T14:00:38.631447Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:00:38.631447Z",
+    "errors": [],
+    "valid": true
+  }
+}

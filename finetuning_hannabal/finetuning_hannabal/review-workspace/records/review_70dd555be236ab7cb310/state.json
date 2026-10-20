@@ -1,0 +1,79 @@
+{
+  "artifact_key": "src_a90c8662fa870e86b62d",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_a90c8662fa870e86b62d/canonical.json",
+    "extraction": "artifacts/pilot/src_a90c8662fa870e86b62d/extraction.json",
+    "review": "artifacts/review-queue/review_70dd555be236ab7cb310.json",
+    "validation": "artifacts/pilot/src_a90c8662fa870e86b62d/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.692589Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "completed_contract",
+  "required_reviews": [
+    "classification",
+    "extraction",
+    "legal",
+    "privacy",
+    "sanitization",
+    "structure"
+  ],
+  "review_coverage": "full",
+  "review_record_id": "review_70dd555be236ab7cb310",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/Syria/renting-contract-template-ar.pdf",
+      "sha256": "8072d30ab55bc63508a63240eebfc1d7242e6bbff07042418cd9e0dcc50e01a2",
+      "source_id": "src_a90c8662fa870e86b62d"
+    }
+  ],
+  "template_id": "tpl_2a5ec12882d29b68e7a1",
+  "training_eligibility": "review_required",
+  "updated_at": "2026-08-12T14:00:38.692589Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:00:38.692589Z",
+    "errors": [],
+    "valid": true
+  }
+}

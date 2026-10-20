@@ -1,0 +1,79 @@
+{
+  "artifact_key": "src_40b305c971edc2fc7489",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_40b305c971edc2fc7489/canonical.json",
+    "extraction": "artifacts/pilot/src_40b305c971edc2fc7489/extraction.json",
+    "review": "artifacts/review-queue/review_e2a3be250604715617bf.json",
+    "validation": "artifacts/pilot/src_40b305c971edc2fc7489/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.834846Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "completed_contract",
+  "required_reviews": [
+    "classification",
+    "extraction",
+    "legal",
+    "privacy",
+    "sanitization",
+    "structure"
+  ],
+  "review_coverage": "full",
+  "review_record_id": "review_e2a3be250604715617bf",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/Tunisie/contratdetravail.pdf",
+      "sha256": "dddb9617bb7be53be8bacd62164dfd6b0b85571aa460a7963b0d0a8909479e14",
+      "source_id": "src_40b305c971edc2fc7489"
+    }
+  ],
+  "template_id": "tpl_b214b77860a5364677a8",
+  "training_eligibility": "review_required",
+  "updated_at": "2026-08-12T14:00:38.834846Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:00:38.834846Z",
+    "errors": [],
+    "valid": true
+  }
+}

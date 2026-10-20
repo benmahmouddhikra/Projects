@@ -1,0 +1,79 @@
+{
+  "artifact_key": "src_f654a4dd883ddce57c02",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_f654a4dd883ddce57c02/canonical.json",
+    "extraction": "artifacts/pilot/src_f654a4dd883ddce57c02/extraction.json",
+    "review": "artifacts/review-queue/review_f874a9ab2e6e82810ce9.json",
+    "validation": "artifacts/pilot/src_f654a4dd883ddce57c02/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.118787Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "completed_contract",
+  "required_reviews": [
+    "classification",
+    "extraction",
+    "legal",
+    "privacy",
+    "sanitization",
+    "structure"
+  ],
+  "review_coverage": "full",
+  "review_record_id": "review_f874a9ab2e6e82810ce9",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/Iraq/store-rent-contract.pdf",
+      "sha256": "653d3992c31a39021e5e2f12a4a0234aca00bcfd4698007d842dc71e9cf034c1",
+      "source_id": "src_f654a4dd883ddce57c02"
+    }
+  ],
+  "template_id": "tpl_6775070f3c71845447d9",
+  "training_eligibility": "review_required",
+  "updated_at": "2026-08-12T14:00:38.118787Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:00:38.118787Z",
+    "errors": [],
+    "valid": true
+  }
+}

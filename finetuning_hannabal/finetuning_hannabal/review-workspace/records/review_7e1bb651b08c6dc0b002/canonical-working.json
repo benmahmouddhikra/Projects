@@ -1,0 +1,1213 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_0292cd1d541c27f28dce",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "court_filing",
+    "initial_document_kind": "court_filing",
+    "languages": [
+      {
+        "basis": "deterministic_text_heuristic",
+        "confidence": 0.109,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_0cbbccdeac94924f4576",
+            "normalized_end": 809,
+            "normalized_start": 0,
+            "raw_end": 809,
+            "raw_start": 0,
+            "source_id": "src_59466888403546f0252d",
+            "text_sha256": "a74fa91bc59c5f3271d97acad33ae8952f949c1220a0582a249ebfe75616eadf"
+          }
+        ],
+        "tag": "fr"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "unknown",
+    "title": "Citation Directe devant le Tribunal Correctionnel",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 49,
+        "normalized_start": 0,
+        "raw_end": 49,
+        "raw_start": 0,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "2a9e853de39d3358ed5efe879e07134e6b925305e2e46f441d4c58a05265d62f"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      },
+      {
+        "code": "ambiguity_023_non_contract_destination",
+        "message": "AMBIGUITY-023: the non-contract knowledge-base/training destination is unresolved.",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "not_required",
+    "structure_review_status": "pending",
+    "training_eligibility": "excluded"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_8f26dd862c51fd4511d5",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "CITATION DIRECTE",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_0cbbccdeac94924f4576",
+            "normalized_end": 93,
+            "normalized_start": 77,
+            "raw_end": 93,
+            "raw_start": 77,
+            "source_id": "src_59466888403546f0252d",
+            "text_sha256": "87181dbf20ffe4e112ea5335005fb0a550b996c2a756391f7fee75c26b6f3923"
+          },
+          "text": "CITATION DIRECTE",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "CITATION DIRECTE",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 93,
+        "normalized_start": 77,
+        "raw_end": 93,
+        "raw_start": 77,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "87181dbf20ffe4e112ea5335005fb0a550b996c2a756391f7fee75c26b6f3923"
+      },
+      "kind": "unclassified",
+      "order": 1,
+      "requirement_status": "unspecified",
+      "section_id": "sec_ffc08783624808dea7f9",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 93,
+        "normalized_start": 77,
+        "raw_end": 93,
+        "raw_start": 77,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "87181dbf20ffe4e112ea5335005fb0a550b996c2a756391f7fee75c26b6f3923"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e32dc49b87daafffe8c0",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "DEVANT LE TRIBUNAL CORRECTIONNEL",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_0cbbccdeac94924f4576",
+            "normalized_end": 260,
+            "normalized_start": 127,
+            "raw_end": 260,
+            "raw_start": 127,
+            "source_id": "src_59466888403546f0252d",
+            "text_sha256": "48ab6b8bf45372caca937db3cc7e4a14d29ae97a5c94b7e571ba4ca9c88703ea"
+          },
+          "text": "(Code de procédure pénale art. 388 et 390 à 393)\n[TRIBUNAL_CORRECTIONNEL_COMPETENT]\nDate :\n[DATE_DE_LA_CITATION]\nIdentité des parties",
+          "variable_ids": [
+            "date_de_la_citation",
+            "tribunal_correctionnel_competent"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "DEVANT LE TRIBUNAL CORRECTIONNEL",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 126,
+        "normalized_start": 94,
+        "raw_end": 126,
+        "raw_start": 94,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "cd0a89dbe6b0d570f9a81bedfc8fd7f260db70bda743ef4e54b9954053ba21c2"
+      },
+      "kind": "unclassified",
+      "order": 2,
+      "requirement_status": "unspecified",
+      "section_id": "sec_4c908581627ec07f5279",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 260,
+        "normalized_start": 94,
+        "raw_end": 260,
+        "raw_start": 94,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "c1069a0415c26b680ee13f10ff46e2ff6bdd762d502a980ad43ffdece1299980"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_90c2251d09e773baefe7",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "CITANT :",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_0cbbccdeac94924f4576",
+            "normalized_end": 449,
+            "normalized_start": 270,
+            "raw_end": 449,
+            "raw_start": 270,
+            "source_id": "src_59466888403546f0252d",
+            "text_sha256": "848aeb3855eb5f3173b279e69d1e0c49a4bf7964adf857361f6af00f54c8bd72"
+          },
+          "text": "Nom et prénom :\n[NOM_ET_PRENOM_DU_CITANT]\nNé(e) le :\n[DATE_DE_NAISSANCE_DU_CITANT]\nDemeurant :\n[ADRESSE_COMPLETE_DU_CITANT]\nAvocat constitué :\n[AVOCAT_CONSTITUE_MAITRE_BARREAU]",
+          "variable_ids": [
+            "adresse_complete_du_citant",
+            "avocat_constitue_maitre_barreau",
+            "date_de_naissance_du_citant",
+            "nom_et_prenom_du_citant"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "CITANT :",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 269,
+        "normalized_start": 261,
+        "raw_end": 269,
+        "raw_start": 261,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "f5f96c13e950fee4f70901dcb55b696c36bca33cbea4679d44177f94f1f44b0d"
+      },
+      "kind": "unclassified",
+      "order": 3,
+      "requirement_status": "unspecified",
+      "section_id": "sec_628ae8e254cd7424c823",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 449,
+        "normalized_start": 261,
+        "raw_end": 449,
+        "raw_start": 261,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "bf1ee15d0659e12ffbd7b49d6d52deed0ed8202940ec4f83f15544f1a3e05fcc"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_887de68dd2b43a58031f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "PRÉVENU(E) CITÉ(E) :",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_0cbbccdeac94924f4576",
+            "normalized_end": 679,
+            "normalized_start": 471,
+            "raw_end": 679,
+            "raw_start": 471,
+            "source_id": "src_59466888403546f0252d",
+            "text_sha256": "5654591bdb8ba4744b1cb615c9910f1608b8a6655628ca13501e96be3f4c0f10"
+          },
+          "text": "Nom et prénom :\n[NOM_ET_PRENOM_DU_PREVENU]\nNé(e) le :\n[DATE_DE_NAISSANCE_DU_PREVENU_SI_CONNUE]\nDemeurant :\n[ADRESSE_DU_PREVENU]\nProfession :\n[PROFESSION_DU_PREVENU_SI_CONNUE]\nFaits et qualification pénale",
+          "variable_ids": [
+            "adresse_du_prevenu",
+            "date_de_naissance_du_prevenu_si_connue",
+            "nom_et_prenom_du_prevenu",
+            "profession_du_prevenu_si_connue"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "PRÉVENU(E) CITÉ(E) :",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 470,
+        "normalized_start": 450,
+        "raw_end": 470,
+        "raw_start": 450,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "30ad99735f52b7c777c8e4757edd3ddde8248de640f9cbd951f7d3203c0ea007"
+      },
+      "kind": "unclassified",
+      "order": 4,
+      "requirement_status": "unspecified",
+      "section_id": "sec_bb0a90086e162acc4a17",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 679,
+        "normalized_start": 450,
+        "raw_end": 679,
+        "raw_start": 450,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "271b6a75ca71b58da24a144778db8f190dd89580f6637f2098cf381ab4865a6d"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_3b9bd65559ce85924d3a",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "INFRACTION VISÉE :",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_0cbbccdeac94924f4576",
+            "normalized_end": 809,
+            "normalized_start": 699,
+            "raw_end": 809,
+            "raw_start": 699,
+            "source_id": "src_59466888403546f0252d",
+            "text_sha256": "9887e2692b22805872eb1874d142960a5f6e08647c2fb39f09a4f744fefa7b60"
+          },
+          "text": "Qualification pénale :\n[QUALIFICATION_PENALE_RETENUE]\nDate(s) des faits :\n[DATE_S_DES_FAITS]\nLieu des faits :",
+          "variable_ids": [
+            "date_s_des_faits",
+            "qualification_penale_retenue"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "INFRACTION VISÉE :",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 698,
+        "normalized_start": 680,
+        "raw_end": 698,
+        "raw_start": 680,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "455410283347b4d4b58166b3b34d19db15367fdf1db3c2faca3a9523f8c2352b"
+      },
+      "kind": "unclassified",
+      "order": 5,
+      "requirement_status": "unspecified",
+      "section_id": "sec_17bcd878918a71538a31",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 809,
+        "normalized_start": 680,
+        "raw_end": 809,
+        "raw_start": 680,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "b5dd69bc2743407dcdc1e5e94d4976e9f56f457413a1f053c4982b91e719b1ab"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_f8c8ded8db7379a873b4",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "EXPOSÉ DES FAITS :",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_0cbbccdeac94924f4576",
+            "normalized_end": 604,
+            "normalized_start": 36,
+            "raw_end": 604,
+            "raw_start": 36,
+            "source_id": "src_59466888403546f0252d",
+            "text_sha256": "c55c8a3184f5c7babbe4991531700a58c7c22e503dc4cd668885336c06fc738e"
+          },
+          "text": "[EXPOSE_PRECIS_ET_CIRCONSTANCIE_DES_FAITS]\nConstitution de partie civile et demandes\nConstitution de partie civile :\n[LE_CITANT_SE_CONSTITUE_T_IL_PARTIE_CIVILE]\nPréjudice matériel :\n[PREJUDICE_MATERIEL]\nPréjudice moral et corporel :\n[PREJUDICE_MORAL_ET_CORPOREL]\nDispositif de la citation\nSur le fondement des articles 388, 390 à 393 du Code de procédure pénale, le citant cite à\ncomparaître\n[NOM_ET_PRENOM_DU_PREVENU]\ndevant le\n[TRIBUNAL_CORRECTIONNEL_COMPETENT]\nà l'audience dont la date sera fixée par le président de la chambre correctionnelle, aux fins de :",
+          "variable_ids": [
+            "expose_precis_et_circonstancie_des_faits",
+            "le_citant_se_constitue_t_il_partie_civile",
+            "nom_et_prenom_du_prevenu",
+            "prejudice_materiel",
+            "prejudice_moral_et_corporel",
+            "tribunal_correctionnel_competent"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "EXPOSÉ DES FAITS :",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 35,
+        "normalized_start": 17,
+        "raw_end": 35,
+        "raw_start": 17,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "ddea9cbefb4bcbb593588aa1be024a46c904bc9bf58a7c5529a7ce4bba117b73"
+      },
+      "kind": "unclassified",
+      "order": 6,
+      "requirement_status": "unspecified",
+      "section_id": "sec_ce8dc07c7ab694bd798c",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 604,
+        "normalized_start": 17,
+        "raw_end": 604,
+        "raw_start": 17,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "e5f476fdf44a38ab7f4cfe4be6d437fe08b0f20e7eae108aa9e4d91c0a727569"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_288531742bbeabf372df",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1. Voir déclarer le prévenu coupable des faits de",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_0cbbccdeac94924f4576",
+            "normalized_end": 778,
+            "normalized_start": 655,
+            "raw_end": 778,
+            "raw_start": 655,
+            "source_id": "src_59466888403546f0252d",
+            "text_sha256": "b01a109f58cc5a818feaa7829fea3259b987debfb78e995c0967836962811765"
+          },
+          "text": "[QUALIFICATION_PENALE_RETENUE]\ncommis le\n[DATE_S_DES_FAITS]\nà\n[LIEU_DES_FAITS]\n, tels que décrits et qualifiés ci-dessus ;",
+          "variable_ids": [
+            "date_s_des_faits",
+            "lieu_des_faits",
+            "qualification_penale_retenue"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "1. Voir déclarer le prévenu coupable des faits de",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 654,
+        "normalized_start": 605,
+        "raw_end": 654,
+        "raw_start": 605,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "b4abbe895da0522695b776c46b0625d349c4295657c4aa6165bdef6c024946c4"
+      },
+      "kind": "unclassified",
+      "order": 7,
+      "requirement_status": "unspecified",
+      "section_id": "sec_705ef64b6a1c2d1485a2",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 778,
+        "normalized_start": 605,
+        "raw_end": 778,
+        "raw_start": 605,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "b7d56b5117a2f26da6fc3ca2052ca52f226c51b138dfa5527d45a20f58e8348d"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_66039f22046d1fed34ba",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2. Le condamner aux peines prévues par les textes ci-dessus visés ;",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_0cbbccdeac94924f4576",
+            "normalized_end": 846,
+            "normalized_start": 779,
+            "raw_end": 846,
+            "raw_start": 779,
+            "source_id": "src_59466888403546f0252d",
+            "text_sha256": "b434b12dbd11096ec7938c6060eb28f350e927b55ba567c20574805a1c9c6bd4"
+          },
+          "text": "2. Le condamner aux peines prévues par les textes ci-dessus visés ;",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2. Le condamner aux peines prévues par les textes ci-dessus visés ;",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 846,
+        "normalized_start": 779,
+        "raw_end": 846,
+        "raw_start": 779,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "b434b12dbd11096ec7938c6060eb28f350e927b55ba567c20574805a1c9c6bd4"
+      },
+      "kind": "unclassified",
+      "order": 8,
+      "requirement_status": "unspecified",
+      "section_id": "sec_2a97d15db997ce75d53c",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 846,
+        "normalized_start": 779,
+        "raw_end": 846,
+        "raw_start": 779,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "b434b12dbd11096ec7938c6060eb28f350e927b55ba567c20574805a1c9c6bd4"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_3e35d46addbf0cc0740b",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3. Le condamner à payer au citant, en sa qualité de partie civile, la somme de",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_0cbbccdeac94924f4576",
+            "normalized_end": 1062,
+            "normalized_start": 926,
+            "raw_end": 1062,
+            "raw_start": 926,
+            "source_id": "src_59466888403546f0252d",
+            "text_sha256": "bf1591dae825d09213acad70a8973f76516c881d93da60e2740ef5e356c04265"
+          },
+          "text": "[PREJUDICE_MATERIEL]\nà titre de dommages et intérêts pour préjudice matériel, outre réparation du préjudice moral et\ncorporel subi ;",
+          "variable_ids": [
+            "prejudice_materiel"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "3. Le condamner à payer au citant, en sa qualité de partie civile, la somme de",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 925,
+        "normalized_start": 847,
+        "raw_end": 925,
+        "raw_start": 847,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "8360f3f741f3bc349f95af53351b8c4d188dc86d0d7f0edfa9251ec00f3f330f"
+      },
+      "kind": "unclassified",
+      "order": 9,
+      "requirement_status": "unspecified",
+      "section_id": "sec_9bb3e501db754c912293",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 1062,
+        "normalized_start": 847,
+        "raw_end": 1062,
+        "raw_start": 847,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "a1a842dad11fab5c0e8e7f254983d166784240e3fcd344f83b174f36db1f90bd"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_fcde4f5a3dd22e5133e8",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4. Le condamner aux dépens et frais de procédure.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_0cbbccdeac94924f4576",
+            "normalized_end": 1257,
+            "normalized_start": 1113,
+            "raw_end": 1257,
+            "raw_start": 1113,
+            "source_id": "src_59466888403546f0252d",
+            "text_sha256": "06e7dc77c44c1ebfa9e34fa72092d14fbdc9ccbbdaa0ee8a5a39a22d31bd1c71"
+          },
+          "text": "Sous toutes réserves.\nFait à ________________________, le\n[DATE_DE_LA_CITATION]\nSignature du citant ou de son avocat :\nCitant(e) / Partie civile",
+          "variable_ids": [
+            "date_de_la_citation"
+          ]
+        }
+      ],
+      "condition": null,
+      "heading": "4. Le condamner aux dépens et frais de procédure.",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 1112,
+        "normalized_start": 1063,
+        "raw_end": 1112,
+        "raw_start": 1063,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "355b1ee039f3fe7b30e89a0eb9c86b56268b39f4d7ec781030b57264d752dedd"
+      },
+      "kind": "unclassified",
+      "order": 10,
+      "requirement_status": "unspecified",
+      "section_id": "sec_af2c47ff9f93752a9ceb",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 1257,
+        "normalized_start": 1063,
+        "raw_end": 1257,
+        "raw_start": 1063,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "2219de7edf6520e82477070fd2b73f9f086f0cb71bf16c495e7218be8b9a9939"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_8346a95188d7320546f7",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "FORMS-LEGAL.COM",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_0cbbccdeac94924f4576",
+            "normalized_end": 44,
+            "normalized_start": 43,
+            "raw_end": 44,
+            "raw_start": 43,
+            "source_id": "src_59466888403546f0252d",
+            "text_sha256": "f8bf310263c1ac3ecd39fadaf73ef233d3a1e7f423e02afd8da0d4e8e38264af"
+          },
+          "text": "§",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "FORMS-LEGAL.COM",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 42,
+        "normalized_start": 27,
+        "raw_end": 42,
+        "raw_start": 27,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "9dcc6679dca92aef67105df2e4e9c1b39d662a1ee083fbad51ff995585c78dca"
+      },
+      "kind": "unclassified",
+      "order": 11,
+      "requirement_status": "unspecified",
+      "section_id": "sec_a3fe4d8d2315dd069d14",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 44,
+        "normalized_start": 27,
+        "raw_end": 44,
+        "raw_start": 27,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "48f8e4c2c9ff6da7d23f8ec0b44373eda5425b0ddaef4c6360522f05e8cf1cd0"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "extracted_text_sha256": "e12110e2289e9267726036cd6e6cfa1f49096e142f20d1fd33a5884c6da2b91c",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 3,
+      "relative_path": "templates/france/Citation Directe devant le Tribunal Correctionnel.pdf",
+      "sha256": "f8d6115b3bdec438d95410fcd5fa4b2139488a0b651986eb6f8d8f89640d6049",
+      "size_bytes": 4422,
+      "source_id": "src_59466888403546f0252d"
+    }
+  ],
+  "template_id": "tpl_71ef2ca991c3851fb283",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_6aca14d56682bccd053e",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 76,
+        "normalized_start": 0,
+        "raw_end": 76,
+        "raw_start": 0,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "dc102b99cb541e53650ae3e6ff4491771d031ee158d82e72535b8e67de92c060"
+      },
+      "text": "Citation Directe devant le Tribunal Correctionnel\nEn-tête — Citation Directe"
+    },
+    {
+      "content_id": "unparsed_674c018e9c5b425a9394",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 16,
+        "normalized_start": 0,
+        "raw_end": 16,
+        "raw_start": 0,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "e3f6ac817643c63f261bbd48d2c8c51182fa3d7c0a5c2dd59d828a726bdd41d1"
+      },
+      "text": "[Lieu des faits]"
+    },
+    {
+      "content_id": "unparsed_5b24e962a2d2d64f6e2e",
+      "reason": "content_before_first_detected_heading",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_0cbbccdeac94924f4576",
+        "normalized_end": 26,
+        "normalized_start": 0,
+        "raw_end": 26,
+        "raw_start": 0,
+        "source_id": "src_59466888403546f0252d",
+        "text_sha256": "c13126b007e408095b701c0cfea36a0de6f39296bbce355c1fd6ff03eec931b3"
+      },
+      "text": "________________\nSignature"
+    }
+  ],
+  "variables": [
+    {
+      "allowed_choices": [],
+      "canonical_token": "[TRIBUNAL_CORRECTIONNEL_COMPETENT]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 210,
+          "normalized_start": 176,
+          "raw_end": 210,
+          "raw_start": 176,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "972c244035a304e572358caad94d66f5e645cc3ab3be6219b7e56e5c6f0951d7"
+        },
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 505,
+          "normalized_start": 471,
+          "raw_end": 505,
+          "raw_start": 471,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "972c244035a304e572358caad94d66f5e645cc3ab3be6219b7e56e5c6f0951d7"
+        }
+      ],
+      "original_tokens": [
+        "[Tribunal correctionnel compétent]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "tribunal_correctionnel_competent"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[DATE_DE_LA_CITATION]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 239,
+          "normalized_start": 218,
+          "raw_end": 239,
+          "raw_start": 218,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "47904bd48a438a1fa21e661190b3a85acd497072f7db1e8724512184244e11cb"
+        },
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 1192,
+          "normalized_start": 1171,
+          "raw_end": 1192,
+          "raw_start": 1171,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "47904bd48a438a1fa21e661190b3a85acd497072f7db1e8724512184244e11cb"
+        }
+      ],
+      "original_tokens": [
+        "[Date de la citation]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "date_de_la_citation"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[NOM_ET_PRENOM_DU_CITANT]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 311,
+          "normalized_start": 286,
+          "raw_end": 311,
+          "raw_start": 286,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "5b7865729d7e12d1cd7f1b5f3ea769d8d11f78fa59049bfeee07631ef518de81"
+        }
+      ],
+      "original_tokens": [
+        "[Nom et prénom du citant]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "nom_et_prenom_du_citant"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[DATE_DE_NAISSANCE_DU_CITANT]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 352,
+          "normalized_start": 323,
+          "raw_end": 352,
+          "raw_start": 323,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "0bcf867cacdfd47f3259474cbbb8af5f0a7c9972495e880d7c4350d7194c65c7"
+        }
+      ],
+      "original_tokens": [
+        "[Date de naissance du citant]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "date_de_naissance_du_citant"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[ADRESSE_COMPLETE_DU_CITANT]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 393,
+          "normalized_start": 365,
+          "raw_end": 393,
+          "raw_start": 365,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "ac5cb0d001cc5dd622ce667ebcae8b201ea72607a0af02d69ebeed1393e4faf1"
+        }
+      ],
+      "original_tokens": [
+        "[Adresse complète du citant]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "adresse_complete_du_citant"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[AVOCAT_CONSTITUE_MAITRE_BARREAU]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 449,
+          "normalized_start": 413,
+          "raw_end": 449,
+          "raw_start": 413,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "2395d7fa733898df13e49c2c0f53fc538fe771217d188d6c77bd9c56050a4127"
+        }
+      ],
+      "original_tokens": [
+        "[Avocat constitué (Maître, Barreau)]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "avocat_constitue_maitre_barreau"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[NOM_ET_PRENOM_DU_PREVENU]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 513,
+          "normalized_start": 487,
+          "raw_end": 513,
+          "raw_start": 487,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "7420fbbf249dc4adbd66cc4812f2ce7fafffe14462af9493766031e4c0da2803"
+        },
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 460,
+          "normalized_start": 434,
+          "raw_end": 460,
+          "raw_start": 434,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "7420fbbf249dc4adbd66cc4812f2ce7fafffe14462af9493766031e4c0da2803"
+        }
+      ],
+      "original_tokens": [
+        "[Nom et prénom du prévenu]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "nom_et_prenom_du_prevenu"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[DATE_DE_NAISSANCE_DU_PREVENU_SI_CONNUE]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 567,
+          "normalized_start": 525,
+          "raw_end": 567,
+          "raw_start": 525,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "95525eaa6149a80f867aa252db82dc5fa5b04d796bebac0e4b49f257caf57812"
+        }
+      ],
+      "original_tokens": [
+        "[Date de naissance du prévenu (si connue)]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "date_de_naissance_du_prevenu_si_connue"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[ADRESSE_DU_PREVENU]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 600,
+          "normalized_start": 580,
+          "raw_end": 600,
+          "raw_start": 580,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "10c7c14dc63459abb9da14d19f2d8e415d30d1b675deee3b695c57d1584fc756"
+        }
+      ],
+      "original_tokens": [
+        "[Adresse du prévenu]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "adresse_du_prevenu"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[PROFESSION_DU_PREVENU_SI_CONNUE]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 649,
+          "normalized_start": 614,
+          "raw_end": 649,
+          "raw_start": 614,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "9cb53e8bd27027af9ffa88cceec43a13d5f4b2d938ea740d79c0042c3c5916c2"
+        }
+      ],
+      "original_tokens": [
+        "[Profession du prévenu (si connue)]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "profession_du_prevenu_si_connue"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[QUALIFICATION_PENALE_RETENUE]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 752,
+          "normalized_start": 722,
+          "raw_end": 752,
+          "raw_start": 722,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "2603f9feaacccd2bf8b919f003eca3ef4dcfe8c006e56ec4ebea869fa15201fc"
+        },
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 685,
+          "normalized_start": 655,
+          "raw_end": 685,
+          "raw_start": 655,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "2603f9feaacccd2bf8b919f003eca3ef4dcfe8c006e56ec4ebea869fa15201fc"
+        }
+      ],
+      "original_tokens": [
+        "[Qualification pénale retenue]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "qualification_penale_retenue"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[DATE_S_DES_FAITS]",
+      "occurrences": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 792,
+          "normalized_start": 773,
+          "raw_end": 792,
+          "raw_start": 773,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "4420272271c85a1760416f0f31f006703d63873b941a6629d306f1e2fb249a39"
+        },
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 715,
+          "normalized_start": 696,
+          "raw_end": 715,
+          "raw_start": 696,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "4420272271c85a1760416f0f31f006703d63873b941a6629d306f1e2fb249a39"
+        }
+      ],
+      "original_tokens": [
+        "[Date(s) des faits]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "date_s_des_faits"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[LIEU_DES_FAITS]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 16,
+          "normalized_start": 0,
+          "raw_end": 16,
+          "raw_start": 0,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "e3f6ac817643c63f261bbd48d2c8c51182fa3d7c0a5c2dd59d828a726bdd41d1"
+        },
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 734,
+          "normalized_start": 718,
+          "raw_end": 734,
+          "raw_start": 718,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "e3f6ac817643c63f261bbd48d2c8c51182fa3d7c0a5c2dd59d828a726bdd41d1"
+        }
+      ],
+      "original_tokens": [
+        "[Lieu des faits]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "lieu_des_faits"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[EXPOSE_PRECIS_ET_CIRCONSTANCIE_DES_FAITS]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 78,
+          "normalized_start": 36,
+          "raw_end": 78,
+          "raw_start": 36,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "d4ddef9456cb20a7d725399d0d078956df7ce7f57d19665c8a4e4bb9845022b0"
+        }
+      ],
+      "original_tokens": [
+        "[Exposé précis et circonstancié des faits]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "expose_precis_et_circonstancie_des_faits"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[LE_CITANT_SE_CONSTITUE_T_IL_PARTIE_CIVILE]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 198,
+          "normalized_start": 153,
+          "raw_end": 198,
+          "raw_start": 153,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "07267848806ecc3043ffbe981a70b663549c727d1356e07f6c31cf40705e492e"
+        }
+      ],
+      "original_tokens": [
+        "[Le citant se constitue-t-il partie civile ?]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "le_citant_se_constitue_t_il_partie_civile"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[PREJUDICE_MATERIEL]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 244,
+          "normalized_start": 220,
+          "raw_end": 244,
+          "raw_start": 220,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "16121ba3f38e35ebacb489e4c5e8bd0aaa5473c80cdaec35258208791cb63034"
+        },
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 950,
+          "normalized_start": 926,
+          "raw_end": 950,
+          "raw_start": 926,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "16121ba3f38e35ebacb489e4c5e8bd0aaa5473c80cdaec35258208791cb63034"
+        }
+      ],
+      "original_tokens": [
+        "[Préjudice matériel (€)]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "prejudice_materiel"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[PREJUDICE_MORAL_ET_CORPOREL]",
+      "occurrences": [
+        {
+          "block_id": "block_000002",
+          "extraction_id": "ext_0cbbccdeac94924f4576",
+          "normalized_end": 304,
+          "normalized_start": 275,
+          "raw_end": 304,
+          "raw_start": 275,
+          "source_id": "src_59466888403546f0252d",
+          "text_sha256": "f9c88eb06fa83ee4ca773a7f8175bc93900f35065920c76083312b12acdb5a70"
+        }
+      ],
+      "original_tokens": [
+        "[Préjudice moral et corporel]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "prejudice_moral_et_corporel"
+    }
+  ],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

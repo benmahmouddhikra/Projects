@@ -1,0 +1,79 @@
+{
+  "artifact_key": "src_f071e49ce22d21a0e919",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_f071e49ce22d21a0e919/canonical.json",
+    "extraction": "artifacts/pilot/src_f071e49ce22d21a0e919/extraction.json",
+    "review": "artifacts/review-queue/review_2fb31414c9971d50d18f.json",
+    "validation": "artifacts/pilot/src_f071e49ce22d21a0e919/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.401790Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "completed_contract",
+  "required_reviews": [
+    "classification",
+    "extraction",
+    "legal",
+    "privacy",
+    "sanitization",
+    "structure"
+  ],
+  "review_coverage": "full",
+  "review_record_id": "review_2fb31414c9971d50d18f",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/Palestine/نموذج صيغة عقد بيع شقة في عمارة في مجمع أبراج سكنية _ مجلة المحاماة والقانون.pdf",
+      "sha256": "ccf3d4d78c9834f85e7dbd7f7f0c791cb14877c8068108979c94c4f43028dbfe",
+      "source_id": "src_f071e49ce22d21a0e919"
+    }
+  ],
+  "template_id": "tpl_07163291ee3ab34dab9a",
+  "training_eligibility": "review_required",
+  "updated_at": "2026-08-12T14:00:38.401790Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:00:38.401790Z",
+    "errors": [],
+    "valid": true
+  }
+}

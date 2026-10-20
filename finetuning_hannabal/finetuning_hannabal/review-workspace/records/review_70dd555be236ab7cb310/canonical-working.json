@@ -1,0 +1,195 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_36059cc2223bac234e4c",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "completed_contract",
+    "initial_document_kind": "completed_contract",
+    "languages": [
+      {
+        "basis": "script_detection",
+        "confidence": 0.9433,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_63c09c34414e1637638d",
+            "normalized_end": 765,
+            "normalized_start": 0,
+            "raw_end": 765,
+            "raw_start": 0,
+            "source_id": "src_a90c8662fa870e86b62d",
+            "text_sha256": "1c7902794cf368357c1333b48c2d12ca1226be692d5b61f122af450831e08f18"
+          }
+        ],
+        "tag": "ar"
+      },
+      {
+        "basis": "deterministic_text_heuristic",
+        "confidence": 0.0,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_63c09c34414e1637638d",
+            "normalized_end": 765,
+            "normalized_start": 0,
+            "raw_end": 765,
+            "raw_start": 0,
+            "source_id": "src_a90c8662fa870e86b62d",
+            "text_sha256": "1c7902794cf368357c1333b48c2d12ca1226be692d5b61f122af450831e08f18"
+          }
+        ],
+        "tag": "und-Latn"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "completed",
+    "title": "ﻋﻘﺪ إﻳﺠﺎر ﻋﻘﺎر",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_63c09c34414e1637638d",
+        "normalized_end": 14,
+        "normalized_start": 0,
+        "raw_end": 14,
+        "raw_start": 0,
+        "source_id": "src_a90c8662fa870e86b62d",
+        "text_sha256": "8da4ed6f0c6e70508638b706561158b96a02f558b6080149af948231c779cc73"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "completed_contract_heuristic_requires_review",
+        "message": "Contract-like filename without detected square-bracket placeholders was initially classified completed and requires human confirmation.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      },
+      {
+        "code": "no_sections_confirmed",
+        "message": "No section boundaries were confirmed; meaningful text remains in unparsed_source_content.",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "required",
+    "structure_review_status": "pending",
+    "training_eligibility": "review_required"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [],
+  "source_files": [
+    {
+      "extracted_text_sha256": "83eb063528e7b50ccc2450fd02aedd903e3e3bc6510a4f316f55523b9a6faaf0",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 4,
+      "relative_path": "templates/Syria/renting-contract-template-ar.pdf",
+      "sha256": "8072d30ab55bc63508a63240eebfc1d7242e6bbff07042418cd9e0dcc50e01a2",
+      "size_bytes": 61065,
+      "source_id": "src_a90c8662fa870e86b62d"
+    }
+  ],
+  "template_id": "tpl_2a5ec12882d29b68e7a1",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_63f016c111b69c60b472",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_63c09c34414e1637638d",
+        "normalized_end": 765,
+        "normalized_start": 0,
+        "raw_end": 765,
+        "raw_start": 0,
+        "source_id": "src_a90c8662fa870e86b62d",
+        "text_sha256": "1c7902794cf368357c1333b48c2d12ca1226be692d5b61f122af450831e08f18"
+      },
+      "text": "ﻋﻘﺪ إﻳﺠﺎر ﻋﻘﺎر\nﻧﻤﻮذج ﻣﺴﻮدة ﻗﺎﺑﻞ ﻟﻠﺘﻌﺪﻳﻞ\n اﻟﺠﻤﻬﻮرﻳﺔ اﻟﻌﺮﺑﻴﺔ اﻟﺴﻮرﻳﺔ. ﻻﻟﺘﺴﻬﻴﻞ ﺻﻴﺎﻏﺔ ﻋﻘﻮد اﻹﻳﺠﺎر ﻓ  BeitSyria  ﻫﺬا اﻟﻨﻤﻮذج ﻣﺴﻮدة اﺳﺘﺮﺷﺎدﻳﺔ أﻋﺪّﺗﻬﺎﺗﻨﺒﻴﻪ: \nﻨﺼﺢ ﺑﺘﺴﺠﻴﻞ ﻋﻘﺪأي ﻣﺴﺆوﻟﻴﺔ ﻗﺎﻧﻮﻧﻴﺔ أو ﻣﺎﻟﻴﺔ ﻋﻦ اﺳﺘﺨﺪاﻣﻪ. ﻳ  BeitSyria ﻞﻌﺪّ ﻫﺬا اﻟﻨﻤﻮذج اﺳﺘﺸﺎرة ﻗﺎﻧﻮﻧﻴﺔ، وﻻ ﺗﺘﺤﻤﻳ\n ﻋﻨﺪ اﻟﺤﺎﺟﺔ. اﻟﺪاﺋﺮة اﻟﻤﺎﻟﻴﺔ وﻓﻘﺎً ﻟﻠﻘﻮاﻧﻴﻦ اﻟﻨﺎﻓﺬة، وﻣﺮاﺟﻌﺔ ﻣﺤﺎماﻹﻳﺠﺎر ﻓ\nﻫـ.اﻟﻤﻮاﻓﻖ ﺑﺘﺎرﻳﺦ  ﻣﺪﻳﻨﺔ ر ﻫﺬا اﻟﻌﻘﺪ ﻓﺮِﺣ\n: أﻃﺮاف اﻟﻌﻘﺪأوﻻ\nﺮ(:اﻟﻄﺮف اﻷول )اﻟﻤﺆﺟِ\n:اﻻﺳﻢ اﻟﺜﻼﺛ\nﺎن وﺗﺎرﻳﺦ اﻟﻮﻻدة:  ﻣ:  اﻟﺮﻗﻢ اﻟﻮﻃﻨ\nاﻟﻌﻨﻮان:\nرﻗﻢ اﻟﻬﺎﺗﻒ:\n )اﻟﻤﺴﺘﺄﺟِﺮ(:اﻟﻄﺮف اﻟﺜﺎﻧ\n:اﻻﺳﻢ اﻟﺜﻼﺛ\nﺎن وﺗﺎرﻳﺦ اﻟﻮﻻدة:  ﻣ:  اﻟﺮﻗﻢ اﻟﻮﻃﻨ\nاﻟﻌﻨﻮان اﻟﺴﺎﺑﻖ:\nرﻗﻢ اﻟﻬﺎﺗﻒ:\nﺮﺛﺎﻧﻴﺎً: وﺻﻒ اﻟﻌﻘﺎر اﻟﻤﺆﺟ\n  اﻟﻤﺪﻳﻨﺔ/اﻟﺒﻠﺪة:اﻟﻤﺤﺎﻓﻈﺔ:  \n  اﻟﺸﺎرع::  اﻟﺤ\n  رﻗﻢ اﻟﺸﻘﺔ:  اﻟﻄﺎﺑﻖ:  رﻗﻢ اﻟﺒﻨﺎء: \n   ﻧﻮع اﻟﻌﻘﺎر:²ماﻟﻤﺴﺎﺣﺔ:  \nﺎﻣﺎت:  ﻋﺪد اﻟﺤﻤﻋﺪد اﻟﻐﺮف:"
+    },
+    {
+      "content_id": "unparsed_01e5cd173a303831d2e2",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_63c09c34414e1637638d",
+        "normalized_end": 899,
+        "normalized_start": 0,
+        "raw_end": 899,
+        "raw_start": 0,
+        "source_id": "src_a90c8662fa870e86b62d",
+        "text_sha256": "0858d6ea2f7e3162c2fb6538cb4ae9993649bd6699a88445a22c04c92dbda30f"
+      },
+      "text": ":(ﺣﺎﻟﺔ اﻟﻌﻘﺎر )ﻣﻔﺮوش / ﻏﻴﺮ ﻣﻔﺮوش\nاﻟﻤﺮﻓﻘﺎت )ﻣﺼﻌﺪ، ﻣﻮﻗﻒ ﺳﻴﺎرة، ﺗﺪﻓﺌﺔ، ﺣﺪﻳﻘﺔ، ﺷﺮﻓﺔ(:\nﺛﺎﻟﺜﺎً: ﻣﺪة اﻹﻳﺠﺎر\n.)ﺑﺎﻷﺣﺮف(: ، وذﻟﻚ ﻟﻤﺪة إﺟﻤﺎﻟﻴﺔ ﻗﺪرﻫﺎ  ﺑﺘﺎرﻳﺦ وﺗﻨﺘﻬﺗﺒﺪأ ﻣﺪة اﻹﻳﺠﺎر ﻣﻦ ﺗﺎرﻳﺦ  \nراﺑﻌﺎً: ﺑﺪل اﻹﻳﺠﺎر وﻃﺮﻳﻘﺔ اﻟﺪﻓﻊ\n.)ﺑﺎﻷﺣﺮف(: ﻮن ﺑﺪل اﻹﻳﺠﺎر اﻟﺸﻬﺮي ﻣﺒﻠﻐﺎً ﻗﺪره  أن ﻳاﺗﻔﻖ اﻟﻄﺮﻓﺎن ﻋﻠ\nاﻟﻌﻤﻠﺔ:\nﻣﻦ ﻛﻞ ﺷﻬﺮ ﻣﻴﻼدي. ﻣﻮﻋﺪ أﻗﺼﺎه اﻟﻴﻮم  ﺴﺪﱠد اﻟﺒﺪل ﻓﻳ\n)ﻧﻘﺪاً / ﺣﻮاﻟﺔ ﻣﺼﺮﻓﻴﺔ / ﻏﻴﺮ ذﻟﻚ(.ﻃﺮﻳﻘﺔ اﻟﺪﻓﻊ:  \nﺮ )إن وﺟﺪ(: ﻟﻠﻤﺆﺟِرﻗﻢ اﻟﺤﺴﺎب اﻟﻤﺼﺮﻓ\nﻔﺎﻟﺔ(ﺧﺎﻣﺴﺎً: اﻟﺘﺄﻣﻴﻦ )اﻟ\nﻌﺎد إﻟﻴﻪ ﻋﻨﺪ اﻧﺘﻬﺎء اﻟﻌﻘﺪ ﺑﻌﺪ اﻟﺘﺤﻘﻖ ﻣﻦ ﺳﻼﻣﺔﻋﻨﺪ ﺗﻮﻗﻴﻊ ﻫﺬا اﻟﻌﻘﺪ، ﻳﻳﻠﺘﺰم اﻟﻤﺴﺘﺄﺟﺮ ﺑﺪﻓﻊ ﺗﺄﻣﻴﻦ ﺿﻤﺎن ﻗﺪره  \nاﻟﻌﻘﺎر وﺗﺴﺪﻳﺪ ﻛﻞ اﻟﻤﺴﺘﺤﻘﺎت، وﻻ ﻳﺠﻮز ﺧﺼﻤﻪ ﻣﻦ ﺑﺪﻻت اﻹﻳﺠﺎر.\nﺳﺎدﺳﺎً: اﻟﻤﺮاﻓﻖ واﻟﻔﻮاﺗﻴﺮ\nﺮ / اﻟﻤﺴﺘﺄﺟﺮ / ﻣﻨﺎﺻﻔﺔ(:ﺤﺪﱠد أﻣﺎم ﻛﻞ ﺑﻨﺪ: اﻟﻤﺆﺟِ )ﻳ اﻟﻨﺤﻮ اﻵﺗﺗُﺘﻮزﱠع اﻟﻔﻮاﺗﻴﺮ واﻟﻤﺮاﻓﻖ ﻋﻠ\nﻬﺮﺑﺎء:ﻓﺎﺗﻮرة اﻟ. 1\n:ﻓﺎﺗﻮرة اﻟﻤﻴﺎه. 2\n:ﻓﺎﺗﻮرة اﻹﻧﺘﺮﻧﺖ واﻟﻬﺎﺗﻒ. 3\n:(اﻟﺘﺪﻓﺌﺔ )ﻣﺎزوت / ﻏﺎز / ﻛﻬﺮﺑﺎﺋﻴﺔ. 4\n:رﺳﻮم اﻟﺤﺎرس واﻟﻤﺼﻌﺪ وﻧﻈﺎﻓﺔ اﻟﻤﺒﻨ. 5\n:رﺳﻮم اﻟﺒﻠﺪﻳﺔ واﻟﺼﺮف اﻟﺼﺤ. 6"
+    },
+    {
+      "content_id": "unparsed_1c97e045169440e2ab3c",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_63c09c34414e1637638d",
+        "normalized_end": 1447,
+        "normalized_start": 0,
+        "raw_end": 1447,
+        "raw_start": 0,
+        "source_id": "src_a90c8662fa870e86b62d",
+        "text_sha256": "8d72954dbd2d0ef85251c4835da673bbd634ad110ea003babadd54c749fb75ae"
+      },
+      "text": "(ﺮﺳﺎﺑﻌﺎً: اﻟﺘﺰاﻣﺎت اﻟﻄﺮف اﻷول )اﻟﻤﺆﺟِ\n اﻟﻤﻮﻋﺪ اﻟﻤﺘّﻔﻖ ﻋﻠﻴﻪ، ﺧﺎﻟﻴﺎً ﻣﻦ اﻟﺸﺎﻏﻠﻴﻦ، ﺻﺎﻟﺤﺎً ﻟﻼﺳﺘﻌﻤﺎل اﻟﻤﺘّﻔﻖ ﻋﻠﻴﻪ.ﺗﺴﻠﻴﻢ اﻟﻌﻘﺎر ﻟﻠﻤﺴﺘﺄﺟﺮ ﻓ. 1\n(ﺒﺮىﺑﺎت اﻷﻧﻈﻤﺔ اﻟﺮﺋﻴﺴﻴﺔ، اﻟﺒﻨﻴﺔ اﻹﻧﺸﺎﺋﻴﺔ، اﻷﻋﻄﺎل اﻟاﻟﻘﻴﺎم ﺑﺄﻋﻤﺎل اﻟﺼﻴﺎﻧﺔ اﻟﺠﻮﻫﺮﻳﺔ ﻟﻠﻌﻘﺎر )ﺗﺴﺮ. 2\n.ﺧﻼل ﻣﺪة ﻣﻌﻘﻮﻟﺔ\n اﻧﺘﻔﺎع اﻟﻤﺴﺘﺄﺟﺮ ﺑﺎﻟﻌﻘﺎر ﻃﻮال ﻣﺪة اﻟﻌﻘﺪ، إﻻ ﺑﺈذن ﻣﺴﺒﻖ وﺑﻤﻮاﻋﻴﺪ ﻣﺘّﻔﻖ ﻋﻠﻴﻬﺎ.ﻋﺪم اﻟﺘﺪﺧّﻞ ﻓ. 3\n.ﺿﻤﺎن اﻟﻌﻘﺎر ﻣﻦ اﻟﻌﻴﻮب اﻟﺨﻔﻴﺔ وأي ﺣﻘﻮق ﻟﻠﻐﻴﺮ. 4\n( )اﻟﻤﺴﺘﺄﺟِﺮﺛﺎﻣﻨﺎً: اﻟﺘﺰاﻣﺎت اﻟﻄﺮف اﻟﺜﺎﻧ\n ﻋﻦ ﻛﻞ دﻓﻌﺔ. ﻣﻮاﻋﻴﺪه اﻟﻤﺤﺪّدة، ﻣﻊ اﻻﺣﺘﻔﺎظ ﺑﺈﻳﺼﺎل ﺧﻄدﻓﻊ ﺑﺪل اﻹﻳﺠﺎر ﻓ. 1\n.ﺮ اﻟﺨﻄﻴﺔ، وﻋﺪم ﺗﻐﻴﻴﺮ اﺳﺘﻌﻤﺎﻟﻪ إﻻ ﺑﻤﻮاﻓﻘﺔ اﻟﻤﺆﺟِاﺳﺘﻌﻤﺎل اﻟﻌﻘﺎر ﻟﻠﻐﺮض اﻟﻤﺘّﻔﻖ ﻋﻠﻴﻪ:  .2\n. اﻟﻌﻘﺎر وﻣﻮﺟﻮداﺗﻪ، واﻟﻘﻴﺎم ﺑﺄﻋﻤﺎل اﻟﺼﻴﺎﻧﺔ اﻻﻋﺘﻴﺎدﻳﺔ اﻟﺒﺴﻴﻄﺔاﻟﻤﺤﺎﻓﻈﺔ ﻋﻠ. 3\n.ﺮ أو ﺗﺮﻛﻴﺐ ﺛﺎﺑﺖ دون ﻣﻮاﻓﻘﺔ ﺧﻄﻴﺔ ﻣﺴﺒﻘﺔ ﻣﻦ اﻟﻤﺆﺟِﻋﺪم إﺟﺮاء أي ﺗﻌﺪﻳﻞ إﻧﺸﺎﺋ. 4\n.ﺮﻋﺪم ﺗﺄﺟﻴﺮ اﻟﻌﻘﺎر ﻣﻦ اﻟﺒﺎﻃﻦ أو اﻟﺘﻨﺎزل ﻋﻦ اﻟﻌﻘﺪ ﻟﻠﻐﻴﺮ دون ﻣﻮاﻓﻘﺔ ﺧﻄﻴﺔ ﻣﺴﺒﻘﺔ ﻣﻦ اﻟﻤﺆﺟِ. 5\n. اﻟﻌﻘﺎر ﻋﻨﺪ اﻧﺘﻬﺎء اﻟﻌﻘﺪ ﺑﺤﺎﻟﺘﻪ اﻷﺻﻠﻴﺔ، ﻣﻊ ﻣﺮاﻋﺎة اﻻﺳﺘﻬﻼك اﻟﻄﺒﻴﻌرد. 6\nﺗﺎﺳﻌﺎً: اﻹﺧﻼء وﻓﺴﺦ اﻟﻌﻘﺪ\n.ﻳﻮﻣﺎً، ﺑﻌﺪ إﻧﺬار ﺧﻄﺮ ﻃﻠﺐ اﻹﺧﻼء ﻋﻨﺪ ﺗﺄﺧّﺮ اﻟﻤﺴﺘﺄﺟﺮ ﻋﻦ ﺳﺪاد ﺑﺪل اﻹﻳﺠﺎر ﻣﺪة   ﻟﻠﻤﺆﺟِﻳﺤﻖ. 1\nﻳﻮﻣﺎً، ﻣﻊ اﻻﻟﺘﺰام ﻷي ﻃﺮف ﻓﺴﺦ اﻟﻌﻘﺪ ﻗﺒﻞ اﻧﺘﻬﺎء ﻣﺪﺗﻪ ﺑﺸﺮط إﺧﻄﺎر اﻟﻄﺮف اﻵﺧﺮ ﺧﻄﻴﺎً ﻗﺒﻞ  ﻳﺤﻖ. 2\n. ﺗﺎرﻳﺦ اﻟﺘﺴﻠﻴﻢ اﻟﻔﻌﻠﺑﺴﺪاد ﺑﺪل اﻹﻳﺠﺎر ﺣﺘ\n ﻣﻮﻋﺪﻌﺘﺒﺮ اﻟﻌﻘﺪ ﻣﻨﺘﻬﻴﺎً وﻳﻠﺘﺰم اﻟﻤﺴﺘﺄﺟﺮ ﺑﺈﺧﻼء اﻟﻌﻘﺎر ﻓ، ﻳﻋﻨﺪ اﻧﺘﻬﺎء ﻣﺪة اﻟﻌﻘﺪ دون ﺗﺠﺪﻳﺪ ﻛﺘﺎﺑ. 3\n.أﻗﺼﺎه ﻳﻮم اﻻﻧﺘﻬﺎء\nﻋﺎﺷﺮاً: اﻟﺘﺠﺪﻳﺪ\nﻮن ﺿﻤﻨﻴﺎً وﻳﺘﻄﻠّﺐﻳﻮﻣﺎً. اﻟﺘﺠﺪﻳﺪ ﻻ ﻳ ﻗﺒﻞ اﻧﺘﻬﺎء ﻣﺪﺗﻪ ﺑﻤﺪة ﻻ ﺗﻘﻞ ﻋﻦ  ﻳﺠﻮز ﻟﻠﻄﺮﻓﻴﻦ ﺗﺠﺪﻳﺪ ﻫﺬا اﻟﻌﻘﺪ ﺑﺎﻟﺘﺮاﺿ\nاﺗﻔﺎﻗﺎً ﺧﻄﻴﺎً ﺟﺪﻳﺪاً ﻳﺤﺪّد اﻟﺒﺪل واﻟﻤﺪة."
+    },
+    {
+      "content_id": "unparsed_51db7781bc90573ef709",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_63c09c34414e1637638d",
+        "normalized_end": 527,
+        "normalized_start": 0,
+        "raw_end": 527,
+        "raw_start": 0,
+        "source_id": "src_a90c8662fa870e86b62d",
+        "text_sha256": "846da3450923d199e1477614fa72570349632de015c5e32e56e4d7926248eecc"
+      },
+      "text": "ﺎم ﻋﺎﻣﺔﺣﺎدي ﻋﺸﺮ: أﺣ\n اﻟﺠﻤﻬﻮرﻳﺔ اﻟﻌﺮﺑﻴﺔﺎم ﻗﺎﻧﻮن اﻹﻳﺠﺎر اﻟﻨﺎﻓﺬ ﻓ أﺣﺮﺟﻊ ﻓﻴﻪ إﻟ ﻫﺬا اﻟﻌﻘﺪ ﻳﻛﻞ ﻣﺎ ﻟﻢ ﻳﺮد ﻓﻴﻪ ﻧﺺ ﻓ. 1\n.اﻟﺴﻮرﻳﺔ\n ﻧﺰاع ﻳﻨﺸﺄ ﻋﻦ ﺗﻨﻔﻴﺬ ﻫﺬا اﻟﻌﻘﺪ. أيﺑﺎﻟﻨﻈﺮ ﻓ ﻣﺪﻳﻨﺔ   اﻟﻤﺤﺎﻛﻢ اﻟﺴﻮرﻳﺔ ﻓﺗﺨﺘﺺ. 2\n. ﻃﺮفٍ ﻧﺴﺨﺔ ﻟﻠﻌﻤﻞ ﺑﻤﻮﺟﺒﻬﺎر ﻫﺬا اﻟﻌﻘﺪ ﻣﻦ ﻧﺴﺨﺘﻴﻦ أﺻﻠﻴﺘﻴﻦ، ﺑﻴﺪ ﻛﻞﺮِﺣ. 3\n( )اﻟﻤﺴﺘﺄﺟِﺮاﻟﻄﺮف اﻟﺜﺎﻧ\nاﻻﺳﻢ:\nاﻟﺘﻮﻗﻴﻊ:\nاﻟﺘﺎرﻳﺦ:ﺮ(اﻟﻄﺮف اﻷول )اﻟﻤﺆﺟِ\nاﻻﺳﻢ:\nاﻟﺘﻮﻗﻴﻊ:\nاﻟﺘﺎرﻳﺦ:\nاﻟﺸﻬﻮد )اﺧﺘﻴﺎري(:\n  اﻟﺘﻮﻗﻴﻊ:. اﻻﺳﻢ:  1\n:  اﻟﺘﻮﻗﻴﻊ. اﻻﺳﻢ:  2\n.ﻨﺼﺢ ﺑﺘﺴﺠﻴﻠﻬﺎ ﻟﺪى اﻟﺠﻬﺎت اﻟﻤﺨﺘﺼﺔﻧﺴﺨﺔ ﻣﺴﻮدة، ﻳ —  BeitSyria — beitsyria.com ﺒﻞﻌﺪّ ﻣﻦ ﻗﻧﻤﻮذج ﻣ"
+    }
+  ],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

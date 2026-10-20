@@ -1,0 +1,2249 @@
+{
+  "action": "structured_correction",
+  "canonical_before": {
+    "audit_history": [
+      {
+        "action": "deterministic_assembly",
+        "action_id": "action_0bd8576ce1f6a6da3f16",
+        "actor": "contract-template-dataset-pipeline-1.0.0",
+        "actor_type": "pipeline",
+        "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+      }
+    ],
+    "document": {
+      "contract_family": "unknown",
+      "contract_type": null,
+      "document_kind": "completed_contract",
+      "initial_document_kind": "completed_contract",
+      "languages": [
+        {
+          "basis": "deterministic_text_heuristic",
+          "confidence": 0.1204,
+          "evidence": [
+            {
+              "block_id": "block_000001",
+              "extraction_id": "ext_4e158a8a52adb3ce2d44",
+              "normalized_end": 19,
+              "normalized_start": 0,
+              "raw_end": 19,
+              "raw_start": 0,
+              "source_id": "src_bc3242743138c02663fb",
+              "text_sha256": "e8848c98a0c8fa3066e1f39dad049b95c5195ce3706a0333753682026dee6cbe"
+            }
+          ],
+          "tag": "fr"
+        }
+      ],
+      "reclassification_history": [],
+      "template_state": "completed",
+      "title": "Nom de l’entreprise",
+      "title_evidence": [
+        {
+          "block_id": "block_000001",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 19,
+          "normalized_start": 0,
+          "raw_end": 19,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "e8848c98a0c8fa3066e1f39dad049b95c5195ce3706a0333753682026dee6cbe"
+        }
+      ]
+    },
+    "jurisdictions": [],
+    "model_assistance": {
+      "model_tag": "qwen3.5:4b-q4_K_M",
+      "provider": "ollama",
+      "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+      "status": "unavailable"
+    },
+    "parties": [],
+    "quality": {
+      "extraction_status": "success",
+      "issues": [
+        {
+          "code": "human_review_required",
+          "message": "No human structure, privacy, or legal approval has been recorded.",
+          "severity": "warning"
+        },
+        {
+          "code": "completed_contract_heuristic_requires_review",
+          "message": "Contract-like filename without detected square-bracket placeholders was initially classified completed and requires human confirmation.",
+          "severity": "warning"
+        },
+        {
+          "code": "model_assistance_unavailable",
+          "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+          "severity": "warning"
+        }
+      ],
+      "legal_review_status": "pending",
+      "privacy_review_status": "pending",
+      "sanitization_status": "required",
+      "structure_review_status": "pending",
+      "training_eligibility": "review_required"
+    },
+    "sanitization_history": [],
+    "schema_version": "contract-template-v1",
+    "sections": [
+      {
+        "clauses": [
+          {
+            "clause_id": "clause_4e80a6072b187b14862a",
+            "clause_type": "unclassified",
+            "condition": null,
+            "heading": "CONTRAT DE TRAVAIL A DUREE DETERMINEE",
+            "legal_references": [],
+            "order": 1,
+            "requirement_status": "unspecified",
+            "source_span": {
+              "block_id": "block_000008",
+              "extraction_id": "ext_4e158a8a52adb3ce2d44",
+              "normalized_end": 37,
+              "normalized_start": 0,
+              "raw_end": 37,
+              "raw_start": 0,
+              "source_id": "src_bc3242743138c02663fb",
+              "text_sha256": "927176dcb7304d74c77f696fbf5bf43aa9174f70778d9a78297f6320efe80489"
+            },
+            "text": "CONTRAT DE TRAVAIL A DUREE DETERMINEE",
+            "variable_ids": []
+          }
+        ],
+        "condition": null,
+        "heading": "CONTRAT DE TRAVAIL A DUREE DETERMINEE",
+        "heading_span": {
+          "block_id": "block_000008",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 37,
+          "normalized_start": 0,
+          "raw_end": 37,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "927176dcb7304d74c77f696fbf5bf43aa9174f70778d9a78297f6320efe80489"
+        },
+        "kind": "unclassified",
+        "order": 1,
+        "requirement_status": "unspecified",
+        "section_id": "sec_5530e8b5cb90c1f9638a",
+        "source_span": {
+          "block_id": "block_000008",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 37,
+          "normalized_start": 0,
+          "raw_end": 37,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "927176dcb7304d74c77f696fbf5bf43aa9174f70778d9a78297f6320efe80489"
+        }
+      },
+      {
+        "clauses": [
+          {
+            "clause_id": "clause_f748c228e768b6458fd9",
+            "clause_type": "unclassified",
+            "condition": null,
+            "heading": "Article 1 : Objet du contrat",
+            "legal_references": [],
+            "order": 1,
+            "requirement_status": "unspecified",
+            "source_span": {
+              "block_id": "block_000022",
+              "extraction_id": "ext_4e158a8a52adb3ce2d44",
+              "normalized_end": 28,
+              "normalized_start": 0,
+              "raw_end": 28,
+              "raw_start": 0,
+              "source_id": "src_bc3242743138c02663fb",
+              "text_sha256": "bafb91abf23cfd1b4075379329a2f28966c5fb9a79c29ef7f3cdb56999f6e1f3"
+            },
+            "text": "Article 1 : Objet du contrat",
+            "variable_ids": []
+          }
+        ],
+        "condition": null,
+        "heading": "Article 1 : Objet du contrat",
+        "heading_span": {
+          "block_id": "block_000022",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 28,
+          "normalized_start": 0,
+          "raw_end": 28,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "bafb91abf23cfd1b4075379329a2f28966c5fb9a79c29ef7f3cdb56999f6e1f3"
+        },
+        "kind": "unclassified",
+        "order": 2,
+        "requirement_status": "unspecified",
+        "section_id": "sec_fbcbdb068ee6a1bf4768",
+        "source_span": {
+          "block_id": "block_000022",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 28,
+          "normalized_start": 0,
+          "raw_end": 28,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "bafb91abf23cfd1b4075379329a2f28966c5fb9a79c29ef7f3cdb56999f6e1f3"
+        }
+      },
+      {
+        "clauses": [
+          {
+            "clause_id": "clause_10286db279f15824c09b",
+            "clause_type": "unclassified",
+            "condition": null,
+            "heading": "Article 2 : Engagement",
+            "legal_references": [],
+            "order": 1,
+            "requirement_status": "unspecified",
+            "source_span": {
+              "block_id": "block_000024",
+              "extraction_id": "ext_4e158a8a52adb3ce2d44",
+              "normalized_end": 22,
+              "normalized_start": 0,
+              "raw_end": 22,
+              "raw_start": 0,
+              "source_id": "src_bc3242743138c02663fb",
+              "text_sha256": "e2e0743df684ae3d415f63195fff5ee90dc7bc94ed01861c4fbb53e288710e76"
+            },
+            "text": "Article 2 : Engagement",
+            "variable_ids": []
+          }
+        ],
+        "condition": null,
+        "heading": "Article 2 : Engagement",
+        "heading_span": {
+          "block_id": "block_000024",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 22,
+          "normalized_start": 0,
+          "raw_end": 22,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "e2e0743df684ae3d415f63195fff5ee90dc7bc94ed01861c4fbb53e288710e76"
+        },
+        "kind": "unclassified",
+        "order": 3,
+        "requirement_status": "unspecified",
+        "section_id": "sec_42113042b9ec81b1c8e3",
+        "source_span": {
+          "block_id": "block_000024",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 22,
+          "normalized_start": 0,
+          "raw_end": 22,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "e2e0743df684ae3d415f63195fff5ee90dc7bc94ed01861c4fbb53e288710e76"
+        }
+      },
+      {
+        "clauses": [
+          {
+            "clause_id": "clause_24437b6da63e2fe35eec",
+            "clause_type": "unclassified",
+            "condition": null,
+            "heading": "Article 3 : Durée de la relation du travail et motifs de la durée limitée. Le présent contrat est conclu pour une durée de :\tMois",
+            "legal_references": [],
+            "order": 1,
+            "requirement_status": "unspecified",
+            "source_span": {
+              "block_id": "block_000029",
+              "extraction_id": "ext_4e158a8a52adb3ce2d44",
+              "normalized_end": 130,
+              "normalized_start": 0,
+              "raw_end": 130,
+              "raw_start": 0,
+              "source_id": "src_bc3242743138c02663fb",
+              "text_sha256": "51cd461270c743628967c186c5fff371e3a259842c916b944543a2007c1cf849"
+            },
+            "text": "\tArticle 3 : Durée de la relation du travail et motifs de la durée limitée. Le présent contrat est conclu pour une durée de :\tMois",
+            "variable_ids": []
+          }
+        ],
+        "condition": null,
+        "heading": "Article 3 : Durée de la relation du travail et motifs de la durée limitée. Le présent contrat est conclu pour une durée de :\tMois",
+        "heading_span": {
+          "block_id": "block_000029",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 130,
+          "normalized_start": 0,
+          "raw_end": 130,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "51cd461270c743628967c186c5fff371e3a259842c916b944543a2007c1cf849"
+        },
+        "kind": "unclassified",
+        "order": 4,
+        "requirement_status": "unspecified",
+        "section_id": "sec_03a21795f9f6734af4ce",
+        "source_span": {
+          "block_id": "block_000029",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 130,
+          "normalized_start": 0,
+          "raw_end": 130,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "51cd461270c743628967c186c5fff371e3a259842c916b944543a2007c1cf849"
+        }
+      },
+      {
+        "clauses": [
+          {
+            "clause_id": "clause_47754ec8b75a17740379",
+            "clause_type": "unclassified",
+            "condition": null,
+            "heading": "Article 4 : Rémunération du contractant",
+            "legal_references": [],
+            "order": 1,
+            "requirement_status": "unspecified",
+            "source_span": {
+              "block_id": "block_000040",
+              "extraction_id": "ext_4e158a8a52adb3ce2d44",
+              "normalized_end": 39,
+              "normalized_start": 0,
+              "raw_end": 39,
+              "raw_start": 0,
+              "source_id": "src_bc3242743138c02663fb",
+              "text_sha256": "1fe4bfeaf8ff090cee37b6fe202222f4f805a55e7fbf39c45432a14ff9792bc3"
+            },
+            "text": "Article 4 : Rémunération du contractant",
+            "variable_ids": []
+          }
+        ],
+        "condition": null,
+        "heading": "Article 4 : Rémunération du contractant",
+        "heading_span": {
+          "block_id": "block_000040",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 39,
+          "normalized_start": 0,
+          "raw_end": 39,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "1fe4bfeaf8ff090cee37b6fe202222f4f805a55e7fbf39c45432a14ff9792bc3"
+        },
+        "kind": "unclassified",
+        "order": 5,
+        "requirement_status": "unspecified",
+        "section_id": "sec_c06744e4617b4c9dc3d5",
+        "source_span": {
+          "block_id": "block_000040",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 39,
+          "normalized_start": 0,
+          "raw_end": 39,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "1fe4bfeaf8ff090cee37b6fe202222f4f805a55e7fbf39c45432a14ff9792bc3"
+        }
+      },
+      {
+        "clauses": [
+          {
+            "clause_id": "clause_fa0171a969e9b2764e85",
+            "clause_type": "unclassified",
+            "condition": null,
+            "heading": "Article 5: Période d’essai",
+            "legal_references": [],
+            "order": 1,
+            "requirement_status": "unspecified",
+            "source_span": {
+              "block_id": "block_000045",
+              "extraction_id": "ext_4e158a8a52adb3ce2d44",
+              "normalized_end": 26,
+              "normalized_start": 0,
+              "raw_end": 26,
+              "raw_start": 0,
+              "source_id": "src_bc3242743138c02663fb",
+              "text_sha256": "85702353450e250f25c174a27de121d24a11ae25e350858403af467cc0772feb"
+            },
+            "text": "Article 5: Période d’essai",
+            "variable_ids": []
+          }
+        ],
+        "condition": null,
+        "heading": "Article 5: Période d’essai",
+        "heading_span": {
+          "block_id": "block_000045",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 26,
+          "normalized_start": 0,
+          "raw_end": 26,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "85702353450e250f25c174a27de121d24a11ae25e350858403af467cc0772feb"
+        },
+        "kind": "unclassified",
+        "order": 6,
+        "requirement_status": "unspecified",
+        "section_id": "sec_135df6d5a9898ab57764",
+        "source_span": {
+          "block_id": "block_000045",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 26,
+          "normalized_start": 0,
+          "raw_end": 26,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "85702353450e250f25c174a27de121d24a11ae25e350858403af467cc0772feb"
+        }
+      },
+      {
+        "clauses": [
+          {
+            "clause_id": "clause_bfe0dc37095545555746",
+            "clause_type": "unclassified",
+            "condition": null,
+            "heading": "Article 6 : Fin de la relation du travail",
+            "legal_references": [],
+            "order": 1,
+            "requirement_status": "unspecified",
+            "source_span": {
+              "block_id": "block_000050",
+              "extraction_id": "ext_4e158a8a52adb3ce2d44",
+              "normalized_end": 41,
+              "normalized_start": 0,
+              "raw_end": 41,
+              "raw_start": 0,
+              "source_id": "src_bc3242743138c02663fb",
+              "text_sha256": "94d662930332ba121f6d2ce10dd438f90b4549fc71c3eb0c8181293747bc81bf"
+            },
+            "text": "Article 6 : Fin de la relation du travail",
+            "variable_ids": []
+          }
+        ],
+        "condition": null,
+        "heading": "Article 6 : Fin de la relation du travail",
+        "heading_span": {
+          "block_id": "block_000050",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 41,
+          "normalized_start": 0,
+          "raw_end": 41,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "94d662930332ba121f6d2ce10dd438f90b4549fc71c3eb0c8181293747bc81bf"
+        },
+        "kind": "unclassified",
+        "order": 7,
+        "requirement_status": "unspecified",
+        "section_id": "sec_8fac9a4cbb60f0c5e306",
+        "source_span": {
+          "block_id": "block_000050",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 41,
+          "normalized_start": 0,
+          "raw_end": 41,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "94d662930332ba121f6d2ce10dd438f90b4549fc71c3eb0c8181293747bc81bf"
+        }
+      },
+      {
+        "clauses": [
+          {
+            "clause_id": "clause_8451e28246a516aedd5a",
+            "clause_type": "unclassified",
+            "condition": null,
+            "heading": "Article 7 : Renouvellement de contrat",
+            "legal_references": [],
+            "order": 1,
+            "requirement_status": "unspecified",
+            "source_span": {
+              "block_id": "block_000053",
+              "extraction_id": "ext_4e158a8a52adb3ce2d44",
+              "normalized_end": 37,
+              "normalized_start": 0,
+              "raw_end": 37,
+              "raw_start": 0,
+              "source_id": "src_bc3242743138c02663fb",
+              "text_sha256": "53adb79c764598ff88e6f4aa30be54fdff8faec0824e890fb17106e25e8fbe7e"
+            },
+            "text": "Article 7 : Renouvellement de contrat",
+            "variable_ids": []
+          }
+        ],
+        "condition": null,
+        "heading": "Article 7 : Renouvellement de contrat",
+        "heading_span": {
+          "block_id": "block_000053",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 37,
+          "normalized_start": 0,
+          "raw_end": 37,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "53adb79c764598ff88e6f4aa30be54fdff8faec0824e890fb17106e25e8fbe7e"
+        },
+        "kind": "unclassified",
+        "order": 8,
+        "requirement_status": "unspecified",
+        "section_id": "sec_acfb587d098c46edbb20",
+        "source_span": {
+          "block_id": "block_000053",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 37,
+          "normalized_start": 0,
+          "raw_end": 37,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "53adb79c764598ff88e6f4aa30be54fdff8faec0824e890fb17106e25e8fbe7e"
+        }
+      },
+      {
+        "clauses": [
+          {
+            "clause_id": "clause_720a53781c9dd70629d5",
+            "clause_type": "unclassified",
+            "condition": null,
+            "heading": "Article 8 : Mission et obligation du contractant",
+            "legal_references": [],
+            "order": 1,
+            "requirement_status": "unspecified",
+            "source_span": {
+              "block_id": "block_000056",
+              "extraction_id": "ext_4e158a8a52adb3ce2d44",
+              "normalized_end": 48,
+              "normalized_start": 0,
+              "raw_end": 48,
+              "raw_start": 0,
+              "source_id": "src_bc3242743138c02663fb",
+              "text_sha256": "6378c80f124a24310dc5183c3df62c69595af6642b1e64a9034508e53d0ea4ad"
+            },
+            "text": "Article 8 : Mission et obligation du contractant",
+            "variable_ids": []
+          }
+        ],
+        "condition": null,
+        "heading": "Article 8 : Mission et obligation du contractant",
+        "heading_span": {
+          "block_id": "block_000056",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 48,
+          "normalized_start": 0,
+          "raw_end": 48,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "6378c80f124a24310dc5183c3df62c69595af6642b1e64a9034508e53d0ea4ad"
+        },
+        "kind": "unclassified",
+        "order": 9,
+        "requirement_status": "unspecified",
+        "section_id": "sec_e91364c3c0737eb14b86",
+        "source_span": {
+          "block_id": "block_000056",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 48,
+          "normalized_start": 0,
+          "raw_end": 48,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "6378c80f124a24310dc5183c3df62c69595af6642b1e64a9034508e53d0ea4ad"
+        }
+      },
+      {
+        "clauses": [
+          {
+            "clause_id": "clause_8cdcef74d6e306624bd7",
+            "clause_type": "unclassified",
+            "condition": null,
+            "heading": "Article 9 : Matériel mis à la disposition du contractant",
+            "legal_references": [],
+            "order": 1,
+            "requirement_status": "unspecified",
+            "source_span": {
+              "block_id": "block_000058",
+              "extraction_id": "ext_4e158a8a52adb3ce2d44",
+              "normalized_end": 56,
+              "normalized_start": 0,
+              "raw_end": 56,
+              "raw_start": 0,
+              "source_id": "src_bc3242743138c02663fb",
+              "text_sha256": "d104e6a829cf0535ab91a3ac48d404d449168fc6441bd020ebc48c7bcf098d3e"
+            },
+            "text": "Article 9 : Matériel mis à la disposition du contractant",
+            "variable_ids": []
+          }
+        ],
+        "condition": null,
+        "heading": "Article 9 : Matériel mis à la disposition du contractant",
+        "heading_span": {
+          "block_id": "block_000058",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 56,
+          "normalized_start": 0,
+          "raw_end": 56,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "d104e6a829cf0535ab91a3ac48d404d449168fc6441bd020ebc48c7bcf098d3e"
+        },
+        "kind": "unclassified",
+        "order": 10,
+        "requirement_status": "unspecified",
+        "section_id": "sec_9aedd3eb5612ed23c763",
+        "source_span": {
+          "block_id": "block_000058",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 56,
+          "normalized_start": 0,
+          "raw_end": 56,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "d104e6a829cf0535ab91a3ac48d404d449168fc6441bd020ebc48c7bcf098d3e"
+        }
+      },
+      {
+        "clauses": [
+          {
+            "clause_id": "clause_260309c3700860c2f262",
+            "clause_type": "unclassified",
+            "condition": null,
+            "heading": "Article 10 : heures supplémentaires",
+            "legal_references": [],
+            "order": 1,
+            "requirement_status": "unspecified",
+            "source_span": {
+              "block_id": "block_000061",
+              "extraction_id": "ext_4e158a8a52adb3ce2d44",
+              "normalized_end": 35,
+              "normalized_start": 0,
+              "raw_end": 35,
+              "raw_start": 0,
+              "source_id": "src_bc3242743138c02663fb",
+              "text_sha256": "cc99fad074fd6ecdd6adc9d17f640c7dd769d716a3e4189dd120119f5bb1b3a4"
+            },
+            "text": "Article 10 : heures supplémentaires",
+            "variable_ids": []
+          }
+        ],
+        "condition": null,
+        "heading": "Article 10 : heures supplémentaires",
+        "heading_span": {
+          "block_id": "block_000061",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 35,
+          "normalized_start": 0,
+          "raw_end": 35,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "cc99fad074fd6ecdd6adc9d17f640c7dd769d716a3e4189dd120119f5bb1b3a4"
+        },
+        "kind": "unclassified",
+        "order": 11,
+        "requirement_status": "unspecified",
+        "section_id": "sec_cbdf6614d09a2212075a",
+        "source_span": {
+          "block_id": "block_000061",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 35,
+          "normalized_start": 0,
+          "raw_end": 35,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "cc99fad074fd6ecdd6adc9d17f640c7dd769d716a3e4189dd120119f5bb1b3a4"
+        }
+      },
+      {
+        "clauses": [
+          {
+            "clause_id": "clause_0a65eaaedb9052b88aa6",
+            "clause_type": "unclassified",
+            "condition": null,
+            "heading": "Article 11 : Couverture sociale",
+            "legal_references": [],
+            "order": 1,
+            "requirement_status": "unspecified",
+            "source_span": {
+              "block_id": "block_000064",
+              "extraction_id": "ext_4e158a8a52adb3ce2d44",
+              "normalized_end": 31,
+              "normalized_start": 0,
+              "raw_end": 31,
+              "raw_start": 0,
+              "source_id": "src_bc3242743138c02663fb",
+              "text_sha256": "e928d5630a3ae42f3455b362147ad456bfc17292f0d2c8c68be139aad9ee0c12"
+            },
+            "text": "Article 11 : Couverture sociale",
+            "variable_ids": []
+          }
+        ],
+        "condition": null,
+        "heading": "Article 11 : Couverture sociale",
+        "heading_span": {
+          "block_id": "block_000064",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 31,
+          "normalized_start": 0,
+          "raw_end": 31,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "e928d5630a3ae42f3455b362147ad456bfc17292f0d2c8c68be139aad9ee0c12"
+        },
+        "kind": "unclassified",
+        "order": 12,
+        "requirement_status": "unspecified",
+        "section_id": "sec_4b4149b36a1bff196d71",
+        "source_span": {
+          "block_id": "block_000064",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 31,
+          "normalized_start": 0,
+          "raw_end": 31,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "e928d5630a3ae42f3455b362147ad456bfc17292f0d2c8c68be139aad9ee0c12"
+        }
+      },
+      {
+        "clauses": [
+          {
+            "clause_id": "clause_1d5f5d1b1c7bca14cbb3",
+            "clause_type": "unclassified",
+            "condition": null,
+            "heading": "Article 12 : congé annuel",
+            "legal_references": [],
+            "order": 1,
+            "requirement_status": "unspecified",
+            "source_span": {
+              "block_id": "block_000066",
+              "extraction_id": "ext_4e158a8a52adb3ce2d44",
+              "normalized_end": 25,
+              "normalized_start": 0,
+              "raw_end": 25,
+              "raw_start": 0,
+              "source_id": "src_bc3242743138c02663fb",
+              "text_sha256": "c71fa69170fe284d7338bb61c2c04291e13ce4e87283ae24630c1789b0229b4e"
+            },
+            "text": "Article 12 : congé annuel",
+            "variable_ids": []
+          }
+        ],
+        "condition": null,
+        "heading": "Article 12 : congé annuel",
+        "heading_span": {
+          "block_id": "block_000066",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 25,
+          "normalized_start": 0,
+          "raw_end": 25,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "c71fa69170fe284d7338bb61c2c04291e13ce4e87283ae24630c1789b0229b4e"
+        },
+        "kind": "unclassified",
+        "order": 13,
+        "requirement_status": "unspecified",
+        "section_id": "sec_c8d18b1446c395a644e6",
+        "source_span": {
+          "block_id": "block_000066",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 25,
+          "normalized_start": 0,
+          "raw_end": 25,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "c71fa69170fe284d7338bb61c2c04291e13ce4e87283ae24630c1789b0229b4e"
+        }
+      },
+      {
+        "clauses": [
+          {
+            "clause_id": "clause_b797fbbfc88ab96389fe",
+            "clause_type": "unclassified",
+            "condition": null,
+            "heading": "Article 13 : Transport et restauration",
+            "legal_references": [],
+            "order": 1,
+            "requirement_status": "unspecified",
+            "source_span": {
+              "block_id": "block_000069",
+              "extraction_id": "ext_4e158a8a52adb3ce2d44",
+              "normalized_end": 38,
+              "normalized_start": 0,
+              "raw_end": 38,
+              "raw_start": 0,
+              "source_id": "src_bc3242743138c02663fb",
+              "text_sha256": "7ab989fc591704af6c7c4ec9f18b6a686c974590aaf834f7ccdf958dcf316a35"
+            },
+            "text": "Article 13 : Transport et restauration",
+            "variable_ids": []
+          }
+        ],
+        "condition": null,
+        "heading": "Article 13 : Transport et restauration",
+        "heading_span": {
+          "block_id": "block_000069",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 38,
+          "normalized_start": 0,
+          "raw_end": 38,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "7ab989fc591704af6c7c4ec9f18b6a686c974590aaf834f7ccdf958dcf316a35"
+        },
+        "kind": "unclassified",
+        "order": 14,
+        "requirement_status": "unspecified",
+        "section_id": "sec_7e9e68f0b1cfa0bec5bc",
+        "source_span": {
+          "block_id": "block_000069",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 38,
+          "normalized_start": 0,
+          "raw_end": 38,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "7ab989fc591704af6c7c4ec9f18b6a686c974590aaf834f7ccdf958dcf316a35"
+        }
+      },
+      {
+        "clauses": [
+          {
+            "clause_id": "clause_84a92fc74de1cd34a749",
+            "clause_type": "unclassified",
+            "condition": null,
+            "heading": "Article 14 : Ouverture d’un compte postal ou bancaire",
+            "legal_references": [],
+            "order": 1,
+            "requirement_status": "unspecified",
+            "source_span": {
+              "block_id": "block_000071",
+              "extraction_id": "ext_4e158a8a52adb3ce2d44",
+              "normalized_end": 53,
+              "normalized_start": 0,
+              "raw_end": 53,
+              "raw_start": 0,
+              "source_id": "src_bc3242743138c02663fb",
+              "text_sha256": "52b840c4e3ed7f1ad8137e92b85af431c17b81ec30d6e95773bfc0400e857b20"
+            },
+            "text": "Article 14 : Ouverture d’un compte postal ou bancaire",
+            "variable_ids": []
+          }
+        ],
+        "condition": null,
+        "heading": "Article 14 : Ouverture d’un compte postal ou bancaire",
+        "heading_span": {
+          "block_id": "block_000071",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 53,
+          "normalized_start": 0,
+          "raw_end": 53,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "52b840c4e3ed7f1ad8137e92b85af431c17b81ec30d6e95773bfc0400e857b20"
+        },
+        "kind": "unclassified",
+        "order": 15,
+        "requirement_status": "unspecified",
+        "section_id": "sec_d3bc36f83b6cad58adbf",
+        "source_span": {
+          "block_id": "block_000071",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 53,
+          "normalized_start": 0,
+          "raw_end": 53,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "52b840c4e3ed7f1ad8137e92b85af431c17b81ec30d6e95773bfc0400e857b20"
+        }
+      },
+      {
+        "clauses": [
+          {
+            "clause_id": "clause_4b386eebb036d86cdd0d",
+            "clause_type": "unclassified",
+            "condition": null,
+            "heading": "Article 15: rupture de la relation de travail avant terme",
+            "legal_references": [],
+            "order": 1,
+            "requirement_status": "unspecified",
+            "source_span": {
+              "block_id": "block_000073",
+              "extraction_id": "ext_4e158a8a52adb3ce2d44",
+              "normalized_end": 57,
+              "normalized_start": 0,
+              "raw_end": 57,
+              "raw_start": 0,
+              "source_id": "src_bc3242743138c02663fb",
+              "text_sha256": "04bc1ba1eb9c2e141f646b0785b41b5f349bc7654495c2a1a47a96c20e066089"
+            },
+            "text": "Article 15: rupture de la relation de travail avant terme",
+            "variable_ids": []
+          }
+        ],
+        "condition": null,
+        "heading": "Article 15: rupture de la relation de travail avant terme",
+        "heading_span": {
+          "block_id": "block_000073",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 57,
+          "normalized_start": 0,
+          "raw_end": 57,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "04bc1ba1eb9c2e141f646b0785b41b5f349bc7654495c2a1a47a96c20e066089"
+        },
+        "kind": "unclassified",
+        "order": 16,
+        "requirement_status": "unspecified",
+        "section_id": "sec_ce45fe3f8596be235dcf",
+        "source_span": {
+          "block_id": "block_000073",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 57,
+          "normalized_start": 0,
+          "raw_end": 57,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "04bc1ba1eb9c2e141f646b0785b41b5f349bc7654495c2a1a47a96c20e066089"
+        }
+      },
+      {
+        "clauses": [
+          {
+            "clause_id": "clause_0f172bd63d1f237c8475",
+            "clause_type": "unclassified",
+            "condition": null,
+            "heading": "Article 16 : Manquements et fautes graves",
+            "legal_references": [],
+            "order": 1,
+            "requirement_status": "unspecified",
+            "source_span": {
+              "block_id": "block_000079",
+              "extraction_id": "ext_4e158a8a52adb3ce2d44",
+              "normalized_end": 41,
+              "normalized_start": 0,
+              "raw_end": 41,
+              "raw_start": 0,
+              "source_id": "src_bc3242743138c02663fb",
+              "text_sha256": "e4e81b6cf1c9da5f5d30ab21d8942a08efadc7cb057c085bda85aeedcf9d21f5"
+            },
+            "text": "Article 16 : Manquements et fautes graves",
+            "variable_ids": []
+          }
+        ],
+        "condition": null,
+        "heading": "Article 16 : Manquements et fautes graves",
+        "heading_span": {
+          "block_id": "block_000079",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 41,
+          "normalized_start": 0,
+          "raw_end": 41,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "e4e81b6cf1c9da5f5d30ab21d8942a08efadc7cb057c085bda85aeedcf9d21f5"
+        },
+        "kind": "unclassified",
+        "order": 17,
+        "requirement_status": "unspecified",
+        "section_id": "sec_c4e80db7195be276e6aa",
+        "source_span": {
+          "block_id": "block_000079",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 41,
+          "normalized_start": 0,
+          "raw_end": 41,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "e4e81b6cf1c9da5f5d30ab21d8942a08efadc7cb057c085bda85aeedcf9d21f5"
+        }
+      },
+      {
+        "clauses": [
+          {
+            "clause_id": "clause_7731147e50ec0fef5ec5",
+            "clause_type": "unclassified",
+            "condition": null,
+            "heading": "Article 17 : Litige",
+            "legal_references": [],
+            "order": 1,
+            "requirement_status": "unspecified",
+            "source_span": {
+              "block_id": "block_000082",
+              "extraction_id": "ext_4e158a8a52adb3ce2d44",
+              "normalized_end": 19,
+              "normalized_start": 0,
+              "raw_end": 19,
+              "raw_start": 0,
+              "source_id": "src_bc3242743138c02663fb",
+              "text_sha256": "bf8830b22a503919fa32550958db952c66db79391b09a67a02408c50574bbd13"
+            },
+            "text": "Article 17 : Litige",
+            "variable_ids": []
+          }
+        ],
+        "condition": null,
+        "heading": "Article 17 : Litige",
+        "heading_span": {
+          "block_id": "block_000082",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 19,
+          "normalized_start": 0,
+          "raw_end": 19,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "bf8830b22a503919fa32550958db952c66db79391b09a67a02408c50574bbd13"
+        },
+        "kind": "unclassified",
+        "order": 18,
+        "requirement_status": "unspecified",
+        "section_id": "sec_f511a4b0db5d6bafdc1b",
+        "source_span": {
+          "block_id": "block_000082",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 19,
+          "normalized_start": 0,
+          "raw_end": 19,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "bf8830b22a503919fa32550958db952c66db79391b09a67a02408c50574bbd13"
+        }
+      },
+      {
+        "clauses": [
+          {
+            "clause_id": "clause_507b02bec3e82dca434f",
+            "clause_type": "unclassified",
+            "condition": null,
+            "heading": "Article 18 : connaissance des clauses contractuelles",
+            "legal_references": [],
+            "order": 1,
+            "requirement_status": "unspecified",
+            "source_span": {
+              "block_id": "block_000085",
+              "extraction_id": "ext_4e158a8a52adb3ce2d44",
+              "normalized_end": 52,
+              "normalized_start": 0,
+              "raw_end": 52,
+              "raw_start": 0,
+              "source_id": "src_bc3242743138c02663fb",
+              "text_sha256": "cc59c752febb7e31552257f54432c8715034730bf82862089387cfd0e059e8ea"
+            },
+            "text": "Article 18 : connaissance des clauses contractuelles",
+            "variable_ids": []
+          }
+        ],
+        "condition": null,
+        "heading": "Article 18 : connaissance des clauses contractuelles",
+        "heading_span": {
+          "block_id": "block_000085",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 52,
+          "normalized_start": 0,
+          "raw_end": 52,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "cc59c752febb7e31552257f54432c8715034730bf82862089387cfd0e059e8ea"
+        },
+        "kind": "unclassified",
+        "order": 19,
+        "requirement_status": "unspecified",
+        "section_id": "sec_84dd65ab7c90fa677cf1",
+        "source_span": {
+          "block_id": "block_000085",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 52,
+          "normalized_start": 0,
+          "raw_end": 52,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "cc59c752febb7e31552257f54432c8715034730bf82862089387cfd0e059e8ea"
+        }
+      }
+    ],
+    "source_files": [
+      {
+        "extracted_text_sha256": "57f04029a7f3a8bbc7e4934b5121e388a7b6fc393a46a01247ffc75adf6a5f03",
+        "extraction_method": "docx_ooxml_xml",
+        "extraction_status": "success",
+        "extraction_warnings": [],
+        "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "page_count": null,
+        "relative_path": "templates/algérie/model-contrat-travail-cdd.docx",
+        "sha256": "c95abdc7d0f9a83b46d20c952a64c57c67d8229e050bc71be75d3cca0648fb33",
+        "size_bytes": 22196,
+        "source_id": "src_bc3242743138c02663fb"
+      }
+    ],
+    "template_id": "tpl_b3fdf3de0bca716489d1",
+    "unparsed_source_content": [
+      {
+        "content_id": "unparsed_a767b17464061135eb3b",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000001",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 19,
+          "normalized_start": 0,
+          "raw_end": 19,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "e8848c98a0c8fa3066e1f39dad049b95c5195ce3706a0333753682026dee6cbe"
+        },
+        "text": "Nom de l’entreprise"
+      },
+      {
+        "content_id": "unparsed_3ce2d5b34ff2e0225b3d",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000002",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 23,
+          "normalized_start": 1,
+          "raw_end": 23,
+          "raw_start": 1,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "518558d9958ef73b5fc3bee9c68fe118076225f52aae82db12970eac3b80dc0a"
+        },
+        "text": "Sarl au Capital de\tDZD"
+      },
+      {
+        "content_id": "unparsed_21ddb0fcb5d59f6b0f1c",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000003",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 18,
+          "normalized_start": 1,
+          "raw_end": 18,
+          "raw_start": 1,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "66b02d89c824560ee65b05a028568161bc7b73bad64c636e0fe43f5b14067e5f"
+        },
+        "text": "Adresse\t(Algérie)"
+      },
+      {
+        "content_id": "unparsed_b34b01c727cbd3d05e6f",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000004",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 40,
+          "normalized_start": 0,
+          "raw_end": 40,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "3e30f442806290aed9d1ed66e1f4f730164d52c443fe7bdc54e5fb44b082f697"
+        },
+        "text": "Tel: +213 000 000 000 - +213 000 000 000"
+      },
+      {
+        "content_id": "unparsed_43c1e7f2527c01699c06",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000005",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 42,
+          "normalized_start": 0,
+          "raw_end": 42,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "b191ae33f96e9fb635b9d483ea33c7f81fd4f67f1b23fa519100810f6969f788"
+        },
+        "text": "Email: ………………………… – Web: …………………………………………."
+      },
+      {
+        "content_id": "unparsed_af5416f70806ca6040bd",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000006",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 84,
+          "normalized_start": 1,
+          "raw_end": 84,
+          "raw_start": 1,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "0f72e5a37332bfb367201ec13974a4a39bffc399cc8068082061798aa0635cfc"
+        },
+        "text": "Direction des Ressources Humaines\tAlger le : … /…. /2021 Et Administration Générale"
+      },
+      {
+        "content_id": "unparsed_099b46712facdcf881b0",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000007",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 6,
+          "normalized_start": 1,
+          "raw_end": 6,
+          "raw_start": 1,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "80e24add669c7a3db55445e97e55e29a0f679f30c31867bb4b288642c0114933"
+        },
+        "text": "Réf :"
+      },
+      {
+        "content_id": "unparsed_c1d66d1625bc215bf6fd",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000009",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 13,
+          "normalized_start": 0,
+          "raw_end": 13,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "6196bebbc4422cb0cf6983125a9d6a05ed3947f60021e6ce847842932c20678a"
+        },
+        "text": "N° 000 / 2021"
+      },
+      {
+        "content_id": "unparsed_ca91a928864e665fc0ba",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000010",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 6,
+          "normalized_start": 0,
+          "raw_end": 6,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "a4b2a227de4134107c0a9cc4b8534d6e21cd871efd7f2d79d253d6624231fbbe"
+        },
+        "text": "Entre,"
+      },
+      {
+        "content_id": "unparsed_4756797555fef0f06a82",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000011",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 32,
+          "normalized_start": 1,
+          "raw_end": 32,
+          "raw_start": 1,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "1a2fcac841167a46f2ddca860a8d163ec0772b1e556e38edfece99e6c866455b"
+        },
+        "text": "La société\tdont le siège social"
+      },
+      {
+        "content_id": "unparsed_6caf125391362e69ac2f",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000012",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 6,
+          "normalized_start": 0,
+          "raw_end": 6,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "05b4147e3cf200f58e6747b34f765efe401d741a0cb866267fe63c0708bad43a"
+        },
+        "text": "est à:"
+      },
+      {
+        "content_id": "unparsed_14ba8323c11ffd4368f0",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000013",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 17,
+          "normalized_start": 0,
+          "raw_end": 17,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "6c21b02a3dd75f816fcc7bf9c067b0ef132c86493918cdb97787a8f67df32655"
+        },
+        "text": "Représentée par :"
+      },
+      {
+        "content_id": "unparsed_a5e591de158d2faec07b",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000014",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 24,
+          "normalized_start": 0,
+          "raw_end": 24,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "46dc9003d5e11b63c9b577554d5ada844bb402a19816864ae74a4717d49df72e"
+        },
+        "text": "Agissant en qualité de :"
+      },
+      {
+        "content_id": "unparsed_05df3605e91468b04002",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000015",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 11,
+          "normalized_start": 0,
+          "raw_end": 11,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "4fd86eca88cbf3a0839e1c6aa9edfba7d3f5cc32f6ad7aa2c24f88ea0bdd65f1"
+        },
+        "text": "D’une part,"
+      },
+      {
+        "content_id": "unparsed_9da36a6727b0485750b3",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000016",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 14,
+          "normalized_start": 0,
+          "raw_end": 14,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "796eea63ca4fb8b7868dad9d53dce03ea5bde4e09695587018b0497c15e8ec7e"
+        },
+        "text": "Et, Monsieur :"
+      },
+      {
+        "content_id": "unparsed_51a9ca146bcd705f3ae9",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000017",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 13,
+          "normalized_start": 1,
+          "raw_end": 13,
+          "raw_start": 1,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "5fe33559218f1bd5e32ec36cb767ebe03b2617a53dbedfe49212169f60540043"
+        },
+        "text": "Né(e) le :\tà"
+      },
+      {
+        "content_id": "unparsed_dbfc5f20eab224c14c57",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000018",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 9,
+          "normalized_start": 0,
+          "raw_end": 9,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "c88431f6a632c72f119375c24a3a73e7dd8d66ab4c232552f6c909cfa6d78168"
+        },
+        "text": "Adresse :"
+      },
+      {
+        "content_id": "unparsed_8aaa68c0d244823baa7b",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000019",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 65,
+          "normalized_start": 2,
+          "raw_end": 65,
+          "raw_start": 2,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "2de9ab579cad97928d7232b6b54f0dd9b1da882e1d7bcb10e6bbc16575a58b70"
+        },
+        "text": "Portant pièce d’identité : P.C N° :\tDélivré le :\tpar Daïra de :"
+      },
+      {
+        "content_id": "unparsed_ba485a606539afe72d83",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000020",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 13,
+          "normalized_start": 0,
+          "raw_end": 13,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "727851da305cc5f2a32abdb408e23a213580688c292eeacddc00fa3156a6da38"
+        },
+        "text": "D’autre part,"
+      },
+      {
+        "content_id": "unparsed_bce56602987613c3e10a",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000021",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 34,
+          "normalized_start": 0,
+          "raw_end": 34,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "87d6d8ca9bf85cc3fbd8d9f9cf70dc0868e1ade8424008e9409d2a93a7a401d9"
+        },
+        "text": "Lesquels ont convenu ce qui suit :"
+      },
+      {
+        "content_id": "unparsed_ec7420388ff77afaab8a",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000023",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 115,
+          "normalized_start": 0,
+          "raw_end": 115,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "e4fa1231d29d7511d8a49a3e88a31a89ef760fa9d86216b307463bf5c2595d44"
+        },
+        "text": "Le présent contrat, a pour objet de définir les conditions de la relation de travail entre l’employé et la Société."
+      },
+      {
+        "content_id": "unparsed_91100acd9e981b399df9",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000025",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 29,
+          "normalized_start": 0,
+          "raw_end": 29,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "465295f1eb3c3742ad1a55548544e6cd1d9f2f21cf791197858dab253ab3a266"
+        },
+        "text": "L’employeur engage monsieur :"
+      },
+      {
+        "content_id": "unparsed_6d7c8264ff5c5d6ae16a",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000026",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 15,
+          "normalized_start": 0,
+          "raw_end": 15,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "9e235d535205e6a1b668d99a4ee2c571959a1666ffa9120d8f90831390cf9063"
+        },
+        "text": "En qualité de :"
+      },
+      {
+        "content_id": "unparsed_ec8600113ef72dd105fc",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000027",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 17,
+          "normalized_start": 0,
+          "raw_end": 17,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "4fba25be54061fc5c5dd8381d7021965cdcf26de27505a6d511936c5fb96e1f4"
+        },
+        "text": "Lieu de travail :"
+      },
+      {
+        "content_id": "unparsed_f482a063576975770b13",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000028",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 148,
+          "normalized_start": 0,
+          "raw_end": 148,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "3d77cadc46fcaf834878559243d9c606779644c5f058e9b519fd6ba3886a7089"
+        },
+        "text": "Pour accomplir au mieux de ses capacités les obligations liées à son poste de travail dans le cadre de l’organisation mise en place par l’employeur."
+      },
+      {
+        "content_id": "unparsed_56e884fc105b15b947f7",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000030",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 32,
+          "normalized_start": 1,
+          "raw_end": 32,
+          "raw_start": 1,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "53738bbee0ecfb19aef9823f23321c97d8bd80656050641e5ac513b9863b536a"
+        },
+        "text": "Prend effet le :\tet expire le :"
+      },
+      {
+        "content_id": "unparsed_4974f66cc7c8b5cfb8c6",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000031",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 6,
+          "normalized_start": 0,
+          "raw_end": 6,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "1c39b7a957d63b84b4b97c634ad50358f3f26ffc677bf13ad7cf0720879dd534"
+        },
+        "text": "Pour :"
+      },
+      {
+        "content_id": "unparsed_95a7c81ef76b46230694",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000032",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 95,
+          "normalized_start": 0,
+          "raw_end": 95,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "2523b50d00486a73f889cae3eb7c6b65e944b9f9ddfe626cd348a5c3af0ac02a"
+        },
+        "text": "*l’exécution d’un travail lié à des contrats de travaux ou de prestations non renouvelables, Ou"
+      },
+      {
+        "content_id": "unparsed_95ca5efda9b98c96e57a",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000033",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 159,
+          "normalized_start": 0,
+          "raw_end": 159,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "82ea33b9a1cf5265177dddd746c92392a9d5e1e6489ebb093cdebc204590ec09"
+        },
+        "text": "* lorsqu’il s’agit de remplacer le titulaire d’un poste qui s’absente temporairement et au profit duquel l’employeur est tenu de conserver le poste de travail,"
+      },
+      {
+        "content_id": "unparsed_f417586d7d381b4ef6b5",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000034",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 2,
+          "normalized_start": 0,
+          "raw_end": 2,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "fb2c7d8dd35f85951b7c92b4b4c3b7332d67bb93c82a2b3303eb2106251bc75c"
+        },
+        "text": "Ou"
+      },
+      {
+        "content_id": "unparsed_6eccd0df23bd1e982fc5",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000035",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 104,
+          "normalized_start": 0,
+          "raw_end": 104,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "8493ecf450e957cb4298c846c100e5a118b775b1bbe47222b5ba0e91e28e22ed"
+        },
+        "text": "*lorsqu’il s’agit pour l’organisme employeur d’effectuer des travaux périodiques à caractère discontinu,"
+      },
+      {
+        "content_id": "unparsed_ec39e8dae67bac234ec3",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000036",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 2,
+          "normalized_start": 0,
+          "raw_end": 2,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "fb2c7d8dd35f85951b7c92b4b4c3b7332d67bb93c82a2b3303eb2106251bc75c"
+        },
+        "text": "Ou"
+      },
+      {
+        "content_id": "unparsed_cd91f3d7d236fe3f004c",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000037",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 83,
+          "normalized_start": 0,
+          "raw_end": 83,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "58e82506d18aaaa1801b6c8ce28a80ca915b8e7853bb6b2f985cce09ff03cbcb"
+        },
+        "text": "*lorsqu’un surcroît de travail, ou lorsque des motifs saisonniers le justifient, Ou"
+      },
+      {
+        "content_id": "unparsed_673a26377cef752eccb8",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000038",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 94,
+          "normalized_start": 0,
+          "raw_end": 94,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "462cbb41255780e71f1566f6afa03c7e131d9091c0a7115d06812445523146d0"
+        },
+        "text": "*lorsqu’il s’agit d’activités ou d’emplois à durée limitée ou qui sont par nature temporaires."
+      },
+      {
+        "content_id": "unparsed_8bc2de0f2dd718e69626",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000039",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 120,
+          "normalized_start": 0,
+          "raw_end": 120,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "6878d887f0647ca5180f5a1072c173b2260af9a2536ff2562f6dedfd9b68c518"
+        },
+        "text": "Pour raison de service l’employeur se réserve le droit d’’affecter le contractant sur n’importe qu’elle lieu de travail."
+      },
+      {
+        "content_id": "unparsed_e8117132e9c0d6ca0c97",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000041",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 102,
+          "normalized_start": 0,
+          "raw_end": 102,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "e5ae000dc7ca1f45afbcc9ed4c6c9210342136bdd158e36cd70430a216a9fcc7"
+        },
+        "text": "En contrepartie du travail fournis, l’employé perçoit une rémunération brute se décompose comme suit :"
+      },
+      {
+        "content_id": "unparsed_91a38dab45bd332e85b1",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000042",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 19,
+          "normalized_start": 2,
+          "raw_end": 19,
+          "raw_start": 2,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "8fde300f155a77410c3e60720a2979f50c227c3276f1a7fb32c142036317664f"
+        },
+        "text": "Salaire de base :"
+      },
+      {
+        "content_id": "unparsed_42432c013561106bdc1e",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000043",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 48,
+          "normalized_start": 2,
+          "raw_end": 48,
+          "raw_start": 2,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "3e0d4f886acb66fb52077692f26f0c1322f0bf874ad9cc1d74899f2606fce883"
+        },
+        "text": "Primes et indemnités liés au poste de travail."
+      },
+      {
+        "content_id": "unparsed_6b607553b4d295b94e21",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000044",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 1,
+          "normalized_start": 0,
+          "raw_end": 1,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "ac6788119e9a5953798106448107a73da86bbbdafaf0c93216cfea0d06777082"
+        },
+        "text": ""
+      },
+      {
+        "content_id": "unparsed_5911500a7b06fe88255d",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000046",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 59,
+          "normalized_start": 1,
+          "raw_end": 59,
+          "raw_start": 1,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "ab7405c4f445e46d3b0c052f0ff7594df9e1f3ff39aad01a1e639e526facf21e"
+        },
+        "text": "Le contractant est soumis à une période d’essai de :\tMois."
+      },
+      {
+        "content_id": "unparsed_bb4fa1f3e4ed491d9eef",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000047",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 86,
+          "normalized_start": 0,
+          "raw_end": 86,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "cbd940ec4bfcd2771dee5f923925f6ce7c44aa6b7761d6fa35799b926123f687"
+        },
+        "text": "La période d’essai peut être renouvelée une seule fois pour une période d’égale durée."
+      },
+      {
+        "content_id": "unparsed_bc493292c4ee2b46a376",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000048",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 111,
+          "normalized_start": 0,
+          "raw_end": 111,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "59f39c63771e3234924dc7e0f6d6879cc710297c9aaa2695fcd709d40d6a4b3b"
+        },
+        "text": "Si la période d’essai est jugée non concluante, il est mis fin au contrat de travail sans indemnité ni préavis."
+      },
+      {
+        "content_id": "unparsed_5ad2d3a7018dd810e311",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000049",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 138,
+          "normalized_start": 0,
+          "raw_end": 138,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "2f9d09fe098cf873b87f54b61043ef10d35c89372a7a0a6623318b3498093c93"
+        },
+        "text": "Durant cette période d’essai la relation de travail peut être rompue de plein droit par l’une ou l’autre partie sans indemnité ni préavis."
+      },
+      {
+        "content_id": "unparsed_481d7782789993afeb36",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000051",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 50,
+          "normalized_start": 0,
+          "raw_end": 50,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "c1719d5b2f78962a7abe62c548252325179995fd9ddb5d8799967479c3bc37bc"
+        },
+        "text": "La relation de travail prend fin à son terme échu."
+      },
+      {
+        "content_id": "unparsed_948651f9fb1d34c1c25f",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000052",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 122,
+          "normalized_start": 0,
+          "raw_end": 122,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "472dc89148e0047e19e9b1432d6b61253cd0c19cdca3d54f23677a652774e11c"
+        },
+        "text": ". A l’issue de cette période, l’employé recevra son certificat de travail et son solde de tout compte (salaire non perçu)."
+      },
+      {
+        "content_id": "unparsed_48ac3aa821128658a5fc",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000054",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 192,
+          "normalized_start": 1,
+          "raw_end": 192,
+          "raw_start": 1,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "823fd1baedabf128654e08901d083df6d9fb3d8af9f194c50c6df942ce050fd3"
+        },
+        "text": "Le présent contrat peut être reconduit sur décision de l’employeur autant de fois que nécessaire. Dans ce cas, le l’employé devra être avisé par écrit\tjours avant l’expiration du dit contrat."
+      },
+      {
+        "content_id": "unparsed_9fc3a3ceb645f32a6279",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000055",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 223,
+          "normalized_start": 0,
+          "raw_end": 223,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "4c5f27edf2e7864a8faf0ca113fc35aed58b8ddcbec5670ac1126d282728190c"
+        },
+        "text": "En cas d’acceptation du renouvellement par l’employé un nouveau contrat ou un avenant modifiant et ou complétant le présent contrat est établie et signé par les deux (02) parties dans les même formes que le contrat initial."
+      },
+      {
+        "content_id": "unparsed_0106dfa4e90bb3934262",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000057",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 402,
+          "normalized_start": 0,
+          "raw_end": 402,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "33f519711adad3de254625f5662e2faac25e24f40dfaab587392999809b151d4"
+        },
+        "text": "Au titre de la relation de travail l’employé s’engage à accomplir pleinement les taches inhérente à son poste de travail dans le respect des normes professionnelles et ce, de manière continue, à exécuter les instructions et à observer toutes les consignes particulières données par sa hiérarchie dans l’exercice de ses fonctions, et à se soumettre aux dispositions du règlement intérieur de La société."
+      },
+      {
+        "content_id": "unparsed_7c2ec52966bc4551e303",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000059",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 183,
+          "normalized_start": 0,
+          "raw_end": 183,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "3df0911bd7f56e6d01ca1f398a7d3163bc137da2d3b04325bae9971b3678a2fa"
+        },
+        "text": "Le matériel et les documents remis au contractant pour l’exercice de sa fonction sont à usage professionnelle et ne doivent, en aucun cas être communiqués à l’extérieur de la société."
+      },
+      {
+        "content_id": "unparsed_ad7815e7190d74685b79",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000060",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 170,
+          "normalized_start": 0,
+          "raw_end": 170,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "ddd6c85a35c45104e5997fdb32fb2d19f20a6034b7e18d878e8401ab5cd293da"
+        },
+        "text": "Lors de la cessation du contrat de travail, le contractant devra restituer tout le matériel et documents de travail mis à sa disposition pour l’exercice de ces fonctions."
+      },
+      {
+        "content_id": "unparsed_2fd5094c7ad78816b5ca",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000062",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 154,
+          "normalized_start": 0,
+          "raw_end": 154,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "8d77ca104e9e8bdf6924b3df26cfad9a1a75b0f3bd1bc1734c08bc4b513c2693"
+        },
+        "text": "L’employeur peut requérir le contractant pour effectuer des heures supplémentaires au-delà de la durée légale de travail, et ce pour nécessité de service."
+      },
+      {
+        "content_id": "unparsed_ca6a1d4944bf7cbcc95d",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000063",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 159,
+          "normalized_start": 0,
+          "raw_end": 159,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "94cce12ebf742202bdb7487464522e68bed46a729bd18ca4e4df9587d566aa9e"
+        },
+        "text": "Les heures supplémentaires effectuées, au-delà des 40 heures hebdomadaires sont rémunérées sur la base de taux horaire majoré applicable au sein de la société."
+      },
+      {
+        "content_id": "unparsed_60e23589a995b20c3091",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000065",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 152,
+          "normalized_start": 0,
+          "raw_end": 152,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "c32e4f85be9707bc071dce72d9ef869f332c9c91d4d28cdb92f7968bdfb5fd79"
+        },
+        "text": "Le contractant bénéficiera, au même que le reste du personnel, d’une couverture sociale auprès de la caisse nationale des assurances sociales (C.N.A.S)."
+      },
+      {
+        "content_id": "unparsed_ada28fc529c7e4a96cfc",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000067",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 223,
+          "normalized_start": 0,
+          "raw_end": 223,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "5184343a1beec33daed048103e55a1ffe9081d59e9b32f435e5114c2d72f82e2"
+        },
+        "text": "Le contractant bénéfice d’un congé annuel de 30 jours calendaires, calculé à raison de 2.5 jours de travail sur une période de référence qui s’étend du 1 juillet de l’année précédant le congé au 30 juin de l’année de congé."
+      },
+      {
+        "content_id": "unparsed_9aa567cc589f9bae135f",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000068",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 114,
+          "normalized_start": 0,
+          "raw_end": 114,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "befa35cc1d0c40a239b53e0bddfb30ea2b8cf99c429d99b0a6a64c7c42133467"
+        },
+        "text": "L’indemnité de congé annuel est payée par la caisse nationale des congés payés et chômage intempéries (CACOBATPH)."
+      },
+      {
+        "content_id": "unparsed_47d521a2910941bd596c",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000070",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 129,
+          "normalized_start": 0,
+          "raw_end": 129,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "95a328d30fc5671bb0e735652b76b6b38c3395b247dfdcecf4ffb708acc5d03a"
+        },
+        "text": "L’employeur assure le transport et la restauration, à défaut une indemnité de transport et de panier seront attribuée à l’employé"
+      },
+      {
+        "content_id": "unparsed_822b656508fc756756e3",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000072",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 163,
+          "normalized_start": 0,
+          "raw_end": 163,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "74dc862f6aae3d7bd5e546a93d0eccbe427c778d9133f1ccb764ece1834291c2"
+        },
+        "text": "Le contractant, dans le cadre du présent contrat, s’engage à communiquer à la Société le numéro de compte postal ou bancaire ou il désire recevoir sa rémunération."
+      },
+      {
+        "content_id": "unparsed_193ca890c806c398109c",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000074",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 115,
+          "normalized_start": 0,
+          "raw_end": 115,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "7dff333d1947e156a7ccdcf342a0a97ca7ed712e8356e9bd26e71cd4c784cb2f"
+        },
+        "text": "La relation de travail est rompue, du fait du travail, dans le cas de démission, de départ en retraite ou de décès."
+      },
+      {
+        "content_id": "unparsed_77ecf3d5f03f47a7ea36",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000075",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 81,
+          "normalized_start": 0,
+          "raw_end": 81,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "b15eba6bdaddd8ef8c9afd9cca2d6b2ac2b869a46d8e20a5b3577b6c214c2191"
+        },
+        "text": "La relation de travail est rompue du fait de l’employeur, dans les cas suivants :"
+      },
+      {
+        "content_id": "unparsed_9acc94c10e0d000f35ed",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000076",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 199,
+          "normalized_start": 0,
+          "raw_end": 199,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "68d07630b917e6124bd0de907af5cd60fdb4ce9c7fbd2e1825e00bcca8d4dd2b"
+        },
+        "text": "Dissolution du service, diminution subite ou fin anticipée des activités pour lesquelles l’employé a été recruté, transfert de la structure de rattachement, cessation d’activité légale de l’organisme"
+      },
+      {
+        "content_id": "unparsed_2d1469218d4f719a5fc3",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000077",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 202,
+          "normalized_start": 0,
+          "raw_end": 202,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "f953198ef443c6ef2fd259404c681abc12ff9b518a1a9a96325ff556c16a0474"
+        },
+        "text": "employeur dans ces cas, une indemnité comprenant le salaire de base et l’indemnité d’expérience professionnelle sont alloués à l’employé et ce pour la période de la relation de travail restant à courir."
+      },
+      {
+        "content_id": "unparsed_3dbdee3ef3a0dc5d4530",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000078",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 135,
+          "normalized_start": 1,
+          "raw_end": 135,
+          "raw_start": 1,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "f6aefc576e349947641605f08632aade81183c3ad74d16c532193a382194b7f2"
+        },
+        "text": "La partie désirant rompre la relation de travail devra aviser l’autre partie par écrit et devra respecter un délai de préavis de\tjours"
+      },
+      {
+        "content_id": "unparsed_93b24b16d65a1a92fc72",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000080",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 194,
+          "normalized_start": 0,
+          "raw_end": 194,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "b59f6de8e455311ee1cf2e3f52d4d05e4b48b521fcf367d6fed765be28d4edde"
+        },
+        "text": "Au cours de la relation de travail à durée déterminée, s’il est constaté un manquement professionnel ou un non-respect des règles, il sera mis fin au contrat de travail sans indemnité ni préavis"
+      },
+      {
+        "content_id": "unparsed_2aaa9a7dede9f9400ebf",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000081",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 153,
+          "normalized_start": 0,
+          "raw_end": 153,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "b7a73ac6ec492c88ad70a07470ebc509e38dd3d07c7618eb07481615995aaaa8"
+        },
+        "text": "Le licenciement peut également intervenir dans le cas de fautes graves commises par le contractant dans les conditions fixées par le règlement intérieur."
+      },
+      {
+        "content_id": "unparsed_56167d90bea5cc9abab3",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000083",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 183,
+          "normalized_start": 0,
+          "raw_end": 183,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "64508ed26555e0b23eff38c9fb1f7efaec3974585e4b80e32ba089f7498e3fbd"
+        },
+        "text": "Toute litige pouvant surgir à l’occasion de l’interprétation et ou l’exécution du présent contrat, devra faire l’objet d’une tentative de règlement à l’amiable entre les deux parties."
+      },
+      {
+        "content_id": "unparsed_bab5f40e14b8d06b915f",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000084",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 127,
+          "normalized_start": 0,
+          "raw_end": 127,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "626035ce96660f7fc1deda2c66213133a410e11760c51b63caa7702e5be1e13d"
+        },
+        "text": "Dans le cas où cette procédure n’aboutit pas, le litige sera soumis à la compétence du tribunal territorialement compétant de :"
+      },
+      {
+        "content_id": "unparsed_86c671137ad95502d8dc",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000086",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 90,
+          "normalized_start": 0,
+          "raw_end": 90,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "abf74f4ec87f9c57200aa897a96ca2ad68dcb24747aa23bc3dd44b09fb8f8564"
+        },
+        "text": "L’employé déclare avoir pris connaissance des dispositions réglementaires en vigueur et de"
+      },
+      {
+        "content_id": "unparsed_0baeefbf1625ae9b800d",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000087",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 126,
+          "normalized_start": 0,
+          "raw_end": 126,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "daf6edcd5ae7f66ce7f2dfee4ba85b21f730f34b8686f981d4046a8c36052759"
+        },
+        "text": "l’ensemble des clauses régissant le présent contrat et s’engage à respecter scrupuleusement dans leur forme et dans leur fond."
+      },
+      {
+        "content_id": "unparsed_3849b3b2193550f52f53",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000088",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 33,
+          "normalized_start": 1,
+          "raw_end": 33,
+          "raw_start": 1,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "6fcafe12b0e6ffd1c6438a0e0a23ad376b1d4b6ec081eecdf77f5e313db64b6c"
+        },
+        "text": "Fait en double exemplaire à\tle :"
+      },
+      {
+        "content_id": "unparsed_d12081408616eb7b687e",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000089",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 42,
+          "normalized_start": 1,
+          "raw_end": 42,
+          "raw_start": 1,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "1b2436d5409fe51ad7a2a87a77dd2b2e9796e40c927713f3e9da572029e2e85a"
+        },
+        "text": "L’employé :\tLe Représentant de la Société"
+      },
+      {
+        "content_id": "unparsed_54a7e89e3b863e3179b9",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000090",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 14,
+          "normalized_start": 0,
+          "raw_end": 14,
+          "raw_start": 0,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "5f941e6d6b51ba1951ad0c3754913ece9621d782b5ac46bb24012e22051f9fda"
+        },
+        "text": "Lu et approuvé"
+      },
+      {
+        "content_id": "unparsed_dcc6b843924e012c9db1",
+        "reason": "no_deterministic_heading_boundary",
+        "source_span": {
+          "block_id": "block_000091",
+          "extraction_id": "ext_4e158a8a52adb3ce2d44",
+          "normalized_end": 28,
+          "normalized_start": 1,
+          "raw_end": 28,
+          "raw_start": 1,
+          "source_id": "src_bc3242743138c02663fb",
+          "text_sha256": "d37b69d33796c7421c3e7350294de2873cab8dde96c6957117a14d025d4e4f6e"
+        },
+        "text": "Nom et prénom\tNom et prénom"
+      }
+    ],
+    "variables": [],
+    "versions": {
+      "model": null,
+      "normalizer": "1.0.0",
+      "pipeline": "1.0.0",
+      "prompt": null,
+      "schema": "contract-template-v1",
+      "taxonomy": "1.0.0"
+    }
+  },
+  "created_at": "2026-08-12T14:12:31.429797Z",
+  "reviewer": "saif",
+  "revision": 1,
+  "schema_version": "review-revision-v1",
+  "state_before": {
+    "artifact_key": "src_bc3242743138c02663fb",
+    "artifact_paths": {
+      "canonical": "artifacts/pilot/src_bc3242743138c02663fb/canonical.json",
+      "extraction": "artifacts/pilot/src_bc3242743138c02663fb/extraction.json",
+      "review": "artifacts/review-queue/review_879ce77316eac05070e4.json",
+      "validation": "artifacts/pilot/src_bc3242743138c02663fb/validation.json"
+    },
+    "created_at": "2026-08-12T14:00:37.693799Z",
+    "decisions": {
+      "classification": {
+        "decided_at": null,
+        "notes": "",
+        "reviewer": null,
+        "status": "pending"
+      },
+      "extraction": {
+        "decided_at": null,
+        "notes": "",
+        "reviewer": null,
+        "status": "pending"
+      },
+      "legal": {
+        "decided_at": null,
+        "notes": "",
+        "reviewer": null,
+        "status": "pending"
+      },
+      "privacy": {
+        "decided_at": null,
+        "notes": "",
+        "reviewer": null,
+        "status": "pending"
+      },
+      "sanitization": {
+        "decided_at": null,
+        "notes": "",
+        "reviewer": null,
+        "status": "pending"
+      },
+      "structure": {
+        "decided_at": null,
+        "notes": "",
+        "reviewer": null,
+        "status": "pending"
+      }
+    },
+    "final_disposition": "pending",
+    "initial_classification": "completed_contract",
+    "required_reviews": [
+      "classification",
+      "extraction",
+      "legal",
+      "privacy",
+      "sanitization",
+      "structure"
+    ],
+    "review_coverage": "full",
+    "review_record_id": "review_879ce77316eac05070e4",
+    "reviewer": null,
+    "revision": 0,
+    "revision_history": [],
+    "schema_version": "review-workspace-record-v1",
+    "sources": [
+      {
+        "relative_path": "templates/algérie/model-contrat-travail-cdd.docx",
+        "sha256": "c95abdc7d0f9a83b46d20c952a64c57c67d8229e050bc71be75d3cca0648fb33",
+        "source_id": "src_bc3242743138c02663fb"
+      }
+    ],
+    "template_id": "tpl_b3fdf3de0bca716489d1",
+    "training_eligibility": "review_required",
+    "updated_at": "2026-08-12T14:00:37.693799Z",
+    "validation": {
+      "checked_at": "2026-08-12T14:00:37.693799Z",
+      "errors": [],
+      "valid": true
+    }
+  }
+}

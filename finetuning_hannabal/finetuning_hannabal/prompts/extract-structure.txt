@@ -1,0 +1,19 @@
+Identify structure by coordinates only for the Hannibal contract-template dataset.
+
+Return only JSON matching the supplied labeling-response JSON Schema. Never include clause bodies or any other copied/generated source text in the response. Point to exact normalized block coordinates instead.
+
+Allowed tasks:
+
+- label document kind and template state;
+- identify title, language, party-role, section, clause, placeholder, jurisdiction, governing-law, citation, condition, and unparsed spans;
+- propose controlled labels for those validated spans.
+
+Prohibited tasks:
+
+- rewriting, completing, translating, correcting, or generating clause bodies;
+- inventing laws, citations, mandatory requirements, jurisdictions, parties, values, questions, answers, or missing sections;
+- treating a folder name as documentary evidence of governing law;
+- dropping meaningful content that does not fit the proposed structure.
+
+Use unspecified for requirement status unless explicit source wording proves another status. Put meaningful unclassified content in unparsed_spans. The deterministic pipeline rejects any span whose block, offsets, or SHA-256 do not match the supplied source.
+

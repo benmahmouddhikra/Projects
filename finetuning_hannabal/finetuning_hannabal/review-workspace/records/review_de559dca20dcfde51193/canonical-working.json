@@ -1,0 +1,185 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_a66ceab8b198c56ecdaa",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "unknown",
+    "initial_document_kind": "unknown",
+    "languages": [
+      {
+        "basis": "script_detection",
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_f1cc6bdb453e6c5707aa",
+            "normalized_end": 21,
+            "normalized_start": 0,
+            "raw_end": 21,
+            "raw_start": 0,
+            "source_id": "src_451d09939a84037bac59",
+            "text_sha256": "8879719d618b00e981b7397483ce7aaf267ff8ea9f582a0ec4c8ba62b7fcfb12"
+          }
+        ],
+        "tag": "ar"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "unknown",
+    "title": "اقرار بقبض باقى الثمن",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_f1cc6bdb453e6c5707aa",
+        "normalized_end": 21,
+        "normalized_start": 0,
+        "raw_end": 21,
+        "raw_start": 0,
+        "source_id": "src_451d09939a84037bac59",
+        "text_sha256": "8879719d618b00e981b7397483ce7aaf267ff8ea9f582a0ec4c8ba62b7fcfb12"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "document_kind_unresolved",
+        "message": "Deterministic filename rules did not resolve document kind.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      },
+      {
+        "code": "no_sections_confirmed",
+        "message": "No section boundaries were confirmed; meaningful text remains in unparsed_source_content.",
+        "severity": "warning"
+      },
+      {
+        "code": "ambiguity_023_non_contract_destination",
+        "message": "AMBIGUITY-023: the non-contract knowledge-base/training destination is unresolved.",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "not_required",
+    "structure_review_status": "pending",
+    "training_eligibility": "excluded"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [],
+  "source_files": [
+    {
+      "extracted_text_sha256": "980f432cb1e16fe4f0a67eb15ae2b3a3125d36df3f7e1f8219fe6dd650900d87",
+      "extraction_method": "microsoft_word_com_read_only",
+      "extraction_status": "success",
+      "extraction_warnings": [
+        "word_paragraphs_may_include_table_text"
+      ],
+      "media_type": "application/msword",
+      "page_count": 1,
+      "relative_path": "templates/Arabic_example/اقرار بقبض باقى الثمن.doc",
+      "sha256": "f70782ede280c39353c3abc043d0d6c61db41eff2aec8fb61c8048c5a3ca7cbf",
+      "size_bytes": 23040,
+      "source_id": "src_451d09939a84037bac59"
+    }
+  ],
+  "template_id": "tpl_0cd658bc32029b320b3f",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_fd9ce773b7a2cb874f08",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_f1cc6bdb453e6c5707aa",
+        "normalized_end": 21,
+        "normalized_start": 0,
+        "raw_end": 21,
+        "raw_start": 0,
+        "source_id": "src_451d09939a84037bac59",
+        "text_sha256": "8879719d618b00e981b7397483ce7aaf267ff8ea9f582a0ec4c8ba62b7fcfb12"
+      },
+      "text": "اقرار بقبض باقى الثمن"
+    },
+    {
+      "content_id": "unparsed_f66a915aee4f686216bd",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_f1cc6bdb453e6c5707aa",
+        "normalized_end": 277,
+        "normalized_start": 1,
+        "raw_end": 277,
+        "raw_start": 1,
+        "source_id": "src_451d09939a84037bac59",
+        "text_sha256": "54c51c22b15c7f22269009eba5938dcc5c44df6f79aeb639b7368017fc9efab1"
+      },
+      "text": "أقر أنا ........... بقبض باقى الثمن المنوه عنه بعقد البيع المبرم فيما بينى وبين السيد/........... بتاريخ   /   /     والمتعلق بالعقار رقم ..... الكائن ........ وقدره .........فقط ....... جنيه ، وبذلك يكون السيد المذكور قد قام بالوفاء لى بكامل الثمن ، وهذه مخالصة نهائية بذلك ."
+    },
+    {
+      "content_id": "unparsed_5bd8fb5882530f16ac25",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_f1cc6bdb453e6c5707aa",
+        "normalized_end": 21,
+        "normalized_start": 0,
+        "raw_end": 21,
+        "raw_start": 0,
+        "source_id": "src_451d09939a84037bac59",
+        "text_sha256": "26cf610f8d513cd14215df87d7e1b9fbb2eee9e9d624bcfc677e30e75115ce03"
+      },
+      "text": "وهذا اقرار منى بذلك ،"
+    },
+    {
+      "content_id": "unparsed_8a9c278ba8e3d927e75c",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_f1cc6bdb453e6c5707aa",
+        "normalized_end": 78,
+        "normalized_start": 0,
+        "raw_end": 78,
+        "raw_start": 0,
+        "source_id": "src_451d09939a84037bac59",
+        "text_sha256": "ee1498a5781b67a2109f45a0f4addbcd0055ecc9db44ddb3d4bdef3a470752d8"
+      },
+      "text": "تحريرا فى     /   /                                                    (المقر)"
+    }
+  ],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

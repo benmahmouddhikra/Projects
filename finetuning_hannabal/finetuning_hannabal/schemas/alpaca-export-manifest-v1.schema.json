@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:hannibal:schema:alpaca-export-manifest-v1",
+  "title": "Non-model Alpaca export manifest entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "row_id", "row_index", "status", "training_eligible", "artifact_key", "template_id", "source_ids", "clause_ids", "jurisdictions", "languages", "paths", "hashes", "review"],
+  "properties": {
+    "schema_version": {"const": "alpaca-export-manifest-v1"},
+    "row_id": {"type": "string"}, "row_index": {"type": "integer", "minimum": 0},
+    "status": {"enum": ["demo_unreviewed", "eligible"]}, "training_eligible": {"type": "boolean"},
+    "artifact_key": {"type": "string"}, "template_id": {"type": "string"},
+    "source_ids": {"type": "array", "items": {"type": "string"}}, "clause_ids": {"type": "array", "items": {"type": "string"}},
+    "jurisdictions": {"type": "array", "items": {"type": ["string", "null"]}}, "languages": {"type": "array", "items": {"type": "string"}},
+    "paths": {"type": "object", "additionalProperties": {"type": "string"}},
+    "hashes": {"type": "object", "additionalProperties": {"type": "string"}},
+    "review": {
+      "type": "object", "additionalProperties": false,
+      "required": ["structure", "legal", "privacy", "sanitization"],
+      "properties": {
+        "structure": {"type": "string"}, "legal": {"type": "string"},
+        "privacy": {"type": "string"}, "sanitization": {"type": "string"}
+      }
+    }
+  }
+}

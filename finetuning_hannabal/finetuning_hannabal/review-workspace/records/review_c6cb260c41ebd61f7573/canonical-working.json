@@ -1,0 +1,133 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_ebac0b3f369d30b07f5e",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "completed_contract",
+    "initial_document_kind": "completed_contract",
+    "languages": [
+      {
+        "basis": "script_detection",
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_1df583cd62798eead2fb",
+            "normalized_end": 394,
+            "normalized_start": 0,
+            "raw_end": 394,
+            "raw_start": 0,
+            "source_id": "src_b8d4cd2d7c4640dfc5a9",
+            "text_sha256": "0dbd74b941cd39bc0e0a24f531fd067e9354cf552645eb879116cdf6512e8b68"
+          }
+        ],
+        "tag": "ar"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "completed",
+    "title": "٤٣٠٠.٢٠.٥٥٣٠",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_1df583cd62798eead2fb",
+        "normalized_end": 12,
+        "normalized_start": 0,
+        "raw_end": 12,
+        "raw_start": 0,
+        "source_id": "src_b8d4cd2d7c4640dfc5a9",
+        "text_sha256": "97791b6bddbcaef75e815285e11ffbea9fb01b5983726e3ebaef937083e5a6fc"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "completed_contract_heuristic_requires_review",
+        "message": "Contract-like filename without detected square-bracket placeholders was initially classified completed and requires human confirmation.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      },
+      {
+        "code": "no_sections_confirmed",
+        "message": "No section boundaries were confirmed; meaningful text remains in unparsed_source_content.",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "required",
+    "structure_review_status": "pending",
+    "training_eligibility": "review_required"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [],
+  "source_files": [
+    {
+      "extracted_text_sha256": "e4f6b204fcf84a5e9e1e66884c07c06f62f5d80dac84dc4959798a1c8f3e816c",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 2,
+      "relative_path": "templates/Palestine/عقد إيجار.pdf",
+      "sha256": "1a051548997800b870355f4f9af2c300eff97841dd64bb2cd300d9009fe23204",
+      "size_bytes": 1083671,
+      "source_id": "src_b8d4cd2d7c4640dfc5a9"
+    }
+  ],
+  "template_id": "tpl_bd14b1fca1167393674b",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_13b4fb9b09abf5110e79",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_1df583cd62798eead2fb",
+        "normalized_end": 394,
+        "normalized_start": 0,
+        "raw_end": 394,
+        "raw_start": 0,
+        "source_id": "src_b8d4cd2d7c4640dfc5a9",
+        "text_sha256": "0dbd74b941cd39bc0e0a24f531fd067e9354cf552645eb879116cdf6512e8b68"
+      },
+      "text": "٤٣٠٠.٢٠.٥٥٣٠\nﻧﻤﻮذج ﻋﻘﺪ إﻳﺠﺎر واﺳﺘﺌﺠﺎر\nﻧﻤﻮذج ﻋﻘﺪ إﻳﺠﺎر ﻳﺤﺘﻮي ﻋﻠﻰ ﺷﺮوط ﺗﻮﺛﻖ ﻫﺬه اﻟﻤﺎدة اﻻرﺷﻴﻔﻴﺔ واﺳﺘﺌﺠﺎر\nﻳﺴﻠﻢ اﻟﻤﻔﺘﺎح ﻟﻠﻤﺆﺟﺮ وأن ﻋﻤﻮﻣﻴﺔ ﻣﻨﻬﺎ إﺟﺒﺎر اﻟﻤﺴﺘﺄﺟﺮ ﻓﻲ ﻧﻬﺎﻳﺔ ﻣﺪة اﻷﺟﺎر أن\nﺗﺨﻠﻴﺔ اﻟﻤﺤﻞ وﺗﺴﻠﻴﻤﻪ ﻳﺪﻓﻊ ﻋﻦ ﻛﻞ ﻳﻮم أﺟﺮة ﻣﻀﺎﻋﻔﺔ ﻓﻲ ﺣﺎل اﻟﺘﺄﺧﺮ؛ ﻟﺤﻴﻦ\nاﻟﻤﺤﻞ ﺑﺪون إذن ﺧﻄﻲ ﻣﻦ ﻟﻠﻤﺆﺟﺮـ وأﻧﻪ ﻻ ﻳﺤﻖ ﻟﻠﻤﺴﺘﺄﺟﺮ أن ﻳﻐﻴﺮ ﺗﻘﺴﻴﻤﺎت\nﺑﺪون أﺧﺬ إذن ورﺿﺎء اﻟﻤﺆﺟﺮ اﻟﻤﺆﺟﺮ أو أن ﻳﻘﻮم ﺑﺘﺄﺟﻴﺮ اﻟﻤﺤﻞ اﻟﻤﺆﺟﺮ ﻟﻪ ﻟﺸﺨﺺ آﺧﺮ\n   .ﺧﻄﻴﺎً"
+    }
+  ],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

@@ -1,0 +1,2368 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_e4413905fb0393f9a218",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "completed_contract",
+    "initial_document_kind": "completed_contract",
+    "languages": [
+      {
+        "basis": "script_detection",
+        "confidence": 1.0,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_7aff5727a2ed8bef9624",
+            "normalized_end": 35,
+            "normalized_start": 0,
+            "raw_end": 35,
+            "raw_start": 0,
+            "source_id": "src_4f8b27dce2b511b6af40",
+            "text_sha256": "2eb634627c05ac42ec9f36bf4e457abada581019bc9982b3ecdb77e3fe375ea8"
+          }
+        ],
+        "tag": "ar"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "completed",
+    "title": "نموذج (تعديل-إعادة) العقود – اعتماد",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 35,
+        "normalized_start": 0,
+        "raw_end": 35,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "2eb634627c05ac42ec9f36bf4e457abada581019bc9982b3ecdb77e3fe375ea8"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "completed_contract_heuristic_requires_review",
+        "message": "Contract-like filename without detected square-bracket placeholders was initially classified completed and requires human confirmation.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      },
+      {
+        "code": "no_sections_confirmed",
+        "message": "No section boundaries were confirmed; meaningful text remains in unparsed_source_content.",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "required",
+    "structure_review_status": "pending",
+    "training_eligibility": "review_required"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [],
+  "source_files": [
+    {
+      "extracted_text_sha256": "dc8442b3b7dac33918a668d5765937a13b502f69263d0a88559e90dc5f73ff38",
+      "extraction_method": "docx_ooxml_xml",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "page_count": null,
+      "relative_path": "templates/Saudi arabia/1-0-نموذج-تعديل-اعادة-عقد-تعديل-(1-0).docx",
+      "sha256": "611e4742941ac03c4238e302473bc1c65ee46eb274e9884287dec9bc24469c27",
+      "size_bytes": 334961,
+      "source_id": "src_4f8b27dce2b511b6af40"
+    }
+  ],
+  "template_id": "tpl_423391517d32e7cac567",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_1c55957c87d6b67da17f",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 35,
+        "normalized_start": 0,
+        "raw_end": 35,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "2eb634627c05ac42ec9f36bf4e457abada581019bc9982b3ecdb77e3fe375ea8"
+      },
+      "text": "نموذج (تعديل-إعادة) العقود – اعتماد"
+    },
+    {
+      "content_id": "unparsed_82bc1bf71926b753bdec",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 19,
+        "normalized_start": 0,
+        "raw_end": 19,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "f2cb3a42be225689b5ea9f9d7f911b867bd45bb07f268b479fe14ffd3650f128"
+      },
+      "text": "تصنيف العقد/التعميد"
+    },
+    {
+      "content_id": "unparsed_62ec77c2e03a8e9cca49",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 4,
+        "normalized_start": 0,
+        "raw_end": 4,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "03ab4b81bc4f11deb2654983f893fbf971d7a3615a7bcc9fd29e57367b8efeee"
+      },
+      "text": "☐عقد"
+    },
+    {
+      "content_id": "unparsed_22e5740977010f667b2d",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 6,
+        "normalized_start": 0,
+        "raw_end": 6,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "d38ea04a95e9ad3f5e13d88aa7b69ac97dd3a110dc1ea8da47d037fd1a91f868"
+      },
+      "text": "☐تعميد"
+    },
+    {
+      "content_id": "unparsed_679c4d7640829860f4d8",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 9,
+        "normalized_start": 0,
+        "raw_end": 9,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "2b9fa3db572a717bcb509daec416ca3bd11be12afd58bed4291209668136ca1e"
+      },
+      "text": "نوع العقد"
+    },
+    {
+      "content_id": "unparsed_7f5ed0407b2568cf17ed",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 5,
+        "normalized_start": 0,
+        "raw_end": 5,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "bc57478466711a9fe6aa26449f08e0e5b30499c721ab58d7f1d8a739f2351c15"
+      },
+      "text": "☐قائم"
+    },
+    {
+      "content_id": "unparsed_e717ec586587815545f9",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000007",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 5,
+        "normalized_start": 0,
+        "raw_end": 5,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "17065cb960d7201e91699dfbd17ff7d0641923d91e65bc094bab96f3aa15ec21"
+      },
+      "text": "☐جديد"
+    },
+    {
+      "content_id": "unparsed_94ed71ebfa091bdcd843",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 6,
+        "normalized_start": 0,
+        "raw_end": 6,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "f268e82b223b0f00e1a60073af167179aa0902b76e89c37391a76884a63caf9f"
+      },
+      "text": "☐منقول"
+    },
+    {
+      "content_id": "unparsed_deb7d7071b240006a632",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 10,
+        "normalized_start": 0,
+        "raw_end": 10,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "9e33730f9ce44049b89b607fabf8dc641d698be55c782d901bb75e4b06e44aea"
+      },
+      "text": "نوع الخدمة"
+    },
+    {
+      "content_id": "unparsed_390172a07acf5e62e97d",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 30,
+        "normalized_start": 0,
+        "raw_end": 30,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "5df3c09b5189368cf346e05ae631d682000bdf5c9ec14afbf5ab7a59b984704e"
+      },
+      "text": "☐تمديد مدة☐أمر تخفيض☐أمر زيادة"
+    },
+    {
+      "content_id": "unparsed_91d5acd30bc538c6e639",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 15,
+        "normalized_start": 0,
+        "raw_end": 15,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "678009206b552234786f488e07d08a70151331f353d963337bfbab99a75e29ea"
+      },
+      "text": "☐خطأ في الادخال"
+    },
+    {
+      "content_id": "unparsed_d68371e7d276a1adc07e",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000012",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 14,
+        "normalized_start": 0,
+        "raw_end": 14,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "f3c15b61074895853e397a83a31df96033edaa3af454e1c993d654cad5e349ff"
+      },
+      "text": "☐تعديل معلومات"
+    },
+    {
+      "content_id": "unparsed_6c2701159d2537b48c8c",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000013",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 22,
+        "normalized_start": 0,
+        "raw_end": 22,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "223eca5310f3236af0333af6b153b119b99ae174e5250d92768c1101fc296d10"
+      },
+      "text": "☐إعادة الى ☐مسجل العقد"
+    },
+    {
+      "content_id": "unparsed_0c9f08a129611684eb39",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000014",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 50,
+        "normalized_start": 0,
+        "raw_end": 50,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "775493b179ca0b66cd72c2e37d027ead4e5c9721b66d777f799c3a65f15d693f"
+      },
+      "text": "هل تم اصدار امر دفع مسبقاً على هذا العقد؟ (إلزامي)"
+    },
+    {
+      "content_id": "unparsed_1b2b44c79c0e4b487af0",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 4,
+        "normalized_start": 0,
+        "raw_end": 4,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "35c82f611f274261797c696047262342ba61495f9bc2437004f455382314e463"
+      },
+      "text": "☐نعم"
+    },
+    {
+      "content_id": "unparsed_9d30ee8b9c4d7d7b50f3",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000016",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 3,
+        "normalized_start": 0,
+        "raw_end": 3,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "a013d6fbd132cd87a5797984c3ec0bea4cc6357b6aa8e353b93876e568baa06d"
+      },
+      "text": "☐لا"
+    },
+    {
+      "content_id": "unparsed_faad6804be89489c37df",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000017",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 14,
+        "normalized_start": 0,
+        "raw_end": 14,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "4ff5a31c3ea35007e5e1bcb45618484a34a051652302b090840986381a18ba27"
+      },
+      "text": "بيانات الموظف:"
+    },
+    {
+      "content_id": "unparsed_6095548f3a77f992b2a6",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000018",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 10,
+        "normalized_start": 0,
+        "raw_end": 10,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "394f067f92ffc5eae5c92134c9310b6dabf66892bc2066258b479f34dac4e9dd"
+      },
+      "text": "اسم الموظف"
+    },
+    {
+      "content_id": "unparsed_8ff3d13952dcb7ee9faf",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000019",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 28,
+        "normalized_start": 0,
+        "raw_end": 28,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "3e3fd744e1c5693354b340f91f536ab62ff639fcbea31a3b8c3d1e3865d18d8f"
+      },
+      "text": "كتابة اسم الموظف الرباعي هنا"
+    },
+    {
+      "content_id": "unparsed_86bd577910c358e5d24d",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000020",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 14,
+        "normalized_start": 0,
+        "raw_end": 14,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "ac239418f6c5953cb4caacfd1a6eae5a2790fdd0c65d02ebcbf8eede0fe607dc"
+      },
+      "text": "الهوية الوطنية"
+    },
+    {
+      "content_id": "unparsed_b8da6458225ab9c75159",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000021",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 24,
+        "normalized_start": 0,
+        "raw_end": 24,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "7a96a4029e1e0ef31fe4b03752604f4a168f1fb096cc61c3ea68aba27b99eeeb"
+      },
+      "text": "كتابة الهوية الوطنية هنا"
+    },
+    {
+      "content_id": "unparsed_507bd2e1529596386876",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000022",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 24,
+        "normalized_start": 0,
+        "raw_end": 24,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "ef0f425d2574a7e9251b3fb00198416405219786d0a9648fa88d67902e402579"
+      },
+      "text": "البريد الالكتروني الرسمي"
+    },
+    {
+      "content_id": "unparsed_0d9bf5ab424f35bc6666",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000023",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 34,
+        "normalized_start": 0,
+        "raw_end": 34,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "0b0334626b7aeddf46470716fc2c29797e9c710831e4fb96633fda218d682555"
+      },
+      "text": "كتابة البريد الالكتروني الرسمي هنا"
+    },
+    {
+      "content_id": "unparsed_405d23ac3289b8a2e2e3",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000024",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "c0ecfda8d00793ed5ee4a1414f1269b4bdaf5e90562840701a4bc67700d063e6"
+      },
+      "text": "اسم الجهة الحكومية"
+    },
+    {
+      "content_id": "unparsed_5175aa35489a8ea4f1d2",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000025",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 28,
+        "normalized_start": 0,
+        "raw_end": 28,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "4dfcdf6418efb955b520ba5534d877a31839c531679cdac3bf32b6d066678f8e"
+      },
+      "text": "كتابة اسم الجهة الحكومية هنا"
+    },
+    {
+      "content_id": "unparsed_29d1bb71ee55ae24f2c3",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000026",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 11,
+        "normalized_start": 0,
+        "raw_end": 11,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "e52dd53271454927174676099580874f2d8f4dd39509d4b73018f21cd82dc503"
+      },
+      "text": "اسم الادارة"
+    },
+    {
+      "content_id": "unparsed_8e0967e24f1a10fca7f5",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000027",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 21,
+        "normalized_start": 0,
+        "raw_end": 21,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "0aaa8b2bbb48b3548049840318ba1d05e8b76256c85baab78201d0de6354c973"
+      },
+      "text": "كتابة اسم الإدارة هنا"
+    },
+    {
+      "content_id": "unparsed_6f0f01bd6d5d26b310d9",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000028",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 14,
+        "normalized_start": 0,
+        "raw_end": 14,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "de98bd734462bb46979a621e7637ed101d1fd5fb002e67a987090f7e9831eb7e"
+      },
+      "text": "المسمى الوظيفي"
+    },
+    {
+      "content_id": "unparsed_dabfb54a0a9bde0e183f",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000029",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 24,
+        "normalized_start": 0,
+        "raw_end": 24,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "eea8ffb11097f19c694ff10efe5681c3c4e41ed9712d829071a4899d42821583"
+      },
+      "text": "كتابة المسمى الوظيفي هنا"
+    },
+    {
+      "content_id": "unparsed_169a112c4361034ff825",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000030",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 10,
+        "normalized_start": 0,
+        "raw_end": 10,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "6dbe8474b01b220577e5991a73f5c6650a7dea3547e48885b43722e35c983179"
+      },
+      "text": "رقم الجوال"
+    },
+    {
+      "content_id": "unparsed_3a78905ee52a63eb8f79",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000031",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 20,
+        "normalized_start": 0,
+        "raw_end": 20,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "e0e7719a920c042791e40b95ac04909c807aad8df1a00a3c80202383fa2418a3"
+      },
+      "text": "كتابة رقم الجوال هنا"
+    },
+    {
+      "content_id": "unparsed_86e525555bd8934ca7b6",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000032",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 24,
+        "normalized_start": 0,
+        "raw_end": 24,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "e6345502e04428acf6e5728b86e818d1c3e1dbfd06970676c94e08f2b12f5278"
+      },
+      "text": "البيانات الأساسية للعقد:"
+    },
+    {
+      "content_id": "unparsed_56a57f9785db11aa1cf7",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000033",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "c0ecfda8d00793ed5ee4a1414f1269b4bdaf5e90562840701a4bc67700d063e6"
+      },
+      "text": "اسم الجهة الحكومية"
+    },
+    {
+      "content_id": "unparsed_9d79d94d53fff4af885e",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000034",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 28,
+        "normalized_start": 0,
+        "raw_end": 28,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "4dfcdf6418efb955b520ba5534d877a31839c531679cdac3bf32b6d066678f8e"
+      },
+      "text": "كتابة اسم الجهة الحكومية هنا"
+    },
+    {
+      "content_id": "unparsed_39b718255de96365ff0b",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000035",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 27,
+        "normalized_start": 0,
+        "raw_end": 27,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "3146c7b7ca18af0b5439f834b990893d5d620f4eb88ec259c268676f5d11d241"
+      },
+      "text": "الرقم المرجعي للعقد/التعميد"
+    },
+    {
+      "content_id": "unparsed_b0148b4c45b1ff626ac3",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000036",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 33,
+        "normalized_start": 0,
+        "raw_end": 33,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "da77d6664c9112a140fb60f9f9c7fa2fe1b4b5d49237f022999e36cfc6ca872b"
+      },
+      "text": "كتابة اسم الرقم للعقد/التعميد هنا"
+    },
+    {
+      "content_id": "unparsed_495efb619c3452bab57c",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000037",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 13,
+        "normalized_start": 0,
+        "raw_end": 13,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "ac3112f38525fcf31782f5a2e8f15c45ea4a31b92c5e908dfab325161f350230"
+      },
+      "text": "تاريخ الترسية"
+    },
+    {
+      "content_id": "unparsed_233b938ba7f349a99c03",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000038",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 27,
+        "normalized_start": 0,
+        "raw_end": 27,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "001456c1e3bd16bf52bb8ee7a3ecfafed546d1cbd3530a3481e66b0b4de8395b"
+      },
+      "text": "كتابة اسم تاريخ الترسية هنا"
+    },
+    {
+      "content_id": "unparsed_b7c6e144b21972a66bbe",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000039",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 17,
+        "normalized_start": 0,
+        "raw_end": 17,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "949a1314abd6fcbc576598122e2cdd5eb789b39bbc70f3260b17ce78df7c275a"
+      },
+      "text": "تاريخ توقيع العقد"
+    },
+    {
+      "content_id": "unparsed_868fb934d2932f7bdc7e",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000040",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 31,
+        "normalized_start": 0,
+        "raw_end": 31,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "0eb318b4b87712c9d1895efc75b0e9accc17f0903cc9c3d7a0b177354c87b295"
+      },
+      "text": "كتابة اسم تاريخ توقيع العقد هنا"
+    },
+    {
+      "content_id": "unparsed_9d64d19e1e45798c3dc5",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000041",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 17,
+        "normalized_start": 0,
+        "raw_end": 17,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "3e4255a624637a32ea5348fe181fec00b801ab6f039708dc7f845dd087459352"
+      },
+      "text": "مدة العقد/التعميد"
+    },
+    {
+      "content_id": "unparsed_56af10d03b87ebc0f262",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000042",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 27,
+        "normalized_start": 0,
+        "raw_end": 27,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "0bf49c9e30f643e7cf59ce9e1747d14bdcc52807cc82afb00cdbca2ae175538d"
+      },
+      "text": "كتابة مدة العقد/التعقيد هنا"
+    },
+    {
+      "content_id": "unparsed_ac5dac4551ec0dd8dfa6",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000043",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "3a661ab2b9754984c6a919d3ea83086800f84e5faff546aad307724e5703944c"
+      },
+      "text": "قيمة العقد/التعميد"
+    },
+    {
+      "content_id": "unparsed_6bae9fa3b192de136190",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000044",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 28,
+        "normalized_start": 0,
+        "raw_end": 28,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "f8930f77697581dc8163716ecb356b070072f7ff7231caaa4ee3b60753b8d22a"
+      },
+      "text": "كتابة قيمة العقد/التعميد هنا"
+    },
+    {
+      "content_id": "unparsed_aef7d975f2727b59e0a0",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000045",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 39,
+        "normalized_start": 0,
+        "raw_end": 39,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "e12fc7caac08fa14f4582ec8a9647ad3a7d89168a989ad14a2e4238e4d692e2c"
+      },
+      "text": "البنود/المشاريع/البرامج المرتبطة بالعقد"
+    },
+    {
+      "content_id": "unparsed_d8b28072ba0506267ba1",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000046",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 26,
+        "normalized_start": 0,
+        "raw_end": 26,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "2f166522becbf4fd610c051bace450ac34cd3a2abf2a503b3c48dbd5e61b1686"
+      },
+      "text": "رقم المشروع/البند/البرنامج"
+    },
+    {
+      "content_id": "unparsed_edadd5311e4d9a6b8759",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000047",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 26,
+        "normalized_start": 0,
+        "raw_end": 26,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "414bfa29b9877e3bec098478274f2a20947b5541d2e4288034f8e0a90d114bc5"
+      },
+      "text": "اسم المشروع/البند/البرنامج"
+    },
+    {
+      "content_id": "unparsed_6f03ffdb6d38866fa29d",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000048",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 36,
+        "normalized_start": 0,
+        "raw_end": 36,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "ee76fe4376db63d64a67a8de44fcb5f67e4851b57009df6b002fc1170ef38ac5"
+      },
+      "text": "كتابة رقم المشروع/البند/البرنامج هنا"
+    },
+    {
+      "content_id": "unparsed_18a5cdbec6ba9f78b476",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000049",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 36,
+        "normalized_start": 0,
+        "raw_end": 36,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "de95c09b479b07ae5c24bc200ec4f385a8e23e92c474b088ba5934e1d5c9c873"
+      },
+      "text": "كتابة اسم المشروع/البند/البرنامج هنا"
+    },
+    {
+      "content_id": "unparsed_2eeaf1b571aa4a94a802",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000050",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 36,
+        "normalized_start": 0,
+        "raw_end": 36,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "ee76fe4376db63d64a67a8de44fcb5f67e4851b57009df6b002fc1170ef38ac5"
+      },
+      "text": "كتابة رقم المشروع/البند/البرنامج هنا"
+    },
+    {
+      "content_id": "unparsed_72f99db7e34929f97b87",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000051",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 36,
+        "normalized_start": 0,
+        "raw_end": 36,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "de95c09b479b07ae5c24bc200ec4f385a8e23e92c474b088ba5934e1d5c9c873"
+      },
+      "text": "كتابة اسم المشروع/البند/البرنامج هنا"
+    },
+    {
+      "content_id": "unparsed_83dabc8cfea99e3fe415",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000052",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 36,
+        "normalized_start": 0,
+        "raw_end": 36,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "ee76fe4376db63d64a67a8de44fcb5f67e4851b57009df6b002fc1170ef38ac5"
+      },
+      "text": "كتابة رقم المشروع/البند/البرنامج هنا"
+    },
+    {
+      "content_id": "unparsed_2ff4fec448cfb439e11c",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000053",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 36,
+        "normalized_start": 0,
+        "raw_end": 36,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "de95c09b479b07ae5c24bc200ec4f385a8e23e92c474b088ba5934e1d5c9c873"
+      },
+      "text": "كتابة اسم المشروع/البند/البرنامج هنا"
+    },
+    {
+      "content_id": "unparsed_8a5be4a725ca54511cdc",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000054",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 44,
+        "normalized_start": 0,
+        "raw_end": 44,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "9c656904f7c69ed8cbb6707377293279751655f4aa6a364d2f8882486056422d"
+      },
+      "text": "هل المنافسة مطروحة علىمنصة اعتماد؟) نعم/لا ("
+    },
+    {
+      "content_id": "unparsed_5a26a5e91f2802977890",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000055",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 3,
+        "normalized_start": 0,
+        "raw_end": 3,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "a013d6fbd132cd87a5797984c3ec0bea4cc6357b6aa8e353b93876e568baa06d"
+      },
+      "text": "☐لا"
+    },
+    {
+      "content_id": "unparsed_fc0fbd73f3b11b4324ec",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000056",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 27,
+        "normalized_start": 0,
+        "raw_end": 27,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "3e74ed62b8589795dc6dc21683cf71385e72367b1bc6ffbebb398d5865ce5518"
+      },
+      "text": "الأسباب:  كتابة الأسباب هنا"
+    },
+    {
+      "content_id": "unparsed_aa6dafe02fbd5703935e",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000057",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 4,
+        "normalized_start": 0,
+        "raw_end": 4,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "35c82f611f274261797c696047262342ba61495f9bc2437004f455382314e463"
+      },
+      "text": "☐نعم"
+    },
+    {
+      "content_id": "unparsed_590b54e40d4f4118ac0d",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000058",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 73,
+        "normalized_start": 0,
+        "raw_end": 73,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "f03bb3f0d3341ac98062d65212d1b61a14d2cc40980b49d5e071ffdde340ae4b"
+      },
+      "text": "الرقم المرجعي للمنافسة (النظام الجديد):  كتابة الرقم المرجعي للمنافسة هنا"
+    },
+    {
+      "content_id": "unparsed_e0c6a0b8abb524d1987a",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000059",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 16,
+        "normalized_start": 0,
+        "raw_end": 16,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "3b6bab164e13d0bff6d76fcb6594f4230d039f324a0bde02209a982986186966"
+      },
+      "text": "البيانات الأخرى:"
+    },
+    {
+      "content_id": "unparsed_20d36c3ef8d5d70f6fcc",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000060",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 7,
+        "normalized_start": 0,
+        "raw_end": 7,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "3a7c87ed01000280c7b0a88f4d0a0eab0e0d887f91f3cb939dc5d9ba727daaae"
+      },
+      "text": "التصنيف"
+    },
+    {
+      "content_id": "unparsed_fdbceac8cb0dab5d8fa5",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000061",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 13,
+        "normalized_start": 0,
+        "raw_end": 13,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "662094b617ef1b358deb88fba3037a398d16aa92f72e12e7bea30ccd6df291de"
+      },
+      "text": "البيان الحالي"
+    },
+    {
+      "content_id": "unparsed_34df439b9daba8d0cdbf",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000062",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 25,
+        "normalized_start": 0,
+        "raw_end": 25,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "cd7d3e1045a033a83557dcc3359cfaacf7bd7f059fc16614c517df12f885e0f3"
+      },
+      "text": "التعديل المطلوب (إن وجد ("
+    },
+    {
+      "content_id": "unparsed_cc33f212eb2080b3fde8",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000063",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 17,
+        "normalized_start": 0,
+        "raw_end": 17,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "599a02d767db6b1571e3bc484169c240f73647222c041abcc9752dc613cbac70"
+      },
+      "text": "اسم العقد/التعميد"
+    },
+    {
+      "content_id": "unparsed_5819b0bb92c56df84aae",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000064",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 23,
+        "normalized_start": 0,
+        "raw_end": 23,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "9c762fddc721eba06719bbc9913d5292d5a8819d375d5cb8e45b6efd630a1cc2"
+      },
+      "text": "كتابة البيان الحالي هنا"
+    },
+    {
+      "content_id": "unparsed_8e7317f2960c5e40e259",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000065",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 25,
+        "normalized_start": 0,
+        "raw_end": 25,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "ff0183dbdc836eab02d2eac57c56291c148152a965346420b257e74f46cd03a2"
+      },
+      "text": "كتابة التعديل المطلوب هنا"
+    },
+    {
+      "content_id": "unparsed_372129573781d4a6dddb",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000066",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 19,
+        "normalized_start": 0,
+        "raw_end": 19,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "e959ad4e16aaf77f9b1878ec700af418409386b8718c666e02e553b924d5b5d7"
+      },
+      "text": "اسم الجهة المستفيدة"
+    },
+    {
+      "content_id": "unparsed_89048fa9172933eb0a02",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000067",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 23,
+        "normalized_start": 0,
+        "raw_end": 23,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "9c762fddc721eba06719bbc9913d5292d5a8819d375d5cb8e45b6efd630a1cc2"
+      },
+      "text": "كتابة البيان الحالي هنا"
+    },
+    {
+      "content_id": "unparsed_a4493d8c53417bfe3fc9",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000068",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 25,
+        "normalized_start": 0,
+        "raw_end": 25,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "ff0183dbdc836eab02d2eac57c56291c148152a965346420b257e74f46cd03a2"
+      },
+      "text": "كتابة التعديل المطلوب هنا"
+    },
+    {
+      "content_id": "unparsed_8e0bb0fcc74fd0cf9933",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000069",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 28,
+        "normalized_start": 0,
+        "raw_end": 28,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "037afa1d4f64519d54748fbe15fbe5df473d2927a469525f82b4c464f76a65d7"
+      },
+      "text": "السجل التجاري للجهةالمستفيدة"
+    },
+    {
+      "content_id": "unparsed_a117dabc41185d47d7ce",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000070",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 23,
+        "normalized_start": 0,
+        "raw_end": 23,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "9c762fddc721eba06719bbc9913d5292d5a8819d375d5cb8e45b6efd630a1cc2"
+      },
+      "text": "كتابة البيان الحالي هنا"
+    },
+    {
+      "content_id": "unparsed_e15239412647d1262007",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000071",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 25,
+        "normalized_start": 0,
+        "raw_end": 25,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "ff0183dbdc836eab02d2eac57c56291c148152a965346420b257e74f46cd03a2"
+      },
+      "text": "كتابة التعديل المطلوب هنا"
+    },
+    {
+      "content_id": "unparsed_46628aeb388be89af3d9",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000072",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "feaea6bf2ea40bfdf776eaea94e649132e86d2efc61f8463300a9dece04d9a33"
+      },
+      "text": "مدة العقد/ التعميد"
+    },
+    {
+      "content_id": "unparsed_4462e6c216f51122fad3",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000073",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 23,
+        "normalized_start": 0,
+        "raw_end": 23,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "9c762fddc721eba06719bbc9913d5292d5a8819d375d5cb8e45b6efd630a1cc2"
+      },
+      "text": "كتابة البيان الحالي هنا"
+    },
+    {
+      "content_id": "unparsed_ad116da7bb63ad80871a",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000074",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 25,
+        "normalized_start": 0,
+        "raw_end": 25,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "ff0183dbdc836eab02d2eac57c56291c148152a965346420b257e74f46cd03a2"
+      },
+      "text": "كتابة التعديل المطلوب هنا"
+    },
+    {
+      "content_id": "unparsed_71f137abedd9d2076e03",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000075",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 19,
+        "normalized_start": 0,
+        "raw_end": 19,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "36918f26b5c2fc4e89f89197d9d57f45a17fd303ac7e854ed7820f0dfa0af5c8"
+      },
+      "text": "قيمة العقد/ التعميد"
+    },
+    {
+      "content_id": "unparsed_3ec4145cd6fff72e043a",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000076",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 23,
+        "normalized_start": 0,
+        "raw_end": 23,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "9c762fddc721eba06719bbc9913d5292d5a8819d375d5cb8e45b6efd630a1cc2"
+      },
+      "text": "كتابة البيان الحالي هنا"
+    },
+    {
+      "content_id": "unparsed_227d23fa42ea4e7f3791",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000077",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 25,
+        "normalized_start": 0,
+        "raw_end": 25,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "ff0183dbdc836eab02d2eac57c56291c148152a965346420b257e74f46cd03a2"
+      },
+      "text": "كتابة التعديل المطلوب هنا"
+    },
+    {
+      "content_id": "unparsed_00ccc793c595d0b32a42",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000078",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 40,
+        "normalized_start": 0,
+        "raw_end": 40,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "d421ff778d0db22532e5b8c84d7798f55fbac101b6f4837128fef4131d5b2989"
+      },
+      "text": "التفاصيل المالية بعد التعديل (الارتباط):"
+    },
+    {
+      "content_id": "unparsed_dfb7132dfc95ed0682b9",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000079",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 26,
+        "normalized_start": 0,
+        "raw_end": 26,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "2f166522becbf4fd610c051bace450ac34cd3a2abf2a503b3c48dbd5e61b1686"
+      },
+      "text": "رقم المشروع/البند/البرنامج"
+    },
+    {
+      "content_id": "unparsed_fabbf611716224528b31",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000080",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 26,
+        "normalized_start": 0,
+        "raw_end": 26,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "414bfa29b9877e3bec098478274f2a20947b5541d2e4288034f8e0a90d114bc5"
+      },
+      "text": "اسم المشروع/البند/البرنامج"
+    },
+    {
+      "content_id": "unparsed_9009ee3568f3503b9a36",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000081",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 19,
+        "normalized_start": 0,
+        "raw_end": 19,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "6aea46d944e0b2cd2576c32024ac69f21a846ca14fbdffb2255335f9d9e38a10"
+      },
+      "text": "المطلوب من التكاليف"
+    },
+    {
+      "content_id": "unparsed_f980cf80c576aa95ac6f",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000082",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "5ef7f847c89e56ddfab715f455257f190112497d04ba698a4588495c709b1511"
+      },
+      "text": "المطلوب من السيولة"
+    },
+    {
+      "content_id": "unparsed_8631a82f5f63e56d8824",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000083",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 35,
+        "normalized_start": 0,
+        "raw_end": 35,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "fe8b5eed2cb7672e25550f0d44b8a23b1dcf7d45d74ab8f4678575adcab33f5b"
+      },
+      "text": "كتابة رقم المشروع/البند/البرنامجهنا"
+    },
+    {
+      "content_id": "unparsed_628e81c8f452e804e919",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000084",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 35,
+        "normalized_start": 0,
+        "raw_end": 35,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "1438f189615d1bf3dda2e4b62fede3dd6cf9065f7d7c0aa62423d9791db11fbd"
+      },
+      "text": "كتابة اسم المشروع/البند/البرنامجهنا"
+    },
+    {
+      "content_id": "unparsed_15c6bb9fed4cc3015a07",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000085",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "3fba1579d0d323d0b7bdef9c0542a348e202c519f664be621886534411b57b0c"
+      },
+      "text": "كتابة التكاليف هنا"
+    },
+    {
+      "content_id": "unparsed_b8bab1780143f98e11cb",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000086",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 17,
+        "normalized_start": 0,
+        "raw_end": 17,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "f17ae07879431b1702aa86050450de811cd2c8a32e3ca52a3d37141765df24cb"
+      },
+      "text": "كتابة السيولة هنا"
+    },
+    {
+      "content_id": "unparsed_498223673b1a83be12ba",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000087",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 35,
+        "normalized_start": 0,
+        "raw_end": 35,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "fe8b5eed2cb7672e25550f0d44b8a23b1dcf7d45d74ab8f4678575adcab33f5b"
+      },
+      "text": "كتابة رقم المشروع/البند/البرنامجهنا"
+    },
+    {
+      "content_id": "unparsed_4dd7d5bd286980e54fbc",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000088",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 35,
+        "normalized_start": 0,
+        "raw_end": 35,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "1438f189615d1bf3dda2e4b62fede3dd6cf9065f7d7c0aa62423d9791db11fbd"
+      },
+      "text": "كتابة اسم المشروع/البند/البرنامجهنا"
+    },
+    {
+      "content_id": "unparsed_c4ff864f00ec7cdc1c40",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000089",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "3fba1579d0d323d0b7bdef9c0542a348e202c519f664be621886534411b57b0c"
+      },
+      "text": "كتابة التكاليف هنا"
+    },
+    {
+      "content_id": "unparsed_9b01d2286307a4e1ded2",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000090",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 17,
+        "normalized_start": 0,
+        "raw_end": 17,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "f17ae07879431b1702aa86050450de811cd2c8a32e3ca52a3d37141765df24cb"
+      },
+      "text": "كتابة السيولة هنا"
+    },
+    {
+      "content_id": "unparsed_51bd10a1a1414f4b4adc",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000091",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 35,
+        "normalized_start": 0,
+        "raw_end": 35,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "fe8b5eed2cb7672e25550f0d44b8a23b1dcf7d45d74ab8f4678575adcab33f5b"
+      },
+      "text": "كتابة رقم المشروع/البند/البرنامجهنا"
+    },
+    {
+      "content_id": "unparsed_f2c8099c051bd6eb4cc9",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000092",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 35,
+        "normalized_start": 0,
+        "raw_end": 35,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "1438f189615d1bf3dda2e4b62fede3dd6cf9065f7d7c0aa62423d9791db11fbd"
+      },
+      "text": "كتابة اسم المشروع/البند/البرنامجهنا"
+    },
+    {
+      "content_id": "unparsed_0c7ea9d837edb53358b4",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000093",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "3fba1579d0d323d0b7bdef9c0542a348e202c519f664be621886534411b57b0c"
+      },
+      "text": "كتابة التكاليف هنا"
+    },
+    {
+      "content_id": "unparsed_7aef3a14bab8d6170ac7",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000094",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 17,
+        "normalized_start": 0,
+        "raw_end": 17,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "f17ae07879431b1702aa86050450de811cd2c8a32e3ca52a3d37141765df24cb"
+      },
+      "text": "كتابة السيولة هنا"
+    },
+    {
+      "content_id": "unparsed_b522094a1bee6d1d599b",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000095",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 35,
+        "normalized_start": 0,
+        "raw_end": 35,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "fe8b5eed2cb7672e25550f0d44b8a23b1dcf7d45d74ab8f4678575adcab33f5b"
+      },
+      "text": "كتابة رقم المشروع/البند/البرنامجهنا"
+    },
+    {
+      "content_id": "unparsed_5c9e7264b338e9db41df",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000096",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 35,
+        "normalized_start": 0,
+        "raw_end": 35,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "1438f189615d1bf3dda2e4b62fede3dd6cf9065f7d7c0aa62423d9791db11fbd"
+      },
+      "text": "كتابة اسم المشروع/البند/البرنامجهنا"
+    },
+    {
+      "content_id": "unparsed_69dc70da68666fb317e9",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000097",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "3fba1579d0d323d0b7bdef9c0542a348e202c519f664be621886534411b57b0c"
+      },
+      "text": "كتابة التكاليف هنا"
+    },
+    {
+      "content_id": "unparsed_cd3a4058e1de4f59d204",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000098",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 17,
+        "normalized_start": 0,
+        "raw_end": 17,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "f17ae07879431b1702aa86050450de811cd2c8a32e3ca52a3d37141765df24cb"
+      },
+      "text": "كتابة السيولة هنا"
+    },
+    {
+      "content_id": "unparsed_95f192b8b84ef356db2e",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000099",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 22,
+        "normalized_start": 0,
+        "raw_end": 22,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "d46ff9b9e67f52915097e9b116ec49cebad4c262b46c50e22a132da7e613684a"
+      },
+      "text": "خطة الدفع بعد التعديل:"
+    },
+    {
+      "content_id": "unparsed_55e05d1688accc382b1e",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000100",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 37,
+        "normalized_start": 0,
+        "raw_end": 37,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "6f8172db5b10aa920f0f65b96f979ba18eb93ff73457aa3ca916d3db9e1dd720"
+      },
+      "text": "(يتم ادخال اجمالي المطلوب حسب كل سنة)"
+    },
+    {
+      "content_id": "unparsed_7c4ac6c8c6688a5a6c2d",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000101",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 5,
+        "normalized_start": 0,
+        "raw_end": 5,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "f0f52ebd102946307e57f73e0bfccd436e50eff4469028f6268c237094cb91b7"
+      },
+      "text": "السنة"
+    },
+    {
+      "content_id": "unparsed_2b762f73c64f7f6588c6",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000102",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 26,
+        "normalized_start": 0,
+        "raw_end": 26,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "2f166522becbf4fd610c051bace450ac34cd3a2abf2a503b3c48dbd5e61b1686"
+      },
+      "text": "رقم المشروع/البند/البرنامج"
+    },
+    {
+      "content_id": "unparsed_96053aafa8f4285c8998",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000103",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 26,
+        "normalized_start": 0,
+        "raw_end": 26,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "414bfa29b9877e3bec098478274f2a20947b5541d2e4288034f8e0a90d114bc5"
+      },
+      "text": "اسم المشروع/البند/البرنامج"
+    },
+    {
+      "content_id": "unparsed_370133d5869f0d39169d",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000104",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 12,
+        "normalized_start": 0,
+        "raw_end": 12,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "9f00d7798b23a0d9d50a19ccd24afcc7b6503976f4a9781d24143d7d8caf1919"
+      },
+      "text": "نسبة الانجاز"
+    },
+    {
+      "content_id": "unparsed_9edf1971e92022bc7703",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000105",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 6,
+        "normalized_start": 0,
+        "raw_end": 6,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "4c49efecd6cbd7c2c2e30fac82f109db32ad88f73c87d796e6598ca59bd3bad3"
+      },
+      "text": "القيمة"
+    },
+    {
+      "content_id": "unparsed_bb6ab5593030cfc73b5c",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000106",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 15,
+        "normalized_start": 0,
+        "raw_end": 15,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "65deecbaed0503352cadd55e75205dea95b107870542b94074148159a9c4aaa5"
+      },
+      "text": "كتابة السنة هنا"
+    },
+    {
+      "content_id": "unparsed_ddb4a003fd72794c25aa",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000107",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 35,
+        "normalized_start": 0,
+        "raw_end": 35,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "fe8b5eed2cb7672e25550f0d44b8a23b1dcf7d45d74ab8f4678575adcab33f5b"
+      },
+      "text": "كتابة رقم المشروع/البند/البرنامجهنا"
+    },
+    {
+      "content_id": "unparsed_dbcd195635e30de83052",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000108",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 35,
+        "normalized_start": 0,
+        "raw_end": 35,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "1438f189615d1bf3dda2e4b62fede3dd6cf9065f7d7c0aa62423d9791db11fbd"
+      },
+      "text": "كتابة اسم المشروع/البند/البرنامجهنا"
+    },
+    {
+      "content_id": "unparsed_84eca0e26d5e3ff8ef4f",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000109",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 22,
+        "normalized_start": 0,
+        "raw_end": 22,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "813b1ae3e632bac780a69dfe304daf1f36d4426bafaad9c0018ea561a81088a9"
+      },
+      "text": "كتابة نسبة الانجاز هنا"
+    },
+    {
+      "content_id": "unparsed_6db89740c286da45919a",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000110",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 16,
+        "normalized_start": 0,
+        "raw_end": 16,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "191754fbfb0c83dcb8596148b098088c8ea35218aaf9ec7c9d19baf449e8b93a"
+      },
+      "text": "كتابة القيمة هنا"
+    },
+    {
+      "content_id": "unparsed_6ca2601e9a503772749b",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000111",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 15,
+        "normalized_start": 0,
+        "raw_end": 15,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "65deecbaed0503352cadd55e75205dea95b107870542b94074148159a9c4aaa5"
+      },
+      "text": "كتابة السنة هنا"
+    },
+    {
+      "content_id": "unparsed_3fe62a40e2db79e298df",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000112",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 35,
+        "normalized_start": 0,
+        "raw_end": 35,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "fe8b5eed2cb7672e25550f0d44b8a23b1dcf7d45d74ab8f4678575adcab33f5b"
+      },
+      "text": "كتابة رقم المشروع/البند/البرنامجهنا"
+    },
+    {
+      "content_id": "unparsed_a15f9e6a40b1a5340311",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000113",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 35,
+        "normalized_start": 0,
+        "raw_end": 35,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "1438f189615d1bf3dda2e4b62fede3dd6cf9065f7d7c0aa62423d9791db11fbd"
+      },
+      "text": "كتابة اسم المشروع/البند/البرنامجهنا"
+    },
+    {
+      "content_id": "unparsed_330e83f7adea4b61a72c",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000114",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 22,
+        "normalized_start": 0,
+        "raw_end": 22,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "813b1ae3e632bac780a69dfe304daf1f36d4426bafaad9c0018ea561a81088a9"
+      },
+      "text": "كتابة نسبة الانجاز هنا"
+    },
+    {
+      "content_id": "unparsed_e66d7e9c4e1fd5f7a97a",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000115",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 16,
+        "normalized_start": 0,
+        "raw_end": 16,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "191754fbfb0c83dcb8596148b098088c8ea35218aaf9ec7c9d19baf449e8b93a"
+      },
+      "text": "كتابة القيمة هنا"
+    },
+    {
+      "content_id": "unparsed_ae71f46cb80f34da9ebd",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000116",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 15,
+        "normalized_start": 0,
+        "raw_end": 15,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "65deecbaed0503352cadd55e75205dea95b107870542b94074148159a9c4aaa5"
+      },
+      "text": "كتابة السنة هنا"
+    },
+    {
+      "content_id": "unparsed_6470caf845ad7a0cf51d",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000117",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 35,
+        "normalized_start": 0,
+        "raw_end": 35,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "fe8b5eed2cb7672e25550f0d44b8a23b1dcf7d45d74ab8f4678575adcab33f5b"
+      },
+      "text": "كتابة رقم المشروع/البند/البرنامجهنا"
+    },
+    {
+      "content_id": "unparsed_0e925e05bd6d27bcc5a9",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000118",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 35,
+        "normalized_start": 0,
+        "raw_end": 35,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "1438f189615d1bf3dda2e4b62fede3dd6cf9065f7d7c0aa62423d9791db11fbd"
+      },
+      "text": "كتابة اسم المشروع/البند/البرنامجهنا"
+    },
+    {
+      "content_id": "unparsed_eb2e4e328f5555330d6d",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000119",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 22,
+        "normalized_start": 0,
+        "raw_end": 22,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "813b1ae3e632bac780a69dfe304daf1f36d4426bafaad9c0018ea561a81088a9"
+      },
+      "text": "كتابة نسبة الانجاز هنا"
+    },
+    {
+      "content_id": "unparsed_e8fa294f5a74477235e2",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000120",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 16,
+        "normalized_start": 0,
+        "raw_end": 16,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "191754fbfb0c83dcb8596148b098088c8ea35218aaf9ec7c9d19baf449e8b93a"
+      },
+      "text": "كتابة القيمة هنا"
+    },
+    {
+      "content_id": "unparsed_dfae806db0b221d7b104",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000121",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 28,
+        "normalized_start": 0,
+        "raw_end": 28,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "13f1bcb8767abab7c09b992820752099619746558a0543999ca53aa75ba761b0"
+      },
+      "text": "المحتوى المراد تعديله للعقد:"
+    },
+    {
+      "content_id": "unparsed_fb6a730b7ac605f832d7",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000122",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 27,
+        "normalized_start": 0,
+        "raw_end": 27,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "a2002e271a3dd21e4e58faeac709a3f371ffa7e0111cd594e23d240d1b20911d"
+      },
+      "text": "أسباب (إعادة– تعديل) العقد:"
+    },
+    {
+      "content_id": "unparsed_65f27dfd5c92c9d3911c",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000123",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 32,
+        "normalized_start": 0,
+        "raw_end": 32,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "a14d1fa766dd92a799f5b2fc7fc39751e0873ded1fc6ab13abc56a8c1e97d226"
+      },
+      "text": "كتابة أسباب (إعادة– تعديل) العقد"
+    },
+    {
+      "content_id": "unparsed_4bb28d5319299df90a32",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000124",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 36,
+        "normalized_start": 0,
+        "raw_end": 36,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "500da94416cb5cc3e807117661755aa9282f158093c0508980761bc603c4ad5a"
+      },
+      "text": "الشروط والتعليمات:الشروط والتعليمات:"
+    },
+    {
+      "content_id": "unparsed_63faea1f49ba8925ad4b",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000125",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 219,
+        "normalized_start": 1,
+        "raw_end": 219,
+        "raw_start": 1,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "b6e3e134f80cc3b885f349031699f139165a6343d06cbccc97ccb2b47c91fd6c"
+      },
+      "text": "في حال لم يتم الصرف على العقد عبر منصة اعتماد، سيتم إعادته إلى مسجل العقد لعمل التعديل المطلوب من قبل الجهة الحكومية وإعادة إرساله للإجازة في حال تطلب العقد ذلك حسب نظام المنافسات والمشتريات الحكومية ولائحته التنفيذية."
+    },
+    {
+      "content_id": "unparsed_c6ecd5d9bd5a97269355",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000126",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 122,
+        "normalized_start": 1,
+        "raw_end": 122,
+        "raw_start": 1,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "3b63387ac485b725bbb4f6fc8e06fc0a31e6c521e19573124797a026fc4eace5"
+      },
+      "text": "صاحب الصلاحية هو المسؤول الأول بالجهة الحكومية ومن ذلك على سبيل المثال (الوزير – الرئيس التنفيذي – مدير جامعة – المحافظ)."
+    },
+    {
+      "content_id": "unparsed_b7146bcc886b013ab452",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000127",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 127,
+        "normalized_start": 1,
+        "raw_end": 127,
+        "raw_start": 1,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "c0bf7d021cc4f2c449e43a667495dbad8a8169b225d2b419edf188b6e982b43f"
+      },
+      "text": "لا يجوز تعديل أسعار العقود بالزيادة أو النقص إلا في الحالات المشار إليها في المادة (68) من نظام المنافسات والمشتريات الحكومية."
+    },
+    {
+      "content_id": "unparsed_6da2e8515c591fdeed53",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000128",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 334,
+        "normalized_start": 1,
+        "raw_end": 334,
+        "raw_start": 1,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "7d8f44ff314cf3cb66bd8d0eef584375cd8055e66618abfdbf835ca2d62dd1af"
+      },
+      "text": "للجهة الحكومية – في حدود احتياجاتها الفعلية - إصدار أوامر تغيير من خلال منصة اعتماد عبر خدمة إجراءات العقود بالزيادة في العقد بما لا يتجاوز (10%) من قيمته، ولها إصدار أوامر تغيير بالتخفيض بما لا يتجاوز (20%) من قيمته وذلك بحسب المادة (69) من نظام المنافسات والمشتريات الحكومية، ويتطلب ذلك موافقة صاحب الصلاحية على جميع أوامر التغيير."
+    },
+    {
+      "content_id": "unparsed_e49aa419bc0dc147fa53",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000129",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 92,
+        "normalized_start": 1,
+        "raw_end": 92,
+        "raw_start": 1,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "f22eaaa3cb5dd8b046ff06f7790bff0767e75393c6952b24d4c8ba4c7711de47"
+      },
+      "text": "يكون تمديد العقد والإعفاء من الغرامة حسب المادة (74) من نظام المنافسات والمشتريات الحكومية."
+    },
+    {
+      "content_id": "unparsed_06f7ec64dc2a8d9a9343",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000130",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 341,
+        "normalized_start": 0,
+        "raw_end": 341,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "48e58fe6dc00e3b8de073d04937501cc0d33380708c8ab6d2fe62d9e1ff9ca9f"
+      },
+      "text": "في حال طلب تعديل بند على عقد تم الصرف عليه جزئياً بالمنصة وقيمته تبلغ خمسة (5 (ملايين ريال فأكثر أو تزيد مدة تنفيذه على سنة، يتطلب ذلك ارفاق موافقة وكالة الميزانية العامة بوزارة المالية لتعديل البند على العقد ولن يتم التعديل إلا بعد موافقة وكالة الميزانية العامة بوزارة المالية وذلك بحسب نظام المنافسات والمشتريات الحكومية ولائحته التنفيذية."
+    },
+    {
+      "content_id": "unparsed_6db86d174913fd5f7204",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000131",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 108,
+        "normalized_start": 0,
+        "raw_end": 108,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "3b26d9dd431fe546bf368ac041135aeaa1d284f330b9918698e8c460bf12de0a"
+      },
+      "text": "يتم إنهاء العقد بناءً على الحالات الواردة في المادة (76) والمادة (77) من نظام المنافسات والمشتريات الحكومية."
+    },
+    {
+      "content_id": "unparsed_2384971df94abdb6ed61",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000132",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 222,
+        "normalized_start": 0,
+        "raw_end": 222,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "ebf4addbbf67d16e4d47931388e90bb401dd2894e4d566fb57d33c6319b8a448"
+      },
+      "text": "يجب على الجهة الحكومية إرفاق موافقة صاحب الصلاحية عند طلب التعديل على العقد أو من يفوضه وذلك بحسب التفصيل الوارد في المادة (54) من نظام المنافسات والمشتريات الحكومية والفقرة (6) من المادة (114) من اللائحة التنفيذية للنظام."
+    },
+    {
+      "content_id": "unparsed_27df4129a70e08cfebfd",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000133",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 154,
+        "normalized_start": 0,
+        "raw_end": 154,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "9c8b9e6f9d03f1e03d6af3dad34f451afcdf568f9cad082dd9a9c280433a617e"
+      },
+      "text": "يجب على الجهة الحكومية إرفاق موافقة صاحب الصلاحية أو من يفوضه عند اتخاذ أي اجراء منصوص عليه في هذا النموذج وذلك وفقاً لنظام المنافسات والمشتريات الحكومية."
+    },
+    {
+      "content_id": "unparsed_45cda5e82066f9ba350c",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000134",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 176,
+        "normalized_start": 0,
+        "raw_end": 176,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "0171a0e4fa6ea5ccddc52d3d81f2a85552e2b5537a45236d95efcbfc6d73f196"
+      },
+      "text": "إن هذا النموذج لا يتعارض أو يلغي أي أحكام وردت في نظام المنافسات والمشتريات الحكومية ولائحته التنفيذية، وفي حال وجود تعارض، فعلى الجهة الحكومية الالتزام بأحكام النظام واللائحة."
+    },
+    {
+      "content_id": "unparsed_b06aa96bc2b370a8eeeb",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000135",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 103,
+        "normalized_start": 0,
+        "raw_end": 103,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "bfca21045a8eadc82341f8666f9e1d61fd90e69d0b7bec329b784e2998963cc7"
+      },
+      "text": "في حال تم صرف كامل قيمة العقد المسجل بالمنصة فأنه لا يمكن التعديل عليه إلا من خلال خدمة إجراءات العقود."
+    },
+    {
+      "content_id": "unparsed_e263a048df6501460afe",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000136",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 301,
+        "normalized_start": 0,
+        "raw_end": 301,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "3480e50bcfedc1b81737c2d856004c003c4927f078a2f772acd87268702cbfcd"
+      },
+      "text": "إن المنصة غير مسؤولة عن دقة وصحة البيانات المدخلة، ويقرّ الموقعين أدناه من الجهة الحكومية بمسؤوليتهم عن التعديل المطلوب بالنموذج، ودقة البيانات المدخلة من قبلهم، وتحملهم لكافة نتائج والآثار المترتبة في حال عدم توافق هذا الطلب مع الأحكام الواردة في نظام المنافسات والمشتريات الحكومية ولائحته التنفيذية."
+    },
+    {
+      "content_id": "unparsed_8d4b6cf1bc314be35930",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000137",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 142,
+        "normalized_start": 0,
+        "raw_end": 142,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "801257cc7f79270231a989b75ffe211993cb6cc78367c86c37b77055aaf8e995"
+      },
+      "text": "تبلغ هيئة الزكاة والضريبة والجمارك عن أي تعديلات تطرأ على العقد وذلك حسب المادة (89) من اللائحة التنفيذية لنظام المنافسات والمشتريات الحكومية."
+    },
+    {
+      "content_id": "unparsed_fbf15362e55b70082f70",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000138",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 107,
+        "normalized_start": 1,
+        "raw_end": 107,
+        "raw_start": 1,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "a985dcf8740340aef5e822c821f09bb4ba6518a01d8252769783150bdd9ca90b"
+      },
+      "text": "بعد تعبئة النموذج فضلاً إرساله من خلال استخدام نموذج التواصل الإلكتروني المتاح عبر منصة اعتماد (اتصل بنا)."
+    },
+    {
+      "content_id": "unparsed_2d69f2dac7db4ba592e2",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000139",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 73,
+        "normalized_start": 0,
+        "raw_end": 73,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "84ce77c4f1624cc0c44bfbe938cc74cfdd1ab04dd71ba3b58b877e69d5d3784d"
+      },
+      "text": "تم الاطلاع على التعليمات والشروط أعلاه وأقر على صحة ذلك وعليه تم التوقيع."
+    },
+    {
+      "content_id": "unparsed_cfdf20e19a8f56feae78",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000140",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 26,
+        "normalized_start": 0,
+        "raw_end": 26,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "4beb8f1fd80a237f3ea7f4a1de5f722fcc2fd8b03c0e69d6d96d0e7e7b4583ef"
+      },
+      "text": "اسم الموظف كتابة الاسم هنا"
+    },
+    {
+      "content_id": "unparsed_19bfaf2b156114249a06",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000141",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 7,
+        "normalized_start": 0,
+        "raw_end": 7,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "2aeba4d09c76b9c19172a8ca7ada2168554b810c2bffbbf35cbdcb8487a46f58"
+      },
+      "text": "التوقيع"
+    },
+    {
+      "content_id": "unparsed_a43c50c6cfa3f3665c6f",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000142",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 30,
+        "normalized_start": 0,
+        "raw_end": 30,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "b7032c8dc05a1d25d064db53cf788d5efb172298fda45b34c3ae3d19f5f3492c"
+      },
+      "text": "التاريخ:      /   /         هـ"
+    },
+    {
+      "content_id": "unparsed_2e54919a3ae2e043ff22",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000143",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 33,
+        "normalized_start": 0,
+        "raw_end": 33,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "55e78aca79cb43c1b7654106cab9265904ef30cee921e6ebfa974b11dbdcf437"
+      },
+      "text": "اسم صاحب الصلاحية كتابة الاسم هنا"
+    },
+    {
+      "content_id": "unparsed_b0f67b4df7ab8328f564",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000144",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 7,
+        "normalized_start": 0,
+        "raw_end": 7,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "2aeba4d09c76b9c19172a8ca7ada2168554b810c2bffbbf35cbdcb8487a46f58"
+      },
+      "text": "التوقيع"
+    },
+    {
+      "content_id": "unparsed_81eff990a3d3b80100eb",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000145",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 33,
+        "normalized_start": 0,
+        "raw_end": 33,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "36c55c512fa9c864491a7e605a654a9b1be359daeb09d37ea6cbd487a3bae995"
+      },
+      "text": "التاريخ:         /   /         هـ"
+    },
+    {
+      "content_id": "unparsed_5f72ec47b640e0d679ff",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000146",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 6,
+        "normalized_start": 0,
+        "raw_end": 6,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "6f54cb07a40e06c4aab6ff7e3ca64b6045820345febd07b6fbf068ca2542d329"
+      },
+      "text": "الختم:"
+    },
+    {
+      "content_id": "unparsed_be04c90b4e317f7b6b36",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000148",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 34,
+        "normalized_start": 0,
+        "raw_end": 34,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "bc624631d41288551497fd8b1afc026afaf0e0a1a247da5530042714b2350be0"
+      },
+      "text": "اسم المراقب المالي كتابة الاسم هنا"
+    },
+    {
+      "content_id": "unparsed_b289af4351b18fe858ef",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000149",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 7,
+        "normalized_start": 0,
+        "raw_end": 7,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "2aeba4d09c76b9c19172a8ca7ada2168554b810c2bffbbf35cbdcb8487a46f58"
+      },
+      "text": "التوقيع"
+    },
+    {
+      "content_id": "unparsed_b09210a7be16ab1fcc26",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000150",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 32,
+        "normalized_start": 0,
+        "raw_end": 32,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "ab7e57c0416cbbbbcb81fccdbf0b23a4eded7e100d8765606caec7986927c0bf"
+      },
+      "text": "التاريخ:        /   /         هـ"
+    },
+    {
+      "content_id": "unparsed_80e1d37b62f659ea8a48",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000151",
+        "extraction_id": "ext_7aff5727a2ed8bef9624",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_4f8b27dce2b511b6af40",
+        "text_sha256": "36ebfd5451069c50f7c2f7e41552bc5507b37d47b27f53aecfba532eb60d0540"
+      },
+      "text": "تحت إشرافتحت إشراف"
+    }
+  ],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

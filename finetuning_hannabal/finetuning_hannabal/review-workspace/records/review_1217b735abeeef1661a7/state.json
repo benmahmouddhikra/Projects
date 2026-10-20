@@ -1,0 +1,75 @@
+{
+  "artifact_key": "src_b32d280fe1834d1ff467",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_b32d280fe1834d1ff467/canonical.json",
+    "extraction": "artifacts/pilot/src_b32d280fe1834d1ff467/extraction.json",
+    "review": "artifacts/review-queue/review_1217b735abeeef1661a7.json",
+    "validation": "artifacts/pilot/src_b32d280fe1834d1ff467/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.151570Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "policy",
+  "required_reviews": [
+    "extraction",
+    "classification"
+  ],
+  "review_coverage": "sampled_audit",
+  "review_record_id": "review_1217b735abeeef1661a7",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/kenya/Acceptable Use Policy.pdf",
+      "sha256": "6c5ea60ee75b2925ca24e80ece5423e73c452f4f191146bb4de0d4d51b2a3324",
+      "source_id": "src_b32d280fe1834d1ff467"
+    }
+  ],
+  "template_id": "tpl_ad55cef6fa6db518991d",
+  "training_eligibility": "excluded",
+  "updated_at": "2026-08-12T14:00:38.151570Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:05:23.165218Z",
+    "errors": [],
+    "valid": true
+  }
+}

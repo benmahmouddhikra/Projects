@@ -1,0 +1,75 @@
+{
+  "artifact_key": "src_59466888403546f0252d",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_59466888403546f0252d/canonical.json",
+    "extraction": "artifacts/pilot/src_59466888403546f0252d/extraction.json",
+    "review": "artifacts/review-queue/review_7e1bb651b08c6dc0b002.json",
+    "validation": "artifacts/pilot/src_59466888403546f0252d/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.098156Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "court_filing",
+  "required_reviews": [
+    "extraction",
+    "classification"
+  ],
+  "review_coverage": "sampled_audit",
+  "review_record_id": "review_7e1bb651b08c6dc0b002",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/france/Citation Directe devant le Tribunal Correctionnel.pdf",
+      "sha256": "f8d6115b3bdec438d95410fcd5fa4b2139488a0b651986eb6f8d8f89640d6049",
+      "source_id": "src_59466888403546f0252d"
+    }
+  ],
+  "template_id": "tpl_71ef2ca991c3851fb283",
+  "training_eligibility": "excluded",
+  "updated_at": "2026-08-12T14:00:38.098156Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:05:23.103169Z",
+    "errors": [],
+    "valid": true
+  }
+}

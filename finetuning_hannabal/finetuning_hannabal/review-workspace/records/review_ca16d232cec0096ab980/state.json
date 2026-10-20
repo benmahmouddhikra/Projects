@@ -1,0 +1,74 @@
+{
+  "artifact_key": "src_4ee5d860c9329c8d4cb4",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_4ee5d860c9329c8d4cb4/canonical.json",
+    "extraction": "artifacts/pilot/src_4ee5d860c9329c8d4cb4/extraction.json",
+    "review": "artifacts/review-queue/review_ca16d232cec0096ab980.json",
+    "validation": "artifacts/pilot/src_4ee5d860c9329c8d4cb4/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.261726Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "unknown",
+  "required_reviews": [
+    "classification"
+  ],
+  "review_coverage": "classification_only",
+  "review_record_id": "review_ca16d232cec0096ab980",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/Lebanon/1497528932.pdf",
+      "sha256": "03a0d53ba35fb7642ca0dad8816d2bc2c38f5aa589cd2815281f7fb37754ecfd",
+      "source_id": "src_4ee5d860c9329c8d4cb4"
+    }
+  ],
+  "template_id": "tpl_085d7d276c94d08f0613",
+  "training_eligibility": "review_required",
+  "updated_at": "2026-08-12T14:00:38.261726Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:00:38.261726Z",
+    "errors": [],
+    "valid": true
+  }
+}

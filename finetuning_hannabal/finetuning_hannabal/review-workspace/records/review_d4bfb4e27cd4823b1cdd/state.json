@@ -1,0 +1,77 @@
+{
+  "artifact_key": "src_3733793a533fe84487c1",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_3733793a533fe84487c1/canonical.json",
+    "extraction": "artifacts/pilot/src_3733793a533fe84487c1/extraction.json",
+    "review": "artifacts/review-queue/review_d4bfb4e27cd4823b1cdd.json",
+    "validation": "artifacts/pilot/src_3733793a533fe84487c1/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.234806Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "not_applicable"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "contract_template",
+  "required_reviews": [
+    "classification",
+    "extraction",
+    "legal",
+    "structure"
+  ],
+  "review_coverage": "full",
+  "review_record_id": "review_d4bfb4e27cd4823b1cdd",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/Lebanon/BSU-CONSULTANCY_AGREEMENT.doc",
+      "sha256": "6a77789de48b7fd824cc7ba2a348e4b9ca5917a778c1dd1feaae768edfd9d6bd",
+      "source_id": "src_3733793a533fe84487c1"
+    }
+  ],
+  "template_id": "tpl_1b7e5974041cb8e0ceaf",
+  "training_eligibility": "review_required",
+  "updated_at": "2026-08-12T14:00:38.234806Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:05:23.219582Z",
+    "errors": [],
+    "valid": true
+  }
+}

@@ -1,0 +1,3236 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_030502f8b161c8401768",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "completed_contract",
+    "initial_document_kind": "completed_contract",
+    "languages": [
+      {
+        "basis": "deterministic_text_heuristic",
+        "confidence": 0.1485,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 2376,
+            "normalized_start": 0,
+            "raw_end": 2376,
+            "raw_start": 0,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "59f8a24a434758bcde850da5bb4135698636cb5375fa548103ecbc5678d177ce"
+          }
+        ],
+        "tag": "en"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "completed",
+    "title": "SERVICES AGREEMENT",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "0d30420bd386658aa52a1cfbf1eb8e2e71095d42cc5cb82accdc18f283211588"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "completed_contract_heuristic_requires_review",
+        "message": "Contract-like filename without detected square-bracket placeholders was initially classified completed and requires human confirmation.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "required",
+    "structure_review_status": "pending",
+    "training_eligibility": "review_required"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_61e2534790be5e33e6da",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "SERVICES AGREEMENT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 569,
+            "normalized_start": 19,
+            "raw_end": 569,
+            "raw_start": 19,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "31970a3381a275e6e7cb8e8fe5818ada43b483583e7315fbd9e9ec663f29f0aa"
+          },
+          "text": "Page 1 of 15THIS SERVICES AGREEMEN T is made between:  \n(1) Dubai Multi Commodities Centre , established by virtue of Law No. 4 of 2001     \n issued in the Emirate of Dubai and situated at P.O. Box 48800 , Almas Tower,    \n Jumeirah Lakes Towers, Dubai, United Arab Emirates (DMCC); and\n(2) ___________________ ,  a___________________  with Commercial Trade License \nNo.___________________ , incorporated in the United Arab Emirates and having its   \nregistered address at ___________________  (Consultant ),\neach a Party , and together the Parties .",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "SERVICES AGREEMENT",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "0d30420bd386658aa52a1cfbf1eb8e2e71095d42cc5cb82accdc18f283211588"
+      },
+      "kind": "unclassified",
+      "order": 1,
+      "requirement_status": "unspecified",
+      "section_id": "sec_66172593399b0172566c",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 569,
+        "normalized_start": 0,
+        "raw_end": 569,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "f0fdaaf634a3cd41c66ca65ec7ec6752b1e487ae0fe544ef5c3f17a058ea1cbe"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_7e33dfc053bd372e5f12",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "BACKGROUND",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 1168,
+            "normalized_start": 581,
+            "raw_end": 1168,
+            "raw_start": 581,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "18274f79cbd97beceaa9f1ba8b738cd99aca705325809f6a8c8d58777d5f9e96"
+          },
+          "text": "A DMCC wishes to encourage, attract and increase the number of registered companies   \n through Consultant. Increase the number of registered companies referred through   \n Consultant. Motivate and strengthen relationship with the Consultant.\nB ___________________ ___________________ ___________________ ___________ __  \n_________________ ___________________ ___________________ _______________ \n______________ ___________________ ___________________ ______________ ____\nC This Agreement sets out the terms and conditions upon which the Consultant will   \n provide the Services to DMCC.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "BACKGROUND",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 580,
+        "normalized_start": 570,
+        "raw_end": 580,
+        "raw_start": 570,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "b0943e2cec5bb70ad634ee83bc74bc0c1f954d6ee08f6ab97183c0ed80bfbfc9"
+      },
+      "kind": "unclassified",
+      "order": 2,
+      "requirement_status": "unspecified",
+      "section_id": "sec_4b84225e27019f629284",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1168,
+        "normalized_start": 570,
+        "raw_end": 1168,
+        "raw_start": 570,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "7ef5b6e5d86d1ce7c157051c05829d7e6d7ccbb162af3730d061169039121734"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_1b19c0d69d2fcf5f310f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1. Definitions and Interpretation",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 2029,
+            "normalized_start": 1204,
+            "raw_end": 2029,
+            "raw_start": 1204,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "390adacae0940d2d86be671d4fbd7b67716b2ac96e539c897a51d7e9746bc0e1"
+          },
+          "text": "(a) Definitions\nUnless otherwise specified, any capitalised terms used in this Agreement have the \nmeanings set out below:\nAgreement  means this services agreement and includes the Schedules.\nAffiliate  means any entity that directly or indirectly controls, is controlled by, or is \nunder common control with, a Party.\nApplicant  means an individual or company, capable of setting up a DMCC \ncompany in accordance with DMCC’s criteria, including a Key Account Company, \nas may be amended from time to time.\nAuthority  means any local, regional, territorial, free zone, municipal government, \nministry, governmental department, commission, board, bureau, agency, \ninstrumentality, executive, utility provider, judicial or administrative body, having \njurisdiction over the Services, the Consultant or this Agreement, including",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1. Definitions and Interpretation",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1202,
+        "normalized_start": 1169,
+        "raw_end": 1202,
+        "raw_start": 1169,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "ab4756e220c7cc2096b25da56bdaed002a60db7aca7e6e5b69c001f6679b1ed0"
+      },
+      "kind": "unclassified",
+      "order": 3,
+      "requirement_status": "unspecified",
+      "section_id": "sec_6b161e82b2c32caf505c",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 2029,
+        "normalized_start": 1169,
+        "raw_end": 2029,
+        "raw_start": 1169,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "f71ed1ba08af3bd72afb8701eb5224f401d2ee3792ed45e74a21a36255f556d5"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_cdd5e673fe6612f4a41c",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "DMCCA.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 2376,
+            "normalized_start": 2038,
+            "raw_end": 2376,
+            "raw_start": 2038,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "27389391e0fc8e2895368a45f084300a37adcd0c0a8fc4ee045d5efd08ef657d"
+          },
+          "text": "Business Day  means any day that is not a Friday, Saturday or a declared public \nholiday in the Emirate of Dubai.\nClient  means the Dubai Multi Commodities Centre, established by virtue of Law \nNo. 4 of 2001  issued in the Emirate of Dubai and situated at P.O. Box 48800 , \nAlmas Tower, Jumeirah Lakes Towers, Dubai, United Arab Emirates.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "DMCCA.",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 2037,
+        "normalized_start": 2031,
+        "raw_end": 2037,
+        "raw_start": 2031,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "a613da75d227e63e87b4fd2885ec15eea7ed9c95173936bf063ce68826026675"
+      },
+      "kind": "unclassified",
+      "order": 4,
+      "requirement_status": "unspecified",
+      "section_id": "sec_dc04b2af6158e0261ede",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 2376,
+        "normalized_start": 2031,
+        "raw_end": 2376,
+        "raw_start": 2031,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "f1858dba2c8734ae026faf3760c08089ab2a40aca879317e94ca485c06cd0c04"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_ee7ecda827e73106ab09",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "SERVICES AGREEMENT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000002",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 2632,
+            "normalized_start": 19,
+            "raw_end": 2632,
+            "raw_start": 19,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "cbd157bb3e9ecebe14a5e6421fc9b4aeb275298364e08072dc0de8f850916728"
+          },
+          "text": "Page 2 of 15Civil Code  means the United Arab Emirates Federal Law No. 5 of 1985 regarding \nthe Civil Transactions Law.\nCommencement Date  means the date set out at Item 1 of the Schedule of Details.\nConfidential Information  has the meaning given to it in clause  19.\nConsultant  means the Party described above which must be a company based in \nthe UAE with a valid company trade licence, whose main business is to:\n(a) provide assistance company set up and registration; or\n(b) provision of secretarial, administrative or other related services.\nConsultant Material  means all documents, information and materials provided \nby Consultant relating to the Referrals and the supply of Consultant Services, \nincluding accounting and financial information, data and reports, new business, \nongoing business, and a calculation as to the charges payable to DMCC under the \nterms of this Agreement.\nDispute  has the meaning given to that term in clause  24  (a).\nDMCC Company  means a company maintaining a DMCC License which is \nauthorised to operate within the DMCC Free Zone under the DMCC Regulations.\nDMCC Free Zone  means the free zone of DMCC, established pursuant to Law \nNo. 4 of 2001  and by virtue of Decision No. 4 of 2002  on Establishing the Dubai \nCommodities and Metals Centre issued in the Emirate of Dubai.\nDMCC Licence  means a licence which has been issued by DMCC in respect of a \nDMCC Company.\nDMCC Regulations mean all rules or regulations, directives and other orders, \nbylaws, codes of practice and other subordinate legislation of DMCCA as may be \namended from time to time.\nDMCCA means Dubai Multi Commodities Centre Authority, established by \nvirtue of Law No. 4 of 2001  issued in the Emirate of Dubai, which authority has \ngovernance over the DMCC Free Zone.\nEffective Date  means the last date of signature of this Agreement by the Parties.\nExpiry Date  means the date set out at Item 2 of the Schedule of Details.\nFees  mean together the Referral Fee, the Key Accounts Fee and the Physical \nOffice Fee (as applicable) payable pursuant to the terms of this Agreement and \nas more particularly described in Schedule 3 (Fees), which may be amended from \ntime to time.\nFirst Payment Date  means payment of any Fees that have properly accrued over \na period of six ( 6) months from the commencement date.\nItem  means an item listed in the Schedule of Details.\nIntellectual Property Rights  mean patent, copyright and related rights, \ntrademarks, trade names, service marks and domain names, goodwill, rights to \nsue for passing off, design rights, database rights, and any other intellectual",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "SERVICES AGREEMENT",
+      "heading_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "0d30420bd386658aa52a1cfbf1eb8e2e71095d42cc5cb82accdc18f283211588"
+      },
+      "kind": "unclassified",
+      "order": 5,
+      "requirement_status": "unspecified",
+      "section_id": "sec_6dabd63592efb9649101",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 2632,
+        "normalized_start": 0,
+        "raw_end": 2632,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "cd5b6dbb937fcc53fa6d1a1b940697ee5bfde6425c207904b0de0192db5133a1"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_f980045da11a00450c64",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "SERVICES AGREEMENT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000003",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 2647,
+            "normalized_start": 19,
+            "raw_end": 2647,
+            "raw_start": 19,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "ed2c670c0ec3b01ad19c660fc225ea225f63f4bb767c4de3751e6a65a654c307"
+          },
+          "text": "Page 3 of 15property rights such as know-how, trade secrets or inventions, in each case \nwhether or not patentable or registered, and including all applications or rights \nto apply for such rights and all similar or equivalent rights or forms of protection \nwhich subsist now or shall subsist in the future in any part of the world.\nKey Accounts Company  means an Applicant that meets the following criteria, \nwhich may be amended by DMCC from time to time:\n(a) a publicly listed company: A company that has issued securities through  \n an initial public offering (IPO) and is traded on at least one stock exchange; or\n(b) a government owned company: A company that is fully-owned or semi-  \n owned by a government entity; or\n(c) part of the Top 100 Global Brands List: a company which is listed on a \nreputed list, for example Forbes or Interbrand. The company must \nbe global, has successfully grown beyond geographic and cultural \nboundaries, has expanded across the established economic centres of the \nworld, or establishing a presence in the major emerging markets; or\n(d) listed in the most recent Fortune / Global 500: a company which is listed\non an annual list of the 500 largest companies compiled by FORTUNE \nmagazine; \nor\n(e) a One JLT tenant: a company that has signed a lease to occupy space in   \n the tower known as One JLT situated in the DMCC Free Zone. \nKey Accounts Fee  has the meaning given to that term in Schedule 3.\nLaws  mean all legislation (including the Civil Code), decrees, resolutions, acts, \nstatutes, ordinances, rules or regulations, directives and other orders, treaties, \nbylaws, codes of practice and other subordinate legislation, of any Authority \nPayment Date  means the First Payment Date and the Second Payment Date or \nboth together, as the case may be.\nPhysical Office Fee  has the meaning given to that term in Schedule 3.\nReferral  means the referral of an Applicant by the Consultant to DMCC who has:\n(a) not already been registered on the DMCC online portal or initiated\nenquiries to set up a DMCC Company previously within the preceding six \n(6) months to the referral;\n(b) been registered by the Consultant and designated as a Referral on the\nDMCC online system, or notified to DMCC by email informing DMCC that a \nReferral has been made, prior to completion of the initial enquiry stage. \n(c) completed all the application requirements and approvals in order to set\nup a DMCC Company and paid any associated fees; and\n(d) been issued a DMCC Licence within the Term.\nReferral Fee  has the meaning given to that term in Schedule 3.\nSchedule  means a schedule to this Agreement.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "SERVICES AGREEMENT",
+      "heading_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "0d30420bd386658aa52a1cfbf1eb8e2e71095d42cc5cb82accdc18f283211588"
+      },
+      "kind": "unclassified",
+      "order": 6,
+      "requirement_status": "unspecified",
+      "section_id": "sec_db543a8bb2173379ef25",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 2647,
+        "normalized_start": 0,
+        "raw_end": 2647,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "bb4e5414dedeaea03d3264742c99e17d8345e51ee528d8c78321b2ffef5d492b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_cec08b40b13d2afdffc2",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "SERVICES AGREEMENT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 1027,
+            "normalized_start": 19,
+            "raw_end": 1027,
+            "raw_start": 19,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "4c63717fe1e13c1ab4faae8dbd5b1e58465aae1df1752fe52b5516fd81809a59"
+          },
+          "text": "Page 4 of 15Schedule of Details  means the schedule of details set out at Schedule 1 to \nthis Agreement.\nSecond Payment Date  means payment of any Fees that have properly \naccrued six ( 6) months after the first payment date.\nServices  mean the services the Consultant is to perform as set out \nin Schedule 2, which services may be amended from time to time in \naccordance with clause  16. \nTarget means five ( 5) Referrals of either an Applicant or a Key Account \nCompany in any one year period, during the Term.\nTerm means the period commencing on the Commencement Date and \nexpiring on the Expiry Date unless terminated prior to the Expiry Date.\n (b) Interpretation\nUnless the context requires otherwise, the singular includes the plural and vice \nversa, reference to a gender includes all genders, reference to a ‘person’ includes \na natural person, company, body corporate or other form of legal entity, and \nreference to ‘including’ and ‘includes’ is to be read as if followed by ‘without \nlimitation’.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "SERVICES AGREEMENT",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "0d30420bd386658aa52a1cfbf1eb8e2e71095d42cc5cb82accdc18f283211588"
+      },
+      "kind": "unclassified",
+      "order": 7,
+      "requirement_status": "unspecified",
+      "section_id": "sec_e309325d9c8ba176bff9",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1027,
+        "normalized_start": 0,
+        "raw_end": 1027,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "1ffdddf848481559ce08e421d6c74100ea05f2f6c02b674c6925881da43df6d9"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_a2eb2085191178a6cfaa",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2. Nature of Agreement",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 1363,
+            "normalized_start": 1052,
+            "raw_end": 1363,
+            "raw_start": 1052,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "ff8c05a906352438f4157336bdbc808889753e1ac5b118cc3ce1f5754433a22c"
+          },
+          "text": "(a) In consideration of the Consultant providing the Services in accordance with this\nAgreement, DMCC shall pay the Consultant Fee. \n(b) The Fee shall not be subject to any adjustment in respect of rise or fall in the cost\nof the Services or any other matters affecting the cost of execution of this \nAgreement.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2. Nature of Agreement",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1051,
+        "normalized_start": 1029,
+        "raw_end": 1051,
+        "raw_start": 1029,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "108736b27df59581c49f7cd17a27465194504175e8e6b6621bff5e527060a37e"
+      },
+      "kind": "unclassified",
+      "order": 8,
+      "requirement_status": "unspecified",
+      "section_id": "sec_d356f4107408b4221a53",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1363,
+        "normalized_start": 1029,
+        "raw_end": 1363,
+        "raw_start": 1029,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "31e8d9f3c6fe13e5bd6f85d003427c8daaa16f6f83ee1fa44277d49d23789f9c"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_3111c53d94a8617d138a",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3. Acceptance",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 1493,
+            "normalized_start": 1380,
+            "raw_end": 1493,
+            "raw_start": 1380,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "d6d428be91ac9614fbfb97a2de49ec0a812731f82942e1c587003a7458c36cc6"
+          },
+          "text": "This Agreement shall be deemed to be accepted by, and shall be binding on, the \nConsultant on the Effective Date.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3. Acceptance",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1379,
+        "normalized_start": 1366,
+        "raw_end": 1379,
+        "raw_start": 1366,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "08c11294d7093767ef7cc024cf81229e9f3098d80c99f110bc2dad2067fffd1d"
+      },
+      "kind": "unclassified",
+      "order": 9,
+      "requirement_status": "unspecified",
+      "section_id": "sec_973bf3dcbe5a03de3cae",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1493,
+        "normalized_start": 1366,
+        "raw_end": 1493,
+        "raw_start": 1366,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "50f61bd655fa13a3c7303ded99b67b785f84223a9cba1a04500c5d6e1c7d4b27"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_b2e5fea5061390edd9e4",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4. Consultant’s Obligations",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000004",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 2533,
+            "normalized_start": 1523,
+            "raw_end": 2533,
+            "raw_start": 1523,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "8ba120a3ed956c3048247ed084e64c4b15ea71204a426f23daa4908fe12950bf"
+          },
+          "text": "(a) The Consultant acknowledges and agrees that DMCC is relying upon the\nConsultant›s advice, skill and judgment in the performance of the Services.\n (b) The Services include all services which, although not expressly mentioned in this\nAgreement, are necessary for the diligent performance of the Services and in \naccordance with this Agreement.\n (c) The Consultant shall ensure that the Services:\n (i) are performed in a timely and efficient manner and in accordance with that\ndegree of skill, diligence, speed, prudence and foresight that would reasonably \nand ordinarily be expected from a skilled and experienced Consultant performing \nservices of a similar nature, size and complexity as the Services; \n (ii) are performed by suitably qualified and competent personnel in accordance with\nthis Agreement, all Laws and the sound standards, principles and practices which \nare recognised and generally accepted in the industry as appropriate for use in \nworks of a similar size and scope as the Services; and",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4. Consultant’s Obligations",
+      "heading_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1521,
+        "normalized_start": 1494,
+        "raw_end": 1521,
+        "raw_start": 1494,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "07c100eb42a61104252a3de3c8da9a3188e86c695bd032152d531900cb32e205"
+      },
+      "kind": "unclassified",
+      "order": 10,
+      "requirement_status": "unspecified",
+      "section_id": "sec_89c783a13855760a4312",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 2533,
+        "normalized_start": 1494,
+        "raw_end": 2533,
+        "raw_start": 1494,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "590b02114ef08ea4449a02d6d5402f96ad959044b36c48ab95bca42fa8d5736f"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_18239fca75fd452704b7",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "SERVICES AGREEMENT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 495,
+            "normalized_start": 19,
+            "raw_end": 495,
+            "raw_start": 19,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "b80e0a49e420144e4151e4e0f0c58332016dc189df351aef4e14188eabc72a55"
+          },
+          "text": "Page 5 of 15 (iii) are performed such that the Services and any products of the Services are free\nfrom any defects and fit for the purpose intended. \n(d) The Consultant shall be responsible for procuring and maintaining all\npermits and licences necessary to perform its obligations under this \nAgreement.\n(e) The Consultant acknowledges that the qualification of a Referral and\ncalculation for Referrals in respect of the Target shall be determined in \nDMCC’s sole discretion.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "SERVICES AGREEMENT",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "0d30420bd386658aa52a1cfbf1eb8e2e71095d42cc5cb82accdc18f283211588"
+      },
+      "kind": "unclassified",
+      "order": 11,
+      "requirement_status": "unspecified",
+      "section_id": "sec_46e4daf71c7900b6f330",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 495,
+        "normalized_start": 0,
+        "raw_end": 495,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "6a3ac5dd19685f4e5a0bf5f947041d6025ea1247444e3496ad555d21d4bdbe92"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_b454c265df2017a15b7d",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5. Warranties",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 1147,
+            "normalized_start": 512,
+            "raw_end": 1147,
+            "raw_start": 512,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "7790805b865bc17d1108f6929d5b87648a7d556e2e45251616fb6cf6e5189758"
+          },
+          "text": "The Consultant warrants to DMCC that it:\n(a) shall procure and maintain all necessary resources, facilities, personnel\ntraining and equipment in order to perform the Services and to discharge any \nother obligations of the Consultant under this Agreement;\n(b) has, or will be able to obtain, all permits and licences necessary to perform its\nobligations under this Agreement; \n(c) shall ensure that the Services comply with this Agreement;\n(d) acknowledges and agrees that no warranty is given by DMCC or any third party\nthat any information made available to the Consultant is correct, complete, \nrelevant, accurate or fit for purpose.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5. Warranties",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 511,
+        "normalized_start": 498,
+        "raw_end": 511,
+        "raw_start": 498,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "ff762dda48d07a6176c5782973cad02efef09da58c74cfb933e6c59c1be6864a"
+      },
+      "kind": "unclassified",
+      "order": 12,
+      "requirement_status": "unspecified",
+      "section_id": "sec_58b517039f76992febc7",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1147,
+        "normalized_start": 498,
+        "raw_end": 1147,
+        "raw_start": 498,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "e2a95e7203f4655b6b2b72044d0c1f18d37e66e1ca34119acbdff2b784679a3c"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_b50867cf8511b5dd3844",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "6. Indemnity and Exclusion of Consequential Loss",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 2164,
+            "normalized_start": 1197,
+            "raw_end": 2164,
+            "raw_start": 1197,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "411c8c29f6ef073f868c7dc480b06a2a699f6d7944dc82aebb3ad75e7e714a0a"
+          },
+          "text": "(a) The Consultant shall indemnify DMCC and its Affiliates on demand against\nany and all claims, damages, losses, costs and expenses (including legal fees and \nexpenses) arising out of any:\n(i) loss or damage to property (including the property of DMCC); \n(ii) sickness, personal injury or death; and\n(iii) any claim made against DMCC by third parties in connection with the\nServices ,\nin each case arising out of or as a consequence of providing the Services by the \nConsultant, but the Consultant’s liability to indemnify DMCC shall be reduced \nproportionally to the extent that an act or omission of DMCC directly contributed \nto the loss, damage, death or injury referred to in this clause  6.\n(b) Neither Party shall be liable to the other Party for loss of use of the Services, loss\nof profit, loss of any Agreement or for any indirect or consequential loss or \ndamage that may be suffered by the other Party arising under or in connection \nwith this Agreement.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "6. Indemnity and Exclusion of Consequential Loss",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1196,
+        "normalized_start": 1148,
+        "raw_end": 1196,
+        "raw_start": 1148,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "69fe9a073d2402bdfb04c1a3c1ee25d629e071e9fc8fc67ee96d07958ff5e6d0"
+      },
+      "kind": "unclassified",
+      "order": 13,
+      "requirement_status": "unspecified",
+      "section_id": "sec_7ff4bcaed4c57530cb56",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 2164,
+        "normalized_start": 1148,
+        "raw_end": 2164,
+        "raw_start": 1148,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "b73b7c410d8e03ea28ac402ce3151e1c64e060b7ac62e97a184351af92f937c5"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_858b56591e6be7c97b71",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "7. Assignment",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000005",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 2466,
+            "normalized_start": 2181,
+            "raw_end": 2466,
+            "raw_start": 2181,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "94bf9e450b1e9cd2d81220adc8d8135ae9c186b8a08558f68e892888556d04b2"
+          },
+          "text": "(a) The Consultant shall not, without the prior written consent of DMCC and except\non such terms as are agreed in writing by DMCC, assign or subcontract this \nAgreement or any part of it or any payment or other right or benefit or interest \narising from, or related to, this Agreement.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "7. Assignment",
+      "heading_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 2180,
+        "normalized_start": 2166,
+        "raw_end": 2180,
+        "raw_start": 2166,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "2f61e5fb958c031f5a506d2f44df4952d887d95da25ed405942b31358f9cce84"
+      },
+      "kind": "unclassified",
+      "order": 14,
+      "requirement_status": "unspecified",
+      "section_id": "sec_bd0dab6e4980cb6fb495",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 2466,
+        "normalized_start": 2166,
+        "raw_end": 2466,
+        "raw_start": 2166,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "37c73cf464ab4641683e1694941552fde56bbe92dce6b0114cda82993b922456"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_01f350838e2a507cd7d2",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "SERVICES AGREEMENT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 264,
+            "normalized_start": 19,
+            "raw_end": 264,
+            "raw_start": 19,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "658a5bedae9f8729f2c0268725c1fc477f5584126726f9e50e2b3b0fd2bcbea4"
+          },
+          "text": "Page 6 of 15(b) DMCC shall be permitted to assign this Agreement to any person at any time\nwithout the Consultant›s consent upon giving notice to the Consultant. The \nConsultant shall provide any notice or acknowledgment of the same requested by",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "SERVICES AGREEMENT",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "0d30420bd386658aa52a1cfbf1eb8e2e71095d42cc5cb82accdc18f283211588"
+      },
+      "kind": "unclassified",
+      "order": 15,
+      "requirement_status": "unspecified",
+      "section_id": "sec_0416b2324894f734507a",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 264,
+        "normalized_start": 0,
+        "raw_end": 264,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "ee57774c2e7bb176295b99558bf3bc3cc2b400ba3aa06927c60504fd63bcfc65"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_20da70e93a1809e2145c",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "DMCC.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 271,
+            "normalized_start": 266,
+            "raw_end": 271,
+            "raw_start": 266,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "a2acccde320a2454816012b1b0bd653a74bf313f287cdca666e8d12a09d184cc"
+          },
+          "text": "DMCC.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "DMCC.",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 271,
+        "normalized_start": 266,
+        "raw_end": 271,
+        "raw_start": 266,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "a2acccde320a2454816012b1b0bd653a74bf313f287cdca666e8d12a09d184cc"
+      },
+      "kind": "unclassified",
+      "order": 16,
+      "requirement_status": "unspecified",
+      "section_id": "sec_7ed81039e742ba7d2d17",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 271,
+        "normalized_start": 266,
+        "raw_end": 271,
+        "raw_start": 266,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "a2acccde320a2454816012b1b0bd653a74bf313f287cdca666e8d12a09d184cc"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_929869dc10b35fb14faa",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "8. Insurance",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 1284,
+            "normalized_start": 285,
+            "raw_end": 1284,
+            "raw_start": 285,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "a049daf3c2f9710d436d02a71813bde1ff4c2dc6d9bf3ac451062a6324388728"
+          },
+          "text": "(a) The Consultant shall be responsible for effecting and maintaining insurance in\nrespect of its obligations under this Agreement until the Consultant has satisfied \nall of its obligations under this Agreement in full.\n(b) Without limitation to clause  8 (a), the Consultant shall maintain insurances\nas required by law and any other insurances as would be taken out by a \ncompetent and experienced Consultant performing Services of a similar nature \nas the Services for the performance of Services to meet the obligations of the \nConsultant under this Agreement.\n(c) The Consultant shall provide DMCC with a copy of all applicable insurance\npolicies and copies of all cover notes, renewal policies and other documentation \nrelating to such insurance as are reasonably requested by DMCC promptly and \nin any event, no later than five ( 5) days after the Effective Date.  No payment \nshall be due to the Consultant pursuant to clause  (f) unless the Consultant has \ncomplied with this clause  8 (c).",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "8. Insurance",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 284,
+        "normalized_start": 272,
+        "raw_end": 284,
+        "raw_start": 272,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "8b362779a34a3d2c8cd8696e544d524d64edc3f8f8a1bf43c8d4613d684923ca"
+      },
+      "kind": "unclassified",
+      "order": 17,
+      "requirement_status": "unspecified",
+      "section_id": "sec_72b134940daaa517afe7",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1284,
+        "normalized_start": 272,
+        "raw_end": 1284,
+        "raw_start": 272,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "dd11410ba643d2d7fcf2c71652a001b730e5db9d38acdd62153b8851107adbf4"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_a47f004dd7fda4934440",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "9. Term",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 1457,
+            "normalized_start": 1294,
+            "raw_end": 1457,
+            "raw_start": 1294,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "df47df2822eb58876179ef74f4cf0695be6e5feee1a0f97626aa2d99e4b03e95"
+          },
+          "text": "The Consultant shall commence performance of the Services and DMCC shall be liable to \npay for such services on and from the Commencement Date and during the Term.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "9. Term",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1293,
+        "normalized_start": 1285,
+        "raw_end": 1293,
+        "raw_start": 1285,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "7de1a1376721209f1eef3cddc669ed6475431f560be67578599aa7ff27bb6098"
+      },
+      "kind": "unclassified",
+      "order": 18,
+      "requirement_status": "unspecified",
+      "section_id": "sec_b7200cfb393492bb9152",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1457,
+        "normalized_start": 1285,
+        "raw_end": 1457,
+        "raw_start": 1285,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "1c76ef2e111b227600cd2195012cd068e85b07228c049e2cddda3aea508648bf"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_2d04c8574269e24cb354",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "10. Payment and Invoice",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 2578,
+            "normalized_start": 1482,
+            "raw_end": 2578,
+            "raw_start": 1482,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "da71dde9ed37b43271ad0bde4dcb8130a4c43bb503f65030d64c95f0cc9ee67a"
+          },
+          "text": "(a) The currency for any payments shall be United Arab Emirates Dirhams.\n(b) Unless expressly stated otherwise, the Fees are agreed by the Consultant as fixed\nprices for satisfactory performance of the Services in accordance with this \nAgreement. \n(c) The Fees includes any costs for royalties, licence fees, interest, finance costs and\ncharges, and all expenses. \n(d) The Fees payable under this Agreement are inclusive of VAT, unless explicitly\nindicated otherwise. The payment of any VAT or similar tax shall be subject to the \nConsultant issuing to DMCC a valid tax invoice in the format as prescribed under \nLaw.\n(e) The Consultant shall invoice DMCC for any relevant Fees, together with any\nsupporting documentation required by DMCC, in respect of each successful \nReferral. \n(f) Subject to the satisfaction of all conditions to payment identified in this\nAgreement, DMCC shall pay the Consultant’s invoice (or the undisputed amount \nof that invoice if any part of the invoice is disputed) on a Payment Date after \nreceipt by DMCC of the invoice and any supporting documentation required by",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "10. Payment and Invoice",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1481,
+        "normalized_start": 1458,
+        "raw_end": 1481,
+        "raw_start": 1458,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "39193fa7daf2fea036f33b039c7253fc1a10dce63c06b0f5003b362472668f8f"
+      },
+      "kind": "unclassified",
+      "order": 19,
+      "requirement_status": "unspecified",
+      "section_id": "sec_49994a2511ce75c661d2",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 2578,
+        "normalized_start": 1458,
+        "raw_end": 2578,
+        "raw_start": 1458,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "974871f7c2e5d20dd10081374373ea3fde00fad7e114bbdcedfc6c3f0a79cdb2"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_a4f68b57789632809272",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "DMCC.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000006",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 2676,
+            "normalized_start": 2589,
+            "raw_end": 2676,
+            "raw_start": 2589,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "1eb9953a43a961c468e943eaf4904175a6e60c22009ed7489c99c85bbe293f06"
+          },
+          "text": "(g) Payment shall not operate as a waiver of any of DMCC’s rights under this\nAgreement.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "DMCC.",
+      "heading_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 2588,
+        "normalized_start": 2580,
+        "raw_end": 2588,
+        "raw_start": 2580,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "f7699f3c74213d8eed1a2219e452ad45ac5a7aa70620447f38c644036cd45261"
+      },
+      "kind": "unclassified",
+      "order": 20,
+      "requirement_status": "unspecified",
+      "section_id": "sec_0dfc5f4a76ba43c41082",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 2676,
+        "normalized_start": 2580,
+        "raw_end": 2676,
+        "raw_start": 2580,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "1e2940f3bdea670925ee6588408c5349ce93470e5164bda3383ce2f61543117d"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_949a2fec53184cb0fd16",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "SERVICES AGREEMENT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000007",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 282,
+            "normalized_start": 19,
+            "raw_end": 282,
+            "raw_start": 19,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "157e26b68a0b6f3091996be97b88eaee9ae0e715e0246073e6cb3da76ec61b48"
+          },
+          "text": "Page 7 of 1511. Set Off \nAny amounts payable by one Party (Paying Party) to the other Party (Receiving Party) \nmay at the Receiving Party’s option be set off and deducted from amounts payable by \nthe Receiving Party to the Paying Party pursuant to this Agreement.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "SERVICES AGREEMENT",
+      "heading_span": {
+        "block_id": "block_000007",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "0d30420bd386658aa52a1cfbf1eb8e2e71095d42cc5cb82accdc18f283211588"
+      },
+      "kind": "unclassified",
+      "order": 21,
+      "requirement_status": "unspecified",
+      "section_id": "sec_a854dea3dd10dce677f5",
+      "source_span": {
+        "block_id": "block_000007",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 282,
+        "normalized_start": 0,
+        "raw_end": 282,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "ae462f3bb6fd54ca64210291b2b401857b35c9034fccdea505fb0117765bbb13"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_c30fad473fad59167ee6",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "12. Intellectual Property Rights",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000007",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 779,
+            "normalized_start": 316,
+            "raw_end": 779,
+            "raw_start": 316,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "1cd1c32215d65dde25bd60a2a3ead51d4aca11fb791eaa912f0f1ec9c0a6bcc5"
+          },
+          "text": "(a) Each Party warrants to the other Party not to use, reproduce, adapt, \nexhibit, advertise or display the Intellectual Property Rights of such other Party \nfor any reason or purpose other than for the performance of the Services, or a \nParty’s obligations pursuant to this Agreement, without the prior written consent \nof such other Party.\n(b) All Intellectual Property Rights belonging to a Party prior to the Effective \nDate shall remain vested in that Party.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "12. Intellectual Property Rights",
+      "heading_span": {
+        "block_id": "block_000007",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 315,
+        "normalized_start": 283,
+        "raw_end": 315,
+        "raw_start": 283,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "23acd6c25865ff2f72dc21e371dab29185acd735a0cd071372929ccd3ea600c8"
+      },
+      "kind": "unclassified",
+      "order": 22,
+      "requirement_status": "unspecified",
+      "section_id": "sec_33ca0dcd21d8d1ff1c1e",
+      "source_span": {
+        "block_id": "block_000007",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 779,
+        "normalized_start": 283,
+        "raw_end": 779,
+        "raw_start": 283,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "08ac51c3b7f8c8402aa979a7ecae8ca59d73139230a0f06f1d400e8e888efd96"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_bf4c7614ce573df55389",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "13. Default and termination",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000007",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 2489,
+            "normalized_start": 809,
+            "raw_end": 2489,
+            "raw_start": 809,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "e8f0e37e3d49929faded68b3698d94edce1926485f37546bb1aafb82f1887a10"
+          },
+          "text": "(a) Remedy Notice\nIf a Party considers that the other Party is in breach of this Agreement, that Party \nmay give the other Party a notice requiring the other Party to make good the \nbreach within a specified reasonable time (or if no date is specified, within ten \n(10) business days from the date of the notice). \n(b) Termination by Either Party\nIf: \n(i) a Party fails to comply with a notice issued under clause  13 (a); or\n(ii) a Party becomes insolvent, any voluntary or involuntary petition in\nbankruptcy or corporate reorganisation is filed against a Party, a receiver \nis appointed over any of the assets of a Party, any liquidation proceedings \n(or any equivalent or analogous proceedings by whatever name known) \nare commenced by or against a Party,\nthe other Party may give notice to the first Party terminating this Agreement, \nwhich termination shall take effect from the date of termination stated in the \nnotice.\n(c) Termination for Convenience\nNotwithstanding any other provision of this Agreement, DMCC may, at its sole \ndiscretion and without giving any reason, terminate this Agreement by giving 30 \n(thirty) days› prior written notice to the Consultant, which termination shall take \neffect from the date of termination stated in the notice.\n(d) Consequences of Termination\n(i) Upon any termination of this Agreement, upon request by DMCC, the\nConsultant shall take immediate action to cease and demobilise from \nperforming the Services in an orderly manner and shall:\n(A) deliver to DMCC all In-put Material, DMCC’s Documents,\nConsultant’s Documents and all other documents (including, but \nnot limited to, correspondence, lists of clients or customers, plans,",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "13. Default and termination",
+      "heading_span": {
+        "block_id": "block_000007",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 808,
+        "normalized_start": 781,
+        "raw_end": 808,
+        "raw_start": 781,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "fdc55d27c17dd9de2dcb41abfdc5690f5950d290b9fb34ea9f23c668e253118f"
+      },
+      "kind": "unclassified",
+      "order": 23,
+      "requirement_status": "unspecified",
+      "section_id": "sec_d887553faeb9c91ef96d",
+      "source_span": {
+        "block_id": "block_000007",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 2489,
+        "normalized_start": 781,
+        "raw_end": 2489,
+        "raw_start": 781,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "022d59e7c1512d17e0e148c4567703652f8e48298ecde285749c0dcc9426b61b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_2d304651e9130f5642dc",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "SERVICES AGREEMENT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000008",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 1301,
+            "normalized_start": 19,
+            "raw_end": 1301,
+            "raw_start": 19,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "8f8ecffcbcfadfa409b01df883a4e19a2c1fcc95aa6b3505bdb9c10ede8d84d0"
+          },
+          "text": "Page 8 of 15drawings, accounts and other documents of whatsoever nature \nand all copies thereof, whether on paper, computer disc or \notherwise) made, compiled or acquired by them during the term \nof this Agreement and relating to the Services and/or the business \nor affairs of DMCC or its customers, or suppliers and any other \nproperty of DMCC which is in their possession, custody, care or \ncontrol;\n(B) irretrievably delete any information relating to the business of\nDMCC stored on any magnetic or optical disc or memory and all \nmatter derived from such sources which is in their possession, \ncustody, care or control outside the premises of DMCC; and\n(C) confirm in writing and produce such evidence as is reasonable to\nprove compliance with their obligations under this clause 13(d).\n(ii) If this Agreement is terminated under clause 13(c), the Consultant shall be\nentitled to be paid a sum not exceeding any amount of the Fee due and \nunpaid under the Agreement as at the date of termination.\n(iii) Each Party consents to the other Party’s entitlement to terminate this\nAgreement:\n(A) in accordance with the meaning of mutual consent as\ncontemplated by Articles 267 ,218 and 892 of the Civil Code; and\n(B) without the need to obtain a court order in accordance with Article",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "SERVICES AGREEMENT",
+      "heading_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "0d30420bd386658aa52a1cfbf1eb8e2e71095d42cc5cb82accdc18f283211588"
+      },
+      "kind": "unclassified",
+      "order": 24,
+      "requirement_status": "unspecified",
+      "section_id": "sec_15386117392c61c51823",
+      "source_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1301,
+        "normalized_start": 0,
+        "raw_end": 1301,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "ad0e15e196fd33d898babeb7e60964856a3efa1901edf549a5237f1b1e6d9947"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_6e2c12b4ad3fc82c52f1",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "271 of the Civil Code.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000008",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 2396,
+            "normalized_start": 1327,
+            "raw_end": 2396,
+            "raw_start": 1327,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "081fb10a0c3b8d8d57e2d46e353ee0aa7bbade87f2158d1fac55532f0e7146e1"
+          },
+          "text": "This does not prejudice the right of the Party receiving notice of \ntermination to challenge the other Party’s right to serve that notice, but \nif a court or tribunal determines that the Party serving the notice was \nentitled to serve it, then termination shall be effective from the date \ndetermined in accordance with this clause 13, and not from the date of the \ncourt or tribunal’s decision.\n(e) Rights and Remedies\n(i) If any Services are not performed or delivered in accordance with any\nterms of this Agreement, DMCC shall be entitled (without prejudice to any \nother right or remedy) to exercise any one or more of the following rights \nor remedies:\n(A) to refuse to accept the provision of any further Services by the\nConsultant; or\n(B) to require the Consultant, without charge to DMCC, to carry out\nsuch additional work as is necessary to correct its failure; and\n(C) in any case, to claim such damages as it may have sustained in\nconnection with the Consultant’s breach (or breaches) of this \nAgreement not otherwise covered by the provisions of this clause",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "271 of the Civil Code.",
+      "heading_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1326,
+        "normalized_start": 1302,
+        "raw_end": 1326,
+        "raw_start": 1302,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "ebe2e01568f0e043c18b72d0efad637d2b1bc12dfde3de2dd651febfb0701b8c"
+      },
+      "kind": "unclassified",
+      "order": 25,
+      "requirement_status": "unspecified",
+      "section_id": "sec_dc3a86d4a75a8b1d63d6",
+      "source_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 2396,
+        "normalized_start": 1302,
+        "raw_end": 2396,
+        "raw_start": 1302,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "1c4e990fbf81d9d233481be507b342032425348e90050ebc018fdca06fd3f429"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_19d97a2d0452ddd62387",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "13 (e).",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000008",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 2575,
+            "normalized_start": 2406,
+            "raw_end": 2575,
+            "raw_start": 2406,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "89292edbc8005043394367c23f4944f8da424ec8f6bc46e064235d82ee0c13bc"
+          },
+          "text": "(ii) The rights and remedies under this Agreement may be exercised as often\nas necessary and are cumulative and not exclusive of any rights or \nremedies provided by Law.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "13 (e).",
+      "heading_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 2405,
+        "normalized_start": 2398,
+        "raw_end": 2405,
+        "raw_start": 2398,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "ec22357715ec78ad0bf97b2d497cc2aa89f35f2e4ea34bcadb53d1b9fe4cbab5"
+      },
+      "kind": "unclassified",
+      "order": 26,
+      "requirement_status": "unspecified",
+      "section_id": "sec_c58764441ab0c1f9b9e1",
+      "source_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 2575,
+        "normalized_start": 2398,
+        "raw_end": 2575,
+        "raw_start": 2398,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "b1fb3c3da1312a0c71701a1272358c4996aa0618ecdd4b32ca1a40f81b87d96d"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_324022da5dfeddd2bd5f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "SERVICES AGREEMENT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000009",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 780,
+            "normalized_start": 19,
+            "raw_end": 780,
+            "raw_start": 19,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "2a8ecebf481d81c51fa23928742048fc460f4cfcd7c87b5f07fddc8fc0f42ad2"
+          },
+          "text": "Page 9 of 1514. Entire Agreement\n(a) This Agreement and its schedules constitutes the entire agreement between \nthe Parties regarding the subject matter and supersedes and extinguishes all \nprior arrangements, representations, communications, negotiations, agreements \nand Agreements (whether written or oral) made between or entered into \nbetween the Parties on or before the date of this Agreement.\n(b) Each Party agrees that it shall have no remedies in respect of any statement,\nrepresentation, assurance or warranty (whether made innocently or negligently) \nthat is not set out in this Agreement. Each Party agrees that it shall have no claim \nfor innocent or negligent misrepresentation or negligent misstatement based on \nany statement in this Agreement.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "SERVICES AGREEMENT",
+      "heading_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "0d30420bd386658aa52a1cfbf1eb8e2e71095d42cc5cb82accdc18f283211588"
+      },
+      "kind": "unclassified",
+      "order": 27,
+      "requirement_status": "unspecified",
+      "section_id": "sec_b16810a42e40b11eb458",
+      "source_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 780,
+        "normalized_start": 0,
+        "raw_end": 780,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "b61c73fd046f29bce0c870631c05af55a4ecff12fd583e8954eadcdd5614598e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_ccb57e3a9ae807e5a601",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "15. Costs",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000009",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 1066,
+            "normalized_start": 791,
+            "raw_end": 1066,
+            "raw_start": 791,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "841e4bbe8528dc87dea6638159766987d21e50689226ceb4ffd0d0c406e053a6"
+          },
+          "text": "Unless otherwise provided for in this Agreement or agreed in writing by the Parties each \nParty shall pay its own costs (or its share of the costs jointly incurred by the Parties) \nin connection with the negotiation, preparation, execution and performance of this \nAgreement.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "15. Costs",
+      "heading_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 790,
+        "normalized_start": 781,
+        "raw_end": 790,
+        "raw_start": 781,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "42e26070c6dda3338f0ced6ddb75f58aaf0ed1c762a8f1894ada45e128153867"
+      },
+      "kind": "unclassified",
+      "order": 28,
+      "requirement_status": "unspecified",
+      "section_id": "sec_8f32262a7bc35a148492",
+      "source_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1066,
+        "normalized_start": 781,
+        "raw_end": 1066,
+        "raw_start": 781,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "746850f4f1435ecb876febc4f8c6b04a2455009d54c50bd2b2685ee59a37e56c"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_ab4aab4b0bfd7fd2d81e",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "16. Amendment",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000009",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 1175,
+            "normalized_start": 1081,
+            "raw_end": 1175,
+            "raw_start": 1081,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "797e5b9edcd8737c664665f9dd2097bc11bf1e45f6be2a251916bab162528ddd"
+          },
+          "text": "This Agreement may only be amended or modified by a written document, signed by \nboth Parties.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "16. Amendment",
+      "heading_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1080,
+        "normalized_start": 1067,
+        "raw_end": 1080,
+        "raw_start": 1067,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "242d8e3658c8b55cd821534b7af56b1fa345123f55fc89335fba143b99228209"
+      },
+      "kind": "unclassified",
+      "order": 29,
+      "requirement_status": "unspecified",
+      "section_id": "sec_d515e8d34e8339b5d90a",
+      "source_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1175,
+        "normalized_start": 1067,
+        "raw_end": 1175,
+        "raw_start": 1067,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "d9983658c2c3654702841b4a9418c6b6e06073a3a735f7110618c34978e4d5c3"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e4f0dc02daa45d742e83",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "17. Notices",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000009",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 2038,
+            "normalized_start": 1188,
+            "raw_end": 2038,
+            "raw_start": 1188,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "f0626a8f782d373e7f3aff1dfc769b21fe9bf17551992414eb307ab007fb26c3"
+          },
+          "text": "(a) A notice given to a Party under or in connection with this Agreement:\n(i) shall be in writing and in English;\n(ii) shall be signed by or on behalf of the Party giving it;\n(iii) shall be sent to the Party for the attention of the contact and at the\naddress, or email address listed in Item 3 of the Schedule of Details;\n(iv) shall be sent by a method listed below; and\n(v) unless proved otherwise, is deemed received as set out in this clause  17 if\nprepared and sent in accordance with this clause.\n(b)  This table sets out: \n(i) delivery methods for sending a notice to a Party under this Agreement; \nand\n(ii) for each delivery method, the corresponding delivery date and time\nwhen delivery of the notice is deemed to have taken place provided that \nall other requirements in this clause have been satisfied and subject to the \nabove provisions,",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "17. Notices",
+      "heading_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1187,
+        "normalized_start": 1176,
+        "raw_end": 1187,
+        "raw_start": 1176,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "cf1a535ebd420acc7f88ea27751103f99d0dcba3989bf2357356955b013937bf"
+      },
+      "kind": "unclassified",
+      "order": 30,
+      "requirement_status": "unspecified",
+      "section_id": "sec_b799772291a97f35f123",
+      "source_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 2038,
+        "normalized_start": 1176,
+        "raw_end": 2038,
+        "raw_start": 1176,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "2b4baa13766db3fef17331459e80abb73b8222ca58774a42762df0b877f0758d"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_d94989d2ed8343b2d85b",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "SERVICES AGREEMENT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000010",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 621,
+            "normalized_start": 19,
+            "raw_end": 621,
+            "raw_start": 19,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "f44a2dafd1b1e4181be005383ae47aecc8580fc017dffea0358a2064ddde03a1"
+          },
+          "text": "Page 10 of 15(c) For the purpose of this clause  17 and calculating deemed receipt:\n(i) all references to time are to local time in the place of deemed receipt; and\n(ii) if deemed receipt would occur in the place of deemed receipt on a Friday \nor Saturday or a public holiday in the United Arab Emirates, deemed \nreceipt is deemed to take place at 9.00  am on the day when business next \nstarts in the place of receipt.\n(d) This clause does not apply to the service of any proceedings or other documents \nin any legal action or, where applicable, any arbitration or other method of \ndispute resolution.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "SERVICES AGREEMENT",
+      "heading_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "0d30420bd386658aa52a1cfbf1eb8e2e71095d42cc5cb82accdc18f283211588"
+      },
+      "kind": "unclassified",
+      "order": 31,
+      "requirement_status": "unspecified",
+      "section_id": "sec_36e36e293341c9cf2f33",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 621,
+        "normalized_start": 0,
+        "raw_end": 621,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "73a71bb61b3c2117c3bc7fccbcd79ae39896acead37d6e733a4e9decd785535c"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_0557ba542725f00b09da",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "18. Severability",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000010",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 1249,
+            "normalized_start": 640,
+            "raw_end": 1249,
+            "raw_start": 640,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "5964cf33b4bd0f5ab6f5b18231a0f713d298f48404014d0ec2d157093f8e99f1"
+          },
+          "text": "(a) If the enforcement or operation of any provision of this Agreement is prohibited \nby Law or if any provision of this Agreement is under the Law rendered void, \ninvalid or unenforceable, such prohibition, voidness, invalidity or unenforceability \nshall not affect the validity or enforceability of the rest of that provision or any \nother term of this Agreement.\n(b) If any provision of this Agreement is determined to be invalid or unenforceable, \nthe Parties will negotiate in good faith to agree upon a substitute provision to \ncarry out the purpose and intent of the invalid or unenforceable provision.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "18. Severability",
+      "heading_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 639,
+        "normalized_start": 622,
+        "raw_end": 639,
+        "raw_start": 622,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "f009c25359c72e89995ce783bd03240494aeea4b44c0dcbad8e55f3157d73ffa"
+      },
+      "kind": "unclassified",
+      "order": 32,
+      "requirement_status": "unspecified",
+      "section_id": "sec_bda38a5650e863f4df3d",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1249,
+        "normalized_start": 622,
+        "raw_end": 1249,
+        "raw_start": 622,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "5442cebf789df347f9efb2907623543e4f2ac694249845d4f938e65d0d88f0c9"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_4e2199f351f7a6a3ea71",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "19. Confidentiality",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000010",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 2284,
+            "normalized_start": 1270,
+            "raw_end": 2284,
+            "raw_start": 1270,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "6743799a5624b725abe32850ba9b57832b0afe6753c0cfcf95ec21428e7c0dac"
+          },
+          "text": "(a) Each Party shall keep confidential and shall not, without the written consent of \nthe other Party (such consent not to be unreasonably withheld), disclose to any \nother party the terms of this Agreement or any documents or other information \nfurnished directly or indirectly by the other Party in connection with this \nAgreement (collectively referred to as Confidential Information).\n(b) Each Party may disclose Confidential Information during the term of this \nAgreement:\n(i) if and to the extent such disclosure is required by Laws, \n(ii) pursuant to any order or direction of any court of competent jurisdiction \nor any competent judicial governmental, regulatory or supervisory body; \norDelivery method\nDelivery by hand On signature of a delivery receipt \nDelivery by courier The time shown on the courier’s delivery receipt\nEmail  If transmitted on a Business Day before 5:00pm, on that \nday, or in any other case on the Business Day after the day \non which it is transmittedDeemed delivery date and time",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "19. Confidentiality",
+      "heading_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1269,
+        "normalized_start": 1250,
+        "raw_end": 1269,
+        "raw_start": 1250,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "9b13e9f018e6893750370afee0b77220a92dc21049e78949bcfe293c2073fc8e"
+      },
+      "kind": "unclassified",
+      "order": 33,
+      "requirement_status": "unspecified",
+      "section_id": "sec_c3237df201edf273824e",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 2284,
+        "normalized_start": 1250,
+        "raw_end": 2284,
+        "raw_start": 1250,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "74520b97d3ec9506509f8fd0512e7fd7d4d2394a0028f8899a7c69fa204710e0"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_c96fd4c356ff946d7aa2",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "SERVICES AGREEMENT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000011",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 343,
+            "normalized_start": 19,
+            "raw_end": 343,
+            "raw_start": 19,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "a01ecb40d22d027c34e6cf2e38e87a26ff96809054468daae2409b4962594718"
+          },
+          "text": "Page 11 of 15(iii) as necessary to comply with its obligations under this Agreement \nprovided that the Party ensures the recipient is made aware of and \ncomplies with this confidentiality obligation as if the recipient was a \nparty to this Agreement and that recipient may not further disclose the \nConfidential Information.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "SERVICES AGREEMENT",
+      "heading_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "0d30420bd386658aa52a1cfbf1eb8e2e71095d42cc5cb82accdc18f283211588"
+      },
+      "kind": "unclassified",
+      "order": 34,
+      "requirement_status": "unspecified",
+      "section_id": "sec_c4c1fb72905302a09a48",
+      "source_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 343,
+        "normalized_start": 0,
+        "raw_end": 343,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "7f0f4970dafc24ce6faf235e1aa4747c7efb4444e4a24c6ca66d2883584ad1e6"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_9a146f329955bb141b4a",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "20. No Waiver",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000011",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 1275,
+            "normalized_start": 358,
+            "raw_end": 1275,
+            "raw_start": 358,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "2b73f78d0268d555e8f94ef11bbdd2650d0e5f6eee2c85076212429377a115a8"
+          },
+          "text": "(a) No waiver by either Party of any default or defaults of the other Party in the \nperformance of any of the provisions of this Agreement shall operate or be \nconstrued as a waiver of any other or further default or defaults whether of a like \nor different character or shall be effective unless in writing duly executed by a \nduly authorised representative of such Party.\n(b) No failure or delay by a Party to exercise any right or remedy provided under this \nAgreement or by Law nor time or other indulgence granted by one Party to the \nother Party for the performance of the terms and provisions of this Agreement  \nshall constitute a waiver of that or any other right or remedy, nor shall it prevent \nor restrict the further exercise of that or any other right or remedy. No single \nor partial exercise of such right or remedy shall prevent or restrict the further \nexercise of that or any other right or remedy.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "20. No Waiver",
+      "heading_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 357,
+        "normalized_start": 344,
+        "raw_end": 357,
+        "raw_start": 344,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "3f1bf019bf75d73fe067e31a8717c366756cb3808b38c31adb16880097b99743"
+      },
+      "kind": "unclassified",
+      "order": 35,
+      "requirement_status": "unspecified",
+      "section_id": "sec_c4f7d568ffa2e67fad68",
+      "source_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1275,
+        "normalized_start": 344,
+        "raw_end": 1275,
+        "raw_start": 344,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "719b2f3adaab762ed1728ec05c39a714c890a8bb387a4a0642a42eb4aec90ab0"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_3d774dd474b5f7a15bc7",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "21. Successors and Assigns",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000011",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 1437,
+            "normalized_start": 1303,
+            "raw_end": 1437,
+            "raw_start": 1303,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "ba828bc38f3a3904bb9540f445e2adcd70f1b755bc939dbd7192ea4d3fb9bdd2"
+          },
+          "text": "This Agreement shall be binding upon, and inure to the benefit of, the Parties and their \nrespective successors and permitted assigns.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "21. Successors and Assigns",
+      "heading_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1302,
+        "normalized_start": 1276,
+        "raw_end": 1302,
+        "raw_start": 1276,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "3a87b4fc5081a5627d17384012b14fcf8c20e6317b555ddf2567f45344ffe3fd"
+      },
+      "kind": "unclassified",
+      "order": 36,
+      "requirement_status": "unspecified",
+      "section_id": "sec_1a3ca2a4f69945fca3aa",
+      "source_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1437,
+        "normalized_start": 1276,
+        "raw_end": 1437,
+        "raw_start": 1276,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "03f977eaa459745f6f98228274a99df252e1eb93bf6df9f9ff651500668c5fc5"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_eff04270a198050af0ab",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "22. Counterparts",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000011",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 1596,
+            "normalized_start": 1455,
+            "raw_end": 1596,
+            "raw_start": 1455,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "1f88c8b26f4e417df8bc121afd035c92767e54f0d50dbf824197a7e6ea5c8f47"
+          },
+          "text": "This Agreement may be executed in any number of counterparts, all of which when \ntaken together shall constitute one and the same instrument.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "22. Counterparts",
+      "heading_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1454,
+        "normalized_start": 1438,
+        "raw_end": 1454,
+        "raw_start": 1438,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "184248954b0b348f6a55ba72d7e4f4d15b68007b37aadae504282710cdc0d6ae"
+      },
+      "kind": "unclassified",
+      "order": 37,
+      "requirement_status": "unspecified",
+      "section_id": "sec_3f427d53d80a770d1773",
+      "source_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1596,
+        "normalized_start": 1438,
+        "raw_end": 1596,
+        "raw_start": 1438,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "b641cdf328a77394ae519837be4abfcce328967207638d81797f9c393c850929"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_6207615139067415685f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "23. Governing Law",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000011",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 1764,
+            "normalized_start": 1615,
+            "raw_end": 1764,
+            "raw_start": 1615,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "a5423d5d430d8b1a091f1bf9c7ff93ec21182890616b4f4a769209ed0a2ab31e"
+          },
+          "text": "This Agreement shall be governed by the laws of the Emirate of Dubai and the laws of \nthe United Arab Emirates as applicable in the Emirate of Dubai.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "23. Governing Law",
+      "heading_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1614,
+        "normalized_start": 1597,
+        "raw_end": 1614,
+        "raw_start": 1597,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "abff3c912f6773550595f9138d16f524df65964eb6f2178cc5b1d18ef93eb931"
+      },
+      "kind": "unclassified",
+      "order": 38,
+      "requirement_status": "unspecified",
+      "section_id": "sec_2174db89b9d1c995a0fd",
+      "source_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1764,
+        "normalized_start": 1597,
+        "raw_end": 1764,
+        "raw_start": 1597,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "47c7a93e30ecf3e1d59a1ec827c514e31ba3a25848d1fd8aa3837c68252e1106"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_74305f3959d2756882d8",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "24. Dispute Resolution",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000011",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 2526,
+            "normalized_start": 1788,
+            "raw_end": 2526,
+            "raw_start": 1788,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "594e618e00bb62b152f4be0af344329f64f2a7a6bb75bfcc506fb4cca06ed14c"
+          },
+          "text": "(a) If any dispute, claim, controversy or difference between the Parties arises \nout of or in connection with this Agreement, including any question \nregarding its existence, validity, interpretation or termination (Dispute), \nthen the Parties shall use their best endeavours to settle the Dispute. If the \nParties do not reach a solution within a period of thirty ( 30) days, then \nthe Dispute shall be finally settled by the courts of the Dubai International \nFinancial Centre.\n(b) Unless otherwise agreed by the Parties, the Parties shall continue to \nperform their respective obligations under this Agreement \nnotwithstanding any reference of a Dispute to the courts of the Dubai \nInternational Financial Centre under this clause  24.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "24. Dispute Resolution",
+      "heading_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1787,
+        "normalized_start": 1765,
+        "raw_end": 1787,
+        "raw_start": 1765,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "14ef68b3f16e350def5fbcfb73292ca7e6ace67a98c51b88844a980470e2ba4e"
+      },
+      "kind": "unclassified",
+      "order": 39,
+      "requirement_status": "unspecified",
+      "section_id": "sec_621c932ed2bf822267be",
+      "source_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 2526,
+        "normalized_start": 1765,
+        "raw_end": 2526,
+        "raw_start": 1765,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "eefeabbab269b5b6d82f94553e630fe5953e31ea445dec4540f9ff9246148325"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_dda972b7fd303142abc9",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "25. Survival",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000011",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 2672,
+            "normalized_start": 2540,
+            "raw_end": 2672,
+            "raw_start": 2540,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "eabe2bd17290df42846aa4da2687bb6f8c6226bea75d1d90296c43e3b9c6d603"
+          },
+          "text": "Clauses  1,  5,  8,  11,  0,  17,  19,  23,  24, and this clause  25 shall survive the expiration or \ntermination of this Agreement.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "25. Survival",
+      "heading_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 2539,
+        "normalized_start": 2527,
+        "raw_end": 2539,
+        "raw_start": 2527,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "0bea2250bd75691ec029d635e27a692fb325f7155806a5a35e66df2d7478a174"
+      },
+      "kind": "unclassified",
+      "order": 40,
+      "requirement_status": "unspecified",
+      "section_id": "sec_270e537097c9a4b0f24f",
+      "source_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 2672,
+        "normalized_start": 2527,
+        "raw_end": 2672,
+        "raw_start": 2527,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "874fa95adc17ea1dca0577574ba720bd2ecfcfbff1fbe3fa73aef458f3a29e23"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_33a6a0e8d78a180496f5",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "SERVICES AGREEMENT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000012",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 69,
+            "normalized_start": 19,
+            "raw_end": 69,
+            "raw_start": 19,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "98090c69eb6ab0aa74697a05e891f7904624951f107ed009031d243393d35e06"
+          },
+          "text": "Page 12 of 15SIGNING PAGE\nExecuted as an agreement",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "SERVICES AGREEMENT",
+      "heading_span": {
+        "block_id": "block_000012",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "0d30420bd386658aa52a1cfbf1eb8e2e71095d42cc5cb82accdc18f283211588"
+      },
+      "kind": "unclassified",
+      "order": 41,
+      "requirement_status": "unspecified",
+      "section_id": "sec_476d16072fea83d58221",
+      "source_span": {
+        "block_id": "block_000012",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 69,
+        "normalized_start": 0,
+        "raw_end": 69,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "8bb9256212e5704ad5e4c5a4c097c51a7d5aa04f4e7a6f6b9616966193f56b13"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_ccec6c3221a9c8866da5",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "SIGNED BY    __________________________________",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000012",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 290,
+            "normalized_start": 119,
+            "raw_end": 290,
+            "raw_start": 119,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "0b5dfc11b3b94cf61efcab3901fe07e658752f552a73021568d4eca9ecbca914"
+          },
+          "text": "Ahmad Hamza, Executive Director, Dubai Multi Commodities Centre \nDate   __________________________________\nDuly authorised to sign this Agreement for and on behalf of DMCC",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "SIGNED BY    __________________________________",
+      "heading_span": {
+        "block_id": "block_000012",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 118,
+        "normalized_start": 70,
+        "raw_end": 118,
+        "raw_start": 70,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "bdf695a88337fe28c2830fb3f3bcc72f18bfdcbb8800e78da610bd78115ef94b"
+      },
+      "kind": "unclassified",
+      "order": 42,
+      "requirement_status": "unspecified",
+      "section_id": "sec_0e4c19f2dcef3f8e74d3",
+      "source_span": {
+        "block_id": "block_000012",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 290,
+        "normalized_start": 70,
+        "raw_end": 290,
+        "raw_start": 70,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "21fa2883889d67dd23d4706220d25ffdd0bdae0c8b8c51a313e17c8b456ff4bd"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_d5a067dbb3993961452b",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "SIGNED BY    __________________________________",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000012",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 519,
+            "normalized_start": 341,
+            "raw_end": 519,
+            "raw_start": 341,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "f09588c90a72c05458966a5f0f77347a2d7641062346036b7842a058e3241b5f"
+          },
+          "text": "_________________  , ________________  , ________________    \nDate   __________________________________\nDuly authorised to sign this Agreement for and on behalf of the Consultant",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "SIGNED BY    __________________________________",
+      "heading_span": {
+        "block_id": "block_000012",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 340,
+        "normalized_start": 291,
+        "raw_end": 340,
+        "raw_start": 291,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "f2918a7fb77a53b5149ea5283f9f48c3022840bad44373a964ad864f7ab68715"
+      },
+      "kind": "unclassified",
+      "order": 43,
+      "requirement_status": "unspecified",
+      "section_id": "sec_45c28e94a127b2ec3cde",
+      "source_span": {
+        "block_id": "block_000012",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 519,
+        "normalized_start": 291,
+        "raw_end": 519,
+        "raw_start": 291,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "121c626cbbbfddd24c609f7ece5180205232dd043f8c5650795d7f026030c310"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_5c47d08907358a8f1ef8",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "SERVICES AGREEMENT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000013",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 42,
+            "normalized_start": 19,
+            "raw_end": 42,
+            "raw_start": 19,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "8c596e9b4b1520e7736b279b1112df675ed35914c50e62924181c885be590c30"
+          },
+          "text": "Page 13 of 15SCHEDULE 1",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "SERVICES AGREEMENT",
+      "heading_span": {
+        "block_id": "block_000013",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "0d30420bd386658aa52a1cfbf1eb8e2e71095d42cc5cb82accdc18f283211588"
+      },
+      "kind": "unclassified",
+      "order": 44,
+      "requirement_status": "unspecified",
+      "section_id": "sec_2446225dbbed786c5cc2",
+      "source_span": {
+        "block_id": "block_000013",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 42,
+        "normalized_start": 0,
+        "raw_end": 42,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "8965811378930a778335c27a1579b42a1ec90ec8606c9a9b1edb3f0efab4faff"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_6884505eb3fec4fabdbf",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "SCHEDULE OF DETAILS",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000013",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 472,
+            "normalized_start": 63,
+            "raw_end": 472,
+            "raw_start": 63,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "e2377a58f7f4df26005ba5f43e21b5b8599606423efa3f4d1b05cc29ec8910de"
+          },
+          "text": "Item No.\nCommencement Date 1 January 2018\nExpiry Date 31 December 2018\nNotices Client\nAttention:         \nPosition:           \nAddress:     \nEmail:          \nConsultant\nAttention:    \nPosition: \nAddress: \nEmail:   Information (and clause reference) Details\nAhmad Hamza\nExecutive Director\nAlmas tower first floor\nAhmad.Hamza@dmcc.ae\n__________________\n__________________\n__________________\n__________________1.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "SCHEDULE OF DETAILS",
+      "heading_span": {
+        "block_id": "block_000013",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 62,
+        "normalized_start": 43,
+        "raw_end": 62,
+        "raw_start": 43,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "95e12dbb3830793d1552d87fb44a444694d2bdc98a7e4eaae88bb1a63b5aa776"
+      },
+      "kind": "unclassified",
+      "order": 45,
+      "requirement_status": "unspecified",
+      "section_id": "sec_e8b6faa89bff4e824218",
+      "source_span": {
+        "block_id": "block_000013",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 472,
+        "normalized_start": 43,
+        "raw_end": 472,
+        "raw_start": 43,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "695defbdecfb052f38ddad70c885120fff931d14442582f24bf9aaeb4e51feeb"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_bef145e1944b297f5655",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000013",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 475,
+            "normalized_start": 473,
+            "raw_end": 475,
+            "raw_start": 473,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "6bc54f13bea593dc5e1c8e6b16249e669d1ce99cbeac65f2a10f36e1d86f1fd4"
+          },
+          "text": "2.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2.",
+      "heading_span": {
+        "block_id": "block_000013",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 475,
+        "normalized_start": 473,
+        "raw_end": 475,
+        "raw_start": 473,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "6bc54f13bea593dc5e1c8e6b16249e669d1ce99cbeac65f2a10f36e1d86f1fd4"
+      },
+      "kind": "unclassified",
+      "order": 46,
+      "requirement_status": "unspecified",
+      "section_id": "sec_b034e134884d3d180565",
+      "source_span": {
+        "block_id": "block_000013",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 475,
+        "normalized_start": 473,
+        "raw_end": 475,
+        "raw_start": 473,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "6bc54f13bea593dc5e1c8e6b16249e669d1ce99cbeac65f2a10f36e1d86f1fd4"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_ecaf86a529f78212e285",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000013",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 478,
+            "normalized_start": 476,
+            "raw_end": 478,
+            "raw_start": 476,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "267c23695b6e8fc29bd88b9f5d1962d3d208fa9c2fafd974614e6ab3b84fa55c"
+          },
+          "text": "3.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3.",
+      "heading_span": {
+        "block_id": "block_000013",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 478,
+        "normalized_start": 476,
+        "raw_end": 478,
+        "raw_start": 476,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "267c23695b6e8fc29bd88b9f5d1962d3d208fa9c2fafd974614e6ab3b84fa55c"
+      },
+      "kind": "unclassified",
+      "order": 47,
+      "requirement_status": "unspecified",
+      "section_id": "sec_0ee6f32637923ef110c0",
+      "source_span": {
+        "block_id": "block_000013",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 478,
+        "normalized_start": 476,
+        "raw_end": 478,
+        "raw_start": 476,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "267c23695b6e8fc29bd88b9f5d1962d3d208fa9c2fafd974614e6ab3b84fa55c"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_d1dcca7e6e5d0684228a",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "SERVICES AGREEMENT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000014",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 556,
+            "normalized_start": 19,
+            "raw_end": 556,
+            "raw_start": 19,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "21f5ba05347e4cbb8de87923a300f8af9e3bc873b3cc0685fea4d939a552c4d6"
+          },
+          "text": "Page 14 of 15SCHEDULE 2\nServices\nThe Consultant shall:\nNo.\nProvide Referrals to DMCC.\nPromote DMCC Free Zone to their clients.\nAssist clients in completing application forms for the registration and licensing of \nnew setups.\nInvite DMCC where appropriate to events, trade missions and conferences \norganized.Explain DMCC Free zone company formation process to clients, and advise them \nas to the most suitable DMCC Free Zone registration type, license, business \nactivity and package for their business plan related to business set-up.1.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "SERVICES AGREEMENT",
+      "heading_span": {
+        "block_id": "block_000014",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "0d30420bd386658aa52a1cfbf1eb8e2e71095d42cc5cb82accdc18f283211588"
+      },
+      "kind": "unclassified",
+      "order": 48,
+      "requirement_status": "unspecified",
+      "section_id": "sec_b1db77551142e00fc72a",
+      "source_span": {
+        "block_id": "block_000014",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 556,
+        "normalized_start": 0,
+        "raw_end": 556,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "63064ac647eb0da7dcd6637ad43989c7dc0b2faf3ec553ade4cf693ab15d8e48"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_092703f155dc0245bd1b",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000014",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 559,
+            "normalized_start": 557,
+            "raw_end": 559,
+            "raw_start": 557,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "6bc54f13bea593dc5e1c8e6b16249e669d1ce99cbeac65f2a10f36e1d86f1fd4"
+          },
+          "text": "2.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2.",
+      "heading_span": {
+        "block_id": "block_000014",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 559,
+        "normalized_start": 557,
+        "raw_end": 559,
+        "raw_start": 557,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "6bc54f13bea593dc5e1c8e6b16249e669d1ce99cbeac65f2a10f36e1d86f1fd4"
+      },
+      "kind": "unclassified",
+      "order": 49,
+      "requirement_status": "unspecified",
+      "section_id": "sec_131a7a311f01d1eb36a9",
+      "source_span": {
+        "block_id": "block_000014",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 559,
+        "normalized_start": 557,
+        "raw_end": 559,
+        "raw_start": 557,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "6bc54f13bea593dc5e1c8e6b16249e669d1ce99cbeac65f2a10f36e1d86f1fd4"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_71c3e7dbd11dbfc88a4b",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000014",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 562,
+            "normalized_start": 560,
+            "raw_end": 562,
+            "raw_start": 560,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "267c23695b6e8fc29bd88b9f5d1962d3d208fa9c2fafd974614e6ab3b84fa55c"
+          },
+          "text": "3.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3.",
+      "heading_span": {
+        "block_id": "block_000014",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 562,
+        "normalized_start": 560,
+        "raw_end": 562,
+        "raw_start": 560,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "267c23695b6e8fc29bd88b9f5d1962d3d208fa9c2fafd974614e6ab3b84fa55c"
+      },
+      "kind": "unclassified",
+      "order": 50,
+      "requirement_status": "unspecified",
+      "section_id": "sec_7c814fb7dc449aeb4a4f",
+      "source_span": {
+        "block_id": "block_000014",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 562,
+        "normalized_start": 560,
+        "raw_end": 562,
+        "raw_start": 560,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "267c23695b6e8fc29bd88b9f5d1962d3d208fa9c2fafd974614e6ab3b84fa55c"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_b0457b3db1f2b4204db7",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000014",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 565,
+            "normalized_start": 563,
+            "raw_end": 565,
+            "raw_start": 563,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "23f663630e2f28250c09d7a0c370f55eebf635772f9ce27e46797ab8ef297f4b"
+          },
+          "text": "4.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4.",
+      "heading_span": {
+        "block_id": "block_000014",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 565,
+        "normalized_start": 563,
+        "raw_end": 565,
+        "raw_start": 563,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "23f663630e2f28250c09d7a0c370f55eebf635772f9ce27e46797ab8ef297f4b"
+      },
+      "kind": "unclassified",
+      "order": 51,
+      "requirement_status": "unspecified",
+      "section_id": "sec_4827959831c3863681d0",
+      "source_span": {
+        "block_id": "block_000014",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 565,
+        "normalized_start": 563,
+        "raw_end": 565,
+        "raw_start": 563,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "23f663630e2f28250c09d7a0c370f55eebf635772f9ce27e46797ab8ef297f4b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_636e87254e4e6996ed65",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5.Responsibility",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000014",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 582,
+            "normalized_start": 566,
+            "raw_end": 582,
+            "raw_start": 566,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "1dffed4fb11099df871da8d9e55d3019ca7cd29fd262dd9be16dd813a238c86d"
+          },
+          "text": "5.Responsibility",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5.Responsibility",
+      "heading_span": {
+        "block_id": "block_000014",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 582,
+        "normalized_start": 566,
+        "raw_end": 582,
+        "raw_start": 566,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "1dffed4fb11099df871da8d9e55d3019ca7cd29fd262dd9be16dd813a238c86d"
+      },
+      "kind": "unclassified",
+      "order": 52,
+      "requirement_status": "unspecified",
+      "section_id": "sec_9f9cc20abeb5139fe709",
+      "source_span": {
+        "block_id": "block_000014",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 582,
+        "normalized_start": 566,
+        "raw_end": 582,
+        "raw_start": 566,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "1dffed4fb11099df871da8d9e55d3019ca7cd29fd262dd9be16dd813a238c86d"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_fb6c03c1f811a1f368ee",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "SERVICES AGREEMENT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000015",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 126,
+            "normalized_start": 19,
+            "raw_end": 126,
+            "raw_start": 19,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "6762b30b1da316364b67d31cfcad3982b6cdc1fcaa222d8f079d73b25dd2beb6"
+          },
+          "text": "Page 15 of 15SCHEDULE 3\nFees\nThe Fee for provision of the Referrals to DMCC shall be calculated as follows:",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "SERVICES AGREEMENT",
+      "heading_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "0d30420bd386658aa52a1cfbf1eb8e2e71095d42cc5cb82accdc18f283211588"
+      },
+      "kind": "unclassified",
+      "order": 53,
+      "requirement_status": "unspecified",
+      "section_id": "sec_85c4f43c815d798b8aa4",
+      "source_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 126,
+        "normalized_start": 0,
+        "raw_end": 126,
+        "raw_start": 0,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "a85fcec534c1ca31939aa333ac04bafb997c4499fda6fb6a29a744d656439b12"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_af1ea78e33f06fcfdaa4",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "1. DMCC shall pay to the Consultant a referral fee of AED 2000  for each Referral (the",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000015",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 230,
+            "normalized_start": 215,
+            "raw_end": 230,
+            "raw_start": 215,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "c732d961cffbd172391784adcc8d1ffd55fe75ffcf5f95895ae8d931bc05c939"
+          },
+          "text": "Referral Fee ).",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "1. DMCC shall pay to the Consultant a referral fee of AED 2000  for each Referral (the",
+      "heading_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 214,
+        "normalized_start": 127,
+        "raw_end": 214,
+        "raw_start": 127,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "afdc9236408f8342be26ad62bb0c22bca14b3b6b64d210fcdb87ab617fd75cc8"
+      },
+      "kind": "unclassified",
+      "order": 54,
+      "requirement_status": "unspecified",
+      "section_id": "sec_9aa7c993493e0cc7f47b",
+      "source_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 230,
+        "normalized_start": 127,
+        "raw_end": 230,
+        "raw_start": 127,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "2b33b3c18d972aaf26e8983c1fe95696c39e50e7333c789c1544fd55bb128883"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_66b9694bf23ab7fe9204",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2. DMCC shall pay to the Consultant an additional fee of AED 3000  for each Referral of a",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000015",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 367,
+            "normalized_start": 322,
+            "raw_end": 367,
+            "raw_start": 322,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "7e70469e37571154126460dfbe50c66cf980c2f67c8202a80ce1573d077ba7e6"
+          },
+          "text": "Key Accounts Company (the Key Accounts Fee ).",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2. DMCC shall pay to the Consultant an additional fee of AED 3000  for each Referral of a",
+      "heading_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 321,
+        "normalized_start": 231,
+        "raw_end": 321,
+        "raw_start": 231,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "c1d932eeb518c4953ec6cf7d2750af52d689fdc9c6d2c67cddff63f12e2db01e"
+      },
+      "kind": "unclassified",
+      "order": 55,
+      "requirement_status": "unspecified",
+      "section_id": "sec_8a6d19fadae8f972db9b",
+      "source_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 367,
+        "normalized_start": 231,
+        "raw_end": 367,
+        "raw_start": 231,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "929fe0ac49f5162ef5db943e8d1f4ba1200584d250c6ee205aa661406d322f8b"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_a099b98409c22906d980",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "3. Subject to achieving the Target, DMCC shall pay to the Consultant an additional fee for",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000015",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 582,
+            "normalized_start": 460,
+            "raw_end": 582,
+            "raw_start": 460,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "fb2bea457413095ff3c2f22ffe769139efbfb0731f99c84cd4b994150ec32d26"
+          },
+          "text": "each Referral which takes physical office space in the DMCC Free Zone an amount of \nAED 1000  (the  Physical Office Fee ).",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "3. Subject to achieving the Target, DMCC shall pay to the Consultant an additional fee for",
+      "heading_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 459,
+        "normalized_start": 368,
+        "raw_end": 459,
+        "raw_start": 368,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "d0962f188d0a502d39f4cf508b20b381d90a36e5db69485262b7043c1924d7b5"
+      },
+      "kind": "unclassified",
+      "order": 56,
+      "requirement_status": "unspecified",
+      "section_id": "sec_f61d58fe93be8a5f2c79",
+      "source_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 582,
+        "normalized_start": 368,
+        "raw_end": 582,
+        "raw_start": 368,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "e835590afe92f97a599269699bc8e72829b6e6ebc09b0cd736bc29b2e30c747d"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_b4d20320fe50d6563d14",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4. The Referral Fee and the Physical Office Fee shall only be payable by DMCC to the",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000015",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 736,
+            "normalized_start": 669,
+            "raw_end": 736,
+            "raw_start": 669,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "a86edffac1aadd022bf40c084d3f9162660365fb37547ee4014b52b8b810cc91"
+          },
+          "text": "Consultant two separate payment dates the Target has been achieved.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4. The Referral Fee and the Physical Office Fee shall only be payable by DMCC to the",
+      "heading_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 668,
+        "normalized_start": 583,
+        "raw_end": 668,
+        "raw_start": 583,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "ec8c0207d7282b198d491d6aa9478233e052833a5c93cd700019e8fac5d3a9fd"
+      },
+      "kind": "unclassified",
+      "order": 57,
+      "requirement_status": "unspecified",
+      "section_id": "sec_a0580cc5d11d55b12fa1",
+      "source_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 736,
+        "normalized_start": 583,
+        "raw_end": 736,
+        "raw_start": 583,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "cf13f2580eeb00be1755d067e1035cd8b0f8c5127c54c6b54f75787c202cb8c2"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_c16ee9442ce7f8f25e9b",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "5. Once the Target has been achieved, the Referral Fee, the Key Accounts Fee and the",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000015",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 892,
+            "normalized_start": 824,
+            "raw_end": 892,
+            "raw_start": 824,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "8b9a1ca5ef1ce8834295d691c1fc6c9cd29b07dd68e6803ef66ad64494227907"
+          },
+          "text": "Physical Office Fee shall be payable each time such fee is incurred.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "5. Once the Target has been achieved, the Referral Fee, the Key Accounts Fee and the",
+      "heading_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 823,
+        "normalized_start": 738,
+        "raw_end": 823,
+        "raw_start": 738,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "6760d9956bf8497094945701c02a49fad4d3453c70d43d9403fa764013d88381"
+      },
+      "kind": "unclassified",
+      "order": 58,
+      "requirement_status": "unspecified",
+      "section_id": "sec_d15d707d3b5dc4151089",
+      "source_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 892,
+        "normalized_start": 738,
+        "raw_end": 892,
+        "raw_start": 738,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "c699074bda08879a6e5c9abef2ccb96ffc929bc72e2d8f31807e27ae83afedd7"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_b35199d8d90594a058e0",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "6. The Key Accounts Fee shall be payable the following payment date to the Consultant",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000015",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 1027,
+            "normalized_start": 981,
+            "raw_end": 1027,
+            "raw_start": 981,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "9a788af569e1552070f687605d217112b503f366c8ad395414c138f0463b6a53"
+          },
+          "text": "regardless of whether the Target has been met.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "6. The Key Accounts Fee shall be payable the following payment date to the Consultant",
+      "heading_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 980,
+        "normalized_start": 894,
+        "raw_end": 980,
+        "raw_start": 894,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "cbfcd6b35742a768a544ade5d835e9c7bfe914f77da2927cd31917c547ed9ff6"
+      },
+      "kind": "unclassified",
+      "order": 59,
+      "requirement_status": "unspecified",
+      "section_id": "sec_21654c2acd2808e63dfc",
+      "source_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1027,
+        "normalized_start": 894,
+        "raw_end": 1027,
+        "raw_start": 894,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "66c429fe91925bd8f29dd932c90e1e12ce2cbb188ae6acee258c5931de5f1d03"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_1166288a10b50c0f3808",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "7. Payment of the Referral Fee, the Key Accounts Fee and the Physical Office Fee shall take",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000015",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 1181,
+            "normalized_start": 1121,
+            "raw_end": 1181,
+            "raw_start": 1121,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "03b8c19caed41ef6735c661cfe97a695682afc174ba2ac72716f85a2cf00aebe"
+          },
+          "text": "place on the First Payment Date and the Second Payment Date.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "7. Payment of the Referral Fee, the Key Accounts Fee and the Physical Office Fee shall take",
+      "heading_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1120,
+        "normalized_start": 1028,
+        "raw_end": 1120,
+        "raw_start": 1028,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "b7bab7cd140c63ddfdfa4ad0285a22a8ce8efa644d3a831b400a07d1373dfd2b"
+      },
+      "kind": "unclassified",
+      "order": 60,
+      "requirement_status": "unspecified",
+      "section_id": "sec_96afa6485b7eb17d1fdb",
+      "source_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1181,
+        "normalized_start": 1028,
+        "raw_end": 1181,
+        "raw_start": 1028,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "44e1b5b8f7d1eee8df391e92f4f0e0b79eb93651feb0053c1ce6813f9e0c35d7"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_09608cd26dc33ecfc805",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "8. The Fees paid to the Consultant by DMCC shall be in respect of all Consultant Services",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000015",
+            "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+            "normalized_end": 1305,
+            "normalized_start": 1273,
+            "raw_end": 1305,
+            "raw_start": 1273,
+            "source_id": "src_05e7b0bede63de9379f4",
+            "text_sha256": "22e49253aa1384afd8d6cf61e091e9037cda351d366f762ff0ef5012ecb1908a"
+          },
+          "text": "provided pursuant to a Referral.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "8. The Fees paid to the Consultant by DMCC shall be in respect of all Consultant Services",
+      "heading_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1272,
+        "normalized_start": 1182,
+        "raw_end": 1272,
+        "raw_start": 1182,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "20316f4a467264cba6ab44adc2001f18758e1e7b5ca1cb7aaaa8f1098071725f"
+      },
+      "kind": "unclassified",
+      "order": 61,
+      "requirement_status": "unspecified",
+      "section_id": "sec_b42052a5ecb3b230b2c8",
+      "source_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_9eb9247eecd80b6d3e5e",
+        "normalized_end": 1305,
+        "normalized_start": 1182,
+        "raw_end": 1305,
+        "raw_start": 1182,
+        "source_id": "src_05e7b0bede63de9379f4",
+        "text_sha256": "db4d858d0956b5d96f14a7ffabf8b472cb6d40bf50ae11a91f06f6e6211aef85"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "extracted_text_sha256": "1f4ee256671d7fa3ebd66e7a702b374cc6681929ebc977c3d94891985b627513",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 15,
+      "relative_path": "templates/Émirats arabes unis/CSP_Agreement_Final (1).pdf",
+      "sha256": "f7ffad95502b6405dba1a9ff0e8ce66e46d1ff913fbadcbd866ecb19de5b70e1",
+      "size_bytes": 127582,
+      "source_id": "src_05e7b0bede63de9379f4"
+    },
+    {
+      "extracted_text_sha256": "1f4ee256671d7fa3ebd66e7a702b374cc6681929ebc977c3d94891985b627513",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 15,
+      "relative_path": "templates/Émirats arabes unis/CSP_Agreement_Final.pdf",
+      "sha256": "f7ffad95502b6405dba1a9ff0e8ce66e46d1ff913fbadcbd866ecb19de5b70e1",
+      "size_bytes": 127582,
+      "source_id": "src_64739fbcd2ba8b7b146e"
+    }
+  ],
+  "template_id": "tpl_f75c6bfd0e7410a8c1f1",
+  "unparsed_source_content": [],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

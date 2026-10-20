@@ -1,0 +1,79 @@
+{
+  "artifact_key": "src_7a071901043747a2b2c7",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_7a071901043747a2b2c7/canonical.json",
+    "extraction": "artifacts/pilot/src_7a071901043747a2b2c7/extraction.json",
+    "review": "artifacts/review-queue/review_ecaaea4439fc887c97ea.json",
+    "validation": "artifacts/pilot/src_7a071901043747a2b2c7/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.322767Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "completed_contract",
+  "required_reviews": [
+    "classification",
+    "extraction",
+    "legal",
+    "privacy",
+    "sanitization",
+    "structure"
+  ],
+  "review_coverage": "full",
+  "review_record_id": "review_ecaaea4439fc887c97ea",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/Maroc/Modele-de-contrat.pdf",
+      "sha256": "c1fcdd73b5999309b9bc9c89585a99e0b8cb0e98555ac79d6ee69bb62cc1b5ab",
+      "source_id": "src_7a071901043747a2b2c7"
+    }
+  ],
+  "template_id": "tpl_17305c5bb61ded14ee59",
+  "training_eligibility": "review_required",
+  "updated_at": "2026-08-12T14:00:38.322767Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:00:38.322767Z",
+    "errors": [],
+    "valid": true
+  }
+}

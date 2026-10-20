@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% block title %}{{ state.review_record_id }}{% endblock %}
+{% block content %}
+<p><a href="{{ url_for('queue') }}">← Queue</a></p>
+<h1><code>{{ state.review_record_id }}</code></h1>
+<div class="grid">
+  <div class="card"><strong>{{ state.review_coverage }}</strong><br><span class="muted">coverage</span></div>
+  <div class="card"><strong>{{ extraction.extraction_status }}</strong><br><span class="muted">{{ extraction.method }}</span></div>
+  <div class="card"><strong>{{ canonical.document.document_kind if canonical else 'no canonical copy' }}</strong><br><span class="muted">initial: {{ state.initial_classification }}</span></div>
+  <div class="card"><strong>{{ state.final_disposition }}</strong><br><span class="muted">revision {{ state.revision }}, {{ state.training_eligibility }}</span></div>
+</div>
+<div class="card">
+  <h2>Immutable sources</h2>
+  {% for source in state.sources %}<p><a href="{{ url_for('source',source_id=source.source_id) }}" target="_blank" dir="auto">{{ source.relative_path }}</a><br><small><code>{{ source.sha256 }}</code></small></p>{% endfor %}
+  {% if state.sources|length>1 %}<span class="tag">One shared review for {{ state.sources|length }} exact duplicate paths</span>{% endif %}
+</div>
+{% if state.validation.errors %}<div class="card"><h2>Validation errors</h2><ul>{% for error in state.validation.errors %}<li><code>{{ error }}</code></li>{% endfor %}</ul></div>{% endif %}
+{% if extraction.warnings %}<div class="card"><h2>Extraction warnings</h2><ul>{% for warning in extraction.warnings %}<li>{{ warning }}</li>{% endfor %}</ul></div>{% endif %}
+
+<div class="split">
+<section>
+  <div class="card"><h2>Extracted evidence</h2><p class="muted">Select text in a block to fill the evidence-bound sanitization coordinates.</p>
+  {% for block in extraction.blocks %}<details {% if loop.first %}open{% endif %}><summary>{{ block.block_id }} · {{ block.kind }} {{ block.location }}</summary><pre class="evidence" dir="auto" data-block="{{ block.block_id }}">{{ block.normalized_text }}</pre></details>{% else %}<p>No readable blocks.</p>{% endfor %}
+  </div>
+  {% if canonical %}
+  <div class="card"><h2>Canonical structure</h2>
+    <p><strong>Languages:</strong> {{ canonical.document.languages|map(attribute='tag')|join(', ') }}</p>
+    <p><strong>Variables:</strong> {% for v in canonical.variables %}<span class="tag">{{ v.variable_id }} · {{ v.value_type }}</span>{% else %}none{% endfor %}</p>
+    {% for section in canonical.sections %}<details><summary>{{ section.order }}. {{ section.kind }} — {{ section.heading or 'unlabelled' }}</summary><p>Status: {{ section.requirement_status }}{% if section.condition %}; condition: {{ section.condition }}{% endif %}</p>{% for clause in section.clauses %}<article><strong>{{ clause.order }}. {{ clause.clause_type }}</strong><pre class="evidence" dir="auto">{{ clause.text }}</pre></article>{% endfor %}</details>{% endfor %}
+    <details><summary>Unparsed source content ({{ canonical.unparsed_source_content|length }})</summary>{% for item in canonical.unparsed_source_content %}<pre class="evidence" dir="auto">{{ item.text }}</pre>{% endfor %}</details>
+  </div>
+  {% endif %}
+</section>
+
+<aside>
+{% if canonical %}
+<form class="card" method="post" action="{{ url_for('correct_classification',review_id=state.review_record_id) }}">
+  <h2>Classification</h2>
+  <label>Document kind<select name="document_kind">{% for v in ['contract_template','completed_contract','policy','form','letter','resolution','court_filing','guidance','other','unknown'] %}<option {% if canonical.document.document_kind==v %}selected{% endif %}>{{ v }}</option>{% endfor %}</select></label>
+  <label>Template state<select name="template_state">{% for v in ['blank','completed','mixed','unknown'] %}<option {% if canonical.document.template_state==v %}selected{% endif %}>{{ v }}</option>{% endfor %}</select></label>
+  <label>Contract family<select name="contract_family">{% for v in ['employment','commercial','saas','nda','investment','real_estate','procurement','unknown'] %}<option {% if canonical.document.contract_family==v %}selected{% endif %}>{{ v }}</option>{% endfor %}</select></label>
+  <label>Contract type<input name="contract_type" value="{{ canonical.document.contract_type or '' }}"></label>
+  <label>Language tags, comma-separated<input name="languages" value="{{ canonical.document.languages|map(attribute='tag')|join(', ') }}"></label>
+  <button>Save correction</button>
+</form>
+
+<form class="card" method="post" action="{{ url_for('sanitize',review_id=state.review_record_id) }}">
+  <h2>Exact sanitization</h2>
+  <div class="inline"><label>Block<input id="san-block" name="block_id" required></label><label>Start<input id="san-start" name="start" type="number" min="0" required></label><label>End<input id="san-end" name="end" type="number" min="1" required></label></div>
+  <label>Variable ID<input name="variable_id" pattern="[a-z][a-z0-9_]*" required placeholder="client_name"></label>
+  <label>Value type<select name="value_type">{% for v in ['text','date','number','money','duration','address','identifier','signature','choice','unknown'] %}<option>{{ v }}</option>{% endfor %}</select></label>
+  <button>Replace exact evidence</button>
+</form>
+
+<details class="card"><summary>Structured correction JSON</summary><p class="muted">Editable keys: document, languages, section/clause labels and ordering, and variable metadata. Source text and evidence spans are rejected.</p><form method="post" action="{{ url_for('correct_structure',review_id=state.review_record_id) }}"><textarea name="correction" dir="ltr">{}</textarea><button>Validate and save</button></form></details>
+{% endif %}
+
+<div class="card"><h2>Category decisions</h2>
+{% for category in categories %}{% set decision=state.decisions[category] %}<details {% if category in state.required_reviews %}open{% endif %}><summary>{{ category }} — <span class="status-{{ decision.status }}">{{ decision.status }}</span>{% if category in state.required_reviews %} *{% endif %}</summary>
+{% if category in state.required_reviews %}<form method="post" action="{{ url_for('decision',review_id=state.review_record_id) }}"><input type="hidden" name="category" value="{{ category }}"><label>Decision<select name="status"><option>approved</option><option>changes_required</option><option>rejected</option></select></label><label>Required notes<textarea name="notes" required>{{ decision.notes }}</textarea></label><button>Record decision</button></form>{% else %}<p class="muted">Not required by this record's risk-based coverage.</p>{% endif %}
+</details>{% endfor %}
+</div>
+
+<form class="card" method="post" action="{{ url_for('final',review_id=state.review_record_id) }}"><h2>Final disposition</h2><label>Disposition<select name="disposition"><option>approved</option><option>changes_required</option><option>rejected</option></select></label><label>Required notes<textarea name="notes" required></textarea></label><button>Finalize</button></form>
+<details class="card"><summary>Revision history</summary><ol>{% for rev in state.revision_history|reverse %}<li>{{ rev.revision }} · {{ rev.action }} · {{ rev.reviewer }} · {{ rev.created_at }}</li>{% else %}<li>No changes yet.</li>{% endfor %}</ol></details>
+</aside>
+</div>
+<script>
+document.querySelectorAll('pre[data-block]').forEach(function (node) {
+  node.addEventListener('mouseup', function () {
+    const selection = window.getSelection(); if (!selection || selection.rangeCount !== 1 || selection.isCollapsed) return;
+    const range = selection.getRangeAt(0); if (!node.contains(range.commonAncestorContainer)) return;
+    const before = range.cloneRange(); before.selectNodeContents(node); before.setEnd(range.startContainer, range.startOffset);
+    document.getElementById('san-block').value = node.dataset.block;
+    document.getElementById('san-start').value = before.toString().length;
+    document.getElementById('san-end').value = before.toString().length + range.toString().length;
+  });
+});
+</script>
+{% endblock %}

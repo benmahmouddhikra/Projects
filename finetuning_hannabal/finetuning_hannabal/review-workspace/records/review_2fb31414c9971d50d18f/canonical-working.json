@@ -1,0 +1,248 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_82d814e1661f732a2fe1",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "completed_contract",
+    "initial_document_kind": "completed_contract",
+    "languages": [
+      {
+        "basis": "script_detection",
+        "confidence": 0.8066,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_3cef4f247f31af5a3acb",
+            "normalized_end": 3055,
+            "normalized_start": 0,
+            "raw_end": 3055,
+            "raw_start": 0,
+            "source_id": "src_f071e49ce22d21a0e919",
+            "text_sha256": "49bec4b85d6eeb4996c00780014d40552db7d6c4a75ff37145166a0519dd0428"
+          }
+        ],
+        "tag": "ar"
+      },
+      {
+        "basis": "deterministic_text_heuristic",
+        "confidence": 0.0,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_3cef4f247f31af5a3acb",
+            "normalized_end": 3055,
+            "normalized_start": 0,
+            "raw_end": 3055,
+            "raw_start": 0,
+            "source_id": "src_f071e49ce22d21a0e919",
+            "text_sha256": "49bec4b85d6eeb4996c00780014d40552db7d6c4a75ff37145166a0519dd0428"
+          }
+        ],
+        "tag": "und-Latn"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "completed",
+    "title": "2nd October 2016",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_3cef4f247f31af5a3acb",
+        "normalized_end": 16,
+        "normalized_start": 0,
+        "raw_end": 16,
+        "raw_start": 0,
+        "source_id": "src_f071e49ce22d21a0e919",
+        "text_sha256": "b0badc2fc475e1820a5ecfa836e069fe43ecdadab92371d1a8908e9853856f5f"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "completed_contract_heuristic_requires_review",
+        "message": "Contract-like filename without detected square-bracket placeholders was initially classified completed and requires human confirmation.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "required",
+    "structure_review_status": "pending",
+    "training_eligibility": "review_required"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_1797d3283080cf54bb69",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2nd October 2016",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_3cef4f247f31af5a3acb",
+            "normalized_end": 2903,
+            "normalized_start": 18,
+            "raw_end": 2903,
+            "raw_start": 18,
+            "source_id": "src_f071e49ce22d21a0e919",
+            "text_sha256": "f87c89cdf0f0783dbedd68aaa4b6c0add1c11fe08f7dde3d8ce7f3034463fa10"
+          },
+          "text": "ﻧموذج ﻋﻘد ﺑيﻊ ﺷﻘﺔ ﻓﻲ ﻋمﺎرة ﻓﻲ ﻣجمﻊ أﺑراج ﺳكنيﺔ \nhttps://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEGNj295ey9sc772kHKmwyaUYkwbg2JVB0ux0HbdQ0]\nW6rjvVyZInkGG24BWkjHgOQolQGDCz6zBkls88jC7Thb3gmHbYOnH94sJfmWoUjusM8U4BiTy-\n  [bAjN47l3T0yh16K_orJ_CtTgA/s1600/45856.PNG\n،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،،\nبسم ﷲ اﻟرﺣمن اﻟرﺣيم \nﻋﻘد اﺗﻔﺎق ﻋﻠﻰ ﺑيﻊ ﺷﻘﺔ ﺳكنيﺔ\n ﺗم ﺗحريرﻩ ﺑين كﻞ ﻣن: - 2016/       /        اﻟمواﻓق              اﻧﻪ ﻓﻲ ﻫذا اﻟيوم \n( \" ﺑﺎﺋﻊ\".                         ھوﯾﺔ ).  …………………………………………………اﻟﻔريق اﻷول:  \n( \" ﻣﺷﺗري\"                     ھوﯾﺔ )  ..…………………………… ……………......اﻟﻔرﯾﻖ اﻟﺛﺎﻧﻲ: \nاﻟمﻘدﻣﺔ:\n( اﻟمﻌروﻓﺔ بﺎﺳم أﺑراج ...................................     ) ( اﻟواﻗﻌﺔ بﺎﻟدور.......... ﺑرج رﻗم           ) ﺣيث أن اﻟﻔريق اﻷول يمﻠك ويتصرف بﺎﻟشﻘﺔ رﻗم  \n........................................................ واﻟتﻲ آﻟت إﻟيﻪ ﻋن طريق \nويرﻏب ﻓﻲ ﺑيﻊ اﻟشﻘﺔ ﻟﻠﻔريق اﻟثﺎﻧﻲ وﺣيث أن اﻟﻔريق اﻟثﺎﻧﻲ ﯾرﻏب ﻓﻲ ﺷراء ﻫذﻩ اﻟشﻘﺔ اﻟمذكورة واﻟموﺻوﻓﺔ أﻋﻼﻩ . \nﻟذا ﻓﻘد اﺗﻔق اﻟﻔريﻘﺎن بﺈيجﺎب وﻗبول كﻞ ﻣنﻬمﺎ بﻌد أن أﻗرا بﺄﻫﻠيتﻬمﺎ اﻟﻘﺎﻧوﻧيﺔ بﺎﻟتصرف واﻟتﻌﺎﻗد ﻋﻠﻰ اﻵﺗﻲ:- \nﺗﻌتبر ﻣﻘدﻣﺔ ﻫذا اﻟﻌﻘد واﻟمستندات اﻟمرﻓﻘﺔ ﺟزءا ﻻ ﯾتجزأ ﻣنﻪ وﺗﻘرأ ﻣﻌﻪ .  ﻣﻘدﻣﺔ اﻟﻌﻘد:  _1\n بﺎع وأﺳﻘط وﺗنﺎزل بموﺟب ﻫذا اﻟﻌﻘد وبكﺎﻓﺔ اﻟضمﺎﻧﺎت اﻟﻔﻌﻠيﺔ واﻟﻘﺎﻧوﻧيﺔ اﻟﻔريق اﻷول ﻟﻠﻔريق اﻟثﺎﻧﻲ اﻟﻘﺎﺑﻞ ﻟذﻟك _ 2\n( اﻟمﻌروﻓﺔ بﺎﺳم أﺑراج ................................... واﻟتﻲ آﻟت إﻟيﻪ ﻋن طريق     ) ( اﻟواﻗﻌﺔ بﺎﻟدور.......... ﺑرج رﻗم           ) اﻟشﻘﺔ رﻗم\n........................................................\n( ................................ أو ﻣﺎ يﻌﺎدﻟﻬﺎ بﺎﻟنﻘد اﻟمتداول ﻗﺎﻧوﻧﺎً، وﺗم دﻓﻊ كﺎﻣﻞ اﻟثمن اﻟمذكور                  )  ﺗم ﻫذا اﻟبيﻊ وﻗبﻞ ﺑثمن إﺟمﺎﻟﻲ وﻗدرﻩ _ 4\n. ﻟﻠشﻘﺔ اﻟموﺻوﻓﺔ اﻋﻼﻩ و ان اﻟتوقيﻊ ﻋﻠﻰ ﻫذا اﻟﻌﻘد بمثﺎبﺔ اﺳتﻼم ايصﺎل بﺎﻟدﻓﻊ \n يﻘر اﻟﻔريق اﻟثﺎﻧﻲ بﺄﻧﻪ ﻗد ﻋﺎﯾن اﻟشﻘﺔ ﻣﻌﺎﯾنﺔ ﺗﺎﻣﺔ ﻧﺎفيﺔ ﻟﻠجﻬﺎﻟﺔ , ويﻘر اﻟﻔريﻘﺎن بﺄن ﻫذا اﻟبيﻊ ﻻزم وﻧﺎﻓذ بحق كﻞ ﻣنﻬمﺎ وﻻ يحق ﻷي ﻓريق اﻟنكول ﻋنﻪ أو _ 5\nاﻟرﺟوع فيﻪ ﻷي ﺳبب ﻣن اﻷﺳبﺎب و اﻟمخﻞ بشروط ﻫذا اﻟﻌﻘد ﯾﻠزم ﺑدﻓﻊ اﻟﻌطﻞ واﻟضرر كمﺎ يﻘر اﻟﻔريق اﻟثﺎﻧﻲ بﺄﻧﻪ ﺗسﻠم اﻟشﻘﺔ اﻟمبﺎﻋﺔ ﻣوﺿوع ﻫذا اﻟﻌﻘد , ويﻌتبر \nاﻟتوقيﻊ ﻋﻠﻰ ﻫذا اﻟﻌﻘد بمثﺎبﺔ إﻗرار ﻣنﻪ ﺑوﻗوع ﻋمﻠيﺔ اﻟتسﻠم واﻟتسﻠيم .///////////////////// \n يﻘر اﻟﻔريق اﻷول بﺄن اﻟشﻘﺔ اﻟمبﺎﻋﺔ ﻣوﺿوع ﻫذا اﻟﻌﻘد ﺧﺎﻟيﺔ ﻣن أيﺔ ﺣﻘوق ﻋينيﺔ ظﺎﻫرة أو ﺧفيﺔ او ﻓواﺗير ﻣستحﻘﺔ اﻟدﻓﻊ، وإن وﺟدت أي ﺣﻘوق أو إﻟتزاﻣﺎت _ 6\n. ﺳﺎبﻘﺔ ﻟﻬذا اﻟﻌﻘد ﯾتحمﻠﻬﺎ اﻟﻔريق اﻷول\nيﻘر اﻟﻔريﻘﺎن إن ﻫذا اﻟﻌﻘد ﺧﺎﺿﻊ ﻟﻘﺎﻋدة اﻟتنﻔيذ اﻟﻌينﻲ و ﻗد ﺟرى اﻟتسﻠم واﻟتسﻠيم اﻟﻘﺎﻧوﻧﻲ ﻟﻠمسﺎﺣﺔ اﻟمبﺎﻋﺔ بﻌد اﻟمﻌﺎﯾنﺔ اﻟنﺎفيﺔ ﻟﻠجﻬﺎﻟﺔ. وﻗبﻞ اﻟشراء   -7 \n .بﺎﻟحﺎﻟﺔ اﻟحﺎﺿرة وﻻ يحق ﻵي ﻣنﻬمﺎ اﻟﻌدول أواﻟنكول ﻣﻬمﺎ اﺧتﻠﻔت اﻷﺳبﺎب وﺗﻌددت \nﻋﻠﻰ ﻫذا ﺗم اﻻﺗﻔﺎق ﺑين اﻟﻔريﻘين وﺟرى اﻟتسﻠيم واﻟتسﻠم وﻗد وﻗﻌﺎ ﻋﻠيﻪ دون ﺿﻐط أو إﻛراﻩ وأﻣﺎم ﺷﻬود . \nوﷲ ﺧير اﻟشﺎﻫدﯾن ,,,\nﻓريق ﺛﺎﻧﻲ                                                                            ﻓريق أول\nﺷﺎﻫد                                                          ﺷﺎﻫدﻧﻣوذج ﺻﯾﻐﺔ ﻋﻘد ﺑﯾﻊ ﺷﻘﺔ ﻓﻲ ﻋﻣﺎرة ﻓﻲ ﻣﺟﻣﻊ أﺑراج ﺳﻛﻧﯾﺔ",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2nd October 2016",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_3cef4f247f31af5a3acb",
+        "normalized_end": 16,
+        "normalized_start": 0,
+        "raw_end": 16,
+        "raw_start": 0,
+        "source_id": "src_f071e49ce22d21a0e919",
+        "text_sha256": "b0badc2fc475e1820a5ecfa836e069fe43ecdadab92371d1a8908e9853856f5f"
+      },
+      "kind": "unclassified",
+      "order": 1,
+      "requirement_status": "unspecified",
+      "section_id": "sec_7d789a7679113c1aae9f",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_3cef4f247f31af5a3acb",
+        "normalized_end": 2903,
+        "normalized_start": 0,
+        "raw_end": 2903,
+        "raw_start": 0,
+        "source_id": "src_f071e49ce22d21a0e919",
+        "text_sha256": "7f199524973cb1569e95e473e4cee794a92dd3efa227e2c16194a7ac95d55680"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_381de96f4b07e76baaff",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "30/07/2026 13:22  ﻣﺟﻠﺔ اﻟﻣﺣﺎﻣﺎة واﻟﻘﺎﻧون| ﻧﻣوذج ﺻﯾﻐﺔ ﻋﻘد ﺑﯾﻊ ﺷﻘﺔ ﻓﻲ ﻋﻣﺎرة ﻓﻲ ﻣﺟﻣﻊ أﺑراج ﺳﻛﻧﯾﺔ",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_3cef4f247f31af5a3acb",
+            "normalized_end": 3055,
+            "normalized_start": 2998,
+            "raw_end": 3055,
+            "raw_start": 2998,
+            "source_id": "src_f071e49ce22d21a0e919",
+            "text_sha256": "a3c745b0d753b83eb9b99f232b0713e8e148fdc666cf77ed99689a714294a4b3"
+          },
+          "text": "https://lawgaza.blogspot.com/2016/10/blog-post_2.html 1/2",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "30/07/2026 13:22  ﻣﺟﻠﺔ اﻟﻣﺣﺎﻣﺎة واﻟﻘﺎﻧون| ﻧﻣوذج ﺻﯾﻐﺔ ﻋﻘد ﺑﯾﻊ ﺷﻘﺔ ﻓﻲ ﻋﻣﺎرة ﻓﻲ ﻣﺟﻣﻊ أﺑراج ﺳﻛﻧﯾﺔ",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_3cef4f247f31af5a3acb",
+        "normalized_end": 2997,
+        "normalized_start": 2904,
+        "raw_end": 2997,
+        "raw_start": 2904,
+        "source_id": "src_f071e49ce22d21a0e919",
+        "text_sha256": "e8d204054151c7de839699ab4903c8aa479805eefb4f384f3a3fbd08f89b05e7"
+      },
+      "kind": "unclassified",
+      "order": 2,
+      "requirement_status": "unspecified",
+      "section_id": "sec_bde1a4a5bed2af7c1066",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_3cef4f247f31af5a3acb",
+        "normalized_end": 3055,
+        "normalized_start": 2904,
+        "raw_end": 3055,
+        "raw_start": 2904,
+        "source_id": "src_f071e49ce22d21a0e919",
+        "text_sha256": "b5235845d61002f134522552a9fba78563fb6e3b081b6628c5e3f40dc92d6e77"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "extracted_text_sha256": "31b1fd12da674768ce851ba03e9ff239a26bd1a9db719552f218e0f8706dc652",
+      "extraction_method": "pypdf2_page_text",
+      "extraction_status": "success",
+      "extraction_warnings": [],
+      "media_type": "application/pdf",
+      "page_count": 2,
+      "relative_path": "templates/Palestine/نموذج صيغة عقد بيع شقة في عمارة في مجمع أبراج سكنية _ مجلة المحاماة والقانون.pdf",
+      "sha256": "ccf3d4d78c9834f85e7dbd7f7f0c791cb14877c8068108979c94c4f43028dbfe",
+      "size_bytes": 131533,
+      "source_id": "src_f071e49ce22d21a0e919"
+    }
+  ],
+  "template_id": "tpl_07163291ee3ab34dab9a",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_b3ba62f7a5b88e6a53f6",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_3cef4f247f31af5a3acb",
+        "normalized_end": 445,
+        "normalized_start": 0,
+        "raw_end": 445,
+        "raw_start": 0,
+        "source_id": "src_f071e49ce22d21a0e919",
+        "text_sha256": "d1c01b1b4e861ce338c4be84f0ed654c16c758dc5be9b2514cb32667c8580c3e"
+      },
+      "text": "(وأﺻﺎدق ﻋﻠﻰ ﺻحﺔ اﻟتواقيﻊ اﻟواردة فيﻪ                   /اﻟمحﺎﻣﻲ)ﻧظم ﻫذا اﻟسند بمﻌرﻓتﻲ وﺗحت ﻣسؤوﻟيتﻲ أﻧﺎ  \nﻧﻣﺎذج ﻗﺎﻧوﻧﯾﺔ ﺑواﺳطﺔ  2nd October 2016  ﺗم اﻟﻧﺷر ﻗﺑل\nﻧﻣوذج ﻋﻘد ﺑﯾﻊ ﺷﻘﺔ  ,ﻧﻣوذج ,ﻋﻘود ﺑﯾﻊ  ,ﻋﻘود اﻟﻌﻘﺎرات  ,ﻋﻘود ,ﻋﻘد ﺑﯾﻊ ﺷﻘﺔ  ,ﻋﻘد ﺑﯾﻊ  ,ﺻﯾﻐﺔ ﻋﻘد ﺑﯾﻊ ﺷﻘﺔ  ,ﺻﯾﻎ ﻋﻘود. ﻧﻣﺎذج ﻋﻘوداﻟﺗﺻﻧﯾﻔﺎت:  30/07/2026 13:22  ﻣﺟﻠﺔ اﻟﻣﺣﺎﻣﺎة واﻟﻘﺎﻧون| ﻧﻣوذج ﺻﯾﻐﺔ ﻋﻘد ﺑﯾﻊ ﺷﻘﺔ ﻓﻲ ﻋﻣﺎرة ﻓﻲ ﻣﺟﻣﻊ أﺑراج ﺳﻛﻧﯾﺔ\nhttps://lawgaza.blogspot.com/2016/10/blog-post_2.html 2/2"
+    }
+  ],
+  "variables": [],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

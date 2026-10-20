@@ -1,0 +1,1900 @@
+{
+  "audit_history": [
+    {
+      "action": "deterministic_assembly",
+      "action_id": "action_f8a41b169fbb143efccb",
+      "actor": "contract-template-dataset-pipeline-1.0.0",
+      "actor_type": "pipeline",
+      "details": "Assembled only from validated source spans; no legal approval or training eligibility asserted."
+    }
+  ],
+  "document": {
+    "contract_family": "unknown",
+    "contract_type": null,
+    "document_kind": "contract_template",
+    "initial_document_kind": "contract_template",
+    "languages": [
+      {
+        "basis": "deterministic_text_heuristic",
+        "confidence": 0.224,
+        "evidence": [
+          {
+            "block_id": "block_000001",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 29,
+            "normalized_start": 8,
+            "raw_end": 29,
+            "raw_start": 8,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "fcb04cd7c359fdac76c434b2b3cc97de589c9124c94aa929b4ac2d0f814e17ac"
+          }
+        ],
+        "tag": "en"
+      }
+    ],
+    "reclassification_history": [],
+    "template_state": "blank",
+    "title": "CONSULTANCY AGREEMENT",
+    "title_evidence": [
+      {
+        "block_id": "block_000001",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 29,
+        "normalized_start": 8,
+        "raw_end": 29,
+        "raw_start": 8,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "fcb04cd7c359fdac76c434b2b3cc97de589c9124c94aa929b4ac2d0f814e17ac"
+      }
+    ]
+  },
+  "jurisdictions": [],
+  "model_assistance": {
+    "model_tag": "qwen3.5:4b-q4_K_M",
+    "provider": "ollama",
+    "reason": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+    "status": "unavailable"
+  },
+  "parties": [],
+  "quality": {
+    "extraction_status": "success",
+    "issues": [
+      {
+        "code": "human_review_required",
+        "message": "No human structure, privacy, or legal approval has been recorded.",
+        "severity": "warning"
+      },
+      {
+        "code": "model_assistance_unavailable",
+        "message": "Configured model 'qwen3.5:4b-q4_K_M' is not installed/reachable. Installed Ollama models: ['qwen2.5:3b'].",
+        "severity": "warning"
+      }
+    ],
+    "legal_review_status": "pending",
+    "privacy_review_status": "pending",
+    "sanitization_status": "not_required",
+    "structure_review_status": "pending",
+    "training_eligibility": "review_required"
+  },
+  "sanitization_history": [],
+  "schema_version": "contract-template-v1",
+  "sections": [
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_609da94275ed9287932b",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "CONSULTANCY AGREEMENT",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000001",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 29,
+            "normalized_start": 0,
+            "raw_end": 29,
+            "raw_start": 0,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "b23196217e05e11da2925e3ba735fce349d44aed9168951f81ea29ccd6e7fd21"
+          },
+          "text": "        CONSULTANCY AGREEMENT",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "CONSULTANCY AGREEMENT",
+      "heading_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 29,
+        "normalized_start": 0,
+        "raw_end": 29,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "b23196217e05e11da2925e3ba735fce349d44aed9168951f81ea29ccd6e7fd21"
+      },
+      "kind": "unclassified",
+      "order": 1,
+      "requirement_status": "unspecified",
+      "section_id": "sec_721e778b718396fbdbe1",
+      "source_span": {
+        "block_id": "block_000001",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 29,
+        "normalized_start": 0,
+        "raw_end": 29,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "b23196217e05e11da2925e3ba735fce349d44aed9168951f81ea29ccd6e7fd21"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_f5e5dd7e7f7906d25dc6",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2- Mr. / Mrs. ----------, having elected domicile for the purposes of this Agreement in       ______________________________,",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000010",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 125,
+            "normalized_start": 0,
+            "raw_end": 125,
+            "raw_start": 0,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "082b8671d303efae4fa8989fdcabfc968a93cd08265e7d79cfef284c599aa1b2"
+          },
+          "text": "2- Mr. / Mrs. ----------, having elected domicile for the purposes of this Agreement in       ______________________________,",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2- Mr. / Mrs. ----------, having elected domicile for the purposes of this Agreement in       ______________________________,",
+      "heading_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 125,
+        "normalized_start": 0,
+        "raw_end": 125,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "082b8671d303efae4fa8989fdcabfc968a93cd08265e7d79cfef284c599aa1b2"
+      },
+      "kind": "unclassified",
+      "order": 2,
+      "requirement_status": "unspecified",
+      "section_id": "sec_eaacca343f14f671c74a",
+      "source_span": {
+        "block_id": "block_000010",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 125,
+        "normalized_start": 0,
+        "raw_end": 125,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "082b8671d303efae4fa8989fdcabfc968a93cd08265e7d79cfef284c599aa1b2"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_2de7e2bac0714c49b6ce",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "PREAMBLE",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000013",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 8,
+            "normalized_start": 0,
+            "raw_end": 8,
+            "raw_start": 0,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "553114c217ed200fea1d75ba42be386b5e97230b239ab3c57b7422175fb18f71"
+          },
+          "text": "PREAMBLE",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "PREAMBLE",
+      "heading_span": {
+        "block_id": "block_000013",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 8,
+        "normalized_start": 0,
+        "raw_end": 8,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "553114c217ed200fea1d75ba42be386b5e97230b239ab3c57b7422175fb18f71"
+      },
+      "kind": "unclassified",
+      "order": 3,
+      "requirement_status": "unspecified",
+      "section_id": "sec_4091441b03218c37833b",
+      "source_span": {
+        "block_id": "block_000013",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 8,
+        "normalized_start": 0,
+        "raw_end": 8,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "553114c217ed200fea1d75ba42be386b5e97230b239ab3c57b7422175fb18f71"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_cf97f9fd8463523d4191",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 1: PRELIMINARY PROVISION",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000017",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 32,
+            "normalized_start": 0,
+            "raw_end": 32,
+            "raw_start": 0,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "23c47dca3547e835ab6deabe26ed7ce4fbc07a32e77730cdad3ffaa9ba3cd950"
+          },
+          "text": "ARTICLE 1: PRELIMINARY PROVISION",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 1: PRELIMINARY PROVISION",
+      "heading_span": {
+        "block_id": "block_000017",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 32,
+        "normalized_start": 0,
+        "raw_end": 32,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "23c47dca3547e835ab6deabe26ed7ce4fbc07a32e77730cdad3ffaa9ba3cd950"
+      },
+      "kind": "unclassified",
+      "order": 4,
+      "requirement_status": "unspecified",
+      "section_id": "sec_301d7758e6801e1e3f72",
+      "source_span": {
+        "block_id": "block_000017",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 32,
+        "normalized_start": 0,
+        "raw_end": 32,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "23c47dca3547e835ab6deabe26ed7ce4fbc07a32e77730cdad3ffaa9ba3cd950"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_275a1ee6b8f12d078c0f",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 2: Object of this Agreement",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000019",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 35,
+            "normalized_start": 0,
+            "raw_end": 35,
+            "raw_start": 0,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "211226bf70dc056a7a0a1b535f0b23c3b55b49bb48684d2c7174803cdd060671"
+          },
+          "text": "ARTICLE 2: Object of this Agreement",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 2: Object of this Agreement",
+      "heading_span": {
+        "block_id": "block_000019",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 36,
+        "normalized_start": 0,
+        "raw_end": 36,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "85d101e96a8ca9d17e6ddac87c34d7f0c38117c3ae30ce6a8c521a8b648cfb82"
+      },
+      "kind": "unclassified",
+      "order": 5,
+      "requirement_status": "unspecified",
+      "section_id": "sec_0ea044ca1c7a1926230c",
+      "source_span": {
+        "block_id": "block_000019",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 35,
+        "normalized_start": 0,
+        "raw_end": 35,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "211226bf70dc056a7a0a1b535f0b23c3b55b49bb48684d2c7174803cdd060671"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_fd973223f60d0699c071",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2.1 \tThe First Party hereby retains the Second Party as its ---------- consultant to provide it with the Services described in Annex 1.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000020",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 135,
+            "normalized_start": 0,
+            "raw_end": 135,
+            "raw_start": 0,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "ad39519e43496aa854789d98fbdb79cbc17742a5edfe43e6eb492c4c32b4fd3a"
+          },
+          "text": "2.1 \tThe First Party hereby retains the Second Party as its ---------- consultant to provide it with the Services described in Annex 1.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2.1 \tThe First Party hereby retains the Second Party as its ---------- consultant to provide it with the Services described in Annex 1.",
+      "heading_span": {
+        "block_id": "block_000020",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 135,
+        "normalized_start": 0,
+        "raw_end": 135,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "ad39519e43496aa854789d98fbdb79cbc17742a5edfe43e6eb492c4c32b4fd3a"
+      },
+      "kind": "unclassified",
+      "order": 6,
+      "requirement_status": "unspecified",
+      "section_id": "sec_1386b16c81da3f83d8c6",
+      "source_span": {
+        "block_id": "block_000020",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 135,
+        "normalized_start": 0,
+        "raw_end": 135,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "ad39519e43496aa854789d98fbdb79cbc17742a5edfe43e6eb492c4c32b4fd3a"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_99e69299f0ed56a6ff4d",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "2.2 \tThe Second Party hereby accepts to render the Services to the First Party throughout the term of this Agreement.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000021",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 117,
+            "normalized_start": 0,
+            "raw_end": 117,
+            "raw_start": 0,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "480678a07fd21c80b5c22050757e6140297c482c2152397e37a12fb5763ccc5e"
+          },
+          "text": "2.2 \tThe Second Party hereby accepts to render the Services to the First Party throughout the term of this Agreement.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "2.2 \tThe Second Party hereby accepts to render the Services to the First Party throughout the term of this Agreement.",
+      "heading_span": {
+        "block_id": "block_000021",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 118,
+        "normalized_start": 0,
+        "raw_end": 118,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "a08bfc71482f0e60a4894715c12d08188b60d0e45cd9aa8f1052bdc66d78559c"
+      },
+      "kind": "unclassified",
+      "order": 7,
+      "requirement_status": "unspecified",
+      "section_id": "sec_b19b7874b29584d34813",
+      "source_span": {
+        "block_id": "block_000021",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 117,
+        "normalized_start": 0,
+        "raw_end": 117,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "480678a07fd21c80b5c22050757e6140297c482c2152397e37a12fb5763ccc5e"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_011fd22eeb8064d3e112",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 3: Fees",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000022",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 15,
+            "normalized_start": 0,
+            "raw_end": 15,
+            "raw_start": 0,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "611cec7cea7b89c3e398d637a8266d277c5201fb250dd456275970fbf171b323"
+          },
+          "text": "ARTICLE 3: Fees",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 3: Fees",
+      "heading_span": {
+        "block_id": "block_000022",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 16,
+        "normalized_start": 0,
+        "raw_end": 16,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "96b95e07ae8633e5481a2be0b84b81000f7c358cbe4197afb8b5332e36e8f103"
+      },
+      "kind": "unclassified",
+      "order": 8,
+      "requirement_status": "unspecified",
+      "section_id": "sec_622ef9c4b63f60433c16",
+      "source_span": {
+        "block_id": "block_000022",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 15,
+        "normalized_start": 0,
+        "raw_end": 15,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "611cec7cea7b89c3e398d637a8266d277c5201fb250dd456275970fbf171b323"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_68ff6c20013b4eb4d6cd",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 4: Taxes",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000027",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 16,
+            "normalized_start": 0,
+            "raw_end": 16,
+            "raw_start": 0,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "8e30e56036c3da785d629a9d67900075ac1be256396f474f699f981b7c4c9abd"
+          },
+          "text": "ARTICLE 4: Taxes",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 4: Taxes",
+      "heading_span": {
+        "block_id": "block_000027",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 16,
+        "normalized_start": 0,
+        "raw_end": 16,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "8e30e56036c3da785d629a9d67900075ac1be256396f474f699f981b7c4c9abd"
+      },
+      "kind": "unclassified",
+      "order": 9,
+      "requirement_status": "unspecified",
+      "section_id": "sec_0de18ef4af4c1b1ffdb1",
+      "source_span": {
+        "block_id": "block_000027",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 16,
+        "normalized_start": 0,
+        "raw_end": 16,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "8e30e56036c3da785d629a9d67900075ac1be256396f474f699f981b7c4c9abd"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_5a6cda3aa64a57b68147",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "4.1 Any taxes shall be borne and paid by the Second Party to the competent public authorities.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000028",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 94,
+            "normalized_start": 0,
+            "raw_end": 94,
+            "raw_start": 0,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "bdb2236a79e163cb0a03aebbab55ff7a30cc95ea758dcb5614cd6c99ad94ae85"
+          },
+          "text": "4.1 Any taxes shall be borne and paid by the Second Party to the competent public authorities.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "4.1 Any taxes shall be borne and paid by the Second Party to the competent public authorities.",
+      "heading_span": {
+        "block_id": "block_000028",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 94,
+        "normalized_start": 0,
+        "raw_end": 94,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "bdb2236a79e163cb0a03aebbab55ff7a30cc95ea758dcb5614cd6c99ad94ae85"
+      },
+      "kind": "unclassified",
+      "order": 10,
+      "requirement_status": "unspecified",
+      "section_id": "sec_693a9ac01ca886407c9b",
+      "source_span": {
+        "block_id": "block_000028",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 94,
+        "normalized_start": 0,
+        "raw_end": 94,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "bdb2236a79e163cb0a03aebbab55ff7a30cc95ea758dcb5614cd6c99ad94ae85"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_09c927d716946db90117",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 5: Term",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000030",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 15,
+            "normalized_start": 0,
+            "raw_end": 15,
+            "raw_start": 0,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "10ac03828831a3446dc12dad98dab90f20ef31c2c261ac51a777821c84ad7753"
+          },
+          "text": "ARTICLE 5: Term",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 5: Term",
+      "heading_span": {
+        "block_id": "block_000030",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 15,
+        "normalized_start": 0,
+        "raw_end": 15,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "10ac03828831a3446dc12dad98dab90f20ef31c2c261ac51a777821c84ad7753"
+      },
+      "kind": "unclassified",
+      "order": 11,
+      "requirement_status": "unspecified",
+      "section_id": "sec_4251ee556fed708eb2fa",
+      "source_span": {
+        "block_id": "block_000030",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 15,
+        "normalized_start": 0,
+        "raw_end": 15,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "10ac03828831a3446dc12dad98dab90f20ef31c2c261ac51a777821c84ad7753"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_d08c5c0b9e18deaf9a90",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 6: Confidentiality",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000032",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 26,
+            "normalized_start": 0,
+            "raw_end": 26,
+            "raw_start": 0,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "2c2909ccf96e9b8b399029d3617645f96fbaff2c7328efcf5cdc8a91d6ef8aa0"
+          },
+          "text": "ARTICLE 6: Confidentiality",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 6: Confidentiality",
+      "heading_span": {
+        "block_id": "block_000032",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 26,
+        "normalized_start": 0,
+        "raw_end": 26,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "2c2909ccf96e9b8b399029d3617645f96fbaff2c7328efcf5cdc8a91d6ef8aa0"
+      },
+      "kind": "unclassified",
+      "order": 12,
+      "requirement_status": "unspecified",
+      "section_id": "sec_1eb861fcb086a94aa91e",
+      "source_span": {
+        "block_id": "block_000032",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 26,
+        "normalized_start": 0,
+        "raw_end": 26,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "2c2909ccf96e9b8b399029d3617645f96fbaff2c7328efcf5cdc8a91d6ef8aa0"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_f88447ae1ad0144c8da2",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 7: Termination",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000038",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 22,
+            "normalized_start": 0,
+            "raw_end": 22,
+            "raw_start": 0,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "14a5f7100ec7c20f4f6e6c59fcd177c139ef57fd11e40208d02efef709caff3a"
+          },
+          "text": "ARTICLE 7: Termination",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 7: Termination",
+      "heading_span": {
+        "block_id": "block_000038",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 23,
+        "normalized_start": 0,
+        "raw_end": 23,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "f579a2ad0e163c829688a96fca31087c848df71330a0f34727e1e39e65796496"
+      },
+      "kind": "unclassified",
+      "order": 13,
+      "requirement_status": "unspecified",
+      "section_id": "sec_f684bea98602c831cfba",
+      "source_span": {
+        "block_id": "block_000038",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 22,
+        "normalized_start": 0,
+        "raw_end": 22,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "14a5f7100ec7c20f4f6e6c59fcd177c139ef57fd11e40208d02efef709caff3a"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_7a46c2dde2524673cf63",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "7.1\tThis Agreement may be terminated at any time during its Term by mutual written consent of the Parties.",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000039",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 106,
+            "normalized_start": 0,
+            "raw_end": 106,
+            "raw_start": 0,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "d61bbedcebce76bbd9b699ff3c37144566c539616d5b47dc7d82f26c522babea"
+          },
+          "text": "7.1\tThis Agreement may be terminated at any time during its Term by mutual written consent of the Parties.",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "7.1\tThis Agreement may be terminated at any time during its Term by mutual written consent of the Parties.",
+      "heading_span": {
+        "block_id": "block_000039",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 106,
+        "normalized_start": 0,
+        "raw_end": 106,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "d61bbedcebce76bbd9b699ff3c37144566c539616d5b47dc7d82f26c522babea"
+      },
+      "kind": "unclassified",
+      "order": 14,
+      "requirement_status": "unspecified",
+      "section_id": "sec_c6674b2755076675a60a",
+      "source_span": {
+        "block_id": "block_000039",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 106,
+        "normalized_start": 0,
+        "raw_end": 106,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "d61bbedcebce76bbd9b699ff3c37144566c539616d5b47dc7d82f26c522babea"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_e37b17563ca3325e5483",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 8: Notices",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000041",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 18,
+            "normalized_start": 0,
+            "raw_end": 18,
+            "raw_start": 0,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "d4b019dfcff4ce720d9d7f747bfed60239e480c7b58b5da315a33905521cca28"
+          },
+          "text": "ARTICLE 8: Notices",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 8: Notices",
+      "heading_span": {
+        "block_id": "block_000041",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "d4b019dfcff4ce720d9d7f747bfed60239e480c7b58b5da315a33905521cca28"
+      },
+      "kind": "unclassified",
+      "order": 15,
+      "requirement_status": "unspecified",
+      "section_id": "sec_aa5dcf373284c343fc11",
+      "source_span": {
+        "block_id": "block_000041",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 18,
+        "normalized_start": 0,
+        "raw_end": 18,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "d4b019dfcff4ce720d9d7f747bfed60239e480c7b58b5da315a33905521cca28"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_8a3dd5ed0edf13cf2843",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 9: Entire Agreement",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000045",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 27,
+            "normalized_start": 0,
+            "raw_end": 27,
+            "raw_start": 0,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "bcaa3dd038fbae59910d9f28c8213864d097f66346caebc62d6e76dee097e7c3"
+          },
+          "text": "ARTICLE 9: Entire Agreement",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 9: Entire Agreement",
+      "heading_span": {
+        "block_id": "block_000045",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 29,
+        "normalized_start": 0,
+        "raw_end": 29,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "06e75ac8553d8c3bbde396a75ac5dd2fbff67ebd7396aaa0e15fc1ebaa88fa70"
+      },
+      "kind": "unclassified",
+      "order": 16,
+      "requirement_status": "unspecified",
+      "section_id": "sec_e99d74bfe44c0f2be2f8",
+      "source_span": {
+        "block_id": "block_000045",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 27,
+        "normalized_start": 0,
+        "raw_end": 27,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "bcaa3dd038fbae59910d9f28c8213864d097f66346caebc62d6e76dee097e7c3"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_5e8518930d9e74f5b86a",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 10\t: Severability",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000047",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 25,
+            "normalized_start": 0,
+            "raw_end": 25,
+            "raw_start": 0,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "2857bf11c609e22a4953b0ebce6d7f78a6660f8bfd4548f6e2116f951e00cf55"
+          },
+          "text": "ARTICLE 10\t: Severability",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 10\t: Severability",
+      "heading_span": {
+        "block_id": "block_000047",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 25,
+        "normalized_start": 0,
+        "raw_end": 25,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "2857bf11c609e22a4953b0ebce6d7f78a6660f8bfd4548f6e2116f951e00cf55"
+      },
+      "kind": "unclassified",
+      "order": 17,
+      "requirement_status": "unspecified",
+      "section_id": "sec_3e19464ca5cffc12e550",
+      "source_span": {
+        "block_id": "block_000047",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 25,
+        "normalized_start": 0,
+        "raw_end": 25,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "2857bf11c609e22a4953b0ebce6d7f78a6660f8bfd4548f6e2116f951e00cf55"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_de3509eab4c956456f94",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 11: Amendment",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000049",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 21,
+            "normalized_start": 0,
+            "raw_end": 21,
+            "raw_start": 0,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "309056e181633ab6886c64ddc63e17761eeeed1fd2165089666b907757bb128c"
+          },
+          "text": "ARTICLE 11: Amendment",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 11: Amendment",
+      "heading_span": {
+        "block_id": "block_000049",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 22,
+        "normalized_start": 0,
+        "raw_end": 22,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "a80fec8a250814d0f757d4a5470b4c231e654c57f8a8ba8b18aec76aaec0544e"
+      },
+      "kind": "unclassified",
+      "order": 18,
+      "requirement_status": "unspecified",
+      "section_id": "sec_8a564e6bf95fb226080b",
+      "source_span": {
+        "block_id": "block_000049",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 21,
+        "normalized_start": 0,
+        "raw_end": 21,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "309056e181633ab6886c64ddc63e17761eeeed1fd2165089666b907757bb128c"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_01d60b17cf5dd797b757",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 12: Assignment and Subcontracting",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000051",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 41,
+            "normalized_start": 0,
+            "raw_end": 41,
+            "raw_start": 0,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "f8ed718aebd144a45692b2b820cecfcaaf00eda7e2881f28b48e9a85e2305acc"
+          },
+          "text": "ARTICLE 12: Assignment and Subcontracting",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 12: Assignment and Subcontracting",
+      "heading_span": {
+        "block_id": "block_000051",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 41,
+        "normalized_start": 0,
+        "raw_end": 41,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "f8ed718aebd144a45692b2b820cecfcaaf00eda7e2881f28b48e9a85e2305acc"
+      },
+      "kind": "unclassified",
+      "order": 19,
+      "requirement_status": "unspecified",
+      "section_id": "sec_a359b4518d3a89041503",
+      "source_span": {
+        "block_id": "block_000051",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 41,
+        "normalized_start": 0,
+        "raw_end": 41,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "f8ed718aebd144a45692b2b820cecfcaaf00eda7e2881f28b48e9a85e2305acc"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_d0025b227cc61cf2b1e0",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 13:  Independent Contractor",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000053",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 35,
+            "normalized_start": 0,
+            "raw_end": 35,
+            "raw_start": 0,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "34ce75cf32c67f96f06dd57c73865848b755ba2659c8c90e630ddac07c1e148a"
+          },
+          "text": "ARTICLE 13:  Independent Contractor",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 13:  Independent Contractor",
+      "heading_span": {
+        "block_id": "block_000053",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 35,
+        "normalized_start": 0,
+        "raw_end": 35,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "34ce75cf32c67f96f06dd57c73865848b755ba2659c8c90e630ddac07c1e148a"
+      },
+      "kind": "unclassified",
+      "order": 20,
+      "requirement_status": "unspecified",
+      "section_id": "sec_fb85986db90b70e1b23f",
+      "source_span": {
+        "block_id": "block_000053",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 35,
+        "normalized_start": 0,
+        "raw_end": 35,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "34ce75cf32c67f96f06dd57c73865848b755ba2659c8c90e630ddac07c1e148a"
+      }
+    },
+    {
+      "clauses": [
+        {
+          "clause_id": "clause_983caab30274c6849708",
+          "clause_type": "unclassified",
+          "condition": null,
+          "heading": "ARTICLE 14: Governing Law and jurisdiction",
+          "legal_references": [],
+          "order": 1,
+          "requirement_status": "unspecified",
+          "source_span": {
+            "block_id": "block_000055",
+            "extraction_id": "ext_6a2728926f0ad09478d9",
+            "normalized_end": 42,
+            "normalized_start": 0,
+            "raw_end": 42,
+            "raw_start": 0,
+            "source_id": "src_3733793a533fe84487c1",
+            "text_sha256": "eb27b8ba0abca89e006a5452d393140159341bb9994a6c2b2509d2cf5b6c74a6"
+          },
+          "text": "ARTICLE 14: Governing Law and jurisdiction",
+          "variable_ids": []
+        }
+      ],
+      "condition": null,
+      "heading": "ARTICLE 14: Governing Law and jurisdiction",
+      "heading_span": {
+        "block_id": "block_000055",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 42,
+        "normalized_start": 0,
+        "raw_end": 42,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "eb27b8ba0abca89e006a5452d393140159341bb9994a6c2b2509d2cf5b6c74a6"
+      },
+      "kind": "unclassified",
+      "order": 21,
+      "requirement_status": "unspecified",
+      "section_id": "sec_4007d05674b7ca699686",
+      "source_span": {
+        "block_id": "block_000055",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 42,
+        "normalized_start": 0,
+        "raw_end": 42,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "eb27b8ba0abca89e006a5452d393140159341bb9994a6c2b2509d2cf5b6c74a6"
+      }
+    }
+  ],
+  "source_files": [
+    {
+      "extracted_text_sha256": "57201d74c81968b6acb92f9470d03036eba1d85664ce4f6a31146106f6448eae",
+      "extraction_method": "microsoft_word_com_read_only",
+      "extraction_status": "success",
+      "extraction_warnings": [
+        "word_paragraphs_may_include_table_text"
+      ],
+      "media_type": "application/msword",
+      "page_count": 7,
+      "relative_path": "templates/Lebanon/BSU-CONSULTANCY_AGREEMENT.doc",
+      "sha256": "6a77789de48b7fd824cc7ba2a348e4b9ca5917a778c1dd1feaae768edfd9d6bd",
+      "size_bytes": 55296,
+      "source_id": "src_3733793a533fe84487c1"
+    }
+  ],
+  "template_id": "tpl_1b7e5974041cb8e0ceaf",
+  "unparsed_source_content": [
+    {
+      "content_id": "unparsed_57582fb19c3105ac1f27",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000002",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 7,
+        "normalized_start": 0,
+        "raw_end": 7,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "c1ea3f5e7aa473034872296473c7fcf9c79344355ba4fd003120627f6ec1a5f7"
+      },
+      "text": "Between"
+    },
+    {
+      "content_id": "unparsed_d2887e116cd485357d1c",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000003",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 23,
+        "normalized_start": 0,
+        "raw_end": 23,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "12f1f32b3498cc7d267f39a487b9708f129306685d9c059207b1e5b98954b6c4"
+      },
+      "text": "[---------------------]"
+    },
+    {
+      "content_id": "unparsed_6096f529e3f2068e5043",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000004",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 3,
+        "normalized_start": 0,
+        "raw_end": 3,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "0f67514b901da8b9c613167848294cb0010b3c0e696732aa1a0c9737e5be69b1"
+      },
+      "text": "And"
+    },
+    {
+      "content_id": "unparsed_93798059e2de858fca86",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000005",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 25,
+        "normalized_start": 2,
+        "raw_end": 25,
+        "raw_start": 2,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "12f1f32b3498cc7d267f39a487b9708f129306685d9c059207b1e5b98954b6c4"
+      },
+      "text": "[---------------------]"
+    },
+    {
+      "content_id": "unparsed_15b258c52038bb50319b",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000006",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 124,
+        "normalized_start": 0,
+        "raw_end": 124,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "7fc91d48d7d0c20354fee4ec0f37bfdf66d8c8c181556e06ab26bfab3bdc50c9"
+      },
+      "text": "THIS Consultancy services Agreement (the “Agreement”) is entered on [--------- 2017] (the “Effective Date”), by and between:"
+    },
+    {
+      "content_id": "unparsed_46949bde9bddd857d707",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000007",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 309,
+        "normalized_start": 0,
+        "raw_end": 309,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "a101e86c7443b22db1b11fa40222d55307a7032e973ff0214948884f1b463542"
+      },
+      "text": "1- [-----------------------] SAL/SARL, a Company duly registered and validly existing under the laws of Lebanon, having elected domicile for purposes of this Agreement at ----------------- ---------------------------------, and duly represented by its Chairman- General Manager/ Director [Mr. /Mrs. --------]."
+    },
+    {
+      "content_id": "unparsed_d7df334c228443736347",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000008",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 44,
+        "normalized_start": 0,
+        "raw_end": 44,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "dd3f7c8f82b1e260b9f532ff2f0fa5fd1f2941fb2280b318f563996892d64758"
+      },
+      "text": "Hereinafter referred to as the “First Party”"
+    },
+    {
+      "content_id": "unparsed_6c5abbb85041e96b8fde",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000009",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 3,
+        "normalized_start": 0,
+        "raw_end": 3,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "bd972cc4f15d8c175061381ba53c0b85cfb33c09637e55c2cf97721fbd1b3645"
+      },
+      "text": "AND"
+    },
+    {
+      "content_id": "unparsed_0fe6827aab60eba3a90a",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000011",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 65,
+        "normalized_start": 0,
+        "raw_end": 65,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "1be70d21e22ad7d43a43130efbcf4fed3463948e1a75459d1c0be1ab4903a8e4"
+      },
+      "text": "Hereinafter referred to as the “Second Party” or the “Consultant”"
+    },
+    {
+      "content_id": "unparsed_9dbb3e27df6752ddc265",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000012",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 126,
+        "normalized_start": 0,
+        "raw_end": 126,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "bc34731bb7c7faeb27015058d66f73134cfba9916bd6a1aaab8ab85f9c090593"
+      },
+      "text": "(The First Party and the Second Party are hereinafter individually referred to as a “Party” and collectively as the “Parties”)"
+    },
+    {
+      "content_id": "unparsed_ee322eb8b217c0cc24b4",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000014",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 203,
+        "normalized_start": 0,
+        "raw_end": 203,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "6496d7143d0e966a75820f012e359fc1c84438daa067396d11b7763ea520fee7"
+      },
+      "text": "WHEREAS, the First Party wishes to retain the Second Party to provide ----------------------------------------- services for the ------- projects the First Party is currently developing (the “Services”);"
+    },
+    {
+      "content_id": "unparsed_bf3c6a8da82e5173eadd",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000015",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 187,
+        "normalized_start": 0,
+        "raw_end": 187,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "9fcba2ede620173c8775b4d1dbb088368236a73ef64fd813b1cfb86ea8be6bdc"
+      },
+      "text": "WHEREAS, the Second Party has declared that she is a skilled professional and has agreed to provide her Services to the First Party according to the terms and conditions set forth herein."
+    },
+    {
+      "content_id": "unparsed_6a2a8b3542d331864af0",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000016",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 152,
+        "normalized_start": 0,
+        "raw_end": 152,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "2cae8911eb4e2fe9deb0e5fdc0415700185259149c0076d1a397259c90588abd"
+      },
+      "text": "NOW THEREFORE, in consideration of the premises hereof, and the mutual obligations herein, the Parties, intending to be legally bound, agree as follows:"
+    },
+    {
+      "content_id": "unparsed_7e348038062df21f21a6",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000018",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 103,
+        "normalized_start": 0,
+        "raw_end": 103,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "bacf442e976e236a48e81c7b9f6316a53388e0ed1b65f39afee10137c864dd3e"
+      },
+      "text": "The above preamble and all annexes attached hereto shall constitute an integral part of this Agreement."
+    },
+    {
+      "content_id": "unparsed_419d959bf7162a7a18a5",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000024",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 221,
+        "normalized_start": 0,
+        "raw_end": 221,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "5e17533d746d1bc36478e3392fd3f36b87512973caa214ac3b019adeb53a0f6f"
+      },
+      "text": "In consideration of the Services to be rendered by the Consultant under this Agreement, the First Party shall pay the Second Party a monthly fee amounting to USD /________/ (__________United States Dollars)  (the “Fees”)."
+    },
+    {
+      "content_id": "unparsed_77e7a35503e915b414c8",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000026",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 141,
+        "normalized_start": 0,
+        "raw_end": 141,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "ab8cb03fb110afafd66d223d4d690483fa84b97b46e5cd966df1c007e9bc2fac"
+      },
+      "text": "All Fees payable to the Second Party under this Agreement by the First Party shall be made in United States Dollars at the end of each month."
+    },
+    {
+      "content_id": "unparsed_8df8e525f3e54747d051",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000029",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 255,
+        "normalized_start": 0,
+        "raw_end": 255,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "1d5f3852a87f88111b62eb5d1797ce3f1fed971f8521bb28cb0bd41aff355e6a"
+      },
+      "text": "4.2 All expenses and costs of whatsoever nature related to the Services to be provided by the Second Party under the Agreement shall be solely borne by the Second Party and the First Party shall not be held liable in this respect in any manner whatsoever."
+    },
+    {
+      "content_id": "unparsed_2578317b1c95c8da57dc",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000031",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 195,
+        "normalized_start": 0,
+        "raw_end": 195,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "29210541aacd926ecdf99c9a711edb3f50f62d0fe2fa0d9596b0b5916062f1fc"
+      },
+      "text": "The term of this Agreement shall start on the Effective Date, and shall remain in effect for a period of ____ years (the “Term”). Such Term shall be renewable upon mutual prior written agreement."
+    },
+    {
+      "content_id": "unparsed_e3018372995f208b1bb8",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000033",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 609,
+        "normalized_start": 0,
+        "raw_end": 609,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "7fc103c0f2418c412a7efa8dda819c00022885a48965c99444dcbd1b994367bd"
+      },
+      "text": "6.1\t \" Confidential Information\" means all information of whatever nature and by whatever medium supplied by the First Party to the Second Party, whether furnished before or after the date of this Agreement, including but not limited to network of contacts (including lists and data bases pertaining thereto), technical, financial, corporate or commercial data or information, internal business methods and procedures and business plans, notes, analysis, memoranda, reports, files, writings, or the like to the extent that it contains or otherwise reflects information on the business interests of such Party."
+    },
+    {
+      "content_id": "unparsed_fe00aa7b345d7e005b8a",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000034",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 331,
+        "normalized_start": 0,
+        "raw_end": 331,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "7504ca4d36e0271e7a8f987a98e15dae476a5b8f69b436d6d6317d4872b80706"
+      },
+      "text": "Confidential Information shall also mean any information that may come to the knowledge of the Second Party, by whatever medium, relating to the business of the First Party, including but not limited to financial, technical, corporate or commercial data or information, internal business methods and procedures, and business plans."
+    },
+    {
+      "content_id": "unparsed_91f92c9dd6b6416a7688",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000035",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 151,
+        "normalized_start": 0,
+        "raw_end": 151,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "e02ceb364916ac448bd7a976b0eeb9d5c6a69501fb8cfab3197ab562d388fe0c"
+      },
+      "text": "The definition of Confidential Information applies, without regard, to whether any specific matter would be deemed confidential, material or important."
+    },
+    {
+      "content_id": "unparsed_4f393aa30f89824a8fe1",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000036",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 162,
+        "normalized_start": 0,
+        "raw_end": 162,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "d557c675fb859dc0ee77c7a489609b4f7e6d880cd56f01aa86c05e04e5580247"
+      },
+      "text": "The term Confidential Information does not include information which is or becomes known to the public, other than as a result of a disclosure by the First Party."
+    },
+    {
+      "content_id": "unparsed_95cb3dcb19a01c991d18",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000037",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 509,
+        "normalized_start": 0,
+        "raw_end": 509,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "6467f8c97c6d3a2abc49830712518c1ab67bbc3d2c675fb01a152b57339018bd"
+      },
+      "text": "6.2\tThe Second Party agrees to keep confidential all Confidential Information concerning the First Party and shall not disclose any of the Confidential Information in any manner whatsoever, and shall hold and maintain the Confidential Information in strictest confidence. The Second Party hereby agrees to indemnify the First Party against any and all losses, damages, claims, expenses, and attorneys' fees incurred or suffered by the First Party as a result of a breach of this Agreement by the Second Party."
+    },
+    {
+      "content_id": "unparsed_2fe355fb3212cbdef25b",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000040",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 659,
+        "normalized_start": 0,
+        "raw_end": 659,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "dfce19d0953b5cc71422c59065906e30c2f74940d8511097ae5977c5123058fc"
+      },
+      "text": "7.2 \tIn the event the Second Party breaches any of his/her/its obligations and/or duties under this Agreement, or in the event there is any dispute between the Parties, arising from or relating to the Second Party’s proper execution of its obligations and /or duties under this Agreement, the First Party shall have the right to immediately terminate this Agreement at any time without notice or any judicial or extra judicial proceeding and without any compensation or liability on its part whatsoever if the Second Party fails to make good the failure and remedy it within (7) seven days from receiving a written notice from the First Party in this respect."
+    },
+    {
+      "content_id": "unparsed_bf37117753b69df638c0",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000042",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 887,
+        "normalized_start": 0,
+        "raw_end": 887,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "19313ec685919c43bd915db9e150f3e9a96c4e0bfb5a3cf40d7af56f912339f5"
+      },
+      "text": "Any notice or any communication under or in connection with this Agreement shall be in writing, and shall be served upon the other Party hereto by fax, messenger or other hand delivery, or by courier service (such as FedEx or DHL). Notice shall be deemed effective upon delivery as evidenced by the confirmation of delivery provided by the entity or person delivering the notice, request or demand (which in the case of mail is the signed return receipt and in the case of fax is the date and time indicated on the sending machine's fax transmission receipt). In the event that the addressee refuses delivery of the notice, demand or request, the date of refusal shall constitute the effective date of notice. All notices or demands must be given at the following addresses of the Parties or such other addresses as from time to time may be designated by notice given to the other Party:"
+    },
+    {
+      "content_id": "unparsed_b4a89db17671f922f163",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000043",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 22,
+        "normalized_start": 0,
+        "raw_end": 22,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "574c39a5af14181bd1dd67c82e20435bbcab73bdd4a76aa792ef03bdc83cebbb"
+      },
+      "text": "If to the First Party:"
+    },
+    {
+      "content_id": "unparsed_75f834b0b57588aeb1f1",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000044",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 23,
+        "normalized_start": 0,
+        "raw_end": 23,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "1cd25fe3e3b4f587b84fc2b24a1c1a0fb4eb70f40dcb267e7c56f7c6f869a1ef"
+      },
+      "text": "If to the Second Party:"
+    },
+    {
+      "content_id": "unparsed_0469674636df3301021d",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000046",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 255,
+        "normalized_start": 0,
+        "raw_end": 255,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "e6369d146ce36b44f5f320658c1a0f392b65ea808c550dd55fb5358ea76363f1"
+      },
+      "text": "This Agreement contains the entire understanding and agreement between the Parties hereto as to the subject matter hereof and supersedes any previous negotiations, correspondences, offers and agreements between the Parties as to the subject matter hereof."
+    },
+    {
+      "content_id": "unparsed_1db9b40d9bada05eef51",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000048",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 234,
+        "normalized_start": 0,
+        "raw_end": 234,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "f0b634548953f5dc404fa51ed54737118261b5141e157d3345142b68b20e5084"
+      },
+      "text": "The invalidity, illegality or unenforceability of any of the provisions, terms or conditions of the Agreement shall not affect the validity, legality or enforceability of the remaining provisions, terms or conditions of the Agreement."
+    },
+    {
+      "content_id": "unparsed_74a4914b8f60eef77158",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000050",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 70,
+        "normalized_start": 0,
+        "raw_end": 70,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "fb059a864d5938c9c4e5ae660545c897daaea0e08336619613d381a43d69a2cf"
+      },
+      "text": "This Agreement may be amended only by a writing signed by the Parties."
+    },
+    {
+      "content_id": "unparsed_01db3418e93b345017e6",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000052",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 133,
+        "normalized_start": 0,
+        "raw_end": 133,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "37591fd99e3b1bb2923f317cad2d2850e5c882d8fc3239fcda0ba51fbec49df5"
+      },
+      "text": "This Agreement, or any part thereof, or any benefit therein or there under, may not be assigned or subcontracted by the Second Party."
+    },
+    {
+      "content_id": "unparsed_f109aa9f759f5dd5f2ba",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000054",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 296,
+        "normalized_start": 0,
+        "raw_end": 296,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "9e2a57c91900c4340083d2a00d7ac23004812ea4abda819701807cf075f36bc0"
+      },
+      "text": "The relationship between the Second Party and the First Party is that of an independent contractor. Nothing contained herein shall be construed as establishing a general partnership or a relationship of master and servant or of agent and principal or employer and employee as between the Parties."
+    },
+    {
+      "content_id": "unparsed_ad170986564e3be4cd2d",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000056",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 101,
+        "normalized_start": 0,
+        "raw_end": 101,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "7d13914b3a13f20c16bdd0867e58235a6c0fac306e0f36083bcd697d7725405c"
+      },
+      "text": "This Agreement shall be governed by and construed in accordance with the laws of Republic of Lebanon."
+    },
+    {
+      "content_id": "unparsed_dac74afcea05dde0e7d5",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000057",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 162,
+        "normalized_start": 0,
+        "raw_end": 162,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "87330fee5a820ef02d7cda4431fabd35c1db93fc282cf8733c6620751b401511"
+      },
+      "text": "The courts of Beirut shall be solely competent to resolve any dispute between the Parties that may arise out of the interpretation or execution of this Agreement."
+    },
+    {
+      "content_id": "unparsed_73d6f9432281201b7ae5",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000058",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 191,
+        "normalized_start": 0,
+        "raw_end": 191,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "a26fa0dbac071f692470c86823a1e704489a759d81c7b0c9608d3d69f3720093"
+      },
+      "text": "IN WITNESS WHEREOF the Parties have duly executed this Agreement on the day and year first hereinabove written in Beirut, in two originals, each party keeping one copy to use in case of need."
+    },
+    {
+      "content_id": "unparsed_82a0b5623ae544f8ac7f",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000059",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 9,
+        "normalized_start": 0,
+        "raw_end": 9,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "3bb448f9305c1fd0aece26d3f15bcf82cbcb021fe54c43fa83b2303f3531150c"
+      },
+      "text": "Signed by"
+    },
+    {
+      "content_id": "unparsed_d54cca2f4c7193ba30ba",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000060",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 44,
+        "normalized_start": 0,
+        "raw_end": 44,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "682e3cb2cd992fc01660ec39fcd67fd75664b58e90a58181c5549e173a5c66d7"
+      },
+      "text": "_____________________\t\t\t\t\t__________________"
+    },
+    {
+      "content_id": "unparsed_62b0380eae25cbc491d2",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000061",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 7,
+        "normalized_start": 0,
+        "raw_end": 7,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "be383533a3632c03b723113fcb03fae75bd23fc8d294ca265c0140b3aadfae99"
+      },
+      "text": "Annex 1"
+    },
+    {
+      "content_id": "unparsed_546296b7560d90a6469a",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000062",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 12,
+        "normalized_start": 0,
+        "raw_end": 12,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "54fee2d41b68f46160c5a3172ea7d6db003801036254e5efbb90ac9879a29a59"
+      },
+      "text": "The Services"
+    },
+    {
+      "content_id": "unparsed_2bab2a98eec8292d4a36",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000063",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 14,
+        "normalized_start": 0,
+        "raw_end": 14,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "36ab1390fdbfb8863e7aa52281f1d1d17b22d82bc8558032364cfc7e83e0020f"
+      },
+      "text": "Scope of work:"
+    },
+    {
+      "content_id": "unparsed_cf2943d348fc6867bec6",
+      "reason": "no_deterministic_heading_boundary",
+      "source_span": {
+        "block_id": "block_000064",
+        "extraction_id": "ext_6a2728926f0ad09478d9",
+        "normalized_end": 21,
+        "normalized_start": 0,
+        "raw_end": 21,
+        "raw_start": 0,
+        "source_id": "src_3733793a533fe84487c1",
+        "text_sha256": "ba33387c40a44e55688729645d8d4d48d871cb07cc834a6cb1064349d491f847"
+      },
+      "text": "Consultancy Agreement"
+    }
+  ],
+  "variables": [
+    {
+      "allowed_choices": [],
+      "canonical_token": "[SOURCE_FIELD_001]",
+      "occurrences": [
+        {
+          "block_id": "block_000003",
+          "extraction_id": "ext_6a2728926f0ad09478d9",
+          "normalized_end": 23,
+          "normalized_start": 0,
+          "raw_end": 23,
+          "raw_start": 0,
+          "source_id": "src_3733793a533fe84487c1",
+          "text_sha256": "12f1f32b3498cc7d267f39a487b9708f129306685d9c059207b1e5b98954b6c4"
+        },
+        {
+          "block_id": "block_000005",
+          "extraction_id": "ext_6a2728926f0ad09478d9",
+          "normalized_end": 25,
+          "normalized_start": 2,
+          "raw_end": 25,
+          "raw_start": 2,
+          "source_id": "src_3733793a533fe84487c1",
+          "text_sha256": "12f1f32b3498cc7d267f39a487b9708f129306685d9c059207b1e5b98954b6c4"
+        }
+      ],
+      "original_tokens": [
+        "[---------------------]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "source_field_001"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[FIELD_2017]",
+      "occurrences": [
+        {
+          "block_id": "block_000006",
+          "extraction_id": "ext_6a2728926f0ad09478d9",
+          "normalized_end": 84,
+          "normalized_start": 68,
+          "raw_end": 84,
+          "raw_start": 68,
+          "source_id": "src_3733793a533fe84487c1",
+          "text_sha256": "7318b87e37e4d9901b6f4c2997b603d0500e149abd96b868b6446e98e599af20"
+        }
+      ],
+      "original_tokens": [
+        "[--------- 2017]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "field_2017"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[SOURCE_FIELD_001_2]",
+      "occurrences": [
+        {
+          "block_id": "block_000007",
+          "extraction_id": "ext_6a2728926f0ad09478d9",
+          "normalized_end": 28,
+          "normalized_start": 3,
+          "raw_end": 28,
+          "raw_start": 3,
+          "source_id": "src_3733793a533fe84487c1",
+          "text_sha256": "c8de565d916ff628efccb7b166a5395ff752ee79032f54bc84a714ea8fbf8370"
+        }
+      ],
+      "original_tokens": [
+        "[-----------------------]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "source_field_001_2"
+    },
+    {
+      "allowed_choices": [],
+      "canonical_token": "[MR_MRS]",
+      "occurrences": [
+        {
+          "block_id": "block_000007",
+          "extraction_id": "ext_6a2728926f0ad09478d9",
+          "normalized_end": 308,
+          "normalized_start": 288,
+          "raw_end": 308,
+          "raw_start": 288,
+          "source_id": "src_3733793a533fe84487c1",
+          "text_sha256": "abfee27293c8111e69560e52a3aae7558b02e33429ddbfcc78762ce404077485"
+        }
+      ],
+      "original_tokens": [
+        "[Mr. /Mrs. --------]"
+      ],
+      "party_id": null,
+      "requirement_status": "unspecified",
+      "value_type": "unknown",
+      "variable_id": "mr_mrs"
+    }
+  ],
+  "versions": {
+    "model": null,
+    "normalizer": "1.0.0",
+    "pipeline": "1.0.0",
+    "prompt": null,
+    "schema": "contract-template-v1",
+    "taxonomy": "1.0.0"
+  }
+}

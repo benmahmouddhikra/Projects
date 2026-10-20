@@ -1,0 +1,79 @@
+{
+  "artifact_key": "src_b8d4cd2d7c4640dfc5a9",
+  "artifact_paths": {
+    "canonical": "artifacts/pilot/src_b8d4cd2d7c4640dfc5a9/canonical.json",
+    "extraction": "artifacts/pilot/src_b8d4cd2d7c4640dfc5a9/extraction.json",
+    "review": "artifacts/review-queue/review_c6cb260c41ebd61f7573.json",
+    "validation": "artifacts/pilot/src_b8d4cd2d7c4640dfc5a9/validation.json"
+  },
+  "created_at": "2026-08-12T14:00:38.388509Z",
+  "decisions": {
+    "classification": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "extraction": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "legal": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "privacy": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "sanitization": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    },
+    "structure": {
+      "decided_at": null,
+      "notes": "",
+      "reviewer": null,
+      "status": "pending"
+    }
+  },
+  "final_disposition": "pending",
+  "initial_classification": "completed_contract",
+  "required_reviews": [
+    "classification",
+    "extraction",
+    "legal",
+    "privacy",
+    "sanitization",
+    "structure"
+  ],
+  "review_coverage": "full",
+  "review_record_id": "review_c6cb260c41ebd61f7573",
+  "reviewer": null,
+  "revision": 0,
+  "revision_history": [],
+  "schema_version": "review-workspace-record-v1",
+  "sources": [
+    {
+      "relative_path": "templates/Palestine/عقد إيجار.pdf",
+      "sha256": "1a051548997800b870355f4f9af2c300eff97841dd64bb2cd300d9009fe23204",
+      "source_id": "src_b8d4cd2d7c4640dfc5a9"
+    }
+  ],
+  "template_id": "tpl_bd14b1fca1167393674b",
+  "training_eligibility": "review_required",
+  "updated_at": "2026-08-12T14:00:38.388509Z",
+  "validation": {
+    "checked_at": "2026-08-12T14:00:38.388509Z",
+    "errors": [],
+    "valid": true
+  }
+}
